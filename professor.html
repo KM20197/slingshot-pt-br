@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Slingshot Brasil — Conferência de resultados</title>
+<style>body{font:17px/1.6 system-ui;background:#edf3ef;color:#18352c;margin:0}main{max-width:780px;margin:40px auto;padding:28px;background:white;border-radius:18px}h1{font-size:28px}label{display:block;margin-top:18px}input,textarea,button{font:inherit;padding:10px;box-sizing:border-box}textarea,input{width:100%;border:1px solid #7f978e;border-radius:7px}button{margin-top:14px;background:#185c46;color:white;border:0;border-radius:7px}pre{white-space:pre-wrap;overflow-wrap:anywhere}small{display:block;margin-top:20px}a{color:#185c46}</style>
+</head><body><main><h1>Conferência de resultados</h1><p>Cole o código entregue pelo estudante. A leitura, a verificação da assinatura e o recálculo da nota ocorrem neste computador, sem envio de dados.</p>
+<form id="verify-form"><label for="class-key">Chave da turma</label><input id="class-key" type="password" required autocomplete="off">
+<label for="result-code">Código do resultado</label><textarea id="result-code" rows="7" required></textarea><button>Conferir resultado</button><button type="button" id="clear">Limpar dados</button></form>
+<pre id="result" role="status"></pre><small>A assinatura HMAC indica compatibilidade com a chave da turma. Como essa chave é compartilhada e o jogo funciona no computador do aluno, ela não garante autoria nem impede a fabricação de resultados. O código não é criptografado.</small>
+<small>Original: Ammon Salter, Stefano Baruffaldi e Federico Bignone. Adaptação acadêmica brasileira. CC BY-NC-SA 4.0.</small></main>
+<script src="academic.js"></script><script src="result-code.js"></script><script>
+'use strict';
+const seen=new Set();
+let revision=0;
+const out=document.getElementById('result');
+document.getElementById('clear').onclick=()=>{revision++;document.getElementById('verify-form').reset();out.textContent='Dados removidos da tela.';};
+document.getElementById('verify-form').onsubmit=async event=>{
+ event.preventDefault();out.textContent='Conferindo…';
+ const keyInput=document.getElementById('class-key');
+ const current=++revision;
+ try {
+  const code=document.getElementById('result-code').value.trim();
+  const {data,result}=await SlingshotResult.verify(code,keyInput.value);
+  if(current!==revision)return;
+  const repeated=seen.has(data.nonce);seen.add(data.nonce);
+  const f=n=>n.toLocaleString('pt-BR',{minimumFractionDigits:2,maximumFractionDigits:2});
+  out.textContent=`Assinatura compatível com a chave. Nota recalculada: ${f(result.grade)}/5\nIdentificação: ${data.identificacao}\nEmpreendimento: ${data.empresa}\nModo: ${data.modo}\nMarcos: ${f(result.components.development)}/3\nContinuidade: ${f(result.components.continuity)}/1\nCapacidade financeira: ${f(result.components.financial)}/1\nTrimestres concluídos: ${result.inputs.completedQuarters}\nData registrada: ${data.data}`+(repeated?'\nAtenção: este código de partida já foi conferido nesta sessão.':'');
+ }catch(error){if(current===revision)out.textContent='Não validado: '+error.message;}
+ finally {if(current===revision)keyInput.value='';}
+};
+</script></body></html>

@@ -1,0 +1,858 @@
+{
+  "REGIONS": {
+    "classification": "Tradução do contexto britânico preservado; nomes institucionais, siglas, moeda, bancos de nomes e identificadores mantidos.",
+    "strings": {
+      "[\"uk\",\"name\"]": {
+        "source": "United Kingdom",
+        "target": "Reino Unido"
+      },
+      "[\"uk\",\"cities\",\"primary\"]": {
+        "source": "London",
+        "target": "Londres"
+      },
+      "[\"uk\",\"cities\",\"financial\"]": {
+        "source": "London",
+        "target": "Londres"
+      },
+      "[\"uk\",\"cities\",\"scottish\"]": {
+        "source": "Edinburgh",
+        "target": "Edimburgo"
+      },
+      "[\"uk\",\"stockIndexDesc\"]": {
+        "source": "Britain's largest public corporations",
+        "target": "Maiores empresas britânicas de capital aberto"
+      },
+      "[\"uk\",\"immigration\",\"workVisa\"]": {
+        "source": "Skilled Worker visa",
+        "target": "visto Skilled Worker (trabalhador qualificado)"
+      },
+      "[\"uk\",\"immigration\",\"sponsorLicense\"]": {
+        "source": "sponsor licence",
+        "target": "licença para patrocinar vistos de trabalho"
+      },
+      "[\"uk\",\"immigration\",\"rightToWork\"]": {
+        "source": "right to work",
+        "target": "direito de trabalhar"
+      },
+      "[\"uk\",\"immigration\",\"settledStatus\"]": {
+        "source": "settled status",
+        "target": "status de residência permanente (settled status)"
+      },
+      "[\"uk\",\"immigration\",\"immigrationAuth\"]": {
+        "source": "Immigration Authority",
+        "target": "autoridade de imigração"
+      },
+      "[\"uk\",\"immigration\",\"visaRenewal\"]": {
+        "source": "visa renewal",
+        "target": "renovação de visto"
+      },
+      "[\"uk\",\"culture\",\"bacheloretteParty\"]": {
+        "source": "hen do",
+        "target": "despedida de solteira"
+      },
+      "[\"uk\",\"culture\",\"bachelorParty\"]": {
+        "source": "stag do",
+        "target": "despedida de solteiro"
+      },
+      "[\"uk\",\"culture\",\"trainOperator\"]": {
+        "source": "train",
+        "target": "trem"
+      },
+      "[\"uk\",\"culture\",\"partyDestination\"]": {
+        "source": "Prague",
+        "target": "Praga"
+      },
+      "[\"uk\",\"centralBank\"]": {
+        "source": "Bank of England",
+        "target": "Banco da Inglaterra"
+      },
+      "[\"uk\",\"titles\",\"financeMinister\"]": {
+        "source": "Chancellor",
+        "target": "chanceler do Tesouro"
+      },
+      "[\"uk\",\"titles\",\"leader\"]": {
+        "source": "Prime Minister",
+        "target": "primeiro-ministro"
+      }
+    }
+  },
+  "GEOGRAPHY_REGIONS": {
+    "classification": "Identificadores geográficos usados para cruzar dados; mantidos integralmente.",
+    "strings": {}
+  },
+  "PORTRAITS": {
+    "classification": "Recursos gráficos SVG; mantidos integralmente.",
+    "strings": {}
+  },
+  "LOGOS": {
+    "classification": "Recursos gráficos SVG e identificadores; mantidos integralmente.",
+    "strings": {}
+  },
+  "HALL_OF_FAME_LEGENDS": {
+    "classification": "Biografias traduzidas; nomes, empresas, ícones e valores históricos preservados.",
+    "strings": {
+      "[0,\"bio\"]": {
+        "source": "British AI pioneer, acquired by tech giant for £400M",
+        "target": "Pioneira britânica em IA, adquirida por gigante da tecnologia por £400M"
+      },
+      "[1,\"bio\"]": {
+        "source": "CortexAI co-founder, now leading enterprise AI",
+        "target": "Cofundadora da CortexAI, hoje à frente de IA empresarial"
+      },
+      "[2,\"bio\"]": {
+        "source": "Revolutionising British banking",
+        "target": "Transformando o setor bancário britânico"
+      },
+      "[3,\"bio\"]": {
+        "source": "Former Allied Irish Banks exec turned fintech founder",
+        "target": "Ex-executiva do Allied Irish Banks que fundou uma fintech"
+      },
+      "[4,\"bio\"]": {
+        "source": "Cambridge-born AI cybersecurity unicorn",
+        "target": "Unicórnio de cibersegurança com IA nascido em Cambridge"
+      },
+      "[5,\"bio\"]": {
+        "source": "Britain's first software billionaire",
+        "target": "Primeiro bilionário britânico do setor de software"
+      },
+      "[6,\"bio\"]": {
+        "source": "Godfather of British tech, ARM co-founder",
+        "target": "Referência da tecnologia britânica e cofundador da ARM"
+      },
+      "[7,\"bio\"]": {
+        "source": "Dot-com pioneer and digital champion",
+        "target": "Pioneira da internet e defensora da inclusão digital"
+      },
+      "[8,\"bio\"]": {
+        "source": "London-based AI video generation",
+        "target": "Geração de vídeos com IA sediada em Londres"
+      },
+      "[9,\"bio\"]": {
+        "source": "Estonian-British fintech transforming transfers",
+        "target": "Fintech estoniano-britânica que transforma as transferências de dinheiro"
+      },
+      "[10,\"bio\"]": {
+        "source": "London AI consultancy advising government",
+        "target": "Consultoria de IA de Londres que assessora o governo"
+      },
+      "[11,\"bio\"]": {
+        "source": "Leading the generative AI revolution",
+        "target": "À frente da revolução da IA generativa"
+      },
+      "[12,\"bio\"]": {
+        "source": "The godfather of GPU computing",
+        "target": "Referência da computação com GPUs"
+      },
+      "[13,\"bio\"]": {
+        "source": "Serial founder across industries",
+        "target": "Fundador de várias empresas em diferentes setores"
+      },
+      "[14,\"bio\"]": {
+        "source": "Social media empire builder",
+        "target": "Criador de um império de redes sociais"
+      },
+      "[15,\"bio\"]": {
+        "source": "Brothers revolutionising payments",
+        "target": "Irmãos que transformam os meios de pagamento"
+      },
+      "[16,\"bio\"]": {
+        "source": "Swedish entrepreneur who changed music",
+        "target": "Empreendedor sueco que mudou a música"
+      },
+      "[17,\"bio\"]": {
+        "source": "Designer who reimagined hospitality",
+        "target": "Designer que reinventou a hospitalidade"
+      },
+      "[18,\"bio\"]": {
+        "source": "Building safe, beneficial AI",
+        "target": "Desenvolvendo IA segura e benéfica"
+      },
+      "[19,\"bio\"]": {
+        "source": "Youngest self-made billionaire in AI",
+        "target": "O mais jovem bilionário da IA a construir a própria fortuna"
+      }
+    }
+  },
+  "COMPANIES": {
+    "classification": "Descrições originais traduzidas; adaptação setorial brasileira ainda pendente. Archetype e demais categorias são identificadores do motor e permanecem inalterados.",
+    "strings": {
+      "[0,\"desc\"]": {
+        "source": "AI-driven protein design for healthcare applications. Deep science, high stakes.",
+        "target": "Projeto de proteínas com IA para aplicações na saúde. Ciência avançada e decisões de alto risco."
+      },
+      "[1,\"desc\"]": {
+        "source": "Autonomous robots for UK warehouses. Hardware meets software.",
+        "target": "Robôs autônomos para armazéns do Reino Unido. Hardware e software trabalhando juntos."
+      },
+      "[2,\"desc\"]": {
+        "source": "AI trading systems for the City. Fast money, faster competition.",
+        "target": "Sistemas de negociação financeira com IA para a City de Londres. Dinheiro rápido, concorrência ainda mais rápida."
+      },
+      "[3,\"desc\"]": {
+        "source": "Generative AI for creators. Consumer-facing, culture-shaping.",
+        "target": "IA generativa para criadores. Voltada ao consumidor, com influência na cultura."
+      },
+      "[4,\"desc\"]": {
+        "source": "AI-powered threat detection for UK critical infrastructure. High security, high stakes.",
+        "target": "Detecção de ameaças com IA para a infraestrutura crítica do Reino Unido. Segurança elevada e decisões de alto risco."
+      },
+      "[5,\"desc\"]": {
+        "source": "Climate prediction and sustainability AI. Save the planet, build a business.",
+        "target": "IA para previsão climática e sustentabilidade. Proteja o planeta e construa um negócio."
+      },
+      "[6,\"desc\"]": {
+        "source": "Contract analysis and legal research automation. Disrupting the Magic Circle.",
+        "target": "Automação da análise de contratos e da pesquisa jurídica. Transformando o mercado dos grandes escritórios do Magic Circle."
+      },
+      "[7,\"desc\"]": {
+        "source": "Personalised learning that adapts to every student. EdTech meets AI.",
+        "target": "Aprendizagem personalizada que se adapta a cada estudante. Tecnologia educacional encontra a IA."
+      },
+      "[8,\"desc\"]": {
+        "source": "Food and drink, from kitchen to bin. Consumer trust is the whole business.",
+        "target": "Alimentos e bebidas, da cozinha ao descarte. A confiança do consumidor sustenta o negócio."
+      },
+      "[9,\"desc\"]": {
+        "source": "Data for anything with a fixture list. Clubs, studios and broadcasters as customers.",
+        "target": "Dados para atividades com calendário de competições. Clubes, estúdios e emissoras são os clientes."
+      },
+      "[10,\"desc\"]": {
+        "source": "Sleep, stress, movement and the ordinary business of getting through the week.",
+        "target": "Sono, estresse, movimento e os desafios cotidianos de atravessar a semana."
+      },
+      "[11,\"desc\"]": {
+        "source": "Small models that run where there's no connection. Sold to the engineers who build with them.",
+        "target": "Modelos pequenos que funcionam sem conexão. Vendidos aos engenheiros que criam soluções com eles."
+      }
+    }
+  },
+  "VENTURE_DETAILS": {
+    "classification": "Tradução integral do bloco original britânico, preservando referências e valores. Adaptação aos empreendimentos brasileiros ainda pendente; não apresentar esses dados como estatísticas atuais do Brasil.",
+    "strings": {
+      "[\"aether\",\"product\"]": {
+        "source": "You're building AI software that analyses medical scans—X-rays, MRIs, CT scans—to help doctors spot diseases earlier. The AI flags potential problems for radiologists to review, speeding up diagnosis and catching things that might be missed when doctors are rushed.",
+        "target": "Você desenvolve um software de IA que analisa exames de imagem — raios X, ressonâncias magnéticas e tomografias — para ajudar médicos a detectar doenças mais cedo. A IA sinaliza possíveis problemas para revisão por radiologistas, agilizando o diagnóstico e identificando detalhes que podem passar despercebidos quando os médicos estão sobrecarregados."
+      },
+      "[\"aether\",\"customers\"]": {
+        "source": "NHS hospital trusts are your main buyers. They're under pressure: long waiting lists, staff shortages, and growing demand. Some private hospital groups may also be interested. The people signing contracts are typically chief clinical officers or trust IT directors.",
+        "target": "As organizações hospitalares do NHS são os principais compradores. Elas enfrentam longas listas de espera, falta de pessoal e demanda crescente. Alguns grupos hospitalares privados também podem se interessar. Os contratos costumam ser assinados por diretores clínicos ou de tecnologia da informação dessas organizações."
+      },
+      "[\"aether\",\"revenue\"]": {
+        "source": "Annual software licences sold to each hospital trust. Pricing is typically per-scan or per-bed. Implementation fees for setup and integration with hospital systems. Expect 6-12 months from first meeting to signed contract.",
+        "target": "Licenças anuais de software vendidas a cada organização hospitalar. O preço costuma ser definido por exame ou por leito. Há taxas de implantação e integração com os sistemas do hospital. Espere de 6 a 12 meses entre a primeira reunião e a assinatura do contrato."
+      },
+      "[\"aether\",\"whyWork\",0]": {
+        "source": "NHS waiting lists are at record highs",
+        "target": "As listas de espera do NHS estão em níveis recordes"
+      },
+      "[\"aether\",\"whyWork\",1]": {
+        "source": "Real shortage of radiologists in UK",
+        "target": "Há escassez de radiologistas no Reino Unido"
+      },
+      "[\"aether\",\"whyWork\",2]": {
+        "source": "Government is pushing AI adoption",
+        "target": "O governo incentiva a adoção de IA"
+      },
+      "[\"aether\",\"whyWork\",3]": {
+        "source": "Hospitals are actively looking for solutions",
+        "target": "Os hospitais procuram soluções ativamente"
+      },
+      "[\"aether\",\"whyHard\",0]": {
+        "source": "NHS procurement is slow and complex",
+        "target": "As compras do NHS são lentas e complexas"
+      },
+      "[\"aether\",\"whyHard\",1]": {
+        "source": "Need clinical trials to prove it works",
+        "target": "São necessários estudos clínicos para comprovar a eficácia"
+      },
+      "[\"aether\",\"whyHard\",2]": {
+        "source": "Medical device regulations take time",
+        "target": "A regulamentação de dispositivos médicos exige tempo"
+      },
+      "[\"aether\",\"whyHard\",3]": {
+        "source": "Getting access to training data is difficult",
+        "target": "É difícil obter dados para treinar os modelos"
+      },
+      "[\"aether\",\"whyHard\",4]": {
+        "source": "Doctors can be sceptical of AI",
+        "target": "Médicos podem ser céticos em relação à IA"
+      },
+      "[\"aether\",\"competition\"]": {
+        "source": "Several well-funded companies are working on similar products, some backed by pharmaceutical firms. A few have already won NHS contracts. You're not first, so you'll need to be better or find an underserved niche.",
+        "target": "Várias empresas bem financiadas desenvolvem produtos semelhantes, algumas com apoio de empresas farmacêuticas. Algumas já conquistaram contratos com o NHS. Você não chegou primeiro: precisará oferecer algo melhor ou encontrar um nicho pouco atendido."
+      },
+      "[\"vanguard\",\"product\"]": {
+        "source": "You're building autonomous mobile robots that move goods around warehouses. They navigate using cameras and sensors, pick up shelves or packages, and bring them to human workers for packing. The software coordinates multiple robots working together.",
+        "target": "Você desenvolve robôs móveis autônomos que transportam mercadorias em armazéns. Eles se orientam por câmeras e sensores, recolhem prateleiras ou pacotes e os levam aos trabalhadores responsáveis pela embalagem. O software coordena vários robôs trabalhando juntos."
+      },
+      "[\"vanguard\",\"customers\"]": {
+        "source": "Large e-commerce warehouses, third-party logistics companies (3PLs), and grocery distribution centres. Buyers are operations directors looking to handle more volume without hiring proportionally more staff. Ocado, Amazon, and supermarket chains are the big players in UK logistics.",
+        "target": "Grandes armazéns de comércio eletrônico, operadores logísticos terceirizados (3PLs) e centros de distribuição de alimentos. Os compradores são diretores de operações que buscam processar mais volume sem ampliar o quadro de pessoal na mesma proporção. Ocado, Amazon e redes de supermercados estão entre os grandes participantes da logística britânica."
+      },
+      "[\"vanguard\",\"revenue\"]": {
+        "source": "Robots can be sold outright (£30-50k each) or leased monthly. Most customers prefer Robot-as-a-Service models where they pay per robot per month, including maintenance. Software updates and support are ongoing revenue.",
+        "target": "Os robôs podem ser vendidos por £30-50 mil cada ou alugados mensalmente. A maioria dos clientes prefere o modelo de robótica como serviço, com pagamento mensal por robô, incluindo manutenção. Atualizações de software e suporte geram receita recorrente."
+      },
+      "[\"vanguard\",\"whyWork\",0]": {
+        "source": "Warehouse wages keep rising",
+        "target": "Os salários nos armazéns continuam subindo"
+      },
+      "[\"vanguard\",\"whyWork\",1]": {
+        "source": "Hard to hire enough workers",
+        "target": "É difícil contratar trabalhadores em número suficiente"
+      },
+      "[\"vanguard\",\"whyWork\",2]": {
+        "source": "E-commerce volumes still growing",
+        "target": "O volume do comércio eletrônico continua crescendo"
+      },
+      "[\"vanguard\",\"whyWork\",3]": {
+        "source": "Robots work nights and weekends",
+        "target": "Robôs trabalham à noite e nos fins de semana"
+      },
+      "[\"vanguard\",\"whyHard\",0]": {
+        "source": "Hardware is expensive to build",
+        "target": "Desenvolver hardware custa caro"
+      },
+      "[\"vanguard\",\"whyHard\",1]": {
+        "source": "Robots break down and need fixing",
+        "target": "Robôs apresentam defeitos e precisam de reparos"
+      },
+      "[\"vanguard\",\"whyHard\",2]": {
+        "source": "Each warehouse layout is different",
+        "target": "Cada armazém tem uma disposição física diferente"
+      },
+      "[\"vanguard\",\"whyHard\",3]": {
+        "source": "Long pilot periods before full orders",
+        "target": "Os testes-piloto são longos antes de pedidos maiores"
+      },
+      "[\"vanguard\",\"whyHard\",4]": {
+        "source": "Supply chain issues for components",
+        "target": "Há dificuldades no fornecimento de componentes"
+      },
+      "[\"vanguard\",\"competition\"]": {
+        "source": "Major US robotics companies have big head starts and deep pockets. Some UK warehouses already use competitor robots. You'll likely compete on price, service, or by targeting warehouse types the big players ignore.",
+        "target": "Grandes empresas de robótica dos EUA têm ampla vantagem de tempo e recursos financeiros. Alguns armazéns britânicos já usam robôs concorrentes. Você provavelmente competirá por preço, atendimento ou foco em tipos de armazém que as grandes empresas deixam de lado."
+      },
+      "[\"quant\",\"product\"]": {
+        "source": "You're building AI systems that trade financial markets automatically. The software analyses market data, finds patterns, and executes trades without human intervention. It aims to generate consistent returns while managing risk.",
+        "target": "Você desenvolve sistemas de IA que negociam automaticamente nos mercados financeiros. O software analisa dados de mercado, identifica padrões e executa operações sem intervenção humana. O objetivo é obter retornos consistentes e controlar o risco."
+      },
+      "[\"quant\",\"customers\"]": {
+        "source": "Hedge funds, pension funds, family offices, and wealth managers. They allocate money to different strategies and are always looking for returns that don't move in lockstep with the stock market. You'll pitch to investment committees who want to see a track record.",
+        "target": "Fundos de investimento alternativos, fundos de pensão, escritórios de gestão de patrimônio familiar e gestores de patrimônio. Eles distribuem recursos entre estratégias e procuram retornos que não acompanhem exatamente o mercado de ações. Você apresentará propostas a comitês de investimento que exigem um histórico de resultados."
+      },
+      "[\"quant\",\"revenue\"]": {
+        "source": "Management fees (1-2% of assets annually) plus performance fees (15-20% of profits). You need to raise assets under management to generate meaningful revenue. Some firms also license their technology to other traders.",
+        "target": "Taxas de administração de 1-2% dos ativos ao ano e taxas de desempenho de 15-20% dos lucros. É necessário captar ativos sob gestão para gerar receita expressiva. Algumas empresas também licenciam sua tecnologia para outros operadores."
+      },
+      "[\"quant\",\"whyWork\",0]": {
+        "source": "Investors want AI-driven strategies",
+        "target": "Investidores procuram estratégias baseadas em IA"
+      },
+      "[\"quant\",\"whyWork\",1]": {
+        "source": "London has deep finance talent pool",
+        "target": "Londres concentra profissionais experientes em finanças"
+      },
+      "[\"quant\",\"whyWork\",2]": {
+        "source": "Clear regulatory framework (FCA)",
+        "target": "Há um marco regulatório definido pela FCA"
+      },
+      "[\"quant\",\"whyWork\",3]": {
+        "source": "Pension funds increasing alternatives allocation",
+        "target": "Fundos de pensão ampliam a alocação em investimentos alternativos"
+      },
+      "[\"quant\",\"whyHard\",0]": {
+        "source": "No track record when you start",
+        "target": "No início, você não tem histórico de resultados"
+      },
+      "[\"quant\",\"whyHard\",1]": {
+        "source": "Need 2-3 years of results to raise serious money",
+        "target": "São necessários 2-3 anos de resultados para captar valores expressivos"
+      },
+      "[\"quant\",\"whyHard\",2]": {
+        "source": "One bad quarter and investors leave",
+        "target": "Um trimestre ruim pode afastar investidores"
+      },
+      "[\"quant\",\"whyHard\",3]": {
+        "source": "Established quant funds have decades of data",
+        "target": "Fundos quantitativos estabelecidos têm décadas de dados"
+      },
+      "[\"quant\",\"whyHard\",4]": {
+        "source": "Infrastructure costs are high",
+        "target": "Os custos de infraestrutura são elevados"
+      },
+      "[\"quant\",\"competition\"]": {
+        "source": "You're competing against firms that have been doing this for 20+ years with hundreds of PhDs. Some manage billions. Your edge will need to be a genuinely novel approach or a niche they're not covering.",
+        "target": "Você compete com empresas que atuam há mais de 20 anos e empregam centenas de profissionais com doutorado. Algumas administram bilhões. Sua vantagem precisará ser uma abordagem nova ou um nicho que elas ainda não atendem."
+      },
+      "[\"dream\",\"product\"]": {
+        "source": "You're building generative AI tools that help people create images, videos, music, or other creative content. Users describe what they want, and the AI generates it. Think tools for YouTubers, social media creators, designers, and hobbyists.",
+        "target": "Você desenvolve ferramentas de IA generativa que ajudam as pessoas a criar imagens, vídeos, música e outros conteúdos criativos. O usuário descreve o que deseja e a IA produz o conteúdo. Pense em ferramentas para criadores do YouTube e de redes sociais, designers e pessoas que criam por lazer."
+      },
+      "[\"dream\",\"customers\"]": {
+        "source": "Individual creators are your main market—millions of people making content for social media, YouTube, podcasts, and personal projects. Some businesses and agencies may also use your tools. Customers find you through app stores, social media, and word of mouth.",
+        "target": "Criadores individuais são o principal mercado: milhões de pessoas produzem conteúdo para redes sociais, YouTube, podcasts e projetos pessoais. Empresas e agências também podem usar as ferramentas. Os clientes chegam por lojas de aplicativos, redes sociais e recomendações."
+      },
+      "[\"dream\",\"revenue\"]": {
+        "source": "Freemium subscriptions: basic features free, premium features for £10-20/month. Revenue depends on getting lots of users and converting a percentage to paid. Some revenue possible from business/enterprise plans.",
+        "target": "Assinaturas com recursos básicos gratuitos e recursos avançados por £10-20 por mês. A receita depende de atrair muitos usuários e converter uma parcela deles em assinantes. Planos empresariais também podem gerar receita."
+      },
+      "[\"dream\",\"whyWork\",0]": {
+        "source": "Huge creator economy (millions of people)",
+        "target": "A economia dos criadores reúne milhões de pessoas"
+      },
+      "[\"dream\",\"whyWork\",1]": {
+        "source": "AI makes professional quality accessible",
+        "target": "A IA torna a qualidade profissional mais acessível"
+      },
+      "[\"dream\",\"whyWork\",2]": {
+        "source": "Viral potential through social sharing",
+        "target": "O compartilhamento em redes sociais pode ampliar a divulgação rapidamente"
+      },
+      "[\"dream\",\"whyWork\",3]": {
+        "source": "People will pay for tools that save time",
+        "target": "As pessoas pagam por ferramentas que economizam tempo"
+      },
+      "[\"dream\",\"whyHard\",0]": {
+        "source": "Very crowded market already",
+        "target": "O mercado já está muito disputado"
+      },
+      "[\"dream\",\"whyHard\",1]": {
+        "source": "Big Tech could copy your features fast",
+        "target": "Grandes empresas de tecnologia podem copiar seus recursos rapidamente"
+      },
+      "[\"dream\",\"whyHard\",2]": {
+        "source": "Copyright questions still unresolved",
+        "target": "Questões de direitos autorais continuam sem solução"
+      },
+      "[\"dream\",\"whyHard\",3]": {
+        "source": "Expensive to acquire customers",
+        "target": "Conquistar clientes custa caro"
+      },
+      "[\"dream\",\"whyHard\",4]": {
+        "source": "Users switch tools easily",
+        "target": "Os usuários trocam de ferramenta com facilidade"
+      },
+      "[\"dream\",\"competition\"]": {
+        "source": "Dozens of well-funded startups and Big Tech companies are building similar tools. New competitors launch weekly. Some have raised hundreds of millions. You'll need something distinctive to stand out.",
+        "target": "Dezenas de startups bem financiadas e grandes empresas de tecnologia desenvolvem ferramentas semelhantes. Novos concorrentes surgem toda semana. Alguns captaram centenas de milhões. Você precisará de um diferencial claro para se destacar."
+      },
+      "[\"cyber\",\"product\"]": {
+        "source": "You're building AI software that detects cyber attacks on important systems—power grids, water treatment, transport networks, financial services. It monitors network traffic and system behaviour, spotting unusual activity that might indicate an attack.",
+        "target": "Você desenvolve software de IA para detectar ataques cibernéticos a sistemas importantes: redes elétricas, tratamento de água, transportes e serviços financeiros. Ele monitora o tráfego de rede e o comportamento dos sistemas, identificando atividades incomuns que possam indicar um ataque."
+      },
+      "[\"cyber\",\"customers\"]": {
+        "source": "Operators of critical national infrastructure, government departments, banks, and large enterprises in regulated industries. Buyers are CISOs (Chief Information Security Officers) and IT security teams. Government frameworks often mandate certain security standards.",
+        "target": "Operadores de infraestrutura crítica nacional, órgãos públicos, bancos e grandes empresas de setores regulados. Os compradores são diretores de segurança da informação (CISOs) e equipes de segurança de TI. Regras governamentais frequentemente exigem padrões específicos de segurança."
+      },
+      "[\"cyber\",\"revenue\"]": {
+        "source": "Annual software licences based on the size of the network being protected. Implementation and integration services. Ongoing monitoring and response services can be additional revenue.",
+        "target": "Licenças anuais de software, com preço baseado no tamanho da rede protegida. Serviços de implantação e integração. Monitoramento contínuo e resposta a incidentes também podem gerar receita."
+      },
+      "[\"cyber\",\"whyWork\",0]": {
+        "source": "Cyber attacks on UK infrastructure increasing",
+        "target": "Aumentam os ataques cibernéticos à infraestrutura do Reino Unido"
+      },
+      "[\"cyber\",\"whyWork\",1]": {
+        "source": "Government spending more on cyber defence",
+        "target": "O governo amplia os gastos com defesa cibernética"
+      },
+      "[\"cyber\",\"whyWork\",2]": {
+        "source": "Regulations require better security",
+        "target": "A regulamentação exige mais segurança"
+      },
+      "[\"cyber\",\"whyWork\",3]": {
+        "source": "Legacy security tools miss new threats",
+        "target": "Ferramentas antigas de segurança não detectam novas ameaças"
+      },
+      "[\"cyber\",\"whyHard\",0]": {
+        "source": "Buyers move slowly and carefully",
+        "target": "Os compradores decidem devagar e com cautela"
+      },
+      "[\"cyber\",\"whyHard\",1]": {
+        "source": "Long sales cycles (6-12+ months)",
+        "target": "Os ciclos de venda duram de 6 a 12 meses ou mais"
+      },
+      "[\"cyber\",\"whyHard\",2]": {
+        "source": "Need security clearances for some work",
+        "target": "Alguns trabalhos exigem credenciais de segurança"
+      },
+      "[\"cyber\",\"whyHard\",3]": {
+        "source": "Incumbent vendors have relationships",
+        "target": "Fornecedores estabelecidos já têm relacionamentos com os clientes"
+      },
+      "[\"cyber\",\"whyHard\",4]": {
+        "source": "False alarms destroy credibility",
+        "target": "Alarmes falsos destroem a credibilidade"
+      },
+      "[\"cyber\",\"competition\"]": {
+        "source": "Large security companies like CrowdStrike, Palo Alto, and Darktrace already serve this market. They have sales teams, brand recognition, and existing contracts. You'll need to prove your AI catches things they miss.",
+        "target": "Grandes empresas de segurança, como CrowdStrike, Palo Alto e Darktrace, já atendem esse mercado. Elas têm equipes de vendas, marcas conhecidas e contratos vigentes. Você precisará demonstrar que sua IA detecta ameaças que elas deixam passar."
+      },
+      "[\"terra\",\"product\"]": {
+        "source": "You're building AI tools that help organisations understand and respond to climate risks. This could include predicting extreme weather, modelling flood or wildfire risk, tracking carbon emissions, or optimising energy use. Different products for different buyers.",
+        "target": "Você desenvolve ferramentas de IA para ajudar organizações a compreender e enfrentar riscos climáticos. Isso pode incluir previsão de eventos extremos, modelos de risco de enchentes ou incêndios florestais, acompanhamento de emissões de carbono e melhoria do uso de energia. Diferentes produtos atendem a diferentes compradores."
+      },
+      "[\"terra\",\"customers\"]": {
+        "source": "Insurance companies need climate risk models. Large corporations need emissions tracking for reporting. Governments and cities need planning tools. Research institutions may fund early work. Each customer type has different needs and buying processes.",
+        "target": "Seguradoras precisam de modelos de risco climático. Grandes empresas precisam acompanhar emissões para seus relatórios. Governos e cidades precisam de ferramentas de planejamento. Instituições de pesquisa podem financiar os trabalhos iniciais. Cada tipo de cliente tem necessidades e processos de compra próprios."
+      },
+      "[\"terra\",\"revenue\"]": {
+        "source": "Mix of research grants (especially early on), consulting projects, and software subscriptions. Grants can fund development but don't scale. Long-term goal is recurring software revenue from enterprise customers.",
+        "target": "Combinação de recursos de pesquisa, especialmente no início, projetos de consultoria e assinaturas de software. O fomento pode financiar o desenvolvimento, mas não cresce na mesma proporção que o negócio. O objetivo de longo prazo é obter receita recorrente de software com clientes empresariais."
+      },
+      "[\"terra\",\"whyWork\",0]": {
+        "source": "Climate is a growing priority for business",
+        "target": "O clima ocupa espaço crescente nas prioridades das empresas"
+      },
+      "[\"terra\",\"whyWork\",1]": {
+        "source": "New regulations require emissions reporting",
+        "target": "Novas regras exigem relatórios de emissões"
+      },
+      "[\"terra\",\"whyWork\",2]": {
+        "source": "Insurance industry needs better risk models",
+        "target": "As seguradoras precisam de modelos de risco melhores"
+      },
+      "[\"terra\",\"whyWork\",3]": {
+        "source": "Government grants available for R&D",
+        "target": "Há recursos públicos para pesquisa e desenvolvimento"
+      },
+      "[\"terra\",\"whyHard\",0]": {
+        "source": "Easy to get stuck on grant funding",
+        "target": "É fácil se tornar dependente de recursos de fomento"
+      },
+      "[\"terra\",\"whyHard\",1]": {
+        "source": "Enterprise sales cycles are long",
+        "target": "Os ciclos de venda para empresas são longos"
+      },
+      "[\"terra\",\"whyHard\",2]": {
+        "source": "Hard to prove ROI for some products",
+        "target": "É difícil comprovar o retorno de alguns produtos"
+      },
+      "[\"terra\",\"whyHard\",3]": {
+        "source": "\"Sustainability\" is vague—need focus",
+        "target": "\"Sustentabilidade\" é um termo amplo: é preciso definir um foco"
+      },
+      "[\"terra\",\"whyHard\",4]": {
+        "source": "Big consultancies compete for same work",
+        "target": "Grandes consultorias disputam os mesmos projetos"
+      },
+      "[\"terra\",\"competition\"]": {
+        "source": "Mix of startups, consultancies, and large tech companies. Some incumbents have more data and longer track records. The market is fragmented, so there may be room to specialise in a specific problem or customer type.",
+        "target": "O mercado reúne startups, consultorias e grandes empresas de tecnologia. Algumas organizações estabelecidas têm mais dados e um histórico mais longo. Como o mercado é fragmentado, pode haver espaço para se especializar em um problema ou tipo de cliente."
+      },
+      "[\"legal\",\"product\"]": {
+        "source": "You're building AI software that reads and analyses legal documents—contracts, case law, regulations. It can review contracts faster than lawyers, flag risks, extract key terms, and research relevant precedents. Designed to help lawyers work faster, not replace them.",
+        "target": "Você desenvolve software de IA que lê e analisa documentos jurídicos: contratos, jurisprudência e normas. Ele pode revisar contratos mais rapidamente que advogados, sinalizar riscos, extrair cláusulas relevantes e pesquisar precedentes. Foi concebido para ajudar os advogados a trabalhar mais rápido, sem substituí-los."
+      },
+      "[\"legal\",\"customers\"]": {
+        "source": "Law firms (especially their associates doing document review), corporate legal departments, and compliance teams. Buyers are managing partners, general counsels, or heads of legal operations. Large firms do more volume and have bigger budgets.",
+        "target": "Escritórios de advocacia, especialmente os profissionais que revisam documentos, departamentos jurídicos de empresas e equipes de conformidade. Os compradores são sócios administradores, diretores jurídicos e responsáveis por operações jurídicas. Grandes escritórios têm maior volume de trabalho e orçamento."
+      },
+      "[\"legal\",\"revenue\"]": {
+        "source": "Software subscriptions, typically priced per user (lawyer seat) or by volume of documents processed. Enterprise contracts with large firms or corporations. Some firms charge per-project for specific review tasks.",
+        "target": "Assinaturas de software, geralmente por usuário ou volume de documentos processados. Contratos empresariais com grandes escritórios e companhias. Algumas empresas cobram por projeto em tarefas específicas de revisão."
+      },
+      "[\"legal\",\"whyWork\",0]": {
+        "source": "Legal work is expensive (£300-500/hour)",
+        "target": "O trabalho jurídico é caro: £300-500 por hora"
+      },
+      "[\"legal\",\"whyWork\",1]": {
+        "source": "Much legal work is repetitive review",
+        "target": "Boa parte do trabalho jurídico envolve revisão repetitiva"
+      },
+      "[\"legal\",\"whyWork\",2]": {
+        "source": "Corporate legal teams are overloaded",
+        "target": "As equipes jurídicas das empresas estão sobrecarregadas"
+      },
+      "[\"legal\",\"whyWork\",3]": {
+        "source": "Younger lawyers more open to AI tools",
+        "target": "Advogados mais jovens são mais receptivos a ferramentas de IA"
+      },
+      "[\"legal\",\"whyHard\",0]": {
+        "source": "Law firms profit from billable hours",
+        "target": "Escritórios lucram com as horas faturáveis"
+      },
+      "[\"legal\",\"whyHard\",1]": {
+        "source": "Lawyers are cautious about new tools",
+        "target": "Advogados são cautelosos com novas ferramentas"
+      },
+      "[\"legal\",\"whyHard\",2]": {
+        "source": "Mistakes in legal work are costly",
+        "target": "Erros jurídicos custam caro"
+      },
+      "[\"legal\",\"whyHard\",3]": {
+        "source": "Need very high accuracy",
+        "target": "É necessário um nível muito alto de precisão"
+      },
+      "[\"legal\",\"whyHard\",4]": {
+        "source": "Some work requires human judgment",
+        "target": "Parte do trabalho exige julgamento humano"
+      },
+      "[\"legal\",\"competition\"]": {
+        "source": "Several legal tech companies have been building AI tools for years. Some are backed by major law firms. The biggest firms may build their own tools. You'll need to be significantly better or cheaper to win customers away.",
+        "target": "Várias empresas de tecnologia jurídica desenvolvem ferramentas de IA há anos. Algumas recebem apoio de grandes escritórios. As maiores bancas podem desenvolver ferramentas próprias. Para atrair os clientes dos concorrentes, sua solução precisará ser muito melhor ou mais barata."
+      },
+      "[\"edu\",\"product\"]": {
+        "source": "You're building AI-powered learning software that adjusts to each student's level and pace. It identifies what students are struggling with, provides targeted practice, and gives teachers data on class progress. Works alongside classroom teaching, not instead of it.",
+        "target": "Você desenvolve software de aprendizagem com IA que se ajusta ao nível e ao ritmo de cada estudante. Ele identifica dificuldades, oferece exercícios direcionados e apresenta aos professores dados sobre o progresso da turma. Complementa o ensino em sala de aula."
+      },
+      "[\"edu\",\"customers\"]": {
+        "source": "Schools, academy trusts, and local education authorities. Buyers are headteachers, IT coordinators, or trust education directors. Parents might also pay for home use. Decisions often made at trust or district level, not individual schools.",
+        "target": "Escolas, organizações mantenedoras de academies britânicas e autoridades educacionais locais. Os compradores são diretores escolares, coordenadores de TI ou diretores educacionais dessas organizações. Famílias também podem pagar pelo uso em casa. As decisões costumam ocorrer no nível da rede ou do distrito, e não de cada escola."
+      },
+      "[\"edu\",\"revenue\"]": {
+        "source": "Annual subscriptions per school or per student. Some products charge per-seat for teacher accounts. Implementation and training services. Consumer version could be direct subscription to parents.",
+        "target": "Assinaturas anuais por escola ou estudante. Alguns produtos cobram por conta de professor. Serviços de implantação e formação. Uma versão para consumidores pode ser oferecida por assinatura direta às famílias."
+      },
+      "[\"edu\",\"whyWork\",0]": {
+        "source": "Teachers are stretched thin",
+        "target": "Os professores estão sobrecarregados"
+      },
+      "[\"edu\",\"whyWork\",1]": {
+        "source": "Class sizes make individual attention hard",
+        "target": "O tamanho das turmas dificulta a atenção individual"
+      },
+      "[\"edu\",\"whyWork\",2]": {
+        "source": "COVID created learning gaps to fill",
+        "target": "A COVID deixou lacunas de aprendizagem"
+      },
+      "[\"edu\",\"whyWork\",3]": {
+        "source": "Schools increasingly use digital tools",
+        "target": "As escolas usam cada vez mais ferramentas digitais"
+      },
+      "[\"edu\",\"whyHard\",0]": {
+        "source": "School budgets are very tight",
+        "target": "Os orçamentos escolares são muito limitados"
+      },
+      "[\"edu\",\"whyHard\",1]": {
+        "source": "Procurement tied to academic year",
+        "target": "As compras acompanham o calendário letivo"
+      },
+      "[\"edu\",\"whyHard\",2]": {
+        "source": "Long pilots before full rollout",
+        "target": "Há testes-piloto longos antes da implantação completa"
+      },
+      "[\"edu\",\"whyHard\",3]": {
+        "source": "Teachers need training to use new tools",
+        "target": "Professores precisam de formação para usar novas ferramentas"
+      },
+      "[\"edu\",\"whyHard\",4]": {
+        "source": "Hard to prove learning impact quickly",
+        "target": "É difícil demonstrar rapidamente o impacto na aprendizagem"
+      },
+      "[\"edu\",\"competition\"]": {
+        "source": "Many ed-tech companies target schools, though few with sophisticated AI. Large textbook publishers are adding digital tools. Schools have limited budget for multiple subscriptions, so you're competing for a small slice of spending.",
+        "target": "Muitas empresas de tecnologia educacional atendem escolas, mas poucas usam IA sofisticada. Grandes editoras de livros didáticos acrescentam ferramentas digitais a seus produtos. Como as escolas têm pouco orçamento para várias assinaturas, você disputa uma parcela pequena dos gastos."
+      },
+      "[\"voed\",\"product\"]": {
+        "source": "You're building an app that knows what's in a household's kitchen, what it cost, what's about to go off, and what to do with it. It reads receipts and photos, learns a family's habits, suggests meals from what's already there, and warns before something gets binned.",
+        "target": "Você desenvolve um aplicativo que sabe o que há na cozinha de uma família, quanto custou, o que está perto de estragar e como aproveitar os alimentos. Ele lê recibos e fotos, aprende os hábitos da família, sugere refeições com o que já está disponível e avisa antes que algo seja descartado."
+      },
+      "[\"voed\",\"customers\"]": {
+        "source": "Households, mainly whoever does the weekly shop. Later, supermarkets and food brands wanting to sit inside the decision, and councils and charities running waste schemes. It's the most crowded consumer market in the game and the easiest to enter.",
+        "target": "Famílias, principalmente quem faz as compras semanais. Mais adiante, supermercados e marcas de alimentos interessados em participar da decisão de compra, além de prefeituras e entidades beneficentes com programas de redução de desperdício. É o mercado de consumo mais disputado do jogo e aquele em que é mais fácil entrar."
+      },
+      "[\"voed\",\"revenue\"]": {
+        "source": "A subscription of a few pounds a month, with a free tier most people never leave. Later, revenue share on grocery orders and paid placement — where the money is, and where trust is easiest to lose.",
+        "target": "Assinatura de poucas libras por mês, com uma versão gratuita da qual a maioria não sai. Mais adiante, participação na receita de pedidos de supermercado e destaque pago de produtos: fontes de dinheiro que também podem comprometer a confiança."
+      },
+      "[\"voed\",\"whyWork\",0]": {
+        "source": "A third of household food gets thrown away",
+        "target": "Um terço dos alimentos dos domicílios é descartado"
+      },
+      "[\"voed\",\"whyWork\",1]": {
+        "source": "Food is the biggest line in most budgets",
+        "target": "A alimentação é a maior despesa em muitos orçamentos"
+      },
+      "[\"voed\",\"whyWork\",2]": {
+        "source": "Retailers want the data",
+        "target": "Os varejistas querem os dados"
+      },
+      "[\"voed\",\"whyWork\",3]": {
+        "source": "Low cost to reach new households",
+        "target": "O custo para alcançar novas famílias é baixo"
+      },
+      "[\"voed\",\"whyHard\",0]": {
+        "source": "Nobody's made a food app people keep for a year",
+        "target": "Ninguém conseguiu criar um aplicativo de alimentação que as pessoas mantenham por um ano"
+      },
+      "[\"voed\",\"whyHard\",1]": {
+        "source": "Supermarkets already have the receipts",
+        "target": "Os supermercados já têm os comprovantes das compras"
+      },
+      "[\"voed\",\"whyHard\",2]": {
+        "source": "Free alternatives appear every month",
+        "target": "Surgem alternativas gratuitas todo mês"
+      },
+      "[\"voed\",\"whyHard\",3]": {
+        "source": "Retention is brutal — a quarter of users leave, every quarter",
+        "target": "A retenção é difícil: um quarto dos usuários sai a cada trimestre"
+      },
+      "[\"voed\",\"whyHard\",4]": {
+        "source": "A supermarket can copy the good idea in a season",
+        "target": "Um supermercado pode copiar uma boa ideia em uma temporada"
+      },
+      "[\"voed\",\"competition\"]": {
+        "source": "Cupboard, Grüne Kiste and Nutrivo are all chasing the same households with different instincts — one buys growth, one plays the long systems game, one won't claim anything it can't prove. None has cracked retention yet.",
+        "target": "Cupboard, Grüne Kiste e Nutrivo disputam as mesmas famílias com estratégias diferentes: uma compra crescimento, outra investe em sistemas no longo prazo e outra só faz afirmações que consegue comprovar. Nenhuma resolveu o problema da retenção."
+      },
+      "[\"arene\",\"product\"]": {
+        "source": "You're building tracking, prediction and generated output for anything with a fixture list: player and performance data, injury and load risk, audience and highlight generation, systems for the venue and the broadcast.",
+        "target": "Você desenvolve acompanhamento, previsão e conteúdo gerado para atividades com calendário de competições: dados de atletas e desempenho, riscos de lesão e sobrecarga, geração de conteúdo para o público e de melhores momentos, sistemas para os locais de eventos e para a transmissão."
+      },
+      "[\"arene\",\"customers\"]": {
+        "source": "Professional clubs and their analysts, leagues and governing bodies, games studios, labels and promoters, broadcasters and rights holders. The person signing is a commercial or performance director, rarely a technologist.",
+        "target": "Clubes profissionais e seus analistas, ligas e entidades dirigentes, estúdios de jogos, gravadoras e promotores de eventos, emissoras e detentores de direitos. Quem assina costuma ser um diretor comercial ou de desempenho, raramente um profissional de tecnologia."
+      },
+      "[\"arene\",\"revenue\"]": {
+        "source": "Annual contracts per club or per title, sold in a narrow window before a season or a release. Large, slow to close, and sticky once it's in.",
+        "target": "Contratos anuais por clube ou por título, vendidos em uma janela curta antes de uma temporada ou lançamento. Têm valores elevados, demoram para ser fechados e tendem a permanecer depois da implantação."
+      },
+      "[\"arene\",\"whyWork\",0]": {
+        "source": "Money in sport and games is enormous",
+        "target": "Esportes e jogos movimentam muito dinheiro"
+      },
+      "[\"arene\",\"whyWork\",1]": {
+        "source": "Analytical spend is still young",
+        "target": "Os investimentos em análise de dados ainda são recentes"
+      },
+      "[\"arene\",\"whyWork\",2]": {
+        "source": "Britain has the Premier League, Silicon Spa and live music on its doorstep",
+        "target": "O Reino Unido conta com a Premier League, Silicon Spa e música ao vivo por perto"
+      },
+      "[\"arene\",\"whyWork\",3]": {
+        "source": "Contracts renew, they don't churn like consumer subscriptions",
+        "target": "Os contratos são renovados e não têm a mesma rotatividade das assinaturas de consumo"
+      },
+      "[\"arene\",\"whyHard\",0]": {
+        "source": "A season starts whether you're ready or not",
+        "target": "A temporada começa mesmo que você não esteja pronto"
+      },
+      "[\"arene\",\"whyHard\",1]": {
+        "source": "Clubs buy on relationships, not features",
+        "target": "Clubes compram com base em relacionamentos, não apenas em recursos do produto"
+      },
+      "[\"arene\",\"whyHard\",2]": {
+        "source": "Studios build their own tools in-house",
+        "target": "Estúdios desenvolvem suas próprias ferramentas"
+      },
+      "[\"arene\",\"whyHard\",3]": {
+        "source": "Miss the pre-season window and you wait a year",
+        "target": "Perder a janela da pré-temporada significa esperar um ano"
+      },
+      "[\"arene\",\"whyHard\",4]": {
+        "source": "Constantly sold to by everyone else in the market",
+        "target": "Os compradores recebem propostas de todos os concorrentes o tempo todo"
+      },
+      "[\"arene\",\"competition\"]": {
+        "source": "Chalkline moves fast out of a betting-data background, Tempo Sport is patient and immovable once it's inside a federation, Nine Yards won't put anything live that could fail on air. The calendar decides who wins more than the product does.",
+        "target": "Chalkline avança rapidamente a partir de sua experiência com dados de apostas; Tempo Sport é paciente e difícil de substituir depois que entra em uma federação; Nine Yards não coloca no ar nada que possa falhar durante a transmissão. O calendário pesa mais que o produto na definição dos vencedores."
+      },
+      "[\"sorgente\",\"product\"]": {
+        "source": "You're building an app people open most days for one ordinary difficulty, and gradually several: sleep, stress, movement, habits, the household, a hobby taken seriously.",
+        "target": "Você desenvolve um aplicativo que as pessoas abrem quase todos os dias para lidar com uma dificuldade comum e, aos poucos, com várias: sono, estresse, movimento, hábitos, tarefas domésticas ou um passatempo levado a sério."
+      },
+      "[\"sorgente\",\"customers\"]": {
+        "source": "Individuals paying a few pounds a month. Later, employers buying it for staff, and health services if the evidence holds up.",
+        "target": "Pessoas que pagam poucas libras por mês. Mais adiante, empregadores que contratam o serviço para suas equipes e serviços de saúde, se as evidências sustentarem o produto."
+      },
+      "[\"sorgente\",\"revenue\"]": {
+        "source": "Subscription, with a quarter of the base churning every three months unless the product earns its place. Employer schemes are steadier and slower to win.",
+        "target": "Assinaturas, com perda de um quarto da base a cada três meses se o produto não justificar sua permanência. Programas oferecidos por empregadores são mais estáveis, mas demoram mais para ser conquistados."
+      },
+      "[\"sorgente\",\"whyWork\",0]": {
+        "source": "NHS waiting lists push people to look elsewhere",
+        "target": "As filas do NHS levam as pessoas a procurar alternativas"
+      },
+      "[\"sorgente\",\"whyWork\",1]": {
+        "source": "Employers are spending on staff wellbeing",
+        "target": "Empregadores investem no bem-estar das equipes"
+      },
+      "[\"sorgente\",\"whyWork\",2]": {
+        "source": "Cost of reaching people is low",
+        "target": "O custo para alcançar as pessoas é baixo"
+      },
+      "[\"sorgente\",\"whyWork\",3]": {
+        "source": "A published study travels further than an ad",
+        "target": "Um estudo publicado alcança mais longe que um anúncio"
+      },
+      "[\"sorgente\",\"whyHard\",0]": {
+        "source": "A quarter of users leave every quarter",
+        "target": "Um quarto dos usuários sai a cada trimestre"
+      },
+      "[\"sorgente\",\"whyHard\",1]": {
+        "source": "Everyone in this market claims the same benefits",
+        "target": "Todos nesse mercado prometem os mesmos benefícios"
+      },
+      "[\"sorgente\",\"whyHard\",2]": {
+        "source": "One overstated claim and the story becomes about you, not the product",
+        "target": "Uma promessa exagerada pode transformar você no problema em vez de destacar o produto"
+      },
+      "[\"sorgente\",\"whyHard\",3]": {
+        "source": "Evidence is slow and expensive, marketing is fast and cheap",
+        "target": "Produzir evidências é lento e caro; fazer marketing é rápido e barato"
+      },
+      "[\"sorgente\",\"whyHard\",4]": {
+        "source": "Clinicians are sceptical until the data is airtight",
+        "target": "Profissionais clínicos permanecem céticos até que os dados sejam convincentes"
+      },
+      "[\"sorgente\",\"competition\"]": {
+        "source": "Kindling is brilliant at attention and thin on evidence, Rustad is slow and trusted, Sattva Health won't claim anything its founder can't prove clinically. The company that survives is the one that doesn't have to choose.",
+        "target": "Kindling atrai atenção com facilidade, mas tem poucas evidências; Rustad avança devagar e inspira confiança; Sattva Health só afirma o que sua fundadora consegue comprovar clinicamente. Sobrevive a empresa que não precisa escolher entre atenção e evidências."
+      },
+      "[\"avam\",\"product\"]": {
+        "source": "You're building compact models and the tools around them: running on the device, evaluation and testing, speech that works for how people here actually talk, and licensing for what they were trained on.",
+        "target": "Você desenvolve modelos compactos e as ferramentas que os acompanham: execução no próprio dispositivo, avaliação e testes, reconhecimento de fala adaptado à maneira como as pessoas daqui realmente falam e licenciamento dos materiais usados no treinamento."
+      },
+      "[\"avam\",\"customers\"]": {
+        "source": "Other companies' engineers — hardware makers, industrial operators, public bodies whose data can't leave the building, anyone whose users have no signal.",
+        "target": "Engenheiros de outras empresas: fabricantes de hardware, operadores industriais, órgãos públicos cujos dados não podem sair do local e organizações cujos usuários não têm sinal de rede."
+      },
+      "[\"avam\",\"revenue\"]": {
+        "source": "Usage, billed per call or per device, with a free tier most never leave and a short sales cycle. Small per customer, and it compounds. Product quality does the selling — your own product team generates the customers.",
+        "target": "Cobrança por uso, por chamada ou por dispositivo, com uma faixa gratuita da qual a maioria não sai e um ciclo de vendas curto. A receita por cliente começa pequena e se acumula. A qualidade do produto atrai as vendas: sua própria equipe de produto gera clientes."
+      },
+      "[\"avam\",\"whyWork\",0]": {
+        "source": "Sending everything to a data centre is expensive and sometimes not allowed",
+        "target": "Enviar tudo a um centro de dados é caro e às vezes não é permitido"
+      },
+      "[\"avam\",\"whyWork\",1]": {
+        "source": "Britain has real strength in efficient silicon and speech",
+        "target": "O Reino Unido tem competência em chips eficientes e tecnologias de fala"
+      },
+      "[\"avam\",\"whyWork\",2]": {
+        "source": "Developers find you through documentation, not a sales call",
+        "target": "Desenvolvedores encontram você pela documentação, não por uma ligação de vendas"
+      },
+      "[\"avam\",\"whyWork\",3]": {
+        "source": "Usage revenue compounds without more headcount",
+        "target": "A receita por uso cresce sem ampliar o quadro de pessoal na mesma proporção"
+      },
+      "[\"avam\",\"whyHard\",0]": {
+        "source": "The large providers keep making the free tier better",
+        "target": "Grandes fornecedores continuam melhorando as versões gratuitas"
+      },
+      "[\"avam\",\"whyHard\",1]": {
+        "source": "Developers are loyal until they're not",
+        "target": "Desenvolvedores são fiéis até encontrarem uma alternativa melhor"
+      },
+      "[\"avam\",\"whyHard\",2]": {
+        "source": "Usage revenue is small for a long time before it's large",
+        "target": "A receita por uso permanece pequena por muito tempo antes de crescer"
+      },
+      "[\"avam\",\"whyHard\",3]": {
+        "source": "A bad interface loses deals no amount of sales attention wins back",
+        "target": "Uma interface ruim faz perder negócios que a equipe comercial não consegue recuperar"
+      },
+      "[\"avam\",\"whyHard\",4]": {
+        "source": "Marketing spend does comparatively little here",
+        "target": "Os gastos com marketing têm efeito relativamente pequeno aqui"
+      },
+      "[\"avam\",\"competition\"]": {
+        "source": "Coldstart ships fast and breaks compatibility, Petit Modèle publishes everything and moves slowly, Anvil Systems is unfashionable and quietly in everything. Whoever becomes the thing engineers reach for first wins on documentation, not adverts.",
+        "target": "Coldstart lança rapidamente e quebra a compatibilidade; Petit Modèle publica tudo e avança devagar; Anvil Systems é discreta e está presente em muitos sistemas. Vence quem se torna a primeira escolha dos engenheiros pela documentação, não pelos anúncios."
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "url": "https://cdn.tailwindcss.com",
+    "file": "vendor/tailwind.js",
+    "sha256": "176e894661aa9cdc9a5cba6c720044cbbf7b8bd80d1c9a142a7c24b1b6c50d15",
+    "bytes": 407279
+  },
+  {
+    "url": "https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js",
+    "file": "vendor/jspdf.umd.min.js",
+    "sha256": "98ccf17aa10c20bb1301762618fcc9b6ab3a4e7f26b6071d64d0b41154df3875",
+    "bytes": 364463
+  }
+]

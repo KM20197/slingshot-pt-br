@@ -1,0 +1,8 @@
+node_modules/
+.env*
+!.env.example
+source/*
+!source/index.original.html
+docs/database*.json
+dist/
+artifacts/
