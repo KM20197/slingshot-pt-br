@@ -854,5 +854,626 @@
         "target": "Coldstart lança rapidamente e quebra a compatibilidade; Petit Modèle publica tudo e avança devagar; Anvil Systems é discreta e está presente em muitos sistemas. Vence quem se torna a primeira escolha dos engenheiros pela documentação, não pelos anúncios."
       }
     }
+  },
+  "BMC_DATA": {
+    "classification": "Tradução parcial: subestrutura Aether completa, incluindo seletores de remoção e marcador funcional [NEW] preservado. Contexto britânico original; demais empreendimentos e adaptação brasileira pendentes.",
+    "strings": {
+      "[\"aether\",\"initial\",\"keyPartners\",0]": {
+        "source": "NHS Digital (data access agreements)",
+        "target": "NHS Digital (acordos de acesso a dados)"
+      },
+      "[\"aether\",\"initial\",\"keyPartners\",1]": {
+        "source": "University hospital research partners (Oxford, Cambridge, Imperial)",
+        "target": "Parceiros de pesquisa em hospitais universitários (Oxford, Cambridge, Imperial)"
+      },
+      "[\"aether\",\"initial\",\"keyPartners\",2]": {
+        "source": "Cloud infrastructure providers (AWS/Azure healthcare)",
+        "target": "Fornecedores de infraestrutura em nuvem (AWS/Azure para saúde)"
+      },
+      "[\"aether\",\"initial\",\"keyPartners\",3]": {
+        "source": "Medical device certification consultants",
+        "target": "Consultores de certificação de dispositivos médicos"
+      },
+      "[\"aether\",\"initial\",\"keyPartners\",4]": {
+        "source": "EHR/EPR system vendors (integration)",
+        "target": "Fornecedores de sistemas EHR/EPR (integração)"
+      },
+      "[\"aether\",\"initial\",\"keyPartners\",5]": {
+        "source": "Royal Colleges (clinical validation)",
+        "target": "Royal Colleges (validação clínica)"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",0]": {
+        "source": "Machine learning model training on clinical datasets",
+        "target": "Treinamento de modelos de aprendizado de máquina com bases de dados clínicos"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",1]": {
+        "source": "Clinical validation studies with NHS partners",
+        "target": "Estudos de validação clínica com parceiros do NHS"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",2]": {
+        "source": "Regulatory compliance (MHRA, CE marking, UKCA)",
+        "target": "Conformidade regulatória (MHRA, marcação CE, UKCA)"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",3]": {
+        "source": "Integration with hospital IT systems",
+        "target": "Integração com sistemas de TI hospitalares"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",4]": {
+        "source": "Continuous model improvement from deployment feedback",
+        "target": "Melhoria contínua dos modelos a partir do retorno da implantação"
+      },
+      "[\"aether\",\"initial\",\"keyActivities\",5]": {
+        "source": "Medical advisory board coordination",
+        "target": "Coordenação do conselho consultivo médico"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",0]": {
+        "source": "Proprietary ML models trained on UK patient data",
+        "target": "Modelos próprios de aprendizado de máquina treinados com dados de pacientes do Reino Unido"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",1]": {
+        "source": "Clinical validation datasets",
+        "target": "Bases de dados para validação clínica"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",2]": {
+        "source": "Medical advisory board (NHS consultants)",
+        "target": "Conselho consultivo médico (especialistas do NHS)"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",3]": {
+        "source": "Regulatory expertise and documentation",
+        "target": "Conhecimento regulatório e documentação"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",4]": {
+        "source": "HIPAA/NHS Data Security toolkit compliance",
+        "target": "Conformidade com HIPAA e NHS Data Security toolkit"
+      },
+      "[\"aether\",\"initial\",\"keyResources\",5]": {
+        "source": "GPU compute infrastructure",
+        "target": "Infraestrutura computacional com GPUs"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",0]": {
+        "source": "AI-powered early detection of conditions",
+        "target": "Detecção precoce de doenças com IA"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",1]": {
+        "source": "Reduces diagnostic false positives by 40%",
+        "target": "Reduz falsos positivos no diagnóstico em 40%"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",2]": {
+        "source": "Faster triage in overstretched NHS trusts",
+        "target": "Triagem mais rápida em organizações hospitalares sobrecarregadas do NHS"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",3]": {
+        "source": "Frees clinician time for complex cases",
+        "target": "Libera tempo dos profissionais clínicos para casos complexos"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",4]": {
+        "source": "Consistent quality across trusts",
+        "target": "Qualidade consistente entre organizações hospitalares"
+      },
+      "[\"aether\",\"initial\",\"valueProposition\",5]": {
+        "source": "Audit trail for clinical governance",
+        "target": "Trilha de auditoria para governança clínica"
+      },
+      "[\"aether\",\"initial\",\"customerRelationships\",0]": {
+        "source": "Dedicated implementation managers per trust",
+        "target": "Gestores de implantação dedicados a cada organização hospitalar"
+      },
+      "[\"aether\",\"initial\",\"customerRelationships\",1]": {
+        "source": "24/7 clinical support hotline",
+        "target": "Canal de suporte clínico 24 horas por dia, 7 dias por semana"
+      },
+      "[\"aether\",\"initial\",\"customerRelationships\",2]": {
+        "source": "User training programmes for clinicians",
+        "target": "Programas de treinamento de usuários para profissionais clínicos"
+      },
+      "[\"aether\",\"initial\",\"customerRelationships\",3]": {
+        "source": "Quarterly business reviews with trust leadership",
+        "target": "Revisões trimestrais com a direção da organização hospitalar"
+      },
+      "[\"aether\",\"initial\",\"customerRelationships\",4]": {
+        "source": "Clinical champion network within trusts",
+        "target": "Rede de profissionais de referência clínica nas organizações hospitalares"
+      },
+      "[\"aether\",\"initial\",\"channels\",0]": {
+        "source": "Direct sales to NHS procurement teams",
+        "target": "Vendas diretas às equipes de compras do NHS"
+      },
+      "[\"aether\",\"initial\",\"channels\",1]": {
+        "source": "NHS Innovation Accelerator programme",
+        "target": "Programa NHS Innovation Accelerator"
+      },
+      "[\"aether\",\"initial\",\"channels\",2]": {
+        "source": "NHSX/NHS Transformation Directorate",
+        "target": "NHSX/NHS Transformation Directorate"
+      },
+      "[\"aether\",\"initial\",\"channels\",3]": {
+        "source": "Medical conference presence (NHS Expo, HIMSS)",
+        "target": "Participação em congressos médicos (NHS Expo, HIMSS)"
+      },
+      "[\"aether\",\"initial\",\"channels\",4]": {
+        "source": "Academic publication and peer review",
+        "target": "Publicação acadêmica e revisão por pares"
+      },
+      "[\"aether\",\"initial\",\"channels\",5]": {
+        "source": "Royal College endorsements",
+        "target": "Recomendações dos Royal Colleges"
+      },
+      "[\"aether\",\"initial\",\"customerSegments\",0]": {
+        "source": "NHS acute hospital trusts",
+        "target": "Organizações hospitalares do NHS para atendimento de casos agudos"
+      },
+      "[\"aether\",\"initial\",\"customerSegments\",1]": {
+        "source": "NHS mental health trusts",
+        "target": "Organizações de saúde mental do NHS"
+      },
+      "[\"aether\",\"initial\",\"customerSegments\",2]": {
+        "source": "Private hospital groups (Nuffield, Spire, HCA)",
+        "target": "Grupos hospitalares privados (Nuffield, Spire, HCA)"
+      },
+      "[\"aether\",\"initial\",\"customerSegments\",3]": {
+        "source": "GP federations and primary care networks",
+        "target": "Federações de médicos generalistas e redes de atenção primária"
+      },
+      "[\"aether\",\"initial\",\"customerSegments\",4]": {
+        "source": "Integrated Care Systems (ICS)",
+        "target": "Sistemas integrados de atenção à saúde (ICS)"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",0]": {
+        "source": "R&D engineering salaries (60% of costs)",
+        "target": "Salários da engenharia de pesquisa e desenvolvimento (60% dos custos)"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",1]": {
+        "source": "Cloud computing and GPU costs",
+        "target": "Custos de computação em nuvem e GPUs"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",2]": {
+        "source": "Clinical trial and validation expenses",
+        "target": "Despesas com estudos clínicos e validação"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",3]": {
+        "source": "Regulatory and legal fees",
+        "target": "Despesas regulatórias e jurídicas"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",4]": {
+        "source": "Professional indemnity insurance",
+        "target": "Seguro de responsabilidade civil profissional"
+      },
+      "[\"aether\",\"initial\",\"costStructure\",5]": {
+        "source": "Medical advisory board honoraria",
+        "target": "Honorários do conselho consultivo médico"
+      },
+      "[\"aether\",\"initial\",\"revenueStreams\",0]": {
+        "source": "Annual SaaS licensing (per-trust)",
+        "target": "Licenciamento anual de SaaS (por organização hospitalar)"
+      },
+      "[\"aether\",\"initial\",\"revenueStreams\",1]": {
+        "source": "Per-diagnosis transaction fees",
+        "target": "Taxas por diagnóstico realizado"
+      },
+      "[\"aether\",\"initial\",\"revenueStreams\",2]": {
+        "source": "Implementation and integration fees",
+        "target": "Taxas de implantação e integração"
+      },
+      "[\"aether\",\"initial\",\"revenueStreams\",3]": {
+        "source": "Training and certification programmes",
+        "target": "Programas de treinamento e certificação"
+      },
+      "[\"aether\",\"initial\",\"revenueStreams\",4]": {
+        "source": "Premium support tiers",
+        "target": "Planos de suporte avançado"
+      },
+      "[\"aether\",\"milestoneUpdates\",1,\"valueProposition\",0]": {
+        "source": "Clinically validated 94% accuracy [NEW]",
+        "target": "Acurácia de 94% validada clinicamente [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",1,\"keyResources\",0]": {
+        "source": "Peer-reviewed validation study [NEW]",
+        "target": "Estudo de validação revisado por pares [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",1,\"channels\",0]": {
+        "source": "NHS Innovation Accelerator acceptance [NEW]",
+        "target": "Aceitação no NHS Innovation Accelerator [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",2,\"customerSegments\",0]": {
+        "source": "First NHS acute trust deployed [NEW]",
+        "target": "Primeira implantação em organização hospitalar do NHS para casos agudos [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",2,\"revenueStreams\",0]": {
+        "source": "Live revenue from pilot trust [NEW]",
+        "target": "Receita efetiva da organização hospitalar piloto [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",2,\"customerRelationships\",0]": {
+        "source": "Clinical champion programme active [NEW]",
+        "target": "Programa ativo de profissionais de referência clínica [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",2,\"keyPartners\",0]": {
+        "source": "EHR integration certified [NEW]",
+        "target": "Integração com EHR certificada [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",3,\"customerSegments\",0]": {
+        "source": "5+ NHS trusts deployed [NEW]",
+        "target": "Implantação em 5+ organizações hospitalares do NHS [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",3,\"customerSegments\",1]": {
+        "source": "First ICS-wide deal [NEW]",
+        "target": "Primeiro contrato abrangendo um ICS [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",3,\"valueProposition\",0]": {
+        "source": "Proven 2.3 year earlier detection [NEW]",
+        "target": "Detecção comprovadamente antecipada em 2,3 anos [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",3,\"channels\",0]": {
+        "source": "NHS procurement framework listed [NEW]",
+        "target": "Inclusão no sistema de compras do NHS [NEW]"
+      },
+      "[\"aether\",\"milestoneUpdates\",3,\"keyPartners\",0]": {
+        "source": "Strategic NHS England relationship [NEW]",
+        "target": "Relacionamento estratégico com NHS England [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"trigger\"]": {
+        "source": "Competitor wins NHS contract / Regulatory delays",
+        "target": "Concorrente conquista contrato com o NHS / Atrasos regulatórios"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"name\"]": {
+        "source": "NHS → Private Wellness Market",
+        "target": "NHS → Mercado privado de bem-estar"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"remove\",0]": {
+        "source": "NHS Digital (data access agreements)",
+        "target": "NHS Digital (acordos de acesso a dados)"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"remove\",1]": {
+        "source": "NHSX/NHS Transformation Directorate",
+        "target": "NHSX/NHS Transformation Directorate"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Consumer health app platforms (Apple Health, Google Fit) [NEW]",
+        "target": "Plataformas de aplicativos de saúde para consumidores (Apple Health, Google Fit) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "Private wellness clinic chains [NEW]",
+        "target": "Redes privadas de clínicas de bem-estar [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Health insurance providers [NEW]",
+        "target": "Operadoras de planos de saúde [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyPartners\",\"add\",3]": {
+        "source": "Wellness marketing agencies [NEW]",
+        "target": "Agências de marketing para bem-estar [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Clinical validation studies with NHS partners",
+        "target": "Estudos de validação clínica com parceiros do NHS"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"remove\",1]": {
+        "source": "Regulatory compliance (MHRA, CE marking, UKCA)",
+        "target": "Conformidade regulatória (MHRA, marcação CE, UKCA)"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Consumer app development & UX [NEW]",
+        "target": "Desenvolvimento de aplicativos para consumidores e experiência do usuário [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Digital marketing & acquisition [NEW]",
+        "target": "Marketing digital e aquisição de clientes [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "App store optimisation [NEW]",
+        "target": "Otimização da presença em lojas de aplicativos [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "Wellness content creation [NEW]",
+        "target": "Criação de conteúdo sobre bem-estar [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyResources\",\"remove\",0]": {
+        "source": "Medical advisory board (NHS consultants)",
+        "target": "Conselho consultivo médico (especialistas do NHS)"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyResources\",\"remove\",1]": {
+        "source": "Regulatory expertise and documentation",
+        "target": "Conhecimento regulatório e documentação"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Consumer product team [NEW]",
+        "target": "Equipe de produtos para consumidores [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Brand & marketing expertise [NEW]",
+        "target": "Conhecimento em marcas e marketing [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "App store presence [NEW]",
+        "target": "Presença em lojas de aplicativos [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"remove\",0]": {
+        "source": "Faster triage in overstretched NHS trusts",
+        "target": "Triagem mais rápida em organizações hospitalares sobrecarregadas do NHS"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"remove\",1]": {
+        "source": "Audit trail for clinical governance",
+        "target": "Trilha de auditoria para governança clínica"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Personal health insights & trends [NEW]",
+        "target": "Informações e tendências sobre a saúde pessoal [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "Early warning for lifestyle conditions [NEW]",
+        "target": "Alertas precoces sobre doenças relacionadas ao estilo de vida [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "Integrates with fitness wearables [NEW]",
+        "target": "Integração com dispositivos vestíveis de atividade física [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "Shareable reports for GP visits [NEW]",
+        "target": "Relatórios compartilháveis para consultas com médicos generalistas [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"remove\",0]": {
+        "source": "Dedicated implementation managers per trust",
+        "target": "Gestores de implantação dedicados a cada organização hospitalar"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"remove\",1]": {
+        "source": "24/7 clinical support hotline",
+        "target": "Canal de suporte clínico 24 horas por dia, 7 dias por semana"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "In-app onboarding & tutorials [NEW]",
+        "target": "Orientação inicial e tutoriais no aplicativo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "Community forums & challenges [NEW]",
+        "target": "Fóruns e desafios da comunidade [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "Gamification & streaks [NEW]",
+        "target": "Gamificação e sequências de uso contínuo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerRelationships\",\"add\",3]": {
+        "source": "Push notification engagement [NEW]",
+        "target": "Engajamento por notificações do aplicativo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"remove\",0]": {
+        "source": "Direct sales to NHS procurement teams",
+        "target": "Vendas diretas às equipes de compras do NHS"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"remove\",1]": {
+        "source": "NHS Innovation Accelerator programme",
+        "target": "Programa NHS Innovation Accelerator"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "App Store & Google Play [NEW]",
+        "target": "App Store e Google Play [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Social media advertising [NEW]",
+        "target": "Publicidade em redes sociais [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Health & wellness influencers [NEW]",
+        "target": "Influenciadores de saúde e bem-estar [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"channels\",\"add\",3]": {
+        "source": "Employer wellness programmes [NEW]",
+        "target": "Programas de bem-estar oferecidos por empregadores [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"remove\",0]": {
+        "source": "NHS acute hospital trusts",
+        "target": "Organizações hospitalares do NHS para atendimento de casos agudos"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"remove\",1]": {
+        "source": "NHS mental health trusts",
+        "target": "Organizações de saúde mental do NHS"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"remove\",2]": {
+        "source": "GP federations and primary care networks",
+        "target": "Federações de médicos generalistas e redes de atenção primária"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Health-conscious consumers (35-55) [NEW]",
+        "target": "Consumidores atentos à saúde (35-55 anos) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "Fitness enthusiasts tracking metrics [NEW]",
+        "target": "Praticantes de atividade física que acompanham indicadores [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "Worried well seeking reassurance [NEW]",
+        "target": "Pessoas saudáveis preocupadas com a saúde que buscam tranquilidade [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"customerSegments\",\"add\",3]": {
+        "source": "Corporate wellness participants [NEW]",
+        "target": "Participantes de programas empresariais de bem-estar [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"remove\",0]": {
+        "source": "Clinical trial and validation expenses",
+        "target": "Despesas com estudos clínicos e validação"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"remove\",1]": {
+        "source": "Professional indemnity insurance",
+        "target": "Seguro de responsabilidade civil profissional"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Customer acquisition costs (CAC) [NEW]",
+        "target": "Custos de aquisição de clientes (CAC) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "App development & maintenance [NEW]",
+        "target": "Desenvolvimento e manutenção do aplicativo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "Marketing & influencer spend [NEW]",
+        "target": "Despesas com marketing e influenciadores [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"costStructure\",\"add\",3]": {
+        "source": "App store fees (30%) [NEW]",
+        "target": "Taxas das lojas de aplicativos (30%) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"remove\",0]": {
+        "source": "Annual SaaS licensing (per-trust)",
+        "target": "Licenciamento anual de SaaS (por organização hospitalar)"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"remove\",1]": {
+        "source": "Per-diagnosis transaction fees",
+        "target": "Taxas por diagnóstico realizado"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Freemium with premium subscription (£9.99/mo) [NEW]",
+        "target": "Versão básica gratuita com assinatura avançada (£9.99/mês) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Family plans (£14.99/mo) [NEW]",
+        "target": "Planos familiares (£14.99/mês) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "Insurance partnership revenue share [NEW]",
+        "target": "Participação na receita de parcerias com seguradoras [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"wellness\",\"changes\",\"revenueStreams\",\"add\",3]": {
+        "source": "Anonymised insights licensing [NEW]",
+        "target": "Licenciamento de análises anonimizadas [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"trigger\"]": {
+        "source": "Market feedback shows doctors want assistance not replacement",
+        "target": "O retorno do mercado indica que médicos querem assistência, e não substituição"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"name\"]": {
+        "source": "Diagnostic AI → Clinical Decision Support",
+        "target": "IA para diagnóstico → Apoio à decisão clínica"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Medical education providers [NEW]",
+        "target": "Provedores de educação médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "Royal Colleges (endorsement) [NEW]",
+        "target": "Royal Colleges (recomendação) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Medical indemnity insurers [NEW]",
+        "target": "Seguradoras de responsabilidade civil médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Continuous model improvement from deployment feedback",
+        "target": "Melhoria contínua dos modelos a partir do retorno da implantação"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Evidence synthesis & guideline integration [NEW]",
+        "target": "Síntese de evidências e integração de diretrizes [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Clinical pathway mapping [NEW]",
+        "target": "Mapeamento de linhas de cuidado [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "Continuing education content [NEW]",
+        "target": "Conteúdo de educação continuada [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "Multi-disciplinary team support tools [NEW]",
+        "target": "Ferramentas de apoio a equipes multidisciplinares [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Clinical guideline database [NEW]",
+        "target": "Base de diretrizes clínicas [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Medical education content [NEW]",
+        "target": "Conteúdo de educação médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "Decision audit trail systems [NEW]",
+        "target": "Sistemas de rastreabilidade e auditoria das decisões [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"remove\",0]": {
+        "source": "AI-powered early detection of conditions",
+        "target": "Detecção precoce de doenças com IA"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"remove\",1]": {
+        "source": "Reduces diagnostic false positives by 40%",
+        "target": "Reduz falsos positivos no diagnóstico em 40%"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Supports clinical reasoning (not replaces) [NEW]",
+        "target": "Apoia o raciocínio clínico (sem substituí-lo) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "Surfaces relevant evidence at point of care [NEW]",
+        "target": "Apresenta evidências relevantes no momento do atendimento [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "Reduces variation in care quality [NEW]",
+        "target": "Reduz a variação na qualidade da assistência [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "Defensible decision documentation [NEW]",
+        "target": "Documentação que fundamenta as decisões [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "Clinical champion programmes [NEW]",
+        "target": "Programas de profissionais de referência clínica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "Peer learning networks [NEW]",
+        "target": "Redes de aprendizagem entre pares [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "CPD credit partnerships [NEW]",
+        "target": "Parcerias para créditos de desenvolvimento profissional contínuo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "Royal College endorsements [NEW]",
+        "target": "Recomendações dos Royal Colleges [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Medical education integration [NEW]",
+        "target": "Integração com a educação médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Junior doctor training programmes [NEW]",
+        "target": "Programas de treinamento para médicos em início de carreira [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Individual clinicians (bottom-up adoption) [NEW]",
+        "target": "Profissionais clínicos individualmente (adoção iniciada pelos profissionais) [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "Medical education institutions [NEW]",
+        "target": "Instituições de educação médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "Primary care networks [NEW]",
+        "target": "Redes de atenção primária [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Medical education content licensing [NEW]",
+        "target": "Licenciamento de conteúdo de educação médica [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "Clinical guideline curation [NEW]",
+        "target": "Curadoria de diretrizes clínicas [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "CPD accreditation fees [NEW]",
+        "target": "Taxas de acreditação de desenvolvimento profissional contínuo [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"revenueStreams\",\"remove\",0]": {
+        "source": "Per-diagnosis transaction fees",
+        "target": "Taxas por diagnóstico realizado"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Per-clinician licensing [NEW]",
+        "target": "Licenciamento por profissional clínico [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Education institution deals [NEW]",
+        "target": "Contratos com instituições de ensino [NEW]"
+      },
+      "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "CPD subscription bundles [NEW]",
+        "target": "Pacotes de assinatura de desenvolvimento profissional contínuo [NEW]"
+      }
+    }
   }
 }

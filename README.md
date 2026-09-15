@@ -7,7 +7,7 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 ## Estado atual
 
 - Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
-- Primeiro catálogo: 206 campos traduzidos em sete estruturas examinadas, das quais três foram preservadas integralmente. O restante do conteúdo ainda não foi traduzido por completo.
+- Catálogo estruturado: 360 campos tratados em oito estruturas examinadas, das quais três foram preservadas integralmente. O modelo de negócio Aether tem seus 154 campos textuais cobertos, incluindo seletores de remoção. Os demais modelos de negócio e o restante do conteúdo ainda não foram traduzidos por completo.
 - Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
 - Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
 - Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
