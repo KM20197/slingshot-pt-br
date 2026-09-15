@@ -50690,7 +50690,9 @@ class Game {
   }
   
   showCrisisModal() {
+
     // PV-6: Close all other modals before showing crisis
+    SlingshotContinuingCredit.close();
     this.closeAllModals();
     
     // CRITICAL: Prevent duplicate modals
@@ -50715,11 +50717,11 @@ class Game {
     const region = getRegion();
     
     // Calculate crisis options dynamically
-    const bridgeTerms = Math.min(30, 18 + Math.floor(Math.random() * 12)); // 18-30% dilution
+    // Condições didáticas de crédito emergencial aprovadas para a edição brasileira.
     // Bridge must buy at least one full quarter at current net burn (plus headroom), floor £150k
     const bridgeAmount = Math.max(150, Math.ceil(_crisisNetBurn * 1.25));
     this._crisisBridgeAmount = bridgeAmount;
-    this._crisisBridgeTerms = bridgeTerms; // resolveCrisis must charge the terms SHOWN, not re-roll
+    this.brCrisisOffer = SlingshotCrisisCredit.quote(bridgeAmount, this.turn);
     const layoffSavings = Math.min(this.hiredStaff.length, 2) * 25; // £25k per person
     const canLayoff = this.hiredStaff.length > 0;
     
@@ -50729,22 +50731,22 @@ class Game {
     const pivotCount = this.pivotHistory?.length || 0;
     const outOfPivots = pivotCount >= (this.maxPivots || 2);
     const canPivot = !inM1 && !outOfPivots;
-    const pivotBlockReason = inM1 ? 'Complete M1 first' : outOfPivots ? 'No pivots remaining' : '';
+    const pivotBlockReason = inM1 ? 'Conclua o primeiro marco' : outOfPivots ? 'Mudanças de direção esgotadas' : '';
     
     const modalHTML = `
       <div id="crisisModal" class="fixed inset-0 bg-red-900/95 flex items-center justify-center z-[75] p-4">
-        <div class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl">
+        <div class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl" style="max-height:calc(100vh - 2rem);overflow-y:auto">
           <div class="bg-gradient-to-r from-red-600 to-red-700 p-6 text-white text-center">
             <div class="text-5xl mb-3">🚨</div>
-            <h2 class="text-2xl font-bold mb-2">RUNWAY CRISIS</h2>
-            <p class="text-red-100">Your company has ${runway} quarters of cash remaining.</p>
-            <p class="text-red-200 text-sm mt-2 font-bold">⚠️ This is your one lifeline. After this, the company fails only if it runs out of cash.</p>
+            <h2 class="text-2xl font-bold mb-2">CRISE DE CAIXA</h2>
+            <p class="text-red-100">O caixa da empresa cobre ${Number(runway).toLocaleString('pt-BR')} trimestres de operação, antes das parcelas de empréstimos.</p>
+            <p class="text-red-200 text-sm mt-2 font-bold">⚠️ Esta é sua única oportunidade de recuperação. Depois dela, a falta de caixa encerra a empresa.</p>
           </div>
           
           <div class="p-6">
             <p class="text-slate-700 mb-4 text-center">
-              Every startup gets one chance to recover from disaster. 
-              <strong>Choose wisely—there won't be another.</strong>
+              Cada empresa dispõe de uma oportunidade de recuperação. 
+              <strong>Avalie os efeitos de cada alternativa.</strong>
             </p>
             
             <div class="space-y-3">
@@ -50753,12 +50755,12 @@ class Game {
                 <div class="flex items-start gap-3">
                   <span class="text-2xl">💸</span>
                   <div>
-                    <div class="font-bold text-slate-800">Emergency Investor Bailout</div>
-                    <p class="text-sm text-slate-600 mb-2">Existing investors bail you out on tough terms.</p>
+                    <div class="font-bold text-slate-800">Empréstimo pessoal emergencial</div>
+                    <p class="text-sm text-slate-600 mb-2">Agiotagem fictícia: responsabilidade pessoal, taxa efetiva didática de 120% ao ano, em 4 trimestres. Primeira parcela no próximo trimestre: ${SlingshotCrisisCredit.money(this.brCrisisOffer.firstPayment)}. Total sem atrasos: ${SlingshotCrisisCredit.money(this.brCrisisOffer.totalPayments)}.</p>
                     <div class="flex flex-wrap gap-2 text-xs">
-                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">+${region.currency}${bridgeAmount}k cash</span>
-                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−${bridgeTerms}% equity</span>
-                      <span class="bg-amber-100 text-amber-700 px-2 py-1 rounded">Investor mood −1</span>
+                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">+${SlingshotCrisisCredit.money(bridgeAmount)} no caixa</span>
+                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">Dívida pessoal registrada</span>
+                      <span class="bg-amber-100 text-amber-700 px-2 py-1 rounded">Parcelas a partir do próximo trimestre</span>
                     </div>
                   </div>
                 </div>
@@ -50769,12 +50771,12 @@ class Game {
                 <div class="flex items-start gap-3">
                   <span class="text-2xl">✂️</span>
                   <div>
-                    <div class="font-bold text-slate-800">Emergency Layoffs</div>
-                    <p class="text-sm text-slate-600 mb-2">Cut staff and costs drastically. ${!canLayoff ? '(No staff to lay off)' : ''}</p>
+                    <div class="font-bold text-slate-800">Redução emergencial da equipe</div>
+                    <p class="text-sm text-slate-600 mb-2">Reduza a equipe e os custos. ${!canLayoff ? '(Sem funcionários para desligar)' : ''}</p>
                     <div class="flex flex-wrap gap-2 text-xs">
-                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">+${region.currency}50k emergency cash</span>
-                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">−${region.currency}${layoffSavings}k/q burn</span>
-                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−2 team morale</span>
+                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">+${SlingshotCrisisCredit.money(50)} de caixa liberado</span>
+                      <span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded">−${SlingshotCrisisCredit.money(layoffSavings)}/trimestre de despesas</span>
+                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−2 no ânimo da equipe</span>
                     </div>
                   </div>
                 </div>
@@ -50785,12 +50787,12 @@ class Game {
                 <div class="flex items-start gap-3">
                   <span class="text-2xl">🔄</span>
                   <div>
-                    <div class="font-bold text-slate-800">Desperate Pivot ${!canPivot ? '<span class="text-xs text-red-500 ml-2">🔒 ' + pivotBlockReason + '</span>' : ''}</div>
-                    <p class="text-sm text-slate-600 mb-2">Abandon current progress and restart your milestone with a leaner approach.${!canPivot ? ' <span class="text-red-500">(Not available)</span>' : ''}</p>
+                    <div class="font-bold text-slate-800">Mudança emergencial de direção ${!canPivot ? '<span class="text-xs text-red-500 ml-2">🔒 ' + pivotBlockReason + '</span>' : ''}</div>
+                    <p class="text-sm text-slate-600 mb-2">Reduza o progresso atual e reinicie o marco com uma abordagem mais enxuta.${!canPivot ? ' <span class="text-red-500">(Indisponível)</span>' : ''}</p>
                     <div class="flex flex-wrap gap-2 text-xs">
-                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−50% all stats</span>
-                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−70% milestone progress</span>
-                      <span class="bg-violet-100 text-violet-700 px-2 py-1 rounded">Fresh start</span>
+                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−50% nos atributos</span>
+                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">−70% no progresso do marco</span>
+                      <span class="bg-violet-100 text-violet-700 px-2 py-1 rounded">Novo começo</span>
                     </div>
                   </div>
                 </div>
@@ -50802,11 +50804,11 @@ class Game {
                 <div class="flex items-start gap-3">
                   <span class="text-2xl">🫱</span>
                   <div>
-                    <div class="font-bold text-slate-800">Hold Your Nerve</div>
-                    <p class="text-sm text-slate-600 mb-2">Decline the rescue. You have a plan, or you think you do.</p>
+                    <div class="font-bold text-slate-800">Prosseguir com o caixa atual</div>
+                    <p class="text-sm text-slate-600 mb-2">Recuse a ajuda e execute seu plano de recuperação.</p>
                     <div class="flex flex-wrap gap-2 text-xs">
-                      <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded">No dilution, no layoffs</span>
-                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">Run out of cash and the company fails</span>
+                      <span class="bg-slate-100 text-slate-700 px-2 py-1 rounded">Sem novo empréstimo ou desligamentos</span>
+                      <span class="bg-red-100 text-red-700 px-2 py-1 rounded">A falta de caixa encerra a empresa</span>
                     </div>
                   </div>
                 </div>
@@ -50814,7 +50816,7 @@ class Game {
 
               <!-- Give Up -->
               <button onclick="game.resolveCrisis('shutdown')" class="w-full p-3 border border-slate-200 rounded-lg text-center text-slate-500 hover:bg-slate-100 transition-all text-sm">
-                Accept defeat and wind down the company
+                Encerrar as atividades da empresa
               </button>
             </div>
           </div>
@@ -50824,9 +50826,14 @@ class Game {
     
     document.body.insertAdjacentHTML('beforeend', modalHTML);
     soundManager.playBankruptcyWarning?.() || soundManager.playLowRunway?.();
+  
   }
   
   resolveCrisis(choice) {
+
+    if (!SlingshotCrisisCredit.canResolve(this, choice)) return;
+    if (choice === "bridge") SlingshotCrisisCredit.accept(this);
+
     const modal = document.getElementById('crisisModal');
     if (modal) modal.remove();
 
@@ -50844,34 +50851,11 @@ class Game {
     
     switch(choice) {
       case 'bridge':
-        // Emergency bridge round — use the amount and terms the modal SHOWED
-        const dilution = this._crisisBridgeTerms || Math.min(30, 18 + Math.floor(Math.random() * 12));
-        const bridgeAmount = this._crisisBridgeAmount || 150;
-        this.metrics.cash += bridgeAmount;
-        
-        // Apply proportional dilution to all stakeholders
-        this.applyDilution(dilution, 'Emergency Bailout', 'Bridge', this.turn);
-        this.investorRelationship = Math.max(0, this.investorRelationship - 1);
-        
-        this.log(`🆘 Emergency investor bailout (your one lifeline): +${region.currency}${bridgeAmount}k, −${dilution}% equity`);
-        UIEffects.showToast(`Bailout closed: −${dilution}% equity`, 'bad', '💸');
-        
-        this.journeyEvents.push({
-          turn: this.turn,
-          type: 'crisis_bridge',
-          desc: `Survived runway crisis with emergency investor bailout (${dilution}% dilution)`
-        });
-        
-        // Log funding event for cap table tracking
-        this.logJourneyEvent('funding', {
-          stage: 'Bridge',
-          funderName: 'Emergency Bailout',
-          amount: bridgeAmount,
-          valuation: this.metrics.val,
-          equityGiven: dilution
-        });
+        this.log('🆘 Empréstimo pessoal emergencial contratado. As parcelas começam no próximo trimestre.');
+        UIEffects.showToast('Crédito emergencial registrado', 'bad', '💸');
+        this.journeyEvents.push({turn: this.turn, type: 'crisis_bridge', desc: 'Recuperação com empréstimo pessoal emergencial: taxa didática de 120% ao ano por 4 trimestres.'});
         break;
-        
+
       case 'layoffs':
         // Emergency layoffs + emergency cash
         const toLayoff = Math.min(this.hiredStaff.length, 2);
@@ -50996,6 +50980,7 @@ class Game {
     // - Call completeMilestone() if progress >= 100%
     // - Call failMilestone() -> endGame('missedMilestone') if deadline passed
     // - Call proceedToTurnEnd() -> advanceToNextTurn() to continue normally
+  
   }
 
   renderExecRow() {
@@ -79917,6 +79902,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
         timestamp: Date.now(),
         turn: this.turn,
         crisisLifelineUsed: this.crisisLifelineUsed || false,
+        brCrisisGracePeriod: this.crisisGracePeriod === true,
         companyId: this.company?.id,
         companyName: this.company?.name,
         startupName: this.startupName,
@@ -80053,7 +80039,8 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
       this.grantApplications = s.grantApplications || [];
       this.revenueModel = s.revenueModel;
       this.bankedAP = s.bankedAP || 0;
-      this.crisisLifelineUsed = s.crisisLifelineUsed || false; // P2-6: one lifeline per run, survives reload
+      this.crisisLifelineUsed = s.crisisLifelineUsed || false;
+      this.crisisGracePeriod = s.brCrisisGracePeriod === true;
       this.gameMode = s.gameMode || 'core';
       this.baseAP = s.baseAP || 6;
       this.funderCashMult = (this.gameMode === 'seed') ? 1.5 : 1;
@@ -81026,6 +81013,46 @@ function pitchSlideSVG(kind, companyName) {
 </script>
 <script>
 (function(root,factory){
+ const api=factory(typeof module==='object'&&module.exports?require('./finance'):root.SlingshotFinance,typeof module==='object'&&module.exports?require('./finance-adapter'):root.SlingshotFinanceAdapter);
+ if(typeof module==='object'&&module.exports)module.exports=api;else root.SlingshotCrisisCredit=api;
+})(typeof globalThis!=='undefined'?globalThis:this,function(finance,adapter){
+ 'use strict';
+ const money=v=>(v*1000).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+ function quote(amount,turn){
+  let loan=finance.create('informal',finance.gameUnitsToCents(amount),turn,'br-crisis-credit');
+  let first=0,total=0;
+  for(let i=1;i<=finance.TERMS.informal.quarters;i++){
+   const bill=finance.due(loan,turn+i);if(i===1)first=bill.totalCents;
+   total+=bill.totalCents;loan=finance.settle(loan,turn+i,bill.totalCents).loan;
+  }
+  return Object.freeze({amount,turn,firstPayment:finance.centsToGameUnits(first),totalPayments:finance.centsToGameUnits(total)});
+ }
+ function canResolve(game,choice){
+  if(!game.gameStarted||game.failureState!=='runway_crisis'||game.crisisLifelineUsed)return false;
+  if(choice==='bridge')return !(game.brLoans||[]).some(loan=>loan.id==='br-crisis-credit'||loan.brCrisis===true);
+  if(choice==='layoffs')return game.hiredStaff.length>0;
+  if(choice==='pivot')return game.completedMilestones.length>=1&&(game.pivotHistory?.length||0)<(game.maxPivots||2);
+  if(choice==='decline')return game.metrics.cash>0;
+  return choice==='shutdown';
+ }
+ function accept(game){
+  if(!canResolve(game,'bridge'))throw new Error('O crédito emergencial não está disponível.');
+  const shown=game.brCrisisOffer;
+  if(!shown||shown.turn!==game.turn)throw new Error('Reabra a proposta de crédito emergencial.');
+  const fresh=quote(shown.amount,game.turn);
+  if(fresh.firstPayment!==shown.firstPayment||fresh.totalPayments!==shown.totalPayments)throw new Error('As condições da proposta são inconsistentes.');
+  const candidate={...game,metrics:{...game.metrics},brLoans:[...(game.brLoans||[])]};
+  const loan=adapter.borrow(candidate,'informal',shown.amount,'br-crisis-credit');loan.brCrisis=true;
+  game.metrics.cash=candidate.metrics.cash;game.brLoans=candidate.brLoans;game.brFinanceSummary=candidate.brFinanceSummary;
+  game.brCrisisOffer=null;
+  return fresh;
+ }
+ return Object.freeze({quote,canResolve,accept,money});
+});
+
+</script>
+<script>
+(function(root,factory){
  const api=factory(typeof module==='object'&&module.exports?require('./finance-adapter'):root.SlingshotFinanceAdapter,typeof module==='object'&&module.exports?require('./academic'):root.SlingshotAcademic);
  if(typeof module==='object'&&module.exports)module.exports=api;else root.SlingshotSave=api;
 })(typeof globalThis!=='undefined'?globalThis:this,function(finance,academic){
@@ -81049,6 +81076,9 @@ function pitchSlideSVG(kind, companyName) {
   if(new Set(stages).size!==stages.length)throw new Error('Mais de um empréstimo na mesma etapa de financiamento.');
   if(saved.brLoans.filter(loan=>loan.kind==='family'&&loan.brRoundStage!==undefined).length>1)throw new Error('Crédito posterior de familiares pode ser contratado uma única vez.');
   if(saved.brFundingAPCost!==undefined&&![0,1].includes(saved.brFundingAPCost))throw new Error('Custo de atenção do financiamento inválido.');
+  if(saved.brCrisisGracePeriod!==undefined&&typeof saved.brCrisisGracePeriod!=='boolean')throw new Error('Carência de recuperação inválida.');
+  const crisisLoans=saved.brLoans.filter(loan=>loan.brCrisis!==undefined||loan.id==='br-crisis-credit');
+  if(crisisLoans.length>1||crisisLoans.some(loan=>loan.brCrisis!==true||loan.id!=='br-crisis-credit'||loan.kind!=='informal'||loan.brRoundStage!==undefined)||crisisLoans.length&&saved.crisisLifelineUsed!==true)throw new Error('Crédito emergencial incompatível com a oportunidade de recuperação.');
   academic.fromGame(candidate,'resume');
   return true;
  }

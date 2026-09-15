@@ -7,6 +7,8 @@ const translated=require('./structured-translation.cjs').translate(html,JSON.par
 html=translated.html;
 fs.writeFileSync('artifacts/structured-translation-report.json',JSON.stringify(translated.reports,null,2));
 const edits=[];
+html=require('./crisis-patch.cjs').apply(html);
+edits.push({reason:'Socorro financeiro por empréstimo pessoal fictício com passivo, preservando o valor de referência e a oportunidade única de recuperação',methods:['Game.showCrisisModal','Game.resolveCrisis']});
 html=require('./method-patch.cjs').replaceMethod(html,'renderFundingStages','    SlingshotInitialCredit.render(this);');
 edits.push({reason:'Escolha inicial de recursos próprios ou empréstimos aprovados substitui ofertas de participação societária',method:'Game.renderFundingStages'});
 for(const [method,body] of Object.entries({
@@ -24,6 +26,8 @@ function replaceOnce(before,after,reason) {
  html=html.slice(0,first)+after+html.slice(first+before.length);
  edits.push({reason,before,after});
 }
+replaceOnce('        crisisLifelineUsed: this.crisisLifelineUsed || false,','        crisisLifelineUsed: this.crisisLifelineUsed || false,\n        brCrisisGracePeriod: this.crisisGracePeriod === true,','Preserva a carência da recuperação na partida salva');
+replaceOnce('      this.crisisLifelineUsed = s.crisisLifelineUsed || false; // P2-6: one lifeline per run, survives reload','      this.crisisLifelineUsed = s.crisisLifelineUsed || false;\n      this.crisisGracePeriod = s.brCrisisGracePeriod === true;','Restaura a carência antes de atualizar a interface ou verificar falência');
 replaceOnce('  generateFundingOptions() {','  generateFundingOptions() {\n    return SlingshotContinuingCredit.options(this, this.originalFundingReference());\n  }\n\n  originalFundingReference() {','Preserva o cálculo de capital do original como referência para propostas de empréstimo');
 html=require('./method-patch.cjs').replaceMethod(html,'originalFundingReference',body=>body.replaceAll('game.founderBonuses','this.founderBonuses'));
 edits.push({reason:'Referência de financiamento usa os bônus da própria partida, preservando os cálculos',method:'Game.originalFundingReference'});
@@ -104,7 +108,7 @@ function visit(node,skip=false) {
 }
 visit(tree);
 for(const edit of translations.sort((a,b)=>b.start-a.start))html=html.slice(0,edit.start)+edit.text+html.slice(edit.end);
-const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','save-validation.js','result-code.js','academic-export.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
+const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','crisis-credit.js','save-validation.js','result-code.js','academic-export.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
 replaceOnce('const game = new Game();',libraries+'\n<script>\nconst game = new Game();','Integração dos módulos locais');
 // Close the original script before inserting the new scripts.
 html=html.replace(libraries,'</script>\n'+libraries);

@@ -9,7 +9,7 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 - Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
 - Primeiro catálogo: 206 campos traduzidos em sete estruturas examinadas, das quais três foram preservadas integralmente. O restante do conteúdo ainda não foi traduzido por completo.
 - Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
-- Juros didáticos e amortização implementados. A escolha inicial e a captação normal posterior oferecem empréstimos sem participação societária. As rotas de crise, negociação antiga e remuneração societária da equipe ainda aguardam substituição.
+- Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
 - Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
 - Abertura direta por `file://` ainda exige validação manual. O teste no navegador por servidor local conferiu corretamente um resultado sintético de 3,85/5 e a limpeza dos dados.
 
@@ -51,6 +51,8 @@ São parâmetros didáticos fixos, não ofertas reais. A amortização é consta
 Crédito de ONG exige finalidade compatível explicitamente definida no perfil do empreendimento. Recursos de pesquisa não reembolsáveis, bolsas e empréstimos terão rotas distintas. A implantação dessas rotas ainda não está concluída.
 
 A captação normal posterior permite um contrato por etapa de desenvolvimento, com custo de um ponto de atenção. O valor deriva do cálculo original de captação, preservando seus fatores de etapa e mercado como referência provisória. Contratos, parcelas e limites são restaurados com a partida salva. A revisão independente desta etapa terminou em 9,2/10, com 55 testes aprovados; consulte [o parecer de 15/09/2026](docs/REVISAO_2026-09-15.md).
+
+Na crise de caixa, o socorro financeiro utiliza a modalidade pessoal fictícia a 120% ao ano por quatro trimestres. O painel informa a primeira parcela e o total sem atrasos. A única oportunidade de recuperação e o valor de referência do original foram preservados; dívida e carência sobrevivem à retomada. A revisão desta integração passou de 8,5 para 9,2/10, com 63 testes aprovados. Valores de capital ainda dependem de calibração brasileira.
 
 ## Privacidade e Supabase
 

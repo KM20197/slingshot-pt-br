@@ -22,6 +22,9 @@
   if(new Set(stages).size!==stages.length)throw new Error('Mais de um empréstimo na mesma etapa de financiamento.');
   if(saved.brLoans.filter(loan=>loan.kind==='family'&&loan.brRoundStage!==undefined).length>1)throw new Error('Crédito posterior de familiares pode ser contratado uma única vez.');
   if(saved.brFundingAPCost!==undefined&&![0,1].includes(saved.brFundingAPCost))throw new Error('Custo de atenção do financiamento inválido.');
+  if(saved.brCrisisGracePeriod!==undefined&&typeof saved.brCrisisGracePeriod!=='boolean')throw new Error('Carência de recuperação inválida.');
+  const crisisLoans=saved.brLoans.filter(loan=>loan.brCrisis!==undefined||loan.id==='br-crisis-credit');
+  if(crisisLoans.length>1||crisisLoans.some(loan=>loan.brCrisis!==true||loan.id!=='br-crisis-credit'||loan.kind!=='informal'||loan.brRoundStage!==undefined)||crisisLoans.length&&saved.crisisLifelineUsed!==true)throw new Error('Crédito emergencial incompatível com a oportunidade de recuperação.');
   academic.fromGame(candidate,'resume');
   return true;
  }
