@@ -11,11 +11,25 @@
   if(!Array.isArray(saved.brLoans))throw new Error('Carteira de contratos ausente.');
   const candidate={...saved};
   finance.summary(candidate);
+  const stages=[];
   for(const loan of saved.brLoans){
    if(loan.startQuarter<1||loan.startQuarter>saved.turn||loan.lastSettledQuarter!==Math.max(loan.startQuarter,q))throw new Error('Contrato incompatível com os trimestres da partida.');
+   if(loan.brRoundStage!==undefined){
+    if(!Number.isInteger(loan.brRoundStage)||loan.brRoundStage<0||loan.brRoundStage>2||loan.brRoundStage>(saved.completedMilestones?.length||0))throw new Error('Etapa de financiamento inválida.');
+    stages.push(loan.brRoundStage);
+   }
   }
+  if(new Set(stages).size!==stages.length)throw new Error('Mais de um empréstimo na mesma etapa de financiamento.');
+  if(saved.brLoans.filter(loan=>loan.kind==='family'&&loan.brRoundStage!==undefined).length>1)throw new Error('Crédito posterior de familiares pode ser contratado uma única vez.');
+  if(saved.brFundingAPCost!==undefined&&![0,1].includes(saved.brFundingAPCost))throw new Error('Custo de atenção do financiamento inválido.');
   academic.fromGame(candidate,'resume');
   return true;
  }
- return Object.freeze({validate});
+ function restoreFunding(game,saved){
+  const stages=saved.brLoans.filter(loan=>loan.brRoundStage!==undefined).map(loan=>loan.brRoundStage);
+  game.lastRaiseMilestoneCount=Math.max(-1,...stages);
+  game.hasRaisedExternal=stages.length>0;
+  game.fundingAPCost=saved.brFundingAPCost||0;
+ }
+ return Object.freeze({validate,restoreFunding});
 });

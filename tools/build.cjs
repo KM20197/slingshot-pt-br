@@ -9,20 +9,32 @@ fs.writeFileSync('artifacts/structured-translation-report.json',JSON.stringify(t
 const edits=[];
 html=require('./method-patch.cjs').replaceMethod(html,'renderFundingStages','    SlingshotInitialCredit.render(this);');
 edits.push({reason:'Escolha inicial de recursos próprios ou empréstimos aprovados substitui ofertas de participação societária',method:'Game.renderFundingStages'});
+for(const [method,body] of Object.entries({
+ showRaiseModal:'    SlingshotContinuingCredit.open(this);',
+ closeRaiseModal:'    SlingshotContinuingCredit.close();',
+ showFollowOnTermSheet:'    SlingshotContinuingCredit.open(this);',
+ acceptFunding:'    const offer = SlingshotContinuingCredit.accept(this, optionId, this.originalFundingReference());\n    SlingshotContinuingCredit.close();\n    this.log("Crédito contratado: " + offer.name + ". Parcelas a partir do próximo trimestre.");\n    this.update();'
+})){
+ html=require('./method-patch.cjs').replaceMethod(html,method,body);
+ edits.push({reason:'Financiamento posterior por empréstimos com passivo, sem diluição nem aumento artificial da avaliação da empresa',method:'Game.'+method});
+}
 function replaceOnce(before,after,reason) {
  const first=html.indexOf(before);
  if(first<0||html.indexOf(before,first+before.length)>=0)throw new Error('Âncora ausente ou ambígua: '+before.slice(0,100));
  html=html.slice(0,first)+after+html.slice(first+before.length);
  edits.push({reason,before,after});
 }
+replaceOnce('  generateFundingOptions() {','  generateFundingOptions() {\n    return SlingshotContinuingCredit.options(this, this.originalFundingReference());\n  }\n\n  originalFundingReference() {','Preserva o cálculo de capital do original como referência para propostas de empréstimo');
+html=require('./method-patch.cjs').replaceMethod(html,'originalFundingReference',body=>body.replaceAll('game.founderBonuses','this.founderBonuses'));
+edits.push({reason:'Referência de financiamento usa os bônus da própria partida, preservando os cálculos',method:'Game.originalFundingReference'});
 replaceOnce('<html lang="en-GB">','<html lang="pt-BR">','Idioma da edição');
 replaceOnce('<meta charset="UTF-8">','<meta charset="UTF-8">\n<meta http-equiv="Content-Security-Policy" content="default-src \'self\' data: blob:; script-src \'self\' \'unsafe-inline\' \'unsafe-eval\'; style-src \'self\' \'unsafe-inline\'; img-src \'self\' data: blob:; media-src \'self\' data: blob:; connect-src \'none\'; frame-src \'none\'; object-src \'none\'; base-uri \'self\'">','Bloqueio de conexões automáticas externas e telemetria');
 replaceOnce('    this.turn = 1;','    this.turn = 1;\n    this.brCompletedQuarters = 0;\n    SlingshotFinanceAdapter.init(this);','Contagem explícita para avaliação acadêmica');
 replaceOnce('    this.metrics.cash -= netCost;','    this.metrics.cash -= netCost;\n    SlingshotFinanceAdapter.settleQuarter(this, this.turn);\n    this.brCompletedQuarters = Math.max(this.brCompletedQuarters || 0, this.turn);','Trimestre concluído após apuração operacional e parcelas');
 replaceOnce('  endGame(reason) {','  endGame(reason) {\n    SlingshotExport.capture(this, reason);','Captura de resultado antes dos resets do encerramento');
-replaceOnce("        version: '1.3',","        version: '1.3',\n        brEdition: 1,\n        brLoans: this.brLoans,\n        brCompletedQuarters: this.brCompletedQuarters,",'Persistência da contagem, sem identificação pessoal');
+replaceOnce("        version: '1.3',","        version: '1.3',\n        brEdition: 1,\n        brLoans: this.brLoans,\n        brFundingAPCost: this.fundingAPCost,\n        brCompletedQuarters: this.brCompletedQuarters,",'Persistência da contagem, carteira e atenção financeira, sem identificação pessoal');
 replaceOnce('      const s = JSON.parse(raw);\n      if (!this.runStartTime)', '      const s = JSON.parse(raw);\n      SlingshotSave.validate(s, COMPANIES);\n      if (!this.runStartTime)', 'Validação da edição, nota e contratos antes de qualquer alteração do estado');
-replaceOnce('      this.turn = s.turn;','      this.turn = s.turn;\n      this.brCompletedQuarters = s.brCompletedQuarters;\n      this.brLoans = s.brLoans;\n      SlingshotFinanceAdapter.summary(this);','Restauração da contagem e carteira previamente validadas');
+replaceOnce('      this.turn = s.turn;','      this.turn = s.turn;\n      this.brCompletedQuarters = s.brCompletedQuarters;\n      this.brLoans = s.brLoans;\n      SlingshotFinanceAdapter.summary(this);\n      SlingshotSave.restoreFunding(this, s);','Restauração da contagem, carteira e limites por etapa previamente validados');
 replaceOnce("      UIEffects.showToast(`Game loaded — Quarter ${this.turn}`, 'success');", "      SlingshotExport.reset();\n      UIEffects.showToast(`Game loaded — Quarter ${this.turn}`, 'success');", 'Limpeza do resultado anterior após restauração bem-sucedida');
 replaceOnce('  startGame() {','  startGame() {\n    SlingshotExport.reset();','Limpeza de resultado e operações pendentes ao iniciar partida');
 replaceOnce('function getFunder(funderId) {','function getFunder(funderId) {\n  const brazil = SlingshotInitialCredit.source(funderId, FUNDERS.personalSavings);\n  if (brazil) return brazil;','Fontes iniciais brasileiras sem participação societária');
@@ -92,7 +104,7 @@ function visit(node,skip=false) {
 }
 visit(tree);
 for(const edit of translations.sort((a,b)=>b.start-a.start))html=html.slice(0,edit.start)+edit.text+html.slice(edit.end);
-const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','save-validation.js','result-code.js','academic-export.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
+const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','save-validation.js','result-code.js','academic-export.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
 replaceOnce('const game = new Game();',libraries+'\n<script>\nconst game = new Game();','Integração dos módulos locais');
 // Close the original script before inserting the new scripts.
 html=html.replace(libraries,'</script>\n'+libraries);

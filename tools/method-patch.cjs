@@ -9,7 +9,9 @@ function replaceMethod(html,name,body){
   }});
  }
  if(matches.length!==1)throw new Error('Método ausente ou duplicado: '+name);
- acorn.parse('function test(){'+body+'}',{ecmaVersion:'latest'});
- const {start,end}=matches[0];return html.slice(0,start)+'{\n'+body+'\n  }'+html.slice(end);
+ const {start,end}=matches[0];
+ const replacement=typeof body==='function'?body(html.slice(start+1,end-1)):body;
+ acorn.parse('function test(){'+replacement+'}',{ecmaVersion:'latest'});
+ return html.slice(0,start)+'{\n'+replacement+'\n  }'+html.slice(end);
 }
 module.exports={replaceMethod};

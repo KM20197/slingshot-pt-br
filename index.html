@@ -68112,263 +68112,7 @@ render();
   }
 
   showRaiseModal() {
-    // FN-4 FIX: Prevent raise modal when crisis is active
-    if (document.getElementById('crisisModal')) {
-      this.log("⚠️ Resolve the crisis before raising funds.");
-      return;
-    }
-
-    const canRaise = this.completedMilestones.length > this.lastRaiseMilestoneCount;
-    const currentVal = this.metrics.val;
-    const currentEquity = this.metrics.equity;
-    const stage = this.completedMilestones.length;
-    
-    document.getElementById("raiseCurrentVal").textContent = `£${currentVal}k`;
-    document.getElementById("raiseCurrentEquity").textContent = `${currentEquity.toFixed(1)}%`;
-    
-    // Render competitive position panel
-    this.renderCompetitivePositionPanel();
-    
-    const container = document.getElementById("raiseOptions");
-    
-    if (!canRaise) {
-      container.innerHTML = `
-        <div class="text-center py-8 text-slate-500">
-          <p class="text-lg mb-2">🎯 Complete a milestone to unlock funding</p>
-          <p>You can raise one round per milestone. Complete your next milestone to attract new investors.</p>
-        </div>
-      `;
-    } else if (this.metrics.equity < 10) {
-      container.innerHTML = `
-        <div class="text-center py-8 text-slate-500">
-          <p class="text-lg mb-2">⚠ Insufficient equity</p>
-          <p>You need at least 10% equity to raise funding.</p>
-        </div>
-      `;
-    } else {
-      // Get follow-on investors based on initial funding stage
-      const options = this.generateFundingOptions();
-      
-      // Separate by tier
-      const followOnOptions = options.filter(o => o.tier === 'followon');
-      const bridgeOptions = options.filter(o => o.tier === 'bridge'); // Non-advisory (F&F, crowdfund)
-      const angelOptions = options.filter(o => o.tier === 'angel'); // Advisory angels/seed
-      const initialVCOptions = options.filter(o => o.tier === 'initialVC');
-      const m2Options = options.filter(o => o.tier === 'm2');
-      const m3Options = options.filter(o => o.tier === 'm3');
-      
-      // Check if we're mid-milestone for warning display
-      const anyMidMilestone = options.some(opt => opt.isMidMilestone);
-      
-      // === INVESTOR RELATIONSHIP WARNING ===
-      const relationship = this.investorRelationship || 1;
-      const relLabel = this.getRelationshipLabel(relationship);
-      
-      let warningHtml = '';
-      
-      // Relationship warning (most important - show first)
-      if (relationship === 0) {
-        warningHtml += `
-          <div class="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
-            <p class="text-sm text-red-800">
-              <span class="font-bold">🚫 Investor Relationship: Skeptical</span><br>
-              Your existing investors have lost confidence and <strong>will not offer follow-on funding</strong>. 
-              New investors are wary of your track record and demand worse terms (+20% dilution, −15% cash).
-            </p>
-          </div>
-        `;
-      } else if (relationship >= 2) {
-        const bonusText = relationship === 3 
-          ? "Your champion investors offer excellent terms and vouch for you with new investors."
-          : "Your supportive investors offer favorable terms.";
-        warningHtml += `
-          <div class="mb-4 p-3 bg-emerald-50 border border-emerald-200 rounded-lg">
-            <p class="text-sm text-emerald-800">
-              <span class="font-bold">✨ Investor Relationship: ${relLabel.label}</span><br>
-              ${bonusText}
-            </p>
-          </div>
-        `;
-      }
-      
-      // Mid-milestone warning
-      if (anyMidMilestone) {
-        warningHtml += `
-          <div class="mb-4 p-3 bg-amber-50 border border-amber-200 rounded-lg">
-            <p class="text-sm text-amber-800">
-              <span class="font-bold">⚠️ Mid-Milestone Terms:</span> 
-              New investors demand more equity when you haven't recently hit a milestone. 
-              ${relationship > 0 ? 'Your existing investors offer better terms.' : ''}
-            </p>
-          </div>
-        `;
-      }
-      
-      // Helper to render a funding option card
-      const currentVal = this.metrics.val;
-      const renderFundingCard = (opt) => {
-        const isDownRound = opt.newVal < currentVal;
-        return `
-        <div onclick="game.showFollowOnTermSheet('${opt.id}')" class="hire-card border-2 ${opt.hasAffinity ? 'border-violet-300 bg-violet-50/30' : 'border-slate-200 bg-white'} rounded-xl p-4 cursor-pointer hover:border-indigo-400 hover:shadow-lg transition-all ${opt.isMidMilestone ? 'opacity-90' : ''} ${opt.relationshipPenalty ? 'border-red-200' : ''} ${opt.relationshipBonus ? 'border-emerald-200' : ''} ${isDownRound ? 'border-red-300' : ''}">
-          <div class="flex gap-3">
-            <div class="w-16 h-16 flex-shrink-0">
-              ${opt.photo}
-            </div>
-            <div class="flex-1 min-w-0">
-              <div class="flex items-start justify-between gap-2">
-                <div class="min-w-0">
-                  <div class="font-bold text-slate-800">${opt.name}</div>
-                  <div class="text-xs text-slate-500">${opt.title}</div>
-                  ${opt.hasAffinity ? `<div class="text-xs text-violet-600 font-medium">✨ ${opt.affinityNote}</div>` : ''}
-                  ${opt.relationshipBonus ? '<div class="text-xs text-emerald-600 font-medium">💚 Strong relationship bonus</div>' : ''}
-                  ${opt.relationshipPenalty ? '<div class="text-xs text-red-600 font-medium">⚠️ Reputation penalty</div>' : ''}
-                  ${opt.isMidMilestone ? '<div class="text-xs text-amber-600 font-medium">📈 Mid-milestone premium</div>' : ''}
-                  ${opt.competitiveStatus === 'struggling' ? '<div class="text-xs text-red-600 font-medium">📉 Weak position penalty</div>' : ''}
-                  ${opt.competitiveStatus === 'behind' ? '<div class="text-xs text-orange-600 font-medium">📉 Behind rivals</div>' : ''}
-                  ${opt.competitiveStatus === 'dominant' ? '<div class="text-xs text-emerald-600 font-medium">🏆 Market leader bonus</div>' : ''}
-                  ${isDownRound ? '<div class="text-xs text-red-600 font-medium">📉 Down round</div>' : ''}
-                </div>
-                <div class="text-right flex-shrink-0">
-                  <div class="text-emerald-600 font-bold text-lg">+£${opt.cash}k</div>
-                  <div class="text-xs ${opt.dilution > 30 ? 'text-red-500 font-bold' : opt.dilution > 20 ? 'text-amber-600' : 'text-slate-500'}">
-                    Takes ${opt.dilution}%
-                  </div>
-                  <div class="text-xs ${isDownRound ? 'text-red-500 font-medium' : 'text-slate-400'}">→ £${opt.newVal}k val${isDownRound ? ' ↓' : ''}</div>
-                </div>
-              </div>
-              <div class="mt-2 text-xs text-indigo-600 font-medium">
-                📄 Click to view term sheet
-              </div>
-            </div>
-          </div>
-        </div>
-      `};
-      
-      // Build the complete HTML with sections
-      let html = warningHtml;
-      
-      // M3 Funders Section (show first if available - most prestigious)
-      if (m3Options.length > 0) {
-        html += `
-          <div class="mb-6">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">🏆</span>
-              <h3 class="font-bold text-slate-800">Growth & Strategic Investors</h3>
-              <span class="text-xs bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">Series B+</span>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Major funds and corporate strategic investors offering significant capital and resources.</p>
-            <div class="space-y-3">
-              ${m3Options.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      // M2 Funders Section
-      if (m2Options.length > 0) {
-        html += `
-          <div class="mb-6">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">🚀</span>
-              <h3 class="font-bold text-slate-800">Series A Investors</h3>
-              <span class="text-xs bg-blue-100 text-blue-700 px-2 py-0.5 rounded-full">New This Round</span>
-              <button onclick="event.stopPropagation(); game.showTermHelp('duediligence')" class="w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 text-xs flex items-center justify-center" title="About due diligence">?</button>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Institutional VCs and strategic investors. They'll conduct due diligence before closing.</p>
-            <div class="space-y-3">
-              ${m2Options.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      // Initial VCs Section (unlocked after M1 for bootstrap/angel paths)
-      if (initialVCOptions.length > 0) {
-        html += `
-          <div class="mb-6">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">💼</span>
-              <h3 class="font-bold text-slate-800">Venture Capital</h3>
-              <span class="text-xs bg-indigo-100 text-indigo-700 px-2 py-0.5 rounded-full">Seed / Series A</span>
-              <button onclick="event.stopPropagation(); game.showTermHelp('duediligence')" class="w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 text-xs flex items-center justify-center" title="About due diligence">?</button>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Professional investors now interested after your milestone success. They'll conduct due diligence and provide strategic advice.</p>
-            <div class="space-y-3">
-              ${initialVCOptions.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      // Angel Investors Section (advisory funders for bootstrap players)
-      if (angelOptions.length > 0) {
-        html += `
-          <div class="mb-6">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">👼</span>
-              <h3 class="font-bold text-slate-800">Angel & Seed Investors</h3>
-              <span class="text-xs bg-violet-100 text-violet-700 px-2 py-0.5 rounded-full">First Professional Money</span>
-              <button onclick="event.stopPropagation(); game.showTermHelp('duediligence')" class="w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 text-xs flex items-center justify-center" title="About due diligence">?</button>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Professional investors who'll take a board seat and provide strategic advice. More cash, but more dilution and oversight.</p>
-            <div class="space-y-3">
-              ${angelOptions.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      // Bridge/Simple Capital Section (non-advisory funders)
-      if (bridgeOptions.length > 0) {
-        html += `
-          <div class="mb-4">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">🌉</span>
-              <h3 class="font-bold text-slate-800">Simple Capital</h3>
-              <span class="text-xs bg-amber-100 text-amber-700 px-2 py-0.5 rounded-full">One-Time Only</span>
-              <button onclick="event.stopPropagation(); game.showTermHelp('bridge')" class="w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 text-xs flex items-center justify-center" title="What's a bridge round?">?</button>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Quick funding with minimal strings attached. No strategic advice—but each source can only be tapped once.</p>
-            <div class="space-y-3">
-              ${bridgeOptions.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      // Follow-on Section - for angel/VC paths (existing investors)
-      const isBootstrap = this.fundingStage === 'bootstrap';
-      if (followOnOptions.length > 0) {
-        html += `
-          <div class="mb-4">
-            <div class="flex items-center gap-2 mb-3">
-              <span class="text-lg">🔄</span>
-              <h3 class="font-bold text-slate-800">Bridge Rounds</h3>
-              <span class="text-xs bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full">Existing Network</span>
-              <button onclick="event.stopPropagation(); game.showTermHelp('bridge')" class="w-5 h-5 rounded-full bg-slate-200 hover:bg-slate-300 text-slate-600 text-xs flex items-center justify-center" title="What's a bridge round?">?</button>
-            </div>
-            <p class="text-xs text-slate-500 mb-3">Smaller rounds from your existing investors to extend runway until your next major milestone.</p>
-            <div class="space-y-3">
-              ${followOnOptions.map(renderFundingCard).join('')}
-            </div>
-          </div>
-        `;
-      }
-      
-      container.innerHTML = html;
-    }
-    
-    document.getElementById("raiseModal").classList.remove("hidden");
-    document.getElementById("raiseModal").classList.add("flex");
-    
-    // Trigger funding coaching tips
-    setTimeout(() => {
-      this.showCoachingTip('q4_funding');
-      // If funding tip already seen, show ownership tip
-      if (this.coachingTipsShown.has('q4_funding')) {
-        this.showCoachingTip('q4_ownership');
-      }
-    }, 300);
+    SlingshotContinuingCredit.open(this);
   }
   
   renderCompetitivePositionPanel() {
@@ -68465,6 +68209,11 @@ render();
   }
 
   generateFundingOptions() {
+    return SlingshotContinuingCredit.options(this, this.originalFundingReference());
+  }
+
+  originalFundingReference() {
+
     const val = this.metrics.val;
     const stage = this.completedMilestones.length;
     // MK-6: Graduated market modifiers based on market type/severity
@@ -68535,8 +68284,8 @@ render();
         const funder = FUNDERS[vcId];
         if (!funder) return null;
         
-        const financialMod = game.founderBonuses?.financial > 2 
-          ? 1 - ((game.founderBonuses.financial - 2) * 0.05) 
+        const financialMod = this.founderBonuses?.financial > 2 
+          ? 1 - ((this.founderBonuses.financial - 2) * 0.05) 
           : 1;
         
         const effectiveMidMilestonePenalty = isMidMilestone ? 1.20 : 1.0;
@@ -68603,8 +68352,8 @@ render();
       const dilutionMult = 1 + (stage * 0.15); // Slightly more dilution for later rounds
       
       // Financial skill reduces dilution (5% reduction per point above 2)
-      const financialMod = game.founderBonuses?.financial > 2 
-        ? 1 - ((game.founderBonuses.financial - 2) * 0.05) 
+      const financialMod = this.founderBonuses?.financial > 2 
+        ? 1 - ((this.founderBonuses.financial - 2) * 0.05) 
         : 1;
       
       // Existing investors don't apply mid-milestone penalty (they're supportive)
@@ -68656,8 +68405,8 @@ render();
       const m2Funders = getAvailableM2Funders(ventureId, locationId);
       
       m2Options = m2Funders.map(funder => {
-        const financialMod = game.founderBonuses?.financial > 2 
-          ? 1 - ((game.founderBonuses.financial - 2) * 0.05) 
+        const financialMod = this.founderBonuses?.financial > 2 
+          ? 1 - ((this.founderBonuses.financial - 2) * 0.05) 
           : 1;
         
         const effectiveMidMilestonePenalty = isMidMilestone ? 1.15 : 1.0; // Slightly less penalty for strategic investors
@@ -68705,8 +68454,8 @@ render();
       const m3Funders = getAvailableM3Funders(ventureId);
       
       m3Options = m3Funders.map(funder => {
-        const financialMod = game.founderBonuses?.financial > 2 
-          ? 1 - ((game.founderBonuses.financial - 2) * 0.05) 
+        const financialMod = this.founderBonuses?.financial > 2 
+          ? 1 - ((this.founderBonuses.financial - 2) * 0.05) 
           : 1;
         
         const effectiveMidMilestonePenalty = isMidMilestone ? 1.10 : 1.0; // Even less penalty for growth investors
@@ -68749,6 +68498,7 @@ render();
     
     // Combine all options
     return [...followOnOptions, ...initialVCOptions, ...m2Options, ...m3Options];
+  
   }
   
   // === INVESTOR RELATIONSHIP FUNDING MODIFIER ===
@@ -68794,248 +68544,10 @@ render();
   }
 
   acceptFunding(optionId) {
-   try {
-    const options = this.generateFundingOptions();
-    const opt = options.find(o => o.id === optionId);
-    if (!opt) return;
-
-    // FD-19: Add null check for metrics.equity
-    if (this.metrics.equity == null || isNaN(this.metrics.equity)) {
-      this.recalcFounderEquity();
-    }
-
-    // Check if this deal would result in negative equity
-    const resultingEquity = this.metrics.equity - opt.dilution;
-    if (resultingEquity < 0) {
-      this.showNegativeEquityWarning(opt);
-      return;
-    }
-    
-    // Play funding sound
-    soundManager.playFunding();
-    
-    // Capture previous valuation for down round check
-    const previousVal = this.metrics.val;
-    
-    // Apply funding - cash and valuation
-    this.metrics.cash += opt.cash;
-    this.metrics.val = opt.newVal;
-    this.lastRaiseMilestoneCount = this.completedMilestones.length;
-    
-    // Check for down round
-    const isDownRound = opt.newVal < previousVal;
-    
-    // Fundraising costs time and attention - costs 1 AP this quarter
-    this.fundingAPCost = 1;
-    
-    // === INDEPENDENT FUNDING GRADUATION ===
-    // If this is an independently funded company raising external funding for the first time,
-    // remove the independent funding AP penalty (restore maxAP to standard 6)
-    if (this.funder?.stage === 'bootstrap' && this.funder?.apMod < 0 && !this.hasRaisedExternal) {
-      this.maxAP = this.baseAP; // Reset to standard max AP
-      this.hasRaisedExternal = true;
-      this.log("🎓 Independent funding phase complete! Full operational capacity restored.");
-    }
-    
-    // Check if this is follow-on from existing investor
-    const isExistingInvestor = optionId === 'fof_existing' || optionId === 'fof_insideround';
-    
-    // === LOG RELATIONSHIP IMPACT ===
-    const relationship = this.investorRelationship || 1;
-    if (opt.relationshipPenalty) {
-      this.log("⚠️ Your damaged investor reputation resulted in worse funding terms.");
-    } else if (opt.relationshipBonus) {
-      this.log("💚 Strong investor relationship secured favorable terms.");
-    }
-    
-    // Determine investor name for cap table tracking
-    let investorName = opt.name;
-    let investorPhoto = '💼';
-    
-    if (isExistingInvestor) {
-      // Don't add new investor - boost relationship and attribute to existing
-      const leadInvestor = this.investors.find(inv => inv.isLead);
-      if (leadInvestor) {
-        leadInvestor.relationship = Math.min(5, leadInvestor.relationship + 1);
-        investorName = leadInvestor.funder.name;
-        investorPhoto = leadInvestor.funder.photo || '💼';
-        this.log(`${leadInvestor.funder.name} doubled down on their investment. Relationship strengthened!`);
-        
-        // Getting follow-on from existing investors shows alignment
-        if (this.investorRelationship < 3) {
-          this.updateInvestorRelationship(1, "successful follow-on investment");
-        }
-      }
-    } else {
-      // Find the investor from regular pool, VC unlocked pool, initial VCs, or M2/M3 funders
-      let followOnInvestor = FOLLOW_ON_INVESTORS[this.fundingStage]?.find(f => f.id === optionId);
-      if (!followOnInvestor) {
-        followOnInvestor = FOLLOW_ON_INVESTORS.vc_unlocked?.find(f => f.id === optionId);
-      }
-      
-      // Non-advisory funders: these don't give advice and don't get added to investors array
-      const nonAdvisoryFunders = ['fof_crowdfund', 'fof_fff'];
-      const isNonAdvisory = nonAdvisoryFunders.includes(optionId);
-      
-      // Check initial VCs from FUNDERS
-      let isInitialVC = false;
-      const initialVCIds = ["northstarVC", "pluralVC", "helixCVC", "pembertonVC"];
-      if (!followOnInvestor && initialVCIds.includes(optionId) && FUNDERS[optionId]) {
-        followOnInvestor = FUNDERS[optionId];
-        isInitialVC = true;
-      }
-      
-      // Check M2 funders
-      let isM2Funder = false;
-      let isM3Funder = false;
-      if (!followOnInvestor && M2_FUNDERS[optionId]) {
-        followOnInvestor = M2_FUNDERS[optionId];
-        isM2Funder = true;
-      }
-      
-      // Check M3 funders
-      if (!followOnInvestor && M3_FUNDERS[optionId]) {
-        followOnInvestor = M3_FUNDERS[optionId];
-        isM3Funder = true;
-      }
-      
-      if (followOnInvestor) {
-        investorName = followOnInvestor.name;
-        investorPhoto = followOnInvestor.photo || '💼';
-        
-        // Non-advisory funders (crowdfunding, F&F) don't give advice
-        // They're also one-time options - track that they've been used
-        if (isNonAdvisory) {
-          if (optionId === 'fof_crowdfund') {
-            this.log(`🎉 Crowdfunding campaign successful! ${followOnInvestor.name} raised. This was a one-time opportunity.`);
-          } else if (optionId === 'fof_fff') {
-            this.log(`💝 Friends & Family round secured. They've given everything they can spare.`);
-          } else {
-            this.log(`${followOnInvestor.name} funding secured. They won't provide strategic advice.`);
-          }
-          // Track that this one-time funding source has been used
-          if (!this.usedOneTimeFunding) this.usedOneTimeFunding = [];
-          this.usedOneTimeFunding.push(optionId);
-        } else {
-          // Check if this investor already exists (by name)
-          const existingInvestor = this.investors.find(inv => inv.funder.name === followOnInvestor.name);
-          
-          if (existingInvestor) {
-            // Already invested - just boost relationship
-            existingInvestor.relationship = Math.min(5, existingInvestor.relationship + 1);
-          } else {
-            // Map follow-on investor to a funder-like structure for advice
-            const pseudoFunder = {
-              id: followOnInvestor.id,
-              name: followOnInvestor.name,
-              title: followOnInvestor.title,
-              photo: followOnInvestor.photo,
-              personality: followOnInvestor.personality,
-              dilutionProtection: followOnInvestor.dilutionProtection || 0
-            };
-            
-            // Determine funder type for advice
-            let funderType = this.mapFollowOnToFunderType(followOnInvestor.id);
-            if (isInitialVC || isM2Funder || isM3Funder) {
-              // Initial VCs and M2/M3 funders use their own ID for advice
-              funderType = followOnInvestor.id;
-            }
-            
-            this.investors.push({
-              funder: pseudoFunder,
-              funderId: funderType,
-              relationship: 3,
-              isLead: false,
-              joinedTurn: this.turn,
-              isInitialVC: isInitialVC,
-              isM2: isM2Funder,
-              isM3: isM3Funder,
-              resourceBenefits: followOnInvestor.resourceBenefits || null
-            });
-            
-            // Log special message for CVCs with resource benefits
-            if (followOnInvestor.resourceBenefits) {
-              const benefitCount = Object.keys(followOnInvestor.resourceBenefits).length;
-              this.log(`🎁 ${followOnInvestor.name} brings ${benefitCount} strategic resource${benefitCount > 1 ? 's' : ''} to the partnership.`);
-            }
-          }
-          
-          // Regenerate advice to include new investor
-          this.generateAllFunderAdvice();
-          this.renderFunderAdvice();
-        }
-      }
-    }
-    
-    // Apply proportional dilution to all existing stakeholders
-    this.applyDilution(opt.dilution, investorName, this.fundingStage || 'Follow-on', this.turn);
-
-    // CT-12: Validate equity doesn't exceed 100% after rounding, cap at 95% to leave founder with 5%
-    const totalInvestorEquity = (this.investorStakes || []).reduce((sum, inv) => sum + inv.equity, 0);
-    const totalEmployeeEquity = (this.equityGrants || []).reduce((sum, g) => sum + g.equity, 0);
-    if (totalInvestorEquity + totalEmployeeEquity > 95) {
-      const excess = totalInvestorEquity + totalEmployeeEquity - 95;
-      const lastInvestor = this.investorStakes[this.investorStakes.length - 1];
-      if (lastInvestor) {
-        lastInvestor.equity = Math.max(5, lastInvestor.equity - excess);
-      }
-      this.recalcFounderEquity();
-    }
-
-    // Log journey event for funding
-    this.logJourneyEvent('funding', {
-      stage: this.fundingStage,
-      funderName: investorName,
-      amount: opt.cash,
-      valuation: opt.newVal,
-      equityGiven: opt.dilution
-    });
-    
-    // Apply any bonuses from the investor
-    Object.entries(opt.bonus).forEach(([k, v]) => {
-      // FD-15: Warn if bonus key doesn't match any metric
-      if (this.metrics[k] === undefined) {
-        console.warn('Bonus key not found in metrics:', k);
-      } else {
-        this.metrics[k] += v;
-      }
-    });
-    
-    this.closeRaiseModal();
+    const offer = SlingshotContinuingCredit.accept(this, optionId, this.originalFundingReference());
+    SlingshotContinuingCredit.close();
+    this.log("Crédito contratado: " + offer.name + ". Parcelas a partir do próximo trimestre.");
     this.update();
-    this.renderBoardroom(); // Update boardroom display including AP to show fundraising cost
-    
-    const bonusText = Object.keys(opt.bonus).length > 0 
-      ? ` ${Object.entries(opt.bonus).map(([k,v]) => `${v > 0 ? '+' : ''}${v} ${k}`).join(', ')}.`
-      : '';
-    
-    const downRoundText = isDownRound ? ' 📉 (Down round)' : '';
-    
-    // Due diligence flavor message
-    this.log(`📋 Due diligence complete. ${opt.name} invested £${opt.cash}k for ${opt.dilution}%. New val: £${opt.newVal}k.${bonusText}${downRoundText} (-1 AP for fundraising)`);
-    
-    if (isDownRound) {
-      const valDropPct = (((previousVal - opt.newVal) / previousVal) * 100).toFixed(1);
-      const equityRetention = this.metrics.equity.toFixed(1);
-      this.log(`⚠️ Down round: Valuation down ${valDropPct}% (£${previousVal}k → £${opt.newVal}k). Your equity retention: ${equityRetention}% after ${opt.dilution}% dilution.`);
-    }
-    
-    // Show funding accepted modal
-    this.showFundingAcceptedModal({
-      investorName,
-      investorPhoto,
-      cash: opt.cash,
-      equity: opt.dilution,
-      newVal: opt.newVal,
-      originalCash: opt.cash,
-      originalEquity: opt.dilution,
-      wasNegotiated: false,
-      protection: opt.dilutionProtection || 0
-    });
-   } catch (e) {
-    console.error('ERROR in acceptFunding:', e);
-    alert('Funding error: ' + e.message + '\nCheck browser console for details.');
-   }
   }
 
   // Map follow-on investor types to funder personality types for advice generation
@@ -69073,110 +68585,11 @@ render();
   }
 
   closeRaiseModal() {
-    document.getElementById("raiseModal").classList.add("hidden");
-    document.getElementById("raiseModal").classList.remove("flex");
+    SlingshotContinuingCredit.close();
   }
   
   showFollowOnTermSheet(optionId) {
-    // Store the current options and find the selected one
-    const options = this.generateFundingOptions();
-    const opt = options.find(o => o.id === optionId);
-    if (!opt) return;
-    
-    // Store for later acceptance
-    this.viewingTermSheetOption = opt;
-    
-    // Populate the term sheet modal
-    document.getElementById("termSheetInvestorName").textContent = opt.name;
-    document.getElementById("termSheetInvestorTitle").textContent = opt.title || '';
-    document.getElementById("termSheetPhoto").innerHTML = opt.photo || '💼';
-    document.getElementById("termSheetQuote").textContent = `"${opt.personality}"`;
-    
-    // Key terms
-    document.getElementById("termSheetCash").textContent = `+£${opt.cash}k`;
-    document.getElementById("termSheetEquity").textContent = `${opt.dilution}%`;
-    document.getElementById("termSheetEquity").className = `text-xl font-bold ${opt.dilution > 30 ? 'text-red-500' : opt.dilution > 20 ? 'text-amber-600' : 'text-amber-600'}`;
-    document.getElementById("termSheetValuation").textContent = `£${opt.newVal}k`;
-    
-    // Protection status
-    const protection = opt.dilutionProtection || 0;
-    const protectionEl = document.getElementById("termSheetProtection");
-    if (protection === 1) {
-      protectionEl.className = "inline-flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-medium bg-rose-50 border-rose-200 text-rose-700";
-      protectionEl.innerHTML = `<span>🛡️</span><span>Full Anti-Dilution Protection</span>`;
-    } else if (protection === 0.5) {
-      protectionEl.className = "inline-flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-medium bg-amber-50 border-amber-200 text-amber-700";
-      protectionEl.innerHTML = `<span>🔰</span><span>Partial Anti-Dilution Protection</span>`;
-    } else {
-      protectionEl.className = "inline-flex items-center gap-2 px-3 py-2 rounded-lg border text-sm font-medium bg-emerald-50 border-emerald-200 text-emerald-700";
-      protectionEl.innerHTML = `<span>✓</span><span>No Anti-Dilution Protection (Founder-Friendly)</span>`;
-    }
-    
-    // Benefits
-    const benefitsSection = document.getElementById("termSheetBenefitsSection");
-    if (opt.benefits) {
-      benefitsSection.classList.remove("hidden");
-      document.getElementById("termSheetBenefits").textContent = opt.benefits;
-    } else {
-      benefitsSection.classList.add("hidden");
-    }
-    
-    // Strategic resources
-    const resourcesSection = document.getElementById("termSheetResourcesSection");
-    if (opt.resourceBenefits && Object.keys(opt.resourceBenefits).length > 0) {
-      resourcesSection.classList.remove("hidden");
-      const resourcesHtml = Object.values(opt.resourceBenefits).map(b => `<p class="mt-1">• ${b}</p>`).join('');
-      document.getElementById("termSheetResources").innerHTML = resourcesHtml;
-    } else {
-      resourcesSection.classList.add("hidden");
-    }
-    
-    // Warning badges
-    const warningsEl = document.getElementById("termSheetWarnings");
-    let warningsHtml = '';
-
-    // Down round warning - if new valuation is lower than current
-    const currentVal = this.metrics.val;
-    if (opt.newVal < currentVal) {
-      warningsHtml += `
-        <div class="text-xs bg-red-50 text-red-700 px-3 py-2 rounded-lg border border-red-200 flex items-center gap-2">
-          <span>📉</span>
-          <span><strong>Down Round:</strong> This values your company lower than your current valuation (£${currentVal}k → £${opt.newVal}k)</span>
-          <button onclick="event.stopPropagation(); game.showTermHelp('downround')" class="w-4 h-4 rounded-full bg-red-200 hover:bg-red-300 text-red-700 text-xs flex items-center justify-center flex-shrink-0" title="What's a down round?">?</button>
-        </div>`;
-    }
-
-    // FN-8 FIX: Low valuation note
-    if (opt.newVal < 500) {
-      warningsHtml += `
-        <div class="text-xs bg-blue-50 text-blue-700 px-3 py-2 rounded-lg border border-blue-200">
-          💡 Investors see growth potential beyond current valuation.
-        </div>`;
-    }
-    
-    if (opt.relationshipBonus) {
-      warningsHtml += '<div class="text-xs bg-emerald-50 text-emerald-700 px-3 py-2 rounded-lg border border-emerald-200">💚 Strong relationship bonus - favorable terms</div>';
-    }
-    if (opt.relationshipPenalty) {
-      warningsHtml += '<div class="text-xs bg-red-50 text-red-700 px-3 py-2 rounded-lg border border-red-200">⚠️ Reputation penalty - worse terms due to strained relationships</div>';
-    }
-    if (opt.isMidMilestone) {
-      warningsHtml += '<div class="text-xs bg-amber-50 text-amber-700 px-3 py-2 rounded-lg border border-amber-200">📈 Mid-milestone premium - higher equity due to timing</div>';
-    }
-    if (opt.competitiveStatus === 'struggling') {
-      warningsHtml += '<div class="text-xs bg-red-50 text-red-700 px-3 py-2 rounded-lg border border-red-200">📉 Weak competitive position - investors demanding more equity</div>';
-    }
-    if (opt.competitiveStatus === 'dominant') {
-      warningsHtml += '<div class="text-xs bg-emerald-50 text-emerald-700 px-3 py-2 rounded-lg border border-emerald-200">🏆 Market leader bonus - premium terms for market position</div>';
-    }
-    if (opt.hasAffinity) {
-      warningsHtml += `<div class="text-xs bg-violet-50 text-violet-700 px-3 py-2 rounded-lg border border-violet-200">✨ ${opt.affinityNote}</div>`;
-    }
-    warningsEl.innerHTML = warningsHtml;
-    
-    // Show the modal
-    document.getElementById("followOnTermSheetModal").classList.remove("hidden");
-    document.getElementById("followOnTermSheetModal").classList.add("flex");
+    SlingshotContinuingCredit.open(this);
   }
   
   closeFollowOnTermSheet() {
@@ -80499,6 +79912,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
         version: '1.3',
         brEdition: 1,
         brLoans: this.brLoans,
+        brFundingAPCost: this.fundingAPCost,
         brCompletedQuarters: this.brCompletedQuarters,
         timestamp: Date.now(),
         turn: this.turn,
@@ -80621,6 +80035,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
       this.brCompletedQuarters = s.brCompletedQuarters;
       this.brLoans = s.brLoans;
       SlingshotFinanceAdapter.summary(this);
+      SlingshotSave.restoreFunding(this, s);
       this.metrics = s.metrics;
       this.completedMilestones = s.completedMilestones || [];
       this.milestone = s.milestone;
@@ -81543,6 +80958,74 @@ function pitchSlideSVG(kind, companyName) {
 </script>
 <script>
 (function(root,factory){
+ const api=factory(typeof module==='object'&&module.exports?require('./finance'):root.SlingshotFinance,typeof module==='object'&&module.exports?require('./finance-adapter'):root.SlingshotFinanceAdapter);
+ if(typeof module==='object'&&module.exports)module.exports=api;else root.SlingshotContinuingCredit=api;
+})(typeof globalThis!=='undefined'?globalThis:this,function(finance,adapter){
+ 'use strict';
+ let dialog;
+ const money=v=>(v*1000).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
+ function options(game,reference){
+  if(!game.gameStarted||game.failureState||!Array.isArray(game.completedMilestones))return [];
+  const stage=game.completedMilestones.length;
+  if(stage>=3||game.brCompletedQuarters>=16||(Number.isInteger(game.lastRaiseMilestoneCount)&&stage<=game.lastRaiseMilestoneCount))return [];
+  const loans=game.brLoans||[];const summary=adapter.summary({brLoans:loans});
+  if(loans.some(loan=>loan.brRoundStage===stage))return [];
+  // Keep the original money calculation as a reference, not its equity mechanism.
+  const basis=reference.find(option=>option.id==='fof_fff');
+  if(!basis||!Number.isFinite(basis.cash)||basis.cash<=0)return [];
+  return Object.entries(finance.TERMS).filter(([kind])=>{
+   if(kind==='ngo'&&game.company?.brNgoEligible!==true)return false;
+   if(kind==='family'&&loans.some(loan=>loan.kind==='family'&&loan.brRoundStage!==undefined))return false;
+   return summary.arrears===0||kind==='informal';
+  }).map(([kind,terms])=>{
+   const id='br-round-'+stage+'-'+kind;
+   let loan=finance.create(kind,finance.gameUnitsToCents(basis.cash),game.turn,id);
+   let firstPayment=0,totalPayments=0;
+   for(let i=1;i<=terms.quarters;i++){
+    const bill=finance.due(loan,game.turn+i);if(i===1)firstPayment=bill.totalCents;
+    totalPayments+=bill.totalCents;loan=finance.settle(loan,game.turn+i,bill.totalCents).loan;
+   }
+   return {id,kind,stage,cash:basis.cash,name:terms.name,annualRate:terms.annualRate,quarters:terms.quarters,borrower:terms.borrower,firstPayment:finance.centsToGameUnits(firstPayment),totalPayments:finance.centsToGameUnits(totalPayments)};
+  });
+ }
+ function accept(game,id,reference){
+  const offer=options(game,reference).find(item=>item.id===id);
+  if(!offer)throw new Error('Esta proposta não está disponível para a situação atual da partida.');
+  const candidate={...game,metrics:{...game.metrics},brLoans:[...(game.brLoans||[])]};
+  const loan=adapter.borrow(candidate,offer.kind,offer.cash,offer.id);loan.brRoundStage=offer.stage;
+  // Commit only after the contract and complete portfolio have been validated.
+  game.metrics.cash=candidate.metrics.cash;game.brLoans=candidate.brLoans;game.brFinanceSummary=candidate.brFinanceSummary;
+  game.lastRaiseMilestoneCount=offer.stage;game.fundingAPCost=1;
+  if(game.funder?.stage==='bootstrap'&&game.funder?.apMod<0&&!game.hasRaisedExternal){game.maxAP=game.baseAP;game.hasRaisedExternal=true;}
+  return offer;
+ }
+ function open(game){
+  if(dialog?.open)dialog.close();
+  if(!dialog){dialog=document.createElement('dialog');dialog.id='br-credit-dialog';dialog.style.cssText='width:min(94vw,850px);max-height:90vh;padding:24px;border-radius:16px;background:white;color:#18352c';document.body.append(dialog);}
+  dialog.replaceChildren();
+  const title=document.createElement('h2');title.textContent='Financiamento e compromissos';title.style.cssText='font-size:24px;font-weight:bold';dialog.append(title);
+  const intro=document.createElement('p');intro.textContent='Uma contratação por etapa de desenvolvimento, com custo de 1 ponto de atenção. Taxas didáticas fixas; a primeira parcela vence no próximo trimestre. O principal usa a referência de captação do motor original, ainda sujeita à calibração brasileira.';dialog.append(intro);
+  const summary=adapter.summary(game),balance=document.createElement('p');balance.textContent='Parcelas já previstas para o próximo trimestre: '+money(summary.nextPayments)+'. Valores vencidos: '+money(summary.arrears)+'.';dialog.append(balance);
+  const status=document.createElement('p');status.setAttribute('role','status');
+  const offers=game.generateFundingOptions();
+  if(!offers.length){const note=document.createElement('p');note.textContent='Não há propostas disponíveis. Verifique os compromissos em atraso, conclua a crise atual ou avance para o próximo marco de desenvolvimento.';dialog.append(note);}
+  for(const offer of offers){
+   const card=document.createElement('section');card.style.cssText='padding:16px;margin-top:12px;border:1px solid #a2bbb1;border-radius:10px';
+   const heading=document.createElement('h3');heading.textContent=offer.name;heading.style.fontWeight='bold';
+   const details=document.createElement('p');details.textContent='Crédito: '+money(offer.cash)+'. Taxa efetiva: '+(offer.annualRate*100).toLocaleString('pt-BR')+'% ao ano, em '+offer.quarters+' trimestres. Primeira parcela: '+money(offer.firstPayment)+'. Total previsto sem atrasos: '+money(offer.totalPayments)+'. Responsabilidade: '+(offer.borrower==='owner'?'pessoal do empreendedor.':'da empresa.');
+   const button=document.createElement('button');button.type='button';button.textContent='Contratar '+offer.name;button.style.cssText='padding:10px;background:#185c46;color:white;border-radius:6px';
+   button.onclick=()=>{button.disabled=true;try{game.acceptFunding(offer.id);}catch(error){status.textContent=error.message;button.disabled=false;}};
+   card.append(heading,details,button);dialog.append(card);
+  }
+  dialog.append(status);const closeButton=document.createElement('button');closeButton.type='button';closeButton.textContent='Fechar';closeButton.style.padding='12px';closeButton.onclick=close;dialog.append(closeButton);dialog.showModal();
+ }
+ function close(){dialog?.close();}
+ return Object.freeze({options,accept,open,close});
+});
+
+</script>
+<script>
+(function(root,factory){
  const api=factory(typeof module==='object'&&module.exports?require('./finance-adapter'):root.SlingshotFinanceAdapter,typeof module==='object'&&module.exports?require('./academic'):root.SlingshotAcademic);
  if(typeof module==='object'&&module.exports)module.exports=api;else root.SlingshotSave=api;
 })(typeof globalThis!=='undefined'?globalThis:this,function(finance,academic){
@@ -81555,13 +81038,27 @@ function pitchSlideSVG(kind, companyName) {
   if(!Array.isArray(saved.brLoans))throw new Error('Carteira de contratos ausente.');
   const candidate={...saved};
   finance.summary(candidate);
+  const stages=[];
   for(const loan of saved.brLoans){
    if(loan.startQuarter<1||loan.startQuarter>saved.turn||loan.lastSettledQuarter!==Math.max(loan.startQuarter,q))throw new Error('Contrato incompatível com os trimestres da partida.');
+   if(loan.brRoundStage!==undefined){
+    if(!Number.isInteger(loan.brRoundStage)||loan.brRoundStage<0||loan.brRoundStage>2||loan.brRoundStage>(saved.completedMilestones?.length||0))throw new Error('Etapa de financiamento inválida.');
+    stages.push(loan.brRoundStage);
+   }
   }
+  if(new Set(stages).size!==stages.length)throw new Error('Mais de um empréstimo na mesma etapa de financiamento.');
+  if(saved.brLoans.filter(loan=>loan.kind==='family'&&loan.brRoundStage!==undefined).length>1)throw new Error('Crédito posterior de familiares pode ser contratado uma única vez.');
+  if(saved.brFundingAPCost!==undefined&&![0,1].includes(saved.brFundingAPCost))throw new Error('Custo de atenção do financiamento inválido.');
   academic.fromGame(candidate,'resume');
   return true;
  }
- return Object.freeze({validate});
+ function restoreFunding(game,saved){
+  const stages=saved.brLoans.filter(loan=>loan.brRoundStage!==undefined).map(loan=>loan.brRoundStage);
+  game.lastRaiseMilestoneCount=Math.max(-1,...stages);
+  game.hasRaisedExternal=stages.length>0;
+  game.fundingAPCost=saved.brFundingAPCost||0;
+ }
+ return Object.freeze({validate,restoreFunding});
 });
 
 </script>
