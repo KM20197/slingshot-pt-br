@@ -58,6 +58,10 @@ Na crise de caixa, o socorro financeiro utiliza a modalidade pessoal fictícia a
 
 Foi autorizado reutilizar o projeto existente `slingshot-pt-br`, na organização KM20197 e região São Paulo, mantendo o plano gratuito. A aplicação não cria contas nem grava participantes no Supabase. As políticas e permissões foram restringidas; as tabelas existentes foram preservadas. `supabase/privacy.sql` registra a alteração e `supabase/verify_privacy.sql` contém a verificação transacional.
 
+Para recriar o esquema **somente em um projeto Supabase vazio**, a ordem é `supabase/bootstrap.sql` → `supabase/privacy.sql` → `supabase/seed-reference.sql` (opcional). O bootstrap não deve ser executado no projeto existente. As seis referências do seed são históricas britânicas, com amostra declarada de 260; não representam participantes desta edição nem valores brasileiros. A receita e seus limites estão em [supabase/README.md](supabase/README.md).
+
+`npm test` inclui a recriação e os testes SQL em um PostgreSQL local em memória, por PGlite, sem conexão com o projeto remoto. O teste compara 38 colunas, sete restrições de chave e sete índices com os metadados consultados, verifica RLS e permissões e confirma a preservação das referências. A etapa de documentação e testes locais não aplicou novas migrações ao Supabase.
+
 A telemetria do original foi desativada no build. As conexões automáticas externas são bloqueadas pela política de conteúdo. Resultados e identificação não são enviados ao GitHub ou Supabase pela aplicação.
 
 ## Continuidade

@@ -1,0 +1,356 @@
+{
+  "consulted": "2026-09-15",
+  "project": "slingshot-pt-br",
+  "columns": [
+    {
+      "type": "text",
+      "table": "benchmarks",
+      "column": "student_level",
+      "default": null,
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "text",
+      "table": "benchmarks",
+      "column": "metric",
+      "default": null,
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "numeric",
+      "table": "benchmarks",
+      "column": "p25",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "benchmarks",
+      "column": "p50",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "benchmarks",
+      "column": "p75",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "benchmarks",
+      "column": "sample_size",
+      "default": "0",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "benchmarks",
+      "column": "updated_at",
+      "default": "now()",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "bigint",
+      "table": "outcomes",
+      "column": "id",
+      "default": null,
+      "identity": "a",
+      "nullable": false
+    },
+    {
+      "type": "uuid",
+      "table": "outcomes",
+      "column": "player_id",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "outcomes",
+      "column": "founder_type",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "outcomes",
+      "column": "sector",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "outcomes",
+      "column": "location",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "outcomes",
+      "column": "funding_path",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "outcomes",
+      "column": "end_reason",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "outcomes",
+      "column": "final_turn",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "final_cash",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "outcomes",
+      "column": "milestones_completed",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "total_funding_raised",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "outcomes",
+      "column": "num_funding_rounds",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "peak_valuation",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "final_valuation",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "final_revenue",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "final_customers",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "numeric",
+      "table": "outcomes",
+      "column": "final_staff",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "outcomes",
+      "column": "engagement_mins",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "integer",
+      "table": "outcomes",
+      "column": "engagement_score",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "jsonb",
+      "table": "outcomes",
+      "column": "detail",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "outcomes",
+      "column": "created_at",
+      "default": "now()",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "uuid",
+      "table": "players",
+      "column": "id",
+      "default": "gen_random_uuid()",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "uuid",
+      "table": "players",
+      "column": "session_id",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "players",
+      "column": "nickname",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "players",
+      "column": "student_level",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "boolean",
+      "table": "players",
+      "column": "finished",
+      "default": "false",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "players",
+      "column": "created_at",
+      "default": "now()",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "uuid",
+      "table": "sessions",
+      "column": "id",
+      "default": "gen_random_uuid()",
+      "identity": "",
+      "nullable": false
+    },
+    {
+      "type": "text",
+      "table": "sessions",
+      "column": "join_code",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "text",
+      "table": "sessions",
+      "column": "student_level",
+      "default": null,
+      "identity": "",
+      "nullable": true
+    },
+    {
+      "type": "timestamp with time zone",
+      "table": "sessions",
+      "column": "created_at",
+      "default": "now()",
+      "identity": "",
+      "nullable": false
+    }
+  ],
+  "indexes": [
+    "CREATE UNIQUE INDEX benchmarks_pkey ON public.benchmarks USING btree (student_level, metric)",
+    "CREATE INDEX idx_outcomes_player_id ON public.outcomes USING btree (player_id)",
+    "CREATE UNIQUE INDEX outcomes_pkey ON public.outcomes USING btree (id)",
+    "CREATE INDEX idx_players_session_id ON public.players USING btree (session_id)",
+    "CREATE UNIQUE INDEX players_pkey ON public.players USING btree (id)",
+    "CREATE UNIQUE INDEX sessions_join_code_key ON public.sessions USING btree (join_code)",
+    "CREATE UNIQUE INDEX sessions_pkey ON public.sessions USING btree (id)"
+  ],
+  "constraints": [
+    {
+      "name": "benchmarks_pkey",
+      "table": "benchmarks",
+      "definition": "PRIMARY KEY (student_level, metric)"
+    },
+    {
+      "name": "outcomes_pkey",
+      "table": "outcomes",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "name": "outcomes_player_id_fkey",
+      "table": "outcomes",
+      "definition": "FOREIGN KEY (player_id) REFERENCES players(id)"
+    },
+    {
+      "name": "players_pkey",
+      "table": "players",
+      "definition": "PRIMARY KEY (id)"
+    },
+    {
+      "name": "players_session_id_fkey",
+      "table": "players",
+      "definition": "FOREIGN KEY (session_id) REFERENCES sessions(id)"
+    },
+    {
+      "name": "sessions_join_code_key",
+      "table": "sessions",
+      "definition": "UNIQUE (join_code)"
+    },
+    {
+      "name": "sessions_pkey",
+      "table": "sessions",
+      "definition": "PRIMARY KEY (id)"
+    }
+  ]
+}
