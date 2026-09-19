@@ -32,7 +32,7 @@ function expected(value){
  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,expected(item)]));
  return value;
 }
-const profiles=['aether','vanguard'];
+const profiles=['aether','vanguard','quant'];
 function setup(source,profile){
  const g={company:{id:profile},quarter:1,updateSidebarBMC(){}};
  const context=vm.createContext({BMC_DATA:source.data,console:{log(){},warn(){}}});
@@ -79,7 +79,7 @@ test('actual BMC methods retain the same removals, additions and snapshots acros
  for(const path of paths){
   const before=setup(original,profile),after=setup(brazil,profile);
   for(const step of path){
-   for(const g of [before,after]){if(step[0]==='m')g.applyBMCMilestoneUpdates(Number(step[1]));else g.applyBMCPivot(step);g.quarter++;}
+   for(const g of [before,after]){if(/^m[123]$/.test(step))g.applyBMCMilestoneUpdates(Number(step[1]));else g.applyBMCPivot(step);g.quarter++;}
    assert.deepEqual(JSON.parse(JSON.stringify(after.bmcState)),expected(JSON.parse(JSON.stringify(before.bmcState))),path.join(' / '));
   }
  }

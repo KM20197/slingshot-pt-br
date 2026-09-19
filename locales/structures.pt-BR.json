@@ -856,7 +856,7 @@
     }
   },
   "BMC_DATA": {
-    "classification": "Tradução parcial: perfis completos aether, vanguard. Seletores de remoção e marcador funcional [NEW] preservados. Contexto britânico original; demais perfis e adaptação brasileira pendentes.",
+    "classification": "Tradução parcial: perfis completos aether, vanguard, quant. Seletores de remoção e marcador funcional [NEW] preservados. Contexto britânico original; demais perfis e adaptação brasileira pendentes.",
     "strings": {
       "[\"aether\",\"initial\",\"keyPartners\",0]": {
         "source": "NHS Digital (data access agreements)",
@@ -2113,6 +2113,634 @@
       "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"add\",3]": {
         "source": "Professional services [NEW]",
         "target": "Serviços profissionais [NEW]"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",0]": {
+        "source": "Market data providers (Bloomberg, Refinitiv)",
+        "target": "Fornecedores de dados de mercado (Bloomberg, Refinitiv)"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",1]": {
+        "source": "Prime brokers (Goldman, Morgan Stanley)",
+        "target": "Prestadores de serviços integrados de corretagem (prime brokers: Goldman, Morgan Stanley)"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",2]": {
+        "source": "Cloud providers (low-latency infrastructure)",
+        "target": "Provedores de nuvem (infraestrutura de baixa latência)"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",3]": {
+        "source": "Quantitative researchers (academic partnerships)",
+        "target": "Pesquisadores quantitativos (parcerias acadêmicas)"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",4]": {
+        "source": "Execution venues and exchanges",
+        "target": "Ambientes de negociação e bolsas"
+      },
+      "[\"quant\",\"initial\",\"keyPartners\",5]": {
+        "source": "Compliance technology vendors",
+        "target": "Fornecedores de tecnologia para conformidade regulatória"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",0]": {
+        "source": "Alpha signal research and development",
+        "target": "Pesquisa e desenvolvimento de sinais de alfa"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",1]": {
+        "source": "Backtesting and strategy validation",
+        "target": "Testes com dados históricos e validação de estratégias"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",2]": {
+        "source": "Risk management systems",
+        "target": "Sistemas de gestão de riscos"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",3]": {
+        "source": "Regulatory reporting (MiFID II, FCA)",
+        "target": "Relatórios regulatórios (MiFID II, FCA)"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",4]": {
+        "source": "Low-latency infrastructure optimisation",
+        "target": "Otimização de infraestrutura de baixa latência"
+      },
+      "[\"quant\",\"initial\",\"keyActivities\",5]": {
+        "source": "Investor relations and reporting",
+        "target": "Relacionamento com investidores e elaboração de relatórios"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",0]": {
+        "source": "Proprietary trading algorithms",
+        "target": "Algoritmos próprios de negociação"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",1]": {
+        "source": "Historical market data (tick-level)",
+        "target": "Dados históricos de mercado (registro a registro de negociações e cotações)"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",2]": {
+        "source": "Low-latency infrastructure",
+        "target": "Infraestrutura de baixa latência"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",3]": {
+        "source": "Quantitative research team",
+        "target": "Equipe de pesquisa quantitativa"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",4]": {
+        "source": "Risk management frameworks",
+        "target": "Estruturas de gestão de riscos"
+      },
+      "[\"quant\",\"initial\",\"keyResources\",5]": {
+        "source": "Trading capital / AUM",
+        "target": "Capital para negociação / ativos sob gestão (AUM)"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",0]": {
+        "source": "Uncorrelated alpha generation",
+        "target": "Geração de alfa não correlacionado"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",1]": {
+        "source": "Systematic risk management",
+        "target": "Gestão sistemática de riscos"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",2]": {
+        "source": "Transparent, rules-based strategies",
+        "target": "Estratégias transparentes baseadas em regras"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",3]": {
+        "source": "Institutional-grade compliance",
+        "target": "Conformidade regulatória em padrão institucional"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",4]": {
+        "source": "Consistent performance across market regimes",
+        "target": "Desempenho consistente em diferentes regimes de mercado"
+      },
+      "[\"quant\",\"initial\",\"valueProposition\",5]": {
+        "source": "Lower fees than traditional hedge funds",
+        "target": "Taxas menores que as de fundos tradicionais de investimento alternativo do tipo hedge"
+      },
+      "[\"quant\",\"initial\",\"customerRelationships\",0]": {
+        "source": "Quarterly investor reporting",
+        "target": "Relatórios trimestrais aos investidores"
+      },
+      "[\"quant\",\"initial\",\"customerRelationships\",1]": {
+        "source": "Due diligence sessions",
+        "target": "Reuniões de análise e verificação prévia"
+      },
+      "[\"quant\",\"initial\",\"customerRelationships\",2]": {
+        "source": "Investor advisory committee",
+        "target": "Comitê consultivo de investidores"
+      },
+      "[\"quant\",\"initial\",\"customerRelationships\",3]": {
+        "source": "Annual investor meetings",
+        "target": "Reuniões anuais de investidores"
+      },
+      "[\"quant\",\"initial\",\"customerRelationships\",4]": {
+        "source": "Dedicated investor relations team",
+        "target": "Equipe dedicada ao relacionamento com investidores"
+      },
+      "[\"quant\",\"initial\",\"channels\",0]": {
+        "source": "Prime broker introductions",
+        "target": "Apresentações a potenciais investidores por prestadores de serviços integrados de corretagem (prime brokers)"
+      },
+      "[\"quant\",\"initial\",\"channels\",1]": {
+        "source": "Fund-of-funds allocators",
+        "target": "Alocadores de recursos de fundos de fundos"
+      },
+      "[\"quant\",\"initial\",\"channels\",2]": {
+        "source": "Investor conferences (SALT, Delivering Alpha)",
+        "target": "Conferências para investidores (SALT, Delivering Alpha)"
+      },
+      "[\"quant\",\"initial\",\"channels\",3]": {
+        "source": "Family office networks",
+        "target": "Redes de escritórios de gestão de patrimônio familiar"
+      },
+      "[\"quant\",\"initial\",\"channels\",4]": {
+        "source": "Pension fund consultants",
+        "target": "Consultores de fundos de pensão"
+      },
+      "[\"quant\",\"initial\",\"customerSegments\",0]": {
+        "source": "Hedge fund allocators",
+        "target": "Alocadores de recursos em fundos de investimento alternativo do tipo hedge"
+      },
+      "[\"quant\",\"initial\",\"customerSegments\",1]": {
+        "source": "Pension funds",
+        "target": "Fundos de pensão"
+      },
+      "[\"quant\",\"initial\",\"customerSegments\",2]": {
+        "source": "Family offices",
+        "target": "Escritórios de gestão de patrimônio familiar"
+      },
+      "[\"quant\",\"initial\",\"customerSegments\",3]": {
+        "source": "Sovereign wealth funds",
+        "target": "Fundos soberanos"
+      },
+      "[\"quant\",\"initial\",\"customerSegments\",4]": {
+        "source": "Endowments and foundations",
+        "target": "Fundos patrimoniais e fundações"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",0]": {
+        "source": "Quantitative researcher salaries (50%)",
+        "target": "Salários de pesquisadores quantitativos (50%)"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",1]": {
+        "source": "Market data subscriptions",
+        "target": "Assinaturas de dados de mercado"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",2]": {
+        "source": "Technology infrastructure",
+        "target": "Infraestrutura tecnológica"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",3]": {
+        "source": "Execution and clearing costs",
+        "target": "Custos de execução e compensação de operações"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",4]": {
+        "source": "Compliance and legal fees",
+        "target": "Despesas com conformidade regulatória e assessoria jurídica"
+      },
+      "[\"quant\",\"initial\",\"costStructure\",5]": {
+        "source": "Prime brokerage fees",
+        "target": "Taxas de serviços integrados de corretagem (prime brokerage)"
+      },
+      "[\"quant\",\"initial\",\"revenueStreams\",0]": {
+        "source": "Management fees (1-2% AUM)",
+        "target": "Taxas de administração (1-2% dos ativos sob gestão — AUM)"
+      },
+      "[\"quant\",\"initial\",\"revenueStreams\",1]": {
+        "source": "Performance fees (15-20%)",
+        "target": "Taxas de desempenho (15-20%)"
+      },
+      "[\"quant\",\"initial\",\"revenueStreams\",2]": {
+        "source": "Technology licensing (selective)",
+        "target": "Licenciamento seletivo de tecnologia"
+      },
+      "[\"quant\",\"initial\",\"revenueStreams\",3]": {
+        "source": "Research partnerships",
+        "target": "Parcerias de pesquisa"
+      },
+      "[\"quant\",\"milestoneUpdates\",1,\"valueProposition\",0]": {
+        "source": "3-year backtest shows 18% annual returns [NEW]",
+        "target": "Teste com dados históricos de 3 anos indica retornos anuais de 18% [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",1,\"keyResources\",0]": {
+        "source": "FCA authorisation secured [NEW]",
+        "target": "Autorização da FCA obtida [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",1,\"keyActivities\",0]": {
+        "source": "Risk framework validated [NEW]",
+        "target": "Estrutura de gestão de riscos validada [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",2,\"customerSegments\",0]": {
+        "source": "First institutional LP committed [NEW]",
+        "target": "Compromisso de aporte do primeiro cotista institucional [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",2,\"revenueStreams\",0]": {
+        "source": "£10M AUM generating fees [NEW]",
+        "target": "£10 milhões em ativos sob gestão (AUM) gerando taxas [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",2,\"keyPartners\",0]": {
+        "source": "Prime broker relationship live [NEW]",
+        "target": "Relacionamento ativo com prestador de serviços integrados de corretagem (prime broker) [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",2,\"channels\",0]": {
+        "source": "Fund-of-funds pipeline active [NEW]",
+        "target": "Prospecção ativa de fundos de fundos [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",3,\"customerSegments\",0]": {
+        "source": "Pension fund allocation secured [NEW]",
+        "target": "Alocação de um fundo de pensão confirmada [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",3,\"customerSegments\",1]": {
+        "source": "£100M+ AUM [NEW]",
+        "target": "£100 milhões ou mais em ativos sob gestão (AUM) [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",3,\"valueProposition\",0]": {
+        "source": "Live track record exceeds benchmarks [NEW]",
+        "target": "Histórico de resultados reais supera os referenciais [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",3,\"keyPartners\",0]": {
+        "source": "Multiple prime broker relationships [NEW]",
+        "target": "Relacionamentos com vários prestadores de serviços integrados de corretagem (prime brokers) [NEW]"
+      },
+      "[\"quant\",\"milestoneUpdates\",3,\"keyResources\",0]": {
+        "source": "Institutional-grade operations [NEW]",
+        "target": "Operações em padrão institucional [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"trigger\"]": {
+        "source": "Difficulty raising AUM / Tech is the real asset",
+        "target": "Dificuldade para captar ativos sob gestão (AUM) / A tecnologia é o principal ativo"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"name\"]": {
+        "source": "Hedge Fund → B2B Trading Technology",
+        "target": "Fundo de investimento alternativo do tipo hedge → Tecnologia de negociação para empresas"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyPartners\",\"remove\",0]": {
+        "source": "Fund-of-funds allocators",
+        "target": "Alocadores de recursos de fundos de fundos"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Prime brokers (as distribution) [NEW]",
+        "target": "Prestadores de serviços integrados de corretagem (prime brokers como canal de distribuição) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "Trading technology vendors [NEW]",
+        "target": "Fornecedores de tecnologia de negociação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Market makers [NEW]",
+        "target": "Formadores de mercado [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyPartners\",\"add\",3]": {
+        "source": "Compliance technology vendors [NEW]",
+        "target": "Fornecedores de tecnologia para conformidade regulatória [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Alpha signal research and development",
+        "target": "Pesquisa e desenvolvimento de sinais de alfa"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"remove\",1]": {
+        "source": "Investor relations and reporting",
+        "target": "Relacionamento com investidores e elaboração de relatórios"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Platform development & scaling [NEW]",
+        "target": "Desenvolvimento da plataforma e ampliação de sua capacidade [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Customer onboarding & integration [NEW]",
+        "target": "Implantação inicial e integração de clientes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "API development [NEW]",
+        "target": "Desenvolvimento de APIs [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "Compliance feature development [NEW]",
+        "target": "Desenvolvimento de recursos de conformidade regulatória [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyResources\",\"remove\",0]": {
+        "source": "Trading capital / AUM",
+        "target": "Capital para negociação / ativos sob gestão (AUM)"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Scalable technology platform [NEW]",
+        "target": "Plataforma tecnológica com capacidade de expansão [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Customer success team [NEW]",
+        "target": "Equipe de acompanhamento do sucesso dos clientes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "Integration documentation [NEW]",
+        "target": "Documentação de integração [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"remove\",0]": {
+        "source": "Uncorrelated alpha generation",
+        "target": "Geração de alfa não correlacionado"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"remove\",1]": {
+        "source": "Lower fees than traditional hedge funds",
+        "target": "Taxas menores que as de fundos tradicionais de investimento alternativo do tipo hedge"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Institutional-grade trading AI, accessible [NEW]",
+        "target": "IA acessível para negociação em padrão institucional [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "Faster deployment than building in-house [NEW]",
+        "target": "Implantação mais rápida que o desenvolvimento interno [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "Proven performance track record [NEW]",
+        "target": "Histórico de desempenho comprovado [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "Regulatory-compliant out of box [NEW]",
+        "target": "Conformidade regulatória desde a instalação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"remove\",0]": {
+        "source": "Quarterly investor reporting",
+        "target": "Relatórios trimestrais aos investidores"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"remove\",1]": {
+        "source": "Due diligence sessions",
+        "target": "Reuniões de análise e verificação prévia"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "Technical account managers [NEW]",
+        "target": "Gerentes técnicos de contas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "24/7 platform support [NEW]",
+        "target": "Suporte à plataforma 24 horas por dia, 7 dias por semana [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "Customer advisory board [NEW]",
+        "target": "Conselho consultivo de clientes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerRelationships\",\"add\",3]": {
+        "source": "Quarterly product roadmap reviews [NEW]",
+        "target": "Revisões trimestrais do plano de evolução do produto [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"remove\",0]": {
+        "source": "Prime broker introductions",
+        "target": "Apresentações a potenciais investidores por prestadores de serviços integrados de corretagem (prime brokers)"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"remove\",1]": {
+        "source": "Fund-of-funds allocators",
+        "target": "Alocadores de recursos de fundos de fundos"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "Direct enterprise sales [NEW]",
+        "target": "Vendas diretas para empresas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Trading technology conferences [NEW]",
+        "target": "Conferências de tecnologia de negociação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Prime broker partnerships [NEW]",
+        "target": "Parcerias com prestadores de serviços integrados de corretagem (prime brokers) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"channels\",\"add\",3]": {
+        "source": "Fintech marketplaces [NEW]",
+        "target": "Plataformas de comercialização de soluções de tecnologia financeira [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"remove\",0]": {
+        "source": "Hedge fund allocators",
+        "target": "Alocadores de recursos em fundos de investimento alternativo do tipo hedge"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"remove\",1]": {
+        "source": "Pension funds",
+        "target": "Fundos de pensão"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"remove\",2]": {
+        "source": "Sovereign wealth funds",
+        "target": "Fundos soberanos"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Asset managers (traditional) [NEW]",
+        "target": "Gestores tradicionais de ativos [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "Wealth managers [NEW]",
+        "target": "Gestores de patrimônio [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "Regional banks [NEW]",
+        "target": "Bancos regionais [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"customerSegments\",\"add\",3]": {
+        "source": "Corporate treasuries [NEW]",
+        "target": "Tesourarias de empresas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"remove\",0]": {
+        "source": "Execution and clearing costs",
+        "target": "Custos de execução e compensação de operações"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"remove\",1]": {
+        "source": "Prime brokerage fees",
+        "target": "Taxas de serviços integrados de corretagem (prime brokerage)"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Platform infrastructure [NEW]",
+        "target": "Infraestrutura da plataforma [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "Sales & customer success [NEW]",
+        "target": "Vendas e acompanhamento do sucesso dos clientes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "Compliance certifications [NEW]",
+        "target": "Certificações de conformidade regulatória [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"costStructure\",\"add\",3]": {
+        "source": "Integration support [NEW]",
+        "target": "Suporte à integração [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"remove\",0]": {
+        "source": "Management fees (1-2% AUM)",
+        "target": "Taxas de administração (1-2% dos ativos sob gestão — AUM)"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"remove\",1]": {
+        "source": "Performance fees (15-20%)",
+        "target": "Taxas de desempenho (15-20%)"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Platform subscription (monthly) [NEW]",
+        "target": "Assinatura mensal da plataforma [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Per-trade transaction fees [NEW]",
+        "target": "Taxas por operação realizada [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "Implementation fees [NEW]",
+        "target": "Taxas de implantação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"b2bTech\",\"changes\",\"revenueStreams\",\"add\",3]": {
+        "source": "Premium support tiers [NEW]",
+        "target": "Planos de suporte avançado [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"trigger\"]": {
+        "source": "Regulatory pressure on AI trading / Crypto opportunity",
+        "target": "Pressão regulatória sobre a negociação por IA / Oportunidade em criptoativos"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"name\"]": {
+        "source": "Equities → Crypto/Digital Assets",
+        "target": "Ações → Criptoativos/ativos digitais"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"remove\",0]": {
+        "source": "Prime brokers (Goldman, Morgan Stanley)",
+        "target": "Prestadores de serviços integrados de corretagem (prime brokers: Goldman, Morgan Stanley)"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"remove\",1]": {
+        "source": "Execution venues and exchanges",
+        "target": "Ambientes de negociação e bolsas"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Crypto exchanges (Binance, Coinbase) [NEW]",
+        "target": "Plataformas de negociação de criptoativos (Binance, Coinbase) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "Custodians (Fireblocks, BitGo) [NEW]",
+        "target": "Custodiantes (Fireblocks, BitGo) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Blockchain analytics providers [NEW]",
+        "target": "Fornecedores de análises de blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyPartners\",\"add\",3]": {
+        "source": "DeFi protocol teams [NEW]",
+        "target": "Equipes de protocolos de finanças descentralizadas (DeFi) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Regulatory reporting (MiFID II, FCA)",
+        "target": "Relatórios regulatórios (MiFID II, FCA)"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Multi-chain integration [NEW]",
+        "target": "Integração com várias redes blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Smart contract interaction [NEW]",
+        "target": "Interação com contratos inteligentes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "24/7 market monitoring (no close) [NEW]",
+        "target": "Monitoramento do mercado 24 horas por dia, 7 dias por semana (sem fechamento) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "DeFi yield strategies [NEW]",
+        "target": "Estratégias de rendimento em finanças descentralizadas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyResources\",\"remove\",0]": {
+        "source": "Low-latency infrastructure",
+        "target": "Infraestrutura de baixa latência"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Crypto custody solutions [NEW]",
+        "target": "Soluções de custódia de criptoativos [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Blockchain development expertise [NEW]",
+        "target": "Conhecimento em desenvolvimento de blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "Multi-exchange connectivity [NEW]",
+        "target": "Conectividade com várias plataformas de negociação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Alpha in inefficient crypto markets [NEW]",
+        "target": "Alfa em mercados de criptoativos ineficientes [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "24/7 automated trading [NEW]",
+        "target": "Negociação automatizada 24 horas por dia, 7 dias por semana [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "DeFi yield optimisation [NEW]",
+        "target": "Otimização de rendimentos em finanças descentralizadas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "Cross-exchange arbitrage [NEW]",
+        "target": "Arbitragem entre plataformas de negociação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "Crypto-native communication (Discord, Telegram) [NEW]",
+        "target": "Comunicação nos canais da comunidade de criptoativos (Discord, Telegram) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "Real-time performance dashboards [NEW]",
+        "target": "Painéis de desempenho em tempo real [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "Transparent on-chain verification [NEW]",
+        "target": "Verificação transparente na blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"channels\",\"remove\",0]": {
+        "source": "Investor conferences (SALT, Delivering Alpha)",
+        "target": "Conferências para investidores (SALT, Delivering Alpha)"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "Crypto conferences (Token2049, Consensus) [NEW]",
+        "target": "Conferências de criptoativos (Token2049, Consensus) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Crypto Twitter / CT [NEW]",
+        "target": "Comunidade de criptoativos no Twitter / CT [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Crypto fund networks [NEW]",
+        "target": "Redes de fundos de criptoativos [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"remove\",0]": {
+        "source": "Pension funds",
+        "target": "Fundos de pensão"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"remove\",1]": {
+        "source": "Endowments and foundations",
+        "target": "Fundos patrimoniais e fundações"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Crypto hedge funds [NEW]",
+        "target": "Fundos de investimento alternativo do tipo hedge em criptoativos [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "DAOs & treasuries [NEW]",
+        "target": "Organizações autônomas descentralizadas (DAOs) e tesourarias [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "High-net-worth crypto holders [NEW]",
+        "target": "Detentores de criptoativos com elevado patrimônio [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"customerSegments\",\"add\",3]": {
+        "source": "Crypto exchanges (market making) [NEW]",
+        "target": "Plataformas de negociação de criptoativos (formação de mercado) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"costStructure\",\"remove\",0]": {
+        "source": "Market data subscriptions",
+        "target": "Assinaturas de dados de mercado"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Exchange API costs [NEW]",
+        "target": "Custos das APIs de plataformas de negociação [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "Blockchain gas fees [NEW]",
+        "target": "Taxas de processamento de transações em blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "Multi-chain infrastructure [NEW]",
+        "target": "Infraestrutura para várias redes blockchain [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Higher performance fees (crypto standard) [NEW]",
+        "target": "Taxas de desempenho mais altas (padrão do mercado de criptoativos) [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Market making revenue [NEW]",
+        "target": "Receita com formação de mercado [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "DeFi yield share [NEW]",
+        "target": "Participação nos rendimentos de finanças descentralizadas [NEW]"
+      },
+      "[\"quant\",\"pivots\",\"crypto\",\"changes\",\"revenueStreams\",\"add\",3]": {
+        "source": "Token incentive alignment [NEW]",
+        "target": "Alinhamento de incentivos por tokens [NEW]"
       }
     }
   }
