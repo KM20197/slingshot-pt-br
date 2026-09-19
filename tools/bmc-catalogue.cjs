@@ -41,7 +41,8 @@ module.exports=function compile(profile,pairs){
  }
  const ordered=Object.fromEntries(Object.keys(original).flatMap(id=>Object.entries(combined).filter(([path])=>JSON.parse(path)[0]===id)));
  const profiles=[...new Set(Object.keys(ordered).map(path=>JSON.parse(path)[0]))];
- catalogue.BMC_DATA={classification:'Tradução parcial: perfis completos '+profiles.join(', ')+'. Seletores de remoção e marcador funcional [NEW] preservados. Contexto britânico original; demais perfis e adaptação brasileira pendentes.',strings:ordered};
+ const complete=profiles.length===Object.keys(original).length;
+ catalogue.BMC_DATA={classification:(complete?'Tradução dos perfis completos ':'Tradução parcial: perfis completos ')+profiles.join(', ')+'. Seletores de remoção e marcador funcional [NEW] preservados. Contexto britânico original; '+(complete?'adaptação brasileira pendente.':'demais perfis e adaptação brasileira pendentes.'),strings:ordered};
  fs.writeFileSync('locales/structures.pt-BR.json',JSON.stringify(catalogue,null,2)+'\n');
  console.log('BMC_DATA.'+profile+': '+Object.keys(strings).length+' campos tratados.');
 };

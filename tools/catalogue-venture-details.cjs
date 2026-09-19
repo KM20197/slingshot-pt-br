@@ -18,7 +18,7 @@ const targets={
  },
  quant:{
   product:'Você desenvolve sistemas de IA que negociam automaticamente nos mercados financeiros. O software analisa dados de mercado, identifica padrões e executa operações sem intervenção humana. O objetivo é obter retornos consistentes e controlar o risco.',
-  customers:'Fundos de investimento alternativos, fundos de pensão, escritórios de gestão de patrimônio familiar e gestores de patrimônio. Eles distribuem recursos entre estratégias e procuram retornos que não acompanhem exatamente o mercado de ações. Você apresentará propostas a comitês de investimento que exigem um histórico de resultados.',
+  customers:'Fundos de investimento alternativo do tipo hedge, fundos de pensão, escritórios de gestão de patrimônio familiar e gestores de patrimônio. Eles distribuem recursos entre estratégias e procuram retornos que não acompanhem exatamente o mercado de ações. Você apresentará propostas a comitês de investimento que exigem um histórico de resultados.',
   revenue:'Taxas de administração de 1-2% dos ativos ao ano e taxas de desempenho de 15-20% dos lucros. É necessário captar ativos sob gestão para gerar receita expressiva. Algumas empresas também licenciam sua tecnologia para outros operadores.',
   whyWork:['Investidores procuram estratégias baseadas em IA','Londres concentra profissionais experientes em finanças','Há um marco regulatório definido pela FCA','Fundos de pensão ampliam a alocação em investimentos alternativos'],
   whyHard:['No início, você não tem histórico de resultados','São necessários 2-3 anos de resultados para captar valores expressivos','Um trimestre ruim pode afastar investidores','Fundos quantitativos estabelecidos têm décadas de dados','Os custos de infraestrutura são elevados'],

@@ -32,7 +32,7 @@ function expected(value){
  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,expected(item)]));
  return value;
 }
-const profiles=['aether','vanguard','quant'];
+const profiles=['aether','vanguard','quant','dream','cyber','terra','legal','edu','voed','arene','sorgente','avam'];
 function setup(source,profile){
  const g={company:{id:profile},quarter:1,updateSidebarBMC(){}};
  const context=vm.createContext({BMC_DATA:source.data,console:{log(){},warn(){}}});

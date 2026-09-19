@@ -7,7 +7,7 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 ## Estado atual
 
 - Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
-- Catálogo estruturado: 677 campos tratados, com 675 alterações de texto. Sete estruturas foram examinadas; a oitava está em andamento, com os modelos Aether (154 campos), Vanguard (160 campos) e QuantFlow (157 campos) cobertos, incluindo seletores de remoção. Três estruturas de identificadores ou gráficos foram preservadas integralmente. Os outros nove modelos de negócio e o restante do conteúdo ainda não foram traduzidos por completo.
+- Catálogo estruturado: 2.042 campos tratados, com 2.038 alterações de texto. As nove primeiras estruturas foram examinadas; três estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Os nomes e as descrições dos cinco modelos de receita também foram traduzidos. O restante do conteúdo ainda não foi traduzido por completo.
 - Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
 - Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
 - Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
@@ -29,7 +29,7 @@ Abra `index.html` para testar o jogo ou `professor.html` para conferir um result
 
 O build parte de `source/index.original.html`, aplica o catálogo por caminho de campo e as exceções aprovadas e verifica os scripts com Acorn e `node --check`. As bibliotecas de execução estão em `vendor/`; dependências de desenvolvimento não são necessárias para abrir os HTMLs já gerados.
 
-Os catálogos dos três primeiros modelos podem ser regenerados com `node tools/catalogue-bmc-aether.cjs`, `node tools/catalogue-bmc-vanguard.cjs` e `node tools/catalogue-bmc-quant.cjs`, seguidos de `npm run verify`. O gerador verifica traduções repetidas e colisões antes de gravar. A validação de 19/09/2026 aprovou 77 testes, incluindo a reprodução exata do HTML em uma pasta nova; após os ajustes terminológicos de QuantFlow, os seis testes específicos de BMC foram repetidos com sucesso. Consulte [a revisão desta etapa](docs/REVISAO_2026-09-19.md).
+Cada catálogo BMC pode ser regenerado com `node tools/catalogue-bmc-<perfil>.cjs`, substituindo `<perfil>` por `aether`, `vanguard`, `quant`, `dream`, `cyber`, `terra`, `legal`, `edu`, `voed`, `arene`, `sorgente` ou `avam`. Os modelos de receita usam `node tools/catalogue-revenue-models.cjs`. Depois, execute `npm run verify`. O gerador BMC verifica traduções repetidas e colisões antes de gravar. A validação de 19/09/2026 aprovou 86 testes, incluindo a reprodução exata do HTML em uma pasta nova e 60 sequências comparadas com os métodos originais dos modelos de negócio. Consulte [a revisão desta etapa](docs/REVISAO_2026-09-19.md).
 
 ## Nota e entrega ao professor
 
