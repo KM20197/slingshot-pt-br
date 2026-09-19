@@ -32,13 +32,14 @@ function expected(value){
  if(value&&typeof value==='object')return Object.fromEntries(Object.entries(value).map(([key,item])=>[key,expected(item)]));
  return value;
 }
-function setup(source){
- const g={company:{id:'aether'},quarter:1,updateSidebarBMC(){}};
+const profiles=['aether','vanguard'];
+function setup(source,profile){
+ const g={company:{id:profile},quarter:1,updateSidebarBMC(){}};
  const context=vm.createContext({BMC_DATA:source.data,console:{log(){},warn(){}}});
  for(const [name,code] of Object.entries(source.methods))g[name]=vm.runInContext('('+code+')',context);
  g.initBMC();return g;
 }
-test('Aether catalogue covers every source string at its exact path',()=>{
+for(const profile of profiles)test(profile+' catalogue covers every source string at its exact path',()=>{
  const leaves={};
  function visit(value,path){
   if(typeof value==='string'){leaves[JSON.stringify(path)]=value;return;}
@@ -46,8 +47,8 @@ test('Aether catalogue covers every source string at its exact path',()=>{
    visit(child,[...path,Array.isArray(value)||/^\d+$/.test(key)?Number(key):key]);
   }
  }
- visit(original.data.aether,['aether']);
- const entries=Object.fromEntries(Object.entries(catalogue).filter(([path])=>JSON.parse(path)[0]==='aether'));
+ visit(original.data[profile],[profile]);
+ const entries=Object.fromEntries(Object.entries(catalogue).filter(([path])=>JSON.parse(path)[0]===profile));
  assert.deepEqual(Object.keys(entries).sort(),Object.keys(leaves).sort());
  for(const [path,source] of Object.entries(leaves)){
   assert.equal(entries[path].source,source,path);
@@ -56,10 +57,11 @@ test('Aether catalogue covers every source string at its exact path',()=>{
  }
 });
 
-test('BMC Aether translation preserves all markers and leaves other profiles and methods untouched',()=>{
+test('BMC translation preserves all markers and leaves unselected profiles and methods untouched',()=>{
  assert.deepEqual(original.methods,brazil.methods);
- for(const id of Object.keys(original.data))if(id!=='aether')assert.deepEqual(original.data[id],brazil.data[id]);
- assert.deepEqual(expected(original.data.aether),brazil.data.aether);
+ assert.deepEqual([...new Set(Object.keys(catalogue).map(path=>JSON.parse(path)[0]))],profiles);
+ for(const id of Object.keys(original.data))if(!profiles.includes(id))assert.deepEqual(original.data[id],brazil.data[id]);
+ for(const profile of profiles)assert.deepEqual(expected(original.data[profile]),brazil.data[profile]);
  for(const {source,target} of Object.values(catalogue))assert.equal(source.includes('[NEW]'),target.includes('[NEW]'));
 });
 test('distinct BMC source selectors retain distinct translations without semantic collisions',()=>{
@@ -71,12 +73,15 @@ test('distinct BMC source selectors retain distinct translations without semanti
  }
 });
 test('actual BMC methods retain the same removals, additions and snapshots across milestones and pivots',()=>{
- const paths=[['m1','m2','m3'],['wellness'],['decisionSupport'],['m1','wellness','m2','decisionSupport','m3'],['m1','decisionSupport','m2','wellness','m3']];
+ for(const profile of profiles){
+ const [first,second]=Object.keys(original.data[profile].pivots);
+ const paths=[['m1','m2','m3'],[first],[second],['m1',first,'m2',second,'m3'],['m1',second,'m2',first,'m3']];
  for(const path of paths){
-  const before=setup(original),after=setup(brazil);
+  const before=setup(original,profile),after=setup(brazil,profile);
   for(const step of path){
    for(const g of [before,after]){if(step[0]==='m')g.applyBMCMilestoneUpdates(Number(step[1]));else g.applyBMCPivot(step);g.quarter++;}
    assert.deepEqual(JSON.parse(JSON.stringify(after.bmcState)),expected(JSON.parse(JSON.stringify(before.bmcState))),path.join(' / '));
   }
+ }
  }
 });

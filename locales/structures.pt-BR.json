@@ -856,7 +856,7 @@
     }
   },
   "BMC_DATA": {
-    "classification": "Tradução parcial: subestrutura Aether completa, incluindo seletores de remoção e marcador funcional [NEW] preservado. Contexto britânico original; demais empreendimentos e adaptação brasileira pendentes.",
+    "classification": "Tradução parcial: perfis completos aether, vanguard. Seletores de remoção e marcador funcional [NEW] preservados. Contexto britânico original; demais perfis e adaptação brasileira pendentes.",
     "strings": {
       "[\"aether\",\"initial\",\"keyPartners\",0]": {
         "source": "NHS Digital (data access agreements)",
@@ -1473,6 +1473,646 @@
       "[\"aether\",\"pivots\",\"decisionSupport\",\"changes\",\"revenueStreams\",\"add\",2]": {
         "source": "CPD subscription bundles [NEW]",
         "target": "Pacotes de assinatura de desenvolvimento profissional contínuo [NEW]"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",0]": {
+        "source": "Warehouse management system vendors",
+        "target": "Fornecedores de sistemas de gestão de armazéns"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",1]": {
+        "source": "Industrial robot manufacturers (FANUC, ABB, KUKA)",
+        "target": "Fabricantes de robôs industriais (FANUC, ABB, KUKA)"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",2]": {
+        "source": "Safety certification bodies (TÜV, BSI)",
+        "target": "Organismos de certificação de segurança (TÜV, BSI)"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",3]": {
+        "source": "Systems integrators",
+        "target": "Integradores de sistemas"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",4]": {
+        "source": "Component suppliers (sensors, motors)",
+        "target": "Fornecedores de componentes (sensores, motores)"
+      },
+      "[\"vanguard\",\"initial\",\"keyPartners\",5]": {
+        "source": "Logistics consultancies",
+        "target": "Consultorias de logística"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",0]": {
+        "source": "Robot perception R&D (computer vision, SLAM)",
+        "target": "Pesquisa e desenvolvimento de percepção robótica (visão computacional, SLAM)"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",1]": {
+        "source": "Simulation and testing environments",
+        "target": "Ambientes de simulação e testes"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",2]": {
+        "source": "Safety certification processes",
+        "target": "Processos de certificação de segurança"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",3]": {
+        "source": "Hardware-software co-development",
+        "target": "Desenvolvimento conjunto de hardware e software"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",4]": {
+        "source": "Customer deployment and integration",
+        "target": "Implantação e integração no cliente"
+      },
+      "[\"vanguard\",\"initial\",\"keyActivities\",5]": {
+        "source": "Preventive maintenance systems",
+        "target": "Sistemas de manutenção preventiva"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",0]": {
+        "source": "Proprietary navigation algorithms",
+        "target": "Algoritmos próprios de navegação"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",1]": {
+        "source": "Simulation training environments",
+        "target": "Ambientes de treinamento por simulação"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",2]": {
+        "source": "Hardware prototypes and test rigs",
+        "target": "Protótipos de hardware e bancadas de teste"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",3]": {
+        "source": "Safety certification documentation",
+        "target": "Documentação de certificação de segurança"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",4]": {
+        "source": "Engineering talent (robotics PhDs)",
+        "target": "Profissionais de engenharia (doutores em robótica)"
+      },
+      "[\"vanguard\",\"initial\",\"keyResources\",5]": {
+        "source": "Pilot deployment sites",
+        "target": "Locais de implantação piloto"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",0]": {
+        "source": "40% faster warehouse pick rates",
+        "target": "Separação de pedidos em armazéns 40% mais rápida"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",1]": {
+        "source": "Works alongside human workers safely",
+        "target": "Trabalha com segurança ao lado de pessoas"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",2]": {
+        "source": "24/7 operation capability",
+        "target": "Capacidade de operação 24 horas por dia, 7 dias por semana"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",3]": {
+        "source": "Reduces labour dependency",
+        "target": "Reduz a dependência de mão de obra"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",4]": {
+        "source": "Flexible deployment (no fixed infrastructure)",
+        "target": "Implantação flexível (sem infraestrutura fixa)"
+      },
+      "[\"vanguard\",\"initial\",\"valueProposition\",5]": {
+        "source": "Real-time inventory visibility",
+        "target": "Visibilidade do estoque em tempo real"
+      },
+      "[\"vanguard\",\"initial\",\"customerRelationships\",0]": {
+        "source": "On-site deployment engineers",
+        "target": "Engenheiros de implantação no local"
+      },
+      "[\"vanguard\",\"initial\",\"customerRelationships\",1]": {
+        "source": "Preventive maintenance contracts",
+        "target": "Contratos de manutenção preventiva"
+      },
+      "[\"vanguard\",\"initial\",\"customerRelationships\",2]": {
+        "source": "24/7 remote monitoring",
+        "target": "Monitoramento remoto 24 horas por dia, 7 dias por semana"
+      },
+      "[\"vanguard\",\"initial\",\"customerRelationships\",3]": {
+        "source": "Performance dashboards",
+        "target": "Painéis de desempenho"
+      },
+      "[\"vanguard\",\"initial\",\"customerRelationships\",4]": {
+        "source": "Quarterly optimisation reviews",
+        "target": "Revisões trimestrais para otimização"
+      },
+      "[\"vanguard\",\"initial\",\"channels\",0]": {
+        "source": "Direct enterprise sales team",
+        "target": "Equipe de vendas diretas para empresas"
+      },
+      "[\"vanguard\",\"initial\",\"channels\",1]": {
+        "source": "Systems integrator partnerships",
+        "target": "Parcerias com integradores de sistemas"
+      },
+      "[\"vanguard\",\"initial\",\"channels\",2]": {
+        "source": "Trade shows (LogiMAT, IMHX, MODEX)",
+        "target": "Feiras do setor (LogiMAT, IMHX, MODEX)"
+      },
+      "[\"vanguard\",\"initial\",\"channels\",3]": {
+        "source": "Industry publications",
+        "target": "Publicações do setor"
+      },
+      "[\"vanguard\",\"initial\",\"channels\",4]": {
+        "source": "Customer reference visits",
+        "target": "Visitas a clientes de referência"
+      },
+      "[\"vanguard\",\"initial\",\"customerSegments\",0]": {
+        "source": "E-commerce fulfilment centres",
+        "target": "Centros de processamento de pedidos do comércio eletrônico"
+      },
+      "[\"vanguard\",\"initial\",\"customerSegments\",1]": {
+        "source": "Third-party logistics providers (3PLs)",
+        "target": "Operadores logísticos terceirizados (3PLs)"
+      },
+      "[\"vanguard\",\"initial\",\"customerSegments\",2]": {
+        "source": "Grocery distribution centres",
+        "target": "Centros de distribuição de supermercados"
+      },
+      "[\"vanguard\",\"initial\",\"customerSegments\",3]": {
+        "source": "Manufacturing inbound logistics",
+        "target": "Logística de abastecimento da indústria"
+      },
+      "[\"vanguard\",\"initial\",\"customerSegments\",4]": {
+        "source": "Retail store replenishment",
+        "target": "Reposição de estoques de lojas varejistas"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",0]": {
+        "source": "Hardware R&D and prototyping (50%)",
+        "target": "Pesquisa, desenvolvimento e prototipagem de hardware (50%)"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",1]": {
+        "source": "Software engineering team",
+        "target": "Equipe de engenharia de software"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",2]": {
+        "source": "Safety testing and certification",
+        "target": "Testes e certificação de segurança"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",3]": {
+        "source": "Pilot deployment costs",
+        "target": "Custos de implantação piloto"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",4]": {
+        "source": "Component inventory",
+        "target": "Estoque de componentes"
+      },
+      "[\"vanguard\",\"initial\",\"costStructure\",5]": {
+        "source": "Customer support infrastructure",
+        "target": "Infraestrutura de suporte ao cliente"
+      },
+      "[\"vanguard\",\"initial\",\"revenueStreams\",0]": {
+        "source": "Robot-as-a-Service (monthly per unit)",
+        "target": "Robótica como serviço (mensalidade por unidade)"
+      },
+      "[\"vanguard\",\"initial\",\"revenueStreams\",1]": {
+        "source": "Outright hardware sales",
+        "target": "Venda definitiva de hardware"
+      },
+      "[\"vanguard\",\"initial\",\"revenueStreams\",2]": {
+        "source": "Maintenance and support contracts",
+        "target": "Contratos de manutenção e suporte"
+      },
+      "[\"vanguard\",\"initial\",\"revenueStreams\",3]": {
+        "source": "Software licensing fees",
+        "target": "Taxas de licenciamento de software"
+      },
+      "[\"vanguard\",\"initial\",\"revenueStreams\",4]": {
+        "source": "Integration services",
+        "target": "Serviços de integração"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",1,\"keyResources\",0]": {
+        "source": "CE safety certification achieved [NEW]",
+        "target": "Certificação de segurança CE obtida [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",1,\"valueProposition\",0]": {
+        "source": "Proven safe human-robot collaboration [NEW]",
+        "target": "Colaboração segura entre pessoas e robôs comprovada [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",1,\"channels\",0]": {
+        "source": "First trade show demos [NEW]",
+        "target": "Primeiras demonstrações em feiras do setor [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",2,\"customerSegments\",0]": {
+        "source": "First 3PL customer live [NEW]",
+        "target": "Primeiro cliente 3PL em operação [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",2,\"revenueStreams\",0]": {
+        "source": "Robot-as-a-Service revenue live [NEW]",
+        "target": "Receita efetiva de robótica como serviço [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",2,\"keyPartners\",0]": {
+        "source": "WMS integration certified [NEW]",
+        "target": "Integração com WMS certificada [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",2,\"customerRelationships\",0]": {
+        "source": "Remote monitoring operational [NEW]",
+        "target": "Monitoramento remoto em operação [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",3,\"customerSegments\",0]": {
+        "source": "Fleet of 50+ robots deployed [NEW]",
+        "target": "Frota de 50+ robôs implantada [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",3,\"customerSegments\",1]": {
+        "source": "Multi-site customer [NEW]",
+        "target": "Cliente com várias unidades [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",3,\"valueProposition\",0]": {
+        "source": "Proven 45% productivity gain [NEW]",
+        "target": "Ganho de produtividade de 45% comprovado [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",3,\"keyPartners\",0]": {
+        "source": "Strategic OEM relationship [NEW]",
+        "target": "Relacionamento estratégico com fabricante OEM [NEW]"
+      },
+      "[\"vanguard\",\"milestoneUpdates\",3,\"channels\",0]": {
+        "source": "Partner reseller network [NEW]",
+        "target": "Rede de revendedores parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"trigger\"]": {
+        "source": "Competitor dominates warehouse market / Delivery demand surge",
+        "target": "Concorrente domina o mercado de armazéns / Forte aumento da demanda por entregas"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"name\"]": {
+        "source": "Warehouse Robotics → Last-Mile Delivery",
+        "target": "Robótica para armazéns → Entregas na última etapa do percurso"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"remove\",0]": {
+        "source": "Warehouse management system vendors",
+        "target": "Fornecedores de sistemas de gestão de armazéns"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"remove\",1]": {
+        "source": "Industrial robot manufacturers (FANUC, ABB, KUKA)",
+        "target": "Fabricantes de robôs industriais (FANUC, ABB, KUKA)"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Local councils (pavement permits) [NEW]",
+        "target": "Autoridades locais (autorizações para circulação em calçadas) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "Retail & restaurant chains [NEW]",
+        "target": "Redes varejistas e de restaurantes [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Mapping & navigation providers [NEW]",
+        "target": "Fornecedores de mapeamento e navegação [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyPartners\",\"add\",3]": {
+        "source": "Telecom providers (5G connectivity) [NEW]",
+        "target": "Operadoras de telecomunicações (conectividade 5G) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Simulation and testing environments",
+        "target": "Ambientes de simulação e testes"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Pavement navigation & obstacle avoidance [NEW]",
+        "target": "Navegação em calçadas e desvio de obstáculos [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Fleet management & dispatching [NEW]",
+        "target": "Gestão de frotas e despacho de entregas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "Regulatory & permit acquisition [NEW]",
+        "target": "Obtenção de aprovações regulatórias e autorizações [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "Public interaction safety systems [NEW]",
+        "target": "Sistemas de segurança na interação com o público [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyResources\",\"remove\",0]": {
+        "source": "Simulation training environments",
+        "target": "Ambientes de treinamento por simulação"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Street-level mapping data [NEW]",
+        "target": "Dados de mapeamento em nível de rua [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Remote operation centres [NEW]",
+        "target": "Centros de operação remota [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "Municipal relationships [NEW]",
+        "target": "Relacionamentos com autoridades municipais [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"keyResources\",\"add\",3]": {
+        "source": "Weather-resistant hardware [NEW]",
+        "target": "Hardware resistente às condições meteorológicas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"remove\",0]": {
+        "source": "40% faster warehouse pick rates",
+        "target": "Separação de pedidos em armazéns 40% mais rápida"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"remove\",1]": {
+        "source": "Reduces labour dependency",
+        "target": "Reduz a dependência de mão de obra"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Zero-emission last-mile delivery [NEW]",
+        "target": "Entregas sem emissões na última etapa do percurso [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "Lower cost than human couriers [NEW]",
+        "target": "Custo menor que o de entregadores humanos [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "Predictable delivery windows [NEW]",
+        "target": "Janelas de entrega previsíveis [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "No tipping/interaction anxiety [NEW]",
+        "target": "Sem preocupação com gorjetas ou interação pessoal [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerRelationships\",\"remove\",0]": {
+        "source": "On-site deployment engineers",
+        "target": "Engenheiros de implantação no local"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "API integration for retailers [NEW]",
+        "target": "Integração por API para varejistas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "Real-time tracking for consumers [NEW]",
+        "target": "Rastreamento em tempo real para consumidores [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "Fleet performance dashboards [NEW]",
+        "target": "Painéis de desempenho da frota [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerRelationships\",\"add\",3]": {
+        "source": "Service level agreements [NEW]",
+        "target": "Acordos de nível de serviço [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"channels\",\"remove\",0]": {
+        "source": "Trade shows (LogiMAT, IMHX, MODEX)",
+        "target": "Feiras do setor (LogiMAT, IMHX, MODEX)"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "Restaurant aggregator partnerships [NEW]",
+        "target": "Parcerias com plataformas que reúnem restaurantes [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Retail chain direct deals [NEW]",
+        "target": "Contratos diretos com redes varejistas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Smart city initiatives [NEW]",
+        "target": "Iniciativas de cidades inteligentes [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"channels\",\"add\",3]": {
+        "source": "Pilot city programmes [NEW]",
+        "target": "Programas piloto em cidades [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"remove\",0]": {
+        "source": "E-commerce fulfilment centres",
+        "target": "Centros de processamento de pedidos do comércio eletrônico"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"remove\",1]": {
+        "source": "Third-party logistics providers (3PLs)",
+        "target": "Operadores logísticos terceirizados (3PLs)"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"remove\",2]": {
+        "source": "Grocery distribution centres",
+        "target": "Centros de distribuição de supermercados"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Quick commerce / rapid delivery [NEW]",
+        "target": "Comércio com entrega imediata / entrega rápida [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "Restaurant delivery (dark kitchens) [NEW]",
+        "target": "Entregas de restaurantes (cozinhas exclusivas para delivery) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "Grocery delivery services [NEW]",
+        "target": "Serviços de entrega de compras de supermercado [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"customerSegments\",\"add\",3]": {
+        "source": "Pharmacy & medical delivery [NEW]",
+        "target": "Entregas de farmácias e de produtos médicos [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"costStructure\",\"remove\",0]": {
+        "source": "Hardware R&D and prototyping (50%)",
+        "target": "Pesquisa, desenvolvimento e prototipagem de hardware (50%)"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Fleet hardware (more units, lower cost each) [NEW]",
+        "target": "Hardware da frota (mais unidades, menor custo por unidade) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "Remote operations centre [NEW]",
+        "target": "Centro de operações remotas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "Municipal permit fees [NEW]",
+        "target": "Taxas de autorizações municipais [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"costStructure\",\"add\",3]": {
+        "source": "Public liability insurance [NEW]",
+        "target": "Seguro de responsabilidade civil perante terceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"remove\",0]": {
+        "source": "Outright hardware sales",
+        "target": "Venda definitiva de hardware"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"remove\",1]": {
+        "source": "Maintenance and support contracts",
+        "target": "Contratos de manutenção e suporte"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Per-delivery transaction fees [NEW]",
+        "target": "Taxas por entrega realizada [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Monthly fleet subscriptions [NEW]",
+        "target": "Assinaturas mensais de frota [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "Peak pricing / surge capacity [NEW]",
+        "target": "Preços em horários de pico / capacidade adicional para picos de demanda [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"lastMile\",\"changes\",\"revenueStreams\",\"add\",3]": {
+        "source": "White-label delivery service [NEW]",
+        "target": "Serviço de entrega com a marca do contratante [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"trigger\"]": {
+        "source": "Hardware costs too high / Faster path to scale",
+        "target": "Custos de hardware muito altos / Caminho mais rápido para ampliar a operação"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"name\"]": {
+        "source": "Full Robots → Robotics Software Platform",
+        "target": "Robôs completos → Plataforma de software para robótica"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyPartners\",\"remove\",0]": {
+        "source": "Component suppliers (sensors, motors)",
+        "target": "Fornecedores de componentes (sensores, motores)"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyPartners\",\"add\",0]": {
+        "source": "Robot hardware OEMs (become customers) [NEW]",
+        "target": "Fabricantes OEM de hardware robótico (tornam-se clientes) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyPartners\",\"add\",1]": {
+        "source": "System integrators [NEW]",
+        "target": "Empresas integradoras de sistemas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyPartners\",\"add\",2]": {
+        "source": "Cloud robotics platforms [NEW]",
+        "target": "Plataformas de robótica em nuvem [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"remove\",0]": {
+        "source": "Hardware-software co-development",
+        "target": "Desenvolvimento conjunto de hardware e software"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"remove\",1]": {
+        "source": "Customer deployment and integration",
+        "target": "Implantação e integração no cliente"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"add\",0]": {
+        "source": "Software licensing & support [NEW]",
+        "target": "Licenciamento e suporte de software [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"add\",1]": {
+        "source": "Integration with multiple hardware platforms [NEW]",
+        "target": "Integração com várias plataformas de hardware [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"add\",2]": {
+        "source": "Simulation-as-a-service [NEW]",
+        "target": "Simulação como serviço [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyActivities\",\"add\",3]": {
+        "source": "Partner certification programme [NEW]",
+        "target": "Programa de certificação de parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyResources\",\"remove\",0]": {
+        "source": "Hardware prototypes and test rigs",
+        "target": "Protótipos de hardware e bancadas de teste"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyResources\",\"add\",0]": {
+        "source": "Hardware-agnostic software stack [NEW]",
+        "target": "Conjunto de software independente do hardware [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyResources\",\"add\",1]": {
+        "source": "Partner ecosystem [NEW]",
+        "target": "Rede de parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"keyResources\",\"add\",2]": {
+        "source": "Simulation environments as product [NEW]",
+        "target": "Ambientes de simulação como produto [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"remove\",0]": {
+        "source": "40% faster warehouse pick rates",
+        "target": "Separação de pedidos em armazéns 40% mais rápida"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"remove\",1]": {
+        "source": "Flexible deployment (no fixed infrastructure)",
+        "target": "Implantação flexível (sem infraestrutura fixa)"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"add\",0]": {
+        "source": "Makes any robot smarter [NEW]",
+        "target": "Torna qualquer robô mais inteligente [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"add\",1]": {
+        "source": "Reduces customer hardware lock-in [NEW]",
+        "target": "Reduz a dependência do cliente em relação ao hardware de um fornecedor [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"add\",2]": {
+        "source": "Faster deployment than building from scratch [NEW]",
+        "target": "Implantação mais rápida que o desenvolvimento do zero [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"valueProposition\",\"add\",3]": {
+        "source": "Proven at scale [NEW]",
+        "target": "Comprovado em operações de grande porte [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerRelationships\",\"remove\",0]": {
+        "source": "On-site deployment engineers",
+        "target": "Engenheiros de implantação no local"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerRelationships\",\"remove\",1]": {
+        "source": "Preventive maintenance contracts",
+        "target": "Contratos de manutenção preventiva"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerRelationships\",\"add\",0]": {
+        "source": "Developer documentation & support [NEW]",
+        "target": "Documentação e suporte para desenvolvedores [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerRelationships\",\"add\",1]": {
+        "source": "Partner certification [NEW]",
+        "target": "Certificação de parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerRelationships\",\"add\",2]": {
+        "source": "Online training & tutorials [NEW]",
+        "target": "Treinamento e tutoriais online [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"channels\",\"add\",0]": {
+        "source": "Partner reseller network [NEW]",
+        "target": "Rede de revendedores parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"channels\",\"add\",1]": {
+        "source": "Developer community [NEW]",
+        "target": "Comunidade de desenvolvedores [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"channels\",\"add\",2]": {
+        "source": "Open source community edition [NEW]",
+        "target": "Edição comunitária de código aberto [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerSegments\",\"remove\",0]": {
+        "source": "E-commerce fulfilment centres",
+        "target": "Centros de processamento de pedidos do comércio eletrônico"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerSegments\",\"remove\",1]": {
+        "source": "Third-party logistics providers (3PLs)",
+        "target": "Operadores logísticos terceirizados (3PLs)"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerSegments\",\"add\",0]": {
+        "source": "Robot manufacturers (OEMs) [NEW]",
+        "target": "Fabricantes de robôs (OEMs) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerSegments\",\"add\",1]": {
+        "source": "System integrators [NEW]",
+        "target": "Empresas integradoras de sistemas [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"customerSegments\",\"add\",2]": {
+        "source": "Companies building own robots [NEW]",
+        "target": "Empresas que desenvolvem seus próprios robôs [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"costStructure\",\"remove\",0]": {
+        "source": "Hardware R&D and prototyping (50%)",
+        "target": "Pesquisa, desenvolvimento e prototipagem de hardware (50%)"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"costStructure\",\"remove\",1]": {
+        "source": "Component inventory",
+        "target": "Estoque de componentes"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"costStructure\",\"add\",0]": {
+        "source": "Software development [NEW]",
+        "target": "Desenvolvimento de software [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"costStructure\",\"add\",1]": {
+        "source": "Developer relations [NEW]",
+        "target": "Relacionamento com desenvolvedores [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"costStructure\",\"add\",2]": {
+        "source": "Partner management [NEW]",
+        "target": "Gestão de parceiros [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"remove\",0]": {
+        "source": "Robot-as-a-Service (monthly per unit)",
+        "target": "Robótica como serviço (mensalidade por unidade)"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"remove\",1]": {
+        "source": "Outright hardware sales",
+        "target": "Venda definitiva de hardware"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"add\",0]": {
+        "source": "Software licensing (per robot) [NEW]",
+        "target": "Licenciamento de software (por robô) [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"add\",1]": {
+        "source": "Enterprise platform fees [NEW]",
+        "target": "Taxas da plataforma empresarial [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"add\",2]": {
+        "source": "Support & training [NEW]",
+        "target": "Suporte e treinamento [NEW]"
+      },
+      "[\"vanguard\",\"pivots\",\"softwarePlatform\",\"changes\",\"revenueStreams\",\"add\",3]": {
+        "source": "Professional services [NEW]",
+        "target": "Serviços profissionais [NEW]"
       }
     }
   }

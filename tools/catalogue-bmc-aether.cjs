@@ -1,4 +1,3 @@
-const fs=require('node:fs'),acorn=require('acorn'),walk=require('acorn-walk');
 // O marcador [NEW] é funcional e fica intacto. Cada ocorrência repetida recebe
 // a mesma tradução, inclusive os seletores textuais das listas de remoção.
 const pairs=`NHS Digital (data access agreements)|NHS Digital (acordos de acesso a dados)
@@ -131,30 +130,4 @@ CPD accreditation fees|Taxas de acreditação de desenvolvimento profissional co
 Per-clinician licensing|Licenciamento por profissional clínico
 Education institution deals|Contratos com instituições de ensino
 CPD subscription bundles|Pacotes de assinatura de desenvolvimento profissional contínuo`;
-const targets=new Map(pairs.split('\n').map(line=>line.split('|')));
-if(targets.size!==pairs.split('\n').length)throw new Error('Fonte duplicada no dicionário.');
-if(new Set(targets.values()).size!==targets.size)throw new Error('Textos distintos não podem receber a mesma tradução neste bloco.');
-let original;
-function read(node){
- if(node.type==='Literal')return node.value;
- if(node.type==='ArrayExpression')return node.elements.map(read);
- if(node.type==='ObjectExpression')return Object.fromEntries(node.properties.map(p=>[p.key.name??p.key.value,read(p.value)]));
- throw new Error('Dado não literal: '+node.type);
-}
-for(const m of fs.readFileSync('source/index.original.html','utf8').matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){
- if(/\bsrc\s*=/.test(m[1])||/application\/ld\+json/.test(m[1]))continue;
- walk.simple(acorn.parse(m[2],{ecmaVersion:'latest'}),{VariableDeclarator(n){if(n.id.name==='BMC_DATA')original=read(n.init);}});
-}
-const strings={};
-function visit(value,path){
- if(typeof value==='string'){
-  const marker=value.endsWith(' [NEW]')?' [NEW]':'',plain=marker?value.slice(0,-marker.length):value;
-  if(!targets.has(plain))throw new Error('Tradução ausente: '+JSON.stringify(path)+' '+value);
-  strings[JSON.stringify(path)]={source:value,target:targets.get(plain)+marker};
- }else for(const [key,child] of Object.entries(value))visit(child,[...path,Array.isArray(value)?Number(key):/^\d+$/.test(key)?Number(key):key]);
-}
-visit(original.aether,['aether']);
-const catalogue=JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','utf8'));
-catalogue.BMC_DATA={classification:'Tradução parcial: subestrutura Aether completa, incluindo seletores de remoção e marcador funcional [NEW] preservado. Contexto britânico original; demais empreendimentos e adaptação brasileira pendentes.',strings:{...(catalogue.BMC_DATA?.strings||{}),...strings}};
-fs.writeFileSync('locales/structures.pt-BR.json',JSON.stringify(catalogue,null,2)+'\n');
-console.log('BMC_DATA.aether: '+Object.keys(strings).length+' campos tratados.');
+require('./bmc-catalogue.cjs')('aether',pairs);

@@ -5,6 +5,7 @@ let html=fs.readFileSync('source/index.original.html','utf8');
 if(require('node:crypto').createHash('sha256').update(html).digest('hex')!=='a8ce3636c328828fb311a505ec38603345c9ac5f08ae1be8c01969818f1d8d61')throw new Error('O original diverge do arquivo inventariado; interrompido para revisão.');
 const translated=require('./structured-translation.cjs').translate(html,JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','utf8')));
 html=translated.html;
+fs.mkdirSync('artifacts',{recursive:true});
 fs.writeFileSync('artifacts/structured-translation-report.json',JSON.stringify(translated.reports,null,2));
 const edits=[];
 html=require('./crisis-patch.cjs').apply(html);
