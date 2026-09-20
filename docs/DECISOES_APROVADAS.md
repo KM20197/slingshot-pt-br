@@ -25,4 +25,6 @@ Progresso parcial utiliza o valor já calculado pelo motor, sem reavaliar metas.
 
 ## Estado da entrega
 
+Orientação atual de revisão: limitar a três ciclos de avaliação, correção e reavaliação por etapa. Se uma pendência relevante persistir ao atingir o limite, registrá-la explicitamente; não elevar a nota artificialmente nem declarar aprovação sem evidência. A revisão dos fundadores foi concluída em dois ciclos.
+
 Desenvolvimento em andamento. Módulos isolados não representam uma versão completa em português. Tradução integral, adaptação de empreendimentos, integração de todas as rotas de financiamento, equilíbrio e publicação dependem de execução e validação. Não liberar uma versão com esses requisitos pendentes.

@@ -8208,5 +8208,931 @@
         "target": "Foco em desenvolvedores, cobrança por uso e marketing técnico"
       }
     }
+  },
+  "FOUNDER_PROFILES": {
+    "classification": "Doze perfis: prosa traduzida; identificadores, ícones, cores, retratos e atributos numéricos preservados. Referências financeiras do original britânico ainda aguardam a adaptação brasileira aprovada.",
+    "strings": {
+      "[\"academic\",\"name\"]": {
+        "source": "The Academic",
+        "target": "O acadêmico"
+      },
+      "[\"academic\",\"title\"]": {
+        "source": "PhD turned founder",
+        "target": "Do doutorado à criação de uma empresa"
+      },
+      "[\"academic\",\"slogan\"]": {
+        "source": "From lab bench to launch pad",
+        "target": "Da bancada do laboratório ao lançamento"
+      },
+      "[\"academic\",\"desc\"]": {
+        "source": "You spent years in the lab, publishing papers and pushing the boundaries of knowledge. Now you're translating that expertise into a company. You understand the science deeply, but the business world is new territory.",
+        "target": "Você passou anos no laboratório, publicando artigos e ampliando as fronteiras do conhecimento. Agora está transformando esse conhecimento em uma empresa. Você domina a ciência, mas o mundo dos negócios é um território novo."
+      },
+      "[\"academic\",\"strengths\"]": {
+        "source": "Deep technical credibility, research network, scientific rigour",
+        "target": "Credibilidade técnica sólida, rede de pesquisa, rigor científico"
+      },
+      "[\"academic\",\"challenges\"]": {
+        "source": "Commercial instincts, investor relations, moving at startup speed",
+        "target": "Visão comercial, relacionamento com investidores, agir no ritmo de uma startup"
+      },
+      "[\"academic\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"academic\",\"playstyle\"]": {
+        "source": "Research-first, methodical progression",
+        "target": "Pesquisa em primeiro lugar, progresso metódico"
+      },
+      "[\"academic\",\"bestFor\"]": {
+        "source": "Players who enjoy building strong technical foundations before commercialising",
+        "target": "Jogadores que gostam de construir bases técnicas sólidas antes de comercializar"
+      },
+      "[\"academic\",\"famousExamples\"]": {
+        "source": "Demis Hassabis (DeepMind), Hermann Hauser (Arm, Amadeus), Sophie Wilson (Arm)",
+        "target": "Demis Hassabis (DeepMind), Hermann Hauser (Arm, Amadeus), Sophie Wilson (Arm)"
+      },
+      "[\"academic\",\"gameplayTips\",0]": {
+        "source": "Your university connections make grant applications significantly easier — lean into this advantage early",
+        "target": "Seus contatos universitários facilitam bastante as propostas de fomento — aproveite essa vantagem desde o início"
+      },
+      "[\"academic\",\"gameplayTips\",1]": {
+        "source": "Academic partners will actively seek you out; you'll have access to top-tier research collaborations",
+        "target": "Parceiros acadêmicos procurarão você ativamente; você terá acesso a colaborações de pesquisa de alto nível"
+      },
+      "[\"academic\",\"gameplayTips\",2]": {
+        "source": "Investors may question your commercial instincts — consider hiring a business-focused advisor",
+        "target": "Investidores podem questionar sua visão comercial — considere contratar um assessor com foco em negócios"
+      },
+      "[\"academic\",\"gameplayTips\",3]": {
+        "source": "Your scientific rigour is an asset for deep tech, but can slow you down in fast-moving markets",
+        "target": "Seu rigor científico é uma vantagem em tecnologias de base científica avançada, mas pode atrasar você em mercados que mudam rapidamente"
+      },
+      "[\"academic\",\"grantAdvantage\"]": {
+        "source": "Strong — Universities welcome you, assessors trust your research credentials",
+        "target": "Forte — As universidades acolhem você e os avaliadores confiam em suas credenciais de pesquisa"
+      },
+      "[\"academic\",\"fundraisingStyle\"]": {
+        "source": "Best with deep-tech focused VCs who value technical excellence over rapid scaling",
+        "target": "Melhor com investidores de capital de risco (VCs) especializados em tecnologias de base científica avançada, que valorizam a excelência técnica acima da expansão rápida"
+      },
+      "[\"academic\",\"hiringEdge\"]": {
+        "source": "Attracts research-oriented talent; may struggle to recruit aggressive sales types",
+        "target": "Atrai profissionais voltados à pesquisa; pode ter dificuldade para recrutar vendedores de perfil agressivo"
+      },
+      "[\"academic\",\"riskProfile\"]": {
+        "source": "Lower technical risk, higher commercial risk — you'll build something real, but selling it is the challenge",
+        "target": "Menor risco técnico, maior risco comercial — você desenvolverá algo concreto, mas vendê-lo será o desafio"
+      },
+      "[\"serial\",\"name\"]": {
+        "source": "The Serial Founder",
+        "target": "O empreendedor recorrente"
+      },
+      "[\"serial\",\"title\"]": {
+        "source": "Been here before",
+        "target": "Já passou por isso"
+      },
+      "[\"serial\",\"slogan\"]": {
+        "source": "Failed forward, ready to win",
+        "target": "Aprendeu com os fracassos, pronto para vencer"
+      },
+      "[\"serial\",\"desc\"]": {
+        "source": "This isn't your first rodeo. You've built companies before—some succeeded, some didn't—and you learned from all of them. You know how the game works, but every startup is different.",
+        "target": "Esta não é sua primeira experiência. Você já criou empresas — algumas deram certo, outras não — e aprendeu com todas. Você conhece o funcionamento do jogo, mas cada startup é diferente."
+      },
+      "[\"serial\",\"strengths\"]": {
+        "source": "Investor relationships, pattern recognition, crisis management",
+        "target": "Relacionamento com investidores, reconhecimento de padrões, gestão de crises"
+      },
+      "[\"serial\",\"challenges\"]": {
+        "source": "Avoiding old playbooks that don't fit, staying humble, technical depth",
+        "target": "Evitar estratégias antigas inadequadas, manter a humildade, aprofundar o conhecimento técnico"
+      },
+      "[\"serial\",\"difficulty\"]": {
+        "source": "Easy",
+        "target": "Fácil"
+      },
+      "[\"serial\",\"playstyle\"]": {
+        "source": "Balanced, experienced decision-making",
+        "target": "Decisões equilibradas e baseadas na experiência"
+      },
+      "[\"serial\",\"bestFor\"]": {
+        "source": "Players who want a forgiving start with strong investor access",
+        "target": "Jogadores que querem um começo mais tolerante a erros e bom acesso a investidores"
+      },
+      "[\"serial\",\"famousExamples\"]": {
+        "source": "Mike Lynch (Autonomy, Darktrace), Brent Hoberman (Lastminute.com, Made.com), Alex Chesterman (Zoopla, Cazoo)",
+        "target": "Mike Lynch (Autonomy, Darktrace), Brent Hoberman (Lastminute.com, Made.com), Alex Chesterman (Zoopla, Cazoo)"
+      },
+      "[\"serial\",\"gameplayTips\",0]": {
+        "source": "Your track record opens investor doors — you can often skip angel rounds and go straight to VCs",
+        "target": "Seu histórico abre portas com investidores — muitas vezes você pode dispensar rodadas com investidores-anjo e procurar diretamente investidores de capital de risco (VCs)"
+      },
+      "[\"serial\",\"gameplayTips\",1]": {
+        "source": "Grant assessors value your experience; you start with credibility that first-timers must earn",
+        "target": "Avaliadores de fomento valorizam sua experiência; você começa com uma credibilidade que os iniciantes precisam conquistar"
+      },
+      "[\"serial\",\"gameplayTips\",2]": {
+        "source": "Be careful not to apply old solutions to new problems — the AI landscape moves fast",
+        "target": "Cuidado para não aplicar soluções antigas a problemas novos — o cenário de IA muda rapidamente"
+      },
+      "[\"serial\",\"gameplayTips\",3]": {
+        "source": "Your network is your superpower — use it for hiring, partnerships, and warm introductions",
+        "target": "Sua rede de contatos é seu superpoder — use-a para contratar, formar parcerias e conseguir apresentações por pessoas conhecidas"
+      },
+      "[\"serial\",\"grantAdvantage\"]": {
+        "source": "Moderate — You've done this before and assessors recognise your capability",
+        "target": "Moderada — Você já fez isso antes e os avaliadores reconhecem sua capacidade"
+      },
+      "[\"serial\",\"fundraisingStyle\"]": {
+        "source": "Easiest path to funding — your track record speaks for itself",
+        "target": "Caminho mais fácil para captar recursos — seu histórico fala por si"
+      },
+      "[\"serial\",\"hiringEdge\"]": {
+        "source": "Strong employer brand; candidates trust you've done this before",
+        "target": "Boa reputação como empregador; candidatos confiam em sua experiência anterior"
+      },
+      "[\"serial\",\"riskProfile\"]": {
+        "source": "Balanced — experience reduces most risks, but overconfidence can be your blind spot",
+        "target": "Equilibrado — a experiência reduz a maioria dos riscos, mas o excesso de confiança pode ser seu ponto cego"
+      },
+      "[\"corporate\",\"name\"]": {
+        "source": "The Corporate Escapee",
+        "target": "O executivo que deixou a grande empresa"
+      },
+      "[\"corporate\",\"title\"]": {
+        "source": "Ex-BigTech executive",
+        "target": "Ex-executivo de uma grande empresa de tecnologia"
+      },
+      "[\"corporate\",\"slogan\"]": {
+        "source": "Trading comfort for control",
+        "target": "Trocando conforto por controle"
+      },
+      "[\"corporate\",\"desc\"]": {
+        "source": "You climbed the ladder at a major tech company, learning how large organisations work. Now you're trading stability for autonomy. You know process and scale, but startups play by different rules.",
+        "target": "Você avançou na carreira em uma grande empresa de tecnologia e aprendeu como grandes organizações funcionam. Agora troca estabilidade por autonomia. Você conhece processos e operações em escala, mas as startups seguem outras regras."
+      },
+      "[\"corporate\",\"strengths\"]": {
+        "source": "Operational excellence, enterprise sales, professional networks",
+        "target": "Excelência operacional, vendas empresariais, redes profissionais"
+      },
+      "[\"corporate\",\"challenges\"]": {
+        "source": "Scrappy execution, ambiguity tolerance, founder mentality",
+        "target": "Executar com poucos recursos, tolerar ambiguidades, pensar como fundador"
+      },
+      "[\"corporate\",\"difficulty\"]": {
+        "source": "Medium-Hard",
+        "target": "Média a difícil"
+      },
+      "[\"corporate\",\"playstyle\"]": {
+        "source": "Process-oriented, enterprise-focused",
+        "target": "Orientação por processos e foco no mercado empresarial"
+      },
+      "[\"corporate\",\"bestFor\"]": {
+        "source": "Players targeting B2B enterprise markets who value structured execution",
+        "target": "Jogadores que miram mercados B2B de grandes empresas e valorizam a execução estruturada"
+      },
+      "[\"corporate\",\"famousExamples\"]": {
+        "source": "Ronan Dunne (O2 to Verizon), Carolyn McCall (Guardian to easyJet), Andy Palmer (Nissan to Aston Martin)",
+        "target": "Ronan Dunne (da O2 à Verizon), Carolyn McCall (do Guardian à easyJet), Andy Palmer (da Nissan à Aston Martin)"
+      },
+      "[\"corporate\",\"gameplayTips\",0]": {
+        "source": "Your corporate network is gold for enterprise sales — leverage those relationships for early customers",
+        "target": "Sua rede corporativa vale ouro nas vendas empresariais — use esses relacionamentos para conquistar os primeiros clientes"
+      },
+      "[\"corporate\",\"gameplayTips\",1]": {
+        "source": "Industry partners in grants will find you credible; you speak their language",
+        "target": "Parceiros empresariais em projetos de fomento confiarão em você; você fala a língua deles"
+      },
+      "[\"corporate\",\"gameplayTips\",2]": {
+        "source": "You may over-engineer processes early — startups need speed over perfection",
+        "target": "Você pode tornar os processos complexos demais no início — startups precisam de velocidade mais do que de perfeição"
+      },
+      "[\"corporate\",\"gameplayTips\",3]": {
+        "source": "Unlearn the safety nets of big companies — here, there's no one else to catch mistakes",
+        "target": "Desapegue-se das redes de proteção das grandes empresas — aqui, não há outra pessoa para detectar os erros por você"
+      },
+      "[\"corporate\",\"grantAdvantage\"]": {
+        "source": "Industry-focused — Your corporate connections make industry partnerships easier",
+        "target": "Voltada ao setor empresarial — Seus contatos corporativos facilitam parcerias com empresas"
+      },
+      "[\"corporate\",\"fundraisingStyle\"]": {
+        "source": "Strong with B2B-focused investors; consumer VCs may question your scrappiness",
+        "target": "Bom desempenho com investidores focados em B2B; investidores de capital de risco voltados ao consumidor podem questionar sua capacidade de fazer muito com pouco"
+      },
+      "[\"corporate\",\"hiringEdge\"]": {
+        "source": "Attracts professionals seeking stability; may struggle with risk-taking mavericks",
+        "target": "Atrai profissionais em busca de estabilidade; pode ter dificuldade com perfis independentes que assumem riscos"
+      },
+      "[\"corporate\",\"riskProfile\"]": {
+        "source": "Strong operational foundation, but adapting to startup chaos is your biggest test",
+        "target": "Base operacional sólida, mas adaptar-se ao caos de uma startup é seu maior teste"
+      },
+      "[\"prodigy\",\"name\"]": {
+        "source": "The Technical Prodigy",
+        "target": "O prodígio técnico"
+      },
+      "[\"prodigy\",\"title\"]": {
+        "source": "Builder extraordinaire",
+        "target": "Um criador excepcional"
+      },
+      "[\"prodigy\",\"slogan\"]": {
+        "source": "Code is my superpower",
+        "target": "Programar é meu superpoder"
+      },
+      "[\"prodigy\",\"desc\"]": {
+        "source": "You've been coding since you were twelve and can build almost anything. Technical problems bow before you. People problems? Those are trickier. You're betting your skills can carry the company.",
+        "target": "Você programa desde os doze anos e consegue construir quase tudo. Os problemas técnicos se rendem a você. Os problemas com pessoas são mais complicados. Sua aposta é que suas habilidades sustentarão a empresa."
+      },
+      "[\"prodigy\",\"strengths\"]": {
+        "source": "Technical excellence, rapid prototyping, product intuition",
+        "target": "Excelência técnica, prototipagem rápida, intuição de produto"
+      },
+      "[\"prodigy\",\"challenges\"]": {
+        "source": "Delegation, commercial focus, patience with non-technical issues",
+        "target": "Delegar, manter o foco comercial, ter paciência com questões não técnicas"
+      },
+      "[\"prodigy\",\"difficulty\"]": {
+        "source": "Hard",
+        "target": "Difícil"
+      },
+      "[\"prodigy\",\"playstyle\"]": {
+        "source": "Build-first, technical excellence",
+        "target": "Construção em primeiro lugar, excelência técnica"
+      },
+      "[\"prodigy\",\"bestFor\"]": {
+        "source": "Experienced players who can compensate for weak commercial skills",
+        "target": "Jogadores experientes que conseguem compensar habilidades comerciais limitadas"
+      },
+      "[\"prodigy\",\"famousExamples\"]": {
+        "source": "Nick D'Aloisio (Summly), Mustafa Suleyman (DeepMind), Tom Sherrington (GoCardless)",
+        "target": "Nick D'Aloisio (Summly), Mustafa Suleyman (DeepMind), Tom Sherrington (GoCardless)"
+      },
+      "[\"prodigy\",\"gameplayTips\",0]": {
+        "source": "Your technical edge lets you build faster and cheaper — use this to outpace competitors",
+        "target": "Sua vantagem técnica permite construir mais rápido e com menor custo — use isso para superar os concorrentes"
+      },
+      "[\"prodigy\",\"gameplayTips\",1]": {
+        "source": "Hire commercial talent early — you'll build amazing things that nobody buys without help",
+        "target": "Contrate profissionais comerciais cedo — sem ajuda, você criará coisas incríveis que ninguém compra"
+      },
+      "[\"prodigy\",\"gameplayTips\",2]": {
+        "source": "Investors may underestimate your leadership — prove them wrong with execution, not words",
+        "target": "Investidores podem subestimar sua liderança — prove sua capacidade com execução, não com palavras"
+      },
+      "[\"prodigy\",\"gameplayTips\",3]": {
+        "source": "Grant applications require business cases, not just technical brilliance — get help with these",
+        "target": "Propostas de fomento exigem justificativas de negócio, não apenas brilhantismo técnico — procure ajuda nessa parte"
+      },
+      "[\"prodigy\",\"grantAdvantage\"]": {
+        "source": "Weak on paper — Assessors question your commercial viability until proven",
+        "target": "Fraca no papel — Os avaliadores questionam sua viabilidade comercial até que seja comprovada"
+      },
+      "[\"prodigy\",\"fundraisingStyle\"]": {
+        "source": "Show, don't tell — your demos and prototypes speak louder than pitch decks",
+        "target": "Demonstre em vez de apenas falar — suas demonstrações e protótipos dizem mais do que apresentações de captação"
+      },
+      "[\"prodigy\",\"hiringEdge\"]": {
+        "source": "Technical talent respects you; business hires may doubt your leadership",
+        "target": "Profissionais técnicos respeitam você; candidatos da área de negócios podem duvidar de sua liderança"
+      },
+      "[\"prodigy\",\"riskProfile\"]": {
+        "source": "High commercial risk — you'll build something brilliant, but can you sell it?",
+        "target": "Alto risco comercial — você criará algo brilhante, mas conseguirá vender?"
+      },
+      "[\"dealmaker\",\"name\"]": {
+        "source": "The Dealmaker",
+        "target": "O negociador"
+      },
+      "[\"dealmaker\",\"title\"]": {
+        "source": "Sales & partnerships pro",
+        "target": "Especialista em vendas e parcerias"
+      },
+      "[\"dealmaker\",\"slogan\"]": {
+        "source": "Relationships open every door",
+        "target": "Relacionamentos abrem todas as portas"
+      },
+      "[\"dealmaker\",\"desc\"]": {
+        "source": "You could sell ice to penguins. Your career has been about relationships, negotiations, and closing deals. You'll find customers and partners—but you'll need to trust others to build the product.",
+        "target": "Você conseguiria vender gelo para pinguins. Sua carreira foi construída com relacionamentos, negociações e fechamento de negócios. Você encontrará clientes e parceiros, mas precisará confiar em outras pessoas para desenvolver o produto."
+      },
+      "[\"dealmaker\",\"strengths\"]": {
+        "source": "Customer acquisition, partnership deals, fundraising pitches",
+        "target": "Aquisição de clientes, acordos de parceria, apresentações para captação de recursos"
+      },
+      "[\"dealmaker\",\"challenges\"]": {
+        "source": "Technical judgment, product details, operational patience",
+        "target": "Avaliação técnica, detalhes do produto, paciência operacional"
+      },
+      "[\"dealmaker\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"dealmaker\",\"playstyle\"]": {
+        "source": "Revenue-first, relationship-driven",
+        "target": "Receita em primeiro lugar, orientação por relacionamentos"
+      },
+      "[\"dealmaker\",\"bestFor\"]": {
+        "source": "Players who enjoy the commercial game and can hire strong technical talent",
+        "target": "Jogadores que gostam da atividade comercial e conseguem contratar bons profissionais técnicos"
+      },
+      "[\"dealmaker\",\"famousExamples\"]": {
+        "source": "Richard Branson (Virgin), Michael Spencer (ICAP), Stelios Haji-Ioannou (easyJet)",
+        "target": "Richard Branson (Virgin), Michael Spencer (ICAP), Stelios Haji-Ioannou (easyJet)"
+      },
+      "[\"dealmaker\",\"gameplayTips\",0]": {
+        "source": "Your sales skills mean early revenue — use this to reduce funding dependency",
+        "target": "Suas habilidades de venda geram receita cedo — use isso para reduzir a dependência de financiamento"
+      },
+      "[\"dealmaker\",\"gameplayTips\",1]": {
+        "source": "Partner with a strong technical co-founder or CTO; you'll overpromise without one",
+        "target": "Associe-se a um cofundador técnico ou diretor de tecnologia (CTO) competente; sem ele, você prometerá mais do que consegue entregar"
+      },
+      "[\"dealmaker\",\"gameplayTips\",2]": {
+        "source": "Investors love your energy but will probe your technical depth — prepare for this",
+        "target": "Investidores gostam de sua energia, mas investigarão seu conhecimento técnico — prepare-se"
+      },
+      "[\"dealmaker\",\"gameplayTips\",3]": {
+        "source": "Grant assessors may question technical credibility — academic partners help here",
+        "target": "Avaliadores de fomento podem questionar sua credibilidade técnica — parceiros acadêmicos ajudam nesse ponto"
+      },
+      "[\"dealmaker\",\"grantAdvantage\"]": {
+        "source": "Moderate — Your partnership skills help, but technical credibility needs support",
+        "target": "Moderada — Sua habilidade para formar parcerias ajuda, mas a credibilidade técnica precisa de apoio"
+      },
+      "[\"dealmaker\",\"fundraisingStyle\"]": {
+        "source": "Natural pitcher — you'll charm investors, but ensure substance backs the style",
+        "target": "Apresentador nato — você conquistará investidores, mas garanta que haja conteúdo por trás do estilo"
+      },
+      "[\"dealmaker\",\"hiringEdge\"]": {
+        "source": "Great at selling the vision; technical hires will want to meet your product lead first",
+        "target": "Ótimo em apresentar a visão; candidatos técnicos vão querer conhecer primeiro quem lidera o produto"
+      },
+      "[\"dealmaker\",\"riskProfile\"]": {
+        "source": "Low commercial risk, high technical risk — you'll sell it before you build it",
+        "target": "Baixo risco comercial, alto risco técnico — você venderá antes de construir"
+      },
+      "[\"operator\",\"name\"]": {
+        "source": "The Operator",
+        "target": "O gestor de operações"
+      },
+      "[\"operator\",\"title\"]": {
+        "source": "COO turned CEO",
+        "target": "De diretor de operações (COO) a diretor executivo (CEO)"
+      },
+      "[\"operator\",\"slogan\"]": {
+        "source": "Execution beats strategy",
+        "target": "A execução supera a estratégia"
+      },
+      "[\"operator\",\"desc\"]": {
+        "source": "You make things work. Processes, systems, teams—you've optimised them all. You ran operations for growing companies and now want to run your own. Execution is your superpower.",
+        "target": "Você faz as coisas funcionarem. Processos, sistemas, equipes — você já melhorou todos eles. Administrou operações de empresas em crescimento e agora quer dirigir a sua. Executar é seu superpoder."
+      },
+      "[\"operator\",\"strengths\"]": {
+        "source": "Efficient scaling, team management, cost control",
+        "target": "Expansão eficiente, gestão de equipes, controle de custos"
+      },
+      "[\"operator\",\"challenges\"]": {
+        "source": "Vision-setting, technical innovation, external storytelling",
+        "target": "Definir uma visão, inovar tecnicamente, comunicar a proposta ao público externo"
+      },
+      "[\"operator\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"operator\",\"playstyle\"]": {
+        "source": "Efficiency-focused, systematic growth",
+        "target": "Foco em eficiência, crescimento sistemático"
+      },
+      "[\"operator\",\"bestFor\"]": {
+        "source": "Players who prefer optimisation over innovation",
+        "target": "Jogadores que preferem otimizar a inovar"
+      },
+      "[\"operator\",\"famousExamples\"]": {
+        "source": "Carolyn McCall (easyJet), Sharon White (John Lewis), Keith Weed (Unilever CMO)",
+        "target": "Carolyn McCall (easyJet), Sharon White (John Lewis), Keith Weed (diretor de marketing — CMO — da Unilever)"
+      },
+      "[\"operator\",\"gameplayTips\",0]": {
+        "source": "Your operational excellence shines at scale — but first you need something to scale",
+        "target": "Sua excelência operacional se destaca em escala — mas primeiro você precisa ter algo para expandir"
+      },
+      "[\"operator\",\"gameplayTips\",1]": {
+        "source": "Partner with a visionary or technical co-founder who can set direction",
+        "target": "Associe-se a um cofundador visionário ou técnico que possa definir a direção"
+      },
+      "[\"operator\",\"gameplayTips\",2]": {
+        "source": "You'll run the most efficient burn rate in the game — use this runway advantage",
+        "target": "Você terá o consumo de caixa mais eficiente do jogo — aproveite essa vantagem de tempo até o caixa acabar"
+      },
+      "[\"operator\",\"gameplayTips\",3]": {
+        "source": "Investors value your execution but want to see you can inspire, not just manage",
+        "target": "Investidores valorizam sua execução, mas querem ver que você também consegue inspirar, não apenas administrar"
+      },
+      "[\"operator\",\"grantAdvantage\"]": {
+        "source": "Neutral — You'll run projects well, but need partners for research credibility",
+        "target": "Neutra — Você conduzirá bem os projetos, mas precisa de parceiros para ter credibilidade em pesquisa"
+      },
+      "[\"operator\",\"fundraisingStyle\"]": {
+        "source": "Trusted executor — investors know you'll use their money wisely",
+        "target": "Executor confiável — os investidores sabem que você usará o dinheiro deles com critério"
+      },
+      "[\"operator\",\"hiringEdge\"]": {
+        "source": "Strong manager reputation; candidates expect a well-run company",
+        "target": "Boa reputação como gestor; candidatos esperam uma empresa bem administrada"
+      },
+      "[\"operator\",\"riskProfile\"]": {
+        "source": "Low operational risk, but finding product-market fit requires creativity you may lack",
+        "target": "Baixo risco operacional, mas encontrar o ajuste entre produto e mercado exige uma criatividade que talvez lhe falte"
+      },
+      "[\"domain\",\"name\"]": {
+        "source": "The Domain Expert",
+        "target": "O especialista no setor"
+      },
+      "[\"domain\",\"title\"]": {
+        "source": "Industry insider",
+        "target": "Conhece o setor por dentro"
+      },
+      "[\"domain\",\"slogan\"]": {
+        "source": "I know where the bodies are buried",
+        "target": "Conheço os segredos dos bastidores"
+      },
+      "[\"domain\",\"desc\"]": {
+        "source": "You've spent decades in the industry your startup targets. You know the customers, the problems, and the politics. Your rolodex is gold. But technology moves fast, and you're still learning AI.",
+        "target": "Você passou décadas no setor que sua startup pretende atender. Conhece os clientes, os problemas e as relações de poder. Sua agenda de contatos vale ouro. Mas a tecnologia avança rápido e você ainda está aprendendo sobre IA."
+      },
+      "[\"domain\",\"strengths\"]": {
+        "source": "Customer insight, industry credibility, regulatory navigation",
+        "target": "Compreensão dos clientes, credibilidade no setor, capacidade de lidar com a regulação"
+      },
+      "[\"domain\",\"challenges\"]": {
+        "source": "Technical trends, startup culture, moving beyond what worked before",
+        "target": "Tendências técnicas, cultura de startups, superar o que funcionava antes"
+      },
+      "[\"domain\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"domain\",\"playstyle\"]": {
+        "source": "Customer-intimate, industry-focused",
+        "target": "Proximidade com os clientes e foco setorial"
+      },
+      "[\"domain\",\"bestFor\"]": {
+        "source": "Players targeting specific verticals like healthcare, finance, or manufacturing",
+        "target": "Jogadores que miram setores específicos, como saúde, finanças ou indústria"
+      },
+      "[\"domain\",\"famousExamples\"]": {
+        "source": "Anne Boden (banking/Starling), Nick Jenkins (greetings/Moonpig), Will Shu (logistics/Deliveroo)",
+        "target": "Anne Boden (setor bancário/Starling), Nick Jenkins (cartões comemorativos/Moonpig), Will Shu (logística/Deliveroo)"
+      },
+      "[\"domain\",\"gameplayTips\",0]": {
+        "source": "Your industry knowledge is unmatched — you know exactly what customers need and will pay for",
+        "target": "Seu conhecimento do setor é incomparável — você sabe exatamente do que os clientes precisam e pelo que pagarão"
+      },
+      "[\"domain\",\"gameplayTips\",1]": {
+        "source": "Hire young technical talent who can execute your vision with modern tools",
+        "target": "Contrate jovens profissionais técnicos que possam executar sua visão com ferramentas modernas"
+      },
+      "[\"domain\",\"gameplayTips\",2]": {
+        "source": "Your network gives you unfair access to pilot customers and partnerships",
+        "target": "Sua rede oferece acesso privilegiado a clientes de projetos-piloto e a parcerias"
+      },
+      "[\"domain\",\"gameplayTips\",3]": {
+        "source": "Be open to solutions outside your industry's traditional approaches",
+        "target": "Esteja aberto a soluções fora das abordagens tradicionais de seu setor"
+      },
+      "[\"domain\",\"grantAdvantage\"]": {
+        "source": "Strong for applied research — Assessors value real-world problem understanding",
+        "target": "Forte para pesquisa aplicada — Os avaliadores valorizam a compreensão de problemas reais"
+      },
+      "[\"domain\",\"fundraisingStyle\"]": {
+        "source": "Industry-specialist VCs will love you; generalists may question your tech depth",
+        "target": "Investidores de capital de risco especializados no setor gostarão de você; os generalistas podem questionar seu conhecimento técnico"
+      },
+      "[\"domain\",\"hiringEdge\"]": {
+        "source": "Credible leader for industry hires; may seem 'old school' to tech talent",
+        "target": "Líder confiável para profissionais do setor; pode parecer antiquado aos profissionais de tecnologia"
+      },
+      "[\"domain\",\"riskProfile\"]": {
+        "source": "Low market risk (you know the customer), higher technical execution risk",
+        "target": "Baixo risco de mercado, pois você conhece o cliente, e maior risco na execução técnica"
+      },
+      "[\"firsttimer\",\"name\"]": {
+        "source": "The First-Timer",
+        "target": "O iniciante"
+      },
+      "[\"firsttimer\",\"title\"]": {
+        "source": "Fresh and hungry",
+        "target": "Novo na área e cheio de vontade"
+      },
+      "[\"firsttimer\",\"slogan\"]": {
+        "source": "No baggage, all potential",
+        "target": "Sem bagagem, só potencial"
+      },
+      "[\"firsttimer\",\"desc\"]": {
+        "source": "You've never done this before, and that's your edge. No bad habits, no assumptions, no fear. You'll learn fast, make mistakes faster, and adapt. Everything is possible because you don't know what's impossible.",
+        "target": "Você nunca fez isso antes, e essa é sua vantagem. Sem maus hábitos, pressupostos ou medo. Você aprenderá rápido, cometerá erros ainda mais rápido e se adaptará. Tudo é possível porque você não sabe o que seria impossível."
+      },
+      "[\"firsttimer\",\"strengths\"]": {
+        "source": "Open-minded learning, energy and drive, willingness to pivot",
+        "target": "Aprendizagem com mente aberta, energia e determinação, disposição para mudar de direção"
+      },
+      "[\"firsttimer\",\"challenges\"]": {
+        "source": "Everything is new, limited network, learning while doing",
+        "target": "Tudo é novo, rede de contatos limitada, aprender enquanto faz"
+      },
+      "[\"firsttimer\",\"difficulty\"]": {
+        "source": "Hard",
+        "target": "Difícil"
+      },
+      "[\"firsttimer\",\"playstyle\"]": {
+        "source": "Learn-as-you-go, high adaptability",
+        "target": "Aprender durante a jornada, alta adaptabilidade"
+      },
+      "[\"firsttimer\",\"bestFor\"]": {
+        "source": "Players who enjoy a challenge and learning from mistakes",
+        "target": "Jogadores que gostam de desafios e de aprender com os erros"
+      },
+      "[\"firsttimer\",\"famousExamples\"]": {
+        "source": "Tom Blomfield (Monzo), Sarah Wood (Unruly), Taavet Hinrikus (Wise)",
+        "target": "Tom Blomfield (Monzo), Sarah Wood (Unruly), Taavet Hinrikus (Wise)"
+      },
+      "[\"firsttimer\",\"gameplayTips\",0]": {
+        "source": "Your adaptability is your superpower — pivot faster than established founders can",
+        "target": "Sua adaptabilidade é seu superpoder — mude de direção mais rápido do que fundadores estabelecidos conseguem"
+      },
+      "[\"firsttimer\",\"gameplayTips\",1]": {
+        "source": "Build your network actively; every conversation is a learning opportunity",
+        "target": "Amplie ativamente sua rede de contatos; cada conversa é uma oportunidade de aprender"
+      },
+      "[\"firsttimer\",\"gameplayTips\",2]": {
+        "source": "Investors may underestimate you — use this to over-deliver and surprise them",
+        "target": "Investidores podem subestimar você — use isso para entregar mais do que esperam e surpreendê-los"
+      },
+      "[\"firsttimer\",\"gameplayTips\",3]": {
+        "source": "Grant assessors will be sceptical — start with regional programmes to build credibility",
+        "target": "Avaliadores de fomento serão céticos — comece com programas regionais para construir credibilidade"
+      },
+      "[\"firsttimer\",\"grantAdvantage\"]": {
+        "source": "Weak initially — You must prove yourself before partners take you seriously",
+        "target": "Fraca no início — Você precisa provar sua capacidade antes que os parceiros levem você a sério"
+      },
+      "[\"firsttimer\",\"fundraisingStyle\"]": {
+        "source": "Harder path — angel investors and accelerators are your best first step",
+        "target": "Caminho mais difícil — investidores-anjo e aceleradoras são seu melhor primeiro passo"
+      },
+      "[\"firsttimer\",\"hiringEdge\"]": {
+        "source": "Energy attracts believers; experienced hires may want proven leadership",
+        "target": "Sua energia atrai quem acredita na proposta; profissionais experientes podem querer uma liderança comprovada"
+      },
+      "[\"firsttimer\",\"riskProfile\"]": {
+        "source": "Highest overall risk, but also highest learning rate — you'll grow fast",
+        "target": "Maior risco geral, mas também maior ritmo de aprendizagem — você evoluirá rapidamente"
+      },
+      "[\"visionary\",\"name\"]": {
+        "source": "The Visionary",
+        "target": "O visionário"
+      },
+      "[\"visionary\",\"title\"]": {
+        "source": "Big-picture thinker",
+        "target": "Pensa no panorama completo"
+      },
+      "[\"visionary\",\"slogan\"]": {
+        "source": "I see where the world is going",
+        "target": "Vejo para onde o mundo está indo"
+      },
+      "[\"visionary\",\"desc\"]": {
+        "source": "You see where the world is going before others do. Your ideas inspire people—investors, employees, journalists. Execution details bore you, but you know how to find people who sweat the small stuff.",
+        "target": "Você percebe para onde o mundo está indo antes dos demais. Suas ideias inspiram investidores, funcionários e jornalistas. Os detalhes da execução entediam você, mas você sabe encontrar pessoas que cuidam das pequenas coisas."
+      },
+      "[\"visionary\",\"strengths\"]": {
+        "source": "Inspiring leadership, strategic clarity, attracting talent and capital",
+        "target": "Liderança inspiradora, clareza estratégica, atração de talentos e capital"
+      },
+      "[\"visionary\",\"challenges\"]": {
+        "source": "Operational details, patience with incremental progress, listening",
+        "target": "Detalhes operacionais, paciência com progresso gradual, escutar"
+      },
+      "[\"visionary\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"visionary\",\"playstyle\"]": {
+        "source": "Inspire-and-delegate, moonshot thinking",
+        "target": "Inspirar e delegar, pensar em objetivos muito ambiciosos"
+      },
+      "[\"visionary\",\"bestFor\"]": {
+        "source": "Players who enjoy building teams and letting others execute",
+        "target": "Jogadores que gostam de formar equipes e deixar a execução com outras pessoas"
+      },
+      "[\"visionary\",\"famousExamples\"]": {
+        "source": "James Dyson, Richard Branson, Mike Lynch (Autonomy), Martha Lane Fox",
+        "target": "James Dyson, Richard Branson, Mike Lynch (Autonomy), Martha Lane Fox"
+      },
+      "[\"visionary\",\"gameplayTips\",0]": {
+        "source": "Your vision attracts top talent — use this to build a strong team early",
+        "target": "Sua visão atrai profissionais de alto nível — use isso para formar uma boa equipe desde o início"
+      },
+      "[\"visionary\",\"gameplayTips\",1]": {
+        "source": "Investors will fund the dream, but you need an operator to deliver it",
+        "target": "Investidores financiarão o sonho, mas você precisa de um gestor de operações para realizá-lo"
+      },
+      "[\"visionary\",\"gameplayTips\",2]": {
+        "source": "Don't get so far ahead that your team can't follow — stay connected to reality",
+        "target": "Não avance tanto a ponto de sua equipe não conseguir acompanhar — mantenha contato com a realidade"
+      },
+      "[\"visionary\",\"gameplayTips\",3]": {
+        "source": "Your storytelling makes press coverage and partnerships easier to land",
+        "target": "Sua capacidade de contar histórias facilita conseguir cobertura da imprensa e parcerias"
+      },
+      "[\"visionary\",\"grantAdvantage\"]": {
+        "source": "Mixed — Your vision inspires but assessors want concrete milestones",
+        "target": "Mista — Sua visão inspira, mas os avaliadores querem marcos concretos"
+      },
+      "[\"visionary\",\"fundraisingStyle\"]": {
+        "source": "Natural fundraiser — investors buy into your vision of the future",
+        "target": "Captador nato — investidores acreditam em sua visão de futuro"
+      },
+      "[\"visionary\",\"hiringEdge\"]": {
+        "source": "Magnetic leader; attracts believers who want to change the world",
+        "target": "Líder de forte atração; conquista pessoas que acreditam na proposta e querem mudar o mundo"
+      },
+      "[\"visionary\",\"riskProfile\"]": {
+        "source": "Execution is your blind spot — surround yourself with detail-oriented operators",
+        "target": "A execução é seu ponto cego — cerque-se de gestores atentos aos detalhes"
+      },
+      "[\"bootstrapper\",\"name\"]": {
+        "source": "The Bootstrapper",
+        "target": "O empreendedor com recursos próprios"
+      },
+      "[\"bootstrapper\",\"title\"]": {
+        "source": "Self-funded scrapper",
+        "target": "Faz muito com pouco e se financia sozinho"
+      },
+      "[\"bootstrapper\",\"slogan\"]": {
+        "source": "Every pound is a prisoner",
+        "target": "Cada libra é vigiada de perto"
+      },
+      "[\"bootstrapper\",\"desc\"]": {
+        "source": "You believe in building businesses that make money, not just raise it. Every pound counts, every hire must earn their keep. You'll grow slower but own more—if you can survive long enough.",
+        "target": "Você acredita em criar negócios que geram dinheiro, não apenas o captam. Cada libra conta e cada contratação precisa justificar seu custo. Você crescerá mais devagar, mas manterá uma participação maior — se conseguir sobreviver por tempo suficiente."
+      },
+      "[\"bootstrapper\",\"strengths\"]": {
+        "source": "Cash efficiency, sustainable growth, full ownership mentality",
+        "target": "Eficiência no uso do caixa, crescimento sustentável, mentalidade de propriedade integral"
+      },
+      "[\"bootstrapper\",\"challenges\"]": {
+        "source": "Scaling fast enough, competing with funded rivals, raising when needed",
+        "target": "Expandir com rapidez suficiente, competir com rivais financiados, captar quando necessário"
+      },
+      "[\"bootstrapper\",\"difficulty\"]": {
+        "source": "Hard",
+        "target": "Difícil"
+      },
+      "[\"bootstrapper\",\"playstyle\"]": {
+        "source": "Capital-efficient, sustainable growth",
+        "target": "Uso eficiente do capital, crescimento sustentável"
+      },
+      "[\"bootstrapper\",\"bestFor\"]": {
+        "source": "Players who want to maintain control and avoid dilution",
+        "target": "Jogadores que querem manter o controle e evitar diluição societária"
+      },
+      "[\"bootstrapper\",\"famousExamples\"]": {
+        "source": "Nick Jenkins (Moonpig), Julian Dunkerton (Superdry), Ella Mills (Deliciously Ella)",
+        "target": "Nick Jenkins (Moonpig), Julian Dunkerton (Superdry), Ella Mills (Deliciously Ella)"
+      },
+      "[\"bootstrapper\",\"gameplayTips\",0]": {
+        "source": "Your financial discipline means longer runway — use this to outlast funded competitors",
+        "target": "Sua disciplina financeira prolonga o tempo até o caixa acabar — use isso para resistir mais do que concorrentes financiados"
+      },
+      "[\"bootstrapper\",\"gameplayTips\",1]": {
+        "source": "Grants are perfect for you — non-dilutive funding that matches your philosophy",
+        "target": "Recursos de fomento são ideais para você — financiamento sem diluição societária, alinhado à sua filosofia"
+      },
+      "[\"bootstrapper\",\"gameplayTips\",2]": {
+        "source": "Be willing to raise if a genuine scale opportunity appears — don't let pride cost you the win",
+        "target": "Esteja disposto a captar se surgir uma oportunidade real de expansão — não deixe o orgulho custar sua vitória"
+      },
+      "[\"bootstrapper\",\"gameplayTips\",3]": {
+        "source": "Focus on revenue-generating features over impressive demos",
+        "target": "Priorize funcionalidades que geram receita em vez de demonstrações impressionantes"
+      },
+      "[\"bootstrapper\",\"grantAdvantage\"]": {
+        "source": "Strong strategic fit — Grants give you funding without giving up equity",
+        "target": "Forte alinhamento estratégico — O fomento oferece recursos sem ceder participação societária"
+      },
+      "[\"bootstrapper\",\"fundraisingStyle\"]": {
+        "source": "Reluctant fundraiser — but when you do raise, you negotiate hard on terms",
+        "target": "Captador relutante — mas, quando capta, negocia as condições com firmeza"
+      },
+      "[\"bootstrapper\",\"hiringEdge\"]": {
+        "source": "Attracts pragmatists; may struggle with candidates chasing equity upside",
+        "target": "Atrai pessoas pragmáticas; pode ter dificuldade com candidatos em busca de ganhos com participação societária"
+      },
+      "[\"bootstrapper\",\"riskProfile\"]": {
+        "source": "Lower burn means lower risk of running out of money, but you may get outpaced",
+        "target": "Menor consumo de caixa reduz o risco de ficar sem dinheiro, mas os concorrentes podem ultrapassar você"
+      },
+      "[\"community\",\"name\"]": {
+        "source": "The Community Builder",
+        "target": "O criador de comunidades"
+      },
+      "[\"community\",\"title\"]": {
+        "source": "Ecosystem orchestrator",
+        "target": "Articulador do ecossistema"
+      },
+      "[\"community\",\"slogan\"]": {
+        "source": "Build with people, not just for them",
+        "target": "Construir com as pessoas, não apenas para elas"
+      },
+      "[\"community\",\"desc\"]": {
+        "source": "You believe in building with people, not just for them. Open source, developer communities, user movements—you've rallied people around shared causes. Now you're channeling that into a company.",
+        "target": "Você acredita em construir com as pessoas, não apenas para elas. Código aberto, comunidades de desenvolvedores, movimentos de usuários — você reuniu pessoas em torno de causas comuns. Agora direciona isso para uma empresa."
+      },
+      "[\"community\",\"strengths\"]": {
+        "source": "Organic growth, passionate users, talent attraction",
+        "target": "Crescimento orgânico, usuários entusiasmados, atração de profissionais"
+      },
+      "[\"community\",\"challenges\"]": {
+        "source": "Monetisation, focus, saying no to community requests",
+        "target": "Gerar receita, manter o foco, dizer não a pedidos da comunidade"
+      },
+      "[\"community\",\"difficulty\"]": {
+        "source": "Medium-Hard",
+        "target": "Média a difícil"
+      },
+      "[\"community\",\"playstyle\"]": {
+        "source": "Community-first, organic growth",
+        "target": "Comunidade em primeiro lugar, crescimento orgânico"
+      },
+      "[\"community\",\"bestFor\"]": {
+        "source": "Players building developer tools, platforms, or network-effect businesses",
+        "target": "Jogadores que criam ferramentas para desenvolvedores, plataformas ou negócios com efeitos de rede"
+      },
+      "[\"community\",\"famousExamples\"]": {
+        "source": "Pip Jamieson (The Dots), Matt Sherwood (MyBuilder), Russell Mayfield (Fat Llama)",
+        "target": "Pip Jamieson (The Dots), Matt Sherwood (MyBuilder), Russell Mayfield (Fat Llama)"
+      },
+      "[\"community\",\"gameplayTips\",0]": {
+        "source": "Your community is your moat — nurture it and they'll become your sales force",
+        "target": "Sua comunidade é sua defesa competitiva — cuide dela e seus membros se tornarão sua força de vendas"
+      },
+      "[\"community\",\"gameplayTips\",1]": {
+        "source": "Monetisation is your challenge — plan how to charge without alienating your base",
+        "target": "Gerar receita é seu desafio — planeje como cobrar sem afastar sua base de usuários"
+      },
+      "[\"community\",\"gameplayTips\",2]": {
+        "source": "Press loves community stories — leverage this for organic marketing",
+        "target": "A imprensa gosta de histórias de comunidades — use isso para o marketing orgânico"
+      },
+      "[\"community\",\"gameplayTips\",3]": {
+        "source": "Be careful not to let the community drive your roadmap entirely",
+        "target": "Cuidado para não deixar a comunidade determinar integralmente o plano de evolução do produto"
+      },
+      "[\"community\",\"grantAdvantage\"]": {
+        "source": "Moderate — Open innovation narratives resonate with some programmes",
+        "target": "Moderada — Propostas de inovação aberta têm boa receptividade em alguns programas"
+      },
+      "[\"community\",\"fundraisingStyle\"]": {
+        "source": "Community metrics (users, contributors) can substitute for revenue early",
+        "target": "Indicadores da comunidade, como usuários e colaboradores, podem substituir a receita no início"
+      },
+      "[\"community\",\"hiringEdge\"]": {
+        "source": "Community members become candidates; culture fit is built-in",
+        "target": "Membros da comunidade tornam-se candidatos; a afinidade cultural já está presente"
+      },
+      "[\"community\",\"riskProfile\"]": {
+        "source": "Low acquisition cost, but converting community to paying customers is the test",
+        "target": "Baixo custo de aquisição, mas o desafio é transformar a comunidade em clientes pagantes"
+      },
+      "[\"strategist\",\"name\"]": {
+        "source": "The Strategist",
+        "target": "O estrategista"
+      },
+      "[\"strategist\",\"title\"]": {
+        "source": "Ex-consultant analyst",
+        "target": "Analista que veio da consultoria"
+      },
+      "[\"strategist\",\"slogan\"]": {
+        "source": "See the whole chessboard",
+        "target": "Enxergue o tabuleiro inteiro"
+      },
+      "[\"strategist\",\"desc\"]": {
+        "source": "You've advised CEOs and analysed markets. You see business models clearly and can spot flaws in any plan—including your own. Now you're moving from advisor to operator. Theory meets reality.",
+        "target": "Você assessorou diretores executivos e analisou mercados. Entende claramente os modelos de negócio e identifica falhas em qualquer plano, inclusive no seu. Agora passa de assessor a executor. A teoria encontra a realidade."
+      },
+      "[\"strategist\",\"strengths\"]": {
+        "source": "Strategic thinking, financial modelling, structured problem-solving",
+        "target": "Pensamento estratégico, modelagem financeira, resolução estruturada de problemas"
+      },
+      "[\"strategist\",\"challenges\"]": {
+        "source": "Execution speed, comfort with ambiguity, inspiring vs. analysing",
+        "target": "Velocidade de execução, conforto com ambiguidades, inspirar em vez de apenas analisar"
+      },
+      "[\"strategist\",\"difficulty\"]": {
+        "source": "Medium",
+        "target": "Média"
+      },
+      "[\"strategist\",\"playstyle\"]": {
+        "source": "Analytical, structured decision-making",
+        "target": "Decisões analíticas e estruturadas"
+      },
+      "[\"strategist\",\"bestFor\"]": {
+        "source": "Players who enjoy planning and want to minimise avoidable mistakes",
+        "target": "Jogadores que gostam de planejar e querem reduzir erros evitáveis"
+      },
+      "[\"strategist\",\"famousExamples\"]": {
+        "source": "Martha Lane Fox (McKinsey), Archie Norman (McKinsey to Asda), Sherry Coutu (LEK Consulting)",
+        "target": "Martha Lane Fox (McKinsey), Archie Norman (da McKinsey à Asda), Sherry Coutu (LEK Consulting)"
+      },
+      "[\"strategist\",\"gameplayTips\",0]": {
+        "source": "Your analysis skills help you avoid obvious traps — but don't analyse when you should act",
+        "target": "Sua capacidade de análise ajuda a evitar armadilhas evidentes — mas não fique analisando quando deveria agir"
+      },
+      "[\"strategist\",\"gameplayTips\",1]": {
+        "source": "Investors appreciate your rigour; use your financial models to negotiate better terms",
+        "target": "Investidores valorizam seu rigor; use seus modelos financeiros para negociar condições melhores"
+      },
+      "[\"strategist\",\"gameplayTips\",2]": {
+        "source": "Your pattern recognition helps with pivots — you'll see market shifts before others",
+        "target": "Seu reconhecimento de padrões ajuda nas mudanças de direção — você perceberá mudanças de mercado antes dos demais"
+      },
+      "[\"strategist\",\"gameplayTips\",3]": {
+        "source": "Hire passionate operators who'll execute while you strategise",
+        "target": "Contrate gestores entusiasmados que executem enquanto você formula a estratégia"
+      },
+      "[\"strategist\",\"grantAdvantage\"]": {
+        "source": "Strong applications — You write compelling, well-structured proposals",
+        "target": "Propostas fortes — Você escreve propostas convincentes e bem estruturadas"
+      },
+      "[\"strategist\",\"fundraisingStyle\"]": {
+        "source": "Data-driven pitches impress analytical investors; bring energy to balance",
+        "target": "Apresentações baseadas em dados impressionam investidores analíticos; acrescente energia para equilibrar"
+      },
+      "[\"strategist\",\"hiringEdge\"]": {
+        "source": "Structured interview process attracts professionals; may seem cold to creatives",
+        "target": "Entrevistas estruturadas atraem profissionais; o processo pode parecer frio a pessoas criativas"
+      },
+      "[\"strategist\",\"riskProfile\"]": {
+        "source": "Lower strategic risk, but moving from advice to action is your growth edge",
+        "target": "Menor risco estratégico, mas passar do aconselhamento à ação é seu desafio de desenvolvimento"
+      }
+    }
+  },
+  "FOUNDER_GRANT_PROFILES": {
+    "classification": "Doze descrições de perfis traduzidas; identificadores e todos os bônus e valores de experiência, inclusive penalidades negativas, preservados.",
+    "strings": {
+      "[\"academic\",\"description\"]": {
+        "source": "Your academic background opens doors at universities and gives assessors confidence in your research capability.",
+        "target": "Sua formação acadêmica abre portas nas universidades e dá aos avaliadores confiança em sua capacidade de pesquisa."
+      },
+      "[\"serial\",\"description\"]": {
+        "source": "You've navigated the grant system before and know what assessors look for.",
+        "target": "Você já lidou com o sistema de fomento e sabe o que os avaliadores procuram."
+      },
+      "[\"corporate\",\"description\"]": {
+        "source": "Your corporate network helps with industry partners, but you're new to the grant world.",
+        "target": "Sua rede corporativa ajuda nas parcerias com empresas, mas o mundo do fomento é novo para você."
+      },
+      "[\"prodigy\",\"description\"]": {
+        "source": "Your technical skills are impressive, but you'll need to learn the grant-writing game.",
+        "target": "Suas habilidades técnicas impressionam, mas você precisará aprender a elaborar propostas de fomento."
+      },
+      "[\"dealmaker\",\"description\"]": {
+        "source": "Your relationship skills help attract partners, but grant applications require different persuasion.",
+        "target": "Sua habilidade de relacionamento ajuda a atrair parceiros, mas propostas de fomento exigem outra forma de persuasão."
+      },
+      "[\"operator\",\"description\"]": {
+        "source": "Your operational rigour helps with project planning sections, but you're new to academic partnerships.",
+        "target": "Seu rigor operacional ajuda nas seções de planejamento dos projetos, mas as parcerias acadêmicas são novidade para você."
+      },
+      "[\"domain\",\"description\"]": {
+        "source": "Your industry credibility helps with sector-specific partners and market sections of applications.",
+        "target": "Sua credibilidade no setor ajuda nas parcerias especializadas e nas seções de mercado das propostas."
+      },
+      "[\"firsttimer\",\"description\"]": {
+        "source": "Without a track record, partners and assessors will be cautious. You'll need to prove yourself.",
+        "target": "Sem um histórico de resultados, parceiros e avaliadores agirão com cautela. Você precisará demonstrar sua capacidade."
+      },
+      "[\"visionary\",\"description\"]": {
+        "source": "Your vision inspires, but grant assessors want concrete plans and evidence.",
+        "target": "Sua visão inspira, mas avaliadores de fomento querem planos concretos e evidências."
+      },
+      "[\"bootstrapper\",\"description\"]": {
+        "source": "Your efficient approach appeals to assessors, but you've fewer connections in the grant ecosystem.",
+        "target": "Sua abordagem eficiente agrada aos avaliadores, mas você tem menos contatos no ecossistema de fomento."
+      },
+      "[\"community\",\"description\"]": {
+        "source": "Your community connections help, but academic grant processes are a different world.",
+        "target": "Seus contatos na comunidade ajudam, mas os processos de fomento acadêmico são um mundo diferente."
+      },
+      "[\"strategist\",\"description\"]": {
+        "source": "Your analytical rigour produces strong applications, and your consulting background provides some credibility.",
+        "target": "Seu rigor analítico produz propostas bem fundamentadas, e sua experiência em consultoria oferece alguma credibilidade."
+      }
+    }
+  },
+  "FOUNDER_PORTRAITS": {
+    "classification": "Doze retratos SVG preservados integralmente como dados gráficos; sem prosa a traduzir.",
+    "strings": {}
   }
 }
