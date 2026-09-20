@@ -27,6 +27,13 @@ function replaceOnce(before,after,reason) {
  html=html.slice(0,first)+after+html.slice(first+before.length);
  edits.push({reason,before,after});
 }
+for(const [before,after] of [
+ ['<h3 class="font-bold text-base">${loc.name}</h3>','<h3 class="font-bold text-base">${SlingshotLocationDisplay.city(loc.name)}</h3>'],
+ ['<span class="text-xs text-slate-300">${loc.region}</span>','<span class="text-xs text-slate-300">${SlingshotLocationDisplay.region(loc.region)}</span>'],
+ ['document.getElementById("locationInfoName").textContent = `📍 ${loc.name}`;','document.getElementById("locationInfoName").textContent = `📍 ${SlingshotLocationDisplay.city(loc.name)}`;'],
+ ['document.getElementById("locationInfoRegion").textContent = loc.region;','document.getElementById("locationInfoRegion").textContent = SlingshotLocationDisplay.region(loc.region);'],
+ ['locEl.textContent = `📍 ${this.location.name}`;','locEl.textContent = `📍 ${SlingshotLocationDisplay.city(this.location.name)}`;']
+])replaceOnce(before,after,'Exônimos e regiões na apresentação, preservando nomes internos usados em regras de fomento');
 replaceOnce('        crisisLifelineUsed: this.crisisLifelineUsed || false,','        crisisLifelineUsed: this.crisisLifelineUsed || false,\n        brCrisisGracePeriod: this.crisisGracePeriod === true,','Preserva a carência da recuperação na partida salva');
 replaceOnce('      this.crisisLifelineUsed = s.crisisLifelineUsed || false; // P2-6: one lifeline per run, survives reload','      this.crisisLifelineUsed = s.crisisLifelineUsed || false;\n      this.crisisGracePeriod = s.brCrisisGracePeriod === true;','Restaura a carência antes de atualizar a interface ou verificar falência');
 replaceOnce('  generateFundingOptions() {','  generateFundingOptions() {\n    return SlingshotContinuingCredit.options(this, this.originalFundingReference());\n  }\n\n  originalFundingReference() {','Preserva o cálculo de capital do original como referência para propostas de empréstimo');
@@ -109,7 +116,7 @@ function visit(node,skip=false) {
 }
 visit(tree);
 for(const edit of translations.sort((a,b)=>b.start-a.start))html=html.slice(0,edit.start)+edit.text+html.slice(edit.end);
-const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','crisis-credit.js','save-validation.js','result-code.js','academic-export.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
+const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','crisis-credit.js','save-validation.js','result-code.js','academic-export.js','location-display.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
 replaceOnce('const game = new Game();',libraries+'\n<script>\nconst game = new Game();','Integração dos módulos locais');
 // Close the original script before inserting the new scripts.
 html=html.replace(libraries,'</script>\n'+libraries);

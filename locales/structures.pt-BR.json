@@ -9134,5 +9134,1118 @@
   "FOUNDER_PORTRAITS": {
     "classification": "Doze retratos SVG preservados integralmente como dados gráficos; sem prosa a traduzir.",
     "strings": {}
+  },
+  "LOCATIONS": {
+    "classification": "36 opções: descrições, vantagens, desvantagens e frases de apresentação traduzidas. Nomes de cidades e chaves regionais preservados internamente porque controlam regras; exônimos e regiões traduzidos nos cartões, painel de detalhes e cabeçalho por location-display.js. SVGs, identificadores, salários e bônus intactos. Contexto britânico original, sem validação como dados atuais.",
+    "strings": {
+      "[\"aether\",0,\"name\"]": {
+        "source": "Oxford",
+        "target": "Oxford"
+      },
+      "[\"aether\",0,\"tagline\"]": {
+        "source": "The Dreaming Spires",
+        "target": "As torres dos sonhos"
+      },
+      "[\"aether\",0,\"description\"]": {
+        "source": "Ancient colleges meet cutting-edge science. The biotech incubator and university spin-outs have created a world-class life sciences cluster.",
+        "target": "Faculdades históricas encontram a ciência de ponta. A incubadora de biotecnologia e as empresas nascidas na universidade criaram um polo de ciências da vida de nível mundial."
+      },
+      "[\"aether\",0,\"pros\",0]": {
+        "source": "World-leading research university",
+        "target": "Universidade de pesquisa entre as líderes mundiais"
+      },
+      "[\"aether\",0,\"pros\",1]": {
+        "source": "Strong pharma connections (nearby Harwell)",
+        "target": "Fortes conexões com o setor farmacêutico (Harwell fica perto)"
+      },
+      "[\"aether\",0,\"pros\",2]": {
+        "source": "Prestigious address attracts talent",
+        "target": "Endereço prestigiado atrai profissionais"
+      },
+      "[\"aether\",0,\"cons\",0]": {
+        "source": "High costs and housing shortage",
+        "target": "Custos elevados e escassez de moradia"
+      },
+      "[\"aether\",0,\"cons\",1]": {
+        "source": "Academic culture can slow commercialisation",
+        "target": "A cultura acadêmica pode retardar a comercialização"
+      },
+      "[\"aether\",1,\"name\"]": {
+        "source": "Glasgow",
+        "target": "Glasgow"
+      },
+      "[\"aether\",1,\"tagline\"]": {
+        "source": "The Inventive City",
+        "target": "A cidade inventiva"
+      },
+      "[\"aether\",1,\"description\"]": {
+        "source": "Scotland's largest city with a proud industrial heritage reborn as an innovation hub. Strong NHS links through the university hospital campus.",
+        "target": "A maior cidade da Escócia, orgulhosa de sua herança industrial, renasceu como polo de inovação. Tem fortes vínculos com o NHS por meio do campus hospitalar universitário."
+      },
+      "[\"aether\",1,\"pros\",0]": {
+        "source": "Excellent NHS collaboration opportunities",
+        "target": "Excelentes oportunidades de colaboração com o NHS"
+      },
+      "[\"aether\",1,\"pros\",1]": {
+        "source": "Affordable talent with strong work ethic",
+        "target": "Profissionais a custos acessíveis e com forte ética de trabalho"
+      },
+      "[\"aether\",1,\"pros\",2]": {
+        "source": "regional development funding available",
+        "target": "Recursos disponíveis para desenvolvimento regional"
+      },
+      "[\"aether\",1,\"cons\",0]": {
+        "source": "Smaller biotech investor ecosystem",
+        "target": "Ecossistema menor de investidores em biotecnologia"
+      },
+      "[\"aether\",1,\"cons\",1]": {
+        "source": "Perception gap with London VCs",
+        "target": "Diferença de percepção em relação aos investidores de capital de risco de Londres"
+      },
+      "[\"aether\",2,\"name\"]": {
+        "source": "Cardiff",
+        "target": "Cardiff"
+      },
+      "[\"aether\",2,\"tagline\"]": {
+        "source": "The Life Sciences Valley",
+        "target": "O vale das ciências da vida"
+      },
+      "[\"aether\",2,\"description\"]": {
+        "source": "Welsh capital with a growing life sciences cluster. The Cardiff Medicentre and Development Bank of Wales offer strong support for health tech startups.",
+        "target": "A capital galesa tem um polo de ciências da vida em crescimento. O Cardiff Medicentre e o Development Bank of Wales oferecem forte apoio a startups de tecnologia em saúde."
+      },
+      "[\"aether\",2,\"pros\",0]": {
+        "source": "Welsh Government grants and support",
+        "target": "Fomento não reembolsável e apoio do governo galês"
+      },
+      "[\"aether\",2,\"pros\",1]": {
+        "source": "Growing life sciences park",
+        "target": "Parque de ciências da vida em crescimento"
+      },
+      "[\"aether\",2,\"pros\",2]": {
+        "source": "Low costs, high quality of life",
+        "target": "Custos baixos e alta qualidade de vida"
+      },
+      "[\"aether\",2,\"cons\",0]": {
+        "source": "Smaller talent pool",
+        "target": "Base menor de profissionais disponíveis"
+      },
+      "[\"aether\",2,\"cons\",1]": {
+        "source": "Less visibility to major investors",
+        "target": "Menor visibilidade junto a grandes investidores"
+      },
+      "[\"vanguard\",0,\"name\"]": {
+        "source": "Southampton",
+        "target": "Southampton"
+      },
+      "[\"vanguard\",0,\"tagline\"]": {
+        "source": "The Maritime Tech Hub",
+        "target": "O polo de tecnologia marítima"
+      },
+      "[\"vanguard\",0,\"description\"]": {
+        "source": "Major port city with expertise in maritime technology and logistics automation. The University of Southampton has world-class engineering and autonomous systems research.",
+        "target": "Importante cidade portuária com conhecimento em tecnologia marítima e automação logística. A University of Southampton tem pesquisa de nível mundial em engenharia e sistemas autônomos."
+      },
+      "[\"vanguard\",0,\"pros\",0]": {
+        "source": "Port and logistics expertise",
+        "target": "Conhecimento especializado em portos e logística"
+      },
+      "[\"vanguard\",0,\"pros\",1]": {
+        "source": "Strong university engineering links",
+        "target": "Fortes vínculos com a engenharia universitária"
+      },
+      "[\"vanguard\",0,\"pros\",2]": {
+        "source": "Good transport to London customers",
+        "target": "Boas conexões de transporte para clientes em Londres"
+      },
+      "[\"vanguard\",0,\"cons\",0]": {
+        "source": "Mid-tier costs",
+        "target": "Custos intermediários"
+      },
+      "[\"vanguard\",0,\"cons\",1]": {
+        "source": "Competes with London for talent",
+        "target": "Compete com Londres por profissionais"
+      },
+      "[\"vanguard\",1,\"name\"]": {
+        "source": "Birmingham",
+        "target": "Birmingham"
+      },
+      "[\"vanguard\",1,\"tagline\"]": {
+        "source": "The Manufacturing Heart",
+        "target": "O coração industrial"
+      },
+      "[\"vanguard\",1,\"description\"]": {
+        "source": "Britain's second city, central to the UK's manufacturing supply chain. JLR, Aston Martin, and a huge automotive supply base make it ideal for industrial automation.",
+        "target": "A segunda cidade da Grã-Bretanha tem papel central na cadeia de fornecimento industrial do Reino Unido. JLR, Aston Martin e uma enorme base de fornecedores automotivos tornam o local ideal para automação industrial."
+      },
+      "[\"vanguard\",1,\"pros\",0]": {
+        "source": "Central UK location",
+        "target": "Localização central no Reino Unido"
+      },
+      "[\"vanguard\",1,\"pros\",1]": {
+        "source": "Large manufacturing customer base",
+        "target": "Grande base de clientes industriais"
+      },
+      "[\"vanguard\",1,\"pros\",2]": {
+        "source": "Diverse, skilled workforce",
+        "target": "Força de trabalho diversa e qualificada"
+      },
+      "[\"vanguard\",1,\"cons\",0]": {
+        "source": "Less tech-startup culture",
+        "target": "Cultura de startups de tecnologia menos desenvolvida"
+      },
+      "[\"vanguard\",1,\"cons\",1]": {
+        "source": "Competes with London for visibility",
+        "target": "Compete com Londres por visibilidade"
+      },
+      "[\"vanguard\",2,\"name\"]": {
+        "source": "Grimsby",
+        "target": "Grimsby"
+      },
+      "[\"vanguard\",2,\"tagline\"]": {
+        "source": "The Reinvention",
+        "target": "A reinvenção"
+      },
+      "[\"vanguard\",2,\"description\"]": {
+        "source": "Once a fishing powerhouse, now reinventing itself as the UK's offshore wind capital. Lowest costs in the country with access to automation-hungry food processing and renewable energy sectors.",
+        "target": "Antes uma potência pesqueira, agora se reinventa como a capital britânica da energia eólica em alto-mar. Tem os menores custos do país e acesso aos setores de processamento de alimentos e energia renovável, que buscam automação."
+      },
+      "[\"vanguard\",2,\"pros\",0]": {
+        "source": "Lowest operating costs in UK",
+        "target": "Menores custos operacionais do Reino Unido"
+      },
+      "[\"vanguard\",2,\"pros\",1]": {
+        "source": "Offshore wind boom creating demand",
+        "target": "Expansão da energia eólica em alto-mar gera demanda"
+      },
+      "[\"vanguard\",2,\"pros\",2]": {
+        "source": "Eager local workforce",
+        "target": "Força de trabalho local motivada"
+      },
+      "[\"vanguard\",2,\"cons\",0]": {
+        "source": "Perception challenges",
+        "target": "Desafios de imagem"
+      },
+      "[\"vanguard\",2,\"cons\",1]": {
+        "source": "Remote location, harder to attract talent",
+        "target": "Localização afastada dificulta atrair profissionais"
+      },
+      "[\"quant\",0,\"name\"]": {
+        "source": "London",
+        "target": "London"
+      },
+      "[\"quant\",0,\"tagline\"]": {
+        "source": "The City",
+        "target": "A City de Londres"
+      },
+      "[\"quant\",0,\"description\"]": {
+        "source": "The world's leading financial centre. Every major bank, hedge fund, and asset manager has a presence here. Unmatched access to customers, talent, and capital.",
+        "target": "O principal centro financeiro do mundo. Todos os grandes bancos, fundos do tipo hedge e gestores de ativos têm presença aqui. Acesso incomparável a clientes, profissionais e capital."
+      },
+      "[\"quant\",0,\"pros\",0]": {
+        "source": "All financial customers on doorstep",
+        "target": "Todos os clientes financeiros por perto"
+      },
+      "[\"quant\",0,\"pros\",1]": {
+        "source": "Deepest quant talent pool globally",
+        "target": "Maior base mundial de profissionais de finanças quantitativas"
+      },
+      "[\"quant\",0,\"pros\",2]": {
+        "source": "Investor meetings over lunch",
+        "target": "Reuniões com investidores durante o almoço"
+      },
+      "[\"quant\",0,\"cons\",0]": {
+        "source": "Brutal costs and competition",
+        "target": "Custos e concorrência muito elevados"
+      },
+      "[\"quant\",0,\"cons\",1]": {
+        "source": "Constant poaching of staff",
+        "target": "Aliciamento constante de funcionários por concorrentes"
+      },
+      "[\"quant\",1,\"name\"]": {
+        "source": "Edinburgh",
+        "target": "Edinburgh"
+      },
+      "[\"quant\",1,\"tagline\"]": {
+        "source": "The Fund Managers",
+        "target": "Os gestores de fundos"
+      },
+      "[\"quant\",1,\"description\"]": {
+        "source": "Scotland's capital hosts major fund managers including Baillie Gifford and Abrdn. A sophisticated financial centre with world-class universities and a thriving fintech scene.",
+        "target": "A capital da Escócia abriga grandes gestoras de fundos, como Baillie Gifford e Abrdn. Um centro financeiro sofisticado, com universidades de nível mundial e um setor de tecnologia financeira em expansão."
+      },
+      "[\"quant\",1,\"pros\",0]": {
+        "source": "Major asset managers headquartered here",
+        "target": "Sedes de grandes gestoras de ativos"
+      },
+      "[\"quant\",1,\"pros\",1]": {
+        "source": "Strong data science and AI talent",
+        "target": "Profissionais qualificados em ciência de dados e IA"
+      },
+      "[\"quant\",1,\"pros\",2]": {
+        "source": "regional development support",
+        "target": "Apoio ao desenvolvimento regional"
+      },
+      "[\"quant\",1,\"cons\",0]": {
+        "source": "Fewer hedge funds than London",
+        "target": "Menos fundos do tipo hedge que Londres"
+      },
+      "[\"quant\",1,\"cons\",1]": {
+        "source": "Some investors require travel",
+        "target": "Alguns investidores exigem deslocamentos"
+      },
+      "[\"quant\",2,\"name\"]": {
+        "source": "Belfast",
+        "target": "Belfast"
+      },
+      "[\"quant\",2,\"tagline\"]": {
+        "source": "The Fintech Frontier",
+        "target": "A fronteira da tecnologia financeira"
+      },
+      "[\"quant\",2,\"description\"]": {
+        "source": "Northern Ireland's capital has quietly become a fintech powerhouse. Citi, Allstate, and CME Group have major tech operations here, creating a deep pool of financial services engineers.",
+        "target": "A capital da Irlanda do Norte tornou-se discretamente uma potência em tecnologia financeira. Citi, Allstate e CME Group têm grandes operações tecnológicas aqui, formando uma ampla base de engenheiros de serviços financeiros."
+      },
+      "[\"quant\",2,\"pros\",0]": {
+        "source": "Lowest costs of major UK cities",
+        "target": "Menores custos entre as grandes cidades do Reino Unido"
+      },
+      "[\"quant\",2,\"pros\",1]": {
+        "source": "Strong financial services tech talent",
+        "target": "Bons profissionais de tecnologia para serviços financeiros"
+      },
+      "[\"quant\",2,\"pros\",2]": {
+        "source": "Invest NI grants available",
+        "target": "Recursos não reembolsáveis da Invest NI disponíveis"
+      },
+      "[\"quant\",2,\"cons\",0]": {
+        "source": "Distance from London clients",
+        "target": "Distância dos clientes de Londres"
+      },
+      "[\"quant\",2,\"cons\",1]": {
+        "source": "Smaller quant research community",
+        "target": "Comunidade menor de pesquisa em finanças quantitativas"
+      },
+      "[\"dream\",0,\"name\"]": {
+        "source": "Brighton",
+        "target": "Brighton"
+      },
+      "[\"dream\",0,\"tagline\"]": {
+        "source": "The Creative Coast",
+        "target": "O litoral criativo"
+      },
+      "[\"dream\",0,\"description\"]": {
+        "source": "London's creative escape by the sea. A thriving indie games scene, digital agencies, and media companies make Brighton the UK's creative tech capital outside London.",
+        "target": "Um refúgio criativo à beira-mar para quem sai de Londres. Jogos independentes em expansão, agências digitais e empresas de mídia fazem de Brighton a capital britânica da tecnologia criativa fora de Londres."
+      },
+      "[\"dream\",0,\"pros\",0]": {
+        "source": "Strong creative and games talent",
+        "target": "Bons profissionais de criação e jogos"
+      },
+      "[\"dream\",0,\"pros\",1]": {
+        "source": "50 mins to London clients",
+        "target": "50 minutos até os clientes de Londres"
+      },
+      "[\"dream\",0,\"pros\",2]": {
+        "source": "Vibrant, attractive lifestyle",
+        "target": "Estilo de vida movimentado e atraente"
+      },
+      "[\"dream\",0,\"cons\",0]": {
+        "source": "High costs for a small city",
+        "target": "Custos altos para uma cidade pequena"
+      },
+      "[\"dream\",0,\"cons\",1]": {
+        "source": "Limited growth ceiling",
+        "target": "Limite restrito de crescimento"
+      },
+      "[\"dream\",1,\"name\"]": {
+        "source": "Bristol",
+        "target": "Bristol"
+      },
+      "[\"dream\",1,\"tagline\"]": {
+        "source": "The Animation Capital",
+        "target": "A capital da animação"
+      },
+      "[\"dream\",1,\"description\"]": {
+        "source": "Home to award-winning animation studios and national broadcasters. A rich creative heritage combined with strong engineering talent from the aerospace industry. Annual Balloon Fiesta captures the city's spirit.",
+        "target": "Sede de estúdios de animação premiados e emissoras nacionais. Uma rica tradição criativa combina-se com bons profissionais de engenharia da indústria aeroespacial. O evento anual Balloon Fiesta expressa o espírito da cidade."
+      },
+      "[\"dream\",1,\"pros\",0]": {
+        "source": "Animation studios and broadcaster heritage",
+        "target": "Tradição de estúdios de animação e emissoras"
+      },
+      "[\"dream\",1,\"pros\",1]": {
+        "source": "Strong VFX and animation talent",
+        "target": "Bons profissionais de efeitos visuais (VFX) e animação"
+      },
+      "[\"dream\",1,\"pros\",2]": {
+        "source": "More affordable than London",
+        "target": "Mais acessível que Londres"
+      },
+      "[\"dream\",1,\"cons\",0]": {
+        "source": "Smaller than London market",
+        "target": "Mercado menor que o de Londres"
+      },
+      "[\"dream\",1,\"cons\",1]": {
+        "source": "Some client travel required",
+        "target": "Necessidade de algumas viagens a clientes"
+      },
+      "[\"dream\",2,\"name\"]": {
+        "source": "Dundee",
+        "target": "Dundee"
+      },
+      "[\"dream\",2,\"tagline\"]": {
+        "source": "The Games City",
+        "target": "A cidade dos jogos"
+      },
+      "[\"dream\",2,\"description\"]": {
+        "source": "Birthplace of Grand Theft Auto and home to the V&A's only museum outside London. Abertay University pioneered games degrees, creating a unique talent pool for interactive entertainment.",
+        "target": "Berço de Grand Theft Auto e sede do único museu do V&A fora de Londres. A Abertay University foi pioneira em cursos superiores de jogos, criando uma base singular de profissionais de entretenimento interativo."
+      },
+      "[\"dream\",2,\"pros\",0]": {
+        "source": "GTA legacy and games talent",
+        "target": "Legado de GTA e profissionais de jogos"
+      },
+      "[\"dream\",2,\"pros\",1]": {
+        "source": "V&A Dundee creative hub",
+        "target": "Polo criativo V&A Dundee"
+      },
+      "[\"dream\",2,\"pros\",2]": {
+        "source": "Low costs, high creativity",
+        "target": "Custos baixos e alta criatividade"
+      },
+      "[\"dream\",2,\"cons\",0]": {
+        "source": "Small city, limited scale",
+        "target": "Cidade pequena e escala limitada"
+      },
+      "[\"dream\",2,\"cons\",1]": {
+        "source": "Remote from media buyers",
+        "target": "Distante dos compradores de mídia"
+      },
+      "[\"cyber\",0,\"name\"]": {
+        "source": "Cheltenham",
+        "target": "Cheltenham"
+      },
+      "[\"cyber\",0,\"tagline\"]": {
+        "source": "National Cyber Agency's Backyard",
+        "target": "O quintal da National Cyber Agency"
+      },
+      "[\"cyber\",0,\"description\"]": {
+        "source": "Home to National Cyber Agency and National Cyber Security Centre. The UK's intelligence community creates a unique talent pipeline.",
+        "target": "Sede da National Cyber Agency e do National Cyber Security Centre. A comunidade de inteligência do Reino Unido forma um fluxo singular de profissionais."
+      },
+      "[\"cyber\",0,\"pros\",0]": {
+        "source": "National Cyber Agency talent pipeline",
+        "target": "Fluxo de profissionais da National Cyber Agency"
+      },
+      "[\"cyber\",0,\"pros\",1]": {
+        "source": "Security clearance culture",
+        "target": "Cultura de credenciamento de segurança"
+      },
+      "[\"cyber\",0,\"pros\",2]": {
+        "source": "Government contracts",
+        "target": "Contratos governamentais"
+      },
+      "[\"cyber\",0,\"cons\",0]": {
+        "source": "Quiet town",
+        "target": "Cidade tranquila"
+      },
+      "[\"cyber\",0,\"cons\",1]": {
+        "source": "Talent often cleared elsewhere",
+        "target": "Profissionais frequentemente com credenciamento de segurança obtido em outros locais"
+      },
+      "[\"cyber\",1,\"name\"]": {
+        "source": "Newport",
+        "target": "Newport"
+      },
+      "[\"cyber\",1,\"tagline\"]": {
+        "source": "Cyber Wales Hub",
+        "target": "Polo de cibersegurança do País de Gales"
+      },
+      "[\"cyber\",1,\"description\"]": {
+        "source": "Home to the National Cyber Security Academy and growing Welsh cyber cluster. ONS data science campus nearby in the valleys.",
+        "target": "Sede da National Cyber Security Academy e de um polo galês de cibersegurança em crescimento. O campus de ciência de dados do ONS fica próximo, nos vales."
+      },
+      "[\"cyber\",1,\"pros\",0]": {
+        "source": "Cyber Security Academy",
+        "target": "Cyber Security Academy"
+      },
+      "[\"cyber\",1,\"pros\",1]": {
+        "source": "Welsh Government support",
+        "target": "Apoio do governo galês"
+      },
+      "[\"cyber\",1,\"pros\",2]": {
+        "source": "Low costs",
+        "target": "Custos baixos"
+      },
+      "[\"cyber\",1,\"cons\",0]": {
+        "source": "Smaller talent pool",
+        "target": "Base menor de profissionais disponíveis"
+      },
+      "[\"cyber\",1,\"cons\",1]": {
+        "source": "Less visibility",
+        "target": "Menor visibilidade"
+      },
+      "[\"cyber\",2,\"name\"]": {
+        "source": "Malvern",
+        "target": "Malvern"
+      },
+      "[\"cyber\",2,\"tagline\"]": {
+        "source": "Defence Tech Valley",
+        "target": "Vale da tecnologia de defesa"
+      },
+      "[\"cyber\",2,\"description\"]": {
+        "source": "Home to DefenceTech Labs and Defence Research Institute. The Malvern Hills tech cluster has deep defence and signals intelligence heritage.",
+        "target": "Sede da DefenceTech Labs e do Defence Research Institute. O polo tecnológico de Malvern Hills tem forte tradição em defesa e inteligência de sinais."
+      },
+      "[\"cyber\",2,\"pros\",0]": {
+        "source": "DefenceTech Labs/Defence Research Institute proximity",
+        "target": "Proximidade da DefenceTech Labs e do Defence Research Institute"
+      },
+      "[\"cyber\",2,\"pros\",1]": {
+        "source": "Defence contracts",
+        "target": "Contratos de defesa"
+      },
+      "[\"cyber\",2,\"pros\",2]": {
+        "source": "Beautiful location",
+        "target": "Local bonito"
+      },
+      "[\"cyber\",2,\"cons\",0]": {
+        "source": "Small town",
+        "target": "Cidade de pequeno porte"
+      },
+      "[\"cyber\",2,\"cons\",1]": {
+        "source": "Limited nightlife",
+        "target": "Vida noturna limitada"
+      },
+      "[\"terra\",0,\"name\"]": {
+        "source": "Aberdeen",
+        "target": "Aberdeen"
+      },
+      "[\"terra\",0,\"tagline\"]": {
+        "source": "Energy Transition Hub",
+        "target": "Polo da transição energética"
+      },
+      "[\"terra\",0,\"description\"]": {
+        "source": "Oil & gas capital pivoting to renewables. Energy giants need AI for transition-huge budgets, urgent timelines.",
+        "target": "Capital de petróleo e gás que muda seu foco para energias renováveis. Gigantes da energia precisam de IA para a transição — orçamentos enormes e prazos urgentes."
+      },
+      "[\"terra\",0,\"pros\",0]": {
+        "source": "Energy company HQs",
+        "target": "Sedes de empresas de energia"
+      },
+      "[\"terra\",0,\"pros\",1]": {
+        "source": "Transition urgency",
+        "target": "Urgência da transição"
+      },
+      "[\"terra\",0,\"pros\",2]": {
+        "source": "Large budgets",
+        "target": "Orçamentos grandes"
+      },
+      "[\"terra\",0,\"cons\",0]": {
+        "source": "Remote location",
+        "target": "Localização afastada"
+      },
+      "[\"terra\",0,\"cons\",1]": {
+        "source": "Oil industry stigma",
+        "target": "Estigma da indústria petrolífera"
+      },
+      "[\"terra\",1,\"name\"]": {
+        "source": "Hull",
+        "target": "Hull"
+      },
+      "[\"terra\",1,\"tagline\"]": {
+        "source": "Offshore Wind Capital",
+        "target": "Capital da energia eólica em alto-mar"
+      },
+      "[\"terra\",1,\"description\"]": {
+        "source": "UK's offshore wind hub. Siemens Gamesa factory and Humber freeport offer grants and access to renewables sector.",
+        "target": "Polo britânico de energia eólica em alto-mar. A fábrica da Siemens Gamesa e o porto franco de Humber oferecem fomento e acesso ao setor de energias renováveis."
+      },
+      "[\"terra\",1,\"pros\",0]": {
+        "source": "Offshore wind cluster",
+        "target": "Polo de energia eólica em alto-mar"
+      },
+      "[\"terra\",1,\"pros\",1]": {
+        "source": "Freeport incentives",
+        "target": "Incentivos do porto franco"
+      },
+      "[\"terra\",1,\"pros\",2]": {
+        "source": "Lowest costs",
+        "target": "Custos mais baixos"
+      },
+      "[\"terra\",1,\"cons\",0]": {
+        "source": "Remote from investors",
+        "target": "Distante dos investidores"
+      },
+      "[\"terra\",1,\"cons\",1]": {
+        "source": "Limited tech scene",
+        "target": "Setor tecnológico limitado"
+      },
+      "[\"terra\",2,\"name\"]": {
+        "source": "Exeter",
+        "target": "Exeter"
+      },
+      "[\"terra\",2,\"tagline\"]": {
+        "source": "Met Office & Climate",
+        "target": "Met Office e clima"
+      },
+      "[\"terra\",2,\"description\"]": {
+        "source": "Home to the Met Office and University of Exeter's climate research. World-leading weather and climate science on your doorstep.",
+        "target": "Sede do Met Office e da pesquisa climática da University of Exeter. Ciência meteorológica e climática entre as líderes mundiais ao seu alcance."
+      },
+      "[\"terra\",2,\"pros\",0]": {
+        "source": "Met Office partnership",
+        "target": "Parceria com o Met Office"
+      },
+      "[\"terra\",2,\"pros\",1]": {
+        "source": "Climate science hub",
+        "target": "Polo de ciência climática"
+      },
+      "[\"terra\",2,\"pros\",2]": {
+        "source": "Quality of life",
+        "target": "Qualidade de vida"
+      },
+      "[\"terra\",2,\"cons\",0]": {
+        "source": "Small city",
+        "target": "Cidade pequena"
+      },
+      "[\"terra\",2,\"cons\",1]": {
+        "source": "Far from London",
+        "target": "Longe de Londres"
+      },
+      "[\"legal\",0,\"name\"]": {
+        "source": "Leeds",
+        "target": "Leeds"
+      },
+      "[\"legal\",0,\"tagline\"]": {
+        "source": "Legal Process Centre",
+        "target": "Centro de processos de trabalho jurídico"
+      },
+      "[\"legal\",0,\"description\"]": {
+        "source": "UK's largest legal centre outside London. DLA Piper and Eversheds run major operations. Legal process expertise.",
+        "target": "O maior centro jurídico do Reino Unido fora de Londres. DLA Piper e Eversheds mantêm grandes operações. Conhecimento especializado em processos de trabalho jurídico."
+      },
+      "[\"legal\",0,\"pros\",0]": {
+        "source": "Major firm operations",
+        "target": "Operações de grandes escritórios"
+      },
+      "[\"legal\",0,\"pros\",1]": {
+        "source": "Legal process expertise",
+        "target": "Conhecimento especializado em processos de trabalho jurídico"
+      },
+      "[\"legal\",0,\"pros\",2]": {
+        "source": "Strong universities",
+        "target": "Boas universidades"
+      },
+      "[\"legal\",0,\"cons\",0]": {
+        "source": "Process not prestige",
+        "target": "Foco em processos, não em prestígio"
+      },
+      "[\"legal\",0,\"cons\",1]": {
+        "source": "Less M&A work",
+        "target": "Menos trabalho de fusões e aquisições (M&A)"
+      },
+      "[\"legal\",1,\"name\"]": {
+        "source": "Swansea",
+        "target": "Swansea"
+      },
+      "[\"legal\",1,\"tagline\"]": {
+        "source": "Welsh Legal Tech",
+        "target": "Tecnologia jurídica galesa"
+      },
+      "[\"legal\",1,\"description\"]": {
+        "source": "Swansea University's Hillary Rodham Clinton School of Law and growing legal services sector. Welsh Government backing for legal tech.",
+        "target": "A Hillary Rodham Clinton School of Law da Swansea University e um setor de serviços jurídicos em crescimento. Apoio do governo galês à tecnologia jurídica."
+      },
+      "[\"legal\",1,\"pros\",0]": {
+        "source": "University law school",
+        "target": "Faculdade universitária de direito"
+      },
+      "[\"legal\",1,\"pros\",1]": {
+        "source": "Welsh Government support",
+        "target": "Apoio do governo galês"
+      },
+      "[\"legal\",1,\"pros\",2]": {
+        "source": "Low costs",
+        "target": "Custos baixos"
+      },
+      "[\"legal\",1,\"cons\",0]": {
+        "source": "Small legal market",
+        "target": "Mercado jurídico pequeno"
+      },
+      "[\"legal\",1,\"cons\",1]": {
+        "source": "Far from London courts",
+        "target": "Longe dos tribunais de Londres"
+      },
+      "[\"legal\",2,\"name\"]": {
+        "source": "Bournemouth",
+        "target": "Bournemouth"
+      },
+      "[\"legal\",2,\"tagline\"]": {
+        "source": "South Coast Legal",
+        "target": "Direito no litoral sul"
+      },
+      "[\"legal\",2,\"description\"]": {
+        "source": "Growing professional services hub with Bournemouth University's strong business law programme. Quality of life attracts London escapees.",
+        "target": "Polo de serviços profissionais em crescimento, com o bom programa de direito empresarial da Bournemouth University. A qualidade de vida atrai quem deixa Londres."
+      },
+      "[\"legal\",2,\"pros\",0]": {
+        "source": "Quality of life",
+        "target": "Qualidade de vida"
+      },
+      "[\"legal\",2,\"pros\",1]": {
+        "source": "Lower costs than London",
+        "target": "Custos menores que em Londres"
+      },
+      "[\"legal\",2,\"pros\",2]": {
+        "source": "Growing legal sector",
+        "target": "Setor jurídico em crescimento"
+      },
+      "[\"legal\",2,\"cons\",0]": {
+        "source": "Smaller market",
+        "target": "Mercado menor"
+      },
+      "[\"legal\",2,\"cons\",1]": {
+        "source": "Limited Magic Circle presence",
+        "target": "Presença limitada do Magic Circle"
+      },
+      "[\"edu\",0,\"name\"]": {
+        "source": "York",
+        "target": "York"
+      },
+      "[\"edu\",0,\"tagline\"]": {
+        "source": "Education Research Hub",
+        "target": "Polo de pesquisa em educação"
+      },
+      "[\"edu\",0,\"description\"]": {
+        "source": "University of York's education department is world-ranked. Strong evidence-based education research and school partnerships.",
+        "target": "O departamento de educação da University of York tem reconhecimento em classificações mundiais. Boa pesquisa educacional baseada em evidências e parcerias com escolas."
+      },
+      "[\"edu\",0,\"pros\",0]": {
+        "source": "Top education research",
+        "target": "Pesquisa em educação de alto nível"
+      },
+      "[\"edu\",0,\"pros\",1]": {
+        "source": "School partnerships",
+        "target": "Parcerias com escolas"
+      },
+      "[\"edu\",0,\"pros\",2]": {
+        "source": "Historic city appeal",
+        "target": "Atrativo de cidade histórica"
+      },
+      "[\"edu\",0,\"cons\",0]": {
+        "source": "Small city",
+        "target": "Cidade pequena"
+      },
+      "[\"edu\",0,\"cons\",1]": {
+        "source": "Limited tech scene",
+        "target": "Setor tecnológico limitado"
+      },
+      "[\"edu\",1,\"name\"]": {
+        "source": "Coventry",
+        "target": "Coventry"
+      },
+      "[\"edu\",1,\"tagline\"]": {
+        "source": "Warwick & WMG Country",
+        "target": "Território de Warwick e WMG"
+      },
+      "[\"edu\",1,\"description\"]": {
+        "source": "University of Warwick's world-ranked education research, Warwick Business School, and WMG's industry partnerships. UK City of Culture 2021 added creative energy.",
+        "target": "Pesquisa em educação da University of Warwick reconhecida mundialmente, Warwick Business School e parcerias empresariais da WMG. O título UK City of Culture 2021 trouxe energia criativa."
+      },
+      "[\"edu\",1,\"pros\",0]": {
+        "source": "Warwick Business School",
+        "target": "Warwick Business School"
+      },
+      "[\"edu\",1,\"pros\",1]": {
+        "source": "WMG industry links",
+        "target": "Vínculos da WMG com empresas"
+      },
+      "[\"edu\",1,\"pros\",2]": {
+        "source": "Central UK location",
+        "target": "Localização central no Reino Unido"
+      },
+      "[\"edu\",1,\"cons\",0]": {
+        "source": "Campus outside city",
+        "target": "Campus fora da cidade"
+      },
+      "[\"edu\",1,\"cons\",1]": {
+        "source": "Student town feel",
+        "target": "Ambiente de cidade estudantil"
+      },
+      "[\"edu\",2,\"name\"]": {
+        "source": "Bath",
+        "target": "Bath"
+      },
+      "[\"edu\",2,\"tagline\"]": {
+        "source": "Two Universities, One Vision",
+        "target": "Duas universidades, uma visão"
+      },
+      "[\"edu\",2,\"description\"]": {
+        "source": "University of Bath's Institute of Coding and Bath Spa University's creative education programmes. Two universities, one beautiful UNESCO World Heritage city.",
+        "target": "O Institute of Coding da University of Bath e os programas de educação criativa da Bath Spa University. Duas universidades em uma bela cidade reconhecida como Patrimônio Mundial pela UNESCO."
+      },
+      "[\"edu\",2,\"pros\",0]": {
+        "source": "Institute of Coding",
+        "target": "Institute of Coding"
+      },
+      "[\"edu\",2,\"pros\",1]": {
+        "source": "Bath Spa creativity",
+        "target": "Criatividade da Bath Spa"
+      },
+      "[\"edu\",2,\"pros\",2]": {
+        "source": "UNESCO heritage city",
+        "target": "Cidade reconhecida como patrimônio pela UNESCO"
+      },
+      "[\"edu\",2,\"cons\",0]": {
+        "source": "Small city",
+        "target": "Cidade pequena"
+      },
+      "[\"edu\",2,\"cons\",1]": {
+        "source": "High living costs",
+        "target": "Custo de vida alto"
+      },
+      "[\"voed\",0,\"name\"]": {
+        "source": "Holbeach",
+        "target": "Holbeach"
+      },
+      "[\"voed\",0,\"tagline\"]": {
+        "source": "The Fenland Larder",
+        "target": "A despensa de Fenland"
+      },
+      "[\"voed\",0,\"description\"]": {
+        "source": "Inside the National Centre for Food Manufacturing's cluster and cheap to run, but almost no consumer or design talent nearby.",
+        "target": "Inserida no polo do National Centre for Food Manufacturing e com baixo custo operacional, mas quase sem profissionais de produtos de consumo ou design nas proximidades."
+      },
+      "[\"voed\",0,\"pros\",0]": {
+        "source": "Deep food manufacturing expertise",
+        "target": "Conhecimento aprofundado em fabricação de alimentos"
+      },
+      "[\"voed\",0,\"pros\",1]": {
+        "source": "Very low costs",
+        "target": "Custos muito baixos"
+      },
+      "[\"voed\",0,\"cons\",0]": {
+        "source": "Almost no consumer/design talent",
+        "target": "Quase sem profissionais de produtos de consumo ou design"
+      },
+      "[\"voed\",0,\"cons\",1]": {
+        "source": "Far from retail buyers",
+        "target": "Longe dos compradores do varejo"
+      },
+      "[\"voed\",1,\"name\"]": {
+        "source": "Norwich",
+        "target": "Norwich"
+      },
+      "[\"voed\",1,\"tagline\"]": {
+        "source": "Research Park and Cathedral",
+        "target": "Parque de pesquisa e catedral"
+      },
+      "[\"voed\",1,\"description\"]": {
+        "source": "Norwich Research Park gives real credibility on nutrition and food safety, sitting alongside the university and a major teaching hospital.",
+        "target": "O Norwich Research Park oferece credibilidade em nutrição e segurança dos alimentos, ao lado da universidade e de um importante hospital de ensino."
+      },
+      "[\"voed\",1,\"pros\",0]": {
+        "source": "Nutrition and food-safety research credibility",
+        "target": "Credibilidade em pesquisa de nutrição e segurança dos alimentos"
+      },
+      "[\"voed\",1,\"pros\",1]": {
+        "source": "Strong science base",
+        "target": "Base científica sólida"
+      },
+      "[\"voed\",1,\"cons\",0]": {
+        "source": "A long way from retail buyers",
+        "target": "Muito longe dos compradores do varejo"
+      },
+      "[\"voed\",1,\"cons\",1]": {
+        "source": "Weaker consumer/marketing talent pool",
+        "target": "Base menos desenvolvida de profissionais de produtos de consumo e marketing"
+      },
+      "[\"voed\",2,\"name\"]": {
+        "source": "Carmarthen",
+        "target": "Carmarthen"
+      },
+      "[\"voed\",2,\"tagline\"]": {
+        "source": "Creative Digital, Cheaply",
+        "target": "Criação digital a baixo custo"
+      },
+      "[\"voed\",2,\"description\"]": {
+        "source": "Cheap, close to food producers, with a creative-digital base at Yr Egin on the UWTSD campus.",
+        "target": "Baixo custo, proximidade de produtores de alimentos e uma base de criação digital no Yr Egin, no campus da UWTSD."
+      },
+      "[\"voed\",2,\"pros\",0]": {
+        "source": "Low costs",
+        "target": "Custos baixos"
+      },
+      "[\"voed\",2,\"pros\",1]": {
+        "source": "Creative-digital talent at Yr Egin",
+        "target": "Profissionais de criação digital no Yr Egin"
+      },
+      "[\"voed\",2,\"cons\",0]": {
+        "source": "Small labour market",
+        "target": "Mercado de trabalho pequeno"
+      },
+      "[\"voed\",2,\"cons\",1]": {
+        "source": "Limited food-science depth",
+        "target": "Conhecimento limitado em ciência dos alimentos"
+      },
+      "[\"arene\",0,\"name\"]": {
+        "source": "Loughborough",
+        "target": "Loughborough"
+      },
+      "[\"arene\",0,\"tagline\"]": {
+        "source": "The Sports Lab",
+        "target": "O laboratório do esporte"
+      },
+      "[\"arene\",0,\"description\"]": {
+        "source": "The Sports Technology Institute and the athletes on campus give unmatched performance-science credibility, but there's nothing like a commercial games or sports-tech cluster here.",
+        "target": "O Sports Technology Institute e os atletas no campus oferecem credibilidade incomparável em ciência do desempenho, mas não há aqui um polo comercial de jogos ou tecnologia esportiva."
+      },
+      "[\"arene\",0,\"pros\",0]": {
+        "source": "Sports science credibility",
+        "target": "Credibilidade em ciências do esporte"
+      },
+      "[\"arene\",0,\"pros\",1]": {
+        "source": "Access to elite athletes for testing",
+        "target": "Acesso a atletas de elite para testes"
+      },
+      "[\"arene\",0,\"cons\",0]": {
+        "source": "No commercial sports-tech cluster",
+        "target": "Ausência de polo comercial de tecnologia esportiva"
+      },
+      "[\"arene\",0,\"cons\",1]": {
+        "source": "Thin on sales and business talent",
+        "target": "Poucos profissionais de vendas e negócios"
+      },
+      "[\"arene\",1,\"name\"]": {
+        "source": "Leamington Spa",
+        "target": "Leamington Spa"
+      },
+      "[\"arene\",1,\"tagline\"]": {
+        "source": "Silicon Spa",
+        "target": "Silicon Spa"
+      },
+      "[\"arene\",1,\"description\"]": {
+        "source": "The UK's densest games cluster, over two thousand games people within walking distance — which means competing with all of them for the same talent.",
+        "target": "O polo de jogos mais concentrado do Reino Unido, com mais de dois mil profissionais a uma caminhada de distância — o que significa competir com todos eles pelos mesmos profissionais."
+      },
+      "[\"arene\",1,\"pros\",0]": {
+        "source": "UK's largest games-development talent pool",
+        "target": "Maior base de profissionais de desenvolvimento de jogos do Reino Unido"
+      },
+      "[\"arene\",1,\"pros\",1]": {
+        "source": "Strong local network and events",
+        "target": "Boa rede local de contatos e eventos"
+      },
+      "[\"arene\",1,\"cons\",0]": {
+        "source": "Fierce competition for hiring",
+        "target": "Forte concorrência nas contratações"
+      },
+      "[\"arene\",1,\"cons\",1]": {
+        "source": "Higher salaries than the Midlands norm",
+        "target": "Salários acima do padrão das Midlands"
+      },
+      "[\"arene\",2,\"name\"]": {
+        "source": "Stirling",
+        "target": "Stirling"
+      },
+      "[\"arene\",2,\"tagline\"]": {
+        "source": "Between the Lochs and the Labs",
+        "target": "Entre os lagos e os laboratórios"
+      },
+      "[\"arene\",2,\"description\"]": {
+        "source": "Good computing science at the university and a national sports centre on the doorstep, but a long way from the money.",
+        "target": "Boa ciência da computação na universidade e um centro esportivo nacional por perto, mas longe das fontes de capital."
+      },
+      "[\"arene\",2,\"pros\",0]": {
+        "source": "Solid computing science graduates",
+        "target": "Graduados em ciência da computação com boa formação"
+      },
+      "[\"arene\",2,\"pros\",1]": {
+        "source": "National sports centre access",
+        "target": "Acesso ao centro esportivo nacional"
+      },
+      "[\"arene\",2,\"cons\",0]": {
+        "source": "Far from investors and major clubs",
+        "target": "Longe dos investidores e dos grandes clubes"
+      },
+      "[\"arene\",2,\"cons\",1]": {
+        "source": "Small local commercial ecosystem",
+        "target": "Ecossistema comercial local pequeno"
+      },
+      "[\"sorgente\",0,\"name\"]": {
+        "source": "Bradford",
+        "target": "Bradford"
+      },
+      "[\"sorgente\",0,\"tagline\"]": {
+        "source": "The Digital Health City",
+        "target": "A cidade da saúde digital"
+      },
+      "[\"sorgente\",0,\"description\"]": {
+        "source": "The Digital Health Enterprise Zone and a young, diverse city, though there's little consumer investment money nearby.",
+        "target": "A Digital Health Enterprise Zone e uma cidade jovem e diversa, embora haja pouco capital de investimento em negócios voltados ao consumidor nas proximidades."
+      },
+      "[\"sorgente\",0,\"pros\",0]": {
+        "source": "Digital health specialism",
+        "target": "Especialização em saúde digital"
+      },
+      "[\"sorgente\",0,\"pros\",1]": {
+        "source": "Young, diverse user base to test with",
+        "target": "Base de usuários jovem e diversa para testes"
+      },
+      "[\"sorgente\",0,\"cons\",0]": {
+        "source": "Little consumer/investor money nearby",
+        "target": "Pouco dinheiro de consumidores e investidores nas proximidades"
+      },
+      "[\"sorgente\",0,\"cons\",1]": {
+        "source": "Lower brand prestige for hiring",
+        "target": "Menor prestígio da marca local para contratar"
+      },
+      "[\"sorgente\",1,\"name\"]": {
+        "source": "Newcastle upon Tyne",
+        "target": "Newcastle upon Tyne"
+      },
+      "[\"sorgente\",1,\"tagline\"]": {
+        "source": "Data on the Tyne",
+        "target": "Dados às margens do Tyne"
+      },
+      "[\"sorgente\",1,\"description\"]": {
+        "source": "The National Innovation Centre for Data and the National Innovation Centre for Ageing sit on the same site — real research depth, at the costs of a city without a city's investors.",
+        "target": "O National Innovation Centre for Data e o National Innovation Centre for Ageing ficam no mesmo local — pesquisa aprofundada, com custos de uma cidade, mas sem sua correspondente base de investidores."
+      },
+      "[\"sorgente\",1,\"pros\",0]": {
+        "source": "National data and ageing research centres",
+        "target": "Centros nacionais de pesquisa em dados e envelhecimento"
+      },
+      "[\"sorgente\",1,\"pros\",1]": {
+        "source": "Strong technical talent pool",
+        "target": "Boa base de profissionais técnicos"
+      },
+      "[\"sorgente\",1,\"cons\",0]": {
+        "source": "Weak local investor base",
+        "target": "Base local de investidores pouco desenvolvida"
+      },
+      "[\"sorgente\",1,\"cons\",1]": {
+        "source": "Some distance from London decision-makers",
+        "target": "Alguma distância dos tomadores de decisão de Londres"
+      },
+      "[\"sorgente\",2,\"name\"]": {
+        "source": "Manchester",
+        "target": "Manchester"
+      },
+      "[\"sorgente\",2,\"tagline\"]": {
+        "source": "The Original Modern",
+        "target": "O moderno original"
+      },
+      "[\"sorgente\",2,\"description\"]": {
+        "source": "A devolved health budget makes the city its own testbed, with two big universities feeding a deep talent pool — though everyone else is hiring from it too.",
+        "target": "Um orçamento de saúde descentralizado faz da cidade um campo próprio de testes, com duas grandes universidades formando uma ampla base de profissionais — embora todos os demais também contratem nessa mesma base."
+      },
+      "[\"sorgente\",2,\"pros\",0]": {
+        "source": "Devolved health system open to pilots",
+        "target": "Sistema de saúde descentralizado aberto a projetos-piloto"
+      },
+      "[\"sorgente\",2,\"pros\",1]": {
+        "source": "Deep talent pool from two big universities",
+        "target": "Ampla base de profissionais formada por duas grandes universidades"
+      },
+      "[\"sorgente\",2,\"cons\",0]": {
+        "source": "Fierce competition for hires",
+        "target": "Forte concorrência por novos contratados"
+      },
+      "[\"sorgente\",2,\"cons\",1]": {
+        "source": "Higher costs than the rest of the North",
+        "target": "Custos maiores que no restante do norte da Inglaterra"
+      },
+      "[\"avam\",0,\"name\"]": {
+        "source": "Cambridge",
+        "target": "Cambridge"
+      },
+      "[\"avam\",0,\"tagline\"]": {
+        "source": "The Silicon Fen",
+        "target": "O Silicon Fen"
+      },
+      "[\"avam\",0,\"description\"]": {
+        "source": "The strongest cluster in the country for this work — Arm's headquarters and the Science Park on the doorstep — but you pay for every engineer twice.",
+        "target": "O polo mais forte do país para esse trabalho — a sede da Arm e o Science Park por perto —, mas você paga o equivalente a dois engenheiros para contratar um."
+      },
+      "[\"avam\",0,\"pros\",0]": {
+        "source": "Deepest silicon/AI talent pool in the UK",
+        "target": "Maior base de profissionais de semicondutores e IA do Reino Unido"
+      },
+      "[\"avam\",0,\"pros\",1]": {
+        "source": "World-class research proximity",
+        "target": "Proximidade de pesquisa de nível mundial"
+      },
+      "[\"avam\",0,\"cons\",0]": {
+        "source": "Very high salaries and rents",
+        "target": "Salários e aluguéis muito altos"
+      },
+      "[\"avam\",0,\"cons\",1]": {
+        "source": "Constant competition for hires",
+        "target": "Concorrência constante por contratações"
+      },
+      "[\"avam\",1,\"name\"]": {
+        "source": "Cleator Moor",
+        "target": "Cleator Moor"
+      },
+      "[\"avam\",1,\"tagline\"]": {
+        "source": "Cumbria's Nuclear Coast",
+        "target": "O litoral nuclear de Cumbria"
+      },
+      "[\"avam\",1,\"description\"]": {
+        "source": "Sellafield's remote-handling team next door is your own problem made flesh — real-world offline robotics, right here — but recruiting in west Cumbria is genuinely hard.",
+        "target": "A equipe de manipulação remota de Sellafield, logo ao lado, vive na prática o problema que você busca resolver — robótica sem internet em situações reais, bem aqui —, mas contratar no oeste de Cumbria é muito difícil."
+      },
+      "[\"avam\",1,\"pros\",0]": {
+        "source": "Remote/offline engineering expertise nearby",
+        "target": "Conhecimento próximo em engenharia remota e operação sem internet"
+      },
+      "[\"avam\",1,\"pros\",1]": {
+        "source": "Very low costs",
+        "target": "Custos muito baixos"
+      },
+      "[\"avam\",1,\"cons\",0]": {
+        "source": "Very hard to recruit into",
+        "target": "Muita dificuldade para atrair contratados para o local"
+      },
+      "[\"avam\",1,\"cons\",1]": {
+        "source": "Small, isolated labour market",
+        "target": "Mercado de trabalho pequeno e isolado"
+      },
+      "[\"avam\",2,\"name\"]": {
+        "source": "Preston",
+        "target": "Preston"
+      },
+      "[\"avam\",2,\"tagline\"]": {
+        "source": "Aerospace on the Ribble",
+        "target": "Indústria aeroespacial às margens do Ribble"
+      },
+      "[\"avam\",2,\"description\"]": {
+        "source": "UCLan's engineering innovation centre and BAE Warton's autonomy test facility sit nearby, well away from the software labour market.",
+        "target": "O centro de inovação em engenharia da UCLan e a instalação de testes de autonomia da BAE Warton ficam próximos, bem longe do mercado de trabalho de software."
+      },
+      "[\"avam\",2,\"pros\",0]": {
+        "source": "Aerospace/autonomy engineering base",
+        "target": "Base de engenharia aeroespacial e de sistemas autônomos"
+      },
+      "[\"avam\",2,\"pros\",1]": {
+        "source": "Low costs",
+        "target": "Custos baixos"
+      },
+      "[\"avam\",2,\"cons\",0]": {
+        "source": "Away from the software labour market",
+        "target": "Distante do mercado de trabalho de software"
+      },
+      "[\"avam\",2,\"cons\",1]": {
+        "source": "Limited developer-community presence",
+        "target": "Presença limitada da comunidade de desenvolvedores"
+      }
+    }
+  },
+  "LOCATION_MAP": {
+    "classification": "Mapa técnico preenchido em execução a partir dos identificadores de LOCATIONS; inicialização vazia preservada.",
+    "strings": {}
   }
 }
