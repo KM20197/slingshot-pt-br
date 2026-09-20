@@ -10247,5 +10247,75 @@
   "LOCATION_MAP": {
     "classification": "Mapa técnico preenchido em execução a partir dos identificadores de LOCATIONS; inicialização vazia preservada.",
     "strings": {}
+  },
+  "FUNDING_STAGES": {
+    "classification": "Seis textos do modelo britânico legado traduzidos; identificadores preservados. A seleção inicial brasileira já usa o módulo de crédito. Esta tradução não reintroduz investimento-anjo ou capital de risco nas rotas substituídas, nem conclui a remoção das demais rotas societárias.",
+    "strings": {
+      "[\"bootstrap\",\"name\"]": {
+        "source": "Independent",
+        "target": "Independente"
+      },
+      "[\"bootstrap\",\"desc\"]": {
+        "source": "Your savings, friends & family, or crowdfunding. Full control, tight runway.",
+        "target": "Suas economias, amigos e familiares ou financiamento coletivo. Controle total, pouco tempo até o caixa acabar."
+      },
+      "[\"angel\",\"name\"]": {
+        "source": "Angel Round",
+        "target": "Rodada de investimento-anjo"
+      },
+      "[\"angel\",\"desc\"]": {
+        "source": "Smart money from experienced operators.",
+        "target": "Capital acompanhado da experiência de gestores experientes."
+      },
+      "[\"vc\",\"name\"]": {
+        "source": "VC Seed",
+        "target": "Capital semente de fundos de capital de risco"
+      },
+      "[\"vc\",\"desc\"]": {
+        "source": "Institutional capital with institutional expectations.",
+        "target": "Capital institucional com expectativas institucionais."
+      }
+    }
+  },
+  "STAT_LABELS": {
+    "classification": "Nove rótulos de apresentação traduzidos; chaves dos indicadores e seus cálculos preservados. Equity significa participação societária neste motor, não patrimônio líquido.",
+    "strings": {
+      "[\"sci\"]": {
+        "source": "Research",
+        "target": "Pesquisa"
+      },
+      "[\"dev\"]": {
+        "source": "Product",
+        "target": "Produto"
+      },
+      "[\"mkt\"]": {
+        "source": "Sales & Marketing",
+        "target": "Vendas e marketing"
+      },
+      "[\"hr\"]": {
+        "source": "People",
+        "target": "Pessoas"
+      },
+      "[\"cash\"]": {
+        "source": "Cash",
+        "target": "Caixa"
+      },
+      "[\"val\"]": {
+        "source": "Valuation",
+        "target": "Avaliação da empresa"
+      },
+      "[\"burn\"]": {
+        "source": "Burn Rate",
+        "target": "Consumo de caixa"
+      },
+      "[\"staff\"]": {
+        "source": "Staff",
+        "target": "Equipe"
+      },
+      "[\"equity\"]": {
+        "source": "Equity",
+        "target": "Participação societária"
+      }
+    }
   }
 }
