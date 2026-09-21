@@ -77,3 +77,5 @@ A telemetria do original foi desativada no build. As conexões automáticas exte
 ## Continuidade
 
 Consulte [docs/DECISOES_APROVADAS.md](docs/DECISOES_APROVADAS.md) e [docs/INVENTARIO.md](docs/INVENTARIO.md). Ainda faltam a tradução integral, adaptação dos empreendimentos, eliminação de todas as rotas de emissão de ações, fomento brasileiro, calibração e testes completos online/offline.
+
+Para transferir a execução a outro LLM, siga o [handoff completo](docs/HANDOFF_LLM_COMPLETO.md). Ele define o contrato de arquivos, a ordem das estruturas, os limites de segurança e o Gauntlet loop de avaliação, correção e revalidação, limitado a três ciclos por lote.
