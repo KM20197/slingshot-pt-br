@@ -5,6 +5,14 @@ Repositório: `https://github.com/KM20197/slingshot-pt-br`
 Commit entregue: `b98524acd9bd2e80eed865292d437259115f0e0c`  
 Diretório local: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`
 
+## Atualização de continuidade — 21/09/2026
+
+O texto abaixo preserva o retrato do handoff de 20/09. Depois dele, foram concluídos `M2_FUNDERS` e `M3_FUNDERS` (104 textos) e classificadas como técnicas `M2_FUNDER_OPTIONS` e `M3_FUNDER_OPTIONS`. `FUNDER_ADVICE` está parcialmente traduzido: 90 campos dos perfis dragon, techAngel, operatorAngel e academicAngel. O próximo perfil é priyaSharma.
+
+O catálogo atual tem 2.947 campos, 2.895 alterações e 22 estruturas registradas: 21 examinadas integralmente e uma parcial. Comparando diretamente com as 71 estruturas de `docs/INVENTARIO.md`, restam 49 ainda sem entrada no catálogo, além da parte pendente de `FUNDER_ADVICE`. A antiga contagem de 48 abaixo corresponde à lista operacional daquele retrato, não à subtração integral do inventário. Isso não mede a cobertura de mensagens HTML ou de textos fora das estruturas.
+
+Consulte os pareceres `REVISAO_FINANCIADORES_2026-09-21.md` e `REVISAO_CONSELHOS_2026-09-21.md` para os resultados e limites dos lotes.
+
 ## Objetivo
 
 Continuar a edição brasileira acadêmica do Slingshot, preservando o motor do jogo e traduzindo os textos por caminho exato. O público é de graduação e pós-graduação em engenharia, administração, computação e saúde. A aplicação deve funcionar online e offline, sem coletar dados dos participantes, com exportação local da nota para entrega ao professor.

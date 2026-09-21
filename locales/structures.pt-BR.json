@@ -11516,5 +11516,378 @@
         "target": "Implantações-piloto em suas fábricas e operações industriais"
       }
     }
+  },
+  "M2_FUNDER_OPTIONS": {
+    "classification": "Referências técnicas aos IDs dos financiadores, por categoria e empreendimento; ordem e valores preservados integralmente.",
+    "strings": {}
+  },
+  "M3_FUNDER_OPTIONS": {
+    "classification": "Referências técnicas aos IDs dos financiadores, por categoria e empreendimento; ordem e valores preservados integralmente.",
+    "strings": {}
+  },
+  "FUNDER_ADVICE": {
+    "classification": "Tradução parcial de conselhos, justificativas e reações, por perfil. Nomes, preferências de domínio (incluindo repetições usadas como peso), escolhas e penalidades preservados. self permanece null. Outros perfis ainda pendentes; conteúdo britânico legado, sem adaptação financeira neste lote.",
+    "strings": {
+      "[\"dragon\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Go big on this one. My phone's been ringing-people are watching.",
+        "target": "Aposte alto nesta. Meu telefone não para de tocar — as pessoas estão de olho."
+      },
+      "[\"dragon\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Visibility is everything in the early days.",
+        "target": "Visibilidade é tudo no começo."
+      },
+      "[\"dragon\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "This is a PR opportunity. Don't be cheap.",
+        "target": "Esta é uma oportunidade de divulgação. Não seja mesquinho."
+      },
+      "[\"dragon\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "I didn't invest in a company that hides.",
+        "target": "Não investi em uma empresa que se esconde."
+      },
+      "[\"dragon\",\"advice\",\"marketing\",2,\"text\"]": {
+        "source": "I want to see headlines, not excuses.",
+        "target": "Quero ver manchetes, não desculpas."
+      },
+      "[\"dragon\",\"advice\",\"marketing\",2,\"reason\"]": {
+        "source": "My brand is attached to yours now.",
+        "target": "Minha marca está ligada à sua agora."
+      },
+      "[\"dragon\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Science is nice, but what are customers saying?",
+        "target": "Ciência é boa, mas o que os clientes estão dizendo?"
+      },
+      "[\"dragon\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Revenue first, research later.",
+        "target": "Primeiro a receita, depois a pesquisa."
+      },
+      "[\"dragon\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Don't over-engineer this. Ship something.",
+        "target": "Não complique demais a engenharia. Lance alguma coisa."
+      },
+      "[\"dragon\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Perfect is the enemy of profitable.",
+        "target": "O perfeito é inimigo do lucrativo."
+      },
+      "[\"dragon\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Make it look good. First impressions matter.",
+        "target": "Capriche na aparência. A primeira impressão importa."
+      },
+      "[\"dragon\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "I've seen ugly products die.",
+        "target": "Já vi produtos feios fracassarem."
+      },
+      "[\"dragon\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Speed to market. We can fix bugs later.",
+        "target": "Chegue rápido ao mercado. Podemos corrigir os erros depois."
+      },
+      "[\"dragon\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Someone else will eat your lunch.",
+        "target": "Alguém vai tomar seu mercado."
+      },
+      "[\"dragon\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Hire salespeople. Everything else can wait.",
+        "target": "Contrate vendedores. Todo o resto pode esperar."
+      },
+      "[\"dragon\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "No sales, no company.",
+        "target": "Sem vendas, não há empresa."
+      },
+      "[\"dragon\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "I don't care about culture-I care about numbers.",
+        "target": "Não me importo com a cultura — importo-me com os números."
+      },
+      "[\"dragon\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Happy employees don't pay my returns.",
+        "target": "Funcionários felizes não pagam meu retorno financeiro."
+      },
+      "[\"dragon\",\"followedReaction\"]": {
+        "source": "Good. That's the Victoria Sterling way. 💪",
+        "target": "Ótimo. Esse é o jeito Victoria Sterling de fazer as coisas. 💪"
+      },
+      "[\"dragon\",\"ignoredReaction\"]": {
+        "source": "Fine. Do it your way. But remember who's watching. 😒",
+        "target": "Tudo bem. Faça do seu jeito. Mas lembre-se de quem está observando. 😒"
+      },
+      "[\"dragon\",\"hostileWarning\"]": {
+        "source": "I'm starting to wonder if you know what you're doing.",
+        "target": "Estou começando a duvidar de que você saiba o que está fazendo."
+      },
+      "[\"techAngel\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Marketing's fine, but is the product ready?",
+        "target": "Marketing é bom, mas o produto está pronto?"
+      },
+      "[\"techAngel\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Don't sell what you can't deliver.",
+        "target": "Não venda o que você não consegue entregar."
+      },
+      "[\"techAngel\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Developer marketing > consumer marketing at this stage.",
+        "target": "Nesta etapa, marketing para desenvolvedores é mais importante do que marketing para consumidores."
+      },
+      "[\"techAngel\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Build the community first.",
+        "target": "Construa a comunidade primeiro."
+      },
+      "[\"techAngel\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "This is why I invested. Push the science.",
+        "target": "Foi por isso que investi. Faça a ciência avançar."
+      },
+      "[\"techAngel\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Technology advantages are the best protection against competitors.",
+        "target": "Vantagens tecnológicas são a melhor proteção contra concorrentes."
+      },
+      "[\"techAngel\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Have you talked to the team at CortexAI about this?",
+        "target": "Você já conversou com a equipe da CortexAI sobre isso?"
+      },
+      "[\"techAngel\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "I can make an intro.",
+        "target": "Posso apresentar vocês."
+      },
+      "[\"techAngel\",\"advice\",\"research\",2,\"text\"]": {
+        "source": "Don't rush peer review. Do it right.",
+        "target": "Não apresse a revisão por pares. Faça direito."
+      },
+      "[\"techAngel\",\"advice\",\"research\",2,\"reason\"]": {
+        "source": "One retraction kills a company.",
+        "target": "Uma retratação de artigo acaba com uma empresa."
+      },
+      "[\"techAngel\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Technical debt now means pain later. Invest properly.",
+        "target": "Dívida técnica agora significa sofrimento depois. Invista adequadamente."
+      },
+      "[\"techAngel\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "I've seen this movie before.",
+        "target": "Já vi esse filme antes."
+      },
+      "[\"techAngel\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Architecture matters. Don't cut corners.",
+        "target": "A arquitetura importa. Não pule etapas."
+      },
+      "[\"techAngel\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "You'll thank me at scale.",
+        "target": "Você vai me agradecer quando a empresa crescer."
+      },
+      "[\"techAngel\",\"advice\",\"dev\",2,\"text\"]": {
+        "source": "Have you considered the API design carefully?",
+        "target": "Você analisou cuidadosamente o desenho da API?"
+      },
+      "[\"techAngel\",\"advice\",\"dev\",2,\"reason\"]": {
+        "source": "B2B success is built on good APIs.",
+        "target": "O sucesso B2B se constrói com boas APIs."
+      },
+      "[\"techAngel\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Hire engineers, not managers.",
+        "target": "Contrate engenheiros, não gerentes."
+      },
+      "[\"techAngel\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Execution beats process at this stage.",
+        "target": "Nesta etapa, execução supera processos."
+      },
+      "[\"techAngel\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Culture follows talent. Get the best people.",
+        "target": "A cultura acompanha os profissionais. Contrate os melhores."
+      },
+      "[\"techAngel\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "A-players attract A-players.",
+        "target": "Profissionais de alto desempenho atraem outros do mesmo nível."
+      },
+      "[\"techAngel\",\"followedReaction\"]": {
+        "source": "Smart choice. This is why we backed you. 🙂",
+        "target": "Escolha inteligente. Foi por isso que apoiamos você. 🙂"
+      },
+      "[\"techAngel\",\"ignoredReaction\"]": {
+        "source": "Your call. But I've seen what happens when you ignore the tech. 😐",
+        "target": "Você decide. Mas já vi o que acontece quando se ignora a tecnologia. 😐"
+      },
+      "[\"techAngel\",\"hostileWarning\"]": {
+        "source": "I'm losing confidence in the technical direction here.",
+        "target": "Estou perdendo a confiança na direção técnica deste negócio."
+      },
+      "[\"operatorAngel\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Make sure the team can handle the growth this creates.",
+        "target": "Certifique-se de que a equipe aguenta o crescimento que isso vai gerar."
+      },
+      "[\"operatorAngel\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "I've seen companies break from success.",
+        "target": "Já vi empresas quebrarem por causa do próprio sucesso."
+      },
+      "[\"operatorAngel\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Customer success > customer acquisition.",
+        "target": "O sucesso do cliente é mais importante do que a aquisição de clientes."
+      },
+      "[\"operatorAngel\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Churn will kill you quietly.",
+        "target": "A perda de clientes vai acabar com você silenciosamente."
+      },
+      "[\"operatorAngel\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Is the team burning out on this?",
+        "target": "A equipe está se esgotando com isso?"
+      },
+      "[\"operatorAngel\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Sustainable pace wins marathons.",
+        "target": "Um ritmo sustentável vence maratonas."
+      },
+      "[\"operatorAngel\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Document everything. Key-person risk is real.",
+        "target": "Documente tudo. O risco de depender de uma pessoa-chave é real."
+      },
+      "[\"operatorAngel\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "What if your lead scientist leaves?",
+        "target": "E se seu cientista principal sair?"
+      },
+      "[\"operatorAngel\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Process matters. How are you tracking this work?",
+        "target": "Os processos importam. Como vocês estão acompanhando este trabalho?"
+      },
+      "[\"operatorAngel\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Chaos doesn't scale.",
+        "target": "O caos não funciona em grande escala."
+      },
+      "[\"operatorAngel\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Make sure there's coverage. No single points of failure.",
+        "target": "Garanta que haja quem assuma o trabalho na ausência de alguém. Não pode haver pontos únicos de falha."
+      },
+      "[\"operatorAngel\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "I've seen CTOs burn out.",
+        "target": "Já vi diretores de tecnologia se esgotarem."
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "This is the priority. Always.",
+        "target": "Esta é a prioridade. Sempre."
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Your people are your company.",
+        "target": "Sua equipe é sua empresa."
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Invest in management training. Promote from within.",
+        "target": "Invista em formação de gestores. Promova pessoas da própria equipe."
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "External hires break culture.",
+        "target": "Contratações externas rompem a cultura."
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",2,\"text\"]": {
+        "source": "Have you done the engagement survey yet?",
+        "target": "Você já fez a pesquisa de engajamento?"
+      },
+      "[\"operatorAngel\",\"advice\",\"hr\",2,\"reason\"]": {
+        "source": "Problems hide until they explode.",
+        "target": "Os problemas ficam escondidos até explodirem."
+      },
+      "[\"operatorAngel\",\"followedReaction\"]": {
+        "source": "Good. Building the right way. 😊",
+        "target": "Ótimo. Construindo do jeito certo. 😊"
+      },
+      "[\"operatorAngel\",\"ignoredReaction\"]": {
+        "source": "I hope you know what you're doing. People remember how they're treated. 😕",
+        "target": "Espero que você saiba o que está fazendo. As pessoas se lembram de como são tratadas. 😕"
+      },
+      "[\"operatorAngel\",\"hostileWarning\"]": {
+        "source": "The team is noticing. And so am I.",
+        "target": "A equipe está percebendo. E eu também."
+      },
+      "[\"academicAngel\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Have we published the research behind this yet?",
+        "target": "Já publicamos a pesquisa que sustenta isso?"
+      },
+      "[\"academicAngel\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Academic credibility opens doors you can't buy.",
+        "target": "A credibilidade acadêmica abre portas que o dinheiro não compra."
+      },
+      "[\"academicAngel\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Consider a conference paper alongside the launch.",
+        "target": "Considere apresentar um artigo em congresso junto com o lançamento."
+      },
+      "[\"academicAngel\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Peer review builds trust in technical markets.",
+        "target": "A revisão por pares gera confiança em mercados técnicos."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "This is exactly why I invested. Push the science.",
+        "target": "Foi exatamente por isso que investi. Faça a ciência avançar."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Your research advantage is your moat.",
+        "target": "Sua vantagem em pesquisa é sua barreira contra a concorrência."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "I can connect you with the team at Imperial doing similar work.",
+        "target": "Posso apresentar você à equipe do Imperial que faz um trabalho semelhante."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Collaboration accelerates discovery.",
+        "target": "A colaboração acelera as descobertas."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",2,\"text\"]": {
+        "source": "Don't rush to publish until it's solid.",
+        "target": "Não se apresse em publicar antes de ter resultados consistentes."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",2,\"reason\"]": {
+        "source": "One retraction destroys credibility.",
+        "target": "Uma retratação de artigo destrói a credibilidade."
+      },
+      "[\"academicAngel\",\"advice\",\"research\",3,\"text\"]": {
+        "source": "Have you considered an Innovate UK grant for this?",
+        "target": "Você já considerou solicitar recursos não reembolsáveis da Innovate UK para isso?"
+      },
+      "[\"academicAngel\",\"advice\",\"research\",3,\"reason\"]": {
+        "source": "Non-dilutive funding is always worth pursuing.",
+        "target": "Sempre vale buscar financiamento que não dilua sua participação societária."
+      },
+      "[\"academicAngel\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Make sure the implementation matches the theory.",
+        "target": "Garanta que a implementação corresponda à teoria."
+      },
+      "[\"academicAngel\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "The gap between paper and product is where startups die.",
+        "target": "A distância entre o artigo e o produto é onde as startups morrem."
+      },
+      "[\"academicAngel\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Document the methodology. Future hires need to understand it.",
+        "target": "Documente a metodologia. As futuras contratações precisam entendê-la."
+      },
+      "[\"academicAngel\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Key-person risk is real in research-heavy teams.",
+        "target": "O risco de depender de uma pessoa-chave é real em equipes com forte atividade de pesquisa."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "A scientific advisory board would strengthen your position.",
+        "target": "Um conselho consultivo científico fortaleceria sua posição."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Top researchers lend credibility.",
+        "target": "Pesquisadores de destaque conferem credibilidade."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Consider a PhD student placement. Fresh thinking, lower cost.",
+        "target": "Considere receber um doutorando para um período de trabalho. Ideias novas, custo menor."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "I can make introductions.",
+        "target": "Posso fazer as apresentações."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",2,\"text\"]": {
+        "source": "Research culture matters. Hire people who publish.",
+        "target": "A cultura de pesquisa importa. Contrate pessoas que publiquem."
+      },
+      "[\"academicAngel\",\"advice\",\"hr\",2,\"reason\"]": {
+        "source": "Rigour compounds over time.",
+        "target": "O rigor gera benefícios que se acumulam ao longo do tempo."
+      },
+      "[\"academicAngel\",\"followedReaction\"]": {
+        "source": "Good. Rigour pays off in the long run. 📚",
+        "target": "Ótimo. O rigor traz resultados a longo prazo. 📚"
+      },
+      "[\"academicAngel\",\"ignoredReaction\"]": {
+        "source": "Your choice. But cutting corners on research rarely ends well. 🤔",
+        "target": "Você decide. Mas pular etapas na pesquisa raramente termina bem. 🤔"
+      },
+      "[\"academicAngel\",\"hostileWarning\"]": {
+        "source": "I'm concerned we're losing our scientific edge.",
+        "target": "Estou preocupada com a perda de nossa vantagem científica."
+      }
+    }
   }
 }
