@@ -11090,5 +11090,431 @@
         "target": "+2 em Produto, +2 em Pessoas pelas redes regionais. Forte na execução, com menos exageros promocionais."
       }
     }
+  },
+  "M2_FUNDERS": {
+    "classification": "Prosa dos perfis e benefícios de recursos do cenário britânico legado traduzidos. Nomes, IDs, etapas, critérios geográficos, afinidades, exclusividades, imagens e atributos financeiros preservados. Não conclui a substituição das rotas societárias nem valida as alegações como fatos atuais.",
+    "strings": {
+      "[\"pennineVC\",\"title\"]": {
+        "source": "Regional Tech Investor",
+        "target": "Investidor regional em tecnologia"
+      },
+      "[\"pennineVC\",\"desc\"]": {
+        "source": "Founder-led fund backing companies outside London. Offices in Manchester, Edinburgh, and Belfast.",
+        "target": "Fundo liderado por fundadores que investe em empresas fora de Londres. Escritórios em Manchester, Edimburgo e Belfast."
+      },
+      "[\"pennineVC\",\"personality\"]": {
+        "source": "London doesn't have a monopoly on talent. We're builders, not spreadsheet jockeys. Show us what you've got.",
+        "target": "Londres não tem monopólio sobre os profissionais talentosos. Somos construtores de negócios, não meros operadores de planilhas. Mostre o que você tem."
+      },
+      "[\"pennineVC\",\"benefits\"]": {
+        "source": "Founder-friendly terms, hands-on operational support, strong regional networks, lower burn rate expectations",
+        "target": "Condições favoráveis ao fundador, apoio operacional direto, fortes redes regionais, expectativa de menor consumo de caixa"
+      },
+      "[\"pennineVC\",\"challenges\"]": {
+        "source": "Smaller fund means less follow-on capacity, less brand recognition with London VCs, may need co-investors for larger rounds",
+        "target": "Fundo menor significa menor capacidade para novas rodadas, menor reconhecimento da marca entre fundos de capital de risco de Londres, pode precisar de coinvestidores para rodadas maiores"
+      },
+      "[\"pennineVC\",\"ongoing\"]": {
+        "source": "+2 Product, +2 People. They'll roll up their sleeves and help with hiring.",
+        "target": "+2 em Produto, +2 em Pessoas. Vão colocar a mão na massa e ajudar nas contratações."
+      },
+      "[\"watershedVC\",\"title\"]": {
+        "source": "Tech for Good Investor",
+        "target": "Investidor em tecnologia para impacto positivo"
+      },
+      "[\"watershedVC\",\"desc\"]": {
+        "source": "B Corp certified VC backing companies solving real problems. Patient capital for patient founders.",
+        "target": "Fundo de capital de risco com certificação B Corp que investe em empresas que resolvem problemas reais. Capital paciente para fundadores pacientes."
+      },
+      "[\"watershedVC\",\"personality\"]": {
+        "source": "The most valuable companies of the next decade will be those that improve millions of lives. Show us your theory of change.",
+        "target": "As empresas mais valiosas da próxima década serão aquelas que melhorarem milhões de vidas. Mostre sua teoria da mudança."
+      },
+      "[\"watershedVC\",\"benefits\"]": {
+        "source": "Very founder-friendly terms, no anti-dilution, patient growth timeline, ESG credibility with enterprise buyers",
+        "target": "Condições muito favoráveis ao fundador, sem proteção contra diluição, prazos pacientes de crescimento, credibilidade em ESG com compradores empresariais"
+      },
+      "[\"watershedVC\",\"challenges\"]": {
+        "source": "Smaller cheque, impact metrics alongside financial ones, may deprioritise pure profit plays",
+        "target": "Aporte menor, indicadores de impacto além dos financeiros, pode dar menor prioridade a negócios voltados apenas ao lucro"
+      },
+      "[\"watershedVC\",\"ongoing\"]": {
+        "source": "+2 Research, +2 People. Quarterly impact reviews, but they genuinely want you to succeed.",
+        "target": "+2 em Pesquisa, +2 em Pessoas. Revisões trimestrais de impacto, mas querem de fato que você tenha sucesso."
+      },
+      "[\"beaumontVC\",\"title\"]": {
+        "source": "Transatlantic Growth Investor",
+        "target": "Investidor transatlântico em crescimento"
+      },
+      "[\"beaumontVC\",\"desc\"]": {
+        "source": "Dublin and San Francisco offices. Specialists in helping European companies crack the US market.",
+        "target": "Escritórios em Dublin e São Francisco. Especialistas em ajudar empresas europeias a entrar no mercado dos Estados Unidos."
+      },
+      "[\"beaumontVC\",\"personality\"]": {
+        "source": "Europe builds great technology. We help you sell it to America. That's a $30 trillion economy waiting for you.",
+        "target": "A Europa desenvolve ótimas tecnologias. Ajudamos você a vendê-las nos Estados Unidos. Há uma economia de $30 trilhões esperando por você."
+      },
+      "[\"beaumontVC\",\"benefits\"]": {
+        "source": "US customer introductions, Silicon Valley credibility, help with US entity setup, strong Series B connections",
+        "target": "Apresentações a clientes nos Estados Unidos, credibilidade no Vale do Silício, ajuda para constituir uma empresa nos Estados Unidos, fortes contatos para rodadas Série B"
+      },
+      "[\"beaumontVC\",\"challenges\"]": {
+        "source": "Will push for US expansion even if premature, higher burn expectations, may want US-based executives",
+        "target": "Pressionará pela expansão nos Estados Unidos mesmo se for prematura, espera maior consumo de caixa, pode exigir executivos sediados nos Estados Unidos"
+      },
+      "[\"beaumontVC\",\"ongoing\"]": {
+        "source": "+3 Sales from US network, +1 Product. They'll open doors in San Francisco, but expect you to walk through them.",
+        "target": "+3 em Vendas pela rede nos Estados Unidos, +1 em Produto. Abrirão portas em São Francisco, mas esperam que você passe por elas."
+      },
+      "[\"beaumontVC\",\"resourceBenefits\",\"usNetwork\"]": {
+        "source": "Introductions to US enterprise customers and partners across major tech hubs",
+        "target": "Apresentações a clientes empresariais e parceiros dos Estados Unidos nos principais polos tecnológicos"
+      },
+      "[\"beaumontVC\",\"resourceBenefits\",\"usExpansion\"]": {
+        "source": "Hands-on help with US entity setup, legal, and go-to-market strategy",
+        "target": "Ajuda direta com constituição de empresa nos Estados Unidos, questões jurídicas e estratégia de entrada no mercado"
+      },
+      "[\"apexVC\",\"title\"]": {
+        "source": "SpaceTech & Dual-Use Investor",
+        "target": "Investidor em tecnologia espacial e de uso dual"
+      },
+      "[\"apexVC\",\"desc\"]": {
+        "source": "World's leading space-focused VC. ESA partnerships, defence connections, satellite data expertise.",
+        "target": "Fundo de capital de risco líder mundial com foco espacial. Parcerias com a ESA, contatos no setor de defesa e experiência em dados de satélites."
+      },
+      "[\"apexVC\",\"personality\"]": {
+        "source": "Space is the ultimate platform. If your AI has orbital applications - earth observation, satellite data, dual-use - we want to talk.",
+        "target": "O espaço é a plataforma definitiva. Se sua IA tem aplicações orbitais — observação da Terra, dados de satélites, uso dual — queremos conversar."
+      },
+      "[\"apexVC\",\"benefits\"]": {
+        "source": "ESA and defence introductions, satellite data partnerships, deep domain expertise in space applications",
+        "target": "Apresentações à ESA e ao setor de defesa, parcerias de dados de satélites, profundo conhecimento de aplicações espaciais"
+      },
+      "[\"apexVC\",\"challenges\"]": {
+        "source": "Very niche focus, may push space applications even if not core, defence work has compliance overhead",
+        "target": "Foco muito restrito, pode pressionar por aplicações espaciais mesmo que não sejam centrais ao negócio, trabalho em defesa exige esforço adicional de conformidade"
+      },
+      "[\"apexVC\",\"ongoing\"]": {
+        "source": "+4 Research from space network, +1 Sales. They'll connect you to ESA and defence primes.",
+        "target": "+4 em Pesquisa pela rede espacial, +1 em Vendas. Apresentarão você à ESA e às principais contratadas do setor de defesa."
+      },
+      "[\"apexVC\",\"resourceBenefits\",\"esaIntros\"]": {
+        "source": "Direct introductions to European Space Agency programme managers and procurement",
+        "target": "Apresentações diretas aos gestores de programas e à área de compras da Agência Espacial Europeia"
+      },
+      "[\"apexVC\",\"resourceBenefits\",\"defenceNetwork\"]": {
+        "source": "Connections to defence primes and dual-use technology buyers",
+        "target": "Contatos com as principais contratadas do setor de defesa e compradores de tecnologias de uso dual"
+      },
+      "[\"zenithCVC\",\"title\"]": {
+        "source": "Life Sciences Corporate VC",
+        "target": "Capital de risco corporativo em ciências da vida"
+      },
+      "[\"zenithCVC\",\"desc\"]": {
+        "source": "Strategic arm of a top-10 pharmaceutical company. Clinical trial expertise, regulatory fast-track, NHS connections.",
+        "target": "Braço estratégico de uma das dez maiores empresas farmacêuticas. Experiência em ensaios clínicos, tramitação regulatória acelerada e contatos no NHS."
+      },
+      "[\"zenithCVC\",\"personality\"]": {
+        "source": "We understand the long road to market in healthcare. We can shorten it significantly. If you're serious about patients.",
+        "target": "Entendemos o longo caminho até o mercado na área da saúde. Podemos encurtá-lo significativamente. Se você leva os pacientes a sério."
+      },
+      "[\"zenithCVC\",\"benefits\"]": {
+        "source": "Regulatory navigation support, clinical trial infrastructure, NHS procurement connections, credibility with health systems",
+        "target": "Apoio para lidar com a regulação, infraestrutura de ensaios clínicos, contatos em compras do NHS, credibilidade com sistemas de saúde"
+      },
+      "[\"zenithCVC\",\"challenges\"]": {
+        "source": "Right of first refusal on acquisition, may limit non-pharma applications, slow decision-making",
+        "target": "Direito de preferência em uma aquisição, pode limitar aplicações não farmacêuticas, decisões lentas"
+      },
+      "[\"zenithCVC\",\"ongoing\"]": {
+        "source": "+4 Research, +2 Product. Plus regulatory guidance and NHS introductions. They'll want exclusivity discussions eventually.",
+        "target": "+4 em Pesquisa, +2 em Produto. Mais orientação regulatória e apresentações no NHS. Em algum momento, vão querer discutir exclusividade."
+      },
+      "[\"zenithCVC\",\"resourceBenefits\",\"regulatorySupport\"]": {
+        "source": "Their regulatory affairs team provides guidance on MHRA and FDA pathways, potentially saving months of preparation",
+        "target": "A equipe de assuntos regulatórios orienta sobre os processos da MHRA e da FDA, podendo economizar meses de preparação"
+      },
+      "[\"zenithCVC\",\"resourceBenefits\",\"clinicalAccess\"]": {
+        "source": "Access to patient cohorts and clinical trial infrastructure for validation studies",
+        "target": "Acesso a grupos de pacientes e infraestrutura de ensaios clínicos para estudos de validação"
+      },
+      "[\"zenithCVC\",\"resourceBenefits\",\"nhsConnections\"]": {
+        "source": "Warm introductions to NHS trust procurement leads and innovation officers",
+        "target": "Apresentações por contatos em comum a responsáveis por compras e inovação nas organizações do NHS"
+      },
+      "[\"kineticCVC\",\"title\"]": {
+        "source": "Automotive Corporate VC",
+        "target": "Capital de risco corporativo automotivo"
+      },
+      "[\"kineticCVC\",\"desc\"]": {
+        "source": "Strategic arm of a major automotive OEM. Fleet data, pilot programs, manufacturing scale.",
+        "target": "Braço estratégico de uma grande fabricante de equipamentos originais (OEM) do setor automotivo. Dados de frotas, programas-piloto e escala de fabricação."
+      },
+      "[\"kineticCVC\",\"personality\"]": {
+        "source": "We're building the future of mobility. If your AI can help us get there faster, let's talk about what a real partnership looks like.",
+        "target": "Estamos construindo o futuro da mobilidade. Se sua IA puder nos ajudar a chegar lá mais rápido, vamos conversar sobre como seria uma parceria de verdade."
+      },
+      "[\"kineticCVC\",\"benefits\"]": {
+        "source": "Fleet data for training, pilot programs with real vehicles, manufacturing partnerships, automotive credibility",
+        "target": "Dados de frotas para treinamento, programas-piloto com veículos reais, parcerias de fabricação, credibilidade automotiva"
+      },
+      "[\"kineticCVC\",\"challenges\"]": {
+        "source": "Exclusivity in automotive sector, may limit other OEM partnerships, slow corporate decision-making",
+        "target": "Exclusividade no setor automotivo, pode limitar parcerias com outros fabricantes, decisões corporativas lentas"
+      },
+      "[\"kineticCVC\",\"ongoing\"]": {
+        "source": "+3 Product, +2 Sales. Fleet pilot programs and manufacturing support. They'll want sector exclusivity.",
+        "target": "+3 em Produto, +2 em Vendas. Programas-piloto com frotas e apoio à fabricação. Exigirão exclusividade no setor."
+      },
+      "[\"kineticCVC\",\"resourceBenefits\",\"fleetData\"]": {
+        "source": "Access to anonymised telemetry from millions of vehicles for training and validation",
+        "target": "Acesso a telemetria anonimizada de milhões de veículos para treinamento e validação"
+      },
+      "[\"kineticCVC\",\"resourceBenefits\",\"pilotPrograms\"]": {
+        "source": "Fast-track to real-world pilot programs with their vehicle fleets",
+        "target": "Acesso acelerado a programas-piloto em condições reais com suas frotas de veículos"
+      },
+      "[\"kineticCVC\",\"resourceBenefits\",\"manufacturingSupport\"]": {
+        "source": "Engineering and manufacturing expertise when you're ready to scale hardware",
+        "target": "Experiência em engenharia e fabricação quando você estiver pronto para ampliar a produção de hardware"
+      },
+      "[\"stratosCVC\",\"title\"]": {
+        "source": "Cloud Infrastructure Corporate VC",
+        "target": "Capital de risco corporativo em infraestrutura de nuvem"
+      },
+      "[\"stratosCVC\",\"desc\"]": {
+        "source": "Strategic arm of a hyperscaler. Compute credits, API access, and a path to 10,000 enterprise customers.",
+        "target": "Braço estratégico de um provedor de nuvem de grande escala. Créditos de capacidade computacional, acesso a APIs e um caminho para alcançar 10.000 clientes empresariais."
+      },
+      "[\"stratosCVC\",\"personality\"]": {
+        "source": "AI is eating the world, and it runs on our infrastructure. Build on our platform and we'll help you reach everyone.",
+        "target": "A IA está transformando o mundo e funciona em nossa infraestrutura. Desenvolva em nossa plataforma e ajudaremos você a alcançar todo mundo."
+      },
+      "[\"stratosCVC\",\"benefits\"]": {
+        "source": "Massive compute credits, proprietary API access, marketplace distribution to enterprise customers",
+        "target": "Grande volume de créditos de capacidade computacional, acesso a APIs proprietárias, distribuição a clientes empresariais pelo mercado digital da plataforma"
+      },
+      "[\"stratosCVC\",\"challenges\"]": {
+        "source": "Platform expectations, may push their stack over alternatives, acquisition interest likely",
+        "target": "Expectativas de uso da plataforma, pode impor suas tecnologias em vez de alternativas, provável interesse em aquisição"
+      },
+      "[\"stratosCVC\",\"ongoing\"]": {
+        "source": "+3 Product, +2 Research. Plus significant compute credits. They'll want platform integration.",
+        "target": "+3 em Produto, +2 em Pesquisa. Mais créditos expressivos de capacidade computacional. Exigirão integração com a plataforma."
+      },
+      "[\"stratosCVC\",\"resourceBenefits\",\"computeCredits\"]": {
+        "source": "Substantial cloud computing credits that meaningfully extend your runway",
+        "target": "Créditos expressivos de computação em nuvem que prolongam de forma relevante o tempo até o caixa acabar"
+      },
+      "[\"stratosCVC\",\"resourceBenefits\",\"platformAPIs\"]": {
+        "source": "Early access to cutting-edge AI APIs and infrastructure before general availability",
+        "target": "Acesso antecipado a APIs e infraestrutura de IA de ponta, antes da disponibilidade geral"
+      },
+      "[\"stratosCVC\",\"resourceBenefits\",\"marketplaceDistribution\"]": {
+        "source": "Listing in their enterprise marketplace, putting you in front of thousands of potential customers",
+        "target": "Presença no mercado digital empresarial da plataforma, colocando você diante de milhares de clientes potenciais"
+      }
+    }
+  },
+  "M3_FUNDERS": {
+    "classification": "Prosa dos perfis e benefícios de recursos do cenário britânico legado traduzidos. Nomes, IDs, etapas, critérios geográficos, afinidades, exclusividades, imagens e atributos financeiros preservados. Não conclui a substituição das rotas societárias nem valida as alegações como fatos atuais.",
+    "strings": {
+      "[\"redwoodVC\",\"title\"]": {
+        "source": "Global Growth Equity",
+        "target": "Investimento societário global para crescimento"
+      },
+      "[\"redwoodVC\",\"desc\"]": {
+        "source": "The most prestigious name in venture. Their investment is a signal that you've arrived.",
+        "target": "O nome mais prestigiado do capital de risco. Seu investimento sinaliza que você chegou ao topo."
+      },
+      "[\"redwoodVC\",\"personality\"]": {
+        "source": "We've backed 40 decacorns. We know what winning looks like. The question is: can you execute at that level?",
+        "target": "Investimos em 40 decacórnios. Sabemos como é vencer. A questão é: você consegue executar nesse nível?"
+      },
+      "[\"redwoodVC\",\"benefits\"]": {
+        "source": "Ultimate brand prestige, global network, US expansion support, strong IPO track record",
+        "target": "Máximo prestígio de marca, rede global, apoio à expansão nos Estados Unidos, forte histórico de aberturas de capital"
+      },
+      "[\"redwoodVC\",\"challenges\"]": {
+        "source": "Highest equity cost, full anti-dilution, aggressive board involvement, will replace underperformers",
+        "target": "Maior custo em participação societária, proteção integral contra diluição, atuação agressiva no conselho, substituirá quem tiver desempenho abaixo do esperado"
+      },
+      "[\"redwoodVC\",\"ongoing\"]": {
+        "source": "+5 Sales from brand, +2 People. They'll install operators if you miss targets.",
+        "target": "+5 em Vendas pela marca, +2 em Pessoas. Colocarão gestores na empresa se você não cumprir as metas."
+      },
+      "[\"strideVC\",\"title\"]": {
+        "source": "European Growth Capital",
+        "target": "Capital europeu para crescimento"
+      },
+      "[\"strideVC\",\"desc\"]": {
+        "source": "London and Berlin. Specialists in scaling European companies across the continent before going global.",
+        "target": "Londres e Berlim. Especialistas em expandir empresas europeias pelo continente antes da expansão global."
+      },
+      "[\"strideVC\",\"personality\"]": {
+        "source": "Europe is a €20 trillion market. Master it before you chase America. We'll help you do both.",
+        "target": "A Europa é um mercado de €20 trilhões. Domine-o antes de buscar os Estados Unidos. Ajudaremos você nas duas coisas."
+      },
+      "[\"strideVC\",\"benefits\"]": {
+        "source": "Pan-European expansion expertise, later-stage operational support, strong Series C connections",
+        "target": "Experiência em expansão por toda a Europa, apoio operacional em etapas avançadas, fortes contatos para rodadas Série C"
+      },
+      "[\"strideVC\",\"challenges\"]": {
+        "source": "Europe-first philosophy may delay US expansion, less brand recognition than US mega-funds",
+        "target": "Priorizar a Europa pode atrasar a expansão nos Estados Unidos, menor reconhecimento de marca do que os megafundos dos Estados Unidos"
+      },
+      "[\"strideVC\",\"ongoing\"]": {
+        "source": "+4 Sales, +2 Product. European scaling playbooks and expansion support.",
+        "target": "+4 em Vendas, +2 em Produto. Práticas para crescer na Europa e apoio à expansão."
+      },
+      "[\"strideVC\",\"resourceBenefits\",\"euExpansion\"]": {
+        "source": "Playbooks and introductions for expanding across major European markets",
+        "target": "Práticas e apresentações para expansão nos principais mercados europeus"
+      },
+      "[\"strideVC\",\"resourceBenefits\",\"talentNetwork\"]": {
+        "source": "Access to their network of senior operators for key hires",
+        "target": "Acesso à rede de gestores experientes para contratações essenciais"
+      },
+      "[\"crownVC\",\"title\"]": {
+        "source": "Government-Backed Strategic Investor",
+        "target": "Investidor estratégico apoiado pelo governo"
+      },
+      "[\"crownVC\",\"desc\"]": {
+        "source": "Patient capital for strategic sectors. Backed by British Business Bank and pension funds.",
+        "target": "Capital paciente para setores estratégicos. Apoiado pelo British Business Bank e por fundos de pensão."
+      },
+      "[\"crownVC\",\"personality\"]": {
+        "source": "We invest for the long term in companies that matter for the UK. Less pressure, more patience. But we expect transparency.",
+        "target": "Investimos a longo prazo em empresas relevantes para o Reino Unido. Menos pressão, mais paciência. Mas esperamos transparência."
+      },
+      "[\"crownVC\",\"benefits\"]": {
+        "source": "Most founder-friendly terms at this stage, grant matching, government contract access, patient timeline",
+        "target": "Condições mais favoráveis ao fundador nesta etapa, contrapartida a recursos de fomento, acesso a contratos governamentais, prazos pacientes"
+      },
+      "[\"crownVC\",\"challenges\"]": {
+        "source": "Reporting burden, slower decision-making, UK-focused (may limit international pivots)",
+        "target": "Carga de relatórios, decisões mais lentas, foco no Reino Unido (pode limitar mudanças de estratégia para outros países)"
+      },
+      "[\"crownVC\",\"ongoing\"]": {
+        "source": "+3 Research, +3 Product. Grant matching and public sector intros. Quarterly reporting to stakeholders.",
+        "target": "+3 em Pesquisa, +3 em Produto. Contrapartida a recursos de fomento e apresentações no setor público. Relatórios trimestrais às partes interessadas."
+      },
+      "[\"crownVC\",\"resourceBenefits\",\"grantMatching\"]": {
+        "source": "Ability to match government grants, effectively doubling some funding sources",
+        "target": "Capacidade de complementar recursos governamentais de fomento com igual aporte, dobrando efetivamente algumas fontes de financiamento"
+      },
+      "[\"crownVC\",\"resourceBenefits\",\"publicProcurement\"]": {
+        "source": "Fast-track introductions to government procurement and public sector customers",
+        "target": "Apresentações facilitadas às áreas de compras governamentais e a clientes do setor público"
+      },
+      "[\"cortexCVC\",\"title\"]": {
+        "source": "AI Research Lab Strategic Arm",
+        "target": "Braço estratégico de laboratório de pesquisa em IA"
+      },
+      "[\"cortexCVC\",\"desc\"]": {
+        "source": "Investment arm of a leading AI research lab. Research collaboration, compute access, talent pipeline.",
+        "target": "Braço de investimentos de um laboratório de pesquisa em IA de destaque. Colaboração em pesquisa, acesso a capacidade computacional e acesso contínuo a profissionais."
+      },
+      "[\"cortexCVC\",\"personality\"]": {
+        "source": "We're building AGI. If your work advances that mission, we want to be partners. If you're building real AI, not wrapper apps.",
+        "target": "Estamos desenvolvendo inteligência artificial geral (AGI). Se seu trabalho contribui para essa missão, queremos ser parceiros. Se você desenvolve IA de verdade, não aplicativos que são apenas uma camada de interface sobre modelos prontos."
+      },
+      "[\"cortexCVC\",\"benefits\"]": {
+        "source": "Cutting-edge research collaboration, dedicated compute, access to top AI talent, credibility in AI community",
+        "target": "Colaboração em pesquisa de ponta, capacidade computacional dedicada, acesso a profissionais de destaque em IA, credibilidade na comunidade de IA"
+      },
+      "[\"cortexCVC\",\"challenges\"]": {
+        "source": "Talent poaching risk, may want full acquisition, research publication requirements",
+        "target": "Risco de recrutarem seus profissionais, podem querer adquirir a empresa inteira, exigências de publicação de pesquisas"
+      },
+      "[\"cortexCVC\",\"ongoing\"]": {
+        "source": "+5 Research, +3 Product. Research collaboration and compute access. They'll want to see your best people.",
+        "target": "+5 em Pesquisa, +3 em Produto. Colaboração em pesquisa e acesso a capacidade computacional. Vão querer conhecer seus melhores profissionais."
+      },
+      "[\"cortexCVC\",\"resourceBenefits\",\"researchCollaboration\"]": {
+        "source": "Joint research projects with their scientists, potential co-authored papers that boost credibility",
+        "target": "Projetos conjuntos de pesquisa com seus cientistas, possíveis artigos em coautoria que aumentam a credibilidade"
+      },
+      "[\"cortexCVC\",\"resourceBenefits\",\"dedicatedCompute\"]": {
+        "source": "Reserved allocation on their GPU clusters for training and experimentation",
+        "target": "Alocação reservada em seus conjuntos de GPUs para treinamento e experimentação"
+      },
+      "[\"cortexCVC\",\"resourceBenefits\",\"talentPipeline\"]": {
+        "source": "Access to researchers leaving the lab who want to work on applied problems",
+        "target": "Acesso a pesquisadores que deixam o laboratório e querem trabalhar em problemas aplicados"
+      },
+      "[\"astraCVC\",\"title\"]": {
+        "source": "Global Pharma Strategic Investor",
+        "target": "Investidor estratégico farmacêutico global"
+      },
+      "[\"astraCVC\",\"desc\"]": {
+        "source": "One of the world's largest pharmaceutical companies. Phase 2/3 trial support, global distribution, regulatory expertise.",
+        "target": "Uma das maiores empresas farmacêuticas do mundo. Apoio a ensaios de fases 2/3, distribuição global e experiência regulatória."
+      },
+      "[\"astraCVC\",\"personality\"]": {
+        "source": "We bring medicines to 100 countries. If your technology can help patients, we can help you reach them. All of them.",
+        "target": "Levamos medicamentos a 100 países. Se sua tecnologia puder ajudar os pacientes, podemos ajudar você a alcançá-los. Todos eles."
+      },
+      "[\"astraCVC\",\"benefits\"]": {
+        "source": "Clinical trial infrastructure, global distribution network, regulatory expertise across jurisdictions",
+        "target": "Infraestrutura de ensaios clínicos, rede global de distribuição, experiência regulatória em diferentes jurisdições"
+      },
+      "[\"astraCVC\",\"challenges\"]": {
+        "source": "Licensing rights to core IP likely, slow integration, pharma timelines",
+        "target": "Provável exigência de direitos de licenciamento da propriedade intelectual central, integração lenta, prazos do setor farmacêutico"
+      },
+      "[\"astraCVC\",\"ongoing\"]": {
+        "source": "+4 Research, +3 Sales. Global trial and distribution support. IP licensing discussions inevitable.",
+        "target": "+4 em Pesquisa, +3 em Vendas. Apoio global a ensaios e distribuição. Discussões sobre licenciamento de propriedade intelectual são inevitáveis."
+      },
+      "[\"astraCVC\",\"resourceBenefits\",\"clinicalTrials\"]": {
+        "source": "Access to Phase 2/3 trial infrastructure, patient recruitment networks, and trial design expertise",
+        "target": "Acesso a infraestrutura de ensaios de fases 2/3, redes de recrutamento de pacientes e experiência em desenho de ensaios"
+      },
+      "[\"astraCVC\",\"resourceBenefits\",\"globalDistribution\"]": {
+        "source": "Path to distribution in 100+ countries through their existing commercial infrastructure",
+        "target": "Caminho para distribuição em mais de 100 países por meio da infraestrutura comercial existente"
+      },
+      "[\"astraCVC\",\"resourceBenefits\",\"regulatoryExpertise\"]": {
+        "source": "Dedicated regulatory affairs support for FDA, EMA, MHRA and other major jurisdictions",
+        "target": "Apoio dedicado em assuntos regulatórios para FDA, EMA, MHRA e outras grandes jurisdições"
+      },
+      "[\"precisionCVC\",\"title\"]": {
+        "source": "Industrial Technology Corporate VC",
+        "target": "Capital de risco corporativo em tecnologia industrial"
+      },
+      "[\"precisionCVC\",\"desc\"]": {
+        "source": "Strategic arm of an €80B industrial conglomerate. Manufacturing scale, supply chain, global distribution.",
+        "target": "Braço estratégico de um conglomerado industrial de €80B. Escala de fabricação, cadeia de suprimentos e distribuição global."
+      },
+      "[\"precisionCVC\",\"personality\"]": {
+        "source": "We make things. Billions of things. If your technology can make them smarter, safer, or more efficient, let's talk scale.",
+        "target": "Fabricamos coisas. Bilhões de coisas. Se sua tecnologia puder torná-las mais inteligentes, seguras ou eficientes, vamos conversar sobre escala."
+      },
+      "[\"precisionCVC\",\"benefits\"]": {
+        "source": "Manufacturing at scale, global supply chain, industrial pilot programs, B2B credibility",
+        "target": "Fabricação em escala, cadeia global de suprimentos, programas-piloto industriais, credibilidade B2B"
+      },
+      "[\"precisionCVC\",\"challenges\"]": {
+        "source": "Manufacturing exclusivity likely, slow corporate processes, industrial sector focus",
+        "target": "Provável exclusividade de fabricação, processos corporativos lentos, foco no setor industrial"
+      },
+      "[\"precisionCVC\",\"ongoing\"]": {
+        "source": "+4 Product, +2 Sales. Manufacturing partnerships and industrial pilots.",
+        "target": "+4 em Produto, +2 em Vendas. Parcerias de fabricação e pilotos industriais."
+      },
+      "[\"precisionCVC\",\"resourceBenefits\",\"manufacturingScale\"]": {
+        "source": "Access to global manufacturing facilities when you're ready to produce at volume",
+        "target": "Acesso a instalações globais de fabricação quando você estiver pronto para produzir em grande volume"
+      },
+      "[\"precisionCVC\",\"resourceBenefits\",\"supplyChain\"]": {
+        "source": "Components and materials at preferential rates through their supply chain",
+        "target": "Componentes e materiais a preços preferenciais por meio da cadeia de suprimentos"
+      },
+      "[\"precisionCVC\",\"resourceBenefits\",\"industrialPilots\"]": {
+        "source": "Pilot deployments in their factories and industrial operations",
+        "target": "Implantações-piloto em suas fábricas e operações industriais"
+      }
+    }
   }
 }

@@ -1,0 +1,156 @@
+{
+  "M2_FUNDERS": {
+    "pennineVC": {
+      "title": "Investidor regional em tecnologia",
+      "desc": "Fundo liderado por fundadores que investe em empresas fora de Londres. Escritórios em Manchester, Edimburgo e Belfast.",
+      "personality": "Londres não tem monopólio sobre os profissionais talentosos. Somos construtores de negócios, não meros operadores de planilhas. Mostre o que você tem.",
+      "benefits": "Condições favoráveis ao fundador, apoio operacional direto, fortes redes regionais, expectativa de menor consumo de caixa",
+      "challenges": "Fundo menor significa menor capacidade para novas rodadas, menor reconhecimento da marca entre fundos de capital de risco de Londres, pode precisar de coinvestidores para rodadas maiores",
+      "ongoing": "+2 em Produto, +2 em Pessoas. Vão colocar a mão na massa e ajudar nas contratações."
+    },
+    "watershedVC": {
+      "title": "Investidor em tecnologia para impacto positivo",
+      "desc": "Fundo de capital de risco com certificação B Corp que investe em empresas que resolvem problemas reais. Capital paciente para fundadores pacientes.",
+      "personality": "As empresas mais valiosas da próxima década serão aquelas que melhorarem milhões de vidas. Mostre sua teoria da mudança.",
+      "benefits": "Condições muito favoráveis ao fundador, sem proteção contra diluição, prazos pacientes de crescimento, credibilidade em ESG com compradores empresariais",
+      "challenges": "Aporte menor, indicadores de impacto além dos financeiros, pode dar menor prioridade a negócios voltados apenas ao lucro",
+      "ongoing": "+2 em Pesquisa, +2 em Pessoas. Revisões trimestrais de impacto, mas querem de fato que você tenha sucesso."
+    },
+    "beaumontVC": {
+      "title": "Investidor transatlântico em crescimento",
+      "desc": "Escritórios em Dublin e São Francisco. Especialistas em ajudar empresas europeias a entrar no mercado dos Estados Unidos.",
+      "personality": "A Europa desenvolve ótimas tecnologias. Ajudamos você a vendê-las nos Estados Unidos. Há uma economia de $30 trilhões esperando por você.",
+      "benefits": "Apresentações a clientes nos Estados Unidos, credibilidade no Vale do Silício, ajuda para constituir uma empresa nos Estados Unidos, fortes contatos para rodadas Série B",
+      "challenges": "Pressionará pela expansão nos Estados Unidos mesmo se for prematura, espera maior consumo de caixa, pode exigir executivos sediados nos Estados Unidos",
+      "ongoing": "+3 em Vendas pela rede nos Estados Unidos, +1 em Produto. Abrirão portas em São Francisco, mas esperam que você passe por elas.",
+      "resourceBenefits": {
+        "usNetwork": "Apresentações a clientes empresariais e parceiros dos Estados Unidos nos principais polos tecnológicos",
+        "usExpansion": "Ajuda direta com constituição de empresa nos Estados Unidos, questões jurídicas e estratégia de entrada no mercado"
+      }
+    },
+    "apexVC": {
+      "title": "Investidor em tecnologia espacial e de uso dual",
+      "desc": "Fundo de capital de risco líder mundial com foco espacial. Parcerias com a ESA, contatos no setor de defesa e experiência em dados de satélites.",
+      "personality": "O espaço é a plataforma definitiva. Se sua IA tem aplicações orbitais — observação da Terra, dados de satélites, uso dual — queremos conversar.",
+      "benefits": "Apresentações à ESA e ao setor de defesa, parcerias de dados de satélites, profundo conhecimento de aplicações espaciais",
+      "challenges": "Foco muito restrito, pode pressionar por aplicações espaciais mesmo que não sejam centrais ao negócio, trabalho em defesa exige esforço adicional de conformidade",
+      "ongoing": "+4 em Pesquisa pela rede espacial, +1 em Vendas. Apresentarão você à ESA e às principais contratadas do setor de defesa.",
+      "resourceBenefits": {
+        "esaIntros": "Apresentações diretas aos gestores de programas e à área de compras da Agência Espacial Europeia",
+        "defenceNetwork": "Contatos com as principais contratadas do setor de defesa e compradores de tecnologias de uso dual"
+      }
+    },
+    "zenithCVC": {
+      "title": "Capital de risco corporativo em ciências da vida",
+      "desc": "Braço estratégico de uma das dez maiores empresas farmacêuticas. Experiência em ensaios clínicos, tramitação regulatória acelerada e contatos no NHS.",
+      "personality": "Entendemos o longo caminho até o mercado na área da saúde. Podemos encurtá-lo significativamente. Se você leva os pacientes a sério.",
+      "benefits": "Apoio para lidar com a regulação, infraestrutura de ensaios clínicos, contatos em compras do NHS, credibilidade com sistemas de saúde",
+      "challenges": "Direito de preferência em uma aquisição, pode limitar aplicações não farmacêuticas, decisões lentas",
+      "ongoing": "+4 em Pesquisa, +2 em Produto. Mais orientação regulatória e apresentações no NHS. Em algum momento, vão querer discutir exclusividade.",
+      "resourceBenefits": {
+        "regulatorySupport": "A equipe de assuntos regulatórios orienta sobre os processos da MHRA e da FDA, podendo economizar meses de preparação",
+        "clinicalAccess": "Acesso a grupos de pacientes e infraestrutura de ensaios clínicos para estudos de validação",
+        "nhsConnections": "Apresentações por contatos em comum a responsáveis por compras e inovação nas organizações do NHS"
+      }
+    },
+    "kineticCVC": {
+      "title": "Capital de risco corporativo automotivo",
+      "desc": "Braço estratégico de uma grande fabricante de equipamentos originais (OEM) do setor automotivo. Dados de frotas, programas-piloto e escala de fabricação.",
+      "personality": "Estamos construindo o futuro da mobilidade. Se sua IA puder nos ajudar a chegar lá mais rápido, vamos conversar sobre como seria uma parceria de verdade.",
+      "benefits": "Dados de frotas para treinamento, programas-piloto com veículos reais, parcerias de fabricação, credibilidade automotiva",
+      "challenges": "Exclusividade no setor automotivo, pode limitar parcerias com outros fabricantes, decisões corporativas lentas",
+      "ongoing": "+3 em Produto, +2 em Vendas. Programas-piloto com frotas e apoio à fabricação. Exigirão exclusividade no setor.",
+      "resourceBenefits": {
+        "fleetData": "Acesso a telemetria anonimizada de milhões de veículos para treinamento e validação",
+        "pilotPrograms": "Acesso acelerado a programas-piloto em condições reais com suas frotas de veículos",
+        "manufacturingSupport": "Experiência em engenharia e fabricação quando você estiver pronto para ampliar a produção de hardware"
+      }
+    },
+    "stratosCVC": {
+      "title": "Capital de risco corporativo em infraestrutura de nuvem",
+      "desc": "Braço estratégico de um provedor de nuvem de grande escala. Créditos de capacidade computacional, acesso a APIs e um caminho para alcançar 10.000 clientes empresariais.",
+      "personality": "A IA está transformando o mundo e funciona em nossa infraestrutura. Desenvolva em nossa plataforma e ajudaremos você a alcançar todo mundo.",
+      "benefits": "Grande volume de créditos de capacidade computacional, acesso a APIs proprietárias, distribuição a clientes empresariais pelo mercado digital da plataforma",
+      "challenges": "Expectativas de uso da plataforma, pode impor suas tecnologias em vez de alternativas, provável interesse em aquisição",
+      "ongoing": "+3 em Produto, +2 em Pesquisa. Mais créditos expressivos de capacidade computacional. Exigirão integração com a plataforma.",
+      "resourceBenefits": {
+        "computeCredits": "Créditos expressivos de computação em nuvem que prolongam de forma relevante o tempo até o caixa acabar",
+        "platformAPIs": "Acesso antecipado a APIs e infraestrutura de IA de ponta, antes da disponibilidade geral",
+        "marketplaceDistribution": "Presença no mercado digital empresarial da plataforma, colocando você diante de milhares de clientes potenciais"
+      }
+    }
+  },
+  "M3_FUNDERS": {
+    "redwoodVC": {
+      "title": "Investimento societário global para crescimento",
+      "desc": "O nome mais prestigiado do capital de risco. Seu investimento sinaliza que você chegou ao topo.",
+      "personality": "Investimos em 40 decacórnios. Sabemos como é vencer. A questão é: você consegue executar nesse nível?",
+      "benefits": "Máximo prestígio de marca, rede global, apoio à expansão nos Estados Unidos, forte histórico de aberturas de capital",
+      "challenges": "Maior custo em participação societária, proteção integral contra diluição, atuação agressiva no conselho, substituirá quem tiver desempenho abaixo do esperado",
+      "ongoing": "+5 em Vendas pela marca, +2 em Pessoas. Colocarão gestores na empresa se você não cumprir as metas."
+    },
+    "strideVC": {
+      "title": "Capital europeu para crescimento",
+      "desc": "Londres e Berlim. Especialistas em expandir empresas europeias pelo continente antes da expansão global.",
+      "personality": "A Europa é um mercado de €20 trilhões. Domine-o antes de buscar os Estados Unidos. Ajudaremos você nas duas coisas.",
+      "benefits": "Experiência em expansão por toda a Europa, apoio operacional em etapas avançadas, fortes contatos para rodadas Série C",
+      "challenges": "Priorizar a Europa pode atrasar a expansão nos Estados Unidos, menor reconhecimento de marca do que os megafundos dos Estados Unidos",
+      "ongoing": "+4 em Vendas, +2 em Produto. Práticas para crescer na Europa e apoio à expansão.",
+      "resourceBenefits": {
+        "euExpansion": "Práticas e apresentações para expansão nos principais mercados europeus",
+        "talentNetwork": "Acesso à rede de gestores experientes para contratações essenciais"
+      }
+    },
+    "crownVC": {
+      "title": "Investidor estratégico apoiado pelo governo",
+      "desc": "Capital paciente para setores estratégicos. Apoiado pelo British Business Bank e por fundos de pensão.",
+      "personality": "Investimos a longo prazo em empresas relevantes para o Reino Unido. Menos pressão, mais paciência. Mas esperamos transparência.",
+      "benefits": "Condições mais favoráveis ao fundador nesta etapa, contrapartida a recursos de fomento, acesso a contratos governamentais, prazos pacientes",
+      "challenges": "Carga de relatórios, decisões mais lentas, foco no Reino Unido (pode limitar mudanças de estratégia para outros países)",
+      "ongoing": "+3 em Pesquisa, +3 em Produto. Contrapartida a recursos de fomento e apresentações no setor público. Relatórios trimestrais às partes interessadas.",
+      "resourceBenefits": {
+        "grantMatching": "Capacidade de complementar recursos governamentais de fomento com igual aporte, dobrando efetivamente algumas fontes de financiamento",
+        "publicProcurement": "Apresentações facilitadas às áreas de compras governamentais e a clientes do setor público"
+      }
+    },
+    "cortexCVC": {
+      "title": "Braço estratégico de laboratório de pesquisa em IA",
+      "desc": "Braço de investimentos de um laboratório de pesquisa em IA de destaque. Colaboração em pesquisa, acesso a capacidade computacional e acesso contínuo a profissionais.",
+      "personality": "Estamos desenvolvendo inteligência artificial geral (AGI). Se seu trabalho contribui para essa missão, queremos ser parceiros. Se você desenvolve IA de verdade, não aplicativos que são apenas uma camada de interface sobre modelos prontos.",
+      "benefits": "Colaboração em pesquisa de ponta, capacidade computacional dedicada, acesso a profissionais de destaque em IA, credibilidade na comunidade de IA",
+      "challenges": "Risco de recrutarem seus profissionais, podem querer adquirir a empresa inteira, exigências de publicação de pesquisas",
+      "ongoing": "+5 em Pesquisa, +3 em Produto. Colaboração em pesquisa e acesso a capacidade computacional. Vão querer conhecer seus melhores profissionais.",
+      "resourceBenefits": {
+        "researchCollaboration": "Projetos conjuntos de pesquisa com seus cientistas, possíveis artigos em coautoria que aumentam a credibilidade",
+        "dedicatedCompute": "Alocação reservada em seus conjuntos de GPUs para treinamento e experimentação",
+        "talentPipeline": "Acesso a pesquisadores que deixam o laboratório e querem trabalhar em problemas aplicados"
+      }
+    },
+    "astraCVC": {
+      "title": "Investidor estratégico farmacêutico global",
+      "desc": "Uma das maiores empresas farmacêuticas do mundo. Apoio a ensaios de fases 2/3, distribuição global e experiência regulatória.",
+      "personality": "Levamos medicamentos a 100 países. Se sua tecnologia puder ajudar os pacientes, podemos ajudar você a alcançá-los. Todos eles.",
+      "benefits": "Infraestrutura de ensaios clínicos, rede global de distribuição, experiência regulatória em diferentes jurisdições",
+      "challenges": "Provável exigência de direitos de licenciamento da propriedade intelectual central, integração lenta, prazos do setor farmacêutico",
+      "ongoing": "+4 em Pesquisa, +3 em Vendas. Apoio global a ensaios e distribuição. Discussões sobre licenciamento de propriedade intelectual são inevitáveis.",
+      "resourceBenefits": {
+        "clinicalTrials": "Acesso a infraestrutura de ensaios de fases 2/3, redes de recrutamento de pacientes e experiência em desenho de ensaios",
+        "globalDistribution": "Caminho para distribuição em mais de 100 países por meio da infraestrutura comercial existente",
+        "regulatoryExpertise": "Apoio dedicado em assuntos regulatórios para FDA, EMA, MHRA e outras grandes jurisdições"
+      }
+    },
+    "precisionCVC": {
+      "title": "Capital de risco corporativo em tecnologia industrial",
+      "desc": "Braço estratégico de um conglomerado industrial de €80B. Escala de fabricação, cadeia de suprimentos e distribuição global.",
+      "personality": "Fabricamos coisas. Bilhões de coisas. Se sua tecnologia puder torná-las mais inteligentes, seguras ou eficientes, vamos conversar sobre escala.",
+      "benefits": "Fabricação em escala, cadeia global de suprimentos, programas-piloto industriais, credibilidade B2B",
+      "challenges": "Provável exclusividade de fabricação, processos corporativos lentos, foco no setor industrial",
+      "ongoing": "+4 em Produto, +2 em Vendas. Parcerias de fabricação e pilotos industriais.",
+      "resourceBenefits": {
+        "manufacturingScale": "Acesso a instalações globais de fabricação quando você estiver pronto para produzir em grande volume",
+        "supplyChain": "Componentes e materiais a preços preferenciais por meio da cadeia de suprimentos",
+        "industrialPilots": "Implantações-piloto em suas fábricas e operações industriais"
+      }
+    }
+  }
+}

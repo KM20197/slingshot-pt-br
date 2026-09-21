@@ -7,7 +7,7 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 ## Estado atual
 
 - Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
-- Catálogo estruturado: 2.753 campos tratados, com 2.701 alterações de texto. As 17 primeiras estruturas foram examinadas; cinco estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Também foram tratados os cinco modelos de receita, os 12 perfis de fundadores (216 campos) e suas 12 descrições de fomento. O restante do conteúdo ainda não foi traduzido por completo.
+- Catálogo estruturado: 2.857 campos tratados, com 2.805 alterações de texto. As 19 primeiras estruturas foram examinadas; cinco estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Também foram tratados os cinco modelos de receita, os 12 perfis de fundadores (216 campos) e suas 12 descrições de fomento. O restante do conteúdo ainda não foi traduzido por completo.
 - Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
 - Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
 - Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
@@ -38,6 +38,8 @@ As 36 opções de `LOCATIONS` receberam 276 entradas de catálogo (236 alteraç�
 As estruturas `FUNDING_STAGES` e `STAT_LABELS` acrescentam 15 traduções de apresentação, com identificadores e cálculos preservados. O gerador é `node tools/catalogue-funding-labels.cjs`. As descrições de investimento-anjo e capital de risco pertencem ao conteúdo legado; a seleção inicial brasileira continua utilizando o módulo de crédito. Consulte [a revisão dos rótulos](docs/REVISAO_ROTULOS_2026-09-20.md).
 
 A estrutura `FUNDERS` recebeu 192 traduções em 32 perfis: títulos, descrições, personalidade, benefícios, desafios e efeitos contínuos. Os nomes canônicos foram preservados porque também identificam investidores nas regras; isso inclui nomes genéricos do catálogo legado. Regiões, afinidades, imagens, valores e bônus permanecem iguais. O gerador `node tools/catalogue-funders.cjs` verifica a assinatura da fonte antes de gravar. Consulte [o parecer dos financiadores](docs/REVISAO_FINANCIADORES_2026-09-20.md). Esta etapa traduz conteúdo britânico e não conclui sua substituição pelas modalidades brasileiras.
+
+As estruturas `M2_FUNDERS` e `M3_FUNDERS` acrescentam 104 traduções em 13 perfis, incluindo benefícios de infraestrutura, pesquisa e acesso a mercados. Nomes, critérios geográficos, afinidades, exclusividades e valores foram preservados. O comando de regeneração é `node tools/catalogue-later-funders.cjs`. Consulte [o parecer das rodadas posteriores](docs/REVISAO_FINANCIADORES_2026-09-21.md).
 
 ## Nota e entrega ao professor
 
