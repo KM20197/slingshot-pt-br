@@ -1,0 +1,258 @@
+{
+  "personalSavings": [
+    "Financiamento com recursos próprios",
+    "£350k de sua conta de poupança e de suas ISAs. Financiamento inteiramente próprio — construir uma empresa usando apenas seu capital, sem financiamento externo.",
+    "Cada pêni é seu. Cada decisão é sua. Cada consequência é sua.",
+    "100% de participação, controle total, nenhuma prestação de contas a terceiros, liberdade para mudar de estratégia, quadro societário simples",
+    "Menos pontos de atenção (sem o apoio de investidores), menor tempo até o caixa acabar, todo o risco pessoal, menor credibilidade com compradores de grandes empresas",
+    "Sem investidores a quem prestar contas. Sem ninguém a quem pedir ajuda. Apenas você e sua convicção."
+  ],
+  "friendsFamily": [
+    "Pessoas queridas apoiando você",
+    "£430k no total: seus £350k mais £80k de pais, irmãos e seu colega de quarto da universidade.",
+    "Sua mãe refinanciou um empréstimo. Seu pai usou parte da reserva para a aposentadoria. Seu irmão acredita em você. Não os decepcione.",
+    "Mais capital do que por conta própria, apoiadores que torcem por você, condições flexíveis, sem assentos no conselho nem direitos de voto",
+    "Pressão emocional se as coisas derem errado, jantares de família constrangedores, mistura de dinheiro e relacionamentos",
+    "Sua família entra em contato regularmente. Há orgulho, mas também ansiedade. As ligações de domingo agora incluem notícias do negócio."
+  ],
+  "crowdfunding": [
+    "Lançamento apoiado pela comunidade",
+    "£450k no total: seus £350k mais £100k de 3.847 apoiadores na Seedrs. Já descontadas as taxas.",
+    "Quase 4.000 pessoas lhe deram dinheiro antes de você ter um produto. Elas estão observando. Estão esperando.",
+    "Primeiros usuários já disponíveis, validação social para as vendas, história para divulgação na imprensa, validação de mercado, lista de e-mails de quem acredita no projeto",
+    "Funciona melhor para produtos B2C/de consumo; negócios B2B e de tecnologia intensiva em pesquisa têm dificuldade para entusiasmar o público. Prestação pública de contas e trabalho adicional para gerir os apoiadores",
+    "Atualizações mensais aos apoiadores. Seção de comentários cheia de perguntas. Eles são seus primeiros clientes — e seus críticos mais barulhentos."
+  ],
+  "maxedCredit": [
+    "Tudo apostado em dívidas",
+    "£500k de cartões de crédito, empréstimos pessoais e uma nova hipoteca sobre seu apartamento. Mais dinheiro disponível, maiores riscos pessoais.",
+    "O banco não se importa com sua visão. Deixe de pagar uma parcela e ele toma sua casa. Isso precisa dar certo.",
+    "Maior caixa entre as opções de financiamento independente, sem diluição da participação societária, sem investidores para administrar, maior tempo de sustentação da empresa com o caixa disponível",
+    "Risco de insolvência pessoal em caso de fracasso, peso psicológico da dívida, juros pagos do próprio bolso",
+    "A dívida é sua, não da empresa. Mas cada noite sem dormir lembra o que está em jogo."
+  ],
+  "self": [
+    "Financiamento com recursos próprios",
+    "£350k de suas economias. Financiamento inteiramente próprio — construir usando apenas seu capital.",
+    "Tudo depende de você. Sem rede de proteção. Sem desculpas.",
+    "100% de participação, controle total, liberdade para mudar de estratégia",
+    "Menos pontos de atenção (sem o apoio de investidores), tempo limitado até o caixa acabar, todo o risco pessoal",
+    "Sem investidores para culpar. Apenas você."
+  ],
+  "dragon": [
+    "Investidora do Dragons' Den / Personalidade da mídia",
+    "Investidora famosa do Dragons' Den. Aporta £250k além de seus £350k de economias.",
+    "Não fico pegando na mão. Quero os números toda semana, ou vou telefonar para saber por que não chegaram.",
+    "Grande exposição na mídia, contatos de relações públicas abrem portas com clientes empresariais, reconhecimento da marca ajuda no recrutamento, maior aporte entre os investidores-anjo",
+    "Exige a maior participação societária, espera atualizações semanais, pode fazer críticas públicas se estiver insatisfeita, a fama tem seu preço, proteção integral contra diluição",
+    "+3 em Vendas, +1 em Produto pela exposição na mídia. Espera resultados rápidos."
+  ],
+  "techAngel": [
+    "Fundador com empresas vendidas / Investidor-anjo de tecnologia",
+    "Fundador que vendeu três empresas, a última para a Microsoft por £80M. Aporta £150k além de seus £350k.",
+    "Construí e vendi três empresas. Sei o que funciona. Deixe-me poupar você dos erros que cometi.",
+    "Grande credibilidade técnica, orientação sobre arquitetura, forte rede de investidores-anjo para novas rodadas, compreende a psicologia dos fundadores",
+    "Questionará cada escolha técnica, às vezes se prende a práticas antigas, proteção parcial contra diluição",
+    "+2 em Produto, +1 em Pesquisa. Colocará suas decisões técnicas em dúvida."
+  ],
+  "operatorAngel": [
+    "Ex-diretora de operações / Sócia operacional",
+    "Expandiu três startups como diretora de operações (COO), uma delas até a abertura de capital. Aporta £150k além de seus £350k.",
+    "Vi fundadores se esgotarem e empresas desmoronarem. Deixe-me ajudar você a construir algo sustentável.",
+    "Condições favoráveis ao fundador, sem proteção contra diluição, práticas de gestão operacional, ajuda a evitar erros na expansão, experiência na formação de equipes",
+    "Abordagem centrada em processos pode retardar os primeiros experimentos, menor profundidade técnica",
+    "+2 em Pessoas, +1 em Produto pela eficiência operacional. Revisões trimestrais."
+  ],
+  "academicAngel": [
+    "Ciências da vida em Cambridge / Fundadora de empresas nascidas da pesquisa",
+    "Doutora em ciências da vida por Cambridge; criou duas empresas de diagnóstico a partir de sua pesquisa. Aporta £100k além de seus £350k.",
+    "A melhor IA para a saúde é construída sobre ciência de verdade. Vou apresentar você aos pesquisadores clínicos que podem validar suas alegações.",
+    "Menor participação exigida entre os investidores-anjo (8%), sem proteção contra diluição, ampla rede de pesquisa no NHS, experiência em fomento, contatos para ensaios clínicos",
+    "Menor aporte, pode priorizar publicações em vez do produto, ritmo acadêmico pode dificultar os prazos comerciais",
+    "+4 em Pesquisa pela rede acadêmica. Pode sugerir 'mais um estudo de validação' antes do lançamento."
+  ],
+  "priyaSharma": [
+    "Ex-diretora do NHS Digital",
+    "Liderou programas do NHS Digital por 8 anos; agora é investidora-anjo em tecnologia para a saúde. Aporta £120k além de seus £350k.",
+    "Sei como o NHS realmente compra software. Não é uma questão de tecnologia — é de justificativa de negócio e de profissionais clínicos que defendam a solução.",
+    "Experiência em compras do NHS, credibilidade clínica, conhecimento dos processos do NICE, relacionamentos com organizações do NHS",
+    "Pragmática em excesso, pode reduzir o entusiasmo por prazos ambiciosos, foco no mercado britânico",
+    "+3 em Pesquisa, +1 em Vendas pelos contatos no NHS. Confrontará suas previsões de vendas com a realidade."
+  ],
+  "thomasEriksson": [
+    "Empresa nascida no Karolinska / Venda para a Roche",
+    "Vendeu uma empresa de diagnóstico para a Roche por £400M; começou em uma empresa nascida no Karolinska. Aporta £250k além de seus £350k.",
+    "Já passei pelas negociações com farmacêuticas. Vou mostrar como estruturar acordos sem abrir mão de sua propriedade intelectual.",
+    "Experiência em parcerias farmacêuticas, conhecimento dos processos regulatórios, rede na Escandinávia e na União Europeia, maior aporte de investidor-anjo",
+    "Proteção parcial contra diluição, expectativas elevadas, pode pressionar por parcerias farmacêuticas cedo demais",
+    "+2 em Pesquisa, +2 em Produto pela experiência farmacêutica. Incentivará conversas sobre parcerias desde cedo."
+  ],
+  "klausMuller": [
+    "Ex-vice-presidente de engenharia da divisão BMW i",
+    "25 anos na BMW, liderando os programas i3/i8 e direção autônoma. Aporta £200k além de seus £350k.",
+    "Engenharia alemã é uma questão de precisão. Mostre seus protocolos de teste antes de mostrar sua apresentação para investidores.",
+    "Relacionamentos com fabricantes de equipamentos originais (OEMs) em toda a Europa, experiência em normas de segurança automotiva, rede de engenharia em Munique",
+    "Padrões exigentes, pode retardar o desenvolvimento em nome da qualidade, proteção parcial contra diluição",
+    "+3 em Produto, +1 em Pesquisa pelo rigor de engenharia. Insistirá em testes abrangentes."
+  ],
+  "davidAdeyemi": [
+    "Gerente-geral da Uber em Londres / Investidor em mobilidade",
+    "Expandiu a operação da Uber em Londres de 0 para 40 mil motoristas; assessor da Bolt e da Arrival. Aporta £150k além de seus £350k.",
+    "Esqueça a tecnologia por um instante. Quem vai operar esses veículos e como essas pessoas ganharão dinheiro?",
+    "Relacionamentos com operadores de frotas, conhecimento da economia do trabalho dos motoristas, experiência para lidar com a regulação, sem proteção contra diluição",
+    "Foco em operações, pode reduzir a prioridade da pesquisa e desenvolvimento, impaciente com atrasos técnicos",
+    "+2 em Vendas, +2 em Pessoas pela rede de mobilidade. Pressionará por receita antes da perfeição."
+  ],
+  "ananyaKrishnamurthy": [
+    "Robótica em Bristol / Doutorado após formação no IIT, em Edimburgo",
+    "Formada no IIT Bombay, com doutorado em Edimburgo; ocupa o cargo acadêmico de Reader em sistemas autônomos em Bristol. Aporta £130k além de seus £350k.",
+    "A percepção é o problema difícil. Vou apresentar você aos pesquisadores que estão de fato resolvendo isso.",
+    "Conhecimento avançado em fusão de sensores, rede de colaboração acadêmica, condições que exigem pouca participação societária, capital paciente",
+    "Pode priorizar pesquisa em vez de marcos comerciais, aporte menor, foco em publicações",
+    "+4 em Pesquisa pela rede de robótica. Exigirá validação rigorosa antes da implantação."
+  ],
+  "patriciaHoffman": [
+    "Referência em vendas empresariais / Oracle-Sage-Salesforce",
+    "25 anos vendendo software empresarial; diretora de receitas (CRO) na Oracle UK, Sage e Salesforce EMEA. Aporta £180k além de seus £350k.",
+    "Tenho o celular de todos os diretores de tecnologia da informação (CIOs) das empresas do FTSE 100. Mas primeiro mostre seu processo de vendas.",
+    "Agenda de contatos empresariais, experiência em processos de vendas, apresentações a altos executivos, condições favoráveis ao fundador",
+    "Foco em vendas, pode reduzir a prioridade do desenvolvimento do produto, impaciente com ciclos longos de pesquisa e desenvolvimento",
+    "+3 em Vendas, +1 em Pessoas pela rede empresarial. Reestruturará seu processo de vendas."
+  ],
+  "amitPatel": [
+    "Fundador de empresa B2B SaaS / Venda por £200M",
+    "Criou em Birmingham uma empresa de software como serviço para empresas (B2B SaaS) e a vendeu para a Salesforce por £200M. Aporta £220k além de seus £350k.",
+    "O crescimento orientado pelo produto mudou tudo. Vou mostrar como construir algo que as pessoas realmente queiram comprar.",
+    "Experiência em crescimento orientado pelo produto (PLG), estratégia de preços, práticas de integração, rede tecnológica nas Midlands, aporte elevado",
+    "Opiniões firmes sobre estratégia de produto, proteção parcial contra diluição, pode pressionar por uma expansão prematura",
+    "+2 em Produto, +2 em Vendas pela experiência em SaaS. Repensará seu modelo de preços."
+  ],
+  "marcusWebb": [
+    "Líder de grupo de investidores-anjo / Ex-Accenture",
+    "Coordena um grupo de 50 investidores-anjo em Londres; ex-sócio da Accenture. Aporta £300k além de seus £350k.",
+    "Estou trazendo 50 investidores-anjo para este negócio. São 50 pessoas com opiniões. Mas também é o maior aporte que você conseguirá.",
+    "Maior aporte de investidores-anjo (£300k), ampla rede para novas rodadas, contatos em consultoria empresarial",
+    "Investimento-anjo que mais dilui sua participação, decisões por consenso são lentas, proteção parcial contra diluição, muitas partes interessadas",
+    "+2 em Vendas, +1 em Pessoas pela rede do grupo. Atualizações mensais para 50 investidores."
+  ],
+  "michaelOkonkwo": [
+    "Ex-Shell Ventures / Investidor em soluções climáticas",
+    "10 anos na Shell Ventures apoiando a transição energética; agora é investidor-anjo independente em soluções climáticas. Aporta £200k além de seus £350k.",
+    "Sei como as grandes petrolíferas pensam sobre a transição. Vou ajudar você a vender para elas, em vez de competir contra elas.",
+    "Relacionamentos na área de sustentabilidade empresarial, experiência em transição energética, sem proteção contra diluição, abordagem pragmática",
+    "Pode pressionar por parcerias com empresas de combustíveis fósseis, visão de mundo centrada em grandes empresas",
+    "+2 em Vendas, +2 em Produto pela rede do setor de energia. Abrirá portas em grandes empresas estabelecidas."
+  ],
+  "annaLindqvist": [
+    "Descarbonização industrial / Chalmers",
+    "Fundou uma empresa de descarbonização industrial; doutora em engenharia pela Chalmers. Aporta £140k além de seus £350k.",
+    "A indústria pesada concentra as emissões difíceis de eliminar. Vou apresentar você aos fabricantes que precisam mudar.",
+    "Parcerias com fabricantes, rede nórdica de tecnologias limpas, experiência em cadeia de suprimentos, condições favoráveis ao fundador",
+    "Foco na indústria, pode ignorar oportunidades com consumidores e pequenas e médias empresas, paciente, mas exigente",
+    "+2 em Pesquisa, +2 em Pessoas pela rede industrial. Incentivará parcerias com fabricantes."
+  ],
+  "eleniStavros": [
+    "Tyndall Centre (UEA) / Contabilidade de carbono",
+    "Cientista do clima no Tyndall Centre; trabalhou no National Observatory of Athens; especialista em padrões de carbono. Aporta £120k além de seus £350k.",
+    "Se sua contabilidade de carbono não for rigorosa, os reguladores vão contestá-la duramente. Vou ajudar você a acertar.",
+    "Menor participação exigida (8%), padrões de contabilidade de carbono, contatos na formulação de políticas da União Europeia, credibilidade em ciência climática",
+    "Menor aporte, ritmo acadêmico, rigor em excesso, pode retardar o lançamento de produtos",
+    "+4 em Pesquisa pela rede de ciência climática. Insistirá no rigor das medições."
+  ],
+  "jamesMorrison": [
+    "Ex-GCHQ / Centro de cibersegurança de Lancaster",
+    "30 anos no GCHQ e na inteligência militar; preside o centro de cibersegurança da Lancaster University. Aporta £150k além de seus £350k.",
+    "Vi ataques de Estados nacionais que nunca chegaram aos jornais. Sua segurança precisa ser melhor do que 'boa o suficiente'.",
+    "Caminhos para contratações governamentais e de defesa, rede de contatos com credenciamento de segurança, credibilidade com grandes empresas, condições favoráveis ao fundador",
+    "Abordagem conservadora, pode insistir demais em contratos governamentais, reservado sobre seus contatos",
+    "+2 em Pesquisa, +2 em Vendas pela rede de defesa e governo. Abrirá portas que você nem sabia que existiam."
+  ],
+  "zaraHassan": [
+    "Fundadora de empresa de cibersegurança / Venda para a CrowdStrike",
+    "Criou uma plataforma de detecção de ameaças no alojamento da Oxford Brookes; vendeu a empresa para a CrowdStrike. Aporta £200k além de seus £350k.",
+    "Cresci neste setor. As ameaças mudam diariamente. Sua tecnologia precisa evoluir mais rápido do que os atacantes.",
+    "Experiência em arquitetura de segurança, rede de inteligência sobre ameaças, credibilidade técnica, maior aporte de investidor-anjo em segurança",
+    "Proteção parcial contra diluição, opiniões técnicas firmes, pode priorizar funcionalidades em vez da estratégia de entrada no mercado",
+    "+3 em Produto, +1 em Pesquisa pela experiência em segurança. Exigirá excelência técnica."
+  ],
+  "robertBlackwood": [
+    "Diretor de segurança da informação do Lloyds / Comprador de segurança empresarial",
+    "Diretor de segurança da informação (CISO) do Lloyds Banking Group; coordena uma rede de investidores-anjo formada por CISOs. Aporta £170k além de seus £350k.",
+    "Sei do que os compradores de segurança realmente precisam. Uma dica: não é de mais um painel. É de menos alertas e respostas mais rápidas.",
+    "Apresentações a CISOs de empresas do FTSE 100, experiência em conformidade e auditoria, perspectiva de comprador, sem proteção contra diluição",
+    "Foco em grandes empresas, pode ignorar pequenas e médias empresas, solicitações conservadoras de funcionalidades",
+    "+3 em Vendas, +1 em Pessoas pela rede de CISOs. Colocará você em conversas sobre contratações."
+  ],
+  "meilingKoh": [
+    "Ex-diretora de estratégias sistemáticas da Helmsworth Capital",
+    "Duas décadas administrando carteiras de estratégias sistemáticas na City. Aporta £230k além de seus £350k — depois de ler seus testes retrospectivos.",
+    "Um belo modelo sem gestão de riscos é apenas uma maneira cara de quebrar. Mostre as quedas acumuladas desde os picos, depois o potencial de ganho.",
+    "Rede na City e em fundos de investimento alternativo do tipo hedge, experiência para lidar com a regulação da FCA, acesso a profissionais de finanças quantitativas, credibilidade institucional",
+    "Insiste em controles rigorosos de risco e testes retrospectivos, proteção parcial contra diluição, pouca paciência para explicações vagas",
+    "+2 em Produto, +2 em Pesquisa pelo rigor quantitativo. Exigirá gestão de riscos e conformidade."
+  ],
+  "jaylenBrooks": [
+    "Investidor na economia dos criadores / Ex-diretor de parcerias com criadores na Spotify",
+    "Desenvolveu parcerias com criadores em uma gigante do streaming; agora investe em IA para consumidores. Aporte menor (£130k além de seus £350k), mas abre todas as portas no mundo dos criadores.",
+    "A distribuição é o produto. Se os criadores adorarem, o crescimento é gratuito — se não, nenhuma qualidade do modelo salvará você.",
+    "Rede de criadores e influenciadores, práticas de crescimento de público e viralização, apresentações para parcerias com marcas, condições favoráveis ao fundador",
+    "Segue o entusiasmo do momento e as tendências, pode priorizar o crescimento em vez dos fundamentos, perde o interesse facilmente em detalhes de tecnologias intensivas em pesquisa",
+    "+3 em Marketing, +1 em Pessoas pelo alcance dos criadores. Incentivará lançamentos virais e ações conjuntas com criadores."
+  ],
+  "yusufDemir": [
+    "Ex-sócio da Clifford Chance / Investidor-anjo em tecnologia jurídica",
+    "Foi sócio de um escritório do Magic Circle por quinze anos antes de apoiar ferramentas que reduzem o custo de sua antiga diária profissional. £170k além de seus £350k.",
+    "Advogados não confiam em software. Confiam em histórico de resultados e garantias de indenização. Conquiste o primeiro e discutiremos as segundas.",
+    "Relacionamentos com o Magic Circle e departamentos jurídicos internos, conhecimento de contratação por compradores conservadores, credibilidade regulatória e ética",
+    "Exige precisão e trilhas de auditoria, quer ciclos de vendas conduzidos corretamente (devagar), avesso a riscos nas alegações sobre o produto",
+    "+2 em Produto, +2 em Marketing pela credibilidade jurídica. Insistirá em precisão comprovável antes da expansão."
+  ],
+  "eleanorWhitfield": [
+    "Ex-diretora executiva do Greenfield Academies Trust / Ex-professora",
+    "Lecionou por uma década e depois dirigiu uma organização que administra várias escolas do tipo academy. Sabe para onde realmente vão os orçamentos escolares. Capital paciente: £110k além de seus £350k.",
+    "As escolas já viram mil ferramentas chamativas. Mostre que ela ajuda uma criança a aprender — e que um professor sobrecarregado consegue de fato usá-la.",
+    "Rede de organizações que administram escolas do tipo academy e de diretores escolares, apresentação da eficácia e das evidências para contratações, paciência e alinhamento com a missão",
+    "Quer provas do impacto na aprendizagem, orçamentos públicos apertados e compras lentas, resistirá a promessas exageradas",
+    "+2 em Marketing, +2 em Pessoas pelos relacionamentos com escolas. Exigirá evidências de eficácia antes da expansão nacional."
+  ],
+  "northstarVC": [
+    "Fundo generalista de capital de risco de primeira linha",
+    "O logotipo em sua apresentação que faz outros fundos de capital de risco retornarem as ligações. Eles sabem quanto valem.",
+    "Investimos em 3 unicórnios no ano passado. Conhecemos o padrão. Cumpra suas metas ou encontraremos um diretor executivo que consiga.",
+    "Prestígio da marca atrai profissionais de destaque e clientes, forte apoio a novas rodadas, ampla rede de gestores e assessores, credibilidade com compradores de grandes empresas",
+    "Maior custo em participação societária, fiscalização mensal pelo conselho, expectativas agressivas de crescimento, proteção integral contra diluição, substitui fundadores que não cumprem metas",
+    "+4 em Vendas pela marca, +2 em Pessoas pela rede. Conselho mensal. Deixe de cumprir metas duas vezes e eles 'ajudarão' com a liderança."
+  ],
+  "pluralVC": [
+    "Especialista em empreendimentos inclusivos",
+    "Apoia fundadores pouco notados que desenvolvem soluções para mercados pouco atendidos. Melhores condições entre os fundos institucionais de capital de risco.",
+    "As melhores ideias surgem onde os outros não estão olhando. Investimos nos melhores, não apenas em quem tem os melhores contatos.",
+    "Condições favoráveis ao fundador, sem proteção contra diluição, rede diversificada de prospectores de investimentos abre portas incomuns, expectativas pacientes de crescimento",
+    "Aporte menor do que outros fundos de capital de risco, menor reconhecimento da marca entre compradores empresariais tradicionais, exige indicadores de impacto",
+    "+2 em Pessoas, +2 em Vendas pela rede. Acompanhamento trimestral de impacto, mas confiam em seu julgamento."
+  ],
+  "helixCVC": [
+    "Capital de risco corporativo (infraestrutura de dados)",
+    "Braço estratégico de uma empresa de infraestrutura de dados de £40B. Acesso a APIs, capacidade computacional e clientes empresariais.",
+    "Avançamos devagar porque não vamos a lugar algum. A integração com nossa plataforma pode ser muito valiosa. Para os dois lados.",
+    "Acesso a dados proprietários por API, créditos de nuvem reduzem o consumo de caixa, carteira de potenciais clientes empresariais já disponível, caminho claro para aquisição",
+    "Condições estratégicas vinculadas ao investimento, direito de preferência em uma aquisição, pode limitar mudanças estratégicas que afastem o negócio de sua plataforma",
+    "+3 em Produto (acesso a dados), +2 em Vendas, +1 em Pesquisa. Mais créditos de nuvem. Exigirão integração com a plataforma."
+  ],
+  "pembertonVC": [
+    "Capital de risco para tecnologias intensivas em pesquisa",
+    "Fundo de capital de risco com raízes em Cambridge que investe em empresas científicas com forte propriedade intelectual. Histórico de vendas para Apple e Google e três aberturas de capital.",
+    "Trabalhamos com tecnologias intensivas em pesquisa há 20 anos. Se você conseguir explicar a física, podemos ajudar a expandir o negócio.",
+    "Credibilidade em análises técnicas aprofundadas de investimento, experiência em empresas nascidas de universidades, histórico de vendas bem-sucedidas para grandes empresas de tecnologia, paciência com os prazos de pesquisa e desenvolvimento",
+    "Foco intenso em ciência — pode subestimar resultados comerciais, rede centrada em Cambridge, proteção parcial contra diluição",
+    "+3 em Pesquisa, +2 em Produto pela rede técnica. Farão perguntas difíceis sobre a vantagem competitiva protegida por sua propriedade intelectual."
+  ],
+  "thornburyCapital": [
+    "Fundo regional de inovação",
+    "Fundo sediado em Bristol que investe na inovação do Corredor Oeste. Fortes vínculos com os setores aeroespacial e de manufatura avançada.",
+    "O corredor da M4 tem mais profissionais de engenharia por habitante do que qualquer lugar fora de Cambridge. Sabemos como encontrá-los.",
+    "Redes regionais de profissionais, contatos na indústria aeroespacial, abordagem de capital paciente, condições alinhadas aos fundadores",
+    "Presença limitada em Londres, menor capacidade para novas rodadas, foco em empreendimentos relacionados a hardware",
+    "+2 em Produto, +2 em Pessoas pelas redes regionais. Forte na execução, com menos exageros promocionais."
+  ]
+}
