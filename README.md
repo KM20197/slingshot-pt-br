@@ -7,7 +7,7 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 ## Estado atual
 
 - Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
-- Catálogo estruturado: 2.947 campos tratados, com 2.895 alterações de texto. As 21 primeiras estruturas foram examinadas integralmente, e a 22ª está parcialmente traduzida; sete estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Também foram tratados os cinco modelos de receita, os 12 perfis de fundadores (216 campos) e suas 12 descrições de fomento. O restante do conteúdo ainda não foi traduzido por completo.
+- Catálogo estruturado: 2.987 campos tratados, com 2.935 alterações de texto. As 21 primeiras estruturas foram examinadas integralmente, e a 22ª está parcialmente traduzida; sete estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Também foram tratados os cinco modelos de receita, os 12 perfis de fundadores (216 campos) e suas 12 descrições de fomento. O restante do conteúdo ainda não foi traduzido por completo.
 - Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
 - Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
 - Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
@@ -41,7 +41,9 @@ A estrutura `FUNDERS` recebeu 192 traduções em 32 perfis: títulos, descriçõ
 
 As estruturas `M2_FUNDERS` e `M3_FUNDERS` acrescentam 104 traduções em 13 perfis, incluindo benefícios de infraestrutura, pesquisa e acesso a mercados. Nomes, critérios geográficos, afinidades, exclusividades e valores foram preservados. O comando de regeneração é `node tools/catalogue-later-funders.cjs`. Consulte [o parecer das rodadas posteriores](docs/REVISAO_FINANCIADORES_2026-09-21.md).
 
-`M2_FUNDER_OPTIONS` e `M3_FUNDER_OPTIONS` foram classificados e preservados como referências internas. `FUNDER_ADVICE` recebeu tradução parcial: 90 conselhos, justificativas e reações dos quatro primeiros perfis com conselhos, mantendo `self: null`, nomes, pesos, escolhas e penalidades. Os demais perfis continuam pendentes. Use `node tools/catalogue-advice-initial.cjs`. Consulte [a revisão dos conselhos iniciais](docs/REVISAO_CONSELHOS_2026-09-21.md).
+`M2_FUNDER_OPTIONS` e `M3_FUNDER_OPTIONS` foram classificados e preservados como referências internas. `FUNDER_ADVICE` recebeu tradução parcial: 90 conselhos, justificativas e reações dos quatro primeiros perfis com conselhos, mantendo `self: null`, nomes, pesos, escolhas e penalidades. Os especialistas em saúde Priya Sharma e Thomas Eriksson acrescentam 40 campos, totalizando 130 em seis perfis; outros 35 perfis continuam pendentes. Use `node tools/catalogue-advice-initial.cjs` e `node tools/catalogue-advice-healthcare.cjs`. Consulte [a revisão dos conselhos iniciais](docs/REVISAO_CONSELHOS_2026-09-21.md).
+
+O lote de saúde preserva instituições, prazos, escolhas e penalidades do cenário britânico. Consulte [a revisão dos conselhos de saúde](docs/REVISAO_CONSELHOS_SAUDE_2026-09-21.md).
 
 ## Nota e entrega ao professor
 

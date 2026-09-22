@@ -11887,6 +11887,166 @@
       "[\"academicAngel\",\"hostileWarning\"]": {
         "source": "I'm concerned we're losing our scientific edge.",
         "target": "Estou preocupada com a perda de nossa vantagem científica."
+      },
+      "[\"priyaSharma\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Have you mapped the NHS procurement cycle for this?",
+        "target": "Você já mapeou o ciclo de compras do NHS para isso?"
+      },
+      "[\"priyaSharma\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Miss the window and you wait 18 months.",
+        "target": "Se perder a oportunidade, terá de esperar 18 meses."
+      },
+      "[\"priyaSharma\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "You need clinical champions, not marketing spend.",
+        "target": "Você precisa de profissionais clínicos que defendam a solução, não de gastos com marketing."
+      },
+      "[\"priyaSharma\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "NHS trusts buy from people they trust.",
+        "target": "As organizações do NHS compram de pessoas em quem confiam."
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "NICE guidelines will determine your market access.",
+        "target": "As diretrizes do NICE determinarão seu acesso ao mercado."
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Health economics evidence is non-negotiable.",
+        "target": "Evidências de economia da saúde são inegociáveis."
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "I can connect you to the right NHS trust for a pilot.",
+        "target": "Posso apresentar você à organização do NHS adequada para um projeto-piloto."
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Real-world evidence beats lab results.",
+        "target": "Evidências do mundo real superam resultados de laboratório."
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",2,\"text\"]": {
+        "source": "Have you validated with actual clinicians yet?",
+        "target": "Você já validou isso com profissionais que atendem pacientes?"
+      },
+      "[\"priyaSharma\",\"advice\",\"research\",2,\"reason\"]": {
+        "source": "What works in theory often fails at bedside.",
+        "target": "O que funciona na teoria muitas vezes falha à beira do leito."
+      },
+      "[\"priyaSharma\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "NHS IT systems are ancient. Plan for integration pain.",
+        "target": "Os sistemas de TI do NHS são antigos. Prepare-se para dificuldades na integração."
+      },
+      "[\"priyaSharma\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "I've seen beautiful products fail on deployment.",
+        "target": "Já vi ótimos produtos falharem na implantação."
+      },
+      "[\"priyaSharma\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Security and data governance first.",
+        "target": "Segurança e governança de dados em primeiro lugar."
+      },
+      "[\"priyaSharma\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "One breach and you're finished in healthcare.",
+        "target": "Uma violação de segurança e sua atuação na saúde acaba."
+      },
+      "[\"priyaSharma\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "You need someone who speaks NHS fluently.",
+        "target": "Você precisa de alguém que conheça a linguagem do NHS com fluência."
+      },
+      "[\"priyaSharma\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "It's a different language over there.",
+        "target": "É uma linguagem diferente por lá."
+      },
+      "[\"priyaSharma\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Consider a clinical advisory board.",
+        "target": "Considere um conselho consultivo clínico."
+      },
+      "[\"priyaSharma\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Credibility compounds.",
+        "target": "A credibilidade gera benefícios que se acumulam."
+      },
+      "[\"priyaSharma\",\"followedReaction\"]": {
+        "source": "Good. That's how you build credibility in healthcare. 👍",
+        "target": "Ótimo. É assim que se constrói credibilidade na saúde. 👍"
+      },
+      "[\"priyaSharma\",\"ignoredReaction\"]": {
+        "source": "Alright. But the NHS moves at its own pace. Remember that. 🤷‍♀️",
+        "target": "Tudo bem. Mas o NHS tem seu próprio ritmo. Lembre-se disso. 🤷‍♀️"
+      },
+      "[\"priyaSharma\",\"hostileWarning\"]": {
+        "source": "I'm worried we're not building for how healthcare actually works.",
+        "target": "Receio que não estejamos desenvolvendo o negócio de acordo com o funcionamento real da saúde."
+      },
+      "[\"thomasEriksson\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Start pharma partnership conversations now.",
+        "target": "Comece agora as conversas sobre parcerias farmacêuticas."
+      },
+      "[\"thomasEriksson\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "These deals take 18 months minimum.",
+        "target": "Esses acordos levam no mínimo 18 meses."
+      },
+      "[\"thomasEriksson\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Your regulatory story is your marketing story.",
+        "target": "Sua trajetória regulatória é sua mensagem de marketing."
+      },
+      "[\"thomasEriksson\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Pharma buyers care about approval paths.",
+        "target": "Os compradores das farmacêuticas se importam com os caminhos para aprovação."
+      },
+      "[\"thomasEriksson\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "This is your competitive moat. Protect the IP.",
+        "target": "Esta é sua barreira contra a concorrência. Proteja a propriedade intelectual."
+      },
+      "[\"thomasEriksson\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "I've seen founders give away their crown jewels.",
+        "target": "Já vi fundadores abrirem mão de seus ativos mais valiosos."
+      },
+      "[\"thomasEriksson\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Consider a collaboration with Karolinska or similar.",
+        "target": "Considere uma colaboração com o Karolinska ou uma instituição semelhante."
+      },
+      "[\"thomasEriksson\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "European research networks open doors.",
+        "target": "As redes europeias de pesquisa abrem portas."
+      },
+      "[\"thomasEriksson\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Build with FDA and EMA in mind from day one.",
+        "target": "Desenvolva pensando na FDA e na EMA desde o primeiro dia."
+      },
+      "[\"thomasEriksson\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Retrofitting compliance is expensive.",
+        "target": "Adaptar depois para atender às exigências regulatórias custa caro."
+      },
+      "[\"thomasEriksson\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Documentation quality matters more than you think.",
+        "target": "A qualidade da documentação importa mais do que você imagina."
+      },
+      "[\"thomasEriksson\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Regulators will read everything.",
+        "target": "Os reguladores vão ler tudo."
+      },
+      "[\"thomasEriksson\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Hire someone with regulatory affairs experience.",
+        "target": "Contrate alguém com experiência em assuntos regulatórios."
+      },
+      "[\"thomasEriksson\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Worth their weight in gold.",
+        "target": "Vale seu peso em ouro."
+      },
+      "[\"thomasEriksson\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Your science team needs BD instincts too.",
+        "target": "Sua equipe científica também precisa de visão para desenvolver negócios."
+      },
+      "[\"thomasEriksson\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Pharma partnerships are relationship-driven.",
+        "target": "As parcerias farmacêuticas dependem de relacionamentos."
+      },
+      "[\"thomasEriksson\",\"followedReaction\"]": {
+        "source": "Excellent. That's the Scandinavian way - thorough and strategic. 🎯",
+        "target": "Excelente. Esse é o jeito escandinavo — minucioso e estratégico. 🎯"
+      },
+      "[\"thomasEriksson\",\"ignoredReaction\"]": {
+        "source": "Your call. But I've done this dance with big pharma before. 🤨",
+        "target": "Você decide. Mas já passei por essas negociações com grandes farmacêuticas. 🤨"
+      },
+      "[\"thomasEriksson\",\"hostileWarning\"]": {
+        "source": "We're not building the regulatory foundation this needs.",
+        "target": "Não estamos construindo a base regulatória necessária para isso."
       }
     }
   }
