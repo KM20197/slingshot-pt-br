@@ -271,7 +271,15 @@ Critérios objetivos:
 
 Para inspeção manual, abra `index.html` e `professor.html` por servidor local e por `file://`. Percorra uma partida de início a fim, force um cenário de crise, salve/retome e gere um resultado. A abertura por `file://` é requisito, não uma garantia já comprovada por testes automatizados.
 
-## 10. Limites e condição de conclusão
+## 10. Uso pelo OpenCode e mapa operacional
+
+`AGENTS.md` na raiz é o ponto de entrada do OpenCode. Ele encaminha para três roteiros curtos em `docs/agent-routes/`, registra o limite de três ciclos do Gauntlet e exige revisão independente. `check_project.ps1` é o verificador executável: confere o hash da fonte, executa build e testes e valida o diff. O prompt para iniciar outra sessão e o mapa dos caminhos estão em `docs/PROMPT_OPENCODE.md`.
+
+A pasta `C:\Users\Administrador\Downloads\Stingshot` contém anexos e uma configuração antiga do OpenCode, mas o código brasileiro editável e o Git estão em `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`. O código original usado pelo build já está em `source/index.original.html`, dentro do checkout. Um agente que só vê o GitHub não acessa automaticamente os anexos da pasta Downloads. A configuração global de provedor do OpenCode permanece fora do repositório; nunca copie credenciais para o GitHub.
+
+O Gauntlet registrado neste projeto é um processo de revisão, não uma instalação comprovada da skill externa Claudex Loop. CodeAF, JEV e a integração RTK com OpenCode não devem ser presumidos ativos apenas porque são mencionados em um prompt. O verificador local e o subagente somente leitura podem ser usados sem esses serviços, depois de confirmar as permissões efetivas do revisor.
+
+## 11. Limites e condição de conclusão
 
 O projeto ainda não está pronto para aplicação em turma. A tradução dos primeiros blocos e os módulos brasileiros isolados não substituem: adaptação dos empreendimentos, fomento completo, remoção das rotas societárias remanescentes, calibração monetária, tradução de toda a interface, teste integral online/offline e revisão final.
 
