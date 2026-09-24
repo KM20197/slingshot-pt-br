@@ -15117,26 +15117,26 @@ const FUNDER_ADVICE = {
     preferredChoice: 2,
     advice: {
       marketing: [
-        { text: "OEMs don't respond to marketing. They respond to test results.", reason: "Prove it works, then they'll listen." },
-        { text: "Focus on trade shows, not consumer campaigns.", reason: "Your buyers are at IAA, not on Instagram." }
+        { text: "As montadoras não respondem a marketing. Elas respondem a resultados de testes.", reason: "Prove que funciona, e então eles escutarão." },
+        { text: "Foque em feiras de negócios, não em campanhas para o consumidor final.", reason: "Seus compradores estão na IAA, não no Instagram." }
       ],
       research: [
-        { text: "Safety margins must be impeccable.", reason: "One incident will destroy the company." },
-        { text: "Have you stress-tested the edge cases?", reason: "Autonomous systems fail in unexpected ways." }
+        { text: "As margens de segurança devem ser impecáveis.", reason: "Um único incidente destruirá a empresa." },
+        { text: "Você testou o estresse dos casos extremos?", reason: "Sistemas autônomos falham de formas inesperadas." }
       ],
       dev: [
-        { text: "German engineering standards exist for a reason.", reason: "Cut corners and people could die." },
-        { text: "Test protocols must be comprehensive.", reason: "I've reviewed OEM requirements. They're brutal." },
-        { text: "Hardware integration is where most fail.", reason: "Software people underestimate this constantly." }
+        { text: "Os padrões da engenharia alemã existem por um motivo.", reason: "Tome atalhos e pessoas podem morrer." },
+        { text: "Os protocolos de teste devem ser abrangentes.", reason: "Eu revisei os requisitos das montadoras. Eles são brutais." },
+        { text: "A integração de hardware é onde a maioria falha.", reason: "As pessoas de software subestimam isso constantemente." }
       ],
       hr: [
-        { text: "Hire engineers, not computer scientists.", reason: "Systems thinking beats algorithmic thinking in automotive." },
-        { text: "Someone with automotive background is essential.", reason: "It's a different world." }
+        { text: "Contrate engenheiros, não cientistas da computação.", reason: "O pensamento sistêmico supera o pensamento algorítmico no setor automotivo." },
+        { text: "Alguém com experiência no setor automotivo é essencial.", reason: "É um mundo diferente." }
       ]
     },
-    followedReaction: "Gut. That is the correct approach. 🇩🇪",
-    ignoredReaction: "Fine. But when BMW asks for test protocols, don't say I didn't warn you. 😐",
-    hostileWarning: "The engineering rigour here concerns me deeply.",
+    followedReaction: "Gut. Essa é a abordagem correta. 🇩🇪",
+    ignoredReaction: "Tudo bem. Mas quando a BMW pedir protocolos de teste, não diga que eu não avisei. 😐",
+    hostileWarning: "O rigor da engenharia aqui me preocupa profundamente.",
     hostileEffect: { dev: -3 }
   },
 
@@ -15146,25 +15146,25 @@ const FUNDER_ADVICE = {
     preferredChoice: 0,
     advice: {
       marketing: [
-        { text: "Talk to fleet operators. They're the real customers.", reason: "End users don't buy autonomous vehicles. Operators do." },
-        { text: "Unit economics matter more than tech specs.", reason: "Operators think in cost per mile." }
+        { text: "Fale com operadores de frotas. Eles são os verdadeiros clientes.", reason: "Usuários finais não compram veículos autônomos. Operadores compram." },
+        { text: "A economia unitária importa mais do que especificações técnicas.", reason: "Operadores pensam em custo por quilômetro." }
       ],
       research: [
-        { text: "How does this translate to operational efficiency?", reason: "Cool tech that costs more to operate is worthless." },
-        { text: "Real-world conditions are messier than simulations.", reason: "I've seen that gap close companies." }
+        { text: "Como isso se traduz em eficiência operacional?", reason: "Tecnologia legal que custa mais para operar não tem valor." },
+        { text: "As condições do mundo real são mais caóticas do que as simulações.", reason: "Já vi essa lacuna fechar empresas." }
       ],
       dev: [
-        { text: "Downtime is the enemy. Reliability beats features.", reason: "A fleet that's 90% working loses money." },
-        { text: "Think about maintenance from day one.", reason: "Who fixes these things in the field?" }
+        { text: "O tempo de inatividade é o inimigo. A confiabilidade supera as funcionalidades.", reason: "Uma frota com 90% de funcionamento perde dinheiro." },
+        { text: "Pense na manutenção desde o primeiro dia.", reason: "Quem conserta essas coisas em campo?" }
       ],
       hr: [
-        { text: "You need ops people, not just engineers.", reason: "Someone has to run the fleet." },
-        { text: "Driver economics matter even for autonomous.", reason: "The transition period is longer than people think." }
+        { text: "Você precisa de pessoas de operações, não apenas engenheiros.", reason: "Alguém tem que administrar a frota." },
+        { text: "A economia do motorista importa mesmo para veículos autônomos.", reason: "O período de transição é mais longo do que as pessoas pensam." }
       ]
     },
-    followedReaction: "That's the operator mindset. Good. 💪",
-    ignoredReaction: "Okay. But remember - the tech doesn't matter if the business model breaks. 😅",
-    hostileWarning: "We're building tech nobody can operate profitably.",
+    followedReaction: "Essa é a mentalidade do operador. Muito bem. 💪",
+    ignoredReaction: "Certo. Mas lembre-se: a tecnologia não importa se o modelo de negócios quebrar. 😅",
+    hostileWarning: "Estamos construindo tecnologia que ninguém consegue operar com lucro.",
     hostileEffect: { mkt: -2, hr: -1 }
   },
 
@@ -15174,26 +15174,26 @@ const FUNDER_ADVICE = {
     preferredChoice: 1,
     advice: {
       marketing: [
-        { text: "Conference papers will reach your customers better than ads.", reason: "Technical buyers read arxiv, not AdWords." },
-        { text: "Publish your benchmarks. Let the work speak.", reason: "Credibility in this field is earned, not bought." }
+        { text: "Artigos em conferências alcançarão seus clientes melhor do que anúncios.", reason: "Compradores técnicos leem arXiv, não AdWords." },
+        { text: "Publique seus benchmarks. Deixe o trabalho falar por si.", reason: "A credibilidade nesta área é conquistada, não comprada." }
       ],
       research: [
-        { text: "The perception stack is where you win or lose.", reason: "Everything downstream depends on sensing accuracy." },
-        { text: "I can connect you with the Bristol robotics lab.", reason: "They're working on exactly this problem." },
-        { text: "Edge cases in perception are infinite. Plan for continuous improvement.", reason: "You'll never be 'done' with R&D." }
+        { text: "A pilha de percepção é onde você ganha ou perde.", reason: "Tudo o que vem depois depende da precisão do sensoriamento." },
+        { text: "Posso colocar você em contato com o laboratório de robótica de Bristol.", reason: "Eles estão trabalhando exatamente nesse problema." },
+        { text: "Os casos extremos na percepção são infinitos. Planeje a melhoria contínua.", reason: "Você nunca terá 'terminado' a P&D." }
       ],
       dev: [
-        { text: "Sensor fusion is harder than it looks.", reason: "The theory is elegant. Reality is messy." },
-        { text: "Simulation-to-real gap will surprise you.", reason: "Every team underestimates this." }
+        { text: "A fusão de sensores é mais difícil do que parece.", reason: "A teoria é elegante. A realidade é caótica." },
+        { text: "A lacuna entre simulação e realidade vai surpreender você.", reason: "Todas as equipes subestimam isso." }
       ],
       hr: [
-        { text: "Robotics PhDs are hard to find. Start recruiting now.", reason: "The talent pool is tiny." },
-        { text: "Consider secondments from university labs.", reason: "Best way to evaluate research talent." }
+        { text: "Doutores em robótica são difíceis de encontrar. Comece a recrutar agora.", reason: "O grupo de talentos é minúsculo." },
+        { text: "Considere destacar pesquisadores de laboratórios universitários.", reason: "A melhor forma de avaliar o talento em pesquisa." }
       ]
     },
-    followedReaction: "Good. That's rigorous thinking. 🔬",
-    ignoredReaction: "Your choice. But perception errors cascade. Remember that. 🤔",
-    hostileWarning: "I'm worried we're prioritising speed over safety margins.",
+    followedReaction: "Muito bem. É um raciocínio rigoroso. 🔬",
+    ignoredReaction: "A escolha é sua. Mas os erros de percepção ocorrem em cascata. Lembre-se disso. 🤔",
+    hostileWarning: "Estou preocupada que estejamos priorizando a velocidade em vez das margens de segurança.",
     hostileEffect: { sci: -3 }
   },
 
@@ -15204,26 +15204,26 @@ const FUNDER_ADVICE = {
     preferredChoice: 0,
     advice: {
       marketing: [
-        { text: "I can get you 15 minutes with every FTSE 100 CIO.", reason: "But only once. Make it count." },
-        { text: "Enterprise sales is relationships, not features.", reason: "People buy from people they trust." },
-        { text: "Your sales process needs work.", reason: "I've reviewed hundreds. Yours has gaps." }
+        { text: "Posso conseguir a você 15 minutos com qualquer CIO do FTSE 100.", reason: "Mas apenas uma vez. Faça valer a pena." },
+        { text: "Vendas corporativas são relacionamentos, não funcionalidades.", reason: "As pessoas compram de quem confiam." },
+        { text: "Seu processo de vendas precisa melhorar.", reason: "Eu analisei centenas. O seu tem falhas." }
       ],
       research: [
-        { text: "Does this help close deals?", reason: "Research without commercial application is a hobby." },
-        { text: "Can you turn this into a case study?", reason: "Proof points sell." }
+        { text: "Isso ajuda a fechar negócios?", reason: "Pesquisa sem aplicação comercial é um passatempo." },
+        { text: "Você consegue transformar isso em um estudo de caso?", reason: "Evidências vendem." }
       ],
       dev: [
-        { text: "Enterprise integration requirements will surprise you.", reason: "SSO, compliance, audit logs - it adds up." },
-        { text: "Your product needs to fit into existing workflows.", reason: "Buyers hate change. Make it easy." }
+        { text: "Os requisitos de integração corporativa vão surpreender você.", reason: "SSO, compliance, registros de auditoria - tudo isso se soma." },
+        { text: "Seu produto precisa se encaixar nos fluxos de trabalho existentes.", reason: "Os compradores odeiam mudanças. Facilite as coisas." }
       ],
       hr: [
-        { text: "You need salespeople. Yesterday.", reason: "Pipeline doesn't build itself." },
-        { text: "Solution engineers, not just developers.", reason: "Enterprise buyers need hand-holding." }
+        { text: "Você precisa de equipe de vendas. Para ontem.", reason: "O pipeline de vendas não se constrói sozinho." },
+        { text: "Engenheiros de soluções, não apenas desenvolvedores.", reason: "Compradores corporativos precisam de acompanhamento." }
       ]
     },
-    followedReaction: "That's how deals get done. Well played. 💼",
-    ignoredReaction: "Alright. But don't blame me when enterprise deals stall. 🤷‍♀️",
-    hostileWarning: "The sales fundamentals are missing here.",
+    followedReaction: "É assim que os negócios são fechados. Muito bem. 🤝",
+    ignoredReaction: "Tudo bem. Mas não me culpe quando os negócios corporativos estagnarem. 📉",
+    hostileWarning: "Faltam os fundamentos de vendas aqui.",
     hostileEffect: { mkt: -3 }
   },
 
@@ -15233,27 +15233,27 @@ const FUNDER_ADVICE = {
     preferredChoice: 1,
     advice: {
       marketing: [
-        { text: "Product-led growth is the playbook here.", reason: "Let the product sell itself." },
-        { text: "Your pricing page is confusing.", reason: "I've A/B tested hundreds. Trust me on this." },
-        { text: "Free tier that converts > enterprise sales at this stage.", reason: "Build the bottoms-up motion first." }
+        { text: "O crescimento impulsionado pelo produto é o manual aqui.", reason: "Deixe o produto vender a si mesmo." },
+        { text: "A sua página de preços é confusa.", reason: "Fiz testes A/B em centenas delas. Confie em mim nisso." },
+        { text: "Plano gratuito que converte > vendas corporativas nesta fase.", reason: "Construa o movimento de baixo para cima primeiro." }
       ],
       research: [
-        { text: "How does this improve the user experience?", reason: "Features without UX impact don't move metrics." },
-        { text: "What does usage data tell you?", reason: "Instrument everything." }
+        { text: "Como isso melhora a experiência do usuário?", reason: "Funcionalidades sem impacto na experiência do usuário não movem as métricas." },
+        { text: "O que os dados de uso dizem a você?", reason: "Implemente instrumentação em tudo." }
       ],
       dev: [
-        { text: "Developer experience is product experience.", reason: "Make integration trivial." },
-        { text: "API design will define your platform value.", reason: "I've seen this make or break companies." },
-        { text: "Self-serve onboarding is non-negotiable.", reason: "If you need to demo it, you'll never scale." }
+        { text: "A experiência do desenvolvedor é a experiência do produto.", reason: "Torne a integração trivial." },
+        { text: "O design da API definirá o valor da sua plataforma.", reason: "Já vi isso construir ou quebrar empresas." },
+        { text: "A integração em formato de autosserviço é inegociável.", reason: "Se você precisa fazer uma demonstração, nunca ganhará escala." }
       ],
       hr: [
-        { text: "Product managers who understand PLG are rare.", reason: "Worth paying up for." },
-        { text: "Cross-functional pods, not silos.", reason: "That's how we scaled." }
+        { text: "Gerentes de produto que entendem crescimento impulsionado pelo produto são raros.", reason: "Vale a pena pagar a mais por isso." },
+        { text: "Equipes multifuncionais, não silos.", reason: "Foi assim que ganhamos escala." }
       ]
     },
-    followedReaction: "That's the PLG mindset. Love it. 🚀",
-    ignoredReaction: "Okay. But remember - product is the best sales team. 🤨",
-    hostileWarning: "We're building without understanding how users actually adopt.",
+    followedReaction: "Essa é a mentalidade do crescimento impulsionado pelo produto. Adorei. 🚀",
+    ignoredReaction: "Certo. Mas lembre-se: o produto é a melhor equipe de vendas. 🤷",
+    hostileWarning: "Estamos construindo sem entender como os usuários realmente adotam.",
     hostileEffect: { dev: -2, mkt: -1 }
   },
 

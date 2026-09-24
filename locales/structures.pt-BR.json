@@ -12047,6 +12047,426 @@
       "[\"thomasEriksson\",\"hostileWarning\"]": {
         "source": "We're not building the regulatory foundation this needs.",
         "target": "Não estamos construindo a base regulatória necessária para isso."
+      },
+      "[\"klausMuller\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "OEMs don't respond to marketing. They respond to test results.",
+        "target": "As montadoras não respondem a marketing. Elas respondem a resultados de testes."
+      },
+      "[\"klausMuller\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Prove it works, then they'll listen.",
+        "target": "Prove que funciona, e então eles escutarão."
+      },
+      "[\"klausMuller\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Focus on trade shows, not consumer campaigns.",
+        "target": "Foque em feiras de negócios, não em campanhas para o consumidor final."
+      },
+      "[\"klausMuller\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Your buyers are at IAA, not on Instagram.",
+        "target": "Seus compradores estão na IAA, não no Instagram."
+      },
+      "[\"klausMuller\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Safety margins must be impeccable.",
+        "target": "As margens de segurança devem ser impecáveis."
+      },
+      "[\"klausMuller\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "One incident will destroy the company.",
+        "target": "Um único incidente destruirá a empresa."
+      },
+      "[\"klausMuller\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Have you stress-tested the edge cases?",
+        "target": "Você testou o estresse dos casos extremos?"
+      },
+      "[\"klausMuller\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Autonomous systems fail in unexpected ways.",
+        "target": "Sistemas autônomos falham de formas inesperadas."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "German engineering standards exist for a reason.",
+        "target": "Os padrões da engenharia alemã existem por um motivo."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Cut corners and people could die.",
+        "target": "Tome atalhos e pessoas podem morrer."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Test protocols must be comprehensive.",
+        "target": "Os protocolos de teste devem ser abrangentes."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "I've reviewed OEM requirements. They're brutal.",
+        "target": "Eu revisei os requisitos das montadoras. Eles são brutais."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",2,\"text\"]": {
+        "source": "Hardware integration is where most fail.",
+        "target": "A integração de hardware é onde a maioria falha."
+      },
+      "[\"klausMuller\",\"advice\",\"dev\",2,\"reason\"]": {
+        "source": "Software people underestimate this constantly.",
+        "target": "As pessoas de software subestimam isso constantemente."
+      },
+      "[\"klausMuller\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Hire engineers, not computer scientists.",
+        "target": "Contrate engenheiros, não cientistas da computação."
+      },
+      "[\"klausMuller\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Systems thinking beats algorithmic thinking in automotive.",
+        "target": "O pensamento sistêmico supera o pensamento algorítmico no setor automotivo."
+      },
+      "[\"klausMuller\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Someone with automotive background is essential.",
+        "target": "Alguém com experiência no setor automotivo é essencial."
+      },
+      "[\"klausMuller\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "It's a different world.",
+        "target": "É um mundo diferente."
+      },
+      "[\"klausMuller\",\"followedReaction\"]": {
+        "source": "Gut. That is the correct approach. 🇩🇪",
+        "target": "Gut. Essa é a abordagem correta. 🇩🇪"
+      },
+      "[\"klausMuller\",\"ignoredReaction\"]": {
+        "source": "Fine. But when BMW asks for test protocols, don't say I didn't warn you. 😐",
+        "target": "Tudo bem. Mas quando a BMW pedir protocolos de teste, não diga que eu não avisei. 😐"
+      },
+      "[\"klausMuller\",\"hostileWarning\"]": {
+        "source": "The engineering rigour here concerns me deeply.",
+        "target": "O rigor da engenharia aqui me preocupa profundamente."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Talk to fleet operators. They're the real customers.",
+        "target": "Fale com operadores de frotas. Eles são os verdadeiros clientes."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "End users don't buy autonomous vehicles. Operators do.",
+        "target": "Usuários finais não compram veículos autônomos. Operadores compram."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Unit economics matter more than tech specs.",
+        "target": "A economia unitária importa mais do que especificações técnicas."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Operators think in cost per mile.",
+        "target": "Operadores pensam em custo por quilômetro."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "How does this translate to operational efficiency?",
+        "target": "Como isso se traduz em eficiência operacional?"
+      },
+      "[\"davidAdeyemi\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Cool tech that costs more to operate is worthless.",
+        "target": "Tecnologia legal que custa mais para operar não tem valor."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Real-world conditions are messier than simulations.",
+        "target": "As condições do mundo real são mais caóticas do que as simulações."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "I've seen that gap close companies.",
+        "target": "Já vi essa lacuna fechar empresas."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Downtime is the enemy. Reliability beats features.",
+        "target": "O tempo de inatividade é o inimigo. A confiabilidade supera as funcionalidades."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "A fleet that's 90% working loses money.",
+        "target": "Uma frota com 90% de funcionamento perde dinheiro."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Think about maintenance from day one.",
+        "target": "Pense na manutenção desde o primeiro dia."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Who fixes these things in the field?",
+        "target": "Quem conserta essas coisas em campo?"
+      },
+      "[\"davidAdeyemi\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "You need ops people, not just engineers.",
+        "target": "Você precisa de pessoas de operações, não apenas engenheiros."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Someone has to run the fleet.",
+        "target": "Alguém tem que administrar a frota."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Driver economics matter even for autonomous.",
+        "target": "A economia do motorista importa mesmo para veículos autônomos."
+      },
+      "[\"davidAdeyemi\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "The transition period is longer than people think.",
+        "target": "O período de transição é mais longo do que as pessoas pensam."
+      },
+      "[\"davidAdeyemi\",\"followedReaction\"]": {
+        "source": "That's the operator mindset. Good. 💪",
+        "target": "Essa é a mentalidade do operador. Muito bem. 💪"
+      },
+      "[\"davidAdeyemi\",\"ignoredReaction\"]": {
+        "source": "Okay. But remember - the tech doesn't matter if the business model breaks. 😅",
+        "target": "Certo. Mas lembre-se: a tecnologia não importa se o modelo de negócios quebrar. 😅"
+      },
+      "[\"davidAdeyemi\",\"hostileWarning\"]": {
+        "source": "We're building tech nobody can operate profitably.",
+        "target": "Estamos construindo tecnologia que ninguém consegue operar com lucro."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Conference papers will reach your customers better than ads.",
+        "target": "Artigos em conferências alcançarão seus clientes melhor do que anúncios."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Technical buyers read arxiv, not AdWords.",
+        "target": "Compradores técnicos leem arXiv, não AdWords."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Publish your benchmarks. Let the work speak.",
+        "target": "Publique seus benchmarks. Deixe o trabalho falar por si."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Credibility in this field is earned, not bought.",
+        "target": "A credibilidade nesta área é conquistada, não comprada."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "The perception stack is where you win or lose.",
+        "target": "A pilha de percepção é onde você ganha ou perde."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Everything downstream depends on sensing accuracy.",
+        "target": "Tudo o que vem depois depende da precisão do sensoriamento."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "I can connect you with the Bristol robotics lab.",
+        "target": "Posso colocar você em contato com o laboratório de robótica de Bristol."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "They're working on exactly this problem.",
+        "target": "Eles estão trabalhando exatamente nesse problema."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",2,\"text\"]": {
+        "source": "Edge cases in perception are infinite. Plan for continuous improvement.",
+        "target": "Os casos extremos na percepção são infinitos. Planeje a melhoria contínua."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"research\",2,\"reason\"]": {
+        "source": "You'll never be 'done' with R&D.",
+        "target": "Você nunca terá 'terminado' a P&D."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Sensor fusion is harder than it looks.",
+        "target": "A fusão de sensores é mais difícil do que parece."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "The theory is elegant. Reality is messy.",
+        "target": "A teoria é elegante. A realidade é caótica."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Simulation-to-real gap will surprise you.",
+        "target": "A lacuna entre simulação e realidade vai surpreender você."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Every team underestimates this.",
+        "target": "Todas as equipes subestimam isso."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Robotics PhDs are hard to find. Start recruiting now.",
+        "target": "Doutores em robótica são difíceis de encontrar. Comece a recrutar agora."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "The talent pool is tiny.",
+        "target": "O grupo de talentos é minúsculo."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Consider secondments from university labs.",
+        "target": "Considere destacar pesquisadores de laboratórios universitários."
+      },
+      "[\"ananyaKrishnamurthy\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Best way to evaluate research talent.",
+        "target": "A melhor forma de avaliar o talento em pesquisa."
+      },
+      "[\"ananyaKrishnamurthy\",\"followedReaction\"]": {
+        "source": "Good. That's rigorous thinking. 🔬",
+        "target": "Muito bem. É um raciocínio rigoroso. 🔬"
+      },
+      "[\"ananyaKrishnamurthy\",\"ignoredReaction\"]": {
+        "source": "Your choice. But perception errors cascade. Remember that. 🤔",
+        "target": "A escolha é sua. Mas os erros de percepção ocorrem em cascata. Lembre-se disso. 🤔"
+      },
+      "[\"ananyaKrishnamurthy\",\"hostileWarning\"]": {
+        "source": "I'm worried we're prioritising speed over safety margins.",
+        "target": "Estou preocupada que estejamos priorizando a velocidade em vez das margens de segurança."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "I can get you 15 minutes with every FTSE 100 CIO.",
+        "target": "Posso conseguir a você 15 minutos com qualquer CIO do FTSE 100."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "But only once. Make it count.",
+        "target": "Mas apenas uma vez. Faça valer a pena."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Enterprise sales is relationships, not features.",
+        "target": "Vendas corporativas são relacionamentos, não funcionalidades."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "People buy from people they trust.",
+        "target": "As pessoas compram de quem confiam."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",2,\"text\"]": {
+        "source": "Your sales process needs work.",
+        "target": "Seu processo de vendas precisa melhorar."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"marketing\",2,\"reason\"]": {
+        "source": "I've reviewed hundreds. Yours has gaps.",
+        "target": "Eu analisei centenas. O seu tem falhas."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Does this help close deals?",
+        "target": "Isso ajuda a fechar negócios?"
+      },
+      "[\"patriciaHoffman\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Research without commercial application is a hobby.",
+        "target": "Pesquisa sem aplicação comercial é um passatempo."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Can you turn this into a case study?",
+        "target": "Você consegue transformar isso em um estudo de caso?"
+      },
+      "[\"patriciaHoffman\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Proof points sell.",
+        "target": "Evidências vendem."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Enterprise integration requirements will surprise you.",
+        "target": "Os requisitos de integração corporativa vão surpreender você."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "SSO, compliance, audit logs - it adds up.",
+        "target": "SSO, compliance, registros de auditoria - tudo isso se soma."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Your product needs to fit into existing workflows.",
+        "target": "Seu produto precisa se encaixar nos fluxos de trabalho existentes."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Buyers hate change. Make it easy.",
+        "target": "Os compradores odeiam mudanças. Facilite as coisas."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "You need salespeople. Yesterday.",
+        "target": "Você precisa de equipe de vendas. Para ontem."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Pipeline doesn't build itself.",
+        "target": "O pipeline de vendas não se constrói sozinho."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Solution engineers, not just developers.",
+        "target": "Engenheiros de soluções, não apenas desenvolvedores."
+      },
+      "[\"patriciaHoffman\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Enterprise buyers need hand-holding.",
+        "target": "Compradores corporativos precisam de acompanhamento."
+      },
+      "[\"patriciaHoffman\",\"followedReaction\"]": {
+        "source": "That's how deals get done. Well played. 💼",
+        "target": "É assim que os negócios são fechados. Muito bem. 🤝"
+      },
+      "[\"patriciaHoffman\",\"ignoredReaction\"]": {
+        "source": "Alright. But don't blame me when enterprise deals stall. 🤷‍♀️",
+        "target": "Tudo bem. Mas não me culpe quando os negócios corporativos estagnarem. 📉"
+      },
+      "[\"patriciaHoffman\",\"hostileWarning\"]": {
+        "source": "The sales fundamentals are missing here.",
+        "target": "Faltam os fundamentos de vendas aqui."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Product-led growth is the playbook here.",
+        "target": "O crescimento impulsionado pelo produto é o manual aqui."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Let the product sell itself.",
+        "target": "Deixe o produto vender a si mesmo."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Your pricing page is confusing.",
+        "target": "A sua página de preços é confusa."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "I've A/B tested hundreds. Trust me on this.",
+        "target": "Fiz testes A/B em centenas delas. Confie em mim nisso."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",2,\"text\"]": {
+        "source": "Free tier that converts > enterprise sales at this stage.",
+        "target": "Plano gratuito que converte > vendas corporativas nesta fase."
+      },
+      "[\"amitPatel\",\"advice\",\"marketing\",2,\"reason\"]": {
+        "source": "Build the bottoms-up motion first.",
+        "target": "Construa o movimento de baixo para cima primeiro."
+      },
+      "[\"amitPatel\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "How does this improve the user experience?",
+        "target": "Como isso melhora a experiência do usuário?"
+      },
+      "[\"amitPatel\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Features without UX impact don't move metrics.",
+        "target": "Funcionalidades sem impacto na experiência do usuário não movem as métricas."
+      },
+      "[\"amitPatel\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "What does usage data tell you?",
+        "target": "O que os dados de uso dizem a você?"
+      },
+      "[\"amitPatel\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Instrument everything.",
+        "target": "Implemente instrumentação em tudo."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Developer experience is product experience.",
+        "target": "A experiência do desenvolvedor é a experiência do produto."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Make integration trivial.",
+        "target": "Torne a integração trivial."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "API design will define your platform value.",
+        "target": "O design da API definirá o valor da sua plataforma."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "I've seen this make or break companies.",
+        "target": "Já vi isso construir ou quebrar empresas."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",2,\"text\"]": {
+        "source": "Self-serve onboarding is non-negotiable.",
+        "target": "A integração em formato de autosserviço é inegociável."
+      },
+      "[\"amitPatel\",\"advice\",\"dev\",2,\"reason\"]": {
+        "source": "If you need to demo it, you'll never scale.",
+        "target": "Se você precisa fazer uma demonstração, nunca ganhará escala."
+      },
+      "[\"amitPatel\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Product managers who understand PLG are rare.",
+        "target": "Gerentes de produto que entendem crescimento impulsionado pelo produto são raros."
+      },
+      "[\"amitPatel\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Worth paying up for.",
+        "target": "Vale a pena pagar a mais por isso."
+      },
+      "[\"amitPatel\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Cross-functional pods, not silos.",
+        "target": "Equipes multifuncionais, não silos."
+      },
+      "[\"amitPatel\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "That's how we scaled.",
+        "target": "Foi assim que ganhamos escala."
+      },
+      "[\"amitPatel\",\"followedReaction\"]": {
+        "source": "That's the PLG mindset. Love it. 🚀",
+        "target": "Essa é a mentalidade do crescimento impulsionado pelo produto. Adorei. 🚀"
+      },
+      "[\"amitPatel\",\"ignoredReaction\"]": {
+        "source": "Okay. But remember - product is the best sales team. 🤨",
+        "target": "Certo. Mas lembre-se: o produto é a melhor equipe de vendas. 🤷"
+      },
+      "[\"amitPatel\",\"hostileWarning\"]": {
+        "source": "We're building without understanding how users actually adopt.",
+        "target": "Estamos construindo sem entender como os usuários realmente adotam."
       }
     }
   }
