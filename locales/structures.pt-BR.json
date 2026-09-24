@@ -12366,11 +12366,11 @@
       },
       "[\"patriciaHoffman\",\"followedReaction\"]": {
         "source": "That's how deals get done. Well played. 💼",
-        "target": "É assim que os negócios são fechados. Muito bem. 🤝"
+        "target": "É assim que os negócios são fechados. Muito bem. 💼"
       },
       "[\"patriciaHoffman\",\"ignoredReaction\"]": {
         "source": "Alright. But don't blame me when enterprise deals stall. 🤷‍♀️",
-        "target": "Tudo bem. Mas não me culpe quando os negócios corporativos estagnarem. 📉"
+        "target": "Tudo bem. Mas não me culpe quando os negócios corporativos estagnarem. 🤷‍♀️"
       },
       "[\"patriciaHoffman\",\"hostileWarning\"]": {
         "source": "The sales fundamentals are missing here.",
@@ -12442,7 +12442,7 @@
       },
       "[\"amitPatel\",\"advice\",\"hr\",0,\"text\"]": {
         "source": "Product managers who understand PLG are rare.",
-        "target": "Gerentes de produto que entendem crescimento impulsionado pelo produto são raros."
+        "target": "Gerentes de produto que entendem crescimento impulsionado pelo produto (PLG) são raros."
       },
       "[\"amitPatel\",\"advice\",\"hr\",0,\"reason\"]": {
         "source": "Worth paying up for.",
@@ -12462,7 +12462,7 @@
       },
       "[\"amitPatel\",\"ignoredReaction\"]": {
         "source": "Okay. But remember - product is the best sales team. 🤨",
-        "target": "Certo. Mas lembre-se: o produto é a melhor equipe de vendas. 🤷"
+        "target": "Certo. Mas lembre-se: o produto é a melhor equipe de vendas. 🤨"
       },
       "[\"amitPatel\",\"hostileWarning\"]": {
         "source": "We're building without understanding how users actually adopt.",
