@@ -1,9 +1,9 @@
 # Handoff de continuidade — Slingshot Brasil
 
-Data de consolidação: 21/09/2026
+Data de consolidação: 25/09/2026 (P0 documental)
 Repositório público: `https://github.com/KM20197/slingshot-pt-br`
 Branch: `main`
-Commit de referência: `544a37a3c056e81271c028d3c7313d79cd11b28d`
+Commit de referência local: `b0b8aa3ac773ba388f608819970ffccde897d435`
 Diretório de trabalho: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`
 
 ## 1. Finalidade e pedido do usuário
@@ -73,14 +73,16 @@ O aluno conclui a partida, gera um arquivo `.txt` assinado com uma chave de turm
 
 O trabalho é feito diretamente no computador do usuário, dentro de `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`. O arquivo distribuível `index.html` é gerado localmente a partir de `source/index.original.html` e de catálogos explícitos. Depois de testes e revisão, as alterações são versionadas localmente e enviadas ao repositório público autorizado.
 
-Fluxo operacional atual:
+Fluxo operacional atual (Gemini orienta/revisa, executor local altera arquivos, usuário publica):
 
 1. editar somente arquivos da cópia brasileira, nunca `source/index.original.html`;
 2. regenerar o catálogo específico quando aplicável;
-3. executar `npm run verify` e `git diff --check`;
-4. realizar revisão independente pelo Gauntlet;
+3. para código/dados, executar `.\check_project.ps1` e verificar o diff; para alteração exclusivamente documental, conferir coerência e `git diff --check`, sem build ou testes de aplicação;
+4. realizar revisão independente pelo Gauntlet para código/dados; documentos recebem revisão de coerência e evidências;
 5. registrar evidências em `docs/REVISAO_*.md`;
-6. criar commit e enviar para `origin/main` com as credenciais já configuradas no computador do usuário.
+6. após revisão, o usuário executa staging de caminhos explícitos, confere o diff preparado, cria commit e envia ao remoto por avanço normal, orientado pelo Gemini. O executor não faz staging, commit ou push neste fluxo.
+
+O Gemini recebe evidências selecionadas, sem acesso implícito ao computador. Não deve afirmar execução local nem aprovação sem material suficiente. O executor desta etapa foi o Codex em substituição pontual ao Antigravity. As permissões e configurações do OpenCode não se transferem automaticamente a outro executor. O plano de conclusão e o próximo lote proposto estão em `docs/PLANO_CONCLUSAO.md`.
 
 Não há necessidade de mexer no GitHub para testes locais. Não acessar, exportar ou alterar credenciais. Não fazer novas alterações remotas no Supabase sem uma autorização específica posterior. A aplicação gerada bloqueia conexões automáticas externas por política de conteúdo e não possui telemetria do original.
 
@@ -88,14 +90,11 @@ Comandos usuais:
 
 ```powershell
 Set-Location C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br
-npm ci
-npm run verify
+git rev-parse HEAD
+# Apenas para lotes de código/dados:
+.\check_project.ps1
 git diff --check
 git status --short
-
-$env:GIT_TERMINAL_PROMPT='0'
-$env:GCM_INTERACTIVE='never'
-git push origin main
 ```
 
 ## 4. Fonte imutável e arquitetura de build
@@ -153,7 +152,7 @@ Quando uma referência britânica interfere na lógica, preserve o dado interno 
 
 ### Estruturas já examinadas
 
-O catálogo corrente contém 22 estruturas registradas, 2.987 caminhos e 2.935 textos efetivamente alterados. Estão completas as 21 primeiras entradas de catálogo; `FUNDER_ADVICE` está parcial. Cobertura atual:
+O catálogo conferido em 25/09/2026 contém 22 estruturas registradas, 3.092 caminhos e 3.040 destinos diferentes da fonte. Essa comparação literal não equivale a uma nova auditoria da qualidade de todas as traduções. As 21 primeiras entradas têm cobertura ou classificação registrada nos lotes anteriores; `FUNDER_ADVICE` está parcial. Cobertura atual:
 
 | Estrutura | Situação |
 |---|---|
@@ -168,17 +167,19 @@ O catálogo corrente contém 22 estruturas registradas, 2.987 caminhos e 2.935 t
 | `FUNDERS` | 192 textos dos 32 perfis legados traduzidos |
 | `M2_FUNDERS`, `M3_FUNDERS` | 104 textos traduzidos; opções técnicas preservadas |
 | `M2_FUNDER_OPTIONS`, `M3_FUNDER_OPTIONS` | classificados como referências internas, sem texto a alterar |
-| `FUNDER_ADVICE` | 130 campos em seis perfis: `dragon`, `techAngel`, `operatorAngel`, `academicAngel`, `priyaSharma`, `thomasEriksson`; faltam 35 perfis com conselhos |
+| `FUNDER_ADVICE` | 235 campos em 11 perfis: `dragon`, `techAngel`, `operatorAngel`, `academicAngel`, `priyaSharma`, `thomasEriksson`, `klausMuller`, `davidAdeyemi`, `ananyaKrishnamurthy`, `patriciaHoffman`, `amitPatel`; `self` nulo e 30 perfis pendentes |
 
 Os lotes fechados possuem relatórios em `docs/REVISAO_*.md`. As avaliações independentes mais recentes terminaram em 9,3/10: rodadas posteriores, conselhos iniciais e conselhos de saúde. Esses resultados aprovam somente o lote correspondente, não a edição completa.
 
-O commit de referência atual é `544a37a` (`Translate healthcare investor advice with recommendation parity`). O checkout estava limpo e sincronizado com `origin/main` quando este handoff foi consolidado. Reconfira antes de editar: esse dado muda com novos commits.
+O lote Mobility acrescentou 105 campos e recebeu revisão independente 6,0 → 7,5 → 9,0 em três ciclos. A nota 10/10 anterior foi retirada; vale a aprovação 9,0 somente para esse lote. `docs/REVISAO_LOTE_MOBILITY.md` registra build de 19 scripts e 109/109 testes, com exit 0: evidência histórica, não reexecutada no P0 documental.
+
+HEAD local confirmado em 25/09/2026: `b0b8aa3ac773ba388f608819970ffccde897d435`. Na abertura do P0 já estavam modificados `AGENTS.md` e `.opencode/agents/gauntlet-reviewer.md`, e não rastreados `docs/agent-routes/models.md` e `HANDOFF_LLM_COMPLETO.md` na raiz. Permanecem fora deste lote. O remoto não foi consultado nesta etapa; não inferir sincronização atual pela referência local. Os dois documentos do P0 ainda precisam de revisão externa e publicação manual.
 
 ## 7. Trabalho pendente, em ordem segura
 
 ### Próxima unidade imediata
 
-Continuar `FUNDER_ADVICE` no perfil `klausMuller`, mantendo os seis perfis já catalogados. Há 35 perfis ainda pendentes nessa estrutura. O executor deve estender um gerador de catálogo ou criar um novo gerador limitado aos perfis seguintes; nunca sobrescrever as entradas existentes.
+Proposta para o próximo lote, ainda não implementada: continuar `FUNDER_ADVICE` com `marcusWebb` (21 campos), `michaelOkonkwo` (21) e `annaLindqvist` (19), total de 61 campos extraídos da fonte, nessa ordem. Preservar os 235 campos dos 11 perfis existentes; restam hoje 30 perfis. A delimitação e os critérios estão em `docs/PLANO_CONCLUSAO.md`. O roteiro `docs/agent-routes/translation.md` ainda cita `klausMuller` e 2.987 entradas: são referências antigas, mantidas intactas por estarem fora do escopo de edição deste P0.
 
 ### Estruturas posteriores ainda sem entrada de catálogo
 
@@ -193,7 +194,7 @@ Depois de concluir `FUNDER_ADVICE`, seguir a ordem do original:
 7. `UIEffects`, `PITCH_FIGURES`, `PITCH_SEATS`, `PITCH_CHAIR_COLOURS`, `PITCH_TROUSER_COLOURS`, `PITCH_TOP_COLOURS`, `PITCH_POSES`;
 8. os textos HTML, atributos, modais e mensagens de métodos que não pertençam às 71 estruturas.
 
-Há 49 estruturas sem entrada no catálogo e a parte remanescente de `FUNDER_ADVICE`. Essa contagem não equivale a 49 tarefas homogêneas: `CHAR_EVENTS`, `GENERIC_EVENTS` e os textos HTML exigem lotes menores por volume e risco.
+Há 49 estruturas sem entrada no catálogo e a parte remanescente de `FUNDER_ADVICE`. A lista acima é um roteiro resumido: inclui-se também o conjunto técnico `_PG_TONE_SKIN`, `_PG_ACCENT`, `_PG_EURO_M`, `_PG_EURO_F`, `_PG_DARKH`. A classificação completa das 49 estruturas consta no plano. Ausência de catálogo não significa texto a traduzir, e estas contagens não medem percentual de conclusão.
 
 ### Adaptações funcionais ainda necessárias
 
@@ -212,7 +213,7 @@ Cada lote tem no máximo três ciclos. O revisor não pode ser quem editou o lot
 
 ### Preparação
 
-1. verificar o SHA-256 do original e o estado limpo do checkout;
+1. verificar o SHA-256 do original e o estado do checkout; identificar e preservar alterações preexistentes, sem exigir limpeza por descarte;
 2. selecionar a próxima estrutura na ordem de `docs/INVENTARIO.md`;
 3. extrair caminhos e valores com Acorn;
 4. classificar cada item como interface, prosa, referência factual, nome próprio, chave técnica, dado numérico, SVG ou item sem tradução;
@@ -250,8 +251,8 @@ O avaliador pode executar esta sequência sem acessar serviços externos:
 Set-Location C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br
 Get-FileHash source\index.original.html -Algorithm SHA256
 git status --short
-npm ci
-npm run verify
+# Somente quando houver código/dados a validar:
+.\check_project.ps1
 git diff --check
 ```
 
@@ -283,6 +284,6 @@ O Gauntlet registrado neste projeto é um processo de revisão, não uma instala
 
 O projeto ainda não está pronto para aplicação em turma. A tradução dos primeiros blocos e os módulos brasileiros isolados não substituem: adaptação dos empreendimentos, fomento completo, remoção das rotas societárias remanescentes, calibração monetária, tradução de toda a interface, teste integral online/offline e revisão final.
 
-Só declarar a edição concluída quando houver catálogo completo ou exclusões justificadas, empreendimentos brasileiros aprovados, modalidades de fomento implementadas, todas as rotas de ações resolvidas, nota/exportação confirmadas em jogo completo, interface em português, auditoria de scripts/aspas/chaves, Gauntlet final e decisão explícita de hospedagem.
+Só declarar a edição concluída quando houver catálogo completo ou exclusões justificadas, empreendimentos brasileiros aprovados, modalidades de fomento implementadas, todas as rotas de ações resolvidas, nota/exportação confirmadas em jogo completo, interface em português, auditoria de scripts/aspas/chaves e Gauntlet final. A entrega local e a validação por servidor local não autorizam hospedagem pública; esta permanece uma decisão posterior, separada e explícita.
 
 O link opcional para o artefato público “Meet Ada” não integra a lógica da partida. Pode-se traduzir seus textos de uso, mas o jogo deve continuar jogável sem conta Claude e sem chave de API. Não inserir credenciais no HTML.
