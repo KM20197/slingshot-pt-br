@@ -1,6 +1,8 @@
 # Plano de conclusão — Slingshot Brasil
 
-Data: 25/09/2026. Estado: planejamento P0 documental entregue para revisão; implementação das próximas etapas não iniciada por este lote.
+Data: 25/09/2026. Planejamento P0 publicado em `4696c6301ae38345d1a1d23502ad06fb5f9f9d70`. As evidências da seção 1 descrevem o checkpoint histórico do P0.
+
+Atualização de execução: o lote P1 de três perfis da seção 6 foi implementado localmente, com 61 campos novos e 235 anteriores preservados. Agora há 3.153 caminhos catalogados, 296 campos de conselhos em 14 perfis e 27 perfis pendentes, começando por `eleniStavros`. A validação final passou 113/113 testes, com 19 scripts e exit 0; a revisão independente encerrou em 9,2/10, após nota inicial 8,8 por lacunas de evidência sanadas. Evidências e limites estão em `REVISAO_CONSELHOS_TRES_PERFIS_2026-09-25.md`. O lote P1 ainda não foi commitado/publicado; P2–P8 não foram implementados por esta atualização.
 
 ## 1. Base, evidências e limites
 
@@ -45,7 +47,7 @@ Classificação de planejamento baseada na forma e no conteúdo da fonte; não s
 | `VENUE_THEMES`, `SKIN_TONES`, `HAIR_TONES`, `OUTFITS`, `CONF_COSTS`, `CONF_SLOT_OFFSETS` | 6 | Estilos, paletas, custos e coordenadas; sem tradução direta. |
 | `UIEffects` | 1 | Métodos, classes e templates de apresentação. Rótulos recebidos devem ser tratados nos chamadores; revisar acessibilidade, sem traduzir classes ou código. |
 | `PITCH_FIGURES`, `PITCH_SEATS`, `PITCH_CHAIR_COLOURS`, `PITCH_TROUSER_COLOURS`, `PITCH_TOP_COLOURS`, `PITCH_POSES` | 6 | Configuração gráfica, posições e estados de pose; preservar identificadores. |
-| **Total** | **49** | Classificação documental; nenhum catálogo foi alterado. |
+| **Total** | **49** | Classificação documental feita no P0, sem alterar catálogos naquela etapa. |
 
 HTML, atributos acessíveis, modais e mensagens dentro de métodos exigem cobertura separada. Os 40.693 candidatos JavaScript e 2.486 candidatos HTML do inventário incluem material técnico e não representam uma lista pronta de traduções. Grandes literais, SVGs e templates precisam de classificação específica.
 
@@ -55,7 +57,7 @@ São requisitos aprovados: edição brasileira acadêmica, português integral, 
 
 Permanecem aprovados os parâmetros didáticos de dívida: banco 24% a.a./12 trimestres; familiares 6%/8; ONG elegível 8%/12; agiotagem fictícia 120%/4. Taxa trimestral efetiva, amortização constante, juros sem capitalização de atrasos, primeira parcela no trimestre seguinte e ajuste final de centavos. Conversão: uma unidade do motor corresponde a 100.000 centavos. Não reapresentar esses parâmetros como decisões em aberto nem como ofertas reais.
 
-São propostas deste plano: a divisão P1–P8, a sequência operacional, o lote de três perfis e os cenários adicionais de validação. Elas organizam a execução, sem aprovar novos empreendimentos, valores ou programas reais. Não há prazo estimado nem implantação automática.
+O P0 propôs a divisão P1–P8, a sequência operacional, o lote de três perfis e os cenários adicionais de validação. O lote de três perfis foi posteriormente autorizado e implementado; a organização do restante do plano não aprova novos empreendimentos, valores ou programas reais. Não há prazo estimado nem implantação automática.
 
 ## 4. Etapas, dependências e critérios
 
@@ -133,26 +135,26 @@ São propostas deste plano: a divisão P1–P8, a sequência operacional, o lote
 
 ## 5. Sequência proposta e decisões pendentes
 
-Após revisão deste P0, iniciar somente o lote P1 delimitado abaixo se solicitado. Preparar a matriz P2 antes de traduzir/adaptar em volume conteúdo que será substituído. Resolver P3 e depois calibrar P4. Consolidar P5/P6 sobre os fluxos estabilizados, executar P7 e fechar P8. Não executar dois agentes alterando o mesmo checkout em paralelo. Não inventar datas de conclusão.
+O P0 foi encerrado e o lote P1 delimitado abaixo foi implementado e aprovado localmente em continuação autorizada; resta conferir o pacote com o Gemini e concluir a publicação manual antes de outra implementação. A recomendação seguinte é preparar a matriz P2 antes de traduzir/adaptar em volume conteúdo que será substituído. Resolver P3 e depois calibrar P4. Consolidar P5/P6 sobre os fluxos estabilizados, executar P7 e fechar P8. Não executar dois agentes alterando o mesmo checkout em paralelo. Não inventar datas de conclusão.
 
-Decisões que devem ser solicitadas quando a etapa correspondente começar: matriz de empreendimentos; programas e elegibilidade de fomento; tratamento didático de finais societários removidos; valores/porte/dificuldade; ambientes e meta formal de acessibilidade; tratamento de saves antigos se necessário. Nenhuma dessas decisões bloqueia a entrega documental atual ou exige rediscutir a fórmula da nota e as taxas já aprovadas.
+Decisões que devem ser solicitadas quando a etapa correspondente começar: matriz de empreendimentos; programas e elegibilidade de fomento; tratamento didático de finais societários removidos; valores/porte/dificuldade; ambientes e meta formal de acessibilidade; tratamento de saves antigos se necessário. Nenhuma dessas decisões era necessária para encerrar P0 nem impede a avaliação do lote de tradução atual. Não rediscutir a fórmula da nota e as taxas já aprovadas.
 
-## 6. Próximo lote proposto — 61 campos de FUNDER_ADVICE
+## 6. Lote P1 delimitado no P0 — 61 campos de FUNDER_ADVICE
 
 Extração somente de leitura do AST original, na ordem de propriedades da fonte:
 
-| Perfil | Campos previstos |
+| Perfil | Campos conferidos e implementados |
 |---|---:|
 | `marcusWebb` | 21 |
 | `michaelOkonkwo` | 21 |
 | `annaLindqvist` | 19 |
 | **Total** | **61** |
 
-Por perfil, abranger `advice/<domínio>/<índice>/text`, `reason`, `followedReaction`, `ignoredReaction` e `hostileWarning`. Não traduzir nomes, IDs, preferências de domínio, escolhas ou penalidades. Preservar emojis, siglas e marcadores. O perfil seguinte, fora do lote, é `eleniStavros`. Se aceito e sem outra mudança de cobertura, o acumulado será 296 campos em 14 perfis, restando 27; são projeções, não resultados entregues.
+Por perfil, o lote abrange `advice/<domínio>/<índice>/text`, `reason`, `followedReaction`, `ignoredReaction` e `hostileWarning`. Nomes, IDs, preferências de domínio, escolhas e penalidades não foram alterados. Emojis e siglas foram preservados. O perfil seguinte, fora do lote, é `eleniStavros`. O acumulado local conferido após a implementação é de 296 campos em 14 perfis, restando 27; isso não conclui P1 nem significa publicação.
 
-Arquivos propostos, a confirmar sem sobrescrever trabalho existente: `locales/advice-next-three-targets.pt-BR.json`, `tools/catalogue-advice-next-three.cjs`, `tests/advice-next-three-translation.test.cjs`, atualização de `locales/structures.pt-BR.json`, `index.html` regenerado e relatório específico em `docs/`. O gerador deve preservar os 235 campos anteriores, rejeitar divergência da fonte e ordenar caminhos conforme o original. Testar cobertura, restauração/paridade e método real `pickFunderChoice` em cenários determinísticos. Executar `.\check_project.ps1` e revisão independente até três ciclos, mínimo 9/10 e nenhum bloqueador.
+Arquivos do lote: `locales/advice-next-three-targets.pt-BR.json`, `tools/catalogue-advice-next-three.cjs`, `tests/advice-next-three-translation.test.cjs`, atualização de `locales/structures.pt-BR.json`, `index.html` regenerado, `docs/REVISAO_CONSELHOS_TRES_PERFIS_2026-09-25.md` e os dois documentos de continuidade (`docs/HANDOFF_LLM_COMPLETO.md` e este plano). O gerador preserva os 235 campos anteriores, rejeita divergência da fonte e ordena caminhos conforme o original. Os critérios incluem cobertura, restauração/paridade, método real `pickFunderChoice` em cenários determinísticos, `.\check_project.ps1` e revisão independente em até três ciclos, mínimo 9/10 e nenhum bloqueador.
 
-Este escopo é somente uma proposta. Não houve tradução, criação de gerador ou teste, build, novo Gauntlet ou publicação neste P0.
+Esse era o escopo proposto no P0. Em continuação autorizada, os 61 campos foram traduzidos, o gerador e o teste foram criados e o HTML foi regenerado; revisão independente aprovada em 9,2/10. A implementação posterior ao P0 não altera seu histórico documental. A publicação deste lote P1 ainda não ocorreu.
 
 ## 7. Verificação e encaminhamento do P0
 
@@ -160,4 +162,4 @@ Comandos de leitura usados com conclusão bem-sucedida (exit code do processo 0)
 
 Validação documental realizada: `git diff --check -- docs/HANDOFF_LLM_COMPLETO.md docs/PLANO_CONCLUSAO.md` sem erros. Como o plano é novo e não rastreado, seu conteúdo, whitespace e quebra de linha final foram verificados diretamente com Node (exit 0); a soma das 18 linhas de classificação confirmou 49 estruturas. A comparação SHA-256 dos arquivos rastreados e não ignorados antes/depois mostrou somente os dois documentos autorizados alterados/adicionados, sem remoções. A revisão pelo Gemini deve receber o diff do handoff **e o plano completo**, não apenas `git diff`, que não inclui o arquivo novo antes do staging.
 
-Antes de publicar, o usuário deve isolar somente os dois documentos, revisar o diff preparado e executar `git diff --cached --check`; consultar o remoto e proceder apenas por avanço normal, sem push forçado. Não declarar aprovação independente ou publicação deste P0 até que ocorram.
+A publicação do P0, posterior às inspeções acima, foi concluída pelo usuário no commit `4696c6301ae38345d1a1d23502ad06fb5f9f9d70`, com confirmação pela rede registrada no encerramento daquele lote. Esse fluxo histórico dos dois documentos não deve ser repetido. Para o lote P1 atual, a publicação manual futura deve abranger exatamente os oito arquivos da seção 6, depois de sua aprovação, conferência do índice e do remoto. Não executar push forçado nem incluir trabalho preexistente fora do lote.

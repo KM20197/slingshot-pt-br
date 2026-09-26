@@ -1,9 +1,9 @@
 # Handoff de continuidade — Slingshot Brasil
 
-Data de consolidação: 25/09/2026 (P0 documental)
+Data de consolidação: 25/09/2026 (lote P1 de três perfis aprovado localmente, publicação pendente)
 Repositório público: `https://github.com/KM20197/slingshot-pt-br`
 Branch: `main`
-Commit de referência local: `b0b8aa3ac773ba388f608819970ffccde897d435`
+Commit de referência local: `4696c6301ae38345d1a1d23502ad06fb5f9f9d70` (P0; lote P1 ainda sem commit)
 Diretório de trabalho: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`
 
 ## 1. Finalidade e pedido do usuário
@@ -82,7 +82,7 @@ Fluxo operacional atual (Gemini orienta/revisa, executor local altera arquivos, 
 5. registrar evidências em `docs/REVISAO_*.md`;
 6. após revisão, o usuário executa staging de caminhos explícitos, confere o diff preparado, cria commit e envia ao remoto por avanço normal, orientado pelo Gemini. O executor não faz staging, commit ou push neste fluxo.
 
-O Gemini recebe evidências selecionadas, sem acesso implícito ao computador. Não deve afirmar execução local nem aprovação sem material suficiente. O executor desta etapa foi o Codex em substituição pontual ao Antigravity. As permissões e configurações do OpenCode não se transferem automaticamente a outro executor. O plano de conclusão e o próximo lote proposto estão em `docs/PLANO_CONCLUSAO.md`.
+O Gemini é o orientador do processo e recebe evidências selecionadas, sem acesso implícito ao computador. Não deve afirmar execução local nem aprovação sem material suficiente. O OpenCode executa o trabalho por três papéis: `slingshot-explorer` levanta escopo e caminhos em leitura; `slingshot-worker` implementa lotes autorizados e executa validações; `gauntlet-reviewer` faz a revisão independente em somente leitura. Enquanto o Antigravity estiver operacionalmente indisponível, o Codex coordena o processo, verifica evidências e auxilia o Gemini; não substitui automaticamente o worker nem o revisor. O usuário controla staging, commit e push. As permissões e configurações do OpenCode não se transferem automaticamente ao Codex ou ao Gemini. O plano de conclusão e o próximo lote proposto estão em `docs/PLANO_CONCLUSAO.md`.
 
 Não há necessidade de mexer no GitHub para testes locais. Não acessar, exportar ou alterar credenciais. Não fazer novas alterações remotas no Supabase sem uma autorização específica posterior. A aplicação gerada bloqueia conexões automáticas externas por política de conteúdo e não possui telemetria do original.
 
@@ -152,7 +152,7 @@ Quando uma referência britânica interfere na lógica, preserve o dado interno 
 
 ### Estruturas já examinadas
 
-O catálogo conferido em 25/09/2026 contém 22 estruturas registradas, 3.092 caminhos e 3.040 destinos diferentes da fonte. Essa comparação literal não equivale a uma nova auditoria da qualidade de todas as traduções. As 21 primeiras entradas têm cobertura ou classificação registrada nos lotes anteriores; `FUNDER_ADVICE` está parcial. Cobertura atual:
+O catálogo local conferido em 25/09/2026 após o lote P1 contém 22 estruturas registradas, 3.153 caminhos e 3.101 destinos diferentes da fonte. Essa comparação literal não equivale a uma nova auditoria da qualidade de todas as traduções. As 21 primeiras entradas têm cobertura ou classificação registrada nos lotes anteriores; `FUNDER_ADVICE` está parcial. Cobertura atual:
 
 | Estrutura | Situação |
 |---|---|
@@ -167,19 +167,21 @@ O catálogo conferido em 25/09/2026 contém 22 estruturas registradas, 3.092 cam
 | `FUNDERS` | 192 textos dos 32 perfis legados traduzidos |
 | `M2_FUNDERS`, `M3_FUNDERS` | 104 textos traduzidos; opções técnicas preservadas |
 | `M2_FUNDER_OPTIONS`, `M3_FUNDER_OPTIONS` | classificados como referências internas, sem texto a alterar |
-| `FUNDER_ADVICE` | 235 campos em 11 perfis: `dragon`, `techAngel`, `operatorAngel`, `academicAngel`, `priyaSharma`, `thomasEriksson`, `klausMuller`, `davidAdeyemi`, `ananyaKrishnamurthy`, `patriciaHoffman`, `amitPatel`; `self` nulo e 30 perfis pendentes |
+| `FUNDER_ADVICE` | 296 campos em 14 perfis: `dragon`, `techAngel`, `operatorAngel`, `academicAngel`, `priyaSharma`, `thomasEriksson`, `klausMuller`, `davidAdeyemi`, `ananyaKrishnamurthy`, `patriciaHoffman`, `amitPatel`, `marcusWebb`, `michaelOkonkwo`, `annaLindqvist`; `self` nulo e 27 perfis pendentes |
 
-Os lotes fechados possuem relatórios em `docs/REVISAO_*.md`. As avaliações independentes mais recentes terminaram em 9,3/10: rodadas posteriores, conselhos iniciais e conselhos de saúde. Esses resultados aprovam somente o lote correspondente, não a edição completa.
+Os lotes fechados possuem relatórios em `docs/REVISAO_*.md`. Rodadas posteriores, conselhos iniciais e conselhos de saúde tiveram avaliações independentes de 9,3/10. Esses resultados aprovam somente o lote correspondente, não a edição completa.
 
 O lote Mobility acrescentou 105 campos e recebeu revisão independente 6,0 → 7,5 → 9,0 em três ciclos. A nota 10/10 anterior foi retirada; vale a aprovação 9,0 somente para esse lote. `docs/REVISAO_LOTE_MOBILITY.md` registra build de 19 scripts e 109/109 testes, com exit 0: evidência histórica, não reexecutada no P0 documental.
 
-HEAD local confirmado em 25/09/2026: `b0b8aa3ac773ba388f608819970ffccde897d435`. Na abertura do P0 já estavam modificados `AGENTS.md` e `.opencode/agents/gauntlet-reviewer.md`, e não rastreados `docs/agent-routes/models.md` e `HANDOFF_LLM_COMPLETO.md` na raiz. Permanecem fora deste lote. O remoto não foi consultado nesta etapa; não inferir sincronização atual pela referência local. Os dois documentos do P0 ainda precisam de revisão externa e publicação manual.
+O P0 foi publicado em `4696c6301ae38345d1a1d23502ad06fb5f9f9d70`, com confirmação pela rede no encerramento anterior. Esse HEAD foi reconfirmado localmente ao iniciar o P1. O lote de 61 campos de `marcusWebb`, `michaelOkonkwo` e `annaLindqvist` foi implementado localmente; a validação final registrou 113/113 testes, 19 scripts e exit 0. A revisão independente passou de 8,8/10 (faltavam exit code explícito e relatório) a 9,2/10, aprovado em dois ciclos após completar essas evidências. Não houve correção de código ou tradução entre os ciclos. O relatório `docs/REVISAO_CONSELHOS_TRES_PERFIS_2026-09-25.md` registra o log, seu hash e os limites da revisão por material fornecido.
+
+Na abertura do P1 já estavam modificados `AGENTS.md` e `.opencode/agents/gauntlet-reviewer.md`, e não rastreados `docs/agent-routes/models.md`, `HANDOFF_LLM_COMPLETO.md` na raiz e um artefato de terminal com diff (33.504 bytes). Permanecem fora do lote. Não houve staging, commit ou push do P1, nem nova consulta ao remoto durante sua implementação. Os resultados locais não equivalem à publicação.
 
 ## 7. Trabalho pendente, em ordem segura
 
 ### Próxima unidade imediata
 
-Proposta para o próximo lote, ainda não implementada: continuar `FUNDER_ADVICE` com `marcusWebb` (21 campos), `michaelOkonkwo` (21) e `annaLindqvist` (19), total de 61 campos extraídos da fonte, nessa ordem. Preservar os 235 campos dos 11 perfis existentes; restam hoje 30 perfis. A delimitação e os critérios estão em `docs/PLANO_CONCLUSAO.md`. O roteiro `docs/agent-routes/translation.md` ainda cita `klausMuller` e 2.987 entradas: são referências antigas, mantidas intactas por estarem fora do escopo de edição deste P0.
+O lote de `marcusWebb` (21 campos), `michaelOkonkwo` (21) e `annaLindqvist` (19) está aprovado localmente, preservando os 235 campos anteriores. A próxima posição pendente em `FUNDER_ADVICE` é `eleniStavros`, com 27 perfis ainda por tratar. Este lote não conclui P1. A próxima ação é o Gemini conferir o pacote e conduzir a publicação manual dos oito arquivos identificados no relatório. Depois, recomenda-se preparar a matriz documental P2 antes de traduzir em volume conteúdo destinado à adaptação. P2 não foi iniciada neste lote. O roteiro `docs/agent-routes/translation.md` ainda cita `klausMuller` e 2.987 entradas: são referências históricas; usar o catálogo e o handoff atual para selecionar a próxima unidade.
 
 ### Estruturas posteriores ainda sem entrada de catálogo
 

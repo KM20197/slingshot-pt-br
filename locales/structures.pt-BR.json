@@ -12467,6 +12467,250 @@
       "[\"amitPatel\",\"hostileWarning\"]": {
         "source": "We're building without understanding how users actually adopt.",
         "target": "Estamos construindo sem entender como os usuários realmente adotam."
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Our syndicate has connections across enterprise.",
+        "target": "Nosso grupo de investidores-anjo tem contatos em todo o meio empresarial."
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "50 angels, 50 networks.",
+        "target": "50 investidores-anjo, 50 redes de contatos."
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Let me get feedback from the group on this.",
+        "target": "Deixe-me ouvir a opinião do grupo sobre isso."
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Collective wisdom, right?",
+        "target": "Sabedoria coletiva, certo?"
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",2,\"text\"]": {
+        "source": "Brand building now pays dividends later.",
+        "target": "Construir a marca agora rende frutos mais adiante."
+      },
+      "[\"marcusWebb\",\"advice\",\"marketing\",2,\"reason\"]": {
+        "source": "We've seen this pattern before.",
+        "target": "Já vimos esse padrão antes."
+      },
+      "[\"marcusWebb\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Several syndicate members have relevant technical backgrounds.",
+        "target": "Vários membros do grupo de investidores-anjo têm formação técnica relevante."
+      },
+      "[\"marcusWebb\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "Let me make some introductions.",
+        "target": "Vou apresentar você a alguns deles."
+      },
+      "[\"marcusWebb\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Is this aligned with market demand?",
+        "target": "Isso está alinhado à demanda do mercado?"
+      },
+      "[\"marcusWebb\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "Research for research's sake concerns me.",
+        "target": "Fazer pesquisa apenas por fazer me preocupa."
+      },
+      "[\"marcusWebb\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Our group includes several former CTOs.",
+        "target": "Nosso grupo inclui vários ex-diretores de tecnologia (CTOs)."
+      },
+      "[\"marcusWebb\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Happy to get their perspective.",
+        "target": "Será um prazer ouvir a perspectiva deles."
+      },
+      "[\"marcusWebb\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Enterprise-ready architecture matters.",
+        "target": "Uma arquitetura pronta para atender empresas faz diferença."
+      },
+      "[\"marcusWebb\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "We've invested in many B2B companies.",
+        "target": "Já investimos em muitas empresas B2B."
+      },
+      "[\"marcusWebb\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Syndicate members love making introductions.",
+        "target": "Os membros do grupo de investidores-anjo adoram apresentar contatos."
+      },
+      "[\"marcusWebb\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "We can help with senior hires.",
+        "target": "Podemos ajudar na contratação de profissionais seniores."
+      },
+      "[\"marcusWebb\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Advisory board from within the syndicate?",
+        "target": "Que tal formar um conselho consultivo com membros do grupo de investidores-anjo?"
+      },
+      "[\"marcusWebb\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Engaged investors are better investors.",
+        "target": "Investidores engajados são melhores investidores."
+      },
+      "[\"marcusWebb\",\"followedReaction\"]": {
+        "source": "Great. I'll share the update with the syndicate. 👥",
+        "target": "Ótimo. Vou compartilhar a atualização com o grupo de investidores-anjo. 👥"
+      },
+      "[\"marcusWebb\",\"ignoredReaction\"]": {
+        "source": "Noted. Though the group may have questions at our next update. 😐",
+        "target": "Anotado. Mas o grupo pode ter perguntas na nossa próxima atualização. 😐"
+      },
+      "[\"marcusWebb\",\"hostileWarning\"]": {
+        "source": "The syndicate is getting restless about direction.",
+        "target": "O grupo de investidores-anjo está ficando inquieto com os rumos do negócio."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Corporate sustainability teams are your buyers.",
+        "target": "As equipes de sustentabilidade das empresas são seus compradores."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "I know how they think and budget.",
+        "target": "Sei como elas pensam e planejam seus orçamentos."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "ESG reporting deadlines drive purchasing cycles.",
+        "target": "Os prazos dos relatórios ESG determinam os ciclos de compra."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "Time your outreach accordingly.",
+        "target": "Programe sua abordagem comercial de acordo com esses prazos."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",2,\"text\"]": {
+        "source": "Don't position against oil majors. Position with them.",
+        "target": "Não se posicione contra as grandes petrolíferas. Posicione-se ao lado delas."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"marketing\",2,\"reason\"]": {
+        "source": "They're buying solutions, not enemies.",
+        "target": "Elas estão comprando soluções, não inimigos."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Does this help corporates meet their net-zero commitments?",
+        "target": "Isso ajuda as empresas a cumprir seus compromissos de emissões líquidas zero?"
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "That's the value proposition that sells.",
+        "target": "Essa é a proposta de valor que vende."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Verification and audit trails matter more than you think.",
+        "target": "Verificação e trilhas de auditoria importam mais do que você imagina."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "CFOs sign off on sustainability claims now.",
+        "target": "Os diretores financeiros (CFOs) agora precisam aprovar as alegações de sustentabilidade."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Integration with existing corporate systems is essential.",
+        "target": "A integração com os sistemas corporativos existentes é essencial."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Nobody wants another dashboard.",
+        "target": "Ninguém quer mais um painel de controle."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Data quality and provenance matter.",
+        "target": "A qualidade e a procedência dos dados importam."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Greenwashing accusations destroy companies.",
+        "target": "Acusações de maquiagem ambiental (greenwashing) destroem empresas."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "Hire someone from corporate sustainability.",
+        "target": "Contrate alguém da área de sustentabilidade corporativa."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "They know the buyer side.",
+        "target": "Essa pessoa conhece o lado do comprador."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Technical credibility and commercial instincts are both needed.",
+        "target": "É preciso ter tanto credibilidade técnica quanto faro comercial."
+      },
+      "[\"michaelOkonkwo\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "Rare combination, but essential.",
+        "target": "Uma combinação rara, mas essencial."
+      },
+      "[\"michaelOkonkwo\",\"followedReaction\"]": {
+        "source": "That's how you sell to energy transition. Good. 🌱",
+        "target": "É assim que se vende para o setor de transição energética. Muito bem. 🌱"
+      },
+      "[\"michaelOkonkwo\",\"ignoredReaction\"]": {
+        "source": "Okay. But corporate buyers are pragmatic. Remember that. 🤷‍♂️",
+        "target": "Tudo bem. Mas os compradores corporativos são pragmáticos. Lembre-se disso. 🤷‍♂️"
+      },
+      "[\"michaelOkonkwo\",\"hostileWarning\"]": {
+        "source": "We're not building what the market actually needs.",
+        "target": "Não estamos construindo o que o mercado realmente precisa."
+      },
+      "[\"annaLindqvist\",\"advice\",\"marketing\",0,\"text\"]": {
+        "source": "Industrial buyers want proof, not promises.",
+        "target": "Os compradores industriais querem provas, não promessas."
+      },
+      "[\"annaLindqvist\",\"advice\",\"marketing\",0,\"reason\"]": {
+        "source": "Case studies and pilot results matter.",
+        "target": "Estudos de caso e resultados de projetos-piloto importam."
+      },
+      "[\"annaLindqvist\",\"advice\",\"marketing\",1,\"text\"]": {
+        "source": "Trade shows and industry conferences are where deals happen.",
+        "target": "É nas feiras e conferências do setor que os negócios acontecem."
+      },
+      "[\"annaLindqvist\",\"advice\",\"marketing\",1,\"reason\"]": {
+        "source": "This isn't a consumer market.",
+        "target": "Este não é um mercado voltado ao consumidor final."
+      },
+      "[\"annaLindqvist\",\"advice\",\"research\",0,\"text\"]": {
+        "source": "Heavy industry decarbonisation is where the hard emissions are.",
+        "target": "A descarbonização da indústria pesada enfrenta as emissões difíceis de eliminar."
+      },
+      "[\"annaLindqvist\",\"advice\",\"research\",0,\"reason\"]": {
+        "source": "That's where the impact and the money are.",
+        "target": "É aí que estão o impacto e o dinheiro."
+      },
+      "[\"annaLindqvist\",\"advice\",\"research\",1,\"text\"]": {
+        "source": "Process integration research is valuable IP.",
+        "target": "A pesquisa sobre integração de processos gera propriedade intelectual (IP) valiosa."
+      },
+      "[\"annaLindqvist\",\"advice\",\"research\",1,\"reason\"]": {
+        "source": "It's harder to replicate than software.",
+        "target": "É mais difícil de reproduzir do que software."
+      },
+      "[\"annaLindqvist\",\"advice\",\"dev\",0,\"text\"]": {
+        "source": "Industrial environments are harsh. Design for reliability.",
+        "target": "Os ambientes industriais são severos. Projete pensando na confiabilidade."
+      },
+      "[\"annaLindqvist\",\"advice\",\"dev\",0,\"reason\"]": {
+        "source": "Factory downtime costs millions.",
+        "target": "O tempo de parada de uma fábrica custa milhões."
+      },
+      "[\"annaLindqvist\",\"advice\",\"dev\",1,\"text\"]": {
+        "source": "Integration with existing industrial systems is complex.",
+        "target": "A integração com os sistemas industriais existentes é complexa."
+      },
+      "[\"annaLindqvist\",\"advice\",\"dev\",1,\"reason\"]": {
+        "source": "Legacy equipment isn't going anywhere.",
+        "target": "Os equipamentos legados vão continuar em uso."
+      },
+      "[\"annaLindqvist\",\"advice\",\"hr\",0,\"text\"]": {
+        "source": "You need engineers who understand manufacturing.",
+        "target": "Você precisa de engenheiros que entendam de produção industrial."
+      },
+      "[\"annaLindqvist\",\"advice\",\"hr\",0,\"reason\"]": {
+        "source": "Software people underestimate physical constraints.",
+        "target": "Os profissionais de software subestimam as limitações físicas."
+      },
+      "[\"annaLindqvist\",\"advice\",\"hr\",1,\"text\"]": {
+        "source": "Nordic networks in cleantech are strong.",
+        "target": "As redes nórdicas de tecnologias limpas são fortes."
+      },
+      "[\"annaLindqvist\",\"advice\",\"hr\",1,\"reason\"]": {
+        "source": "I can make introductions in Sweden and Norway.",
+        "target": "Posso apresentar você a contatos na Suécia e na Noruega."
+      },
+      "[\"annaLindqvist\",\"followedReaction\"]": {
+        "source": "That's the practical approach industrial buyers respect. 🏭",
+        "target": "Essa é a abordagem prática que os compradores industriais respeitam. 🏭"
+      },
+      "[\"annaLindqvist\",\"ignoredReaction\"]": {
+        "source": "Fine. But manufacturing is unforgiving. Plan accordingly. 🤔",
+        "target": "Tudo bem. Mas a produção industrial não perdoa erros. Planeje levando isso em conta. 🤔"
+      },
+      "[\"annaLindqvist\",\"hostileWarning\"]": {
+        "source": "We're not building for industrial reality.",
+        "target": "Não estamos construindo para a realidade industrial."
       }
     }
   }
