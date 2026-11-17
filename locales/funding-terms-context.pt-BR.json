@@ -1,0 +1,439 @@
+{
+  "modalId": "fundingTermsHelpModal",
+  "nodes": [
+    {
+      "nodeIndex": 0,
+      "source": "📚 Understanding Funding Terms",
+      "target": "📚 Crédito e obrigações no jogo",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 1,
+      "source": "Key concepts for your fundraising decisions",
+      "target": "Esta ajuda explica o financiamento didático dos empreendimentos brasileiros da simulação. Recursos próprios e empréstimos têm efeitos diferentes sobre o caixa e as obrigações. Os empréstimos desta edição não cedem participação no negócio.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 2,
+      "source": "×",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 3,
+      "source": "📄",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 4,
+      "source": "Term Sheet",
+      "target": "Proposta de crédito",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 5,
+      "source": "A term sheet outlines the key terms of an investment deal. It covers how much money, what equity percentage, company valuation, and any special conditions. It's not legally binding, but it's the starting point for negotiation.",
+      "target": "Antes de contratar, confira o valor emprestado, a taxa de juros, o prazo, as parcelas e quem responde pela dívida. Essas condições são parâmetros didáticos do jogo, não ofertas de instituições reais.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 6,
+      "source": "In this game:",
+      "target": "Na edição brasileira:",
+      "occurrence": 0,
+      "expectedOccurrences": 2
+    },
+    {
+      "nodeIndex": 7,
+      "source": "Each investor offers you a term sheet. Compare them carefully—the differences in equity, valuation, and protection terms will shape your cap table for years to come.",
+      "target": "compare as condições mostradas na proposta com o caixa disponível e as obrigações futuras do empreendimento. A entrada do empréstimo cria uma dívida que precisa ser acompanhada ao longo da partida.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 8,
+      "source": "📊",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 9,
+      "source": "Equity",
+      "target": "Capital próprio e dívida",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 10,
+      "source": "The percentage of your company you give to investors in exchange for their money. More equity given away means less ownership for you at exit.",
+      "target": "Recursos próprios são o capital do empreendedor aplicado no negócio, sem parcelas de empréstimo. Crédito é dinheiro emprestado e cria obrigação de devolver o principal e pagar juros. Dinheiro emprestado por familiares também é dívida.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 11,
+      "source": "Example:",
+      "target": "Modalidades didáticas:",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 12,
+      "source": "If you give 20% equity for £500k, you're valuing your company at £2.5M (pre-money). You'll own 80% after the round.",
+      "target": "banco público: 24% ao ano, 12 trimestres, responsabilidade da empresa; familiares: 6% ao ano, 8 trimestres, responsabilidade do empreendedor; ONG elegível: 8% ao ano, 12 trimestres, responsabilidade da empresa; agiotagem fictícia: 120% ao ano, 4 trimestres, responsabilidade do empreendedor. A modalidade ONG exige finalidade compatível expressamente definida.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 13,
+      "source": "💰",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 14,
+      "source": "Avaliação da empresa",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 15,
+      "source": "What your company is \"worth\" for the purpose of this investment. Higher valuations mean less dilution for the same cash.",
+      "target": "A avaliação do negócio e o saldo de caixa são medidas diferentes. O empréstimo aumenta o caixa e cria um passivo; não é receita nem aumento automático do valor do negócio. A avaliação também não é a nota acadêmica.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 16,
+      "source": "Pre-money vs Post-money:",
+      "target": "Taxas anuais e trimestrais:",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 17,
+      "source": "Pre-money is your valuation before investment; post-money includes the new cash. A £1M pre at £250k investment = £1.25M post.",
+      "target": "a taxa trimestral é calculada a partir da taxa efetiva anual pela expressão (1 + taxa anual)^(1/4) − 1. Use as condições didáticas mostradas na proposta; a taxa anual não deve ser dividida por quatro para calcular essa equivalência.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 18,
+      "source": "🛡️",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 2
+    },
+    {
+      "nodeIndex": 19,
+      "source": "Anti-Dilution Protection",
+      "target": "Juros e amortização",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 20,
+      "source": "Some investors negotiate protection against dilution in future funding rounds. This shifts more dilution burden onto founders and unprotected shareholders.",
+      "target": "Amortização é a devolução do principal emprestado. Nesta simulação, o principal é amortizado em parcelas constantes e os juros incidem sobre o saldo de principal. Juros vencidos não são capitalizados.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 21,
+      "source": "✓",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 22,
+      "source": "No Protection (Founder-Friendly)",
+      "target": "Principal emprestado",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 23,
+      "source": "Investor is diluted proportionally like everyone else. Best for founders.",
+      "target": "é o valor da dívida antes dos juros. A amortização reduz esse saldo; a entrada do principal no caixa não deve ser confundida com receita de vendas.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 24,
+      "source": "🔰",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 25,
+      "source": "Partial Protection",
+      "target": "Juros sobre o saldo",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 26,
+      "source": "Investor takes only half the normal dilution. Common for experienced angels.",
+      "target": "são calculados sobre o principal ainda devido. Ao comparar modalidades, observe a taxa, o prazo e o total a pagar mostrado na proposta.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 27,
+      "source": "🛡️",
+      "target": null,
+      "occurrence": 1,
+      "expectedOccurrences": 2
+    },
+    {
+      "nodeIndex": 28,
+      "source": "Full Protection",
+      "target": "Parcelas e liquidação",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 29,
+      "source": "Investor maintains their percentage. All dilution falls on founders & others. Aggressive terms.",
+      "target": "a parcela reúne amortização e juros. Diferenças de centavos são liquidadas na última parcela. Em pagamento parcial, o valor disponível quita os juros primeiro e depois o principal.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 30,
+      "source": "⚠️ Warning:",
+      "target": "⚠️ Atenção ao caixa:",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 31,
+      "source": "Full protection seems fine at seed stage, but compounds painfully across multiple rounds. A 20% protected investor at seed could still own 20% at Series B while you've been diluted from 80% to 40%.",
+      "target": "o dinheiro recebido hoje também cria compromissos futuros. Compare despesas da operação e obrigações do trimestre antes de assumir nova dívida; não trate um empréstimo como lucro ou como garantia de atingir uma meta.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 32,
+      "source": "🌉",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 33,
+      "source": "Bridge Round",
+      "target": "Responsabilidade pela dívida",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 34,
+      "source": "A smaller funding round designed to \"bridge\" your company to the next major milestone or funding round. Usually comes from existing investors who want to help you reach a stronger position.",
+      "target": "Banco público e ONG elegível têm responsabilidade da empresa. Em familiares e agiotagem fictícia, a responsabilidade é do empreendedor. Essa distinção faz parte das modalidades didáticas aprovadas para o jogo.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 35,
+      "source": "In this game:",
+      "target": "Na edição brasileira:",
+      "occurrence": 1,
+      "expectedOccurrences": 2
+    },
+    {
+      "nodeIndex": 36,
+      "source": "Your existing investors and network can offer bridge rounds between major funding events.",
+      "target": "confira a responsabilidade indicada em cada proposta e planeje o pagamento. Finalidade elegível, prazo e taxa não devem ser inferidos pelo nome do negócio ou por referências do projeto original.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 37,
+      "source": "📉",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 38,
+      "source": "Down Round",
+      "target": "Crédito adicional",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 39,
+      "source": "A funding round where the company is valued lower than in the previous round. This signals challenges and can affect team morale and future fundraising.",
+      "target": "antes de aceitar uma nova proposta, considere também as dívidas já assumidas. Compare a entrada de caixa com o aumento das parcelas e das obrigações futuras, respeitando as opções efetivamente oferecidas pelo jogo.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 40,
+      "source": "Warning:",
+      "target": "Atenção às obrigações:",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 41,
+      "source": "Down rounds trigger extra dilution for founders and may spook customers and hires. Sometimes necessary, but best avoided.",
+      "target": "uma nova dívida não elimina as anteriores. Consulte os valores e vencimentos apresentados na simulação e avalie a capacidade de pagamento junto das necessidades da operação.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 42,
+      "source": "📋",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 43,
+      "source": "Due Diligence",
+      "target": "Requisitos e elegibilidade",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 44,
+      "source": "The investigation process investors conduct before finalizing an investment. They examine your financials, team, technology, customers, and legal situation after signing a term sheet.",
+      "target": "A modalidade ONG exige finalidade compatível expressamente definida. Não presuma elegibilidade pelo nome do empreendimento. Condições do cenário não são orientação sobre programas reais de fomento.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 45,
+      "source": "What they check:",
+      "target": "O que conferir:",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 46,
+      "source": "Revenue accuracy, customer references, technical architecture, IP ownership, and legal issues.",
+      "target": "principal, taxa, prazo, parcelas, total a pagar, responsabilidade e finalidade exigida. Analise esses dados com o caixa disponível e as despesas futuras.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 47,
+      "source": "💡",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 48,
+      "source": "Strategic Considerations",
+      "target": "Planejamento financeiro do empreendimento",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 49,
+      "source": "•",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 4
+    },
+    {
+      "nodeIndex": 50,
+      "source": "More cash",
+      "target": "Mais crédito",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 51,
+      "source": "often comes with worse terms (higher equity, more protection)",
+      "target": "aumenta o caixa disponível e também as obrigações. Compare a necessidade de recursos com a capacidade de devolver o dinheiro.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 52,
+      "source": "•",
+      "target": null,
+      "occurrence": 1,
+      "expectedOccurrences": 4
+    },
+    {
+      "nodeIndex": 53,
+      "source": "Founder-friendly investors",
+      "target": "Escolha da modalidade",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 54,
+      "source": "may offer less cash but better long-term alignment",
+      "target": "considere taxa, prazo, responsabilidade e finalidade exigida, conforme a proposta didática apresentada na partida.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 55,
+      "source": "•",
+      "target": null,
+      "occurrence": 2,
+      "expectedOccurrences": 4
+    },
+    {
+      "nodeIndex": 56,
+      "source": "Plan for multiple rounds",
+      "target": "Planejamento por trimestre",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 57,
+      "source": "- early protection clauses compound over time",
+      "target": "— acompanhe despesas, parcelas e metas ao longo do tempo; uma entrada de caixa imediata não resolve automaticamente os compromissos dos próximos trimestres.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 58,
+      "source": "•",
+      "target": null,
+      "occurrence": 3,
+      "expectedOccurrences": 4
+    },
+    {
+      "nodeIndex": 59,
+      "source": "Employee equity pool",
+      "target": "Custos da equipe",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 60,
+      "source": "also gets diluted, affecting your ability to hire talent",
+      "target": "também consomem caixa e precisam ser considerados junto das parcelas e das demais despesas. A remuneração da equipe nesta versão é salarial, sem cessão de participação societária.",
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    },
+    {
+      "nodeIndex": 61,
+      "source": "Entendi!",
+      "target": null,
+      "occurrence": 0,
+      "expectedOccurrences": 1
+    }
+  ]
+}

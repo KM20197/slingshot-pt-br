@@ -30,7 +30,7 @@ const allCatalogues=JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','
 const catalogue=allCatalogues.FOUNDER_PROFILES.strings;
 const preserved=new Set(['id','icon','color','portraitStyle','stats']);
 const plain=x=>JSON.parse(JSON.stringify(x));
-test('founder catalogue covers every prose field and preserves all identifiers, graphics and numeric attributes',()=>{
+test('founder catalogue covers every prose field and preserves all identifiers and numeric attributes with approved object artwork',()=>{
  const expectedPaths=[];
  function visit(v,path){if(typeof v==='string'){expectedPaths.push(JSON.stringify(path));return;}for(const [key,value]of Object.entries(v))visit(value,[...path,Array.isArray(v)?Number(key):key]);}
  for(const [id,p]of Object.entries(before.data.FOUNDER_PROFILES))for(const [key,v]of Object.entries(p))if(!preserved.has(key))visit(v,[id,key]);
@@ -42,8 +42,14 @@ test('founder catalogue covers every prose field and preserves all identifiers, 
   const leaf=path.at(-1);assert.equal(source,original[leaf],key);assert.equal(value[leaf],target,key);assert.ok(target.trim());value[leaf]=source;
  }
  assert.deepEqual(restored,before.data.FOUNDER_PROFILES);
- assert.deepEqual(after.data.FOUNDER_PORTRAITS,before.data.FOUNDER_PORTRAITS);
- assert.deepEqual(after.methods,before.methods);assert.deepEqual(after.bonuses,before.bonuses);
+ assert.deepEqual(after.data.FOUNDER_PORTRAITS,require('../tools/management-patch.cjs').portraits);
+ for(const svg of Object.values(after.data.FOUNDER_PORTRAITS)) { assert.match(svg,/<svg/); assert.match(svg,/aria-label=/); assert.doesNotMatch(svg,/<image|(?:href|src)=/); }
+ assert.equal(after.methods.selectFounderProfile,before.methods.selectFounderProfile);
+ // L1b removes only the now-absent presentation field; all other instructions stay identical.
+ assert.equal(after.methods.showProfileInfo,before.methods.showProfileInfo.replace('    // Famous examples\n    document.getElementById("profileInfoExamples").textContent = profile.famousExamples || "Various successful founders";\n',''));
+ // L2b translates the two log messages; numeric bonus instructions remain identical.
+ const bonusCode=code=>code.replace(/this\.log\(`[^`]*`\);/g,'').replace(/[ \t]+(?=\r?\n)/g,'');
+ assert.deepEqual(after.bonuses.map(bonusCode),before.bonuses.map(bonusCode));
 });
 test('grant profile descriptions are fully translated while all eligibility bonuses and penalties remain unchanged',()=>{
  const entries=allCatalogues.FOUNDER_GRANT_PROFILES.strings,restored=plain(after.data.FOUNDER_GRANT_PROFILES);

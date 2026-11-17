@@ -1,0 +1,871 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de reputação,divulgação e cuidado com informações comerciais de Emma; fonte inglesa exata e regras originais preservadas",
+    "strings": {
+      "[\"marketing\",\"emma\",0,\"intro\"]": {
+        "source": "Our brand says 'responsible AI'. But are we walking the talk? This matters for trust.",
+        "target": "A divulgação de um negócio fictício promete um atendimento responsável. O que fazemos no dia a dia sustenta essa promessa? A resposta afeta a confiança de quem nos procura."
+      },
+      "[\"marketing\",\"emma\",0,\"aside\"]": {
+        "source": "Brand is a promise. Breaking it costs more than building it.",
+        "target": "A apresentação do negócio é uma promessa. Quando a rotina a contradiz, recuperar a confiança pode exigir mais esforço que conquistá-la."
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",0,\"text\"]": {
+        "source": "Substance-heavy responsibility campaign",
+        "target": "Preparar uma campanha apoiada em práticas concretas de responsabilidade"
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Win trust from sceptical creatives.",
+        "target": "Apresentamos práticas que conseguimos explicar e sustentar. Isso ajuda a conversar com quem ainda desconfia do nosso atendimento."
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",1,\"text\"]": {
+        "source": "Lighter awareness campaign",
+        "target": "Fazer uma campanha mais leve para apresentar nossa proposta"
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Gets attention. Won't convince critics.",
+        "target": "Chamamos atenção para o negócio, mas a apresentação sozinha não esclarece as dúvidas de quem nos critica."
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",2,\"text\"]": {
+        "source": "Let product speak for itself",
+        "target": "Deixar a qualidade do atendimento falar por nós"
+      },
+      "[\"marketing\",\"emma\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Quality wins. Customers notice.",
+        "target": "Concentramos o esforço no atendimento. Quem nos procura pode observar sua qualidade na própria experiência."
+      },
+      "[\"marketing\",\"emma\",1,\"intro\"]": {
+        "source": "Our logo and website were thrown together in a weekend two years ago, and it shows. Enterprise buyers expect us to look like a company, not a side project. A proper rebrand costs real money, and there's a risk we lose what little recognition we've built.",
+        "target": "A identidade visual e o material de apresentação de um negócio fictício foram preparados em um fim de semana há dois anos. Isso aparece no resultado. Clientes de maior porte esperam uma apresentação mais organizada, mas mudar tudo custa recursos e pode enfraquecer o reconhecimento que já construímos."
+      },
+      "[\"marketing\",\"emma\",1,\"aside\"]": {
+        "source": "Buyers judge the website before they ever book a call. I'd rather they judged the product, but that isn't how it works.",
+        "target": "As pessoas costumam olhar a apresentação antes de conversar conosco. Gostaria que avaliassem primeiro o atendimento, mas a impressão inicial também influencia essa conversa."
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",0,\"text\"]": {
+        "source": "Full rebrand with agency",
+        "target": "Reformular toda a apresentação com uma agência"
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Investment in how world sees us.",
+        "target": "Investimos tempo e recursos em reorganizar a forma como o negócio se apresenta. A equipe também participou dessa preparação."
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",1,\"text\"]": {
+        "source": "Brand refresh—evolution not revolution",
+        "target": "Atualizar a apresentação mantendo elementos reconhecidos"
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Update without losing recognition.",
+        "target": "Melhoramos a apresentação sem abandonar os elementos que as pessoas já associavam ao negócio."
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",2,\"text\"]": {
+        "source": "Keep current identity",
+        "target": "Manter a identidade atual"
+      },
+      "[\"marketing\",\"emma\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Brand consistency. Recognition builds.",
+        "target": "Mantivemos uma apresentação consistente. Seu reconhecimento continua dependendo das experiências de quem nos procura."
+      },
+      "[\"marketing\",\"emma\",2,\"intro\"]": {
+        "source": "Financial Times journalist wants access for profile piece. Opportunity and risk.",
+        "target": "Uma pessoa responsável por uma publicação de negócios fictícia quer conhecer nossa rotina para escrever um perfil do empreendimento. Pode ser uma oportunidade de divulgação, com o risco de expor aspectos que preferiríamos explicar de outra forma."
+      },
+      "[\"marketing\",\"emma\",2,\"aside\"]": {
+        "source": "Press can make or break perception. FT audience is exactly who we want.",
+        "target": "Uma reportagem pode mudar a percepção sobre o atendimento. O público dessa publicação se aproxima de quem queremos alcançar, mas não controlamos o texto final."
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",0,\"text\"]": {
+        "source": "Full access, authentic story",
+        "target": "Permitir uma visita ampla e contar nossa experiência com franqueza"
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Trust them to see us fairly.",
+        "target": "Apresentamos nossa experiência e deixamos espaço para observações independentes sobre a rotina."
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",1,\"text\"]": {
+        "source": "Controlled access, managed narrative",
+        "target": "Delimitar a visita e preparar os assuntos que serão apresentados"
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Less authentic, more predictable.",
+        "target": "A conversa ficou mais previsível, embora o acesso limitado possa deixar o relato menos espontâneo."
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",2,\"text\"]": {
+        "source": "Decline—too risky",
+        "target": "Recusar a visita por considerar a exposição arriscada"
+      },
+      "[\"marketing\",\"emma\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Play it safe. Protect our reputation.",
+        "target": "Preferimos cuidar da rotina e evitar essa exposição. A equipe manteve o foco na organização interna."
+      },
+      "[\"marketing\",\"emma\",3,\"intro\"]": {
+        "source": "London Tech Week have offered us a sponsorship package. Forty-five thousand pounds for stage time, branding and a stand. The right people will all be there. I just can't promise it turns into anything we can count.",
+        "target": "Um encontro fictício de negócios ofereceu uma proposta de patrocínio: quarenta e cinco mil libras para uma apresentação, divulgação e um espaço no evento, sem conversão desse valor. Pessoas com quem queremos conversar estarão lá, mas não conseguimos assegurar um resultado comercial mensurável."
+      },
+      "[\"marketing\",\"emma\",3,\"aside\"]": {
+        "source": "Some of this job is being seen in the right rooms. I can't measure it, and I won't pretend I can.",
+        "target": "Ser visto em certos encontros pode facilitar contatos. Ainda assim, não consigo medir de antemão esse resultado e não quero apresentar uma venda como garantida."
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",0,\"text\"]": {
+        "source": "Premium sponsorship, strong presence",
+        "target": "Escolher o patrocínio de maior presença no encontro"
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Big statement. Make it count.",
+        "target": "Assumimos uma presença ampla e preparamos a equipe para aproveitar as conversas. Essa visibilidade exige acompanhamento depois."
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",1,\"text\"]": {
+        "source": "Smaller presence, quality focus",
+        "target": "Participar com uma presença menor e conversas mais concentradas"
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Less noise, more signal.",
+        "target": "Organizamos uma participação menor, com atenção às conversas que fazem sentido para o atendimento."
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",2,\"text\"]": {
+        "source": "Skip this one",
+        "target": "Não participar deste encontro"
+      },
+      "[\"marketing\",\"emma\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Save energy for the right moment.",
+        "target": "Preservamos o esforço da equipe para outras oportunidades e seguimos preparando nosso atendimento."
+      },
+      "[\"marketing\",\"emma\",4,\"intro\"]": {
+        "source": "Competitors getting aggressive with claims. Should we respond or stay above it?",
+        "target": "Concorrentes de um negócio fictício estão fazendo afirmações cada vez mais agressivas em sua divulgação. Devemos responder diretamente ou continuar apresentando nossas próprias qualidades?"
+      },
+      "[\"marketing\",\"emma\",4,\"aside\"]": {
+        "source": "Brand is long game. Don't let competitors dictate strategy.",
+        "target": "Construir reputação exige continuidade. Não quero deixar que as afirmações dos concorrentes determinem sozinhas o que fazemos."
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",0,\"text\"]": {
+        "source": "Rise above, focus on strengths",
+        "target": "Concentrar a divulgação nas nossas qualidades"
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Dignity wins long-term.",
+        "target": "Seguimos apresentando o que fazemos bem e preservamos um ambiente de cooperação na equipe."
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",1,\"text\"]": {
+        "source": "Subtle comparison content",
+        "target": "Preparar uma comparação discreta entre formas de atendimento"
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Tasteful differentiation.",
+        "target": "Mostramos diferenças relevantes sem transformar a apresentação numa discussão direta com outro negócio."
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",2,\"text\"]": {
+        "source": "Direct competitive response",
+        "target": "Responder diretamente às afirmações dos concorrentes"
+      },
+      "[\"marketing\",\"emma\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Gets us in the mud. Sometimes necessary.",
+        "target": "A resposta chamou atenção, mas desgastou a cooperação da equipe e nos deixou mais tensos. Entramos numa disputa que também ocupa nossa rotina."
+      },
+      "[\"marketing\",\"emma\",5,\"intro\"]": {
+        "source": "UK art school wants student programme using our creative AI tools.",
+        "target": "No caso fictício do minimercado, uma escola propõe uma atividade educativa sobre como organizar e apresentar o atendimento comercial. Estudantes usariam materiais de exemplo para discutir situações da rotina, sem assumir o trabalho da loja."
+      },
+      "[\"marketing\",\"emma\",5,\"aside\"]": {
+        "source": "Students become professionals. Early adoption becomes habit.",
+        "target": "Aproximar estudantes do atendimento pode trazer perguntas diferentes e ampliar o conhecimento sobre o negócio. A atividade exige preparação e acompanhamento, sem promessa de que participantes se tornarão clientes."
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",0,\"text\"]": {
+        "source": "Fund structured programme",
+        "target": "Preparar uma atividade estruturada com acompanhamento"
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Inventive, chaotic use cases.",
+        "target": "As perguntas dos estudantes trouxeram situações inventivas e difíceis de organizar. A equipe dedicou atenção a elas e aprendeu com a experiência."
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",1,\"text\"]": {
+        "source": "Free licences, minimal support",
+        "target": "Compartilhar materiais de exemplo com acompanhamento mínimo"
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Students enjoy. Fewer learnings.",
+        "target": "Os estudantes aproveitaram os materiais, mas tivemos menos oportunidades de compreender suas dúvidas."
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",2,\"text\"]": {
+        "source": "Focus on existing creators",
+        "target": "Priorizar as relações com quem já procura o minimercado"
+      },
+      "[\"marketing\",\"emma\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Deepen relationships. Quality over quantity.",
+        "target": "Concentramos o esforço no público que já atendemos e demos continuidade a essas relações."
+      },
+      "[\"marketing\",\"emma\",7,\"intro\"]": {
+        "source": "A London PR agency wants us on retainer: proper tech specialists, the ones behind half the AI coverage you read. Several thousand a month, whether anything happens or not. Their pitch is simple: journalists answer their calls and not ours. My worry is that we have nothing to announce for two quarters, and a retainer with no news is money spent on silence.",
+        "target": "Uma agência fictícia de comunicação oferece acompanhamento contínuo para divulgar nosso negócio. Pede alguns milhares por mês, exista novidade ou não. Diz que consegue conversar com publicações que ainda não nos conhecem. Minha preocupação é ficarmos dois trimestres sem algo novo a apresentar e continuarmos pagando por esse acompanhamento."
+      },
+      "[\"marketing\",\"emma\",7,\"aside\"]": {
+        "source": "An agency can amplify news. It cannot invent any.",
+        "target": "Uma agência pode ampliar a divulgação de uma novidade. Ela não consegue criar, por conta própria, um fato relevante sobre nosso atendimento."
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",0,\"text\"]": {
+        "source": "Take the retainer, plan a drumbeat of announcements",
+        "target": "Contratar o acompanhamento contínuo e organizar uma sequência de anúncios"
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Coverage arrives, tidily timed. So does the invoice, monthly.",
+        "target": "Organizamos a divulgação em momentos combinados com a agência. A proposta prevê cobrança mensal, mesmo nos períodos em que não temos novidades."
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",1,\"text\"]": {
+        "source": "A smaller specialist, project by project",
+        "target": "Contratar apoio especializado apenas para cada projeto"
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",1,\"reaction\"]": {
+        "source": "One good trade piece per milestone. Nothing running through the quiet months.",
+        "target": "Concentramos o apoio numa divulgação relevante por marco do trabalho, sem cobrança contínua nos meses sem novidades."
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",2,\"text\"]": {
+        "source": "Keep comms in-house for now",
+        "target": "Manter a comunicação com a própria equipe por enquanto"
+      },
+      "[\"marketing\",\"emma\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Slower, cheaper. Journalists still answer, when there is actually news.",
+        "target": "Seguimos num ritmo menor e com esforço próprio. Procuramos as publicações quando temos algo concreto para apresentar."
+      },
+      "[\"marketing\",\"emma\",8,\"intro\"]": {
+        "source": "One of our lead engineers has been invited to speak on a podcast popular with developers. She's brilliant but unfiltered—she says what she thinks. Last time she did an interview, she accidentally confirmed a feature we hadn't announced and criticised a competitor by name.",
+        "target": "Uma pessoa da equipe que conhece bem nossa rotina foi convidada para uma conversa gravada sobre negócios. Ela se expressa com franqueza. Na entrevista anterior, revelou uma preparação ainda não anunciada e criticou um concorrente pelo nome sem perceber o alcance da exposição."
+      },
+      "[\"marketing\",\"emma\",8,\"aside\"]": {
+        "source": "Authentic voices build trust. But uncontrolled messaging can cause problems. Some founders never let anyone but themselves speak publicly.",
+        "target": "Vozes espontâneas podem aproximar o público. Também podem expor informações antes da hora. Algumas pessoas responsáveis por negócios preferem concentrar todas essas falas em si mesmas."
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",0,\"text\"]": {
+        "source": "Let her speak freely—authenticity matters",
+        "target": "Deixar a pessoa falar livremente"
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Developers love her honesty. Hope she doesn't reveal anything sensitive.",
+        "target": "A franqueza ajudou na aproximação com o público, mas perdemos parte da preparação do atendimento ao expor assuntos que ainda não estavam prontos para divulgação."
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",1,\"text\"]": {
+        "source": "Brief her carefully on what to avoid",
+        "target": "Preparar a pessoa sobre os assuntos que devem ser evitados"
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Prepared but might sound rehearsed.",
+        "target": "A conversa ficou mais preparada e exigiu cuidado para não parecer apenas uma fala ensaiada."
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",2,\"text\"]": {
+        "source": "Decline or send someone else",
+        "target": "Recusar o convite ou indicar outra pessoa"
+      },
+      "[\"marketing\",\"emma\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Delegate wisely. Focus on priorities.",
+        "target": "Reorganizamos a participação e mantivemos a equipe concentrada nas prioridades do atendimento."
+      },
+      "[\"marketing\",\"emma\",9,\"intro\"]": {
+        "source": "An industry analyst wants to write about us in their market report. These reports influence enterprise buyers, but they ask very detailed questions about our technology, market share, pricing, and roadmap. Competitors subscribe to these reports too.",
+        "target": "Uma pessoa que prepara um relatório fictício sobre o mercado quer incluir nosso negócio. Esse material pode orientar clientes de maior porte, mas as perguntas cobrem detalhes do atendimento, participação no mercado, preços e planos futuros. Concorrentes também leem o relatório."
+      },
+      "[\"marketing\",\"emma\",9,\"aside\"]": {
+        "source": "Analyst coverage is incredibly valuable for enterprise sales. But analyst reports are read by everyone in the industry, including competitors.",
+        "target": "A divulgação pode ajudar nas conversas com clientes maiores. Precisamos lembrar que as mesmas informações também ficarão disponíveis para outros negócios do setor."
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",0,\"text\"]": {
+        "source": "Full briefing with detailed answers",
+        "target": "Apresentar respostas completas e detalhadas"
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Comprehensive coverage. The whole market learns about us.",
+        "target": "O relatório apresentou nosso atendimento em detalhe, mas perdemos parte da preparação ao divulgar planos e formas de trabalho que ainda estávamos organizando."
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",1,\"text\"]": {
+        "source": "Careful briefing, some questions deflected",
+        "target": "Responder com cuidado e delimitar alguns assuntos"
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Decent coverage, some gaps. Analyst slightly frustrated.",
+        "target": "Conseguimos uma apresentação com algumas lacunas. A pessoa responsável pelo relatório demonstrou frustração com os limites das respostas."
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",2,\"text\"]": {
+        "source": "Decline to participate",
+        "target": "Não participar do relatório"
+      },
+      "[\"marketing\",\"emma\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Stay out of the spotlight. Focus on product.",
+        "target": "Preferimos manter a atenção na preparação do atendimento e ficar fora dessa exposição."
+      },
+      "[\"marketing\",\"emma\",10,\"intro\"]": {
+        "source": "One of our team was at a trade show and got talking to someone who turned out to be a competitor. Full of enthusiasm, they walked through our new features, our pricing model and the upcoming roadmap, and didn't realise who they were talking to until too late.",
+        "target": "Uma pessoa da equipe conversou com alguém num encontro de negócios e só depois percebeu que se tratava de um concorrente. Entusiasmada, já havia explicado novidades do atendimento, a forma de apresentar preços e nossos próximos planos."
+      },
+      "[\"marketing\",\"emma\",10,\"aside\"]": {
+        "source": "Competitors work trade shows by chatting to whoever is on the stand, and in a company our size whoever is on the stand knows everything. Training helps, but enthusiasm is hard to contain.",
+        "target": "Conversas informais também podem revelar informações. Numa equipe pequena, quem apresenta o negócio costuma conhecer boa parte da rotina. Preparar essas pessoas ajuda, mas não elimina o entusiasmo da conversa."
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",0,\"text\"]": {
+        "source": "Train all staff on information security",
+        "target": "Preparar toda a equipe para cuidar das informações compartilhadas"
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Formal process. Changes the culture.",
+        "target": "Organizamos uma orientação comum sobre o que apresentar e o que ainda precisa ficar nas conversas internas. Esse cuidado também mudou a forma de trabalho da equipe."
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",1,\"text\"]": {
+        "source": "Restrict who attends external events",
+        "target": "Limitar quem representa o negócio em encontros externos"
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Controlled. Information stays protected.",
+        "target": "Concentramos as apresentações em menos pessoas para organizar melhor o cuidado com as informações compartilhadas."
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",2,\"text\"]": {
+        "source": "Accept it—information spreads anyway",
+        "target": "Aceitar que informações circulam e priorizar a execução"
+      },
+      "[\"marketing\",\"emma\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Pragmatic. Focus on execution.",
+        "target": "Reconhecemos a exposição e mantivemos o esforço na preparação do atendimento, sem presumir que todas as informações continuarão reservadas."
+      },
+      "[\"marketing\",\"emma\",11,\"intro\"]": {
+        "source": "A journalist wants to interview our engineers for a 'day in the life' piece about AI startups. Great PR, but engineers often share details about problems they're working on, technical approaches, and even frustrations with the product.",
+        "target": "Uma publicação fictícia quer entrevistar a equipe para contar como é um dia de trabalho no negócio. A história pode aproximar o público, mas as pessoas costumam descrever em detalhe os problemas, as soluções em preparação e as dificuldades que encontram."
+      },
+      "[\"marketing\",\"emma\",11,\"aside\"]": {
+        "source": "Human interest stories require access. But engineers speak engineer—they describe problems in detail and share what they're building. That's often more than we'd tell competitors directly.",
+        "target": "Relatos sobre o dia a dia precisam de alguma abertura. Quem trabalha na rotina pode contar mais sobre o que está preparando do que pretendíamos divulgar a outros negócios."
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",0,\"text\"]": {
+        "source": "Allow interviews with media training first",
+        "target": "Permitir as entrevistas depois de preparar a equipe para a conversa"
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Authentic but prepared. Takes time from engineering.",
+        "target": "A entrevista ficou espontânea e preparada, mas perdemos parte da preparação do atendimento porque dedicamos esse tempo a organizar a participação da equipe."
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",1,\"text\"]": {
+        "source": "Approve but have comms person present",
+        "target": "Permitir a entrevista com acompanhamento da comunicação"
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Safety net. Might feel less authentic.",
+        "target": "A presença de uma pessoa acompanhando a conversa ajudou a delimitar os assuntos, embora possa ter reduzido a espontaneidade do relato."
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",2,\"text\"]": {
+        "source": "Decline or offer exec interviews only",
+        "target": "Recusar ou oferecer entrevista apenas com a coordenação"
+      },
+      "[\"marketing\",\"emma\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Controlled message. Protect the team.",
+        "target": "Concentramos a fala na coordenação e preservamos o tempo da equipe para suas tarefas."
+      },
+      "[\"marketing\",\"emma\",12,\"intro\"]": {
+        "source": "We're about to announce a partnership with a major tech company. Both PR teams are drafting the press release. Their team wants to include technical details that would help their narrative but reveal more about our capabilities than we'd normally share publicly.",
+        "target": "Vamos anunciar uma colaboração administrativa com uma organização fictícia. As duas equipes estão preparando um comunicado conjunto. A outra organização quer incluir detalhes que ajudam sua apresentação, mas revelam mais sobre nossa preparação do atendimento do que costumamos divulgar."
+      },
+      "[\"marketing\",\"emma\",12,\"aside\"]": {
+        "source": "Joint announcements mean shared control. What benefits their story might expose our secrets. Once it's in a press release, it's public forever.",
+        "target": "Preparar um comunicado conjunto significa dividir o controle da apresentação. Um detalhe útil para a outra organização pode expor nossos planos. Depois de divulgado, esse conteúdo estará disponível ao público."
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",0,\"text\"]": {
+        "source": "Push back on sensitive details",
+        "target": "Pedir a retirada dos detalhes que ainda queremos reservar"
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",0,\"reaction\"]": {
+        "source": "They're annoyed but our secrets stay private.",
+        "target": "A outra equipe ficou contrariada, mas mantivemos esses detalhes nas conversas internas e preservamos nossa preparação."
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",1,\"text\"]": {
+        "source": "Accept their draft for the relationship",
+        "target": "Aceitar a proposta de texto para facilitar a relação"
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Smooth partnership. More revealed than ideal.",
+        "target": "A relação seguiu com menos atrito, mas perdemos parte da preparação do atendimento ao tornar públicos detalhes que ainda queríamos reservar."
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",2,\"text\"]": {
+        "source": "Insist on separate announcements",
+        "target": "Defender que cada organização faça seu próprio comunicado"
+      },
+      "[\"marketing\",\"emma\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Full control. Less impressive than joint announcement.",
+        "target": "Mantivemos o controle da nossa apresentação. A divulgação separada teve menos destaque que uma apresentação conjunta."
+      },
+      "[\"marketing\",\"emma\",13,\"intro\"]": {
+        "source": "Marketing wants to claim our product is 'sustainable' and 'eco-friendly'. We've made some genuine improvements—more efficient code, greener hosting—but we're not carbon neutral. Is it honest to market ourselves as green, or is it greenwashing?",
+        "target": "A divulgação de um negócio fictício quer apresentar o atendimento como sustentável e favorável ao ambiente. Melhoramos o aproveitamento de materiais e a organização de algumas rotinas, mas não temos base para afirmar que eliminamos nosso impacto ambiental. Como apresentar essas melhorias sem exagerar?"
+      },
+      "[\"marketing\",\"emma\",13,\"aside\"]": {
+        "source": "Sustainability claims attract customers and talent. But exaggerated claims can backfire badly if journalists or activists dig deeper. Authenticity matters more than ever.",
+        "target": "Afirmações ambientais podem atrair clientes e pessoas interessadas em trabalhar conosco. Se prometermos mais do que conseguimos demonstrar, uma análise mais cuidadosa pode comprometer a confiança."
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",0,\"text\"]": {
+        "source": "Only claim what we can fully prove",
+        "target": "Divulgar somente melhorias que conseguimos demonstrar"
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Modest claims. Completely defensible.",
+        "target": "Apresentamos afirmações modestas, acompanhadas do que conseguimos explicar sobre nossa rotina."
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",1,\"text\"]": {
+        "source": "Highlight progress while acknowledging gaps",
+        "target": "Apresentar o progresso e reconhecer o que ainda falta"
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Honest about where we are. Shows self-awareness.",
+        "target": "Explicamos as melhorias e seus limites, sem apresentar o trabalho como concluído."
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",2,\"text\"]": {
+        "source": "Use green messaging—everyone does",
+        "target": "Usar uma apresentação ambiental ampla porque outros negócios fazem isso"
+      },
+      "[\"marketing\",\"emma\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Market expects it. Customers respond.",
+        "target": "A apresentação chamou atenção. Ainda assim, suas afirmações continuam mais amplas que as melhorias que conseguimos demonstrar."
+      },
+      "[\"marketing\",\"emma\",14,\"intro\"]": {
+        "source": "Our advertising could target people who are vulnerable to our product—those with addictive tendencies, people in financial distress, or teenagers who might not make good decisions. It would be effective marketing, but it feels predatory.",
+        "target": "No caso de um negócio fictício, a divulgação poderia alcançar pessoas mais suscetíveis a compras por impulso, pessoas em dificuldade financeira e adolescentes que ainda avaliam mal algumas ofertas. Isso poderia atrair atenção, mas aproveitar essa vulnerabilidade me parece uma forma de pressão."
+      },
+      "[\"marketing\",\"emma\",14,\"aside\"]": {
+        "source": "Targeted advertising is powerful precisely because it finds people when they're most susceptible. Where's the line between good marketing and exploitation?",
+        "target": "Encontrar pessoas num momento de maior suscetibilidade pode tornar a divulgação persuasiva. Precisamos decidir onde termina a apresentação de uma oferta e começa o aproveitamento de uma dificuldade."
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",0,\"text\"]": {
+        "source": "Exclude vulnerable groups from targeting",
+        "target": "Evitar direcionar a divulgação a esses grupos vulneráveis"
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Builds trust and brand reputation. Sustainable growth.",
+        "target": "Escolhemos uma divulgação que busca preservar a confiança e a reputação do atendimento, sem explorar essas dificuldades."
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",1,\"text\"]": {
+        "source": "General targeting only—no personal data",
+        "target": "Fazer divulgação geral, sem usar informações pessoais"
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Less precise but respected. Word spreads.",
+        "target": "A apresentação ficou menos direcionada e manteve um cuidado claro com as pessoas que poderiam receber a oferta."
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",2,\"text\"]": {
+        "source": "Use all legal targeting options",
+        "target": "Usar todas as formas de divulgação disponíveis"
+      },
+      "[\"marketing\",\"emma\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Short-term boost. Long-term reputation risk.",
+        "target": "Chamamos atenção no curto prazo, mas a equipe ficou desanimada com o risco para a reputação. A disponibilidade de uma forma de divulgação não assegura que seu uso seja adequado."
+      },
+      "[\"marketing\",\"emma\",15,\"intro\"]": {
+        "source": "A charity has asked us to donate our product for free to help their cause. It's genuinely worthy work, but we're stretched thin and giving away our product devalues it. Also, their work is mildly politically controversial—some customers might not approve.",
+        "target": "Uma organização voluntária fictícia pediu apoio gratuito do nosso atendimento para uma causa que consideramos importante. A equipe já está sobrecarregada, e oferecer o atendimento sem cobrar também exige recursos. A atuação da organização provoca alguma controvérsia política, que pode incomodar parte dos clientes."
+      },
+      "[\"marketing\",\"emma\",15,\"aside\"]": {
+        "source": "Corporate giving is expected, but choosing causes is tricky. Supporting one thing can alienate people who disagree. Staying neutral pleases no one.",
+        "target": "Apoiar uma causa envolve escolhas sobre esforço, recursos e exposição. Algumas pessoas podem discordar do apoio, e permanecer sem posição também pode gerar críticas."
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",0,\"text\"]": {
+        "source": "Full donation and public partnership",
+        "target": "Oferecer apoio amplo e divulgar a colaboração"
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Visible support. Some customers uncomfortable.",
+        "target": "Prestamos apoio visível, com uma perda adicional de caixa além do gasto previsto para a ação. Parte dos clientes demonstrou desconforto com a colaboração."
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",1,\"text\"]": {
+        "source": "Quiet donation without publicity",
+        "target": "Oferecer apoio discreto, sem divulgação"
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Help without controversy. No marketing benefit.",
+        "target": "Prestamos o apoio sem divulgação e tivemos uma perda adicional de caixa além do gasto da ação. A equipe organizou essa contribuição sem buscar exposição comercial."
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",2,\"text\"]": {
+        "source": "Politely decline—not the right fit",
+        "target": "Recusar com respeito por não ser o momento adequado"
+      },
+      "[\"marketing\",\"emma\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Know our strengths. Stay focused.",
+        "target": "Reconhecemos a importância da causa e mantivemos o esforço na preparação do atendimento que já assumimos."
+      },
+      "[\"marketing\",\"emma\",16,\"intro\"]": {
+        "source": "We're planning a big marketing event—maybe a conference or product launch. We could make it in-person for maximum impact, or virtual for lower carbon footprint. In-person events build relationships but require hundreds of people to fly in.",
+        "target": "Planejamos um encontro fictício de negócios para apresentar o atendimento. Um grande evento presencial pode facilitar relações, mas exigiria que centenas de pessoas viajassem de avião. Um encontro a distância reduziria deslocamentos, com menos convivência pessoal."
+      },
+      "[\"marketing\",\"emma\",16,\"aside\"]": {
+        "source": "Events are powerful for building community. But the environmental cost of flying hundreds of people to one place is significant. Virtual events reach more people with less impact.",
+        "target": "Encontros podem aproximar pessoas, mas concentrar centenas delas num só lugar também exige viagens. Precisamos comparar o contato presencial com o esforço e o impacto desses deslocamentos, sem presumir uma medida já calculada."
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",0,\"text\"]": {
+        "source": "Virtual event—minimise travel",
+        "target": "Organizar o encontro a distância e reduzir as viagens"
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Smaller carbon footprint. Less personal connection.",
+        "target": "Reduzimos a necessidade de deslocamentos. A conversa ficou menos próxima que num encontro presencial."
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",1,\"text\"]": {
+        "source": "Regional events—reduce long-distance travel",
+        "target": "Organizar encontros regionais para diminuir viagens longas"
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. More work, less flying.",
+        "target": "Dividimos a organização entre regiões, com mais trabalho de coordenação e menos necessidade de viagens longas."
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",2,\"text\"]": {
+        "source": "Big in-person event—nothing beats face-to-face",
+        "target": "Organizar um grande encontro presencial"
+      },
+      "[\"marketing\",\"emma\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Maximum impact. Maximum emissions.",
+        "target": "Conseguimos uma presença ampla e contato direto, com muitas viagens. O esforço da organização desgastou a cooperação da equipe."
+      },
+      "[\"marketing\",\"emma\",17,\"intro\"]": {
+        "source": "Marketing wants to describe our AI as 'intelligent', 'thinking', or 'understanding'. These words help people grasp what it does, but they're also misleading—the system doesn't actually think or understand in any meaningful sense. More accurate language is less compelling.",
+        "target": "A divulgação de um negócio fictício quer dizer que nosso atendimento entende qualquer necessidade e resolve tudo sem dificuldade. Essas frases são fáceis de lembrar, mas não correspondem aos limites do que conseguimos oferecer. Uma descrição mais precisa pode chamar menos atenção."
+      },
+      "[\"marketing\",\"emma\",17,\"aside\"]": {
+        "source": "AI marketing is full of human-like language that makes software sound like a person. It sells, but it also creates unrealistic expectations and obscures what these systems actually are. The field is increasingly criticised for hype.",
+        "target": "Promessas amplas podem atrair pessoas e criar expectativas que a rotina não sustenta. Quero explicar o que o atendimento faz e onde estão seus limites, sem depender de frases que prometem demais."
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",0,\"text\"]": {
+        "source": "Use accurate technical language",
+        "target": "Descrever o atendimento com linguagem precisa e concreta"
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Harder to sell. Builds trust with informed buyers.",
+        "target": "A apresentação ficou menos chamativa e mais clara para quem procura compreender o que oferecemos."
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",1,\"text\"]": {
+        "source": "Accessible language with clear caveats",
+        "target": "Usar linguagem acessível com ressalvas claras"
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Help people understand while being honest. Balance.",
+        "target": "Explicamos o atendimento de forma simples e mantivemos as ressalvas necessárias para compreender seus limites."
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",2,\"text\"]": {
+        "source": "Use whatever language sells",
+        "target": "Escolher as frases que mais atraem atenção"
+      },
+      "[\"marketing\",\"emma\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Effective marketing. Customers engaged.",
+        "target": "A apresentação despertou interesse, mas continuou baseada em frases mais amplas que a capacidade do atendimento."
+      },
+      "[\"marketing\",\"emma\",18,\"intro\"]": {
+        "source": "Our demo shows our AI working flawlessly, but real-world performance is messier—it fails maybe 15% of the time. Sales wants to show the perfect demo; some team members think we should show realistic performance including failures.",
+        "target": "A apresentação preparada de um atendimento fictício mostra tudo funcionando sem dificuldade. Na rotina descrita pelo caso, cerca de quinze em cada cem tentativas não saem como planejado. A divulgação prefere mostrar apenas o melhor exemplo; parte da equipe quer apresentar também as falhas."
+      },
+      "[\"marketing\",\"emma\",18,\"aside\"]": {
+        "source": "Demos are always polished versions of reality. But AI demos have been particularly criticised for showing capabilities that don't generalise. Setting realistic expectations builds trust; overselling creates disappointed customers.",
+        "target": "Uma apresentação costuma reunir os melhores momentos do trabalho. Se ela esconder as limitações, quem procurar o atendimento pode esperar um resultado que não conseguimos manter."
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",0,\"text\"]": {
+        "source": "Show realistic performance including failures",
+        "target": "Apresentar o funcionamento habitual, incluindo falhas"
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Honest. Lose some deals to companies that oversell.",
+        "target": "Mostramos as limitações junto com as qualidades. Alguns interessados podem preferir promessas maiores, mas a equipe apresentou o que consegue sustentar."
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",1,\"text\"]": {
+        "source": "Polished demo with clear performance caveats",
+        "target": "Mostrar uma apresentação preparada com ressalvas claras"
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Best foot forward with honesty. Industry standard.",
+        "target": "Começamos pelo melhor exemplo e explicamos que o desempenho na rotina pode variar."
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",2,\"text\"]": {
+        "source": "Show the best case—everyone else does",
+        "target": "Mostrar somente o melhor exemplo porque outros negócios fazem isso"
+      },
+      "[\"marketing\",\"emma\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Win more deals. Standard practice.",
+        "target": "A apresentação chamou atenção e despertou interesse. As diferenças entre esse exemplo e a rotina continuaram sem esclarecimento."
+      },
+      "[\"marketing\",\"emma\",19,\"intro\"]": {
+        "source": "A journalist is writing about AI risks and wants our comment. We could engage thoughtfully and show we take safety seriously, or we could decline and avoid being associated with the 'doom' narrative. Our comments might be taken out of context either way.",
+        "target": "Uma publicação fictícia prepara uma reportagem sobre riscos na organização do atendimento e quer ouvir nosso negócio. Podemos responder com cuidado ou evitar a exposição para não sermos associados a uma apresentação alarmista. Em qualquer caso, comentários podem aparecer fora do contexto que pretendíamos."
+      },
+      "[\"marketing\",\"emma\",19,\"aside\"]": {
+        "source": "AI companies are caught between seeming dismissive of risks and seeming to validate existential fears. Thoughtful engagement can help the discourse or backfire spectacularly depending on framing.",
+        "target": "Precisamos evitar tanto tratar dificuldades com descaso quanto reforçar alarmes sem fundamento. Uma resposta cuidadosa ainda depende da forma como a publicação apresentará a conversa."
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",0,\"text\"]": {
+        "source": "Engage thoughtfully with nuanced answers",
+        "target": "Responder com atenção às diferenças e aos limites do caso"
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Contribute to serious discourse. Risk misrepresentation.",
+        "target": "Contribuímos para a conversa sobre o atendimento, mantendo o risco de que parte da resposta seja apresentada sem o contexto pretendido."
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",1,\"text\"]": {
+        "source": "Provide a brief, careful statement",
+        "target": "Preparar uma declaração curta e cuidadosa"
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",1,\"reaction\"]": {
+        "source": "On record but minimal. Less interesting to journalists.",
+        "target": "Registramos uma posição limitada, que pode despertar menos interesse na publicação."
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",2,\"text\"]": {
+        "source": "Decline to comment on risks",
+        "target": "Não comentar os riscos nessa reportagem"
+      },
+      "[\"marketing\",\"emma\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Stay neutral. Let the tech speak.",
+        "target": "Preferimos manter o esforço na preparação do atendimento e deixar sua experiência prática falar por nós."
+      },
+      "[\"marketing\",\"emma\",20,\"intro\"]": {
+        "source": "We have 500 users. Marketing wants to say we have 'thousands of users' by counting everyone who ever created an account, including test accounts and people who signed up once and never returned. Technically defensible. Obviously misleading.",
+        "target": "No caso fictício, temos quinhentos clientes que utilizam nosso atendimento. A divulgação quer falar em milhares de clientes, incluindo qualquer pessoa que já pediu informações, participou de uma conversa de teste ou apareceu uma vez e não voltou. A contagem mistura relações muito diferentes."
+      },
+      "[\"marketing\",\"emma\",20,\"aside\"]": {
+        "source": "Vanity metrics are everywhere in startups. 'Users' can mean anything from 'paying customers' to 'people who clicked a link once'. Everyone knows this, but inflated numbers still impress investors and journalists.",
+        "target": "Um número de clientes pode incluir desde quem usa o atendimento com frequência até quem apenas pediu informações. Contagens amplas impressionam, mas precisamos deixar claro o que estamos contando."
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",0,\"text\"]": {
+        "source": "Report only meaningful metrics",
+        "target": "Apresentar somente contagens que representem relações relevantes"
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Smaller numbers. More credible to sophisticated buyers.",
+        "target": "Apresentamos números menores e explicamos o que significam, com uma base mais clara para conversar sobre o atendimento."
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",1,\"text\"]": {
+        "source": "Use industry-standard definitions",
+        "target": "Usar as definições de contagem mais comuns no setor"
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Match what others report. Comparable but still fuzzy.",
+        "target": "A apresentação ficou mais comparável à de outros negócios, embora ainda existam dúvidas sobre quais relações entram na contagem."
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",2,\"text\"]": {
+        "source": "Pick the biggest defensible number",
+        "target": "Escolher a maior contagem que conseguimos explicar"
+      },
+      "[\"marketing\",\"emma\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Looks impressive. Technically accurate.",
+        "target": "O número pareceu expressivo, mas misturou relações diferentes e desgastou a cooperação da equipe ao sustentar essa apresentação."
+      },
+      "[\"marketing\",\"emma\",21,\"intro\"]": {
+        "source": "A competitor just announced a feature we've been working on. They shipped first. Marketing wants to put out a release saying we're 'launching' the same feature—but ours won't actually be ready for two months. We'd be announcing vaporware to avoid looking like we're behind.",
+        "target": "Um concorrente anunciou uma forma de atendimento que também estamos preparando. A divulgação quer dizer que já lançamos a mesma oferta, embora ela só deva ficar pronta em dois meses. A ideia é evitar a impressão de atraso, apresentando como disponível algo que ainda não podemos entregar."
+      },
+      "[\"marketing\",\"emma\",21,\"aside\"]": {
+        "source": "Announcing products before they exist is a time-honoured tech tradition. It can freeze the market while you catch up. It can also destroy trust when customers realise they can't actually buy what you announced.",
+        "target": "Anunciar uma oferta antes de concluí-la pode adiar a escolha de alguns interessados. Também pode comprometer a confiança quando descobrirem que o atendimento anunciado ainda não está disponível."
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",0,\"text\"]": {
+        "source": "Only announce what's ready",
+        "target": "Anunciar somente o que já está pronto"
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Look behind. Ship when we ship.",
+        "target": "Perdemos parte da divulgação diante dos anúncios do concorrente e mantivemos a equipe concentrada em preparar o atendimento antes de anunciá-lo."
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",1,\"text\"]": {
+        "source": "Announce a 'preview' with honest timeline",
+        "target": "Apresentar uma prévia com prazo explicado com franqueza"
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Signal we're coming. Set realistic expectations.",
+        "target": "Mostramos o que estamos preparando e explicamos que a oferta ainda depende de trabalho antes de ficar disponível."
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",2,\"text\"]": {
+        "source": "Announce as if it's ready now",
+        "target": "Anunciar a oferta como se estivesse pronta agora"
+      },
+      "[\"marketing\",\"emma\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Build anticipation. Two customers ask to buy it today.",
+        "target": "Criamos expectativa e dois clientes pediram para contratar hoje. Ainda não conseguimos oferecer o atendimento anunciado; esses pedidos não representam recebimento confirmado."
+      },
+      "[\"marketing\",\"emma\",22,\"intro\"]": {
+        "source": "Our website says we use 'cutting-edge AI' and 'machine learning'. In reality, our core product is mostly traditional software with a small ML component. Our AI positioning has helped us get meetings and coverage. Changing it now would undermine our story.",
+        "target": "A apresentação de um negócio fictício diz que todo o atendimento é feito inteiramente sob medida. Na rotina, a maior parte segue uma organização padronizada, com alguns ajustes pontuais. Essa apresentação já abriu conversas e espaço na divulgação, e mudá-la pode enfraquecer a história que contamos."
+      },
+      "[\"marketing\",\"emma\",22,\"aside\"]": {
+        "source": "AI washing is rampant—companies rebrand ordinary software as 'AI-powered' for the hype. Some have actual AI; many don't. Sophisticated buyers are increasingly sceptical. But the positioning still opens doors.",
+        "target": "Chamar um atendimento comum de inteiramente sob medida pode atrair atenção e gerar desconfiança quando seus limites aparecem. Precisamos decidir como apresentar os ajustes que fazemos sem esconder a parte padronizada."
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",0,\"text\"]": {
+        "source": "Describe our technology accurately",
+        "target": "Descrever com precisão como o atendimento é organizado"
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Less exciting. More honest. Some doors close.",
+        "target": "Explicamos a organização real do atendimento. A apresentação ficou menos chamativa, e algumas oportunidades de conversa podem não continuar."
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",1,\"text\"]": {
+        "source": "AI-assisted—accurate but positioned",
+        "target": "Apresentar o atendimento padronizado com seus ajustes pontuais"
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",1,\"reaction\"]": {
+        "source": "We do use some AI. Emphasise it appropriately.",
+        "target": "Destacamos os ajustes que de fato oferecemos e explicamos que a organização básica do atendimento é padronizada."
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",2,\"text\"]": {
+        "source": "Keep the AI story—it's working",
+        "target": "Manter a apresentação como inteiramente sob medida"
+      },
+      "[\"marketing\",\"emma\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Ride the wave. Brand resonates.",
+        "target": "A apresentação continuou chamando atenção, mas sustentar essa diferença em relação à rotina desgastou a cooperação da equipe."
+      },
+      "[\"marketing\",\"emma\",23,\"intro\"]": {
+        "source": "We published a case study claiming our product helped a customer increase efficiency by 40%. That's what they told us. We didn't verify it independently—and when we dig in, their methodology is questionable. The case study is all over our website and sales materials.",
+        "target": "Publicamos um relato fictício dizendo que nosso atendimento ajudou um cliente a aumentar a eficiência em quarenta por cento. Reproduzimos o que ele contou, sem verificação independente. Ao examinar melhor, encontramos dúvidas sobre a forma de chegar ao número, que já aparece em vários materiais de divulgação."
+      },
+      "[\"marketing\",\"emma\",23,\"aside\"]": {
+        "source": "Customer success stories are marketing gold. But customers sometimes exaggerate, misattribute, or just get the numbers wrong. Once it's published, pulling it is embarrassing; leaving it up is risky.",
+        "target": "Relatos de clientes podem ajudar a apresentar o atendimento. Também podem trazer exageros, atribuições incertas ou erros de contagem. Depois da publicação, tanto retirar quanto manter uma afirmação exige cuidado."
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",0,\"text\"]": {
+        "source": "Pull it and verify future claims",
+        "target": "Retirar o relato e conferir melhor as próximas afirmações"
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Embarrassing. Establishes a standard.",
+        "target": "Perdemos parte da divulgação ao retirar o relato e adotamos um cuidado comum para conferir o que será apresentado pela equipe."
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",1,\"text\"]": {
+        "source": "Add caveats and soften the claims",
+        "target": "Acrescentar ressalvas e reduzir a força da afirmação"
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Water it down. Less impressive, more defensible.",
+        "target": "Apresentamos o relato com limites mais claros. Ele ficou menos impressionante e mais fácil de explicar."
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",2,\"text\"]": {
+        "source": "Leave it—it's what they told us",
+        "target": "Manter o relato porque foi isso que o cliente contou"
+      },
+      "[\"marketing\",\"emma\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Trust the customer. Somewhere a rival's sales team is checking the maths.",
+        "target": "Mantivemos a afirmação atribuída ao cliente, sem resolver as dúvidas sobre sua contagem. Um concorrente ainda pode examinar esse número com mais cuidado."
+      },
+      "[\"marketing\",\"emma\",24,\"intro\"]": {
+        "source": "SLUSH—the Helsinki startup conference—has invited us to their curated founder track. It's not a booth situation; it's two days of structured meetings with Nordic VCs and corporate innovation heads. The Finns built this thing from a student project into Europe's most intense investor matchmaking event. Twenty thousand people in a repurposed shipyard in November darkness.",
+        "target": "Recebemos um convite para um encontro de negócios fictício com dois dias de conversas organizadas entre responsáveis por negócios e possíveis clientes. O foco está nas reuniões, sem preparar um espaço de exposição. Vale participar?"
+      },
+      "[\"marketing\",\"emma\",24,\"aside\"]": {
+        "source": "SLUSH is weird and wonderful. Volunteers running everything, brutal cold, everyone genuinely engaged. The Nordics take it seriously—this is where Supercell, Wolt, and dozens of others found their backers. It's not about visibility; it's about conversations.",
+        "target": "O valor desse convite está nas conversas e nos contatos que conseguirmos acompanhar depois. Uma agenda cheia não transforma apresentação em venda confirmada."
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",0,\"text\"]": {
+        "source": "Attend the full founder track",
+        "target": "Participar dos dois dias de conversas organizadas"
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Two days of back-to-back meetings with serious people. We'll come back exhausted with warm introductions.",
+        "target": "Foram dois dias de reuniões seguidas. Voltamos cansados, com contatos apresentados e mais aproximação entre as pessoas da equipe, sem antecipar novos pedidos."
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",1,\"text\"]": {
+        "source": "Send someone to scout it this year",
+        "target": "Enviar uma pessoa para conhecer a edição deste ano"
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",1,\"reaction\"]": {
+        "source": "See if it's worth the founder's time next year. Lower stakes.",
+        "target": "Conhecemos melhor o encontro com uma participação menor. Isso ajuda a avaliar se vale dedicar mais tempo à próxima edição."
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",2,\"text\"]": {
+        "source": "Skip it—conferences aren't our channel",
+        "target": "Não participar e concentrar o esforço na própria rotina"
+      },
+      "[\"marketing\",\"emma\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Fair. Some companies thrive without the conference circuit.",
+        "target": "Preferimos seguir organizando o atendimento e os contatos pelos caminhos que já usamos. Nem todo negócio precisa participar desse tipo de encontro."
+      },
+      "[\"marketing\",\"emma\",25,\"intro\"]": {
+        "source": "EIT Digital's Stockholm hub is recruiting for their scaleup programme. The Swedes run the tightest ship in the network—alumni include companies now selling to Ericsson, Volvo, and half the Nordic telecoms. Six months of structured introductions to corporate innovation buyers across Scandinavia and Germany. No cash, but access you couldn't buy.",
+        "target": "Um programa fictício de aproximação comercial nos convida para seis meses de conversas organizadas com possíveis clientes. Não há repasse de caixa; a proposta é ampliar contatos. Participar também consome tempo da nossa rotina."
+      },
+      "[\"marketing\",\"emma\",25,\"aside\"]": {
+        "source": "The Stockholm hub benefits from Sweden's absurd density of successful tech companies. The programme managers know everyone. If we want Nordic enterprise customers, this is the fast track. The trade-off is time in Stockholm rather than building.",
+        "target": "A organização das apresentações pode facilitar conversas que seriam difíceis de marcar por conta própria. Quero avaliar esse acesso junto com o tempo e o trabalho de acompanhar cada contato."
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",0,\"text\"]": {
+        "source": "Join and engage actively with corporate partners",
+        "target": "Participar ativamente das apresentações e dos encontros"
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Nordic enterprise on a plate. Swedes are hard to crack from outside but loyal once you're in.",
+        "target": "Ampliamos as conversas comerciais e organizamos melhor a preparação do atendimento. Os contatos ainda precisam ser acompanhados, sem promessa de venda."
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",1,\"text\"]": {
+        "source": "Join but cherry-pick relevant introductions",
+        "target": "Participar apenas das apresentações mais relevantes"
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Take what's useful, skip the rest. They might notice we're not fully engaged.",
+        "target": "Aproveitamos as conversas que fazem mais sentido e aprendemos com elas. A participação menor pode não corresponder ao envolvimento esperado pela organização do programa."
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",2,\"text\"]": {
+        "source": "Decline—we'll find our own customers",
+        "target": "Recusar e buscar clientes por conta própria"
+      },
+      "[\"marketing\",\"emma\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Direct sales over programme intermediaries. Fair approach.",
+        "target": "Seguimos preparando nossa abordagem direta, sem depender das apresentações do programa."
+      },
+      "[\"marketing\",\"emma\",26,\"intro\"]": {
+        "source": "A Lisbon firm we met at a conference is assembling a consortium for a European grant bid and wants us as its AI partner. Horizon Europe consortia need members from several countries, and since association UK firms can join again. Nobody gets rich on the money: the grant reimburses the costs of the work it commissions. What a small firm gains is the network, the credibility of a European bid with our name on it, and a seat at tables we could not book ourselves. The price is in the consortium agreement: months of coordination calls, Brussels-grade reporting, and a clause on who owns what we build together.",
+        "target": "Um negócio fictício que conhecemos num encontro está preparando uma proposta conjunta de atendimento e quer nossa participação. A preparação envolve meses de reuniões, divisão de tarefas e um combinado sobre o uso dos materiais produzidos em conjunto."
+      },
+      "[\"marketing\",\"emma\",26,\"aside\"]": {
+        "source": "European money comes with European meetings.",
+        "target": "Uma proposta conjunta pode abrir contatos, mas também ocupa a agenda. Quero entender nossa parte do trabalho e o que ficará combinado sobre os materiais, sem presumir um recebimento de caixa."
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",0,\"text\"]": {
+        "source": "Join as a full partner, help shape the bid",
+        "target": "Participar da preparação e ajudar a definir a proposta"
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Months of calls and one trip to Lisbon, and our name on a European bid. Win or lose, three partners now know our work.",
+        "target": "Foram meses de reuniões e uma visita de trabalho. Nosso nome entrou na proposta e, independentemente do resultado, três parceiros passaram a conhecer melhor nosso atendimento."
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",1,\"text\"]": {
+        "source": "Join as a minor partner: less say, less work",
+        "target": "Participar com uma parte menor do trabalho e das decisões"
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",1,\"reaction\"]": {
+        "source": "A modest work package with our name on it. The coordination calls happen mostly without us.",
+        "target": "Assumimos tarefas delimitadas e aparecemos na proposta conjunta. A maior parte da coordenação ficou com os outros participantes."
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",2,\"text\"]": {
+        "source": "Decline: the IP clause is too vague",
+        "target": "Recusar porque o combinado sobre os materiais está pouco claro"
+      },
+      "[\"marketing\",\"emma\",26,\"choices\",2,\"reaction\"]": {
+        "source": "The consortium finds another AI partner. We keep our code and our calendar.",
+        "target": "Não entramos na proposta. Mantivemos os materiais conosco e usamos o espaço da agenda para melhorar nossa própria organização."
+      },
+      "[\"marketing\",\"emma\",27,\"intro\"]": {
+        "source": "The Polish AI Society is hosting their annual conference in Warsaw, and they've offered us a keynote slot. Poland's tech scene has matured rapidly—serious research at Jagiellonian and Warsaw universities, growing startup ecosystem, and Central European enterprises looking for AI partners. The conference draws CTOs from across the Visegrád countries.",
+        "target": "Um encontro fictício de negócios de outra região nos convidou para fazer a apresentação de abertura. Participar pode aproximar nosso atendimento de clientes que ainda conhecemos pouco. Vamos aceitar o convite?"
+      },
+      "[\"marketing\",\"emma\",27,\"aside\"]": {
+        "source": "Central Europe is often overlooked, but the technical talent is exceptional and the enterprises are digitising fast. A keynote in Warsaw signals we take the region seriously. The Poles appreciate directness—no hand-waving allowed.",
+        "target": "Uma apresentação pode mostrar interesse por essa região, mas as conversas depois da fala também exigem atenção. Quero decidir quanto tempo conseguimos dedicar ao encontro."
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",0,\"text\"]": {
+        "source": "Accept keynote and stay for networking day",
+        "target": "Fazer a abertura e ficar para o dia de conversas comerciais"
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Visibility across Central Europe. The conversations after the talk are where deals start.",
+        "target": "Apresentamos nossa experiência e aprendemos com as conversas que vieram depois. A presença ajudou a aproximar nosso atendimento de outros negócios."
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",1,\"text\"]": {
+        "source": "Give the keynote, return same day",
+        "target": "Fazer a apresentação e voltar no mesmo dia"
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",1,\"reaction\"]": {
+        "source": "Make the impression, limit the time commitment.",
+        "target": "Deixamos uma apresentação do nosso atendimento e aproveitamos parte das conversas, com um compromisso menor de tempo."
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",2,\"text\"]": {
+        "source": "Decline—Central Europe can wait",
+        "target": "Recusar e priorizar os mercados que já atendemos"
+      },
+      "[\"marketing\",\"emma\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise markets we're already in. Understood.",
+        "target": "Mantivemos o esforço na organização do atendimento para os clientes e mercados que já conhecemos."
+      }
+    }
+  }
+}

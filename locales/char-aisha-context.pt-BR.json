@@ -1,0 +1,295 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de organização, convivência e cuidados com a rotina, sem criar benefícios, direitos ou garantias",
+    "strings": {
+      "[\"hr\",\"aisha\",0,\"intro\"]": {
+        "source": "I lost two candidates this month before we'd even spoken. One had never heard of us. The other thought we'd gone under. Good engineers pick companies they recognise, and right now nobody recognises us.",
+        "target": "Perdemos duas pessoas candidatas neste mês antes mesmo de conversar. Uma nunca tinha ouvido falar da organização; a outra achava que tínhamos encerrado as atividades. Quem tem experiência procura lugares que conhece, e quase ninguém nos reconhece."
+      },
+      "[\"hr\",\"aisha\",0,\"aside\"]": {
+        "source": "People apply to companies they've already heard good things about. At the moment they're hearing nothing about us.",
+        "target": "As pessoas procuram organizações sobre as quais já ouviram algo bom. Por enquanto, quase não ouvem falar de nós."
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",0,\"text\"]": {
+        "source": "Employer branding campaign",
+        "target": "Apresentar a organização e sua rotina de trabalho"
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Make noise. Get on radar.",
+        "target": "Dar visibilidade ao trabalho e despertar interesse."
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",1,\"text\"]": {
+        "source": "Tech community content strategy",
+        "target": "Compartilhar experiências com a comunidade profissional"
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Slow build but authentic.",
+        "target": "Construir reconhecimento aos poucos, com relatos autênticos."
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",2,\"text\"]": {
+        "source": "Focus on direct outreach",
+        "target": "Conversar diretamente com possíveis interessados"
+      },
+      "[\"hr\",\"aisha\",0,\"choices\",2,\"reaction\"]": {
+        "source": "One by one. Doesn't scale.",
+        "target": "Uma conversa de cada vez. O alcance continua limitado."
+      },
+      "[\"hr\",\"aisha\",1,\"intro\"]": {
+        "source": "The nearest university's careers fair is next month, and their computing graduates get offers from everyone. We could stand at a booth between a bank and a games studio and make our case.",
+        "target": "A feira de carreiras da instituição de ensino mais próxima será no mês que vem. Seus formandos recebem muitas propostas. Podemos apresentar nossa organização entre os demais expositores e explicar como trabalhamos."
+      },
+      "[\"hr\",\"aisha\",1,\"aside\"]": {
+        "source": "Graduates cost less and know less. The trade is time.",
+        "target": "Quem está começando precisa de mais orientação. A troca envolve tempo de acompanhamento."
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",0,\"text\"]": {
+        "source": "A proper stand, talks, and a small project prize",
+        "target": "Preparar um espaço, conversas e um pequeno prêmio por projeto"
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",0,\"reaction\"]": {
+        "source": "The good ones remember the prize, not the lanyards.",
+        "target": "Os bons projetos ficam na memória, mais do que os brindes."
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",1,\"text\"]": {
+        "source": "Turn up, talk, hand out nothing",
+        "target": "Participar apenas das conversas, sem distribuir materiais"
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper. Two decent conversations and a pile of CVs.",
+        "target": "Menor gasto. Duas boas conversas e vários currículos."
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",2,\"text\"]": {
+        "source": "Skip it; hire experienced people",
+        "target": "Deixar a feira de lado e procurar pessoas experientes"
+      },
+      "[\"hr\",\"aisha\",1,\"choices\",2,\"reaction\"]": {
+        "source": "No graduates, no training load. The payroll stays senior.",
+        "target": "Sem iniciantes, há menos orientação inicial. A equipe continua experiente."
+      },
+      "[\"hr\",\"aisha\",2,\"intro\"]": {
+        "source": "The workload has outgrown us, and we are debating our first hire. Our product lead wants a desk filled by Friday; our research lead says the bar is the bar, however long the search runs.",
+        "target": "O volume de trabalho cresceu e discutimos a primeira contratação. Quem coordena o atendimento quer alguém até sexta-feira; quem conduz a análise insiste em manter os critérios, mesmo que a busca demore."
+      },
+      "[\"hr\",\"aisha\",2,\"aside\"]": {
+        "source": "One bad hire costs three good ones in time and morale.",
+        "target": "Uma contratação mal escolhida pode consumir o tempo e o ânimo de três boas pessoas da equipe."
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",0,\"text\"]": {
+        "source": "Maintain bar, invest in pipeline",
+        "target": "Manter os critérios e ampliar a busca"
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Quality compounds. Worth the wait.",
+        "target": "A qualidade se acumula. Vale esperar e continuar procurando."
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",1,\"text\"]": {
+        "source": "Slightly lower bar with mentorship",
+        "target": "Flexibilizar um pouco os critérios e acompanhar a formação"
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Grow talent internally. More work.",
+        "target": "Desenvolver a pessoa dentro da equipe exige mais acompanhamento."
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",2,\"text\"]": {
+        "source": "Lower bar—need bodies",
+        "target": "Reduzir bastante os critérios para preencher a vaga"
+      },
+      "[\"hr\",\"aisha\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Technical debt in human form.",
+        "target": "A cooperação melhora com a chegada, mas perdemos preparo para o atendimento e cresce o desânimo."
+      },
+      "[\"hr\",\"aisha\",3,\"intro\"]": {
+        "source": "The salary threshold for Skilled Worker visas just went up again—now £38,700 for most roles, or the 'going rate' for the job, whichever is higher. The next role we want to fill pays £35,000, which was fine last year. Now we can't sponsor anyone for those positions unless we raise salaries or find a workaround.",
+        "target": "A organização reviu o planejamento de preparação das novas pessoas da equipe. A próxima função foi pensada para uma rotina mais simples, mas agora exige mais acompanhamento e recursos. Podemos ampliar a preparação, reorganizar as atividades ou limitar a busca a quem já domina essa rotina."
+      },
+      "[\"hr\",\"aisha\",3,\"aside\"]": {
+        "source": "Immigration policy keeps changing. The salary thresholds are meant to ensure migrants aren't undercutting local workers, but they also make it hard to hire junior international talent. Some companies restructure roles; others just don't hire internationally for those positions.",
+        "target": "Planejamento e preparação nem sempre avançam juntos. Reorganizar atividades pode ajudar, mas exige cuidado para não deixar necessidades importantes sem atendimento."
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",0,\"text\"]": {
+        "source": "Raise salaries to meet threshold",
+        "target": "Ampliar os recursos de preparação e acompanhamento"
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",0,\"reaction\"]": {
+        "source": "More expensive but we can sponsor. Might need to raise for everyone.",
+        "target": "Melhora a capacidade da equipe, com perda adicional de caixa além do custo da ação. Talvez outras funções também precisem de mais recursos."
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",1,\"text\"]": {
+        "source": "Restructure roles to qualify for lower thresholds",
+        "target": "Reorganizar as atividades conforme a preparação disponível"
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Some roles have different rules. Takes creativity and compliance risk.",
+        "target": "Há outras formas de distribuir o trabalho. Exigem cuidado para não criar lacunas na rotina."
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",2,\"text\"]": {
+        "source": "Only hire UK/settled workers for junior roles",
+        "target": "Buscar apenas pessoas já preparadas para a rotina atual"
+      },
+      "[\"hr\",\"aisha\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Simpler compliance. Focus sponsorship on senior roles.",
+        "target": "A preparação fica mais simples. O acompanhamento mais amplo fica para as funções de maior responsabilidade."
+      },
+      "[\"hr\",\"aisha\",4,\"intro\"]": {
+        "source": "One of our EU developers came to the UK before Brexit and applied for settled status, but his application has been stuck in a backlog for over a year. He has a 'certificate of application' that lets him keep working, but he's nervous about travelling, renting a flat, or even opening a bank account. The uncertainty is affecting his work.",
+        "target": "Uma pessoa da equipe aguarda há mais de um ano uma definição sobre seus registros internos de trabalho. Há uma confirmação provisória da organização, mas a incerteza dificulta planejar a rotina e está afetando sua preparação para o atendimento."
+      },
+      "[\"hr\",\"aisha\",4,\"aside\"]": {
+        "source": "Millions of EU citizens applied for settled status. Most got it quickly, but some are stuck in limbo—technically legal but unable to prove it easily. It's a strange bureaucratic purgatory that affects real people's lives.",
+        "target": "Uma pendência administrativa pode se prolongar e tornar difícil explicar uma situação que a equipe já conhece. A incerteza pesa na vida cotidiana."
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",0,\"text\"]": {
+        "source": "Help him escalate with immigration lawyers",
+        "target": "Ajudar a levar a pendência à coordenação responsável"
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Company investment in his situation. Shows we care.",
+        "target": "A organização dedica recursos à situação e mostra que se importa."
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",1,\"text\"]": {
+        "source": "Write a strong employer support letter",
+        "target": "Preparar um relato claro de apoio da organização"
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Sometimes helps. Sometimes doesn't. Worth trying.",
+        "target": "Pode ajudar ou não. Vale apresentar a situação com clareza."
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",2,\"text\"]": {
+        "source": "Reassure him but this is his issue to manage",
+        "target": "Oferecer apoio, deixando o acompanhamento com a pessoa"
+      },
+      "[\"hr\",\"aisha\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Trust him. He handles it.",
+        "target": "Confiamos na pessoa para acompanhar a pendência."
+      },
+      "[\"hr\",\"aisha\",5,\"intro\"]": {
+        "source": "Our Head of Product is Brazilian, here on a Skilled Worker visa we sponsor. She's been offered a chance to lead a project in our potential São Paulo office for six months. But leaving the UK for that long might affect her path to settlement—she needs to be physically present in the UK for a certain number of days. She's torn between the career opportunity and her immigration timeline.",
+        "target": "A responsável pelo atendimento recebeu a oportunidade de conduzir por seis meses um projeto em uma possível unidade de São Paulo. Mas essa ausência pode atrapalhar seu acompanhamento e sua continuidade na equipe atual. Ela está dividida entre a oportunidade e o caminho que vinha construindo."
+      },
+      "[\"hr\",\"aisha\",5,\"aside\"]": {
+        "source": "Visa rules create invisible constraints on careers. Time out of the country can reset settlement clocks. Some employees turn down opportunities to protect their immigration status. It's a factor that never appears in org charts.",
+        "target": "A organização da rotina cria limites pouco visíveis. Um período longe pode interromper o acompanhamento, e algumas pessoas recusam oportunidades para preservar a continuidade do trabalho."
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",0,\"text\"]": {
+        "source": "Find a way to structure it that protects her status",
+        "target": "Organizar o projeto preservando o acompanhamento na equipe"
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Creative solution. Might involve more trips back and forth.",
+        "target": "Buscar uma solução pode exigir mais viagens de ida e volta."
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",1,\"text\"]": {
+        "source": "Let her choose—explain the trade-offs clearly",
+        "target": "Deixar que ela escolha, explicando as alternativas"
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Informed decision. Might lose her to the project or to frustration.",
+        "target": "Ela decide com informação. Pode escolher o projeto ou ficar frustrada com os limites."
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",2,\"text\"]": {
+        "source": "Send someone with simpler immigration status",
+        "target": "Enviar alguém com disponibilidade mais simples"
+      },
+      "[\"hr\",\"aisha\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Easier logistics. Trip goes smoothly.",
+        "target": "A organização da viagem fica mais fácil e o projeto transcorre bem."
+      },
+      "[\"hr\",\"aisha\",6,\"intro\"]": {
+        "source": "Our WorkReview rating is 3.1 stars. Candidates are asking about it. The reviews mention long hours, unclear career paths, and 'bro culture'. Some of this is outdated—we've changed—but the old reviews drag down the average. New candidates see it before they see us.",
+        "target": "Um relato fictício sobre a organização recebeu três vírgula uma estrelas. Pessoas candidatas perguntam sobre as jornadas longas, a falta de clareza sobre oportunidades e o ambiente de grupo fechado descritos nele. Parte disso mudou, mas as impressões antigas continuam pesando."
+      },
+      "[\"hr\",\"aisha\",6,\"aside\"]": {
+        "source": "First impressions happen on WorkReview before you ever meet a candidate. A low rating means your best prospects might never apply. But you can't delete history, only write new chapters.",
+        "target": "A primeira impressão pode surgir antes da conversa. Uma avaliação baixa afasta interessados; não podemos apagar o passado, mas podemos explicar o que mudou."
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",0,\"text\"]": {
+        "source": "Address it head-on in interviews",
+        "target": "Conversar abertamente sobre o relato nas entrevistas"
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Acknowledge the past, explain what's changed. Honest.",
+        "target": "Reconhecer o passado e explicar as mudanças com honestidade."
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",1,\"text\"]": {
+        "source": "Encourage recent hires to share their experience",
+        "target": "Convidar quem chegou recentemente a relatar sua experiência"
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Fresh voices. If they're genuinely happy, it'll show.",
+        "target": "Ouvir experiências espontâneas, sem orientar o conteúdo nem exigir participação."
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",2,\"text\"]": {
+        "source": "Hope candidates don't check WorkReview",
+        "target": "Esperar que as pessoas candidatas não conheçam o relato"
+      },
+      "[\"hr\",\"aisha\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on in-person experience instead.",
+        "target": "Concentrar o esforço na experiência durante as conversas presenciais."
+      },
+      "[\"hr\",\"aisha\",7,\"intro\"]": {
+        "source": "Katarzyna, our senior ML engineer, just got her Skilled Worker visa renewal rejected on a technicality. She's Polish, been with us since the beginning, and knows our codebase better than anyone. The Home Office says she can appeal, but it'll take months and she can't work during that time. She's considering just taking an offer from a Berlin startup instead of fighting it.",
+        "target": "Uma pessoa experiente, que organiza o atendimento desde o início do negócio, teve sua participação interrompida por um erro nos registros internos desta situação fictícia. A revisão e a reorganização podem levar meses. Enquanto espera, ela considera aceitar uma proposta de outro empreendimento em vez de insistir na solução do impasse."
+      },
+      "[\"hr\",\"aisha\",7,\"aside\"]": {
+        "source": "This is the post-Brexit reality. EU nationals who built UK tech companies now need expensive visas, and the system makes mistakes. We could lose institutional knowledge that took years to build, or fight to keep her.",
+        "target": "Ela conhece a rotina e guarda aprendizados construídos ao longo dos anos. Podemos dar prioridade à reorganização para tentar manter sua participação ou aceitar a saída e preparar a passagem das tarefas. O problema narrado é interno, sem autoridade pública ou autorização para trabalhar."
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",0,\"text\"]": {
+        "source": "Fight the appeal and pay for premium legal support",
+        "target": "Priorizar a revisão dos registros com apoio administrativo dedicado"
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",0,\"reaction\"]": {
+        "source": "She's worth it. I'll make sure she knows we're in her corner.",
+        "target": "Vamos mostrar que reconhecemos sua contribuição e que estamos ao lado dela na tentativa de reorganizar sua participação."
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",1,\"text\"]": {
+        "source": "Support her through the standard appeal process",
+        "target": "Acompanhar a revisão pelo procedimento interno habitual"
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",1,\"reaction\"]": {
+        "source": "It'll take longer but costs less. She'll need patience.",
+        "target": "O caminho exige menos esforço de organização imediata, mas pode levar mais tempo. Ela precisará de paciência enquanto o impasse é tratado."
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",2,\"text\"]": {
+        "source": "Accept her resignation with good references",
+        "target": "Aceitar a saída e ajudar na passagem das tarefas"
+      },
+      "[\"hr\",\"aisha\",7,\"choices\",2,\"reaction\"]": {
+        "source": "She understands. But we lose someone irreplaceable.",
+        "target": "Ela compreende a decisão, mas perdemos bastante da cooperação e da preparação do atendimento. A saída causa forte desânimo e tensão na equipe."
+      },
+      "[\"hr\",\"aisha\",8,\"intro\"]": {
+        "source": "Our lead data scientist—German, been with us three years—just told me BMW's AI division approached him at a conference. They're offering Munich, no visa worries, and a salary we can't match. He hasn't decided, but he's frustrated that his settled status application is still pending after eighteen months. He wants to know we value him.",
+        "target": "Uma pessoa que ajuda a preparar o atendimento há três anos contou que recebeu uma proposta de outro empreendimento durante um encontro. A oferta traz uma organização mais clara e condições que não conseguimos acompanhar. Sua revisão de responsabilidades aqui está pendente há dezoito meses. Ela ainda não decidiu sair e quer saber se reconhecemos sua contribuição."
+      },
+      "[\"hr\",\"aisha\",8,\"aside\"]": {
+        "source": "This is the quiet exodus. EU nationals who built their careers here are doing the maths: same work, less bureaucracy, often more money. We can't change the politics, but we can show him he matters.",
+        "target": "Não conseguimos mudar todas as condições oferecidas por outro negócio. Podemos ouvir suas preocupações e explicar como imaginamos sua participação no futuro, sem prometer pagamentos, participação no negócio ou mudanças que não temos condições de organizar."
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",0,\"text\"]": {
+        "source": "Counter with equity refresh and clear promotion path",
+        "target": "Rever o reconhecimento das contribuições e esclarecer um caminho de responsabilidades"
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",0,\"reaction\"]": {
+        "source": "I'll put together something meaningful. He needs to see his future here.",
+        "target": "Vou preparar uma conversa e uma proposta de organização que tenham sentido para ela. A pessoa precisa conseguir enxergar como poderá contribuir e crescer em responsabilidades aqui."
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",1,\"text\"]": {
+        "source": "Have an honest conversation about his concerns",
+        "target": "Conversar com franqueza sobre suas preocupações"
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Sometimes people just need to feel heard. Costs nothing but time.",
+        "target": "Ouvir com atenção pode esclarecer o que ela precisa para tomar a decisão. Vamos dedicar tempo à conversa sem garantir que isso mude sua escolha."
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",2,\"text\"]": {
+        "source": "Wish him well if he decides to leave",
+        "target": "Desejar uma boa continuidade se a pessoa decidir sair"
+      },
+      "[\"hr\",\"aisha\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Sometimes you can't compete with a car company. Start transition planning.",
+        "target": "Começamos a organizar a transição. Perdemos parte da cooperação e da preparação do atendimento, e a saída causa desânimo na equipe."
+      }
+    }
+  }
+}

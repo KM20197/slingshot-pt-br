@@ -1,0 +1,354 @@
+<script>
+class Game {
+renderExecRow() {    if (SlingshotOperationalDecisions.enabled(this)) return SlingshotOperationalDecisions.renderExecRow(this);
+
+    const domains = this.team.hr ? ["research", "dev", "marketing", "hr"] : ["research", "dev", "marketing"];
+    const colors = { research: "emerald", dev: "sky", marketing: "fuchsia", hr: "amber" };
+    const labels = SlingshotManagement.roles;
+    const emojis = { research: "🔬", dev: "💻", marketing: "📣", hr: "👥" };
+
+    document.getElementById("execRow").innerHTML = domains.map(d => {
+      const exec = this.team[d];
+      if (!exec) return "";
+      const active = this.currentDomain === d;
+      const choice = this.choices[d];
+      const done = choice !== undefined;
+      const passed = choice === -1;
+      const mood = this.moods[d];
+      const moodClass = this.extremeMode ? "mood-neutral" : (mood >= 2 ? "mood-happy" : mood >= 0 ? "mood-neutral" : mood >= -1 ? "mood-frustrated" : "mood-upset");
+      const moodEmoji = this.extremeMode ? "🔥" : (mood >= 2 ? "😊" : mood >= 0 ? "😐" : mood >= -1 ? "😟" : "😠");
+      const color = colors[d];
+
+      return `
+        <button onclick="game.selectDomain('${d}')" class="p-3 rounded-xl text-center transition-all ${active ? 'bg-'+color+'-50 ring-2 ring-'+color+'-500' : 'hover:bg-slate-50'}">
+          <div class="exec-portrait mx-auto mb-2 relative ${moodClass} border-2 border-${color}-400">
+            <div class="mood-ring"></div>
+            ${renderAvatar(exec.avatar, exec.name)}
+          </div>
+          <div class="text-sm font-medium text-slate-800">${exec.name.split(" ").pop()}</div>
+          <div class="text-xs text-${color}-600">${emojis[d]} ${labels[d]}</div>
+          <div class="flex justify-center gap-1 mt-1">
+            <span title="${this.extremeMode ? 'Mood hidden in Extreme Mode' : ''}">${moodEmoji}</span>
+            ${passed ? '<span class="text-slate-400">⏭</span>' : done ? '<span class="text-emerald-500">✓</span>' : ''}
+          </div>
+        </button>
+      `;
+    }).join("");
+  }
+
+renderDecision() {    if (SlingshotOperationalDecisions.enabled(this)) return SlingshotOperationalDecisions.renderDecision(this);
+
+    const d = this.currentDomain;
+    const exec = this.team[d];
+    const eventData = this.currentEvents[d];
+    const event = eventData?.event;
+    const container = document.getElementById("decisionArea");
+    
+    if (!exec || !event) {
+      container.innerHTML = `<div class="flex items-center justify-center h-full text-slate-400">No decision pending</div>`;
+      return;
+    }
+    
+    // === HASTY DECISION: Record when this event was shown ===
+    // Only reset timestamp if we're switching to a new domain
+    if (this.decisionTiming.currentDomain !== d) {
+      this.decisionTiming.currentEventShownAt = Date.now();
+      this.decisionTiming.currentDomain = d;
+    }
+
+    const colors = { research: "emerald", dev: "sky", marketing: "fuchsia", hr: "amber" };
+    const colorHex = { research: "#10b981", dev: "#0ea5e9", marketing: "#d946ef", hr: "#f59e0b" };
+    const labels = { research: "Research", dev: "Product", marketing: "Sales & Marketing", hr: "People" };
+    const emojis = { research: "🔬", dev: "💻", marketing: "📣", hr: "👥" };
+    const color = colors[d];
+    const selected = this.choices[d];
+    
+    // Check for investor conflicts on this domain
+    const domainAdvices = this.funderAdvices.filter(a => a.domain === d);
+    const uniqueChoices = [...new Set(domainAdvices.map(a => a.recommendedChoice))];
+    const hasConflict = uniqueChoices.length > 1;
+    
+    // Show/hide conflict warning
+    const cw = document.getElementById("conflictWarning");
+    if (cw) cw.classList.toggle("hidden", !hasConflict);
+
+    container.innerHTML = `
+      <!-- Event Header -->
+      <div class="bg-gradient-to-r from-${color}-500 to-${color}-600 p-4 text-white">
+        <div class="flex items-center gap-2 text-${color}-100 text-sm mb-1">
+          <span>${emojis[d]} ${labels[d].toUpperCase()} DECISION</span>
+          <span>•</span>
+          <span>Q${this.quarter} Year ${this.year}</span>
+        </div>
+        <h3 class="text-xl font-bold">${event.title || this.generateEventTitle(event, d)}</h3>
+      </div>
+      
+      <!-- Executive presenting the situation -->
+      <div class="p-4 border-b border-slate-100">
+        <div class="flex items-start gap-4">
+          <div class="exec-portrait-lg border-4 border-${color}-200 flex-shrink-0">
+            ${renderAvatar(exec.avatar, exec.name)}
+          </div>
+          <div class="flex-1">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-bold text-slate-800">${exec.name}</span>
+              <span class="text-xs bg-${color}-100 text-${color}-700 px-2 py-0.5 rounded-full">${exec.title}</span>
+            </div>
+            <div class="bg-slate-50 rounded-lg p-3 border-l-4 border-${color}-400">
+              <p class="text-slate-700">"${localizeText(event.intro)}"</p>
+              <p class="text-slate-500 text-sm mt-2 italic">"${localizeText(event.aside)}"</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Choices with integrated advisor opinions -->
+      <div class="p-4">
+        <h4 class="text-sm font-bold text-slate-500 uppercase tracking-wide mb-3">Your Options</h4>
+        
+        <div class="space-y-4">
+          ${event.choices
+            .map((c, i) => ({ choice: c, originalIndex: i }))
+            .sort((a, b) => (b.choice.ap || 0) - (a.choice.ap || 0))
+            .map(({ choice: c, originalIndex: i }) => {
+            // Find all funders with opinions on this choice
+            const supporting = this.funderAdvices.filter(a => a.domain === d && a.recommendedChoice === i);
+            const opposing = hasConflict ? this.funderAdvices.filter(a => a.domain === d && a.recommendedChoice !== i) : [];
+            const isRecommended = supporting.length > 0;
+            const isSelected = selected === i;
+            
+            // Use reaction text from choice data - unique per choice
+            const choiceDesc = c.reaction || 'Consider this option carefully.';
+            
+            return `
+            <div class="decision-option border-2 ${isSelected ? 'border-indigo-400 bg-emerald-50/30' : isRecommended ? 'border-amber-300' : 'border-slate-200'} rounded-xl overflow-hidden transition-all hover:border-slate-300" data-choice-index="${i}">
+              <!-- Locked badge (shown via CSS when locked-in) -->
+              <div class="locked-badge hidden absolute top-2 right-2 bg-emerald-500 text-white text-xs px-2 py-1 rounded-full font-medium z-10">
+                ✓ Locked In
+              </div>
+              <div class="p-4 bg-white relative">
+                <div class="flex items-start gap-3">
+                  <div class="w-14 h-12 rounded-lg flex flex-col items-center justify-center bg-slate-100 text-slate-600">
+                    <span class="text-lg font-bold">${c.ap}</span>
+                    <span class="text-[10px] font-medium">AP</span>
+                  </div>
+                  <div class="flex-1">
+                    <div class="font-semibold text-slate-800 mb-1">${localizeText(c.text)}</div>
+                    <p class="text-sm text-slate-600 mb-2">${localizeText(choiceDesc)}</p>
+                    <div class="flex flex-wrap gap-2 text-xs">
+                      <span class="bg-slate-100 text-slate-600 px-2 py-1 rounded">${getRegion().currency}${Math.round(c.cost * getRegion().currencyMultiplier)}k</span>
+                      ${!this.extremeMode ? this.renderEffectBadges(c) : '<span class="bg-slate-100 text-slate-500 px-2 py-1 rounded">🔥 Effects hidden</span>'}
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              ${!this.extremeMode && supporting.length > 0 ? `
+              <!-- Advisor recommendations -->
+              <div class="border-t border-amber-200">
+                ${supporting.map(advice => `
+                <div class="bg-amber-50 p-3 ${supporting.indexOf(advice) < supporting.length - 1 ? 'border-b border-amber-100' : ''}">
+                  <div class="flex items-start gap-3">
+                    <div class="w-10 h-10 rounded-full overflow-hidden border-2 border-amber-300 flex-shrink-0">
+                      ${advice.funder?.photo || '<div class="w-full h-full bg-amber-200 flex items-center justify-center">💼</div>'}
+                    </div>
+                    <div class="flex-1">
+                      <div class="flex items-center gap-2 mb-1 flex-wrap">
+                        <span class="font-bold text-amber-800 text-sm">${advice.funderName}</span>
+                        <span class="text-xs bg-amber-200 text-amber-800 px-2 py-0.5 rounded-full">${this.getFunderTypeLabel(advice.funderId)}</span>
+                        ${hasConflict ? '<span class="text-xs text-emerald-600 font-medium">👍 RECOMMENDS</span>' : ''}
+                      </div>
+                      <p class="text-sm text-amber-900">${advice.text} ${advice.reason ? advice.reason : ''}</p>
+                    </div>
+                  </div>
+                </div>
+                `).join('')}
+              </div>
+              ` : ''}
+              
+              <div class="p-3 bg-slate-50 border-t">
+                <button onclick="game.confirmChoice('${d}', ${i})" class="w-full py-2 px-4 ${isSelected ? 'bg-emerald-500 text-white' : 'bg-white hover:bg-emerald-500 hover:text-white border border-slate-200'} rounded-lg font-medium transition-all">
+                  ${isSelected ? '✓ Selected' : 'Choose This Option'}
+                </button>
+              </div>
+            </div>
+          `}).join("")}
+          
+          <!-- Pass Option -->
+          <div class="decision-option border-2 border-dashed ${selected === -1 ? 'border-slate-400 bg-slate-100' : 'border-slate-300'} rounded-xl overflow-hidden" data-choice-index="-1">
+            <div class="p-4 bg-slate-50">
+              <div class="flex items-start gap-3">
+                <div class="w-14 h-12 rounded-lg flex flex-col items-center justify-center bg-slate-200 text-slate-500">
+                  <span class="text-lg font-bold">0</span>
+                  <span class="text-[10px] font-medium">AP</span>
+                </div>
+                <div class="flex-1">
+                  <div class="font-semibold text-slate-600 mb-1">Pass this quarter</div>
+                  <p class="text-sm text-slate-500 mb-2">Focus your attention elsewhere. Small setback in this area.</p>
+                  <div class="flex flex-wrap gap-2 text-xs">
+                    <span class="bg-red-50 text-red-600 px-2 py-1 rounded">↓ ${d === 'research' ? 'Research' : d === 'dev' ? 'Product' : d === 'marketing' ? 'Sales & Marketing' : 'People'} (-1)</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="p-3 bg-slate-100 border-t border-slate-200">
+              <button onclick="game.confirmChoice('${d}', -1)" class="w-full py-2 px-4 ${selected === -1 ? 'bg-slate-500 text-white' : 'bg-white hover:bg-slate-400 hover:text-white border border-slate-300'} rounded-lg font-medium transition-all">
+                ${selected === -1 ? '✓ Passing' : 'Skip This Quarter'}
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+
+generateEventTitle(event, domain) {
+    // Generate a descriptive title based on the event intro
+    const intro = event.intro.toLowerCase();
+    if (intro.includes('research') || intro.includes('science')) return 'Advancing Research Capabilities';
+    if (intro.includes('product') || intro.includes('feature')) return 'Product Development Decision';
+    if (intro.includes('market') || intro.includes('sales')) return 'Market Expansion Strategy';
+    if (intro.includes('team') || intro.includes('hire')) return 'Team Growth Decision';
+    if (intro.includes('partner')) return 'Strategic Partnership Opportunity';
+    if (intro.includes('customer')) return 'Customer Acquisition Strategy';
+    if (intro.includes('cost') || intro.includes('budget')) return 'Resource Allocation';
+    return 'Strategic Decision Required';
+  }
+
+generateChoiceDescription(choice, domain) {
+    // Generate a description based on the choice text and AP cost
+    const text = choice.text.toLowerCase();
+    const ap = choice.ap || 1;
+    
+    // Check for key themes in the choice text first
+    if (text.includes('university') || text.includes('academic')) {
+      return ap === 1 ? 'Light-touch academic collaboration. Builds credibility over time.' :
+             'Deep academic partnership. Takes attention but builds lasting credibility.';
+    }
+    if (text.includes('hire') || text.includes('recruit')) {
+      return ap >= 3 ? 'Major hiring push. Transforms your capabilities.' :
+             'Targeted hire. Bring in specific expertise.';
+    }
+    if (text.includes('acquire') || text.includes('buy')) {
+      return 'Acquisition play. Expensive but instant capability.';
+    }
+    if (text.includes('partner') && !text.includes('university')) {
+      return ap >= 3 ? 'Strategic partnership. High potential, shared control.' :
+             'Tactical partnership. Quick to set up, limited scope.';
+    }
+    if (text.includes('outsource') || text.includes('contractor')) {
+      return 'External resources. Fast and flexible.';
+    }
+    if (text.includes('train') || text.includes('develop')) {
+      return 'Team development. Builds long-term strength.';
+    }
+    
+    // AP-based descriptions - just describe the commitment level
+    if (ap >= 4) {
+      return 'Major commitment of attention and resources this quarter.';
+    } else if (ap === 3) {
+      return 'Significant focus required. A meaningful push forward.';
+    } else if (ap === 2) {
+      return 'Moderate commitment. Balanced use of attention.';
+    } else {
+      return 'Minimal attention required. Quick to execute.';
+    }
+  }
+
+getStatLabel(stat) {
+    const labels = { sci: 'Research', dev: 'Product', mkt: 'Sales & Marketing', hr: 'People', burn: 'Burn', val: 'Valuation', cash: 'Cash', equity: 'Equity' };
+    return labels[stat] || stat;
+  }
+
+generateImpactTags(choice, domain) {
+    const tags = [];
+    const eff = choice.eff || {};
+    const text = (choice.text || '').toLowerCase();
+    const ap = choice.ap || 0;
+    const cost = choice.cost || 0;
+    
+    // Speed vs Quality tradeoff
+    if (ap >= 4 || text.includes('aggressive') || text.includes('rush') || text.includes('fast')) {
+      tags.push({ label: '+Speed', type: 'positive', icon: '⚡' });
+    }
+    if (text.includes('careful') || text.includes('thorough') || text.includes('comprehensive')) {
+      tags.push({ label: '+Quality', type: 'positive', icon: '✨' });
+    }
+    
+    // Credibility
+    if (text.includes('university') || text.includes('academic') || text.includes('publish') || text.includes('paper')) {
+      tags.push({ label: '+Credibility', type: 'positive', icon: '🎓' });
+    }
+    if (text.includes('partner') || text.includes('enterprise') || text.includes('established')) {
+      tags.push({ label: '+Credibility', type: 'positive', icon: '🤝' });
+    }
+    
+    // Revenue potential
+    if (eff.mkt >= 4 || text.includes('sales') || text.includes('customer') || text.includes('revenue')) {
+      tags.push({ label: '+Revenue', type: 'positive', icon: '💰' });
+    }
+    if (text.includes('pricing') || text.includes('monetize') || text.includes('commercial')) {
+      tags.push({ label: 'Revenue Next Q', type: 'neutral', icon: '📈' });
+    }
+    
+    // Risk indicators
+    if (ap >= 4 || text.includes('risky') || text.includes('gamble') || text.includes('bet')) {
+      tags.push({ label: 'High Risk', type: 'warning', icon: '🎲' });
+    }
+    if (text.includes('aggressive') || text.includes('bold') || text.includes('ambitious')) {
+      tags.push({ label: 'Volatile', type: 'warning', icon: '📊' });
+    }
+    
+    // Cost impacts
+    if (cost >= 40 || (eff.burn && eff.burn > 0)) {
+      tags.push({ label: '−Runway', type: 'negative', icon: '⏱️' });
+    }
+    if (cost <= 10 && ap <= 2) {
+      tags.push({ label: 'Low Cost', type: 'positive', icon: '💚' });
+    }
+    
+    // Cash effects (one-time money impacts)
+    if (eff.cash && eff.cash > 0) {
+      if (eff.cash >= 50) {
+        tags.push({ label: '+Funding', type: 'positive', icon: '💰' });
+      } else {
+        tags.push({ label: '+Cash', type: 'positive', icon: '💵' });
+      }
+    }
+    if (eff.cash && eff.cash < 0) {
+      if (eff.cash <= -40) {
+        tags.push({ label: 'High Fees', type: 'negative', icon: '💸' });
+      } else {
+        tags.push({ label: 'Fees', type: 'warning', icon: '📋' });
+      }
+    }
+    
+    // Team impacts
+    if (eff.hr >= 3 || text.includes('team') || text.includes('culture') || text.includes('morale')) {
+      tags.push({ label: '+Team', type: 'positive', icon: '👥' });
+    }
+    if (eff.hr <= -2 || text.includes('layoff') || text.includes('fire') || text.includes('cut')) {
+      tags.push({ label: '−Morale', type: 'negative', icon: '😔' });
+    }
+    
+    // Long-term vs short-term
+    if (text.includes('foundation') || text.includes('invest') || text.includes('build') || text.includes('develop')) {
+      tags.push({ label: 'Long Game', type: 'neutral', icon: '🌱' });
+    }
+    if (text.includes('quick') || text.includes('immediate') || text.includes('now')) {
+      tags.push({ label: 'Quick Win', type: 'positive', icon: '🎯' });
+    }
+    
+    // Domain-specific tags
+    if (domain === 'research' && eff.sci >= 4) {
+      tags.push({ label: '+Innovation', type: 'positive', icon: '🔬' });
+    }
+    if (domain === 'dev' && eff.dev >= 4) {
+      tags.push({ label: '+Product', type: 'positive', icon: '🛠️' });
+    }
+    
+    // Limit to 3 most relevant tags
+    return tags.slice(0, 3);
+  }
+}
+</script>

@@ -1,0 +1,146 @@
+{
+  "goals": {
+    "icon": "🎯",
+    "title": "Objetivos e resultado",
+    "subtitle": "Gerir o negócio ao longo de 16 trimestres",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Conclua três metas dentro dos prazos e acompanhe o caixa. A partida dura até 16 trimestres. Uma meta perdida ou a falta de recursos pode encerrar o negócio.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">A nota acadêmica vai de 0 a 5: progresso nas metas, continuidade e capacidade financeira. Avaliação do negócio não é dinheiro disponível nem a própria nota.</p>"
+  },
+  "ap": {
+    "icon": "⏱️",
+    "title": "Pontos de atenção",
+    "subtitle": "Escolher prioridades em cada trimestre",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Os pontos de atenção limitam quantas ações de gestão você consegue executar. Compare o custo de cada decisão e reserve atenção para urgências.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">O Gerente de Pessoas amplia a capacidade de atenção após a primeira meta. Mais dinheiro não substitui tempo de gestão; assumir financiamento posterior também consome atenção.</p>"
+  },
+  "cards": {
+    "icon": "🗂️",
+    "title": "Decisões de gestão",
+    "subtitle": "Comparar custos e efeitos",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Leia a situação, o custo e os efeitos de cada opção. Operações e Qualidade, Produção e Serviços, Vendas e Marketing e Gestão de Pessoas precisam trabalhar em conjunto.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Compare o efeito imediato com as despesas futuras. Uma ação pode melhorar a qualidade e consumir caixa; outra pode acelerar vendas e pressionar a operação. Os números mostrados no cartão são os efeitos calculados.</p>"
+  },
+  "milestones": {
+    "icon": "🎯",
+    "title": "Metas do negócio",
+    "subtitle": "Requisitos, prazo e recompensa",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">A primeira escolha oferece processo-piloto, avaliação de qualidade fictícia ou contrato institucional. As exigências de competência e os prazos são diferentes.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">A conclusão depende dos indicadores exigidos e dos bônus do jogo. Aumento de avaliação e recompensa de caixa são apresentados separadamente. Um selo do cenário não é certificação, licença nem autorização real.</p>"
+  },
+  "competition": {
+    "icon": "📊",
+    "title": "Concorrência",
+    "subtitle": "Acompanhar o mercado",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Observe os indicadores e o avanço dos concorrentes fictícios. Uma estratégia que funciona em uma empresa pode ser inadequada para outra.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">As informações disponíveis dependem do conhecimento de mercado. Compare as capacidades em que a meta exige progresso; não decida apenas pelo nome ou tamanho do concorrente.</p>"
+  },
+  "pivots": {
+    "icon": "🧭",
+    "title": "Mudança de direção",
+    "subtitle": "Reavaliar a proposta e os recursos",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Mudar a direção do negócio pode abrir oportunidades, mas também consome recursos e exige reorganização. Leia os custos antes de confirmar.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Use resultados de vendas, capacidade de entrega e caixa para decidir. Adaptação do perfil ajuda a enfrentar mudanças; não elimina custos nem garante que a nova proposta terá procura.</p>"
+  },
+  "cash": {
+    "icon": "💰",
+    "title": "Caixa e despesas",
+    "subtitle": "Dinheiro disponível para pagar compromissos",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Caixa é o dinheiro disponível. Despesas fixas, folha de pagamento, decisões e parcelas reduzem esse saldo. Receita, lucro e avaliação do negócio são conceitos diferentes.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">A cidade altera salários e acrescenta uma despesa trimestral de ocupação. Compare entradas e saídas no mesmo período. Vendas futuras não pagam uma parcela que vence agora.</p>"
+  },
+  "revenue": {
+    "icon": "🧾",
+    "title": "Receita e resultado",
+    "subtitle": "Da venda à contribuição para o caixa",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Os casos descrevem atendimentos, mercadorias, mensalidades e pedidos. O demonstrativo calcula receita, custos variáveis e contribuição para as despesas fixas.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">O fornecimento e o encargo local simulado mudam os custos. No interior, novas oportunidades têm um trimestre adicional até a entrega e o faturamento. Avalie as contas antes de ampliar despesas permanentes.</p>"
+  },
+  "markets": {
+    "icon": "📍",
+    "title": "Mercado e localização",
+    "subtitle": "Comparar três cidades fictícias",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">A Metrópole Central oferece acesso comercial maior e salários mais altos. O Vale Industrial favorece produção e fornecimento industrial. A Capital do Interior reduz despesas fixas, mas encarece e atrasa o fornecimento.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Os cartões mostram os efeitos numéricos usados na simulação. Os incentivos industriais têm prazo; as condições didáticas de crédito são comuns às cidades. Não são estatísticas, alíquotas ou ofertas reais.</p>"
+  },
+  "team": {
+    "icon": "🗂️",
+    "title": "Equipe de gestão",
+    "subtitle": "Escolher competências complementares",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Escolha um Gerente Geral, um Supervisor de Operações e um Gerente Comercial. Cada função oferece três perfis com salários e bônus diferentes.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">A remuneração é salarial, sem participação societária. O valor mostrado já inclui o custo local. Após a primeira meta, o Gerente de Pessoas reforça a equipe e amplia os pontos de atenção.</p>"
+  },
+  "funding": {
+    "icon": "🏦",
+    "title": "Financiamento",
+    "subtitle": "Capital próprio e empréstimos",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Recursos próprios não têm parcelas de empréstimo. Crédito aumenta o caixa e cria uma dívida. Compare juros, prazo, total a pagar e responsabilidade antes de contratar.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">As modalidades didáticas são banco público, familiares, ONG elegível e crédito informal de alto risco. Dinheiro emprestado por familiares também é dívida. Esta versão não oferece cessão de participação para captar recursos.</p>"
+  },
+  "grants": {
+    "icon": "📄",
+    "title": "Fomento e elegibilidade",
+    "subtitle": "Verificar finalidade e condições",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Fomento não é dinheiro garantido. Uma proposta precisa atender à finalidade e aos critérios da modalidade. Formação ou experiência anterior não dispensa comprovação.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Crédito direcionado precisa ser devolvido; recursos não reembolsáveis têm outra lógica. A modalidade ONG exige finalidade compatível expressamente definida, não inferida do nome do negócio. Não use referências do cenário como orientação sobre programas reais.</p>"
+  },
+  "events": {
+    "icon": "⚡",
+    "title": "Eventos e imprevistos",
+    "subtitle": "Ajustar o plano durante a operação",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Mudanças de mercado, dificuldades com equipe e oportunidades inesperadas podem alterar as prioridades do trimestre. Leia os efeitos antes de escolher.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Mantenha reserva de caixa e capacidade de atendimento. Avalie os efeitos dos minijogos e eventos no negócio; um resultado favorável isolado não substitui uma operação sustentável.</p>"
+  },
+  "faq": {
+    "icon": "📋",
+    "title": "Aprender com a partida",
+    "subtitle": "Salvar, retomar e comparar decisões",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Salve a partida para retomá-la no mesmo estado. Use nomes e informações fictícias. O resultado acadêmico é exportado localmente para entrega ao docente.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Ao comparar partidas, registre perfil, empreendimento, cidade, equipe, metas e decisões. Resultados diferentes não provam causalidade sozinhos: há eventos e probabilidades no jogo.</p>"
+  },
+  "research": {
+    "icon": "📋",
+    "title": "Gerente Geral",
+    "subtitle": "Operações e Qualidade",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Acompanhe processos, padronização e qualidade do atendimento ou da produção. A função reúne competências para organizar a empresa e avaliar prioridades.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Rigor pode reduzir improvisação, mas excesso de controle retarda entregas. Compare as necessidades do empreendimento com os bônus e custos do perfil; nenhuma escolha constitui conformidade legal real.</p>"
+  },
+  "product": {
+    "icon": "⚙️",
+    "title": "Supervisor de Operações",
+    "subtitle": "Produção e prestação de serviços",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Organize o trabalho para cumprir prazos e reduzir falhas. No serviço, isso envolve atendimento; no comércio, operação da loja; na indústria, produção e entrega.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Capacidade, qualidade e custo precisam evoluir juntos. Ganhar pedidos sem capacidade para entregar pode prejudicar o resultado. Escolha um perfil que complemente o Gerente Geral.</p>"
+  },
+  "sales": {
+    "icon": "📣",
+    "title": "Gerente Comercial",
+    "subtitle": "Vendas e Marketing",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">Escolha entre negociação institucional, análise de crescimento e estratégia de marca. Considere quem compra e como o empreendimento recebe pelas vendas.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Negociação institucional, atendimento ao consumidor e posicionamento de marca exigem abordagens diferentes. O salário entra nas despesas fixas e os bônus contribuem para os indicadores da equipe.</p>"
+  },
+  "hr": {
+    "icon": "🗂️",
+    "title": "Gerente de Pessoas",
+    "subtitle": "Contratar, organizar e desenvolver a equipe",
+    "color": "from-indigo-500 to-blue-600",
+    "summary": "<p class=\"text-slate-700 leading-relaxed\">A função é liberada após a primeira meta. Compare organização de pessoas, formação e retenção, e recrutamento por competências.</p>",
+    "more": "<p class=\"text-slate-700 leading-relaxed\">Contrate uma vez para adicionar o salário e os bônus. A capacidade de atenção aumenta com a função. A cidade também influencia o interesse nas vagas; acompanhe as condições de trabalho e o custo total da equipe.</p>"
+  }
+}

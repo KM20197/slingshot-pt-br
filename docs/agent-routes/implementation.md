@@ -1,5 +1,7 @@
 # Rota de implementação
 
+Checkout: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`. Leia `docs/ESTADO_ATUAL.md`, o manual e o contrato delimitado de `docs/PROTOCOLO_OPENCODE.md`. Gemini e Codex coorquestram na transição. O worker não inventa autorização, não autoaprova nem inicia o lote seguinte. Ao fechar, atualizar estado/relatório e pacote; staging/commit/push ficam com o usuário.
+
 Leia `docs/DECISOES_APROVADAS.md` e os testes dos módulos afetados. Mantenha a estrutura e os mecanismos originais fora das exceções aprovadas.
 
 Crédito didático: banco público 24% a.a./12 trimestres; familiares 6%/8; ONG elegível 8%/12; agiotagem fictícia 120%/4. A taxa trimestral é `(1+taxa anual)^(1/4)-1` e a amortização do principal é constante. Não crie participação societária para os pequenos negócios. Bolsas e recursos não reembolsáveis exigem rota própria e finalidade elegível.

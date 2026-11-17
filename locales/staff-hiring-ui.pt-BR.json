@@ -1,0 +1,355 @@
+{
+  "classification": "presentation-only-hiring-ui",
+  "methods": {
+    "update": [
+      [
+        "staffBurnImpact.textContent = `£${staffBurn}k`;",
+        "staffBurnImpact.textContent = `${getRegion().currency}${staffBurn}k`;"
+      ]
+    ],
+    "showFireStaffModal": [
+      [
+        "const roleLabels = { research: 'Research', product: 'Product', marketing: 'Marketing', people: 'People' };",
+        "const roleLabels = { research: 'Operações e Qualidade', product: 'Produção e Serviços', marketing: 'Vendas e Marketing', people: 'Gestão de Pessoas' };"
+      ],
+      [
+        "${staff.seniority} ${roleLabels[role] || role}",
+        "${({ junior: 'Júnior', senior: 'Sênior', lead: 'Liderança' }[staff.seniority] || staff.seniority)} ${roleLabels[role] || role}"
+      ],
+      [
+        "const statNames = { sci: 'Sci', dev: 'Dev', mkt: 'Mkt', hr: 'HR' };",
+        "const statNames = { sci: 'Operações', dev: 'Produção', mkt: 'Vendas', hr: 'Pessoas' };"
+      ],
+      [
+        "· £${staff.salary || 50}k/year · Hired Q${staff.hiredTurn || '?'}",
+        "· ${getRegion().currency}${staff.salary || 50}k/ano · Entrou no T${staff.hiredTurn || '?'}"
+      ],
+      [
+        "<div class=\"text-xs text-slate-400 mt-0.5\">Skills: ${skillsText}</div>",
+        "<div class=\"text-xs text-slate-400 mt-0.5\">Competências: ${skillsText}</div>"
+      ],
+      [
+        "document.getElementById(\"fireModalCash\").textContent = `£${this.metrics.cash}k`;",
+        "document.getElementById(\"fireModalCash\").textContent = `${getRegion().currency}${this.metrics.cash}k`;"
+      ],
+      [
+        "document.getElementById(\"fireModalBurn\").textContent = `£${this.metrics.burn}k/q`;",
+        "document.getElementById(\"fireModalBurn\").textContent = `${getRegion().currency}${this.metrics.burn}k/trim`;"
+      ],
+      [
+        "document.getElementById(\"fireModalNewBurn\").textContent = `£${newBurn}k/q`;",
+        "document.getElementById(\"fireModalNewBurn\").textContent = `${getRegion().currency}${newBurn}k/trim`;"
+      ],
+      [
+        "document.getElementById(\"fireModalNewCash\").textContent = `£${newCash}k`;",
+        "document.getElementById(\"fireModalNewCash\").textContent = `${getRegion().currency}${newCash}k`;"
+      ]
+    ],
+    "selectFireStaff": [
+      [
+        "document.getElementById(\"fireModalNewBurn\").textContent = `£${newBurn}k/q`;",
+        "document.getElementById(\"fireModalNewBurn\").textContent = `${getRegion().currency}${newBurn}k/trim`;"
+      ],
+      [
+        "document.getElementById(\"fireModalNewCash\").textContent = `£${newCash}k`;",
+        "document.getElementById(\"fireModalNewCash\").textContent = `${getRegion().currency}${newCash}k`;"
+      ]
+    ],
+    "showCandidatesModal": [
+      [
+        "const roleLabels = { research: 'Research', product: 'Product', marketing: 'Marketing', people: 'People' };",
+        "const roleLabels = { research: 'Operações e Qualidade', product: 'Produção e Serviços', marketing: 'Vendas e Marketing', people: 'Gestão de Pessoas' };"
+      ],
+      [
+        "🤝 ${this.team.hr.name.split(' ').pop()} is reviewing candidates</span>",
+        "🤝 ${this.team.hr.name.split(' ').pop()} está analisando candidaturas</span>"
+      ],
+      [
+        "<span class=\"text-slate-400\">💡 Hire a People lead for hiring recommendations</span>",
+        "<span class=\"text-slate-400\">💡 Contrate um Gerente de Pessoas para receber recomendações</span>"
+      ],
+      [
+        "`${this.currentCandidates.length} candidates for ${roleLabels[job.role]} (${job.seniority}) · ${hrNote}`",
+        "`${this.currentCandidates.length} candidaturas para ${roleLabels[job.role]} (${{ junior: 'júnior', senior: 'sênior', lead: 'liderança' }[job.seniority] || job.seniority}) · ${hrNote}`"
+      ]
+    ],
+    "renderCandidateCard": [
+      [
+        "const interestLabel = interest >= 0.85 ? 'Very Interested' : interest >= 0.6 ? 'Interested' : 'Exploring';",
+        "const interestLabel = interest >= 0.85 ? 'Muito interesse' : interest >= 0.6 ? 'Interesse' : 'Avaliando';"
+      ],
+      [
+        "const availabilityLabel = { immediate: '🟢 Available now', '1 month': '🟡 1 month notice', '3 months': '🔴 3 month notice' };",
+        "const availabilityLabel = { immediate: '🟢 Disponível agora', '1 month': '🟡 Aviso de 1 mês', '3 months': '🔴 Aviso de 3 meses' };"
+      ],
+      [
+        "const nonCompeteLabel = { none: '', low: '⚠️ Minor non-compete', medium: '⚠️ Non-compete review', high: '🚨 Significant non-compete' };",
+        "const nonCompeteLabel = { none: '', low: '⚠️ Não concorrência leve', medium: '⚠️ Não concorrência a revisar', high: '🚨 Não concorrência relevante' };"
+      ],
+      [
+        "✈️ May need relocation package (~£${relocCost}k) or remote arrangement",
+        "✈️ Pode exigir pacote de mudança (~${getRegion().currency}${relocCost}k) ou trabalho remoto"
+      ],
+      [
+        "📍 May request hybrid working or relocation support",
+        "📍 Pode pedir trabalho híbrido ou apoio à mudança"
+      ],
+      [
+        "${candidate.seniority}</span>",
+        "${({ junior: 'Júnior', senior: 'Sênior', lead: 'Liderança' }[candidate.seniority] || candidate.seniority)}</span>"
+      ],
+      [
+        "hrRec.recommended ? '👍 Recommended' : '🤔 Hesitant'",
+        "hrRec.recommended ? '👍 Recomendado' : '🤔 Com ressalvas'"
+      ],
+      [
+        "|| 'HR'",
+        "|| 'RH'"
+      ],
+      [
+        ">View CV</button>",
+        ">Ver currículo</button>"
+      ],
+      [
+        ">Declined ❌</button>",
+        ">Recusou ❌</button>"
+      ],
+      [
+        ">Make Offer</button>",
+        ">Fazer proposta</button>"
+      ]
+    ],
+    "showCandidateDetail": [
+      [
+        "const nonCompeteDesc = {\n      none: 'No restrictions', low: 'Standard confidentiality, unlikely enforced',\n      medium: 'Non-compete present - may need legal review', high: 'Significant non-compete - expect delays'\n    };",
+        "const nonCompeteDesc = {\n      none: 'Sem restrições', low: 'Sigilo padrão, sem histórico de cobrança',\n      medium: 'Não concorrência presente - pode exigir revisão jurídica', high: 'Não concorrência relevante - espere atraso'\n    };"
+      ],
+      [
+        "<div class=\"text-sm font-bold text-slate-800 capitalize\">${candidate.seniority}</div>",
+        "<div class=\"text-sm font-bold text-slate-800\">${({ junior: 'Júnior', senior: 'Sênior', lead: 'Liderança' }[candidate.seniority] || candidate.seniority)}</div>"
+      ],
+      [
+        "<div class=\"text-sm font-bold text-slate-800 capitalize\">${candidate.nonCompeteRisk}</div>",
+        "<div class=\"text-sm font-bold text-slate-800\">${({ none: 'Sem restrição', low: 'Baixa', medium: 'Média', high: 'Alta' }[candidate.nonCompeteRisk] || candidate.nonCompeteRisk)}</div>"
+      ],
+      [
+        "|| 'Start'",
+        "|| 'Início'"
+      ],
+      [
+        "£${candidate.salaryExpect.min}k - £${candidate.salaryExpect.max}k",
+        "${getRegion().currency}${candidate.salaryExpect.min}k - ${getRegion().currency}${candidate.salaryExpect.max}k"
+      ],
+      [
+        "Ideal: £${candidate.salaryExpect.ideal}k",
+        "Ideal: ${getRegion().currency}${candidate.salaryExpect.ideal}k"
+      ],
+      [
+        ">🎓 Education</h3>",
+        ">🎓 Formação</h3>"
+      ],
+      [
+        ">💼 Experience</h3>",
+        ">💼 Experiência</h3>"
+      ],
+      [
+        ">🏆 Achievements</h3>",
+        ">🏆 Realizações</h3>"
+      ],
+      [
+        ">🛠️ Skills</h3>",
+        ">🛠️ Competências</h3>"
+      ],
+      [
+        ">✓ Strengths</h4>",
+        ">✓ Pontos fortes</h4>"
+      ],
+      [
+        ">⚠ Watch Out</h4>",
+        ">⚠ Pontos de atenção</h4>"
+      ],
+      [
+        ">🧠 Personality</h4>",
+        ">🧠 Perfil</h4>"
+      ],
+      [
+        ">❌ Declined</button>",
+        ">❌ Recusou</button>"
+      ],
+      [
+        ">💼 Make Offer</button>",
+        ">💼 Fazer proposta</button>"
+      ]
+    ],
+    "hireCandidate": [
+      [
+        "title: `${(candidate.seniority || 'new').charAt(0).toUpperCase() + (candidate.seniority || 'new').slice(1)} People Lead`",
+        "title: `${({ junior: 'Júnior', senior: 'Sênior', lead: 'Coordenação' }[candidate.seniority || 'new']) || 'Nova'} — Liderança de Pessoas`"
+      ],
+      [
+        "role: (candidate.seniority || 'new') + ' hire',",
+        "role: ({ junior: 'Júnior', senior: 'Sênior', lead: 'Liderança' }[candidate.seniority] || 'Nova') + ' — contratação',"
+      ],
+      [
+        "const relocNote = relocationCost > 0 ? ` (incl. £${relocationCost}k relocation)` : '';",
+        "const relocNote = relocationCost > 0 ? ` (inclui ${getRegion().currency}${relocationCost}k de mudança)` : '';"
+      ],
+      [
+        "this.log(`🎉 ${candidate.name} is now your Head of People! (${equity}% equity, your stake: ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}%)${relocNote} (-1 AP)`);",
+        "this.log(`🎉 ${candidate.name} assume a gestão de Pessoas! (${equity}% de participação, sua fatia: ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}%)${relocNote} (−1 AP)`);"
+      ],
+      [
+        "const relocNote = relocationCost > 0 ? ` + £${relocationCost}k relocation` : '';",
+        "const relocNote = relocationCost > 0 ? ` + ${getRegion().currency}${relocationCost}k de mudança` : '';"
+      ],
+      [
+        "this.log(`🎉 ${candidate.name} joined! £${salary}k/yr + ${equity}% equity${relocNote}. Your stake: ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}% (-1 AP)`);",
+        "this.log(`🎉 ${candidate.name} entrou! ${getRegion().currency}${salary}k/ano + ${equity}% de participação${relocNote}. Sua fatia: ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}% (−1 AP)`);"
+      ],
+      [
+        ">Offer Accepted!</h2>",
+        ">Proposta aceita!</h2>"
+      ],
+      [
+        "${candidate.name} is joining your team${isHRHire ? ' as Head of People' : ''}!",
+        "${candidate.name} está entrando na equipe${isHRHire ? ' como liderança de Pessoas' : ''}!"
+      ],
+      [
+        ">Salary:</span>",
+        ">Salário:</span>"
+      ],
+      [
+        "£${salary}k/year (+£${Math.round(salary/4)}k/q burn)",
+        "${getRegion().currency}${salary}k/ano (+${getRegion().currency}${Math.round(salary/4)}k por trimestre)"
+      ],
+      [
+        ">Equity granted:</span>",
+        ">Participação concedida:</span>"
+      ],
+      [
+        ">Start:</span>",
+        ">Início:</span>"
+      ],
+      [
+        "${candidate.availability === 'immediate' ? 'Next quarter' : candidate.availability || 'Next quarter'}",
+        "${candidate.availability === 'immediate' ? 'No próximo trimestre' : candidate.availability === '3 months' ? 'Em cerca de três meses' : candidate.availability === '1 month' ? 'Em cerca de um mês' : 'No próximo trimestre'}"
+      ],
+      [
+        "<strong>Dilution:</strong> Your equity ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}%",
+        "<strong>Diluição:</strong> sua participação ${previousEquity.toFixed(1)}% → ${this.metrics.equity.toFixed(1)}%"
+      ],
+      [
+        "<strong>AP Spent:</strong> -1 AP this quarter for hiring",
+        "<strong>AP gasto:</strong> −1 AP neste trimestre pela contratação"
+      ],
+      [
+        "<strong>Onboarding:</strong> New hires take time to reach full productivity. Team temporarily disrupted.",
+        "<strong>Integração:</strong> pessoas novas levam tempo para atingir a produtividade plena. A equipe fica temporariamente sobrecarregada."
+      ],
+      [
+        "<strong>${hrLeadName} helps:</strong> Faster onboarding, less team disruption",
+        "<strong>${hrLeadName} ajuda:</strong> integração mais rápida e menos sobrecarga na equipe"
+      ],
+      [
+        "<strong>HR team grows:</strong> ${candidate.name.split(' ').pop()} will support ${hrLeadName}, modestly improving onboarding across the company (diminishing returns apply).",
+        "<strong>Equipe de Pessoas cresce:</strong> ${candidate.name.split(' ').pop()} apoia ${hrLeadName}, melhorando aos poucos a integração em toda a operação (com retornos decrescentes)."
+      ],
+      [
+        "<strong>New ability unlocked:</strong> ${candidate.name.split(' ').pop()} will review candidates, speed up onboarding, and reduce hiring disruption.",
+        "<strong>Nova capacidade liberada:</strong> ${candidate.name.split(' ').pop()} analisa candidaturas, acelera a integração e reduz a sobrecarga das contratações."
+      ],
+      [
+        "|| 'HR'",
+        "|| 'RH'"
+      ],
+      [
+        ">Continue</button>",
+        ">Continuar</button>"
+      ],
+      [
+        "alert('Error hiring candidate: ' + error.message);",
+        "alert('Erro ao contratar: ' + error.message);"
+      ]
+    ],
+    "confirmJobPost": [
+      [
+        "alert('Please select a role and seniority level');",
+        "alert('Selecione a área e o nível de experiência.');"
+      ],
+      [
+        "alert('Not enough AP to hire');",
+        "alert('Pontos de atenção insuficientes para contratar.');"
+      ],
+      [
+        "`📋 Posted job listing for ${seniority} ${role} role`",
+        "`📋 Vaga aberta para ${ { research: 'Operações e Qualidade', product: 'Produção e Serviços', marketing: 'Vendas e Marketing', people: 'Gestão de Pessoas' }[role] || role } (${ { junior: 'júnior', senior: 'sênior', lead: 'liderança' }[seniority] || seniority })`"
+      ]
+    ],
+    "confirmFireStaff": [
+      [
+        "this.journeyEvents.push({ quarter: this.turn, type: 'staffing', description: `Laid off ${firedStaff.name || 'a member of staff'} (${firedStaff.role || 'staff'})` });",
+        "this.journeyEvents.push({ quarter: this.turn, type: 'staffing', description: `Desligamento de ${firedStaff.name || 'pessoa da equipe'} (${ { research: 'Operações e Qualidade', product: 'Produção e Serviços', marketing: 'Vendas e Marketing', people: 'Gestão de Pessoas' }[firedStaff.role] || 'equipe' })` });"
+      ],
+      [
+        "this.log(`⚠️ ${firedStaff.name} was your HR lead. HR recommendations disabled until you hire a new People lead.`);",
+        "this.log(`⚠️ ${firedStaff.name} era sua liderança de Pessoas. As recomendações ficam suspensas até contratar outra pessoa para a função.`);"
+      ],
+      [
+        "let logMsg = `📉 Laid off ${firedStaff.name}. Severance: -£${severanceCost}k. Burn: £${burnBefore}k → £${this.metrics.burn}k/q.`;",
+        "let logMsg = `📉 Desligamento de ${firedStaff.name}. Verba rescisória: −${getRegion().currency}${severanceCost}k. Custo: ${getRegion().currency}${burnBefore}k → ${getRegion().currency}${this.metrics.burn}k/trim.`;"
+      ],
+      [
+        "const statNames = { sci: 'Science', dev: 'Product', mkt: 'Marketing', hr: 'HR' };",
+        "const statNames = { sci: 'Operações e Qualidade', dev: 'Produção e Serviços', mkt: 'Vendas e Marketing', hr: 'Gestão de Pessoas' };"
+      ],
+      [
+        "logMsg += ` Lost skills: ${lostStats}.`;",
+        "logMsg += ` Competências perdidas: ${lostStats}.`;"
+      ],
+      [
+        "logMsg += ` AP tier dropped (-${apLost}).`;",
+        "logMsg += ` Faixa de AP reduzida (−${apLost}).`;"
+      ],
+      [
+        "logMsg += ` Team disrupted (-1 AP this Q).`;",
+        "logMsg += ` Equipe em reorganização (−1 AP neste trimestre).`;"
+      ]
+    ],
+    "showDecline": [
+      [
+        ">Offer Declined</h2>",
+        ">Proposta recusada</h2>"
+      ],
+      [
+        "\"Thanks, but this isn't quite the right fit for me right now.\"",
+        "\"Obrigado, mas não é o encaixe certo para mim neste momento.\""
+      ],
+      [
+        "❌ <strong>${candidate.name.split(' ')[0]} is no longer considering this role.</strong> Even good offers are sometimes declined; people have their reasons.",
+        "❌ <strong>${candidate.name.split(' ')[0]} não está mais considerando esta vaga.</strong> Boas propostas também são recusadas; cada pessoa tem seus motivos."
+      ],
+      [
+        ">Continue</button>",
+        ">Continuar</button>"
+      ]
+    ]
+  },
+  "static": {
+    "jobPostModal": {
+      "Research": "Operações e Qualidade",
+      "Operações e Qualidade": "Processos, normas e padronização",
+      "Product": "Produção e Serviços",
+      "Produção e Serviços": "Entrega, atendimento e suporte",
+      "Marketing": "Vendas e Marketing",
+      "Vendas e relacionamento": "Clientes, marca e relacionamento",
+      "People": "Gestão de Pessoas",
+      "Gestão de pessoas": "Equipe, clima e desenvolvimento",
+      "Junior": "Júnior",
+      "Senior": "Sênior",
+      "Lead / Director": "Liderança / Direção",
+      "£40-60k": "R$ 40-60 mil",
+      "£65-100k": "R$ 65-100 mil",
+      "£100-150k": "R$ 100-150 mil"
+    }
+  }
+}

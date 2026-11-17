@@ -1,0 +1,1095 @@
+{
+  "GENERIC_EVENTS": {
+    "classification": "Trinta e quatro eventos de RH em cenários administrativos brasileiros fictícios, com regras e metadados originais preservados.",
+    "strings": {
+      "[\"hr\",0,\"intro\"]": {
+        "source": "The team's been hinting about the sad instant coffee situation. Someone left a printout of fancy espresso machine prices on your desk.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe considera insuficientes os materiais disponíveis para preparar um roteiro administrativo inventado. Uma pessoa apresenta exemplos de conjuntos mais completos, e o grupo discute o alcance de uma mudança."
+      },
+      "[\"hr\",0,\"aside\"]": {
+        "source": "A proper latte machine costs as much as a junior dev's monthly salary. But the queue at the coffee shop costs time and money too.",
+        "target": "Um conjunto maior de materiais também exige preparo e orientação para seu uso."
+      },
+      "[\"hr\",0,\"choices\",0,\"text\"]": {
+        "source": "Get the fancy La Marzocca with training",
+        "target": "Preparar um conjunto completo e explicar seu uso"
+      },
+      "[\"hr\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Barista-quality flat whites. Team genuinely delighted.",
+        "target": "A equipe organiza o conjunto e uma apresentação de uso. Ainda precisa conferir se os exemplos atendem ao exercício."
+      },
+      "[\"hr\",0,\"choices\",1,\"text\"]": {
+        "source": "Sensible bean-to-cup machine",
+        "target": "Preparar um conjunto básico compartilhado"
+      },
+      "[\"hr\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Decent coffee. Nobody's writing poems about it.",
+        "target": "A equipe reúne os materiais básicos. Os pedidos que ultrapassam esse recorte continuam pendentes."
+      },
+      "[\"hr\",0,\"choices\",2,\"text\"]": {
+        "source": "Upgrade the instant coffee selection",
+        "target": "Reorganizar os materiais que já estão disponíveis"
+      },
+      "[\"hr\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Small perk appreciated.",
+        "target": "A equipe revê o conjunto existente. As limitações apontadas precisam ser comparadas novamente."
+      },
+      "[\"hr\",1,\"intro\"]": {
+        "source": "December is coming, and so is the question nobody has asked out loud yet: are there bonuses? We have never promised any. Half the team came from companies where the December payslip was bigger, and habits travel. Whatever we decide becomes the precedent we live with next year.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe discute como reconhecer o trabalho feito num roteiro administrativo inventado. Não havia combinado acrescentar materiais de reconhecimento, e as pessoas trazem expectativas diferentes de outros exercícios."
+      },
+      "[\"hr\",1,\"aside\"]": {
+        "source": "A bonus paid once is a bonus expected forever.",
+        "target": "Uma iniciativa de reconhecimento pode criar expectativas sobre como a equipe tratará outros trabalhos."
+      },
+      "[\"hr\",1,\"choices\",0,\"text\"]": {
+        "source": "Pay a proper flat bonus, the same for everyone",
+        "target": "Preparar o mesmo material de reconhecimento para todo o grupo"
+      },
+      "[\"hr\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Equal amounts, no formulas, no arguments. The precedent is set, and at least it is a simple one.",
+        "target": "A equipe prepara um registro comum para todas as pessoas. Ainda precisa esclarecer o alcance desse gesto para os próximos exercícios."
+      },
+      "[\"hr\",1,\"choices\",1,\"text\"]": {
+        "source": "A modest thank-you and the honest numbers",
+        "target": "Fazer um registro breve de agradecimento e explicar o preparo"
+      },
+      "[\"hr\",1,\"choices\",1,\"reaction\"]": {
+        "source": "A small amount and the accounts on the screen. Grown-ups appreciate both.",
+        "target": "A equipe registra o agradecimento e apresenta o que conseguiu preparar. As expectativas diferentes continuam em conversa."
+      },
+      "[\"hr\",1,\"choices\",2,\"text\"]": {
+        "source": "No bonuses; say so plainly and early",
+        "target": "Explicar que não haverá material adicional de reconhecimento"
+      },
+      "[\"hr\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Nobody is surprised in December, which was the point of saying it in October.",
+        "target": "A equipe comunica a decisão antes do encerramento. As pessoas ainda precisam discutir como entenderam essa combinação."
+      },
+      "[\"hr\",2,\"intro\"]": {
+        "source": "Half the team spent nineteen hours in meetings last week. People are doing their actual work in the evenings. Something has to give.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe acumula encontros sobre um roteiro administrativo inventado e deixa o preparo dos exemplos para fora desses encontros. O grupo discute como reorganiza a atenção dedicada ao exercício."
+      },
+      "[\"hr\",2,\"aside\"]": {
+        "source": "Meetings multiply. Productivity suffers.",
+        "target": "Encontros de acompanhamento também ocupam o espaço de preparar os materiais."
+      },
+      "[\"hr\",2,\"choices\",0,\"text\"]": {
+        "source": "Meeting audit and no-meeting days",
+        "target": "Rever os encontros e reservar espaço para preparar exemplos"
+      },
+      "[\"hr\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Calendar breathing room.",
+        "target": "A equipe reorganiza os encontros e separa etapas de preparo. Ainda precisa conferir se as pendências ficaram distribuídas."
+      },
+      "[\"hr\",2,\"choices\",1,\"text\"]": {
+        "source": "Encourage meeting hygiene",
+        "target": "Combinar orientações para conduzir os encontros"
+      },
+      "[\"hr\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Some improvement.",
+        "target": "A equipe registra orientações para os encontros. A aplicação dessas orientações continua em revisão."
+      },
+      "[\"hr\",2,\"choices\",2,\"text\"]": {
+        "source": "Trust teams to manage themselves",
+        "target": "Deixar que os grupos organizem seus próprios encontros"
+      },
+      "[\"hr\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Autonomy builds ownership.",
+        "target": "Os grupos assumem a organização dos encontros. Continua necessário acompanhar como as partes do roteiro serão reunidas."
+      },
+      "[\"hr\",3,\"intro\"]": {
+        "source": "Star performer asking for a raise. Deserved, but outside the budget cycle.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa que tem contribuído para um roteiro administrativo inventado pede mais apoio e materiais para continuar o preparo. O pedido chega fora da revisão que a equipe havia combinado para distribuir seus recursos."
+      },
+      "[\"hr\",3,\"aside\"]": {
+        "source": "Lose them and you lose months of momentum. Pay them and others will ask too.",
+        "target": "Ampliar o apoio a uma pessoa também pode trazer pedidos de revisão das demais combinações."
+      },
+      "[\"hr\",3,\"choices\",0,\"text\"]": {
+        "source": "Match the ask with clear expectations",
+        "target": "Atender ao pedido completo e esclarecer as responsabilidades"
+      },
+      "[\"hr\",3,\"choices\",0,\"reaction\"]": {
+        "source": "They're staying. Worth every penny.",
+        "target": "A equipe dedica o apoio pedido e registra o que será preparado. Ainda precisa conferir a distribuição das demais tarefas."
+      },
+      "[\"hr\",3,\"choices\",1,\"text\"]": {
+        "source": "Partial raise plus equity top-up",
+        "target": "Atender a parte do pedido e rever a divisão de tarefas"
+      },
+      "[\"hr\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Creative package. They appreciate the effort.",
+        "target": "A equipe combina um apoio menor e reorganiza parte do preparo. O restante do pedido permanece pendente."
+      },
+      "[\"hr\",3,\"choices\",2,\"text\"]": {
+        "source": "Promise to revisit at review time",
+        "target": "Retomar o pedido na revisão já combinada"
+      },
+      "[\"hr\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Fair timeline. They appreciate honesty.",
+        "target": "A equipe registra o pedido para a revisão do grupo. A necessidade apresentada ainda não foi atendida."
+      },
+      "[\"hr\",4,\"intro\"]": {
+        "source": "Team member's mental health visibly struggling. Performance slipping.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa da equipe relata dificuldade e cansaço ao preparar exemplos de um roteiro administrativo inventado. Algumas tarefas ficam pendentes, e o grupo discute como conversa sobre o preparo."
+      },
+      "[\"hr\",4,\"aside\"]": {
+        "source": "People aren't machines. But you're also running a business.",
+        "target": "Tratar as pendências também exige ouvir como o trabalho está distribuído."
+      },
+      "[\"hr\",4,\"choices\",0,\"text\"]": {
+        "source": "Supportive conversation, offer flexibility",
+        "target": "Conversar sobre as dificuldades e rever a distribuição"
+      },
+      "[\"hr\",4,\"choices\",0,\"reaction\"]": {
+        "source": "They open up. Workload adjusted.",
+        "target": "A equipe abre a conversa e revê as tarefas com a pessoa. Ainda precisa acompanhar a nova distribuição do preparo."
+      },
+      "[\"hr\",4,\"choices\",1,\"text\"]": {
+        "source": "Point to EAP and give space",
+        "target": "Apresentar as orientações do exercício e dar espaço para resposta"
+      },
+      "[\"hr\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Professional distance. Some improvement.",
+        "target": "A equipe indica onde estão as orientações e aguarda a resposta. As dificuldades e a distribuição das tarefas continuam sem exame conjunto."
+      },
+      "[\"hr\",4,\"choices\",2,\"text\"]": {
+        "source": "Focus on performance expectations",
+        "target": "Concentrar a conversa nas tarefas que foram combinadas"
+      },
+      "[\"hr\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Clear standards. They step up.",
+        "target": "A equipe retoma as tarefas previstas. O cansaço relatado e a divisão do trabalho permanecem sem discussão."
+      },
+      "[\"hr\",5,\"intro\"]": {
+        "source": "Anonymous feedback survey results are in. Some stinging comments.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe recebe comentários inventados para discutir a organização de um roteiro administrativo no exercício. Alguns são críticos, e o grupo precisa decidir como examinará essas observações sem atribuí-las a participantes reais."
+      },
+      "[\"hr\",5,\"aside\"]": {
+        "source": "Feedback is a gift. Even when it's wrapped in frustration.",
+        "target": "Receber comentários e explicar como serão tratados são etapas diferentes."
+      },
+      "[\"hr\",5,\"choices\",0,\"text\"]": {
+        "source": "All-hands to discuss openly",
+        "target": "Reunir a equipe para discutir os comentários"
+      },
+      "[\"hr\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Vulnerable but builds trust.",
+        "target": "A equipe examina as observações em conjunto e registra as dúvidas. Ainda precisa combinar quais mudanças fará no preparo."
+      },
+      "[\"hr\",5,\"choices\",1,\"text\"]": {
+        "source": "Action plan shared privately",
+        "target": "Preparar um plano e compartilhá-lo em conversas restritas"
+      },
+      "[\"hr\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Changes happen. Connection to feedback unclear.",
+        "target": "A equipe apresenta o plano separadamente. A relação entre o plano e os comentários continua sem explicação conjunta."
+      },
+      "[\"hr\",5,\"choices\",2,\"text\"]": {
+        "source": "Thank people, move on quietly",
+        "target": "Agradecer os comentários sem abrir nova discussão"
+      },
+      "[\"hr\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Acknowledged. Team moves forward.",
+        "target": "A equipe registra o recebimento dos comentários. As questões levantadas permanecem sem revisão conjunta."
+      },
+      "[\"hr\",6,\"intro\"]": {
+        "source": "Office dog proposal gaining signatures. Some allergies and preferences in the mix.",
+        "target": "No cenário fictício de um negócio brasileiro, parte da equipe quer usar o espaço de preparo de materiais administrativos inventados para uma atividade de convivência do exercício. Outras pessoas preferem manter esse espaço dedicado aos exemplos do roteiro."
+      },
+      "[\"hr\",6,\"aside\"]": {
+        "source": "Dogs boost morale for dog people. Others less enthused.",
+        "target": "Uma atividade compartilhada pode ser recebida de formas diferentes por quem usa o mesmo espaço."
+      },
+      "[\"hr\",6,\"choices\",0,\"text\"]": {
+        "source": "Trial office dog days",
+        "target": "Experimentar a atividade em um recorte combinado"
+      },
+      "[\"hr\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Surprisingly popular. Even sceptics pet the dog.",
+        "target": "A equipe delimita uma experiência de convivência. Ainda precisa ouvir como ela afeta o preparo dos exemplos."
+      },
+      "[\"hr\",6,\"choices\",1,\"text\"]": {
+        "source": "Create dog-friendly zone",
+        "target": "Separar uma área para a atividade de convivência"
+      },
+      "[\"hr\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. Dog lovers happy, others unbothered.",
+        "target": "A equipe organiza uma área distinta. A divisão do espaço e o uso das demais áreas continuam em conferência."
+      },
+      "[\"hr\",6,\"choices\",2,\"text\"]": {
+        "source": "Politely decline citing allergies",
+        "target": "Recusar a proposta e manter o espaço de preparo"
+      },
+      "[\"hr\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Inclusive policy. Everyone comfortable.",
+        "target": "A equipe mantém a finalidade do espaço e explica a recusa. A proposta de convivência fica sem atendimento."
+      },
+      "[\"hr\",7,\"intro\"]": {
+        "source": "Three people have asked in a month: one wants a machine-learning course, one a conference ticket, one an exam and a certificate. We have no training budget, because nobody ever asked before. Now they are asking, and comparing notes.",
+        "target": "No cenário fictício de um negócio brasileiro, integrantes da equipe pedem formas diferentes de aprender a preparar um roteiro administrativo inventado. Ainda não havia uma combinação comum de apoio ao aprendizado, e as pessoas comparam os pedidos apresentados."
+      },
+      "[\"hr\",7,\"aside\"]": {
+        "source": "People who are learning stay. People who have stopped learning start looking.",
+        "target": "Uma forma comum de apoio e a troca entre colegas distribuem o preparo de modos diferentes."
+      },
+      "[\"hr\",7,\"choices\",0,\"text\"]": {
+        "source": "Set a proper budget: an amount per person, per year",
+        "target": "Organizar um plano de apoio para cada integrante"
+      },
+      "[\"hr\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Simple to run, easy to explain. Two courses booked within the week.",
+        "target": "A equipe define um plano comum e registra o apoio destinado a cada pessoa. Ainda precisa conferir como os materiais serão usados."
+      },
+      "[\"hr\",7,\"choices\",1,\"text\"]": {
+        "source": "Teach each other: a fortnightly internal session",
+        "target": "Organizar uma troca de exemplos dentro da equipe"
+      },
+      "[\"hr\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper than courses and better than expected. The product lead's session overruns.",
+        "target": "A equipe prepara uma atividade de troca de exemplos. As necessidades que ela não cobrir continuam pendentes."
+      },
+      "[\"hr\",7,\"choices\",2,\"text\"]": {
+        "source": "Not this year",
+        "target": "Adiar a organização do apoio ao aprendizado"
+      },
+      "[\"hr\",7,\"choices\",2,\"reaction\"]": {
+        "source": "The money stays. So does the comparing of notes.",
+        "target": "A equipe mantém o preparo atual. Os pedidos de apoio e a comparação entre eles continuam sem revisão."
+      },
+      "[\"hr\",8,\"intro\"]": {
+        "source": "The office thermostat has become a battleground. Passive-aggressive Post-it notes are appearing.",
+        "target": "No cenário fictício de um negócio brasileiro, a organização do espaço de preparo de um roteiro administrativo inventado provoca divergências. As pessoas deixam bilhetes com preferências diferentes sobre a disposição dos materiais."
+      },
+      "[\"hr\",8,\"aside\"]": {
+        "source": "The thermostat wars have claimed greater companies than this one.",
+        "target": "Uma disposição comum dos materiais pode não atender da mesma forma a todos os modos de preparo."
+      },
+      "[\"hr\",8,\"choices\",0,\"text\"]": {
+        "source": "Install smart climate zones",
+        "target": "Rever a disposição e organizar áreas de preparo diferentes"
+      },
+      "[\"hr\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Peace in our time. Expensive peace.",
+        "target": "A equipe reorganiza o espaço em áreas. Ainda precisa conferir como elas atendem aos exemplos e à circulação do grupo."
+      },
+      "[\"hr\",8,\"choices\",1,\"text\"]": {
+        "source": "CEO declares 21°C law",
+        "target": "Definir uma disposição comum para os materiais"
+      },
+      "[\"hr\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Controversial. But decisive.",
+        "target": "A coordenação fixa uma disposição e comunica a escolha. As preferências divergentes ainda precisam ser discutidas."
+      },
+      "[\"hr\",8,\"choices\",2,\"text\"]": {
+        "source": "Distribute branded hoodies and fans",
+        "target": "Oferecer materiais móveis para ajustes individuais"
+      },
+      "[\"hr\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Dress code chaos. But warm chaos.",
+        "target": "A equipe permite ajustes em cada ponto de preparo. Continua necessário conciliar as partes compartilhadas do espaço."
+      },
+      "[\"hr\",9,\"intro\"]": {
+        "source": "Someone's been microwaving fish in the kitchen. Repeatedly. HR inbox is full.",
+        "target": "No cenário fictício de um negócio brasileiro, materiais de um roteiro administrativo inventado ficam repetidamente na mesa compartilhada de preparo. A equipe recebe reclamações e discute como reorganizar o uso do espaço no exercício."
+      },
+      "[\"hr\",9,\"aside\"]": {
+        "source": "Some problems have no good solutions. Only least-bad ones.",
+        "target": "Reorganizar o espaço e conversar sobre seu uso deixam pendências diferentes."
+      },
+      "[\"hr\",9,\"choices\",0,\"text\"]": {
+        "source": "Gentle all-hands about kitchen etiquette",
+        "target": "Conversar com a equipe sobre o uso da mesa comum"
+      },
+      "[\"hr\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Fish microwaving stops. Resentment lingers.",
+        "target": "A equipe discute o uso da mesa e registra combinações de organização. Ainda precisa acompanhar sua aplicação."
+      },
+      "[\"hr\",9,\"choices\",1,\"text\"]": {
+        "source": "Install a second microwave in a 'zone'",
+        "target": "Separar uma área para guardar esses materiais"
+      },
+      "[\"hr\",9,\"choices\",1,\"reaction\"]": {
+        "source": "The Fish Zone is born. Problem contained.",
+        "target": "A equipe prepara uma área de guarda. A circulação entre essa área e a mesa continua em conferência."
+      },
+      "[\"hr\",9,\"choices\",2,\"text\"]": {
+        "source": "Anonymous fish amnesty",
+        "target": "Convidar ao recolhimento sem identificar responsáveis"
+      },
+      "[\"hr\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Nobody confesses. Fish incidents decrease mysteriously.",
+        "target": "A equipe abre espaço para recolher os materiais sem identificar pessoas. A forma de usar a mesa ainda precisa ser combinada."
+      },
+      "[\"hr\",10,\"intro\"]": {
+        "source": "Secret Santa got weird. Someone gave their manager a self-help book about 'leadership presence'.",
+        "target": "No cenário fictício de um negócio brasileiro, uma troca de exemplos administrativos inventados deixa a equipe desconfortável. Um dos exemplos traz uma crítica indireta à coordenação, embora a atividade tivesse sido combinada como uma forma de conhecer outros recortes."
+      },
+      "[\"hr\",10,\"aside\"]": {
+        "source": "It was meant to be £10 and fun. It became neither.",
+        "target": "Uma atividade de troca também pode expor diferenças sobre como apresentar comentários."
+      },
+      "[\"hr\",10,\"choices\",0,\"text\"]": {
+        "source": "Laugh it off at the party",
+        "target": "Tratar o exemplo com abertura durante a atividade"
+      },
+      "[\"hr\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Manager reads the book. Actually finds it useful.",
+        "target": "A coordenação comenta o exemplo sem encerrar a troca. A equipe ainda precisa esclarecer como recebeu a crítica."
+      },
+      "[\"hr\",10,\"choices\",1,\"text\"]": {
+        "source": "Abolish Secret Santa forever",
+        "target": "Encerrar essa forma de troca de exemplos"
+      },
+      "[\"hr\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Less stress. Team grateful.",
+        "target": "A equipe interrompe a atividade. As questões sobre a apresentação da crítica permanecem sem discussão."
+      },
+      "[\"hr\",10,\"choices\",2,\"text\"]": {
+        "source": "Next year: strict gift guidelines",
+        "target": "Combinar orientações antes da próxima troca"
+      },
+      "[\"hr\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Takes the fun out. But also the drama.",
+        "target": "A equipe registra orientações para outra troca de exemplos. Ainda precisa rever o que ocorreu na atividade atual."
+      },
+      "[\"hr\",11,\"intro\"]": {
+        "source": "Team discovered the CEO's secret video channel. It's mostly them reviewing motorway service stations.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe encontra um conjunto de comentários administrativos inventados que a pessoa responsável pela coordenação preparou por conta própria. Os materiais passam a circular no exercício, mas ninguém esclarece como serão tratados pelo grupo."
+      },
+      "[\"hr\",11,\"aside\"]": {
+        "source": "Everyone's pretending they haven't seen it. They have all seen it.",
+        "target": "Um material preparado separadamente pode pedir uma conversa sobre seu lugar no exercício coletivo."
+      },
+      "[\"hr\",11,\"choices\",0,\"text\"]": {
+        "source": "Own it—make it a company thing",
+        "target": "Incorporar os comentários a uma atividade da equipe"
+      },
+      "[\"hr\",11,\"choices\",0,\"reaction\"]": {
+        "source": "CEO now reviews service stations for team travel. Iconic.",
+        "target": "A coordenação apresenta os comentários como material da atividade. A equipe ainda precisa comparar seu uso com o roteiro comum."
+      },
+      "[\"hr\",11,\"choices\",1,\"text\"]": {
+        "source": "Never speak of it",
+        "target": "Manter o assunto fora das conversas da equipe"
+      },
+      "[\"hr\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Team bonds over shared silence.",
+        "target": "A equipe não abre conversa sobre o material. Sua circulação e seu lugar no exercício continuam sem combinação."
+      },
+      "[\"hr\",11,\"choices\",2,\"text\"]": {
+        "source": "CEO addresses it in all-hands",
+        "target": "Conversar com a equipe sobre o material e seus limites"
+      },
+      "[\"hr\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Turns out Leigh Delamere services are 4/5 stars.",
+        "target": "A coordenação explica como preparou os comentários e abre espaço para dúvidas. O uso coletivo ainda precisa ser decidido."
+      },
+      "[\"hr\",12,\"intro\"]": {
+        "source": "Someone printed 500 pages of their novel on the office printer. It's actually quite good.",
+        "target": "No exercício de organização do negócio, alguém usou o material de impressão comum para um conto inventado. A equipe gostou da leitura, mas questionou o uso dos recursos compartilhados."
+      },
+      "[\"hr\",12,\"aside\"]": {
+        "source": "Technically a fireable offence. But the prose is genuinely compelling.",
+        "target": "O conto despertou interesse. Ainda falta combinar como usar o material comum."
+      },
+      "[\"hr\",12,\"choices\",0,\"text\"]": {
+        "source": "Quiet word about appropriate use",
+        "target": "Conversar sobre o uso do material"
+      },
+      "[\"hr\",12,\"choices\",0,\"reaction\"]": {
+        "source": "They apologise. Offer you an early copy.",
+        "target": "A pessoa reconhece o desencontro e oferece o texto para uma leitura posterior."
+      },
+      "[\"hr\",12,\"choices\",1,\"text\"]": {
+        "source": "Expense it as 'creative culture'",
+        "target": "Registrar o material como atividade criativa"
+      },
+      "[\"hr\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Finance confused but compliant.",
+        "target": "A equipe registra o uso, embora parte do grupo ainda questione a prioridade."
+      },
+      "[\"hr\",12,\"choices\",2,\"text\"]": {
+        "source": "Start an office book club with it",
+        "target": "Organizar uma troca de leitura com o conto"
+      },
+      "[\"hr\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Chapter 7 discussion gets heated. Bonding achieved.",
+        "target": "A discussão do conto aproxima o grupo e ocupa parte do tempo de preparação."
+      },
+      "[\"hr\",13,\"intro\"]": {
+        "source": "Your designer wants engineers, salespeople, and customer support in the same room for a brainstorm. Some think it's a waste of billable hours.",
+        "target": "No exercício de um negócio brasileiro, a pessoa responsável pelo material visual propõe reunir quem cuida do preparo, da divulgação e do atendimento. Parte do grupo prefere seguir com as próprias tarefas."
+      },
+      "[\"hr\",13,\"aside\"]": {
+        "source": "The best ideas often come from unexpected places. But meetings have costs.",
+        "target": "A conversa pode trazer outras perspectivas, mas também exige tempo de preparação."
+      },
+      "[\"hr\",13,\"choices\",0,\"text\"]": {
+        "source": "Full cross-team session",
+        "target": "Reunir todas as áreas do exercício"
+      },
+      "[\"hr\",13,\"choices\",0,\"reaction\"]": {
+        "source": "The support rep's idea was the breakthrough. Nobody expected that.",
+        "target": "Uma observação de quem preparava o atendimento ajuda a rever o roteiro comum."
+      },
+      "[\"hr\",13,\"choices\",1,\"text\"]": {
+        "source": "Representatives only",
+        "target": "Reunir apenas representantes das áreas"
+      },
+      "[\"hr\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Good discussion. Limited perspectives.",
+        "target": "A discussão avança, mas algumas perspectivas ficam de fora."
+      },
+      "[\"hr\",13,\"choices\",2,\"text\"]": {
+        "source": "Keep teams in their lanes",
+        "target": "Manter cada área na própria atividade"
+      },
+      "[\"hr\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Efficient silos. Echo chamber preserved.",
+        "target": "As tarefas continuam separadas e as ideias circulam pouco entre as áreas."
+      },
+      "[\"hr\",14,\"intro\"]": {
+        "source": "Your most creative researcher spends half their time on ideas that go nowhere. They've also produced your only two breakthroughs. Investors want everyone 'aligned to strategy.'",
+        "target": "Uma pessoa da equipe propõe muitas variações para os materiais do exercício. Algumas ficam pelo caminho; outras ajudam o grupo. A coordenação pede mais foco no roteiro combinado."
+      },
+      "[\"hr\",14,\"aside\"]": {
+        "source": "Breakthroughs don't come from alignment. But neither does reliable progress.",
+        "target": "Explorar alternativas e seguir o roteiro exigem formas diferentes de organizar o trabalho."
+      },
+      "[\"hr\",14,\"choices\",0,\"text\"]": {
+        "source": "Protect their freedom",
+        "target": "Preservar espaço para explorar ideias"
+      },
+      "[\"hr\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Investors grumble. Breakthroughs continue. Maybe.",
+        "target": "A coordenação questiona a dispersão. A equipe continua explorando possibilidades ainda incertas."
+      },
+      "[\"hr\",14,\"choices\",1,\"text\"]": {
+        "source": "Assign them strategic problems only",
+        "target": "Concentrar o trabalho nos problemas do roteiro"
+      },
+      "[\"hr\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Focused. Productive. Somehow less innovative.",
+        "target": "O trabalho ganha foco, mas passa a explorar menos alternativas."
+      },
+      "[\"hr\",14,\"choices\",2,\"text\"]": {
+        "source": "Pair them with someone practical",
+        "target": "Formar uma dupla para testar as propostas"
+      },
+      "[\"hr\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Creative tension. Some ideas survive the filter.",
+        "target": "A dupla discute as diferenças e seleciona parte das ideias para desenvolver."
+      },
+      "[\"hr\",15,\"intro\"]": {
+        "source": "Everyone can see the new initiative isn't working, but nobody wants to tell the executive who championed it. You've created a culture where challenging leaders feels unsafe.",
+        "target": "Uma atividade do exercício não está avançando. A equipe percebe as dificuldades, mas evita falar porque a coordenação defendeu a proposta desde o início."
+      },
+      "[\"hr\",15,\"aside\"]": {
+        "source": "The Emperor's New Clothes. Everyone knows. Nobody speaks.",
+        "target": "As dúvidas aparecem nas conversas laterais, mas ainda não chegaram à discussão do grupo."
+      },
+      "[\"hr\",15,\"choices\",0,\"text\"]": {
+        "source": "Invite the criticism yourself",
+        "target": "Convidar o grupo a criticar a proposta"
+      },
+      "[\"hr\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Model vulnerability. Ask what's not working. Listen without defending.",
+        "target": "A coordenação pergunta o que não funciona e escuta os pontos sem rebater de imediato."
+      },
+      "[\"hr\",15,\"choices\",1,\"text\"]": {
+        "source": "Anonymous feedback to leadership",
+        "target": "Examinar uma compilação fictícia de comentários"
+      },
+      "[\"hr\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Truth reaches you. Source stays hidden. Trust not rebuilt.",
+        "target": "Os pontos chegam à coordenação por um material inventado. A conversa direta ainda fica pendente."
+      },
+      "[\"hr\",15,\"choices\",2,\"text\"]": {
+        "source": "Wait for metrics to speak",
+        "target": "Esperar pelos registros da atividade"
+      },
+      "[\"hr\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Numbers eventually force the conversation. Months wasted.",
+        "target": "Os registros acabam trazendo o problema à discussão, depois de mais retrabalho."
+      },
+      "[\"hr\",16,\"intro\"]": {
+        "source": "One of our team took a client's methodology apart in a meeting, point by point, in front of the client's own people. Every point was right. The client is furious and talking about walking. Our colleague is autistic and direct, which is part of how they do such careful work, and they have asked me, reasonably, why being correct is suddenly a problem.",
+        "target": "Durante uma apresentação de um roteiro inventado de atendimento, uma pessoa aponta várias falhas de forma direta. Outra se incomoda com a exposição diante do grupo, embora reconheça os pontos levantados."
+      },
+      "[\"hr\",16,\"aside\"]": {
+        "source": "The same directness that catches the flaws caught the client.",
+        "target": "A revisão precisa tratar das falhas e também da forma de conversar sobre elas."
+      },
+      "[\"hr\",16,\"choices\",0,\"text\"]": {
+        "source": "Back our colleague; change the format, not the person",
+        "target": "Manter a revisão e preparar os comentários por escrito"
+      },
+      "[\"hr\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Reviews now arrive in writing before any meeting. The client cools with time to read; the work keeps its edge, and its author.",
+        "target": "Os comentários passam a chegar antes da conversa. O grupo dispõe de tempo para ler sem retirar a contribuição de quem revisou."
+      },
+      "[\"hr\",16,\"choices\",1,\"text\"]": {
+        "source": "Smooth it over with the client, adjust the next review",
+        "target": "Conversar sobre o desconforto e ajustar a próxima revisão"
+      },
+      "[\"hr\",16,\"choices\",1,\"reaction\"]": {
+        "source": "The client stays. Our colleague prefers the written format anyway.",
+        "target": "A conversa abre espaço para rever o formato. Parte dos pontos é organizada por escrito para o próximo encontro."
+      },
+      "[\"hr\",16,\"choices\",2,\"text\"]": {
+        "source": "Apologise for how it was said, not for what was said",
+        "target": "Reconhecer o incômodo e manter os pontos da revisão"
+      },
+      "[\"hr\",16,\"choices\",2,\"reaction\"]": {
+        "source": "The client takes the point, half-mollified. Nobody got sold to manage it.",
+        "target": "O grupo reconhece o cuidado necessário na forma de falar. Parte do desconforto permanece."
+      },
+      "[\"hr\",17,\"intro\"]": {
+        "source": "Your top performer returns from maternity leave. Her role was 'temporarily' filled by someone who's done well and grown into it. She wants her old responsibilities back. He argues he's earned them now. Both have legitimate points. The whole team is watching.",
+        "target": "Uma pessoa retorna a uma atividade do exercício e quer retomar o preparo de um material. Quem assumiu a tarefa durante sua ausência deseja continuar. O grupo aguarda a organização das responsabilidades."
+      },
+      "[\"hr\",17,\"aside\"]": {
+        "source": "Protecting her role punishes him for stepping up. Not protecting it punishes her for having a child.",
+        "target": "Retomar a distribuição anterior ou reconhecer o trabalho feito durante a ausência traz tensões diferentes."
+      },
+      "[\"hr\",17,\"choices\",0,\"text\"]": {
+        "source": "Restore her role fully",
+        "target": "Retomar integralmente a distribuição anterior"
+      },
+      "[\"hr\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Right thing legally. He feels betrayed. Starts job hunting.",
+        "target": "As responsabilidades anteriores são retomadas. Quem vinha preparando o material se afasta da revisão seguinte."
+      },
+      "[\"hr\",17,\"choices\",1,\"text\"]": {
+        "source": "Split responsibilities between them",
+        "target": "Dividir as responsabilidades da atividade"
+      },
+      "[\"hr\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. Neither fully satisfied. Tension lingers.",
+        "target": "A divisão acomoda parte dos pedidos, mas a tensão entre as pessoas permanece."
+      },
+      "[\"hr\",17,\"choices\",2,\"text\"]": {
+        "source": "Let them work it out themselves",
+        "target": "Deixar que as pessoas resolvam entre si"
+      },
+      "[\"hr\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid the hard call. They both resent you for it.",
+        "target": "Sem uma decisão da coordenação, as pessoas ficam insatisfeitas e a divisão continua incerta."
+      },
+      "[\"hr\",18,\"intro\"]": {
+        "source": "Your company closes for Christmas and Easter. Hindu, Muslim, and Jewish employees use annual leave for Diwali, Eid, and Yom Kippur. Someone points out Christian employees get their holidays 'free' while others pay from their allowance.",
+        "target": "O roteiro de convivência do exercício oferece atividades opcionais que agradam mais a uma parte do grupo. Outras pessoas gostariam de alternativas compatíveis com suas preferências."
+      },
+      "[\"hr\",18,\"aside\"]": {
+        "source": "The current system isn't neutral - it just feels neutral to the majority. Changing it costs money or productivity.",
+        "target": "Rever as opções exige preparação; manter a lista atual deixa pedidos sem resposta."
+      },
+      "[\"hr\",18,\"choices\",0,\"text\"]": {
+        "source": "Floating holidays - everyone chooses",
+        "target": "Permitir a escolha entre atividades opcionais"
+      },
+      "[\"hr\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Logistically complex. Genuinely fair. People feel seen.",
+        "target": "Organizar as escolhas exige mais preparo. As diferentes preferências ganham espaço no roteiro."
+      },
+      "[\"hr\",18,\"choices\",1,\"text\"]": {
+        "source": "Add major non-Christian holidays",
+        "target": "Acrescentar alternativas à lista de atividades"
+      },
+      "[\"hr\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Inclusive approach. Team feels valued. Modern workplace.",
+        "target": "A lista fica mais variada e parte do grupo se sente contemplada."
+      },
+      "[\"hr\",18,\"choices\",2,\"text\"]": {
+        "source": "Keep current system - clients expect it",
+        "target": "Manter apenas as atividades já preparadas"
+      },
+      "[\"hr\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Practical. Unfair. Minority employees notice you chose convenience.",
+        "target": "O material existente continua em uso. Quem pediu alternativas percebe que sua preferência ficou de fora."
+      },
+      "[\"hr\",19,\"intro\"]": {
+        "source": "An HR consultant we hired to review our setup is appalled. No proper contracts. No performance reviews. No grievance procedure. 'You're one lawsuit away from disaster.' She's found three arrangements that are legally problematic. But building HR infrastructure feels like becoming the corporation we fled.",
+        "target": "Uma revisão fictícia dos materiais do exercício encontra registros dispersos, tarefas sem descrição e dúvidas sem encaminhamento. Organizar tudo exige esforço que a equipe preferia dedicar à atividade principal."
+      },
+      "[\"hr\",19,\"aside\"]": {
+        "source": "The informal culture is why we started this. The informal culture is also legally precarious. She's probably right, but it feels premature.",
+        "target": "A informalidade facilita alguns ajustes, mas torna mais difícil acompanhar pendências."
+      },
+      "[\"hr\",19,\"choices\",0,\"text\"]": {
+        "source": "Full HR infrastructure now",
+        "target": "Organizar todos os registros e encaminhamentos"
+      },
+      "[\"hr\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Proper foundation. Employment tribunal we didn't know was coming? Averted.",
+        "target": "O grupo passa a localizar tarefas e dúvidas no material comum. A organização ocupa parte do preparo."
+      },
+      "[\"hr\",19,\"choices\",1,\"text\"]": {
+        "source": "Fix legal risks, keep culture light",
+        "target": "Organizar apenas as pendências essenciais"
+      },
+      "[\"hr\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Minimum viable compliance. Culture mostly preserved. Some gaps remain.",
+        "target": "Os pontos mais urgentes ficam registrados. Outras lacunas permanecem para uma revisão posterior."
+      },
+      "[\"hr\",19,\"choices\",2,\"text\"]": {
+        "source": "We're too small for this—ignore it",
+        "target": "Adiar a organização dos registros"
+      },
+      "[\"hr\",19,\"choices\",2,\"reaction\"]": {
+        "source": "She warns us again. Two months later, a problem she predicted appears.",
+        "target": "A revisão é deixada de lado. Uma das dúvidas reaparece e incomoda o grupo."
+      },
+      "[\"hr\",20,\"intro\"]": {
+        "source": "An investor gives us feedback after a board meeting: 'You need clearer decision rights. Who approves what? Who can spend money? It's chaos.' She's right that decisions happen randomly. But our speed comes from not waiting for permission.",
+        "target": "Ao revisar o exercício de gestão do negócio, a coordenação encontra decisões tomadas por pessoas diferentes sem um registro comum. O grupo valoriza a agilidade, mas nem sempre sabe quem encaminha cada tarefa."
+      },
+      "[\"hr\",20,\"aside\"]": {
+        "source": "In corporate life, unauthorised decisions get you fired. In startups, waiting for permission means missing opportunities. We've been successful with chaos. But can it scale?",
+        "target": "Explicitar responsabilidades exige conversa e pode mudar a forma de organizar as atividades."
+      },
+      "[\"hr\",20,\"choices\",0,\"text\"]": {
+        "source": "Clarify decision rights explicitly",
+        "target": "Registrar quem encaminha cada tipo de decisão"
+      },
+      "[\"hr\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Written clarity. Less startup chaos. Some magic lost, some sanity gained.",
+        "target": "As responsabilidades ficam mais claras. O grupo precisa se adaptar aos combinados escritos."
+      },
+      "[\"hr\",20,\"choices\",1,\"text\"]": {
+        "source": "Document just enough to satisfy her",
+        "target": "Registrar apenas os encaminhamentos principais"
+      },
+      "[\"hr\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Board gets clarity. Day-to-day stays scrappy.",
+        "target": "O material comum ganha uma referência básica. Parte das decisões cotidianas continua pouco definida."
+      },
+      "[\"hr\",20,\"choices\",2,\"text\"]": {
+        "source": "Politely push back—this is how we work",
+        "target": "Manter a forma atual de trabalhar"
+      },
+      "[\"hr\",20,\"choices\",2,\"reaction\"]": {
+        "source": "She's frustrated. We stay fast. Accountability unclear.",
+        "target": "A coordenação se frustra. O grupo segue adiante, mas as responsabilidades permanecem incertas."
+      },
+      "[\"hr\",21,\"intro\"]": {
+        "source": "At a founder meetup, another entrepreneur brags about their 80-hour weeks and 'grinding culture.' They make us feel lazy for going home at reasonable hours. Their startup raised more money. Their team is bigger. But their last company failed spectacularly—burnout was part of the story.",
+        "target": "Na comparação de roteiros fictícios de trabalho, outra equipe se orgulha de acumular mais tarefas. O grupo começa a questionar o próprio ritmo, embora ainda tenha dúvidas sobre a qualidade das entregas comparadas."
+      },
+      "[\"hr\",21,\"aside\"]": {
+        "source": "Hustle culture is seductive. It feels like commitment. But sustainable pace wins marathons, and startups are marathons.",
+        "target": "O volume de tarefas chama atenção, mas não esclarece sozinho como o trabalho foi preparado."
+      },
+      "[\"hr\",21,\"choices\",0,\"text\"]": {
+        "source": "Ignore them—sustainable pace is our edge",
+        "target": "Manter o ritmo atual e rever prioridades"
+      },
+      "[\"hr\",21,\"choices\",0,\"reaction\"]": {
+        "source": "We stay healthy. They burn bright, then burn out.",
+        "target": "O grupo mantém uma sequência de trabalho conhecida e reserva atenção às prioridades combinadas."
+      },
+      "[\"hr\",21,\"choices\",1,\"text\"]": {
+        "source": "Push harder for a few months, see what happens",
+        "target": "Testar uma carga maior em parte da atividade"
+      },
+      "[\"hr\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Short-term output spikes. Energy dips. Was it worth it?",
+        "target": "A parte escolhida avança, mas o grupo encontra dificuldade para sustentar o mesmo cuidado."
+      },
+      "[\"hr\",21,\"choices\",2,\"text\"]": {
+        "source": "Maybe they're right—we should work harder",
+        "target": "Aumentar a carga em todas as atividades"
+      },
+      "[\"hr\",21,\"choices\",2,\"reaction\"]": {
+        "source": "We try. Exhaustion sets in. Quality drops.",
+        "target": "O acúmulo dificulta a revisão dos materiais e surgem sinais de insatisfação na equipe."
+      },
+      "[\"hr\",22,\"intro\"]": {
+        "source": "Our lead investor has started treating me like a visionary who shouldn't be questioned. In board meetings, she shuts down my doubts. Filters critical feedback before it reaches me. Refers to decisions as 'what the founder wants.' I'm starting to believe my own hype. That's dangerous.",
+        "target": "No exercício, a coordenação passa a apresentar todas as propostas de uma pessoa como se já estivessem decididas. As dúvidas do grupo chegam cada vez menos a quem prepara as atividades."
+      },
+      "[\"hr\",22,\"aside\"]": {
+        "source": "She's trying to back a winner. But she's creating an echo chamber. Comfortable for my ego, dangerous for the company.",
+        "target": "O apoio constante traz conforto, mas deixa observações importantes fora da discussão."
+      },
+      "[\"hr\",22,\"choices\",0,\"text\"]": {
+        "source": "Explicitly ask for critical feedback",
+        "target": "Pedir abertamente críticas às propostas"
+      },
+      "[\"hr\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward at first. Then liberating. Truth flows again.",
+        "target": "A conversa começa com hesitação. Aos poucos, aparecem pontos que antes ficavam de fora."
+      },
+      "[\"hr\",22,\"choices\",1,\"text\"]": {
+        "source": "Ask her to share concerns privately",
+        "target": "Pedir que a coordenação reúna as dúvidas em conversa reservada"
+      },
+      "[\"hr\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Some improvement. Public support, private honesty. Workable.",
+        "target": "Parte das preocupações chega em uma conversa menor. A discussão com todo o grupo ainda é limitada."
+      },
+      "[\"hr\",22,\"choices\",2,\"text\"]": {
+        "source": "Enjoy the confidence—I've earned it",
+        "target": "Seguir com o apoio recebido sem pedir críticas"
+      },
+      "[\"hr\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Comfortable bubble. Blind spots grow. Problems surprise me.",
+        "target": "O apoio continua confortável, mas as dúvidas acumuladas passam despercebidas e geram atritos depois."
+      },
+      "[\"hr\",23,\"intro\"]": {
+        "source": "Half the team want the premium AI tools: coding assistants, writing aids, research helpers, at £40 a head per month, every month. The other half built their own workflows on the free tiers and call the paid versions a tax on impatience. Multiply the seats by the team and it's a real line in the budget.",
+        "target": "Parte da equipe quer materiais ampliados de apoio para preparar os roteiros do exercício. Outra parte prefere trabalhar com os modelos simples já disponíveis. Preparar versões adicionais exige recursos e organização."
+      },
+      "[\"hr\",23,\"aside\"]": {
+        "source": "It's not the £40. It's the £40, times everyone, times every month, for tools half of them may never open.",
+        "target": "Disponibilizar materiais para todo o grupo e atender apenas aos pedidos envolvem esforços diferentes."
+      },
+      "[\"hr\",23,\"choices\",0,\"text\"]": {
+        "source": "Buy seats for everyone, review usage quarterly",
+        "target": "Preparar materiais ampliados para todos e acompanhar o uso"
+      },
+      "[\"hr\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Adoption is patchy and the best users are visibly faster. The review will tell us who.",
+        "target": "O uso varia entre as pessoas. Alguns materiais ajudam no preparo; outros aguardam revisão da necessidade."
+      },
+      "[\"hr\",23,\"choices\",1,\"text\"]": {
+        "source": "Fund seats on request, with a one-line justification",
+        "target": "Preparar materiais ampliados mediante pedido"
+      },
+      "[\"hr\",23,\"choices\",1,\"reaction\"]": {
+        "source": "The keen get their tools. The form filters the rest. Mild grumbling, contained.",
+        "target": "Quem solicita recebe o apoio preparado. A necessidade de explicar o pedido causa algum incômodo."
+      },
+      "[\"hr\",23,\"choices\",2,\"text\"]": {
+        "source": "The free tiers are good enough",
+        "target": "Manter os materiais simples já disponíveis"
+      },
+      "[\"hr\",23,\"choices\",2,\"reaction\"]": {
+        "source": "The budget is safe. The keenest quietly pay for their own.",
+        "target": "O grupo segue com os modelos existentes. Quem pediu apoio adicional fica insatisfeito e adapta o próprio roteiro."
+      },
+      "[\"hr\",24,\"intro\"]": {
+        "source": "The AI tools were meant to save time, and they do. They also consume it. Someone writes the briefing the tool needs, someone checks what it produces, someone fixes the bits it confidently got wrong, and none of that appears on any timesheet. Half the team are spending hours a week minding the machines, and nobody budgeted for it.",
+        "target": "No exercício de gestão de um negócio brasileiro, os modelos de roteiro ajudam no preparo, mas também exigem conferência e correções. Esse trabalho ficou fora da divisão inicial de tarefas."
+      },
+      "[\"hr\",24,\"aside\"]": {
+        "source": "I've started calling it botsitting: the unpaid, untracked work of making AI useful. The time savings are real. So is the babysitting.",
+        "target": "Usar um material pronto não elimina o tempo de entender, conferir e ajustar seu conteúdo."
+      },
+      "[\"hr\",24,\"choices\",0,\"text\"]": {
+        "source": "Make the work visible: track it, budget it, assign it",
+        "target": "Registrar o trabalho de revisão e distribuir responsabilidades"
+      },
+      "[\"hr\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Botsitting becomes a job with a name. The honest numbers change two decisions immediately.",
+        "target": "A revisão passa a ter responsáveis e espaço no planejamento. O grupo revê parte dos encaminhamentos."
+      },
+      "[\"hr\",24,\"choices\",1,\"text\"]": {
+        "source": "Write the playbook: templates, checklists, who checks what",
+        "target": "Preparar um guia comum de conferência"
+      },
+      "[\"hr\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Less reinventing. The checking gets faster without getting careless.",
+        "target": "O guia reduz a repetição de ajustes e ajuda a organizar o cuidado com os materiais."
+      },
+      "[\"hr\",24,\"choices\",2,\"text\"]": {
+        "source": "It's just how work is now",
+        "target": "Continuar sem registrar o trabalho de revisão"
+      },
+      "[\"hr\",24,\"choices\",2,\"reaction\"]": {
+        "source": "True, and unmeasured. The cost hides in everyone's evenings.",
+        "target": "As correções continuam aparecendo fora do combinado e o grupo demonstra insatisfação."
+      },
+      "[\"hr\",25,\"intro\"]": {
+        "source": "I have been reading the team's LinkedIn pages. Between them they give away the tools we build with, what we are working on now, and a feature we have not announced. Recruiters can read all of it. So can competitors. Do we ask people to quieten their own pages?",
+        "target": "Na apresentação de um negócio fictício, a equipe preparou cartões com personagens e tarefas inventadas. Alguns cartões incluem detalhes de uma atividade ainda em preparação. A coordenação questiona o que deve entrar na exposição do exercício."
+      },
+      "[\"hr\",25,\"aside\"]": {
+        "source": "A profile is theirs. What it describes is ours. LinkedIn does not care about the difference.",
+        "target": "Os cartões apresentam o trabalho do grupo, mas nem todo material de preparação está pronto para circular."
+      },
+      "[\"hr\",25,\"choices\",0,\"text\"]": {
+        "source": "Write a proper policy and review the pages",
+        "target": "Escrever orientações e revisar todos os cartões"
+      },
+      "[\"hr\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Pages go vague. So does some goodwill.",
+        "target": "Os cartões ficam menos detalhados. Parte da equipe se incomoda com a revisão abrangente."
+      },
+      "[\"hr\",25,\"choices\",1,\"text\"]": {
+        "source": "Have a quiet word, explain what stays unsaid",
+        "target": "Conversar sobre os limites do material da exposição"
+      },
+      "[\"hr\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Most people simply had not thought about it.",
+        "target": "A conversa esclarece pontos que parte do grupo ainda não tinha considerado."
+      },
+      "[\"hr\",25,\"choices\",2,\"text\"]": {
+        "source": "Leave it, visible people attract talent",
+        "target": "Manter os cartões como foram preparados"
+      },
+      "[\"hr\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Two CVs arrive. And one screenshot reaches a competitor.",
+        "target": "Os detalhes despertam interesse, mas também circula uma versão de uma atividade ainda incompleta."
+      },
+      "[\"hr\",26,\"intro\"]": {
+        "source": "One of the team has been quietly updating their LinkedIn: new summary, new photograph, skills reordered, and the recruiters-only 'Open to Work' flag that is not as private as people believe. Nothing has been said. Perhaps nothing needs to be.",
+        "target": "No roteiro fictício do exercício, uma pessoa reorganizou o cartão de seu personagem e destacou tarefas diferentes das atuais. A mudança ainda não foi discutida com o grupo."
+      },
+      "[\"hr\",26,\"aside\"]": {
+        "source": "People polish their profiles when they feel unseen. The update is rarely about the new job; it is about the current one.",
+        "target": "A alteração do cartão pode abrir uma conversa sobre a participação na atividade, sem revelar por si só o motivo da mudança."
+      },
+      "[\"hr\",26,\"choices\",0,\"text\"]": {
+        "source": "Improve things quietly, mention nothing",
+        "target": "Melhorar a organização das tarefas sem comentar o cartão"
+      },
+      "[\"hr\",26,\"choices\",0,\"reaction\"]": {
+        "source": "You will never know whether it worked, which is rather the point.",
+        "target": "A coordenação ajusta o preparo do grupo. A relação entre os ajustes e a mudança do cartão permanece incerta."
+      },
+      "[\"hr\",26,\"choices\",1,\"text\"]": {
+        "source": "Ask them plainly: what would make you stay?",
+        "target": "Perguntar quais tarefas fariam sentido para a pessoa"
+      },
+      "[\"hr\",26,\"choices\",1,\"reaction\"]": {
+        "source": "A frank conversation. They wanted to be asked.",
+        "target": "A conversa permite ouvir preferências que ainda não tinham sido discutidas."
+      },
+      "[\"hr\",26,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, quietly plan cover",
+        "target": "Não comentar e preparar outra distribuição de tarefas"
+      },
+      "[\"hr\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Prudent. A little cold. They notice the distance.",
+        "target": "A coordenação se prepara para uma mudança, mas a distância na conversa fica perceptível."
+      },
+      "[\"hr\",27,\"intro\"]": {
+        "source": "A screenshot for you: one of the team has been liking the competitor's launch posts. Three this month, one with a comment, 'Well deserved!'. It is probably nothing. It is also how these things start.",
+        "target": "Durante uma mostra de propostas fictícias, alguém da equipe elogia o material de outro grupo. A coordenação recebe um relato e começa a questionar o significado daquele elogio."
+      },
+      "[\"hr\",27,\"aside\"]": {
+        "source": "A like is one click. Reading meaning into it is a whole afternoon. Both statements are true.",
+        "target": "Um comentário breve pode ter vários sentidos. Interpretá-lo exige mais cuidado do que apenas registrá-lo."
+      },
+      "[\"hr\",27,\"choices\",0,\"text\"]": {
+        "source": "Remind the team about discretion around rivals",
+        "target": "Orientar o grupo a limitar comentários sobre outras propostas"
+      },
+      "[\"hr\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Everyone unfollows everyone. The feed goes quiet. So do some people.",
+        "target": "Os comentários diminuem. Parte da equipe também se retrai nas conversas sobre o exercício."
+      },
+      "[\"hr\",27,\"choices\",1,\"text\"]": {
+        "source": "A quiet word about how they are finding the work",
+        "target": "Conversar sobre a experiência da pessoa na atividade"
+      },
+      "[\"hr\",27,\"choices\",1,\"reaction\"]": {
+        "source": "It turns out they know the rival's team from a conference. Useful, as it happens.",
+        "target": "A conversa mostra que havia uma troca anterior de ideias com o outro grupo, útil para compreender o comentário."
+      },
+      "[\"hr\",27,\"choices\",2,\"text\"]": {
+        "source": "Ignore it, a like is not disloyalty",
+        "target": "Deixar o elogio sem intervenção"
+      },
+      "[\"hr\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Almost certainly right. The screenshot stays saved.",
+        "target": "A coordenação segue com o roteiro e a dúvida sobre o comentário perde espaço na discussão."
+      },
+      "[\"hr\",28,\"intro\"]": {
+        "source": "We have our first Glassdoor review. One star. A candidate we interviewed twice and then never answered has written it all up: the role, the dates, the silence. 'They talk about their values in the interview. Then nothing. Not even a no.' It is now the first thing under our name when candidates search us.",
+        "target": "Um relato inventado do exercício descreve uma pessoa que participou de conversas sobre uma atividade e não recebeu retorno. O texto passa a fazer parte do material de discussão da equipe."
+      },
+      "[\"hr\",28,\"aside\"]": {
+        "source": "Companies fuss over how they treat customers and forget the people they interview. Candidates talk to more people than clients do.",
+        "target": "O relato chama atenção para o cuidado com quem participa das etapas de preparação."
+      },
+      "[\"hr\",28,\"choices\",0,\"text\"]": {
+        "source": "Reply publicly, apologise, mend the process",
+        "target": "Reconhecer a falha no relato e rever o encaminhamento"
+      },
+      "[\"hr\",28,\"choices\",0,\"reaction\"]": {
+        "source": "The apology reads well. The mended process reads better.",
+        "target": "A resposta reconhece o desencontro e a equipe passa a organizar melhor os retornos do exercício."
+      },
+      "[\"hr\",28,\"choices\",1,\"text\"]": {
+        "source": "Reply briefly, thank them, move on",
+        "target": "Agradecer o relato e seguir com a atividade"
+      },
+      "[\"hr\",28,\"choices\",1,\"reaction\"]": {
+        "source": "Measured. The review stays; the sting fades.",
+        "target": "A resposta fica registrada, mas o problema descrito ainda aparece no material de discussão."
+      },
+      "[\"hr\",28,\"choices\",2,\"text\"]": {
+        "source": "Ask the lawyers to get it taken down",
+        "target": "Pedir que o relato seja retirado do material"
+      },
+      "[\"hr\",28,\"choices\",2,\"reaction\"]": {
+        "source": "Glassdoor declines. The review gains a second paragraph.",
+        "target": "O pedido é questionado e a discussão ganha novos pontos de insatisfação."
+      },
+      "[\"hr\",29,\"intro\"]": {
+        "source": "A well-followed engineer has posted about us on LinkedIn: 'Another AI startup selling a demo as a product.' They have screenshots, our own promises laid beside what the product does today, and the gap does not flatter us. The comments are filling with people we know: a funder, two customers, someone we tried to hire.",
+        "target": "Ao comparar materiais fictícios de apresentação, o grupo encontra uma crítica: o roteiro anuncia mais do que a atividade preparada consegue mostrar. A comparação usa trechos dos próprios materiais do exercício."
+      },
+      "[\"hr\",29,\"aside\"]": {
+        "source": "The post stings because the gap is real. Every startup sells a little future; the argument is over how much.",
+        "target": "A crítica incomoda porque aponta uma diferença concreta entre a apresentação e o preparo."
+      },
+      "[\"hr\",29,\"choices\",0,\"text\"]": {
+        "source": "Reply with a public roadmap and dates we mean",
+        "target": "Explicar os limites atuais e registrar os próximos ajustes"
+      },
+      "[\"hr\",29,\"choices\",0,\"reaction\"]": {
+        "source": "Candour reads better than the demo did. The dates are now promises too.",
+        "target": "A explicação esclarece o que está preparado e o que ainda depende de trabalho. Os ajustes ficam visíveis ao grupo."
+      },
+      "[\"hr\",29,\"choices\",1,\"text\"]": {
+        "source": "Say nothing, close the gap",
+        "target": "Rever o material sem responder à crítica"
+      },
+      "[\"hr\",29,\"choices\",1,\"reaction\"]": {
+        "source": "The work answers quietly. The post stays up.",
+        "target": "A equipe trabalha na diferença apontada. A crítica continua no material de discussão."
+      },
+      "[\"hr\",29,\"choices\",2,\"text\"]": {
+        "source": "Rebut it point by point",
+        "target": "Contestar a crítica ponto por ponto"
+      },
+      "[\"hr\",29,\"choices\",2,\"reaction\"]": {
+        "source": "The thread doubles. Neutral readers remember the argument, not the answer.",
+        "target": "A discussão se alonga e o desacordo passa a ocupar mais espaço que os ajustes necessários."
+      },
+      "[\"hr\",30,\"intro\"]": {
+        "source": "One of the team has asked whether we would take a work-experience student from the local sixth form for a week. It is their old school, and the student wrote to us themselves: teaching themselves to code in the evenings, full of questions about AI, first in the family to think about university. The safeguarding form runs to eleven pages and asks for policies we have never had to write, someone would need to own the week, and the diary is already full. The school is keen; our colleague is keener.",
+        "target": "O exercício inclui a possibilidade de apresentar uma atividade do negócio fictício a outra equipe em uma troca de aprendizagem. Preparar o encontro exige materiais, acompanhamento e espaço na agenda já ocupada."
+      },
+      "[\"hr\",30,\"aside\"]": {
+        "source": "A week is short. It is also somebody's first sight of the inside of a company, and they will remember it longer than we will.",
+        "target": "Mesmo uma troca breve exige cuidado com o que será apresentado e com quem acompanhará a atividade."
+      },
+      "[\"hr\",30,\"choices\",0,\"text\"]": {
+        "source": "Take them, plan a proper week, someone owns it",
+        "target": "Preparar a troca de aprendizagem e definir um responsável"
+      },
+      "[\"hr\",30,\"choices\",0,\"reaction\"]": {
+        "source": "By Friday the student has fixed something small themselves and pitched a user feature nobody here had thought of, which goes straight on the roadmap. The school asks about next year, and the eleven pages are already filled in.",
+        "target": "A outra equipe participa de uma atividade preparada e traz uma sugestão para o roteiro. O responsável registra os pontos da troca."
+      },
+      "[\"hr\",30,\"choices\",1,\"text\"]": {
+        "source": "Say yes and wing the week",
+        "target": "Aceitar a troca e organizar o encontro durante a atividade"
+      },
+      "[\"hr\",30,\"choices\",1,\"reaction\"]": {
+        "source": "The student shadows everyone and asks the best question of the quarter in Thursday's standup. The form was the hard part.",
+        "target": "A outra equipe acompanha tarefas diferentes e faz uma pergunta útil. A preparação fica distribuída pelo próprio encontro."
+      },
+      "[\"hr\",30,\"choices\",2,\"text\"]": {
+        "source": "Decline kindly, offer an afternoon visit instead",
+        "target": "Propor apenas uma apresentação breve do material"
+      },
+      "[\"hr\",30,\"choices\",2,\"reaction\"]": {
+        "source": "An afternoon's tour and a demo instead. The school is grateful; our colleague had hoped for more.",
+        "target": "A apresentação permite uma troca menor. Parte da equipe esperava uma atividade mais ampla."
+      },
+      "[\"hr\",31,\"intro\"]": {
+        "source": "Reading the yearly appraisal forms, I stopped at one. Fluent, positive, and oddly familiar: whole phrases from your last briefing email, lines from the meeting notes, our own values recited back in order. It appears they fed the company's documents to a model and it wrote the year we told them they'd had. The strange thing is, it scores rather well against the criteria.",
+        "target": "Uma ficha fictícia de reflexão sobre a atividade repete frases do roteiro comum e apresenta poucos exemplos próprios do personagem. O texto parece adequado ao formulário, mas ajuda pouco a entender a experiência descrita."
+      },
+      "[\"hr\",31,\"aside\"]": {
+        "source": "An appraisal is the one form where the writing is the point. If the model reflects on your year, who exactly got appraised?",
+        "target": "Repetir o material de referência pode preencher a ficha sem acrescentar uma reflexão sobre o exercício."
+      },
+      "[\"hr\",31,\"choices\",0,\"text\"]": {
+        "source": "Set an AI-use policy for the company, forms included",
+        "target": "Escrever orientações gerais para preparar as fichas"
+      },
+      "[\"hr\",31,\"choices\",0,\"reaction\"]": {
+        "source": "A sensible document. People follow the parts they already agreed with.",
+        "target": "As orientações ficam disponíveis. O grupo incorpora sobretudo os pontos com que já concordava."
+      },
+      "[\"hr\",31,\"choices\",1,\"text\"]": {
+        "source": "Hand it back: this one, you write yourself",
+        "target": "Pedir que a ficha seja refeita com exemplos da atividade"
+      },
+      "[\"hr\",31,\"choices\",1,\"reaction\"]": {
+        "source": "A shorter, rougher form comes back. It says something.",
+        "target": "A nova ficha é mais curta e menos polida, mas traz exemplos que permitem discutir a experiência."
+      },
+      "[\"hr\",31,\"choices\",2,\"text\"]": {
+        "source": "Judge the year, not the prose",
+        "target": "Examinar apenas as tarefas descritas na ficha"
+      },
+      "[\"hr\",31,\"choices\",2,\"reaction\"]": {
+        "source": "Fair enough. Next year every form arrives polished, and none of them say anything. People talk to each other a little less.",
+        "target": "As tarefas são consideradas, mas as fichas seguintes continuam genéricas e provocam menos conversa."
+      },
+      "[\"hr\",32,\"intro\"]": {
+        "source": "I have looked at Great Place to Work certification. It is a staff survey, where sixty-five per cent of the team must answer positively, a short Culture Brief about who we are, a fee that starts around eight thousand a year, and a badge that lasts twelve months before we pay again. Recruiters do notice the badge. The survey answers come to us either way.",
+        "target": "O grupo pode preparar um painel fictício de reconhecimento da convivência no exercício. O roteiro inclui comentários inventados sobre a organização da equipe e exige trabalho para apresentar os resultados da atividade."
+      },
+      "[\"hr\",32,\"aside\"]": {
+        "source": "Sixty-five per cent of us would have to call this a great place to work. The interesting number is whatever the true one turns out to be.",
+        "target": "O painel chama atenção, mas os comentários do roteiro também podem revelar aspectos a discutir no grupo."
+      },
+      "[\"hr\",32,\"choices\",0,\"text\"]": {
+        "source": "Enter properly: survey, Culture Brief, act on the answers",
+        "target": "Preparar o painel e discutir os comentários inventados"
+      },
+      "[\"hr\",32,\"choices\",0,\"reaction\"]": {
+        "source": "Certified, badge on the job adverts for a year. Two survey comments sting, and both are right.",
+        "target": "O painel fica pronto e a equipe debate pontos incômodos dos comentários fornecidos pelo roteiro."
+      },
+      "[\"hr\",32,\"choices\",1,\"text\"]": {
+        "source": "Enter for the badge, minimum effort",
+        "target": "Preparar apenas a apresentação do painel"
+      },
+      "[\"hr\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Scraped past sixty-five. Badge by June; inside, nothing changes; renewal invoice in twelve months.",
+        "target": "O painel é apresentado, mas os comentários sobre a convivência não recebem uma discussão mais ampla."
+      },
+      "[\"hr\",32,\"choices\",2,\"text\"]": {
+        "source": "Save the fee, run our own survey",
+        "target": "Deixar o painel e discutir os comentários internamente"
+      },
+      "[\"hr\",32,\"choices\",2,\"reaction\"]": {
+        "source": "No badge. The answers arrive anyway, at the pub.",
+        "target": "Não há painel para apresentar. Os comentários inventados continuam disponíveis para a conversa do grupo."
+      },
+      "[\"hr\",33,\"intro\"]": {
+        "source": "I need a decision on a personnel matter. One of the team built an AI agent from our website and promotional materials, told it to 'sell our firm', and let it loose on social media without asking anyone. It ran for ten days: followers up, one invented discount, one picked fight with a customer. I have taken it down. The question is the colleague. They broke every rule we have about who speaks for the company, and they showed more initiative than anyone else this quarter.",
+        "target": "Uma pessoa da equipe criou, por iniciativa própria, um material fictício de divulgação para a atividade. O texto inclui informações que o grupo não combinou e provoca um desacordo durante a revisão. A coordenação suspende seu uso para decidir como tratar a iniciativa."
+      },
+      "[\"hr\",33,\"aside\"]": {
+        "source": "Punish it and nobody experiments again. Reward it and nobody asks permission again.",
+        "target": "A resposta pode abrir espaço para novas propostas ou aumentar o receio de apresentar ideias ainda incompletas."
+      },
+      "[\"hr\",33,\"choices\",0,\"text\"]": {
+        "source": "Channel it: a small budget and a rule book, agents by approval from now on",
+        "target": "Organizar a iniciativa com recursos de preparo e combinados de revisão"
+      },
+      "[\"hr\",33,\"choices\",0,\"reaction\"]": {
+        "source": "They write the approval rules themselves, and are harder on the next person than I would have been.",
+        "target": "A pessoa ajuda a escrever os combinados e passa a examinar as propostas seguintes com mais cuidado."
+      },
+      "[\"hr\",33,\"choices\",1,\"text\"]": {
+        "source": "A quiet word and a written rule, move on",
+        "target": "Conversar e registrar um combinado de revisão"
+      },
+      "[\"hr\",33,\"choices\",1,\"reaction\"]": {
+        "source": "Fair, forgettable. The rule goes in the handbook nobody reads until next time.",
+        "target": "O combinado fica registrado. A equipe segue com a atividade, embora nem todos retomem o documento."
+      },
+      "[\"hr\",33,\"choices\",2,\"text\"]": {
+        "source": "Formal warning",
+        "target": "Registrar uma cobrança formal sobre a atividade"
+      },
+      "[\"hr\",33,\"choices\",2,\"reaction\"]": {
+        "source": "By the book. The team notices what initiative buys here. The next good idea stays in a drawer.",
+        "target": "A cobrança é percebida pelo grupo. Algumas ideias deixam de ser apresentadas na revisão seguinte."
+      }
+    }
+  }
+}

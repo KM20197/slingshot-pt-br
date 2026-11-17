@@ -1,0 +1,157 @@
+{
+  "tutorialTypeModal": {
+    "How Would You Like to Learn?": "Como você prefere aprender?",
+    "Choose the tutorial that fits your experience level": "Escolha o guia adequado à sua experiência",
+    "Full Tutorial": "Tutorial completo",
+    "~10 minutes": "Leitura no seu ritmo",
+    "Complete guide covering all aspects of the game, including deep dives into Research, Product, Sales & Marketing, and HR management.": "Guia de gestão com objetivos, caixa, equipe, mercado, financiamento e os quatro cargos de liderança.",
+    "13 topics": "18 tópicos",
+    "Departmental guides": "Guias das funções",
+    "Best for first-time players": "Para a primeira partida",
+    "Quick Start": "Guia rápido",
+    "~3 minutes": "Fundamentos para começar",
+    "Essential mechanics plus the key research concepts. Get playing fast!": "Conheça as regras essenciais para começar a gerir o empreendimento.",
+    "10 topics": "14 tópicos",
+    "Core mechanics + Research": "Regras e decisões de gestão",
+    "For experienced gamers": "Para quem já conhece simuladores",
+    "Skip tutorial entirely →": "Pular tutorial →"
+  },
+  "tutorialHubModal": {
+    "Learn the Game": "Conheça o jogo",
+    "Click any topic to learn more. Topics turn": "Abra um tópico para ler. Os tópicos ficam",
+    "green": "verdes",
+    "once read.": "após a leitura.",
+    "0 of 10 topics read": "0 tópicos lidos",
+    "← Back": "← Voltar",
+    "🚀 Start Playing": "Iniciar partida",
+    "You can revisit this guide anytime from the menu": "Você pode voltar a este guia pelo menu"
+  },
+  "tutorialTopicModal": {
+    "Topic Title": "Tópico",
+    "Brief description": "Descrição",
+    "← Back to Topics": "← Voltar aos tópicos",
+    "Got It ✓": "Entendi ✓"
+  },
+  "tutorialModal": {
+    "Tutorial Progress": "Progresso do tutorial",
+    "of": "de",
+    "← Back": "← Voltar",
+    "Skip Tutorial": "Pular tutorial",
+    "Next →": "Avançar →"
+  },
+  "locationModal": {
+    "📍 Where Will You Build?": "📍 Onde ficará seu negócio?",
+    "← Back": "← Voltar",
+    "Location shapes your startup ecosystem for": "A localização influencia a operação de",
+    "your company": "sua empresa",
+    "Each city offers different trade-offs: talent pools, salary costs, investor networks, and domain expertise. Click \"Learn more\" to understand each location's advantages and challenges.": "Compare mercado, mão de obra, ocupação e fornecimento. Os cartões mostram os efeitos usados na simulação; abra Saiba mais para ver as vantagens e os desafios."
+  },
+  "locationInfoModal": {
+    "💷 Salary Costs": "💰 Custo de mão de obra",
+    "📍 Geography Insights": "📍 Efeitos da localização",
+    "Advantages": "Vantagens",
+    "Challenges": "Desafios",
+    "Choose this location →": "Escolher esta cidade →"
+  },
+  "fundingModal": {
+    "Choose Your Funding Path": "Escolha como financiar o negócio",
+    "❓ What's the difference?": "❓ Qual é a diferença?",
+    "← Back": "← Voltar",
+    "How will you fund your startup? Each path offers different resources and constraints.": "Compare recursos próprios e empréstimos, considerando parcelas, prazo e responsabilidade."
+  },
+  "hiringModal": {
+    "Build Your Leadership Team": "Monte sua equipe de gestão",
+    "Hire 3 department heads to start.": "Escolha três responsáveis para começar.",
+    "💼 Head of HR unlocks after Milestone 1.": "🗂️ Gerente de Pessoas disponível após a primeira meta.",
+    "🔬 Pesquisa": "📋 Gerente Geral",
+    "💻 Produto": "⚙️ Supervisor de Operações",
+    "📣 Vendas e marketing": "📣 Gerente Comercial",
+    "Head of Research": "Gerente Geral",
+    "- Drives scientific breakthroughs": "— Organiza processos e acompanha a qualidade",
+    "Head of Product": "Supervisor de Operações",
+    "- Builds and ships features": "— Coordena a produção e a prestação de serviços",
+    "Head of Sales & Marketing": "Gerente Comercial",
+    "- Wins customers and builds brand": "— Conquista clientes e constrói a marca",
+    "← Back": "← Voltar",
+    "Next →": "Avançar →"
+  },
+  "hrModal": {
+    "Hire a Head of HR": "Contrate um Gerente de Pessoas",
+    "After your first milestone, the board insists you formalise HR.": "Após a primeira meta, organize a gestão de pessoas.",
+    "Choose carefully-your Head of HR will shape company culture and help retain your team.": "Compare salário, competências e efeitos de cada perfil antes de contratar."
+  },
+  "staffBurnImpact": {
+    "£0k": "R$ 0k"
+  },
+  "fireModalCash": {
+    "£0k": "R$ 0k"
+  },
+  "fireModalBurn": {
+    "£0k/q": "R$ 0k/trim"
+  },
+  "fireModalNewBurn": {
+    "£0k/q": "R$ 0k/trim"
+  },
+  "fireModalNewCash": {
+    "£0k": "R$ 0k"
+  },
+  "staffTierCurrent": {
+    "Lean team": "Equipe enxuta"
+  },
+  "staffTierNext": {
+    "2 more → +1 AP": "Mais 2 → +1 AP"
+  },
+  "fireStaffModal": {
+    "📉 Lay Off Staff": "📉 Desligar pessoa da equipe",
+    "Select who to lay off:": "Selecione quem desligar:",
+    "No hired staff to lay off. Department heads cannot be laid off.": "Não há pessoas contratadas para desligar. Responsáveis de área não podem ser desligados.",
+    "Current Staff:": "Equipe atual:",
+    "Current AP Bonus:": "Bônus de AP atual:",
+    "Cash Available:": "Caixa disponível:",
+    "Current Burn:": "Custo atual:",
+    "Layoff Costs:": "Custos do desligamento:",
+    "💰 Severance package": "💰 Verba rescisória",
+    "£40k one-time": "R$ 40 mil, uma única vez",
+    "😢 Morale impact": "😢 Impacto no clima",
+    "-1 mood all depts": "−1 de clima em todas as áreas",
+    "⏳ Reorganization disruption": "⏳ Interrupção por reorganização",
+    "-1 AP this quarter": "−1 AP neste trimestre",
+    "⚡ Capacity reduction": "⚡ Redução de capacidade",
+    "May lose AP tier": "Pode perder faixa de AP",
+    "📉 Reduced burn rate": "📉 Redução do custo",
+    "-£25k/quarter": "−R$ 25 mil/trimestre",
+    "After Layoff:": "Após o desligamento:",
+    "New Staff Count:": "Novo total de equipe:",
+    "New AP Bonus:": "Novo bônus de AP:",
+    "New Burn Rate:": "Novo custo:",
+    "Cash After:": "Caixa depois:",
+    "Lay Off Selected": "Desligar selecionado"
+  },
+  "staffHelpModal": {
+    "Staff hired above your founding team increase your capacity.": "Pessoas contratadas além da equipe fundadora aumentam a capacidade.",
+    "Hiring costs attention now; the extra capacity arrives the following quarter. Your first hire gives +1 AP from next quarter.": "A contratação consome atenção agora; a capacidade extra chega no trimestre seguinte. A primeira contratação rende +1 AP a partir do próximo trimestre.",
+    "➕ Hiring": "➕ Contratação",
+    "to post a job": "para abrir uma vaga",
+    "• Review 4-6 candidates": "• Analise de 4 a 6 perfis",
+    "• Negotiate salary & equity": "• Negocie a proposta salarial",
+    "• Integration takes 1 quarter": "• A integração leva 1 trimestre",
+    "Find the right person for your team": "Encontre a pessoa certa para a equipe",
+    "➖ Layoffs": "➖ Desligamentos",
+    "£40k": "R$ 40 mil",
+    "severance cost": "de verba rescisória",
+    "−£25k/quarter": "−R$ 25 mil/trimestre",
+    "burn saved": "de custo economizado",
+    "this quarter (disruption)": "neste trimestre (interrupção)",
+    "• −1 morale across all departments": "• −1 de clima em todas as áreas",
+    "Painful but extends runway": "Doloroso, mas amplia a autonomia",
+    "💡 Strategic Tips": "💡 Dicas estratégicas",
+    "Hire before a big push": "Contrate antes de um esforço maior",
+    "— More AP means more actions per quarter": "— Mais AP significam mais ações por trimestre",
+    "Layoff when cash is tight": "Desligue quando o caixa apertar",
+    "— Extends runway but hurts short-term": "— Amplia a autonomia, mas pesa no curto prazo",
+    "Both cause disruption": "Ambos causam interrupção",
+    "— Plan around the 1-quarter integration/recovery period": "— Planeje o trimestre de integração ou recuperação",
+    "Equity can reduce salary": "Participação pode reduzir o salário",
+    "— Offer ownership to attract talent on a budget": "— Ofereça participação para atrair talento com orçamento limitado"
+  }
+}

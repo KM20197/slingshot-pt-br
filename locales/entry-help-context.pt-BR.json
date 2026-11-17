@@ -1,0 +1,93 @@
+{
+  "version": 1,
+  "panels": [
+    {
+      "scopeId": "helpContent-overview",
+      "topics": [
+        "goals",
+        "cards",
+        "competition"
+      ],
+      "expectedInnerSha256": "dc8c725767064c5b569a354c502e45e0c2ee165c875d260f5a7d2d6996c6a12d"
+    },
+    {
+      "scopeId": "helpContent-ap",
+      "topics": [
+        "ap",
+        "cash"
+      ],
+      "expectedInnerSha256": "2ce5de9d6a1000a206340ce85de12acc78d08355343476edc021c9c01c1d1fe5"
+    },
+    {
+      "scopeId": "helpContent-money",
+      "topics": [
+        "cash",
+        "funding",
+        "grants"
+      ],
+      "expectedInnerSha256": "687ea9ebce54e7e023e0ae2cd8f6929c846edbed8f16f068d1e0042fc5899d98"
+    },
+    {
+      "scopeId": "helpContent-milestones",
+      "topics": [
+        "milestones",
+        "goals"
+      ],
+      "expectedInnerSha256": "92e1eae0c20c8538467e28b65c7ccd4920b2123d1da8929a61fc4245b30f895f"
+    },
+    {
+      "scopeId": "helpContent-team",
+      "topics": [
+        "team",
+        "hr"
+      ],
+      "expectedInnerSha256": "04741ee298720a726d155bc91065fca295533187a14e6970d9cf863f549c8441"
+    },
+    {
+      "scopeId": "helpContent-faq",
+      "topics": [
+        "goals",
+        "ap",
+        "funding",
+        "milestones",
+        "team",
+        "pivots"
+      ],
+      "expectedInnerSha256": "1945d5f7fa939530dc571d988c7466547443bc9c7c54e08f34f83640233a3079"
+    }
+  ],
+  "meta": {
+    "source": "An educational AI startup simulation by Ammon Salter, Stefano Baruffaldi & Federico Bignone. Part of the ESRC-funded Profiting from Science project. Licensed under CC BY-NC-SA 4.0.",
+    "target": "Slingshot Brasil: simulação acadêmica de gestão de empreendimentos brasileiros. Adaptação de The Slingshot, de Ammon Salter, Stefano Baruffaldi e Federico Bignone. Licença CC BY-NC-SA 4.0."
+  },
+  "entry": {
+    "source": "No Brasil, empreendedores de saúde, comércio, serviços, indústria e tecnologia enfrentam o desafio de transformar oportunidades em negócios viáveis. Conhecer o cliente, formar uma equipe e administrar recursos limitados são decisões centrais dessa trajetória.",
+    "target": "Nesta edição brasileira, você administra empreendimentos fictícios de serviços, comércio e indústria. Conhecer o cliente, organizar a operação, formar uma equipe e administrar recursos limitados são decisões centrais dessa trajetória."
+  },
+  "ada": [
+    {
+      "source": "Work with Ada, who is The Slingshot’s resident venture builder, to develop a new AI startup. You then load the file she gives you and play it here.",
+      "target": "Ada é uma ferramenta externa do material de referência. A criação e a importação de empreendimentos da edição brasileira ainda dependem de validação própria. Para jogar com as regras brasileiras disponíveis, escolha um dos doze casos desta edição."
+    },
+    {
+      "source": "Meet Ada",
+      "target": "Consultar Ada — referência externa"
+    },
+    {
+      "source": "Carregar sua startup",
+      "target": "Importar arquivo — integração em desenvolvimento"
+    }
+  ],
+  "history": {
+    "sourceModalId": "preambleModal1",
+    "destinationModalId": "contributorsModal",
+    "videoSha256": "c594b6612da283fbd540c3093f0127df2a25e34943d132a0277caee3bc483f65",
+    "transcriptSha256": "6ad38c5543ff281c1a3e3462918af58f3ebc579a2e8a9c40d782dd8b0877ac03",
+    "heading": "Material histórico da obra original",
+    "notice": "O vídeo e a transcrição abaixo documentam a obra de origem. A orientação desta edição é a dos empreendimentos brasileiros, com capital próprio e crédito didático; este material histórico não define suas regras."
+  },
+  "entryGuide": {
+    "heading": "Como jogar esta edição",
+    "text": "Escolha um dos doze empreendimentos brasileiros, compare as decisões de gestão e acompanhe o caixa e os prazos das metas. Recursos próprios e empréstimos têm obrigações diferentes. Consulte os tópicos de ajuda desta edição antes de assumir compromissos."
+  }
+}

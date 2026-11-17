@@ -1,0 +1,474 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "method": "renderExecRow",
+      "kind": "Literal",
+      "source": "Mood hidden in Extreme Mode",
+      "count": 1,
+      "target": "Humor oculto no Modo Extremo"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": "No decision pending",
+      "count": 1,
+      "target": "Nenhuma decisão pendente"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Research",
+      "count": 2,
+      "target": "Operações e Qualidade"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Product",
+      "count": 2,
+      "target": "Produção e Serviços"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Sales & Marketing",
+      "count": 2,
+      "target": "Vendas e Marketing"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "People",
+      "count": 2,
+      "target": "Gestão de Pessoas"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": " DECISION",
+      "count": 1,
+      "target": " DECISÃO"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": " Year ",
+      "count": 1,
+      "target": " Ano "
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": "Your Options",
+      "count": 1,
+      "target": "Suas opções"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": "Pass this quarter",
+      "count": 1,
+      "target": "Dispensar este trimestre"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": "Focus your attention elsewhere. Small setback in this area.",
+      "count": 1,
+      "target": "Direcione sua atenção para outro lugar. Pequeno retrocesso nesta área."
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Consider this option carefully.",
+      "count": 1,
+      "target": "Analise esta opção com atenção."
+    },
+    {
+      "method": "renderDecision",
+      "kind": "TemplateFragment",
+      "source": "✓ Locked In",
+      "count": 1,
+      "target": "✓ Confirmado"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "LiteralFragment",
+      "source": "🔥 Effects hidden",
+      "count": 1,
+      "target": "🔥 Efeitos ocultos"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "LiteralFragment",
+      "source": "👍 RECOMMENDS",
+      "count": 1,
+      "target": "👍 RECOMENDA"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "✓ Selected",
+      "count": 1,
+      "target": "✓ Selecionado"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Choose This Option",
+      "count": 1,
+      "target": "Escolher esta opção"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "✓ Passing",
+      "count": 1,
+      "target": "✓ Dispensado"
+    },
+    {
+      "method": "renderDecision",
+      "kind": "Literal",
+      "source": "Skip This Quarter",
+      "count": 1,
+      "target": "Pular este trimestre"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Advancing Research Capabilities",
+      "count": 1,
+      "target": "Aprimoramento de processos"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Product Development Decision",
+      "count": 1,
+      "target": "Decisão de produção"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Market Expansion Strategy",
+      "count": 1,
+      "target": "Estratégia de mercado"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Team Growth Decision",
+      "count": 1,
+      "target": "Decisão de equipe"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Strategic Partnership Opportunity",
+      "count": 1,
+      "target": "Oportunidade de parceria"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Customer Acquisition Strategy",
+      "count": 1,
+      "target": "Estratégia de captação de clientes"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Resource Allocation",
+      "count": 1,
+      "target": "Alocação de recursos"
+    },
+    {
+      "method": "generateEventTitle",
+      "kind": "Literal",
+      "source": "Strategic Decision Required",
+      "count": 1,
+      "target": "Decisão de gestão"
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Light-touch academic collaboration. Builds credibility over time.",
+      "count": 1,
+      "target": "Parceria de formação com pouco compromisso. Constrói credibilidade ao longo do tempo."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Deep academic partnership. Takes attention but builds lasting credibility.",
+      "count": 1,
+      "target": "Parceria de formação aprofundada. Exige atenção, mas constrói credibilidade duradoura."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Major hiring push. Transforms your capabilities.",
+      "count": 1,
+      "target": "Contratação em grande volume. Transforma suas capacidades."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Targeted hire. Bring in specific expertise.",
+      "count": 1,
+      "target": "Contratação direcionada. Traz conhecimento específico."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Acquisition play. Expensive but instant capability.",
+      "count": 1,
+      "target": "Aquisição de capacidade. Cara, mas imediata."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Strategic partnership. High potential, shared control.",
+      "count": 1,
+      "target": "Parceria estratégica. Alto potencial, controle compartilhado."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Tactical partnership. Quick to set up, limited scope.",
+      "count": 1,
+      "target": "Parceria tática. Rápida de estabelecer, escopo limitado."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "External resources. Fast and flexible.",
+      "count": 1,
+      "target": "Recursos externos. Rápidos e flexíveis."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Team development. Builds long-term strength.",
+      "count": 1,
+      "target": "Desenvolvimento da equipe. Constrói força a longo prazo."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Major commitment of attention and resources this quarter.",
+      "count": 1,
+      "target": "Compromisso grande de atenção e recursos neste trimestre."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Significant focus required. A meaningful push forward.",
+      "count": 1,
+      "target": "Foco significativo necessário. Um avanço relevante."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Moderate commitment. Balanced use of attention.",
+      "count": 1,
+      "target": "Compromisso moderado. Uso equilibrado da atenção."
+    },
+    {
+      "method": "generateChoiceDescription",
+      "kind": "Literal",
+      "source": "Minimal attention required. Quick to execute.",
+      "count": 1,
+      "target": "Atenção mínima necessária. Rápido de executar."
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Research",
+      "count": 1,
+      "target": "Operações e Qualidade"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Product",
+      "count": 1,
+      "target": "Produção e Serviços"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Sales & Marketing",
+      "count": 1,
+      "target": "Vendas e Marketing"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "People",
+      "count": 1,
+      "target": "Gestão de Pessoas"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Burn",
+      "count": 1,
+      "target": "Despesas operacionais"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Valuation",
+      "count": 1,
+      "target": "Avaliação"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Cash",
+      "count": 1,
+      "target": "Caixa"
+    },
+    {
+      "method": "getStatLabel",
+      "kind": "Literal",
+      "source": "Equity",
+      "count": 1,
+      "target": "Participação societária"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Speed",
+      "count": 1,
+      "target": "+Agilidade"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Quality",
+      "count": 1,
+      "target": "+Qualidade"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Credibility",
+      "count": 2,
+      "target": "+Credibilidade"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Revenue",
+      "count": 1,
+      "target": "+Receita"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Revenue Next Q",
+      "count": 1,
+      "target": "Receita no próximo trimestre"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "High Risk",
+      "count": 1,
+      "target": "Risco alto"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Volatile",
+      "count": 1,
+      "target": "Volátil"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "−Runway",
+      "count": 1,
+      "target": "−Fôlego de caixa"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Low Cost",
+      "count": 1,
+      "target": "Custo baixo"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Funding",
+      "count": 1,
+      "target": "+Financiamento"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Cash",
+      "count": 1,
+      "target": "+Caixa"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "High Fees",
+      "count": 1,
+      "target": "Despesas altas"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Fees",
+      "count": 1,
+      "target": "Despesas"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Team",
+      "count": 1,
+      "target": "+Equipe"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "−Morale",
+      "count": 1,
+      "target": "−Moral"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Long Game",
+      "count": 1,
+      "target": "Visão de longo prazo"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "Quick Win",
+      "count": 1,
+      "target": "Ganho rápido"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Innovation",
+      "count": 1,
+      "target": "+Melhoria de processos"
+    },
+    {
+      "method": "generateImpactTags",
+      "kind": "Literal",
+      "source": "+Product",
+      "count": 1,
+      "target": "+Produção"
+    }
+  ]
+}

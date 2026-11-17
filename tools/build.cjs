@@ -5,9 +5,27 @@ let html=fs.readFileSync('source/index.original.html','utf8');
 if(require('node:crypto').createHash('sha256').update(html).digest('hex')!=='a8ce3636c328828fb311a505ec38603345c9ac5f08ae1be8c01969818f1d8d61')throw new Error('O original diverge do arquivo inventariado; interrompido para revisão.');
 const translated=require('./structured-translation.cjs').translate(html,JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','utf8')));
 html=translated.html;
+// The immutable source has cosmetic spaces after commas on these literals. Remove
+// only the whitespace exposed by approved translated milestone descriptions.
+for (const report of translated.reports) for (const change of report.changes || []) {
+ if (report.name === 'PIVOT_MILESTONES' && change.path.at(-1) === 'desc') {
+  html=html.replaceAll(JSON.stringify(change.target)+', \r\n',JSON.stringify(change.target)+',\r\n');
+  html=html.replaceAll(JSON.stringify(change.target)+', \n',JSON.stringify(change.target)+',\n');
+ }
+}
 fs.mkdirSync('artifacts',{recursive:true});
 fs.writeFileSync('artifacts/structured-translation-report.json',JSON.stringify(translated.reports,null,2));
 const edits=[];
+const indicatorUI=require('./indicator-ui-patch.cjs').apply(html);
+html=indicatorUI.html;
+edits.push({reason:'Sete rótulos dos indicadores em português, preservando limiares, cálculos, formatos e consumidores',...indicatorUI.report});
+const newsContext=require('./news-context-patch.cjs').apply(html);
+html=newsContext.html;
+edits.push({reason:'Manchetes fictícias do ticker NEWS em português, preservando grupos, ordem, números, moedas, seleção e consumidor',reports:newsContext.reports});
+html=require('./onboarding-patch.cjs').apply(html);
+edits.push({reason:'L1b: introdução, navegação padrão em português, perfis em ordem visual e remoção de exemplos; Ada e motor preservados',methods:['Game.init','Game.showFounderModal','Game.showProfileInfo']});
+html=require('./company-identity-patch.cjs').apply(html);
+edits.push({reason:'Correção P0: os doze empreendimentos mantêm IDs e regras técnicas, mas usam nome e descrição brasileiros na definição visível da empresa',structure:'COMPANIES'});
 html=require('./crisis-patch.cjs').apply(html);
 edits.push({reason:'Socorro financeiro por empréstimo pessoal fictício com passivo, preservando o valor de referência e a oportunidade única de recuperação',methods:['Game.showCrisisModal','Game.resolveCrisis']});
 html=require('./method-patch.cjs').replaceMethod(html,'renderFundingStages','    SlingshotInitialCredit.render(this);');
@@ -27,6 +45,14 @@ function replaceOnce(before,after,reason) {
  html=html.slice(0,first)+after+html.slice(first+before.length);
  edits.push({reason,before,after});
 }
+function replaceInMethod(method,before,after,reason) {
+ html=require('./method-patch.cjs').replaceMethod(html,method,body=>{
+  const first=body.indexOf(before);
+  if(first<0||body.indexOf(before,first+before.length)>=0)throw new Error('Âncora ausente ou ambígua em '+method+': '+before.slice(0,100));
+  return body.slice(0,first)+after+body.slice(first+before.length);
+ });
+ edits.push({reason,method,before,after});
+}
 for(const [before,after] of [
  ['<h3 class="font-bold text-base">${loc.name}</h3>','<h3 class="font-bold text-base">${SlingshotLocationDisplay.city(loc.name)}</h3>'],
  ['<span class="text-xs text-slate-300">${loc.region}</span>','<span class="text-xs text-slate-300">${SlingshotLocationDisplay.region(loc.region)}</span>'],
@@ -34,6 +60,20 @@ for(const [before,after] of [
  ['document.getElementById("locationInfoRegion").textContent = loc.region;','document.getElementById("locationInfoRegion").textContent = SlingshotLocationDisplay.region(loc.region);'],
  ['locEl.textContent = `📍 ${this.location.name}`;','locEl.textContent = `📍 ${SlingshotLocationDisplay.city(this.location.name)}`;']
 ])replaceOnce(before,after,'Exônimos e regiões na apresentação, preservando nomes internos usados em regras de fomento');
+replaceInMethod('init','${c.archetype}','${SlingshotCompanyDisplay.sector(c)}','Setor brasileiro por ID na grade, preservando o arquétipo canônico');
+replaceInMethod('init','${c.name}','${SlingshotCompanyDisplay.name(c)}','Nome brasileiro por ID na grade, preservando o nome canônico');
+replaceInMethod('selectVenture','document.getElementById("companyDisplay").textContent = this.company.name;','document.getElementById("companyDisplay").textContent = SlingshotCompanyDisplay.name(this.company);','Nome brasileiro no cabeçalho após seleção');
+replaceInMethod('showLocationModal','locationVentureName.textContent = this.company.name;','locationVentureName.textContent = SlingshotCompanyDisplay.name(this.company);','Nome brasileiro na escolha de localização');
+replaceInMethod('showVentureInfo','document.getElementById("ventureInfoName").textContent = company.name;','document.getElementById("ventureInfoName").textContent = SlingshotCompanyDisplay.name(company);','Nome brasileiro no modal de empreendimento');
+replaceInMethod('showVentureInfo','document.getElementById("ventureInfoArchetype").textContent = company.archetype;','document.getElementById("ventureInfoArchetype").textContent = SlingshotCompanyDisplay.sector(company);','Setor brasileiro no modal de empreendimento');
+replaceInMethod('updateCompanyNameDisplays','nameEl.textContent = this.company.name;','nameEl.textContent = SlingshotCompanyDisplay.name(this.company);','Nome brasileiro no cabeçalho atualizado durante a partida');
+replaceInMethod('updateCompanyNameDisplays','locNameEl.textContent = this.company.name;','locNameEl.textContent = SlingshotCompanyDisplay.name(this.company);','Nome brasileiro na tela de localização atualizada durante a partida');
+replaceInMethod('loadGame','document.getElementById("companyDisplay").textContent = this.company.name;','document.getElementById("companyDisplay").textContent = SlingshotCompanyDisplay.name(this.company);','Nome brasileiro no cabeçalho após restauração');
+replaceInMethod('checkForSavedGame','`(${company.name}, Q${s.turn} — ${timeStr})`','`(${SlingshotCompanyDisplay.name(company)}, Q${s.turn} — ${timeStr})`','Nome brasileiro no resumo de partida salva');
+replaceInMethod('endGame','`${this.company.name} ran out of cash in Q${this.turn}`','`${SlingshotCompanyDisplay.name(this.company)} ran out of cash in Q${this.turn}`','Nome brasileiro no encerramento por falta de caixa');
+replaceInMethod('endGame','`${this.company.name} ended Q16 profitable and paying its own way`','`${SlingshotCompanyDisplay.name(this.company)} ended Q16 profitable and paying its own way`','Nome brasileiro no encerramento sustentável');
+replaceInMethod('endGame','`${this.company.name} after ${this.turn} quarters`','`${SlingshotCompanyDisplay.name(this.company)} after ${this.turn} quarters`','Nome brasileiro no encerramento geral');
+replaceInMethod('showHallOfFame','`${this.company.name} • ${new Date().getFullYear()}`','`${SlingshotCompanyDisplay.name(this.company)} • ${new Date().getFullYear()}`','Nome brasileiro no Hall of Fame');
 replaceOnce('        crisisLifelineUsed: this.crisisLifelineUsed || false,','        crisisLifelineUsed: this.crisisLifelineUsed || false,\n        brCrisisGracePeriod: this.crisisGracePeriod === true,','Preserva a carência da recuperação na partida salva');
 replaceOnce('      this.crisisLifelineUsed = s.crisisLifelineUsed || false; // P2-6: one lifeline per run, survives reload','      this.crisisLifelineUsed = s.crisisLifelineUsed || false;\n      this.crisisGracePeriod = s.brCrisisGracePeriod === true;','Restaura a carência antes de atualizar a interface ou verificar falência');
 replaceOnce('  generateFundingOptions() {','  generateFundingOptions() {\n    return SlingshotContinuingCredit.options(this, this.originalFundingReference());\n  }\n\n  originalFundingReference() {','Preserva o cálculo de capital do original como referência para propostas de empréstimo');
@@ -109,17 +149,145 @@ function visit(node,skip=false) {
  if(!skip&&node.attrs)for(const attr of node.attrs) {
   if(['title','alt','placeholder','aria-label'].includes(attr.name)&&Object.hasOwn(catalogue,attr.value)) {
    const loc=node.sourceCodeLocation?.attrs?.[attr.name];
-   if(loc)translations.push({start:loc.startOffset,end:loc.endOffset,text:attr.name+'="'+escape(catalogue[attr.value]).replaceAll('"','&quot;')+'"',source:attr.value});
+   if(loc) {
+    let end=loc.endOffset;
+    // Translating this legacy line exposes its original trailing space to diff checks.
+    if(attr.name==='placeholder'&&attr.value==='Enter your name, founder...'&&node.attrs.some(a=>a.name==='id'&&a.value==='unicornFounderName')) {
+     const trailing=/^[ \t]+(?=\r?\n)/.exec(html.slice(end));
+     if(trailing)end+=trailing[0].length;
+    }
+    translations.push({start:loc.startOffset,end,text:attr.name+'="'+escape(catalogue[attr.value]).replaceAll('"','&quot;')+'"',source:attr.value});
+   }
   }
  }
  for(const child of node.childNodes||[])visit(child,skip);
 }
 visit(tree);
 for(const edit of translations.sort((a,b)=>b.start-a.start))html=html.slice(0,edit.start)+edit.text+html.slice(edit.end);
-const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','crisis-credit.js','save-validation.js','result-code.js','academic-export.js','location-display.js'].map(file=>'<script>\n'+fs.readFileSync(file,'utf8').replaceAll('</script','<\\/script')+'\n</script>').join('\n');
+const aboutContext=require('./about-context-translation-patch.cjs');
+html=aboutContext.apply(html);
+edits.push({reason:'Tradução contextual do modal Sobre: 21 nós de texto aprovados, com tags, atributos, links, espaços de borda e o modal de créditos preservados',modal:aboutContext.modalId,translations:aboutContext.translations.length});
+const fundingTermsContext=require('./funding-terms-context-translation-patch.cjs');
+html=fundingTermsContext.apply(html);
+edits.push({reason:'Tradução contextual da ajuda societária: 44 nós de texto como referência do original, sem alterações de regras ou valores',modal:fundingTermsContext.modalId,translations:fundingTermsContext.translations.length});
+html=require('./management-patch.cjs').apply(html);
+edits.push({reason:'L2: conteúdo integral dos empreendimentos recuperado do Rodada5 e retratos por objetos sem características pessoais',structures:['VENTURE_DETAILS','FOUNDER_PORTRAITS'],functions:['getAvatar','renderAvatar','renderCandidatePortrait']});
+html=require('./setup-patch.cjs').apply(html);
+html=require('./setup-ui-patch.cjs').apply(html);
+html=require('./operations-patch.cjs').apply(html);
+edits.push({reason:'L3b, L3i e L3j: operações persistidas para os doze empreendimentos brasileiros, com modelos v2, serviços agregados v3 e produção industrial fictícia',source:'locales/operating-models.pt-BR.json'});
+html=require('./dashboard-localization-patch.cjs').apply(html);
+edits.push({reason:'L3c: resumo de situação, capítulos, foco sugerido e moeda apenas de apresentação em português e reais; valores internos preservados',methods:['Game.getChapterInfo','Game.calculateSuggestedFocus','Game.getMilestoneFocusAreas','Game.getMilestoneFocusReason','Game.showSituationBrief']});
+html=require('./conditional-ui-translation-patch.cjs').apply(html);
+edits.push({reason:'Tradução das duas mensagens de integração da equipe, preservando condições, campos e interpolação',method:'Game.update'});
+html=require('./operational-endgame-patch.cjs').apply(html);
+edits.push({reason:'Correção P0: encerramento acadêmico local em português, sem relatório SaaS, valuation, equity ou abertura de Claude',method:'Game.endGame'});
+html=require('./market-isolation-patch.cjs').apply(html);
+edits.push({reason:'L3d/L3d.1: acesso visual a mercados ocultado; efeitos de mercado legado neutralizados somente para os três modelos operations-v1, com estado de save preservado',methods:['Game.showMarketsModal','Game.showMarketsHelpModal','Game.showHelpTab','Game.updateMarketsCard','Game.applyPendingMarketInvestments','Game.getMarketUnderstandingBonus','Game.getMarketDecisionBonus','Game.getAcquisitionBonus','Game.getRetentionBonus','Game.getExpansionBonus','Game.investInMarketKnowledge','Game.investInCustomerInsights','Game.investInAlternative','Game.originalFundingReference','Game.completePivotProcess','Game.renderPivotCards']});
+html=require('./pivot-presentation-patch.cjs').apply(html);
+edits.push({reason:'P2 aprovado: rótulos pt-BR de tipos de pivot e visão de financiadores; P3b acrescenta rótulos de adequação da equipe por ID; P3c localiza a cromia estática dos cards, sem alterar dados, regras ou saves',methods:['Game.renderOpportunitiesTab']});
+html=require('./people-contracts-patch.cjs').apply(html);
+edits.push({reason:'L3f: caixa operacional, livro com resultado negativo e estrutura inicial de empregados e contratos externos somente para avam, dream e quant',methods:['Game.commitTurn','Game.showHiringModal','Game.startGame','Game.saveGame','Game.loadGame']});
+const teamCapacityUI=require('./team-capacity-ui-patch.cjs').apply(html);
+html=teamCapacityUI.html;
+edits.push({reason:'Rótulos e avisos da capacidade da equipe em português, preservando limites, AP, custos, estados e consumidores',...teamCapacityUI.report});
+const staffHiringUI=require('./staff-hiring-ui-patch.cjs').apply(html);
+html=staffHiringUI.html;
+edits.push({reason:'Lote B: rótulos, botões, alertas e moeda das telas acessíveis de contratação, desligamento e confirmação',...staffHiringUI.report});
+html=require('./operational-decisions-patch.cjs').apply(html);
+edits.push({reason:'L3g: decisões operacionais tipadas e versionadas, sem gestores SaaS, investidores, minijogos, mercados ou fomento para avam, dream e quant',methods:['Game.randomizeStartingDomain','Game.selectQuarterEvents','Game.renderExecRow','Game.renderDecision','Game.confirmChoice','Game.allChosen','Game.commitTurn']});
+edits.push({reason:'L2b: cidades com efeitos, gestores assalariados, metas e tutoriais de gestão brasileiros; versão de regras persistida',source:'locales/management-setup.pt-BR.json'});
+const libraries=['academic.js','finance.js','finance-adapter.js','initial-credit.js','continuing-credit.js','crisis-credit.js','people-contracts-runtime.js','business-adapter.js','operations-runtime.js','operational-decisions-runtime.js','operational-endgame-runtime.js','market-isolation.js','management-runtime.js','save-validation.js','result-code.js','academic-export.js','location-display.js','company-display.js'].map(file=>{
+ let code=fs.readFileSync(file,'utf8');
+ if(file==='management-runtime.js')code=code.replace('BR_MANAGEMENT_DATA',JSON.stringify(require('../locales/management-setup.pt-BR.json')).replaceAll('<','\\u003c'));
+ if(file==='operations-runtime.js')code=code.replace('BR_OPERATIONS_DATA',JSON.stringify(require('../locales/operating-models.pt-BR.json')).replaceAll('<','\\u003c'));
+ if(file==='operational-decisions-runtime.js')code=code.replace('BR_OPERATIONAL_DECISIONS_DATA',JSON.stringify(require('../locales/operational-decisions.pt-BR.json')).replaceAll('<','\\u003c'));
+ if(file==='people-contracts-runtime.js')code=code.replace('BR_PEOPLE_CONTRACTS_DATA',JSON.stringify(require('../locales/people-contracts.pt-BR.json')).replaceAll('<','\\u003c'));
+ return '<script>\n'+code.replaceAll('</script','<\\/script')+'\n</script>';
+}).join('\n');
 replaceOnce('const game = new Game();',libraries+'\n<script>\nconst game = new Game();','Integração dos módulos locais');
 // Close the original script before inserting the new scripts.
 html=html.replace(libraries,'</script>\n'+libraries);
+const fundingPathwayStaticHelp=require('./funding-pathway-static-help-patch.cjs');
+html=fundingPathwayStaticHelp.applyFundingPathwayStaticHelp(html);
+edits.push({reason:'Sincronização da ajuda estática de caminhos com o literal brasileiro aprovado do runtime, sem alterar regras econômicas',modal:fundingPathwayStaticHelp.modalId,synchronizedModals:1});
+html=require('./entry-help-context-patch.cjs').apply(html);
+edits.push({reason:'Entrada e seis abas de ajuda usam orientação brasileira; vídeo/transcrição originais preservados nos créditos, sem alterações de regras ou importação',source:'locales/entry-help-context.pt-BR.json',panels:6});
+const lifeConferenceContext=require('./life-conference-context-patch.cjs').apply(html);
+html=lifeConferenceContext.html;
+edits.push({reason:'Catálogos brasileiros fictícios de eventos, conferências, anúncios e visitantes; somente campos editoriais, sem novos grupos, efeitos ou regras',source:'locales/life-conference-context.pt-BR.json',reports:lifeConferenceContext.reports});
+const eventConferenceUI=require('./event-conference-ui-patch.cjs').apply(html);
+html=eventConferenceUI.html;
+edits.push({reason:'Apresentação brasileira de eventos e conferências, sem alterações de regras, valores, seletores ou conteúdo dos outros minijogos',...eventConferenceUI.report});
+const clinicLegacy=require('./clinic-legacy-decisions-patch.cjs').apply(html);
+html=clinicLegacy.html;
+edits.push({reason:'Treze decisões exclusivas da clínica popular em contexto administrativo brasileiro, sem alterar valores ou regras',reports:clinicLegacy.reports});
+const decisionPresentation=require('./decision-presentation-patch.cjs').apply(html);
+html=decisionPresentation.html;
+edits.push({reason:'Apresentação brasileira das decisões compartilhadas, sem alterar classificação, regras, seletores ou interpolação',...decisionPresentation.report});
+const genericMarketingContext=require('./generic-marketing-context-patch.cjs').apply(html);
+html=genericMarketingContext.html;
+edits.push({reason:'Trinta e quatro eventos genéricos de marketing em cenários brasileiros fictícios, preservando setores, escolhas e efeitos',reports:genericMarketingContext.reports});
+const genericOperationsContext = require('./generic-operations-context-patch.cjs').apply(html);
+html = genericOperationsContext.html;
+edits.push({ reason: 'Sessenta e seis eventos genéricos de operações em cenários brasileiros fictícios, preservando escolhas e efeitos', reports: genericOperationsContext.reports });
+const genericOperationsPrizeMessages = require('./generic-operations-prize-messages-patch.cjs').apply(html);
+html = genericOperationsPrizeMessages.html;
+edits.push({ reason: 'Mensagens administrativas fictícias de reconhecimento, com regras originais preservadas', reports: genericOperationsPrizeMessages.report });
+const genericGeneralContext = require('./generic-general-context-patch.cjs').apply(html);
+html = genericGeneralContext.html;
+edits.push({ reason: 'Setenta e três eventos gerais de organização fictícia, com metadados originais preservados', reports: genericGeneralContext.reports });
+const genericDevelopmentContext = require('./generic-development-context-patch.cjs').apply(html);
+html = genericDevelopmentContext.html;
+edits.push({ reason: 'Cinquenta e seis eventos de desenvolvimento em cenários administrativos fictícios, com metadados originais preservados', reports: genericDevelopmentContext.reports });
+const genericHrContext = require('./generic-hr-context-patch.cjs').apply(html);
+html = genericHrContext.html;
+edits.push({ reason: 'Trinta e quatro eventos de RH em cenários administrativos fictícios, com metadados originais preservados', reports: genericHrContext.reports });
+const competitiveEventsContext = require('./competitive-events-context-patch.cjs').apply(html);
+html = competitiveEventsContext.html;
+edits.push({ reason: 'Oito eventos competitivos em cenários administrativos fictícios, preservando rival e efeitos originais', reports: competitiveEventsContext.reports });
+const charFatimaContext = require('./char-fatima-context-patch.cjs').apply(html);
+html = charFatimaContext.html;
+edits.push({ reason: 'Dezesseis eventos de Fátima em situações administrativas fictícias, preservando os metadados originais', reports: charFatimaContext.reports });
+const charYukiContext = require('./char-yuki-context-patch.cjs').apply(html);
+html = charYukiContext.html;
+edits.push({ reason: 'Quinze eventos de Yuki em cooperação e divulgação administrativas fictícias brasileiras, preservando os metadados originais', reports: charYukiContext.reports });
+const charKwameContext = require('./char-kwame-context-patch.cjs').apply(html);
+html = charKwameContext.html;
+edits.push({ reason: 'Vinte e um eventos de Kwame em iniciativas e divulgação administrativas fictícias, preservando metadados e a ressalva econômica original', reports: charKwameContext.reports });
+const charAoifeContext = require('./char-aoife-context-patch.cjs').apply(html);
+html = charAoifeContext.html;
+edits.push({ reason: 'Vinte e oito eventos de Aoife em organização de rotinas, cooperação e transição administrativas fictícias, preservando metadados e desembolsos originais', reports: charAoifeContext.reports });
+const charRajContext = require('./char-raj-context-patch.cjs').apply(html);
+html = charRajContext.html;
+edits.push({ reason: 'Dezesseis eventos de Raj em atendimento, organização da oferta e colaboração administrativas fictícias, preservando metadados e receitas comerciais originais', reports: charRajContext.reports });
+const charWeiContext = require('./char-wei-context-patch.cjs').apply(html);
+html = charWeiContext.html;
+edits.push({ reason: 'Seis eventos de Wei em organização e aprendizagem administrativas fictícias, preservando dezenove escolhas e todos os metadados originais', reports: charWeiContext.reports });
+const charPriyaContext = require('./char-priya-context-patch.cjs').apply(html);
+html = charPriyaContext.html;
+edits.push({ reason: 'Trinta eventos de Priya em relações comerciais administrativas fictícias, preservando noventa escolhas e todos os efeitos e metadados originais', reports: charPriyaContext.reports });
+const charAishaContext = require('./char-aisha-context-patch.cjs').apply(html);
+html = charAishaContext.html;
+edits.push({ reason: 'Nove eventos de Aisha em preparação, convivência e transições administrativas fictícias, preservando vinte e sete escolhas e todos os efeitos e metadados originais', reports: charAishaContext.reports });
+const charSofiaContext = require('./char-sofia-context-patch.cjs').apply(html);
+html = charSofiaContext.html;
+edits.push({ reason: 'Dezesseis eventos de Sofia em organização, comunicação, convivência e transições administrativas fictícias, preservando quarenta e oito escolhas e todos os efeitos e metadados originais', reports: charSofiaContext.reports });
+const charDavidContext = require('./char-david-context-patch.cjs').apply(html);
+html = charDavidContext.html;
+edits.push({ reason: 'Vinte eventos de David em acordos, comunicação, cooperação e transições administrativas fictícias, preservando sessenta escolhas e todos os efeitos e metadados originais', reports: charDavidContext.reports });
+const charEmmaContext = require('./char-emma-context-patch.cjs').apply(html);
+html = charEmmaContext.html;
+edits.push({ reason: 'Vinte e sete eventos de Emma em reputação, divulgação e cuidado com informações administrativas fictícias, preservando oitenta e uma escolhas e todos os efeitos e metadados originais', reports: charEmmaContext.reports });
+const charMarcusContext = require('./char-marcus-context-patch.cjs').apply(html);
+html = charMarcusContext.html;
+edits.push({ reason: 'Dezessete eventos de Marcus em atendimento, divulgação e relações administrativas fictícias, preservando cinquenta e uma escolhas e todos os efeitos e metadados originais', reports: charMarcusContext.reports });
+const generatedWhitespaceHygiene=require('./generated-whitespace-hygiene-patch.cjs').apply(html);
+html=generatedWhitespaceHygiene.html;
+edits.push({reason:'Higiene delimitada por AST em modelos de receita e tutorial/coaching; conteúdo preservado e uma exceção de separador HTML com DOM equivalente',...generatedWhitespaceHygiene.report});
+const hrSeparatorHygiene=require('./char-sofia-context-patch.cjs').cleanHrSeparators(html);
+html=hrSeparatorHygiene.html;
+edits.push({reason:'Remover apenas dezoito espaços de três linhas vazias entre objetos HR, preservando o AST completo e toda a prosa e os metadados',...hrSeparatorHygiene.report});
 fs.mkdirSync('artifacts/build-scripts',{recursive:true});
 let i=0;
 for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
@@ -129,5 +297,5 @@ for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
  fs.writeFileSync(file,m[2]);execFileSync(process.execPath,['--check',file],{stdio:'pipe'});
 }
 fs.writeFileSync('index.html',html);
-fs.writeFileSync('artifacts/build-report.json',JSON.stringify({status:'development-not-release',scriptBlocksChecked:i,htmlTranslations:translations.length,approvedExceptions:edits},null,2));
-console.log(JSON.stringify({status:'development-not-release',scriptBlocksChecked:i,htmlTranslations:translations.length}));
+fs.writeFileSync('artifacts/build-report.json',JSON.stringify({status:'development-not-release',scriptBlocksChecked:i,htmlTranslations:translations.length,aboutContextTranslations:aboutContext.translations.length,fundingTermsContextTranslations:fundingTermsContext.translations.length,fundingPathwayStaticHelpModals:1,generatedWhitespaceHygiene:generatedWhitespaceHygiene.report,hrSeparatorHygiene:hrSeparatorHygiene.report,approvedExceptions:edits},null,2));
+console.log(JSON.stringify({status:'development-not-release',scriptBlocksChecked:i,htmlTranslations:translations.length,aboutContextTranslations:aboutContext.translations.length,fundingTermsContextTranslations:fundingTermsContext.translations.length,fundingPathwayStaticHelpModals:1,generatedWhitespaceHygiene:generatedWhitespaceHygiene.report,hrSeparatorHygiene:hrSeparatorHygiene.report}));

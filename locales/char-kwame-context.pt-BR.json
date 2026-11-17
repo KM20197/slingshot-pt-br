@@ -1,0 +1,679 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de iniciativas, orientação e divulgação em Kwame, preservando efeitos originais e ressalva de participação no negócio",
+    "strings": {
+      "[\"research\",\"kwame\",0,\"intro\"]": {
+        "source": "The results aren't just good—they're potentially breakthrough territory. I want to pivot half the team onto this immediately.",
+        "target": "Os resultados indicam uma melhoria que pode mudar nosso jeito de trabalhar. Quero direcionar metade da equipe para isso agora."
+      },
+      "[\"research\",\"kwame\",0,\"aside\"]": {
+        "source": "Yes, it's risky. But this is why we started this company, isn't it?",
+        "target": "Sim, é arriscado. Mas foi para isso que começamos este empreendimento, não foi?"
+      },
+      "[\"research\",\"kwame\",0,\"choices\",0,\"text\"]": {
+        "source": "Go all-in on the breakthrough",
+        "target": "Concentrar todos os esforços nessa melhoria promissora"
+      },
+      "[\"research\",\"kwame\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Now we're talking. Let's make history.",
+        "target": "Agora sim. Vamos deixar a nossa marca."
+      },
+      "[\"research\",\"kwame\",0,\"choices\",1,\"text\"]": {
+        "source": "Dedicated team, keep other work going",
+        "target": "Equipe dedicada, sem parar o trabalho corrente"
+      },
+      "[\"research\",\"kwame\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Half measures. But it's a start.",
+        "target": "Meias medidas. Mas já é um começo."
+      },
+      "[\"research\",\"kwame\",0,\"choices\",2,\"text\"]": {
+        "source": "Stick to the current roadmap",
+        "target": "Manter o plano que já temos"
+      },
+      "[\"research\",\"kwame\",0,\"choices\",2,\"reaction\"]": {
+        "source": "We'll look back at this with regret.",
+        "target": "Vamos olhar para trás com arrependimento."
+      },
+      "[\"research\",\"kwame\",1,\"intro\"]": {
+        "source": "There's a top-tier science journal paper opportunity. We'd need to drop everything for six weeks, but if we land it...",
+        "target": "Surgiu a chance de publicar um relato de práticas num espaço de destaque do setor. Teríamos de dedicar esforço integral por seis semanas e deixar o resto de lado, mas se conseguirmos..."
+      },
+      "[\"research\",\"kwame\",1,\"aside\"]": {
+        "source": "A top journal paper changes everything. Hiring, funding, credibility—transformed overnight.",
+        "target": "Seria uma virada para atrair profissionais, encontrar apoio e fortalecer nossa credibilidade. Quero ver o nosso trabalho nesse espaço."
+      },
+      "[\"research\",\"kwame\",1,\"choices\",0,\"text\"]": {
+        "source": "All hands on Nature submission",
+        "target": "Dedicação integral a essa publicação"
+      },
+      "[\"research\",\"kwame\",1,\"choices\",0,\"reaction\"]": {
+        "source": "This is what we came here to do!",
+        "target": "É para isso que estamos aqui!"
+      },
+      "[\"research\",\"kwame\",1,\"choices\",1,\"text\"]": {
+        "source": "Try without stopping other work",
+        "target": "Tentar sem parar a rotina do dia a dia"
+      },
+      "[\"research\",\"kwame\",1,\"choices\",1,\"reaction\"]": {
+        "source": "We might not make it, but we'll try.",
+        "target": "Talvez não consigamos, mas vamos tentar."
+      },
+      "[\"research\",\"kwame\",1,\"choices\",2,\"text\"]": {
+        "source": "Target more achievable journal",
+        "target": "Buscar uma publicação mais acessível"
+      },
+      "[\"research\",\"kwame\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Playing it safe. I don't like it.",
+        "target": "Jogando pelo seguro. Não gosto disso."
+      },
+      "[\"research\",\"kwame\",2,\"intro\"]": {
+        "source": "I've identified a completely new research direction. Tangential to our core, but could be massive if I'm right.",
+        "target": "Identifiquei uma nova linha de melhoria, distante do nosso foco. Fica fora do principal, mas pode render muito se eu estiver certo."
+      },
+      "[\"research\",\"kwame\",2,\"aside\"]": {
+        "source": "The biggest discoveries come from following intuition. Let me explore this.",
+        "target": "As maiores descobertas nascem de seguir a intuição. Deixe-me explorar isso."
+      },
+      "[\"research\",\"kwame\",2,\"choices\",0,\"text\"]": {
+        "source": "Fund the moonshot exploration",
+        "target": "Destinar recursos à exploração dessa linha"
+      },
+      "[\"research\",\"kwame\",2,\"choices\",0,\"reaction\"]": {
+        "source": "You won't regret this. I can feel it.",
+        "target": "Estou convencido de que vale a aposta. Quero explorar esse caminho."
+      },
+      "[\"research\",\"kwame\",2,\"choices\",1,\"text\"]": {
+        "source": "Limited budget for initial exploration",
+        "target": "Recursos limitados para uma pequena experiência inicial"
+      },
+      "[\"research\",\"kwame\",2,\"choices\",1,\"reaction\"]": {
+        "source": "I'll prove the concept, then we talk.",
+        "target": "Vou mostrar a ideia funcionando e depois conversamos."
+      },
+      "[\"research\",\"kwame\",2,\"choices\",2,\"text\"]": {
+        "source": "Focus on current direction",
+        "target": "Manter a direção atual"
+      },
+      "[\"research\",\"kwame\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Killing the future to serve the present.",
+        "target": "Sacrificar o futuro para atender o presente."
+      },
+      "[\"research\",\"kwame\",3,\"intro\"]": {
+        "source": "CortexAI just published in our space. We could respond with our findings now, or wait until more complete.",
+        "target": "Um concorrente divulgou iniciativas semelhantes às nossas. Podemos responder agora com o que já temos ou esperar o material ficar mais completo."
+      },
+      "[\"research\",\"kwame\",3,\"aside\"]": {
+        "source": "First mover advantage is real. We need to be in this conversation NOW.",
+        "target": "Quem chega primeiro leva vantagem. Precisamos entrar nessa conversa agora."
+      },
+      "[\"research\",\"kwame\",3,\"choices\",0,\"text\"]": {
+        "source": "Fast-track our publication to respond",
+        "target": "Acelerar a nossa divulgação para responder"
+      },
+      "[\"research\",\"kwame\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Let's show them what we've got.",
+        "target": "Vamos mostrar o que temos."
+      },
+      "[\"research\",\"kwame\",3,\"choices\",1,\"text\"]": {
+        "source": "Position as complementary, take time",
+        "target": "Apresentar uma posição complementar, com calma"
+      },
+      "[\"research\",\"kwame\",3,\"choices\",1,\"reaction\"]": {
+        "source": "We'll be seen as second. But okay.",
+        "target": "Vão nos ver como segundo lugar. Mas tudo bem."
+      },
+      "[\"research\",\"kwame\",3,\"choices\",2,\"text\"]": {
+        "source": "Ignore them, our timeline",
+        "target": "Ignorar e seguir o nosso plano"
+      },
+      "[\"research\",\"kwame\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Stay focused on our plan. Execute well.",
+        "target": "Foco no nosso plano. Executar bem."
+      },
+      "[\"research\",\"kwame\",4,\"intro\"]": {
+        "source": "A major conference talk opportunity. They want me to present our vision for AI in healthcare.",
+        "target": "Surgiu um convite para falar num encontro do setor. Querem que eu apresente a nossa visão de melhorias no trabalho."
+      },
+      "[\"research\",\"kwame\",4,\"aside\"]": {
+        "source": "The world should know what we're building. And the recruiting benefits alone...",
+        "target": "Todo mundo deveria saber o que estamos construindo. E só pela ajuda que isso dá para atrair gente nova já valeria a pena..."
+      },
+      "[\"research\",\"kwame\",4,\"choices\",0,\"text\"]": {
+        "source": "Prepare inspiring, ambitious talk",
+        "target": "Preparar uma fala ambiciosa e inspiradora"
+      },
+      "[\"research\",\"kwame\",4,\"choices\",0,\"reaction\"]": {
+        "source": "I'll make them believe in our mission.",
+        "target": "Vou fazer todos acreditarem na nossa missão."
+      },
+      "[\"research\",\"kwame\",4,\"choices\",1,\"text\"]": {
+        "source": "Give solid, grounded presentation",
+        "target": "Fazer uma apresentação fundamentada e sóbria"
+      },
+      "[\"research\",\"kwame\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Safe choice. Won't change many minds.",
+        "target": "Escolha segura. Não vai mudar muitas opiniões."
+      },
+      "[\"research\",\"kwame\",4,\"choices\",2,\"text\"]": {
+        "source": "Decline—too much going on",
+        "target": "Recusar, há coisa demais em andamento"
+      },
+      "[\"research\",\"kwame\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise well. Team stays effective.",
+        "target": "Priorizar bem. A equipe segue produtiva."
+      },
+      "[\"research\",\"kwame\",5,\"intro\"]": {
+        "source": "A senior researcher at CortexAI got in touch after reading our work. She cannot join us: her pay is beyond us and her contract has a year of garden leave in it anyway. What she offers is a day a month as an adviser, her name on our site, and an honest read on our research plans. Her employer's lawyers will read every word of the agreement.",
+        "target": "Uma especialista de um empreendimento concorrente procurou a gente depois de ler o nosso trabalho. Ela não pode integrar a equipe: a remuneração que pediria está fora do nosso alcance e os compromissos atuais dela impedem a entrada agora. O que ela oferece é um dia por mês como orientadora, o nome dela divulgado junto ao nosso trabalho e uma leitura sincera dos nossos planos. O lado dela vai ler cada palavra do acordo, então as condições e os limites precisam ficar claros."
+      },
+      "[\"research\",\"kwame\",5,\"aside\"]": {
+        "source": "You cannot hire her. You can borrow her judgement, carefully.",
+        "target": "Não dá para contratá-la. Dá para aproveitar o julgamento dela, com cuidado."
+      },
+      "[\"research\",\"kwame\",5,\"choices\",0,\"text\"]": {
+        "source": "Sign her as a formal adviser, small equity, clean agreement",
+        "target": "Formalizar a assessoria, com participação no negócio como contrapartida e condições claras"
+      },
+      "[\"research\",\"kwame\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Her name changes conversations with investors and candidates. Her comments change the research plan.",
+        "target": "O nome dela muda as conversas com investidores e com candidatos. Os comentários dela mudam o nosso plano de trabalho."
+      },
+      "[\"research\",\"kwame\",5,\"choices\",1,\"text\"]": {
+        "source": "Informal conversations, nothing on paper",
+        "target": "Conversas informais, sem acordo formal"
+      },
+      "[\"research\",\"kwame\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Useful and free. Also deniable, on both sides, which one day may matter.",
+        "target": "Útil e sem custo. Também sem compromisso registrado, dos dois lados, o que um dia pode fazer diferença."
+      },
+      "[\"research\",\"kwame\",5,\"choices\",2,\"text\"]": {
+        "source": "Thank her and stay independent",
+        "target": "Agradecer e manter a independência"
+      },
+      "[\"research\",\"kwame\",5,\"choices\",2,\"reaction\"]": {
+        "source": "No entanglement with a rival lab. The research plan stays entirely ours.",
+        "target": "Nenhum vínculo com um grupo concorrente. O plano de trabalho continua inteiramente nosso."
+      },
+      "[\"research\",\"kwame\",6,\"intro\"]": {
+        "source": "The AI Research Summit is selling sponsorship. It's expensive—and every researcher we'd ever want to hire will be in that hall.",
+        "target": "Um encontro do setor está vendendo patrocínio. É caro, e todos os profissionais que gostaríamos de atrair estarão naquele evento."
+      },
+      "[\"research\",\"kwame\",6,\"aside\"]": {
+        "source": "Our logo everywhere. Strong candidates approach us directly. This is how you build a research brand.",
+        "target": "O nosso nome em todo lugar. Candidatos fortes vêm falar com a gente. É assim que se constrói uma marca no setor."
+      },
+      "[\"research\",\"kwame\",6,\"choices\",0,\"text\"]": {
+        "source": "Gold sponsor with recruiting booth",
+        "target": "Patrocínio de destaque, com espaço de apresentação"
+      },
+      "[\"research\",\"kwame\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Time to make some noise.",
+        "target": "Hora de fazer barulho."
+      },
+      "[\"research\",\"kwame\",6,\"choices\",1,\"text\"]": {
+        "source": "Silver sponsor, lower profile",
+        "target": "Apoio menor, com menos destaque"
+      },
+      "[\"research\",\"kwame\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Visible without breaking the bank.",
+        "target": "Visível sem estourar o caixa."
+      },
+      "[\"research\",\"kwame\",6,\"choices\",2,\"text\"]": {
+        "source": "Just attend, no sponsorship",
+        "target": "Só comparecer, sem patrocínio"
+      },
+      "[\"research\",\"kwame\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Learn and network. Low-cost presence.",
+        "target": "Aprender e fazer contatos. Presença de baixo custo."
+      },
+      "[\"research\",\"kwame\",7,\"intro\"]": {
+        "source": "We could open-source a useful internal tool. Builds community but competitors benefit too.",
+        "target": "Podemos compartilhar abertamente um guia de rotina útil que usamos por dentro. Isso cria comunidade, mas também ajuda os concorrentes."
+      },
+      "[\"research\",\"kwame\",7,\"aside\"]": {
+        "source": "Open source builds reputation and attracts talent. The best people want to work in the open.",
+        "target": "Compartilhar abertamente constrói reputação e atrai gente boa. As melhores pessoas querem trabalhar à vista de todos."
+      },
+      "[\"research\",\"kwame\",7,\"choices\",0,\"text\"]": {
+        "source": "Open source with community engagement",
+        "target": "Compartilhar aberto, com participação da comunidade"
+      },
+      "[\"research\",\"kwame\",7,\"choices\",0,\"reaction\"]": {
+        "source": "CodeRepo stars and useful PRs incoming.",
+        "target": "Vamos receber muitas manifestações de interesse e sugestões úteis."
+      },
+      "[\"research\",\"kwame\",7,\"choices\",1,\"text\"]": {
+        "source": "Release read-only, no support",
+        "target": "Divulgar só para consulta, sem apoio contínuo"
+      },
+      "[\"research\",\"kwame\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Visible without maintenance burden.",
+        "target": "Visível sem o peso de manter tudo em dia."
+      },
+      "[\"research\",\"kwame\",7,\"choices\",2,\"text\"]": {
+        "source": "Keep it proprietary",
+        "target": "Manter interno"
+      },
+      "[\"research\",\"kwame\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Competitive edge preserved.",
+        "target": "Vantagem competitiva preservada."
+      },
+      "[\"research\",\"kwame\",8,\"intro\"]": {
+        "source": "I want to release our training dataset publicly. It would establish us as leaders, attract researchers to work with us, and accelerate the whole field. Our commercial team is horrified—the data took years to collect and is our key competitive advantage.",
+        "target": "Quero compartilhar abertamente a nossa coletânea de exemplos e materiais de rotina. Isso pode nos tornar uma referência, atrair colaboradores e estimular melhorias no setor. A equipe comercial está alarmada: levamos anos para preparar esse material, que é uma das nossas principais vantagens."
+      },
+      "[\"research\",\"kwame\",8,\"aside\"]": {
+        "source": "Open data attracts talent and citations. Proprietary data attracts revenue. The AI community increasingly expects openness, but investors expect defensible advantages.",
+        "target": "Compartilhar atrai gente e reconhecimento. Guardar atrai receita. O setor espera cada vez mais abertura, mas os investidores esperam vantagens que se sustentem."
+      },
+      "[\"research\",\"kwame\",8,\"choices\",0,\"text\"]": {
+        "source": "Release the full dataset openly",
+        "target": "Compartilhar a coletânea completa, aberta"
+      },
+      "[\"research\",\"kwame\",8,\"choices\",0,\"reaction\"]": {
+        "source": "The community celebrates. We become the reference point.",
+        "target": "A comunidade comemora. Viramos a referência."
+      },
+      "[\"research\",\"kwame\",8,\"choices\",1,\"text\"]": {
+        "source": "Release a subset, keep the best parts private",
+        "target": "Compartilhar uma amostra, guardar as melhores partes"
+      },
+      "[\"research\",\"kwame\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Goodwill without giving away the crown jewels.",
+        "target": "Boa vontade sem entregar o que temos de melhor."
+      },
+      "[\"research\",\"kwame\",8,\"choices\",2,\"text\"]": {
+        "source": "Keep it proprietary—it's our moat",
+        "target": "Manter a coletânea restrita, só nossa"
+      },
+      "[\"research\",\"kwame\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Defensible business. But we won't be the community's darling.",
+        "target": "Negócio protegido. Mas não seremos os queridinhos da comunidade."
+      },
+      "[\"research\",\"kwame\",9,\"intro\"]": {
+        "source": "We've developed a benchmark that measures AI performance on our problem domain. Publishing it would establish us as the authority—everyone would compare their models using our test. But it would also help competitors know exactly what to optimise for.",
+        "target": "Montamos critérios comparativos de melhoria para a área em que atuamos. Divulgar isso pode nos dar destaque, com outras equipes comparando resultados a partir dos nossos critérios. Mas também mostraria aos concorrentes exatamente o que aperfeiçoar."
+      },
+      "[\"research\",\"kwame\",9,\"aside\"]": {
+        "source": "Whoever defines the benchmark often shapes the entire field. It's power, but it also helps everyone—including rivals—improve faster.",
+        "target": "Quem define os critérios costuma moldar o setor inteiro. É poder, mas também ajuda todo mundo, inclusive os rivais, a melhorar mais rápido."
+      },
+      "[\"research\",\"kwame\",9,\"choices\",0,\"text\"]": {
+        "source": "Publish the benchmark and host a leaderboard",
+        "target": "Divulgar os critérios e manter uma comparação pública de resultados"
+      },
+      "[\"research\",\"kwame\",9,\"choices\",0,\"reaction\"]": {
+        "source": "We become the standard. Everyone knows our name. Everyone catches up.",
+        "target": "Viramos referência. Todos conhecem o nosso nome. E todos nos alcançam."
+      },
+      "[\"research\",\"kwame\",9,\"choices\",1,\"text\"]": {
+        "source": "Use it internally, publish later when we're further ahead",
+        "target": "Usar internamente e divulgar depois, quando estivermos mais à frente"
+      },
+      "[\"research\",\"kwame\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Keep our lead a bit longer. Miss the thought leadership moment.",
+        "target": "Mantemos a dianteira por mais tempo. Perdemos o momento de liderar a conversa do setor."
+      },
+      "[\"research\",\"kwame\",9,\"choices\",2,\"text\"]": {
+        "source": "Keep it completely internal",
+        "target": "Manter tudo interno"
+      },
+      "[\"research\",\"kwame\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Protect our edge. Move faster.",
+        "target": "Proteger a nossa vantagem. Andar mais rápido."
+      },
+      "[\"research\",\"kwame\",10,\"intro\"]": {
+        "source": "A major tech lab has published a paper that overlaps with our unpublished research. Their version is good but not as good as ours. Do we rush out a paper showing our superior results, or stay quiet and let them think they're ahead? If we publish, they'll know exactly where we are and can catch up. If we don't, they might waste time on an inferior approach.",
+        "target": "Um concorrente divulgou práticas parecidas com as nossas, que ainda não publicamos. A versão deles é boa, mas menos avançada que a nossa. Corremos para divulgar os nossos resultados superiores ou ficamos em silêncio e deixamos que se achem à frente? Se publicarmos, eles saberão exatamente onde estamos e podem nos alcançar. Se não, podem gastar tempo com o caminho menos avançado."
+      },
+      "[\"research\",\"kwame\",10,\"aside\"]": {
+        "source": "Strategic disclosure is a game. Sometimes revealing strength deters competitors. Sometimes it just gives them a target to aim for.",
+        "target": "Revelar ou não revelar é um cálculo estratégico. Às vezes mostrar força intimida os concorrentes. Às vezes só dá a eles um alvo."
+      },
+      "[\"research\",\"kwame\",10,\"choices\",0,\"text\"]": {
+        "source": "Publish immediately—assert dominance",
+        "target": "Publicar logo os nossos resultados"
+      },
+      "[\"research\",\"kwame\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Everyone knows we're ahead. The race is on.",
+        "target": "Todos sabem que estamos à frente. A disputa está aberta."
+      },
+      "[\"research\",\"kwame\",10,\"choices\",1,\"text\"]": {
+        "source": "Stay quiet and extend our lead",
+        "target": "Continuar em silêncio e ampliar a dianteira"
+      },
+      "[\"research\",\"kwame\",10,\"choices\",1,\"reaction\"]": {
+        "source": "They don't know what we know. Use the time wisely.",
+        "target": "Eles não sabem o que nós sabemos. Use o tempo com sabedoria."
+      },
+      "[\"research\",\"kwame\",10,\"choices\",2,\"text\"]": {
+        "source": "Publish partially—hint at more without revealing all",
+        "target": "Publicar uma parte, insinuando mais sem revelar tudo"
+      },
+      "[\"research\",\"kwame\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Intimidation tactics. They know we're ahead but not by how much.",
+        "target": "Tática de intimidação. Eles sabem que estamos à frente, mas não por quanto."
+      },
+      "[\"research\",\"kwame\",12,\"intro\"]": {
+        "source": "Some of the team want to give a technical talk at a workshop where the audience is mostly from competing companies. They say it's important for their professional development and for attracting talent. Our IP lawyer is nervous.",
+        "target": "Parte da equipe quer apresentar práticas num encontro em que a plateia é quase toda de empresas concorrentes. Dizem que é importante para o desenvolvimento profissional deles e para atrair gente nova. Isso nos deixa apreensivos."
+      },
+      "[\"research\",\"kwame\",12,\"aside\"]": {
+        "source": "Scientists build reputations through sharing. But what builds their careers might hurt the company. Finding the balance is constant tension.",
+        "target": "Quem trabalha assim constrói reputação ao compartilhar. Mas o que fortalece a carreira deles pode prejudicar o empreendimento. Achar o equilíbrio é uma tensão constante."
+      },
+      "[\"research\",\"kwame\",12,\"choices\",0,\"text\"]": {
+        "source": "Let them present with minimal restrictions",
+        "target": "Deixar apresentar com poucas restrições"
+      },
+      "[\"research\",\"kwame\",12,\"choices\",0,\"reaction\"]": {
+        "source": "They shine. Competitors take notes. We attract great candidates.",
+        "target": "Eles brilham. Os concorrentes tomam nota. Atraímos gente boa."
+      },
+      "[\"research\",\"kwame\",12,\"choices\",1,\"text\"]": {
+        "source": "Approve but review all slides carefully first",
+        "target": "Aprovar, mas revisar antes todo o material da apresentação"
+      },
+      "[\"research\",\"kwame\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Takes my time but controls the message.",
+        "target": "Toma o meu tempo, mas controla a mensagem."
+      },
+      "[\"research\",\"kwame\",12,\"choices\",2,\"text\"]": {
+        "source": "Block the talk—too risky",
+        "target": "Impedir a apresentação, é risco demais"
+      },
+      "[\"research\",\"kwame\",12,\"choices\",2,\"reaction\"]": {
+        "source": "IP protected. Team understands the stakes.",
+        "target": "Conhecimento protegido. A equipe entende o que está em jogo."
+      },
+      "[\"research\",\"kwame\",13,\"intro\"]": {
+        "source": "Our AI will change how work is done in our target industry. Some tasks will be automated entirely; others will be transformed. In the long run, history suggests new jobs emerge—but in the short run, specific people lose specific jobs. The transition is where the pain concentrates, even if the destination is better.",
+        "target": "As nossas iniciativas podem mudar a forma de trabalhar no setor em que atuamos. Algumas tarefas podem deixar de existir; outras vão mudar. Novas funções podem surgir com o tempo, mas isso não impede que pessoas percam postos agora. É na transição que o sofrimento se concentra, mesmo quando se espera um resultado melhor."
+      },
+      "[\"research\",\"kwame\",13,\"aside\"]": {
+        "source": "The 'lump of labour' fallacy says automation doesn't destroy jobs overall—but that's cold comfort to someone whose skills are suddenly obsolete. Companies rarely think about transitions; economists rarely think about individuals.",
+        "target": "A possibilidade de surgirem novas funções não consola quem vê suas habilidades perderem espaço de repente. Falar da mudança em termos gerais é fácil; pensar na transição de cada pessoa exige outro cuidado."
+      },
+      "[\"research\",\"kwame\",13,\"choices\",0,\"text\"]": {
+        "source": "Partner with customers on transition planning",
+        "target": "Planejar a transição junto com os clientes"
+      },
+      "[\"research\",\"kwame\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Help them manage the change. Builds deep loyalty and differentiation.",
+        "target": "Ajudar a organizar a mudança. Constrói lealdade e diferenciação."
+      },
+      "[\"research\",\"kwame\",13,\"choices\",1,\"text\"]": {
+        "source": "Position as 'amplifying workers, not replacing them'",
+        "target": "Defender que ampliamos o trabalho das equipes, sem substituí-las"
+      },
+      "[\"research\",\"kwame\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Probably true in some cases. Good messaging either way.",
+        "target": "Provavelmente verdadeiro em alguns casos. A mensagem funciona de qualquer forma."
+      },
+      "[\"research\",\"kwame\",13,\"choices\",2,\"text\"]": {
+        "source": "Build the best product and let the market adapt",
+        "target": "Fazer a melhor oferta possível e deixar o mercado se adaptar"
+      },
+      "[\"research\",\"kwame\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Standard approach. The transition is someone else's problem.",
+        "target": "Caminho comum. A transição vira problema de outra pessoa."
+      },
+      "[\"research\",\"kwame\",15,\"intro\"]": {
+        "source": "We're planning our next big research push. We could focus on making our AI more powerful—which investors want—or on making it more efficient, using less energy to achieve the same results. Efficiency is less exciting but better for the planet.",
+        "target": "Estamos planejando o próximo grande ciclo de melhorias. Podemos ampliar a capacidade da nossa oferta, como querem os apoiadores, ou torná-la mais eficiente, consumindo menos energia e materiais para alcançar o mesmo resultado. A eficiência chama menos atenção, mas pode reduzir o impacto ambiental."
+      },
+      "[\"research\",\"kwame\",15,\"aside\"]": {
+        "source": "The AI industry has an energy problem nobody wants to talk about. Bigger models need more power. At some point, sustainability has to matter.",
+        "target": "O setor tem um problema de consumo de recursos de que ninguém quer falar. Operações maiores exigem mais recursos. Em algum momento, a sustentabilidade vai ter de pesar."
+      },
+      "[\"research\",\"kwame\",15,\"choices\",0,\"text\"]": {
+        "source": "Prioritise efficiency over capability",
+        "target": "Priorizar a economia de recursos acima da capacidade"
+      },
+      "[\"research\",\"kwame\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Sustainable path. Investors might grumble.",
+        "target": "Caminho sustentável. Os apoiadores podem resmungar."
+      },
+      "[\"research\",\"kwame\",15,\"choices\",1,\"text\"]": {
+        "source": "Balance both—efficiency enables capability",
+        "target": "Equilibrar as duas coisas: a economia de recursos sustenta a capacidade"
+      },
+      "[\"research\",\"kwame\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Try to have it both ways. Spreads us thin.",
+        "target": "Tentar ficar com as duas. Divide as nossas forças."
+      },
+      "[\"research\",\"kwame\",15,\"choices\",2,\"text\"]": {
+        "source": "Capability first—that's what gets funded",
+        "target": "Capacidade primeiro: é isso que conquista apoio"
+      },
+      "[\"research\",\"kwame\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Keep up with the arms race. Energy bill someone else's problem.",
+        "target": "Acompanhar a corrida. A conta dos recursos vira problema de outra pessoa."
+      },
+      "[\"research\",\"kwame\",16,\"intro\"]": {
+        "source": "The UK government is developing AI regulations and wants industry input. We could engage seriously—attending consultations, submitting detailed responses, helping shape rules that might govern our industry for decades. Or we could focus on building and let the big companies worry about policy.",
+        "target": "Um fórum do setor está preparando propostas de boas práticas e quer ouvir quem atua na área. Podemos participar a sério, indo aos encontros, enviando contribuições detalhadas e ajudando a moldar orientações que podem valer por muitos anos. Ou podemos focar no trabalho e deixar que as empresas maiores cuidem desse assunto."
+      },
+      "[\"research\",\"kwame\",16,\"aside\"]": {
+        "source": "Regulation is coming whether we participate or not. Small companies often ignore policy until it constrains them. But early engagement can shape rules in ways that work for innovators, not just incumbents.",
+        "target": "Essas propostas vão avançar, participemos ou não. Os empreendimentos menores costumam deixar essas conversas de lado até perceberem o impacto no trabalho. Mas participar cedo permite defender orientações que também sirvam a quem está começando, e não só a quem já está estabelecido."
+      },
+      "[\"research\",\"kwame\",16,\"choices\",0,\"text\"]": {
+        "source": "Engage seriously with the policy process",
+        "target": "Participar a sério das discussões do setor"
+      },
+      "[\"research\",\"kwame\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Shape the rules. Time away from product.",
+        "target": "Moldar as propostas. Tempo fora do trabalho principal."
+      },
+      "[\"research\",\"kwame\",16,\"choices\",1,\"text\"]": {
+        "source": "Join an industry group that lobbies collectively",
+        "target": "Entrar num grupo do setor que leva a posição coletiva"
+      },
+      "[\"research\",\"kwame\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Pooled voice. Less direct influence.",
+        "target": "Voz em conjunto. Menos influência direta."
+      },
+      "[\"research\",\"kwame\",16,\"choices\",2,\"text\"]": {
+        "source": "Focus on building—policy is for later",
+        "target": "Focar no trabalho: esse assunto fica para depois"
+      },
+      "[\"research\",\"kwame\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Product first. Smart prioritisation.",
+        "target": "A oferta primeiro. Priorização inteligente."
+      },
+      "[\"research\",\"kwame\",17,\"intro\"]": {
+        "source": "A major AI company just released something significantly more capable than ours. The reaction is split—some celebrate the advance, others worry it's creating pressure for everyone to move fast and cut corners. Our board wants to know: do we accelerate to keep up, or take a more measured path?",
+        "target": "Uma empresa grande do setor acaba de lançar algo bem mais avançado que o nosso. A reação está dividida: uns comemoram o avanço, outros temem a pressão para todos andarem rápido e cortarem caminho. A nossa direção quer saber: aceleramos para acompanhar ou seguimos um caminho mais medido?"
+      },
+      "[\"research\",\"kwame\",17,\"aside\"]": {
+        "source": "AI development feels like a race. If you slow down, others don't. But rushing to release systems you don't fully understand has real risks. The field is genuinely divided on what responsible development looks like.",
+        "target": "O trabalho no setor parece uma corrida. Se você desacelera, os outros não desaceleram. Mas correr para entregar algo que você ainda não entende bem traz riscos reais. A área está mesmo dividida sobre o que seria um avanço responsável."
+      },
+      "[\"research\",\"kwame\",17,\"choices\",0,\"text\"]": {
+        "source": "Accelerate—falling behind helps no one",
+        "target": "Acelerar: ficar para trás não ajuda ninguém"
+      },
+      "[\"research\",\"kwame\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Stay competitive. Hope we can be careful at speed.",
+        "target": "Seguir competitivos. Torcer para manter o cuidado na velocidade."
+      },
+      "[\"research\",\"kwame\",17,\"choices\",1,\"text\"]": {
+        "source": "Maintain our pace with more safety investment",
+        "target": "Manter o nosso ritmo, com mais esforço em cuidado"
+      },
+      "[\"research\",\"kwame\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Balanced approach. Might not be enough for either goal.",
+        "target": "Caminho equilibrado. Pode não bastar para nenhum dos dois objetivos."
+      },
+      "[\"research\",\"kwame\",17,\"choices\",2,\"text\"]": {
+        "source": "Slow down and focus on understanding what we have",
+        "target": "Desacelerar e focar em entender o que já temos"
+      },
+      "[\"research\",\"kwame\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Responsible but others capture the market.",
+        "target": "Responsável, mas os outros ficam com o mercado."
+      },
+      "[\"research\",\"kwame\",18,\"intro\"]": {
+        "source": "We've been invited to sign a voluntary commitment on AI safety—things like testing for dangerous capabilities before release, sharing safety research, and reporting serious incidents. Other companies are signing; some prominent figures are calling it toothless PR. Do we sign?",
+        "target": "Fomos convidados a assinar um compromisso voluntário de cuidado com a operação: verificar riscos antes de entregar melhorias, compartilhar o que aprendemos sobre cuidado e registrar ocorrências graves. Outras empresas estão assinando; algumas pessoas de peso dizem que é só propaganda. Assinamos?"
+      },
+      "[\"research\",\"kwame\",18,\"aside\"]": {
+        "source": "Voluntary commitments are either the foundation of responsible norms or empty gestures depending on who you ask. Signing costs little but might constrain future choices. Not signing looks bad but preserves flexibility.",
+        "target": "Compromissos voluntários são, para uns, a base de uma conduta responsável; para outros, gesto vazio. Assinar custa pouco, mas pode limitar escolhas futuras. Não assinar pega mal, mas preserva a liberdade de mudar depois."
+      },
+      "[\"research\",\"kwame\",18,\"choices\",0,\"text\"]": {
+        "source": "Sign and take the commitments seriously",
+        "target": "Assinar e levar o compromisso a sério"
+      },
+      "[\"research\",\"kwame\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Public commitment. Hold ourselves accountable.",
+        "target": "Compromisso público. Assumir a responsabilidade."
+      },
+      "[\"research\",\"kwame\",18,\"choices\",1,\"text\"]": {
+        "source": "Sign but interpret flexibly",
+        "target": "Assinar, mas interpretar com flexibilidade"
+      },
+      "[\"research\",\"kwame\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Look responsible. Keep options open. Somewhat cynical.",
+        "target": "Parecer responsável. Manter as opções abertas. Um tanto cínico."
+      },
+      "[\"research\",\"kwame\",18,\"choices\",2,\"text\"]": {
+        "source": "Don't sign—focus on actions not statements",
+        "target": "Não assinar: focar em ações, não em declarações"
+      },
+      "[\"research\",\"kwame\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Show don't tell. Authentic approach.",
+        "target": "Mostrar em vez de prometer. Postura autêntica."
+      },
+      "[\"research\",\"kwame\",19,\"intro\"]": {
+        "source": "Our investors want us to pursue a capability that would be genuinely useful but could also cause harm if misused—think AI that can write very convincing text, or analyse video in ways that enable surveillance. The business case is strong. The potential for misuse is real.",
+        "target": "Os nossos apoiadores querem que a gente desenvolva um serviço útil, mas que também pode causar dano se for usado de forma indevida. Um serviço de divulgação, por exemplo, pode explicar uma oferta com clareza ou ser usado para confundir quem lê. A oportunidade parece boa. O risco de uso indevido é real."
+      },
+      "[\"research\",\"kwame\",19,\"aside\"]": {
+        "source": "Most powerful technologies can be used for good or harm. The question isn't whether something could be misused—almost anything can—but whether the benefits justify the risks, and whether you can design to minimise harm.",
+        "target": "Quase tudo o que é potente serve para o bem e para o mal. A pergunta não é se algo pode ser usado de forma errada, porque quase tudo pode, mas se os benefícios justificam os riscos e se dá para organizar a oferta de modo a reduzir o dano."
+      },
+      "[\"research\",\"kwame\",19,\"choices\",0,\"text\"]": {
+        "source": "Build it with safeguards and use restrictions",
+        "target": "Desenvolver com cuidados e restrições de uso"
+      },
+      "[\"research\",\"kwame\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Try to capture benefits while limiting harms. Imperfect but thoughtful.",
+        "target": "Tentar aproveitar os benefícios e limitar os danos. Imperfeito, mas criterioso."
+      },
+      "[\"research\",\"kwame\",19,\"choices\",1,\"text\"]": {
+        "source": "Build it and let the market decide",
+        "target": "Desenvolver e deixar o mercado decidir"
+      },
+      "[\"research\",\"kwame\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Not our job to police usage. Common but increasingly criticised view.",
+        "target": "Não é o nosso papel fiscalizar o uso. Visão comum, mas cada vez mais criticada."
+      },
+      "[\"research\",\"kwame\",19,\"choices\",2,\"text\"]": {
+        "source": "Decline to build it—too risky",
+        "target": "Recusar o desenvolvimento: risco alto demais"
+      },
+      "[\"research\",\"kwame\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Someone else will. But we keep our conscience clean.",
+        "target": "Outra empresa vai fazer. Mas a nossa consciência fica limpa."
+      },
+      "[\"research\",\"kwame\",20,\"intro\"]": {
+        "source": "We're pitching to investors next week. Our product works, but it's not as polished as competitors'. Our advisor says we should demo a version that's been 'enhanced' for the presentation—smoother than what customers actually experience. Everyone does it, he says. Investors expect the best-case scenario.",
+        "target": "Na próxima semana vamos apresentar o nosso trabalho a possíveis apoiadores. A oferta funciona, mas não é tão bem-acabada quanto a dos concorrentes. O nosso orientador diz que deveríamos mostrar na apresentação uma versão melhorada, mais fluida do que o que os clientes realmente encontram. Todo mundo faz isso, diz ele. Os apoiadores esperam ver o melhor cenário."
+      },
+      "[\"research\",\"kwame\",20,\"aside\"]": {
+        "source": "The line between a polished demo and a misleading one is genuinely blurry. Every startup shows their best side. But some 'best sides' are closer to fiction than others. Theranos started with a demo that didn't quite work.",
+        "target": "A fronteira entre uma apresentação bem cuidada e uma apresentação enganosa é mesmo nebulosa. Todo empreendimento mostra o seu melhor lado. Mas alguns desses melhores lados estão mais perto da ficção do que outros. Uma demonstração que não funciona de verdade pode esconder problemas que aparecerão depois."
+      },
+      "[\"research\",\"kwame\",20,\"choices\",0,\"text\"]": {
+        "source": "Show exactly what we have—warts and all",
+        "target": "Mostrar exatamente o que temos, com os defeitos à vista"
+      },
+      "[\"research\",\"kwame\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Honest. Some investors respect it. Others fund the company with the slicker demo.",
+        "target": "Honesto. Alguns apoiadores respeitam. Outros escolhem quem apresentou melhor."
+      },
+      "[\"research\",\"kwame\",20,\"choices\",1,\"text\"]": {
+        "source": "Polish heavily but don't fake functionality",
+        "target": "Caprichar bastante, sem simular o que não existe"
+      },
+      "[\"research\",\"kwame\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Best foot forward. The demo works; it's just... optimised.",
+        "target": "Mostrar o melhor lado. A apresentação funciona, apenas... está ajustada."
+      },
+      "[\"research\",\"kwame\",20,\"choices\",2,\"text\"]": {
+        "source": "Make it look as good as possible—we'll catch up",
+        "target": "Fazer parecer o melhor possível, que depois a gente alcança"
+      },
+      "[\"research\",\"kwame\",20,\"choices\",2,\"reaction\"]": {
+        "source": "The Silicon Valley way. Hope we can deliver what we just showed.",
+        "target": "Apostar na aparência agora. Torcer para conseguir entregar o que acabamos de mostrar."
+      },
+      "[\"research\",\"kwame\",21,\"intro\"]": {
+        "source": "A journalist wants to write about us for a major tech publication. She's enthusiastic and hasn't asked hard questions about our actual customer numbers or revenue. We could let her write the glowing piece, or we could volunteer context that might make it more balanced—and less useful for recruiting and fundraising.",
+        "target": "Uma jornalista quer escrever sobre nós numa publicação de destaque do setor. Está entusiasmada e não fez perguntas difíceis sobre o número real de clientes ou sobre o que entra de receita. Podemos deixar que ela escreva a matéria elogiosa ou oferecer contexto que deixe o texto mais equilibrado e menos útil para atrair gente nova e conquistar apoio."
+      },
+      "[\"research\",\"kwame\",21,\"aside\"]": {
+        "source": "Favourable press can change a startup's fortunes. Correcting a journalist's assumptions feels like shooting yourself in the foot. But puff pieces can come back to haunt you when reality emerges.",
+        "target": "Uma matéria favorável pode mudar o rumo de um empreendimento. Corrigir as suposições de quem escreve parece um tiro no próprio pé. Mas matérias exageradas voltam para assombrar quando a realidade aparece."
+      },
+      "[\"research\",\"kwame\",21,\"choices\",0,\"text\"]": {
+        "source": "Volunteer accurate context",
+        "target": "Oferecer o contexto correto por conta própria"
+      },
+      "[\"research\",\"kwame\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Honest. Article is more measured. Still positive, less viral.",
+        "target": "Honesto. A matéria fica mais sóbria. Continua positiva, com menos repercussão."
+      },
+      "[\"research\",\"kwame\",21,\"choices\",1,\"text\"]": {
+        "source": "Answer questions honestly but don't volunteer",
+        "target": "Responder com honestidade só ao que for perguntado"
+      },
+      "[\"research\",\"kwame\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Professional approach. Integrity maintained.",
+        "target": "Postura profissional. Integridade mantida."
+      },
+      "[\"research\",\"kwame\",21,\"choices\",2,\"text\"]": {
+        "source": "Let the story run—we need the exposure",
+        "target": "Deixar a matéria sair como está: precisamos de visibilidade"
+      },
+      "[\"research\",\"kwame\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Great press. Momentum builds.",
+        "target": "Ótima divulgação. O movimento cresce."
+      },
+      "[\"research\",\"kwame\",22,\"intro\"]": {
+        "source": "We're about to announce a 'partnership' with a major company. In reality, we've had one meeting and they said they'd 'explore opportunities'. Our PR firm wants to put out a release saying we're 'working together'—technically true but massively overstated. It would help our next funding round enormously.",
+        "target": "Estamos prestes a anunciar uma parceria com uma empresa grande. Na verdade, houve uma reunião em que eles disseram que iam explorar oportunidades. A nossa assessoria quer divulgar uma nota dizendo que estamos trabalhando juntos: tecnicamente verdadeiro, mas bastante exagerado. Isso poderia ajudar a conquistar apoio para os nossos próximos planos."
+      },
+      "[\"research\",\"kwame\",22,\"aside\"]": {
+        "source": "Startups announce 'partnerships' constantly. Most are exploratory conversations dressed up as strategic alliances. Everyone knows this. But it still works—until someone asks the 'partner' and they say 'who?'",
+        "target": "Empreendimentos anunciam parcerias o tempo todo. A maioria são conversas iniciais apresentadas como alianças firmadas. Todo mundo sabe disso. Mas ainda funciona, até alguém perguntar à outra empresa e ela dizer que não sabe de nada."
+      },
+      "[\"research\",\"kwame\",22,\"choices\",0,\"text\"]": {
+        "source": "Announce only what's actually agreed",
+        "target": "Anunciar apenas o que está de fato combinado"
+      },
+      "[\"research\",\"kwame\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Honest. Builds long-term credibility.",
+        "target": "Honesto. Constrói credibilidade duradoura."
+      },
+      "[\"research\",\"kwame\",22,\"choices\",1,\"text\"]": {
+        "source": "Soft language—'exploring collaboration'",
+        "target": "Usar termos cautelosos: estudamos uma cooperação"
+      },
+      "[\"research\",\"kwame\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Technically accurate. Sounds better than it is.",
+        "target": "Tecnicamente correto. Soa melhor do que é."
+      },
+      "[\"research\",\"kwame\",22,\"choices\",2,\"text\"]": {
+        "source": "Call it a partnership—everyone does",
+        "target": "Chamar de parceria, como todo mundo faz"
+      },
+      "[\"research\",\"kwame\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Great headline now. Then a journalist asks the 'partner' about us, and prints the answer.",
+        "target": "Manchete ótima agora. Depois uma jornalista pergunta à outra empresa sobre nós e publica a resposta."
+      }
+    }
+  }
+}

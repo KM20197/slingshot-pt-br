@@ -1,0 +1,256 @@
+{
+  "version": 2,
+  "models": {
+    "avam": {
+      "family": "service_repair",
+      "label": "Serviços de reparo",
+      "baseDemand": 9,
+      "baseCapacity": 10,
+      "unitPrice": 6,
+      "unitVariableCost": 2,
+      "initialInventory": 12,
+      "targetInventory": 16,
+      "receivableShare": 0.2,
+      "bmc": {
+        "initial": {"keyPartners":["Fornecedores de peças"],"keyActivities":["Diagnóstico administrativo, orçamento e reparo"],"keyResources":["Bancada, ferramentas, peças e horas técnicas"],"valueProposition":["Reparo organizado, com prazo e orçamento compreensíveis"],"customerRelationships":["Acompanhamento do status da ordem"],"channels":["Loja local e indicações"],"customerSegments":["Pessoas com aparelhos que precisam de reparo"],"costStructure":["Peças, horas técnicas, ocupação e reposição"],"revenueStreams":["Ordens de serviço concluídas"]},
+        "milestoneUpdates":{"1":{"keyActivities":["Rotina de triagem documentada [NEW]"],"valueProposition":["Prazo de serviço acompanhado [NEW]"]},"2":{"keyResources":["Capacidade técnica organizada [NEW]"],"customerRelationships":["Retorno pós-serviço [NEW]"],"revenueStreams":["Orçamentos aprovados e concluídos [NEW]"]},"3":{"channels":["Parcerias locais [NEW]"],"customerSegments":["Clientes recorrentes de manutenção [NEW]"]}},
+        "pivots":{"customer":{"customerSegments":{"add":["Pequenos negócios locais [NEW]"]},"channels":{"add":["Prospecção comercial local [NEW]"]}},"problem":{"valueProposition":{"add":["Manutenção preventiva organizada [NEW]"]},"keyActivities":{"add":["Planos de manutenção [NEW]"]}},"tech":{"keyResources":{"add":["Bancada padronizada [NEW]"]},"keyActivities":{"add":["Controle de qualidade do reparo [NEW]"]}},"niche":{"customerSegments":{"add":["Famílias específicas de aparelhos [NEW]"]},"valueProposition":{"add":["Especialização por família de peça [NEW]"]}},"pivot":{"channels":{"add":["Novo canal local de atendimento [NEW]"]}}}
+      },
+      "milestones": {
+        "m1":[{"id":"m1_conservative","name":"Fluxo de reparos validado","desc":"Concluir ordens de serviço com peças e capacidade registradas.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":12},"icon":"🔧","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},{"id":"m1_balanced","name":"Rotina de orçamento confiável","desc":"Manter uma fila de reparos concluídos com controle de peças.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":18},"icon":"📋","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},{"id":"m1_ambitious","name":"Capacidade de atendimento organizada","desc":"Demonstrar produtividade sem ultrapassar as peças disponíveis.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":24},"icon":"⚙","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}],
+        "m2":[{"id":"m2_conservative","name":"Reposição de peças controlada","desc":"Equilibrar ordens concluídas, reposição e recebimentos.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":28},"icon":"📦","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3":[{"id":"m3_conservative","name":"Operação de manutenção sustentável","desc":"Sustentar atendimentos concluídos e capacidade organizada.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":40},"icon":"🛠","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    },
+    "dream": {
+      "family": "retail_inventory",
+      "label": "Comércio com estoque",
+      "baseDemand": 28,
+      "baseCapacity": 42,
+      "unitPrice": 1.4,
+      "unitVariableCost": 0.78,
+      "initialInventory": 56,
+      "targetInventory": 72,
+      "receivableShare": 0.12,
+      "bmc": {"initial":{"keyPartners":["Fornecedores de mercadorias"],"keyActivities":["Compra, exposição, venda e reposição"],"keyResources":["Estoque, ponto de venda e equipe"],"valueProposition":["Compra de reposição próxima e organizada"],"customerRelationships":["Atendimento de bairro e retorno de clientes"],"channels":["Loja física local"],"customerSegments":["Moradores que fazem compras frequentes"],"costStructure":["Mercadorias, perdas, ocupação e reposição"],"revenueStreams":["Vendas de mercadorias disponíveis"]},"milestoneUpdates":{"1":{"keyActivities":["Rotina de reposição [NEW]"],"keyResources":["Controle agregado de estoque [NEW]"]},"2":{"customerRelationships":["Acompanhamento de retorno de clientes [NEW]"],"costStructure":["Perdas monitoradas [NEW]"]},"3":{"channels":["Entrega local [NEW]"],"revenueStreams":["Mix de reposição consolidado [NEW]"]}},"pivots":{"customer":{"customerSegments":{"add":["Profissionais autônomos da região [NEW]"]}},"problem":{"valueProposition":{"add":["Reposição rápida de itens essenciais [NEW]"]}},"tech":{"keyActivities":{"add":["Previsão simples de reposição [NEW]"]}},"niche":{"keyResources":{"add":["Mix focado de mercadorias [NEW]"]}},"pivot":{"channels":{"add":["Canal local alternativo [NEW]"]}}}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Reposição sem ruptura","desc":"Atender vendas sem vender mercadoria inexistente.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":45},"icon":"🛒","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},{"id":"m1_balanced","name":"Giro de estoque organizado","desc":"Equilibrar vendas, compras e perdas agregadas.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":65},"icon":"📦","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},{"id":"m1_ambitious","name":"Fluxo de loja consistente","desc":"Demonstrar demanda atendida com estoque controlado.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":85},"icon":"🏪","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Perdas sob controle","desc":"Sustentar giro e reduzir perdas de mercadoria.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":100},"icon":"📋","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Operação varejista sustentável","desc":"Conciliar vendas, reposição e caixa operacional.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":140},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "quant": {
+      "family": "manufacture_to_order",
+      "label": "Indústria sob encomenda",
+      "baseDemand": 13,
+      "baseCapacity": 17,
+      "unitPrice": 4.8,
+      "unitVariableCost": 1.65,
+      "initialInventory": 26,
+      "targetInventory": 38,
+      "receivableShare": 0.3,
+      "bmc": {"initial":{"keyPartners":["Fornecedores de papel, tinta e chapas"],"keyActivities":["Orçar, produzir, revisar e entregar pedidos"],"keyResources":["Máquinas, insumos, capacidade de produção e fila"],"valueProposition":["Materiais gráficos sob demanda com prazo acompanhado"],"customerRelationships":["Aprovação de pedido e acompanhamento de entrega"],"channels":["Venda direta a comércios e pequenas fábricas"],"customerSegments":["Empresas locais com pedidos gráficos"],"costStructure":["Insumos, refugo, capacidade, ocupação e entrega"],"revenueStreams":["Pedidos gráficos entregues"]},"milestoneUpdates":{"1":{"keyActivities":["Controle de fila e refugo [NEW]"],"keyResources":["Capacidade produtiva registrada [NEW]"]},"2":{"customerRelationships":["Aprovação de arte e prazo [NEW]"],"costStructure":["Retrabalho acompanhado [NEW]"]},"3":{"channels":["Parcerias comerciais [NEW]"],"revenueStreams":["Pedidos recorrentes entregues [NEW]"]}},"pivots":{"customer":{"customerSegments":{"add":["Novos segmentos empresariais [NEW]"]}},"problem":{"valueProposition":{"add":["Padronização de materiais institucionais [NEW]"]}},"tech":{"keyActivities":{"add":["Processo de produção revisado [NEW]"]}},"niche":{"keyResources":{"add":["Linha especializada de produção [NEW]"]}},"pivot":{"channels":{"add":["Novo canal de pedidos [NEW]"]}}}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Primeiras ordens entregues","desc":"Concluir pedidos sem exceder insumos ou capacidade.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":18},"icon":"🖨","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},{"id":"m1_balanced","name":"Fila produtiva organizada","desc":"Equilibrar pedidos, produção, refugo e entrega.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":28},"icon":"📦","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},{"id":"m1_ambitious","name":"Capacidade produtiva demonstrada","desc":"Entregar pedidos com controle de recursos e prazo.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":38},"icon":"🏭","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Qualidade e prazo repetíveis","desc":"Sustentar entregas com refugo monitorado.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":46},"icon":"✅","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Produção sob encomenda sustentável","desc":"Consolidar pedidos entregues e recebimentos planejados.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":65},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "vanguard": {
+      "family": "retail_inventory",
+      "label": "Comércio de materiais com estoque",
+      "baseDemand": 20,
+      "baseCapacity": 28,
+      "unitPrice": 3.5,
+      "unitVariableCost": 2.1,
+      "initialInventory": 42,
+      "targetInventory": 58,
+      "receivableShare": 0.24,
+      "bmc": {"initial":{"keyPartners":["Fornecedores de materiais"],"keyActivities":["Compra, separação, venda e entrega"],"keyResources":["Estoque, área de carga e capacidade de entrega"],"valueProposition":["Materiais disponíveis com prazo acompanhado"],"customerRelationships":["Confirmação de disponibilidade e entrega"],"channels":["Loja local e atendimento comercial"],"customerSegments":["Profissionais e moradores com demandas de manutenção"],"costStructure":["Mercadorias, carga, ocupação e reposição"],"revenueStreams":["Vendas de mercadorias disponíveis"]}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Reposição e entrega organizadas","desc":"Atender vendas com estoque e prazo registrados.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":35},"icon":"🧱","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Giro de materiais controlado","desc":"Conciliar vendas, reposição e recebimentos.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":58},"icon":"🚚","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Operação comercial sustentável","desc":"Sustentar vendas e disponibilidade de materiais.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":82},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "legal": {
+      "family": "retail_inventory",
+      "label": "Comércio de higiene e conveniência",
+      "baseDemand": 24,
+      "baseCapacity": 34,
+      "unitPrice": 1.8,
+      "unitVariableCost": 0.95,
+      "initialInventory": 50,
+      "targetInventory": 66,
+      "receivableShare": 0.1,
+      "bmc": {"initial":{"keyPartners":["Fornecedores de higiene e conveniência"],"keyActivities":["Compra, exposição, venda e reposição"],"keyResources":["Estoque, ponto de venda e equipe"],"valueProposition":["Compra local de higiene e conveniência"],"customerRelationships":["Atendimento de bairro e retorno de clientes"],"channels":["Loja física local"],"customerSegments":["Moradores que fazem compras frequentes"],"costStructure":["Mercadorias, perdas, ocupação e reposição"],"revenueStreams":["Vendas de mercadorias disponíveis"]}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Reposição sem ruptura","desc":"Atender vendas sem vender mercadoria inexistente.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":42},"icon":"🧴","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Perdas sob controle","desc":"Sustentar giro e reduzir perdas agregadas.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":64},"icon":"📦","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Operação varejista sustentável","desc":"Conciliar vendas, reposição e caixa operacional.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":90},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "arene": {
+      "family": "retail_inventory",
+      "label": "Comércio de vestuário com estoque",
+      "baseDemand": 18,
+      "baseCapacity": 26,
+      "unitPrice": 2.8,
+      "unitVariableCost": 1.45,
+      "initialInventory": 44,
+      "targetInventory": 62,
+      "receivableShare": 0.12,
+      "bmc": {"initial":{"keyPartners":["Fornecedores de vestuário e acessórios"],"keyActivities":["Compra, exposição, venda e reposição"],"keyResources":["Estoque por tamanho, ponto de venda e equipe"],"valueProposition":["Peças acessíveis com atendimento local"],"customerRelationships":["Atendimento de loja e retorno de clientes"],"channels":["Loja física local"],"customerSegments":["Consumidores que renovam o guarda-roupa"],"costStructure":["Mercadorias, perdas, ocupação e reposição"],"revenueStreams":["Vendas de peças disponíveis"]}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Coleção disponível organizada","desc":"Atender vendas com tamanhos e estoque registrados.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":30},"icon":"👕","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Giro da coleção controlado","desc":"Conciliar vendas, reposição e perdas agregadas.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":50},"icon":"🧥","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Operação de loja sustentável","desc":"Sustentar vendas e reposição da coleção.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":72},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "aether": {
+      "stateVersion": 3,
+      "engine": "operations-v2-service",
+      "family": "service_recurring",
+      "serviceMode": "aggregate_attendance",
+      "label": "Atendimento ambulatorial agregado",
+      "baseDemand": 18,
+      "baseCapacity": 24,
+      "unitPrice": 3.4,
+      "unitVariableCost": 1.2,
+      "receivableShare": 0.18,
+      "bmc": {
+        "initial": {"keyPartners":["Fornecedores de serviços de apoio e manutenção da unidade"],"keyActivities":["Organização agregada da capacidade, recepção e acompanhamento do fluxo da unidade"],"keyResources":["Instalações, capacidade de atendimento e equipe de apoio em nível agregado"],"valueProposition":["Atendimento ambulatorial fictício organizado e acessível para o público local"],"customerRelationships":["Comunicação geral de horários e fluxo, sem registro individual"],"channels":["Unidade local e divulgação comunitária genérica"],"customerSegments":["Público local que busca atendimento ambulatorial fictício acessível"],"costStructure":["Capacidade da unidade, apoio operacional, ocupação e manutenção agregada"],"revenueStreams":["Atendimentos agregados concluídos"]},
+        "milestoneUpdates": {
+          "1":{"keyActivities":["Rotina de fluxo da unidade [NEW]"],"keyResources":["Capacidade agregada acompanhada [NEW]" ]},
+          "2":{"customerRelationships":["Retorno geral do público acompanhado de forma não identificável [NEW]"],"revenueStreams":["Recebimentos planejados [NEW]"]},
+          "3":{"keyActivities":["Fluxo operacional consolidado [NEW]"],"channels":["Parcerias locais [NEW]"],"customerSegments":["Demanda recorrente agregada [NEW]"]}
+        },
+        "pivots": {
+          "customer":{"customerSegments":{"add":["Novo segmento local [NEW]"]},"channels":{"add":["Divulgação comunitária direcionada [NEW]"]}},
+          "problem":{"valueProposition":{"add":["Fluxo mais previsível para o público local [NEW]"]}},
+          "tech":{"keyActivities":{"add":["Organização agregada da capacidade da unidade [NEW]"]}},
+          "niche":{"keyResources":{"add":["Capacidade organizada para um público local [NEW]"]}},
+          "pivot":{"channels":{"add":["Canal local alternativo de atendimento [NEW]"]}}
+        }
+      },
+      "milestones": {
+        "m1":[
+          {"id":"m1_conservative","name":"Fluxo de atendimento organizado","desc":"Concluir atendimentos agregados sem ultrapassar a capacidade disponível.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":26},"icon":"🏥","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},
+          {"id":"m1_balanced","name":"Capacidade ambulatorial acompanhada","desc":"Equilibrar procura agregada e capacidade da unidade.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":38},"icon":"📋","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},
+          {"id":"m1_ambitious","name":"Atendimento agregado demonstrado","desc":"Demonstrar atendimento organizado no fluxo de maior procura.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":50},"icon":"⏱️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}
+        ],
+        "m2":[{"id":"m2_conservative","name":"Capacidade e recebimentos equilibrados","desc":"Conciliar atendimentos agregados, capacidade e recebimentos.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":64},"icon":"⚖️","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3":[{"id":"m3_conservative","name":"Unidade operacional sustentável","desc":"Sustentar atendimento agregado, capacidade e caixa operacional.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":86},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    },
+    "cyber": {
+      "family": "manufacture_to_order",
+      "label": "Confecção sob encomenda",
+      "baseDemand": 16,
+      "baseCapacity": 22,
+      "unitPrice": 4.1,
+      "unitVariableCost": 1.45,
+      "initialInventory": 30,
+      "targetInventory": 44,
+      "receivableShare": 0.26,
+      "bmc": {
+        "initial":{"keyPartners":["Fornecedores de insumos e serviços de manutenção do espaço"],"keyActivities":["Programação agregada, produção, revisão e entrega de pedidos"],"keyResources":["Capacidade produtiva, insumos agregados e espaço de trabalho"],"valueProposition":["Pedidos de vestuário fictício produzidos com prazo acompanhado"],"customerRelationships":["Confirmação agregada de pedido e entrega, sem cadastro individual"],"channels":["Atendimento comercial local e divulgação para compradores fictícios"],"customerSegments":["Varejistas e distribuidores fictícios de vestuário"],"costStructure":["Insumos, refugo, ocupação, capacidade e reposição agregados"],"revenueStreams":["Pedidos agregados entregues"]},
+        "milestoneUpdates":{"1":{"keyActivities":["Programação agregada [NEW]"],"keyResources":["Capacidade produtiva registrada [NEW]"]},"2":{"keyActivities":["Revisão agregada e refugo acompanhado [NEW]"],"customerRelationships":["Confirmação de prazo [NEW]"]},"3":{"channels":["Parcerias comerciais [NEW]"],"customerSegments":["Pedidos recorrentes [NEW]"],"keyActivities":["Fluxo produtivo consolidado [NEW]"]}},
+        "pivots":{"customer":{"name":"Público atual → Novo público comprador","trigger":"O público atual não sustenta a procura prevista","changes":{"customerSegments":{"add":["Novo público comprador local [NEW]"]}}},"problem":{"name":"Produção atual → Prazo acompanhado","trigger":"A organização de prazo se torna a principal necessidade","changes":{"valueProposition":{"add":["Produção organizada com prazo acompanhado [NEW]"]}}},"tech":{"name":"Processo atual → Organização produtiva","trigger":"A organização da produção limita a capacidade","changes":{"keyActivities":{"add":["Organização agregada da produção [NEW]"]}}},"niche":{"name":"Linha ampla → Linha focada","trigger":"Um público local responde melhor a uma linha focada","changes":{"keyResources":{"add":["Linha focada para um público local [NEW]"]}}},"pivot":{"name":"Canal atual → Canal comercial alternativo","trigger":"O canal atual não acompanha a procura","changes":{"channels":{"add":["Canal comercial alternativo [NEW]"]}}}}
+      },
+      "milestones": {
+        "m1":[
+          {"id":"m1_conservative","name":"Primeiros pedidos produzidos","desc":"Concluir pedidos agregados sem exceder insumos ou capacidade.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":22},"icon":"🧵","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},
+          {"id":"m1_balanced","name":"Fila produtiva organizada","desc":"Equilibrar pedidos, produção, refugo e entrega agregados.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":34},"icon":"📦","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},
+          {"id":"m1_ambitious","name":"Capacidade de produção demonstrada","desc":"Demonstrar produção com recursos e prazo acompanhados.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":46},"icon":"⚙️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}
+        ],
+        "m2":[{"id":"m2_conservative","name":"Refugo e prazo acompanhados","desc":"Sustentar entregas com refugo agregado acompanhado.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":58},"icon":"✅","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3":[{"id":"m3_conservative","name":"Produção sustentável","desc":"Consolidar pedidos agregados entregues e recebimentos planejados.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":80},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    },
+    "terra": {
+      "family": "manufacture_to_order",
+      "label": "Produção institucional fictícia",
+      "baseDemand": 14,
+      "baseCapacity": 19,
+      "unitPrice": 4.6,
+      "unitVariableCost": 1.7,
+      "initialInventory": 28,
+      "targetInventory": 40,
+      "receivableShare": 0.3,
+      "bmc": {
+        "initial":{"keyPartners":["Fornecedores de insumos e serviços de manutenção do espaço"],"keyActivities":["Programação agregada, produção, revisão e entrega de pedidos fictícios"],"keyResources":["Capacidade produtiva, insumos agregados e espaço de trabalho"],"valueProposition":["Fornecimento fictício de itens de conservação com prazo acompanhado"],"customerRelationships":["Confirmação agregada de pedido e entrega, sem cadastro individual"],"channels":["Atendimento comercial local e divulgação para compradores institucionais fictícios"],"customerSegments":["Escritórios, condomínios e empresas fictícias que mantêm seus espaços"],"costStructure":["Insumos, refugo, ocupação, capacidade e reposição agregados"],"revenueStreams":["Pedidos agregados entregues"]},
+        "milestoneUpdates":{"1":{"keyActivities":["Programação agregada [NEW]"],"keyResources":["Capacidade registrada [NEW]"]},"2":{"keyActivities":["Revisão agregada e refugo acompanhado [NEW]"],"customerRelationships":["Confirmação de prazo [NEW]"]},"3":{"channels":["Parcerias comerciais [NEW]"],"customerSegments":["Pedidos recorrentes [NEW]"],"keyActivities":["Fluxo produtivo consolidado [NEW]"]}},
+        "pivots":{"customer":{"name":"Público atual → Novo público institucional","trigger":"O público atual não sustenta a procura prevista","changes":{"customerSegments":{"add":["Novo público institucional local [NEW]"]}}},"problem":{"name":"Produção atual → Prazo acompanhado","trigger":"A organização de prazo se torna a principal necessidade","changes":{"valueProposition":{"add":["Fornecimento organizado com prazo acompanhado [NEW]"]}}},"tech":{"name":"Processo atual → Organização produtiva","trigger":"A organização da produção limita a capacidade","changes":{"keyActivities":{"add":["Organização agregada da produção [NEW]"]}}},"niche":{"name":"Fornecimento amplo → Foco institucional","trigger":"Um público local responde melhor a um foco institucional","changes":{"keyResources":{"add":["Fornecimento focado para um público local [NEW]"]}}},"pivot":{"name":"Canal atual → Canal comercial alternativo","trigger":"O canal atual não acompanha a procura","changes":{"channels":{"add":["Canal comercial alternativo [NEW]"]}}}}
+      },
+      "milestones": {
+        "m1":[
+          {"id":"m1_conservative","name":"Primeiros pedidos institucionais produzidos","desc":"Concluir pedidos agregados sem exceder insumos ou capacidade.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":20},"icon":"📦","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},
+          {"id":"m1_balanced","name":"Fila de pedidos organizada","desc":"Equilibrar pedidos, produção, refugo e entrega agregados.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":30},"icon":"📋","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},
+          {"id":"m1_ambitious","name":"Capacidade de fornecimento demonstrada","desc":"Demonstrar produção com recursos e prazo acompanhados.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":42},"icon":"⚙️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}
+        ],
+        "m2":[{"id":"m2_conservative","name":"Refugo e prazo acompanhados","desc":"Sustentar entregas com refugo agregado acompanhado.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":54},"icon":"✅","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3":[{"id":"m3_conservative","name":"Produção institucional sustentável","desc":"Consolidar pedidos agregados entregues e recebimentos planejados.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":74},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    },
+    "sorgente": {
+      "family":"manufacture_to_order","label":"Produção fictícia sob encomenda","baseDemand":17,"baseCapacity":23,"unitPrice":3.7,"unitVariableCost":1.3,"initialInventory":32,"targetInventory":46,"receivableShare":0.22,
+      "bmc":{"initial":{"keyPartners":["Fornecedores de insumos e serviços de manutenção do espaço"],"keyActivities":["Programação agregada, produção, revisão e entrega de pedidos fictícios"],"keyResources":["Capacidade produtiva, insumos agregados e espaço de trabalho"],"valueProposition":["Pedidos fictícios de conveniência alimentar produzidos com prazo acompanhado"],"customerRelationships":["Confirmação agregada de pedido e entrega, sem cadastro individual"],"channels":["Atendimento comercial local e divulgação para pontos fictícios de venda"],"customerSegments":["Famílias e pontos de venda fictícios que buscam conveniência alimentar"],"costStructure":["Insumos, refugo, ocupação, capacidade e reposição agregados"],"revenueStreams":["Pedidos agregados entregues"]},"milestoneUpdates":{"1":{"keyActivities":["Programação agregada [NEW]"],"keyResources":["Capacidade produtiva registrada [NEW]"]},"2":{"keyActivities":["Revisão agregada e refugo acompanhado [NEW]"],"customerRelationships":["Confirmação de prazo [NEW]"]},"3":{"channels":["Parcerias comerciais [NEW]"],"customerSegments":["Pedidos recorrentes [NEW]"],"keyActivities":["Fluxo produtivo consolidado [NEW]"]}},"pivots":{"customer":{"name":"Público atual → Novo público comprador","trigger":"O público atual não sustenta a procura prevista","changes":{"customerSegments":{"add":["Novo público comprador local [NEW]"]}}},"problem":{"name":"Produção atual → Prazo acompanhado","trigger":"A organização de prazo se torna a principal necessidade","changes":{"valueProposition":{"add":["Produção organizada com prazo acompanhado [NEW]"]}}},"tech":{"name":"Processo atual → Organização produtiva","trigger":"A organização da produção limita a capacidade","changes":{"keyActivities":{"add":["Organização agregada da produção [NEW]"]}}},"niche":{"name":"Fornecimento amplo → Foco local","trigger":"Um público local responde melhor a um foco específico","changes":{"keyResources":{"add":["Fornecimento focado para um público local [NEW]"]}}},"pivot":{"name":"Canal atual → Canal comercial alternativo","trigger":"O canal atual não acompanha a procura","changes":{"channels":{"add":["Canal comercial alternativo [NEW]"]}}}}},
+      "milestones":{"m1":[{"id":"m1_conservative","name":"Primeiros pedidos produzidos","desc":"Concluir pedidos agregados sem exceder insumos ou capacidade.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":24},"icon":"📦","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},{"id":"m1_balanced","name":"Fila produtiva organizada","desc":"Equilibrar pedidos, produção, refugo e entrega agregados.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":36},"icon":"📋","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},{"id":"m1_ambitious","name":"Capacidade de produção demonstrada","desc":"Demonstrar produção com recursos e prazo acompanhados.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":48},"icon":"⚙️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}],"m2":[{"id":"m2_conservative","name":"Refugo e prazo acompanhados","desc":"Sustentar entregas com refugo agregado acompanhado.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":62},"icon":"✅","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],"m3":[{"id":"m3_conservative","name":"Produção sustentável","desc":"Consolidar pedidos agregados entregues e recebimentos planejados.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":84},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]}
+    },
+    "edu": {
+      "stateVersion": 3,
+      "engine": "operations-v2-service",
+      "family": "service_recurring",
+      "serviceMode": "aggregate_membership",
+      "label": "Academia com continuidade agregada",
+      "baseDemand": 20,
+      "baseCapacity": 32,
+      "initialActiveBase": 18,
+      "entryRate": 0.16,
+      "exitRate": 0.08,
+      "unitPrice": 2.6,
+      "unitVariableCost": 0.72,
+      "receivableShare": 0.1,
+      "bmc": {
+        "initial":{"keyPartners":["Fornecedores de manutenção, limpeza e apoio do espaço"],"keyActivities":["Organização agregada da capacidade, conservação do espaço e acompanhamento da continuidade de membros em nível agregado"],"keyResources":["Estrutura de exercícios, capacidade de uso e base ativa agregada"],"valueProposition":["Espaço de condicionamento para adultos com capacidade organizada ao longo do período"],"customerRelationships":["Comunicação geral de continuidade e uso do espaço, sem perfil individual"],"channels":["Unidade local e divulgação de bairro"],"customerSegments":["Adultos da região interessados em rotina de condicionamento"],"costStructure":["Manutenção, ocupação, apoio operacional e capacidade agregada"],"revenueStreams":["Mensalidades agregadas de membros ativos"]},
+        "milestoneUpdates":{"1":{"keyActivities":["Rotina de continuidade agregada [NEW]"],"keyResources":["Capacidade de uso acompanhada [NEW]"]},"2":{"keyActivities":["Organização do espaço [NEW]"],"customerRelationships":["Comunicação geral de continuidade [NEW]"]},"3":{"keyActivities":["Fluxo operacional consolidado [NEW]"],"channels":["Divulgação local [NEW]"],"customerSegments":["Base recorrente agregada [NEW]"]}},
+        "pivots":{"customer":{"customerSegments":{"add":["Novo público local [NEW]"]},"channels":{"add":["Divulgação local direcionada [NEW]"]}},"problem":{"valueProposition":{"add":["Continuidade organizada no uso do espaço [NEW]"]}},"tech":{"keyActivities":{"add":["Organização agregada da capacidade de uso [NEW]"]}},"niche":{"keyResources":{"add":["Capacidade organizada para um público local [NEW]"]}},"pivot":{"channels":{"add":["Canal local alternativo de comunicação [NEW]"]}}}
+      },
+      "milestones": {
+        "m1":[
+          {"id":"m1_conservative","name":"Base ativa organizada","desc":"Manter continuidade agregada sem ultrapassar a capacidade de uso.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":30},"icon":"🏋️","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},
+          {"id":"m1_balanced","name":"Capacidade de uso acompanhada","desc":"Equilibrar uso agregado e capacidade do espaço.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":44},"icon":"📋","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},
+          {"id":"m1_ambitious","name":"Continuidade agregada demonstrada","desc":"Demonstrar uso organizado e continuidade da base agregada.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":58},"icon":"⏱️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}
+        ],
+        "m2":[{"id":"m2_conservative","name":"Uso e continuidade equilibrados","desc":"Conciliar uso agregado, continuidade e recebimentos.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":74},"icon":"⚖️","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3":[{"id":"m3_conservative","name":"Operação de condicionamento sustentável","desc":"Sustentar base agregada, uso e caixa operacional.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":98},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    },
+    "voed": {
+      "family": "retail_inventory",
+      "label": "Restaurante por quilo com preparo diário",
+      "baseDemand": 22,
+      "baseCapacity": 30,
+      "unitPrice": 2.2,
+      "unitVariableCost": 1.05,
+      "initialInventory": 38,
+      "targetInventory": 52,
+      "receivableShare": 0.06,
+      "bmc": {
+        "initial": {
+          "keyPartners": ["Fornecedores de insumos e serviços de apoio locais"],
+          "keyActivities": ["Preparo agregado, organização do bufê, atendimento e controle de desperdício"],
+          "keyResources": ["Cozinha, bufê, capacidade de atendimento e porções preparadas"],
+          "valueProposition": ["Refeição prática com atendimento organizado no horário de maior fluxo"],
+          "customerRelationships": ["Atendimento ágil e acompanhamento agregado da experiência no salão"],
+          "channels": ["Salão do restaurante e divulgação local"],
+          "customerSegments": ["Trabalhadores e moradores que buscam refeição prática na região"],
+          "costStructure": ["Insumos agregados, preparo, desperdício, ocupação e reposição"],
+          "revenueStreams": ["Venda de refeições por peso, em valor agregado"]
+        },
+        "milestoneUpdates": {
+          "1": {"keyActivities":["Rotina de preparo e controle agregado de desperdício [NEW]"],"keyResources":["Disponibilidade do bufê acompanhada [NEW]"]},
+          "2": {"keyResources":["Capacidade de atendimento organizada [NEW]"],"customerRelationships":["Retorno de público acompanhado de forma agregada [NEW]"],"costStructure":["Reposição planejada [NEW]"]},
+          "3": {"keyActivities":["Fluxo operacional consolidado [NEW]"],"channels":["Parcerias locais [NEW]"],"customerSegments":["Demanda recorrente em horário comercial [NEW]"]}
+        },
+        "pivots": {
+          "customer":{"customerSegments":{"add":["Novo segmento local [NEW]"]},"channels":{"add":["Divulgação direcionada [NEW]"]}},
+          "problem":{"valueProposition":{"add":["Agilidade e previsibilidade no horário de maior fluxo [NEW]"]}},
+          "tech":{"keyActivities":{"add":["Organização do preparo e do controle de desperdício [NEW]"]}},
+          "niche":{"keyResources":{"add":["Oferta focada em um público local [NEW]"]}},
+          "pivot":{"channels":{"add":["Canal local alternativo de atendimento [NEW]"]}}
+        }
+      },
+      "milestones": {
+        "m1": [
+          {"id":"m1_conservative","name":"Primeiro fluxo de almoço organizado","desc":"Atender porções sem ultrapassar a capacidade ou a disponibilidade preparada.","difficulty":"conservative","time":8,"focus":["dev","mkt"],"threshold":{"dev":40,"mkt":15},"operatingThreshold":{"completed":32},"icon":"🍽️","reward":{"cash":0,"val":200},"investorFit":["bootstrapped"]},
+          {"id":"m1_balanced","name":"Bufê com desperdício acompanhado","desc":"Conciliar porções vendidas, preparo e descarte agregado.","difficulty":"balanced","time":7,"focus":["dev","mkt"],"threshold":{"dev":43,"mkt":22},"operatingThreshold":{"completed":46},"icon":"🥘","reward":{"cash":0,"val":450},"investorFit":["bootstrapped"]},
+          {"id":"m1_ambitious","name":"Capacidade de atendimento demonstrada","desc":"Demonstrar atendimento organizado no horário de maior fluxo.","difficulty":"ambitious","time":6,"focus":["dev","mkt","hr"],"threshold":{"dev":46,"mkt":28,"hr":20},"operatingThreshold":{"completed":60},"icon":"⏱️","reward":{"cash":0,"val":900},"investorFit":["bootstrapped"]}
+        ],
+        "m2": [{"id":"m2_conservative","name":"Reposição e descarte controlados","desc":"Conciliar venda, reposição e desperdício agregado.","difficulty":"conservative","time":7,"focus":["dev","hr"],"threshold":{"dev":55,"hr":35},"operatingThreshold":{"completed":74},"icon":"📦","reward":{"cash":0,"val":300},"investorFit":["bootstrapped"]}],
+        "m3": [{"id":"m3_conservative","name":"Operação de refeições sustentável","desc":"Sustentar atendimento, reposição e caixa operacional.","difficulty":"conservative","time":6,"focus":["mkt","dev","hr"],"threshold":{"mkt":70,"dev":68,"hr":50},"operatingThreshold":{"completed":100},"icon":"📈","reward":{"cash":0,"val":500},"investorFit":["bootstrapped"]}]
+      }
+    }
+  }
+}

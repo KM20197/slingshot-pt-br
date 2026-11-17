@@ -1,0 +1,2135 @@
+{
+  "GENERIC_EVENTS": {
+    "classification": "Sessenta e seis eventos fictícios de organização, formação e processos administrativos comuns aos negócios brasileiros; regras e efeitos preservados.",
+    "strings": {
+      "[\"research\",0,\"intro\"]": {
+        "source": "Promising researcher applying, but they want to keep publishing openly.",
+        "target": "Em cenário fictício, profissional experiente se candidata e quer continuar divulgando os materiais de treinamento inventados."
+      },
+      "[\"research\",0,\"aside\"]": {
+        "source": "Open science versus competitive advantage. Classic tension.",
+        "target": "Compartilhar o material versus vantagem competitiva. Tensão clássica."
+      },
+      "[\"research\",0,\"choices\",0,\"text\"]": {
+        "source": "Hire with publication rights",
+        "target": "Contratar aceitando o compartilhamento"
+      },
+      "[\"research\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Attract talent. Share some secrets.",
+        "target": "Atrai talento. Compartilha alguns segredos."
+      },
+      "[\"research\",0,\"choices\",1,\"text\"]": {
+        "source": "Negotiate delayed publication",
+        "target": "Combinar divulgação após revisão"
+      },
+      "[\"research\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. Six month embargo.",
+        "target": "A divulgação fica para depois da revisão. A equipe aceita o compromisso."
+      },
+      "[\"research\",0,\"choices\",2,\"text\"]": {
+        "source": "Insist on full IP control",
+        "target": "Manter os materiais internos"
+      },
+      "[\"research\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Protect our assets. Worth the fight.",
+        "target": "Protege nossos ativos. Vale a discussão."
+      },
+      "[\"research\",1,\"intro\"]": {
+        "source": "Lab equipment breaking down. Repair or upgrade to newer tech?",
+        "target": "Em cenário fictício, materiais e equipamentos de apoio administrativo inventados precisam de manutenção. Reparar ou trocar por uma versão mais nova?"
+      },
+      "[\"research\",1,\"aside\"]": {
+        "source": "Old equipment limits what we can do. New equipment limits budget.",
+        "target": "Material antigo limita o que fazemos. Material novo pesa no orçamento."
+      },
+      "[\"research\",1,\"choices\",0,\"text\"]": {
+        "source": "Full upgrade to latest equipment",
+        "target": "Revisão completa dos recursos"
+      },
+      "[\"research\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Capabilities expanded significantly.",
+        "target": "A revisão permite reorganizar os recursos de apoio administrativo."
+      },
+      "[\"research\",1,\"choices\",1,\"text\"]": {
+        "source": "Repair and extend life",
+        "target": "Reparo para estender o uso"
+      },
+      "[\"research\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Keeps us running. For now.",
+        "target": "Mantém tudo funcionando. Por enquanto."
+      },
+      "[\"research\",1,\"choices\",2,\"text\"]": {
+        "source": "Work around the limitations",
+        "target": "Contornar as limitações"
+      },
+      "[\"research\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Creativity from constraint. Team innovates.",
+        "target": "Criatividade dentro do limite. A equipe inova."
+      },
+      "[\"research\",2,\"intro\"]": {
+        "source": "The university ethics board reviewing our research partnership has flagged our data collection—how much we gather, and how vague our consent language is. We can fix it properly, patch the specific complaints, or argue our case.",
+        "target": "Em cenário fictício, parceiro revisou nosso material de organização usando exemplos inventados e apontou excesso e confusão nas instruções. Podemos revisar tudo por completo, corrigir os itens específicos ou contestar a avaliação."
+      },
+      "[\"research\",2,\"aside\"]": {
+        "source": "Better to fix it now than explain it to a journalist later.",
+        "target": "Melhor corrigir agora do que explicar depois."
+      },
+      "[\"research\",2,\"choices\",0,\"text\"]": {
+        "source": "Full ethics audit and remediation",
+        "target": "Revisão completa das instruções"
+      },
+      "[\"research\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Clean practices. Clear conscience.",
+        "target": "Materiais organizados. Consciência tranquila."
+      },
+      "[\"research\",2,\"choices\",1,\"text\"]": {
+        "source": "Address specific concerns raised",
+        "target": "Corrigir os itens específicos apontados"
+      },
+      "[\"research\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Minimum viable compliance.",
+        "target": "Correção mínima no essencial."
+      },
+      "[\"research\",2,\"choices\",2,\"text\"]": {
+        "source": "Push back on the review",
+        "target": "Contestar a avaliação"
+      },
+      "[\"research\",2,\"choices\",2,\"reaction\"]": {
+        "source": "We win the argument. The file stays open.",
+        "target": "Ganhamos a discussão. A questão fica aberta."
+      },
+      "[\"research\",3,\"intro\"]": {
+        "source": "Conference abstract deadline tomorrow. Submit preliminary results?",
+        "target": "Em cenário fictício, encontro de gestores recebe relatos administrativos preliminares. Compartilhar amanhã?"
+      },
+      "[\"research\",3,\"aside\"]": {
+        "source": "Early visibility versus looking foolish if results don't hold.",
+        "target": "Visibilidade precoce versus parecer fraco se os relatos não se sustentarem."
+      },
+      "[\"research\",3,\"choices\",0,\"text\"]": {
+        "source": "Submit with appropriate caveats",
+        "target": "Compartilhar com ressalvas"
+      },
+      "[\"research\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Get the conversation started.",
+        "target": "Começa a conversa."
+      },
+      "[\"research\",3,\"choices\",1,\"text\"]": {
+        "source": "Wait for next conference cycle",
+        "target": "Aguardar o prazo seguinte"
+      },
+      "[\"research\",3,\"choices\",1,\"reaction\"]": {
+        "source": "More solid. Less timely.",
+        "target": "Mais sólido. Menos oportuno."
+      },
+      "[\"research\",3,\"choices\",2,\"text\"]": {
+        "source": "Skip conferences, focus on product",
+        "target": "Focar na rotina"
+      },
+      "[\"research\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Ship faster. Product speaks for itself.",
+        "target": "Entrega mais rápido. O trabalho fala por si."
+      },
+      "[\"research\",4,\"intro\"]": {
+        "source": "The computer science department at our local university wants to set up a Knowledge Transfer Partnership. Government co-funds it.",
+        "target": "Em cenário fictício, escola de formação propõe colaboração com materiais organizacionais inventados."
+      },
+      "[\"research\",4,\"aside\"]": {
+        "source": "KTPs are brilliant value—Innovate UK pays most of the salary. We get a dedicated associate for two years.",
+        "target": "A colaboração oferece uma troca de experiências, mas exige coordenação da nossa equipe."
+      },
+      "[\"research\",4,\"choices\",0,\"text\"]": {
+        "source": "Full KTP with research project",
+        "target": "Preparação completa com coordenação"
+      },
+      "[\"research\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Two years of focused work. Grant covers 60% of costs.",
+        "target": "A equipe prepara os materiais e assume a coordenação. O esforço fica concentrado nessa colaboração."
+      },
+      "[\"research\",4,\"choices\",1,\"text\"]": {
+        "source": "Informal collaboration first",
+        "target": "Começar colaboração limitada"
+      },
+      "[\"research\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Test the relationship before committing.",
+        "target": "Testa a relação antes de se comprometer."
+      },
+      "[\"research\",4,\"choices\",2,\"text\"]": {
+        "source": "Too much admin—pass",
+        "target": "Recusar o esforço de preparação"
+      },
+      "[\"research\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid bureaucracy. Focus on product.",
+        "target": "A equipe mantém o foco na rotina e deixa a colaboração para outra ocasião."
+      },
+      "[\"research\",5,\"intro\"]": {
+        "source": "A Warwick Business School MSc team wants to do their consultancy project with us. Free strategy work, but needs time to brief and manage.",
+        "target": "No cenário fictício, um grupo de formação em gestão oferece um projeto de organização sem cobrar pela participação. O trabalho usa materiais administrativos inventados e precisa de orientação e coordenação."
+      },
+      "[\"research\",5,\"aside\"]": {
+        "source": "These students are sharp and motivated. Last cohort's report on a competitor was genuinely useful.",
+        "target": "Essas pessoas são rápidas e motivadas. O relatório da turma anterior sobre um concorrente foi realmente útil."
+      },
+      "[\"research\",5,\"choices\",0,\"text\"]": {
+        "source": "Full engagement with exec access",
+        "target": "Participação com amplo acesso aos materiais"
+      },
+      "[\"research\",5,\"choices\",0,\"reaction\"]": {
+        "source": "They deliver serious competitor analysis.",
+        "target": "O grupo compara os exemplos inventados e entrega uma análise da organização."
+      },
+      "[\"research\",5,\"choices\",1,\"text\"]": {
+        "source": "Limited scope project",
+        "target": "Projeto com escopo limitado"
+      },
+      "[\"research\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Useful output. Less of our time.",
+        "target": "Resultado útil. Menos tempo nosso."
+      },
+      "[\"research\",5,\"choices\",2,\"text\"]": {
+        "source": "Decline—not the right time",
+        "target": "Adiar — não é o momento"
+      },
+      "[\"research\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Wait for better timing.",
+        "target": "Esperar um momento melhor."
+      },
+      "[\"research\",6,\"intro\"]": {
+        "source": "Three final year students want us to propose dissertation projects. Real problems for them, potential solutions for us.",
+        "target": "No cenário fictício, participantes de uma oficina pedem propostas sobre desafios administrativos usando exemplos inventados. A equipe pode orientar projetos para explorar possíveis soluções."
+      },
+      "[\"research\",6,\"aside\"]": {
+        "source": "Some projects go nowhere. But occasionally you get breakthrough ideas from fresh eyes.",
+        "target": "Alguns projetos não levam a lugar nenhum. Mas de vez em quando surgem boas ideias de olhos novos."
+      },
+      "[\"research\",6,\"choices\",0,\"text\"]": {
+        "source": "Propose three meaty projects",
+        "target": "Propor vários projetos mais profundos"
+      },
+      "[\"research\",6,\"choices\",0,\"reaction\"]": {
+        "source": "One might solve a real problem. All build our reputation.",
+        "target": "Os projetos exploram caminhos diferentes. Algumas propostas ajudam mais que outras."
+      },
+      "[\"research\",6,\"choices\",1,\"text\"]": {
+        "source": "One project, well-supervised",
+        "target": "Um projeto, bem acompanhado"
+      },
+      "[\"research\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Quality over quantity.",
+        "target": "Qualidade acima de quantidade."
+      },
+      "[\"research\",6,\"choices\",2,\"text\"]": {
+        "source": "No bandwidth for supervision",
+        "target": "Recusar por falta de tempo de coordenação"
+      },
+      "[\"research\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on core priorities.",
+        "target": "Foco nas prioridades principais."
+      },
+      "[\"research\",7,\"intro\"]": {
+        "source": "Applications are open for summer interns. We could take students from various universities—good talent pipeline.",
+        "target": "No cenário fictício, uma escola convida a equipe a preparar materiais de formação operacional com exemplos inventados."
+      },
+      "[\"research\",7,\"aside\"]": {
+        "source": "Interns are cheap and eager. Some become brilliant hires. Others need a lot of hand-holding.",
+        "target": "Participação informal pede menos estrutura. Algumas pessoas se destacam; outras precisam de bastante apoio."
+      },
+      "[\"research\",7,\"choices\",0,\"text\"]": {
+        "source": "Structured programme with 4 interns",
+        "target": "Programa estruturado com várias atividades"
+      },
+      "[\"research\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Busy summer. One or two will be stars.",
+        "target": "Verão agitado. Algumas pessoas se destacam."
+      },
+      "[\"research\",7,\"choices\",1,\"text\"]": {
+        "source": "Take 1-2 interns informally",
+        "target": "Participação menor e informal"
+      },
+      "[\"research\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Manageable. Less pipeline impact.",
+        "target": "A participação exige menos coordenação, mas permite desenvolver menos atividades."
+      },
+      "[\"research\",7,\"choices\",2,\"text\"]": {
+        "source": "Skip this year—too busy",
+        "target": "Recusar neste momento"
+      },
+      "[\"research\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on priorities. Next year.",
+        "target": "Foco nas prioridades. No próximo ciclo."
+      },
+      "[\"research\",8,\"intro\"]": {
+        "source": "A sandwich year student from Nottingham wants to do their placement with us. 12 months of dedicated help at junior salary.",
+        "target": "Uma participante de uma oficina fictícia quer colaborar em nosso projeto organizacional, com exemplos inventados."
+      },
+      "[\"research\",8,\"aside\"]": {
+        "source": "Placement students become part of the team. By month six, they're genuinely productive.",
+        "target": "A participante aprende com os exemplos inventados, mas precisa de orientação ao longo do projeto."
+      },
+      "[\"research\",8,\"choices\",0,\"text\"]": {
+        "source": "Take them on with development plan",
+        "target": "Aceitar com plano de aprendizado e acompanhamento"
+      },
+      "[\"research\",8,\"choices\",0,\"reaction\"]": {
+        "source": "A year of growing contribution. Often convert to grad hire.",
+        "target": "O acompanhamento dá continuidade ao aprendizado. A equipe precisa reservar tempo para orientar."
+      },
+      "[\"research\",8,\"choices\",1,\"text\"]": {
+        "source": "Six-month trial placement",
+        "target": "Ensaio limitado, com revisão no fim"
+      },
+      "[\"research\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Test fit before full commitment.",
+        "target": "Testar a combinação antes do compromisso inteiro."
+      },
+      "[\"research\",8,\"choices\",2,\"text\"]": {
+        "source": "Can't commit to supervision",
+        "target": "Sem capacidade de coordenação agora"
+      },
+      "[\"research\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Focus resources. Better fits ahead.",
+        "target": "A equipe concentra seus recursos na rotina e adia a colaboração."
+      },
+      "[\"research\",9,\"intro\"]": {
+        "source": "University offering sponsored PhD students. Cheap talent, slow timelines.",
+        "target": "Um grupo fictício de formação propõe material organizacional para nós, com prioridades e cronograma próprios."
+      },
+      "[\"research\",9,\"aside\"]": {
+        "source": "PhDs are brilliant but have their own priorities.",
+        "target": "O grupo é brilhante, mas tem prioridades próprias."
+      },
+      "[\"research\",9,\"choices\",0,\"text\"]": {
+        "source": "Take two sponsored students",
+        "target": "Aceitar várias colaborações"
+      },
+      "[\"research\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Fresh thinking. Publication pressure.",
+        "target": "Ideias novas. Pressão de entregas próprias."
+      },
+      "[\"research\",9,\"choices\",1,\"text\"]": {
+        "source": "One student, clear project scope",
+        "target": "Um projeto, com escopo claro"
+      },
+      "[\"research\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Manageable commitment.",
+        "target": "Compromisso administrável."
+      },
+      "[\"research\",9,\"choices\",2,\"text\"]": {
+        "source": "Decline—need full-time focus",
+        "target": "Recusar — foco total na rotina"
+      },
+      "[\"research\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise the product. Stay focused.",
+        "target": "Priorizar a operação. Manter o foco."
+      },
+      "[\"research\",10,\"intro\"]": {
+        "source": "A local college runs degree apprenticeships in data science. We could sponsor students—they work 4 days, study 1 day.",
+        "target": "Uma oficina fictícia de organização propõe colaborar com nossa formação, com atividades práticas inventadas. O plano é de longo prazo; as necessidades são de agora."
+      },
+      "[\"research\",10,\"aside\"]": {
+        "source": "Apprentices are loyal and learn our way of working. Four-year commitment though.",
+        "target": "Há espaço para aprender em conjunto, mas o compromisso exige coordenação por bastante tempo."
+      },
+      "[\"research\",10,\"choices\",0,\"text\"]": {
+        "source": "Sponsor two apprentices",
+        "target": "Duas frentes colaborativas"
+      },
+      "[\"research\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Building talent from scratch. They'll bleed our colours.",
+        "target": "As duas frentes começam a formação com exemplos inventados. Coordenar ambas exige atenção da equipe."
+      },
+      "[\"research\",10,\"choices\",1,\"text\"]": {
+        "source": "One apprentice to start",
+        "target": "Começar com uma frente pequena"
+      },
+      "[\"research\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Test the programme. Lower risk.",
+        "target": "Testar o formato. Risco menor."
+      },
+      "[\"research\",10,\"choices\",2,\"text\"]": {
+        "source": "Too long-term for us now",
+        "target": "Agora é longo demais para nós"
+      },
+      "[\"research\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on immediate needs. Practical.",
+        "target": "Foco nas necessidades atuais. Prático."
+      },
+      "[\"research\",11,\"intro\"]": {
+        "source": "My team has found a training method that cuts our compute bill by roughly a third, and it will do the same for anyone who copies it. I want to publish it: code, method, a proper write-up. Publishing is how a small lab sets the standard: researchers cite it, engineers build on it, and the best of them apply to work here. But a licence cannot stop a bigger firm taking our code, wrapping it in their cloud, and selling it back to our own prospects; companies that opened their code have watched exactly that happen. So the question is where the money sits once the method is free: in the hosted service, the support, and the data we hold, or nowhere.",
+        "target": "Nossa equipe fictícia organizou um guia prático de processos que pode ser compartilhado. Divulgar traz aprendizado e contatos; o risco é outras organizações usarem o método sem colaborar conosco."
+      },
+      "[\"research\",11,\"aside\"]": {
+        "source": "Give away the recipe and sell the restaurant. It works, if you own a restaurant.",
+        "target": "Compartilhar o guia pode ampliar os contatos. Também permite que outras organizações aprendam sem retribuir."
+      },
+      "[\"research\",11,\"choices\",0,\"text\"]": {
+        "source": "Publish everything, build the paid service on top",
+        "target": "Divulgar tudo e oferecer apoio organizacional"
+      },
+      "[\"research\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Forks, citations, applicants. Within the year a cloud giant hosts our code; the customers who need someone accountable still come to us.",
+        "target": "O guia circula e gera contatos. Algumas organizações pedem apoio; outras usam o material por conta própria."
+      },
+      "[\"research\",11,\"choices\",1,\"text\"]": {
+        "source": "Publish the method, keep the engine proprietary",
+        "target": "Divulgar o guia geral e manter detalhes internos"
+      },
+      "[\"research\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Respectable and quotable. The community builds on the paper, not on us.",
+        "target": "O guia geral circula, enquanto os detalhes ficam internos. A troca de experiências fica mais limitada."
+      },
+      "[\"research\",11,\"choices\",2,\"text\"]": {
+        "source": "Keep it closed",
+        "target": "Manter tudo interno"
+      },
+      "[\"research\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Our edge stays ours, unproven. The standard gets set anyway, by someone louder.",
+        "target": "Os detalhes ficam conosco. A equipe preserva o material, mas perde oportunidades de troca."
+      },
+      "[\"research\",12,\"intro\"]": {
+        "source": "Sheffield Hallam is hosting an industry research day. Small investment to present, chance to meet practical researchers.",
+        "target": "Um encontro fictício local de gestores compartilha experiências administrativas. Boa chance de apresentar e conhecer gente prática."
+      },
+      "[\"research\",12,\"aside\"]": {
+        "source": "Not the prestige universities, but these researchers solve real problems. Less ego too.",
+        "target": "O encontro usa exemplos inventados para discutir dificuldades de organização. Cada participante traz uma perspectiva."
+      },
+      "[\"research\",12,\"choices\",0,\"text\"]": {
+        "source": "Present and sponsor networking drinks",
+        "target": "Apresentar e contribuir com o encontro"
+      },
+      "[\"research\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Found three researchers working on exactly our problems.",
+        "target": "A apresentação aproxima gestores com dificuldades parecidas nas situações simuladas."
+      },
+      "[\"research\",12,\"choices\",1,\"text\"]": {
+        "source": "Attend without presenting",
+        "target": "Participar sem apresentar"
+      },
+      "[\"research\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Scout the talent. Stay under the radar.",
+        "target": "Observar o talento. Manter-se discreto."
+      },
+      "[\"research\",12,\"choices\",2,\"text\"]": {
+        "source": "Skip it—focus on Russell Group",
+        "target": "Recusar — focar em outros contatos"
+      },
+      "[\"research\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Limited resources. Prioritise prestige.",
+        "target": "Recursos limitados. Priorizar os contatos já conhecidos."
+      },
+      "[\"research\",13,\"intro\"]": {
+        "source": "Someone trained our model on the entire archive of British baking shows. It now describes everything in terms of 'soggy bottoms' and 'good crumb structure'.",
+        "target": "No cenário fictício, a equipe prepara uma apresentação com exemplos inventados e metáforas de culinária, falando de massa que não cresce e receitas desandadas. O encontro está próximo."
+      },
+      "[\"research\",13,\"aside\"]": {
+        "source": "The interns thought it was hilarious. The demo to investors is on Thursday.",
+        "target": "A equipe achou hilário. A apresentação está para a semana que vem."
+      },
+      "[\"research\",13,\"choices\",0,\"text\"]": {
+        "source": "Lean into it—baking metaphors for everyone",
+        "target": "Abraçar o humor — metáforas de cozinha para todos"
+      },
+      "[\"research\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Investors charmed. 'A lovely rise in your Series A.'",
+        "target": "As metáforas divertem a plateia do ensaio. Alguém pergunta se a apresentação também vem com sobremesa."
+      },
+      "[\"research\",13,\"choices\",1,\"text\"]": {
+        "source": "Emergency rollback to serious model",
+        "target": "Recuperar de urgência a versão mais direta"
+      },
+      "[\"research\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Crisis averted. Interns disappointed.",
+        "target": "Crise evitada. A equipe ficou decepcionada."
+      },
+      "[\"research\",13,\"choices\",2,\"text\"]": {
+        "source": "Keep both versions, A/B test",
+        "target": "Manter as duas versões e comparar"
+      },
+      "[\"research\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Turns out users prefer the baking version.",
+        "target": "O ensaio compara as duas versões. O humor chama atenção, mas alguns exemplos precisam ficar mais claros."
+      },
+      "[\"research\",14,\"intro\"]": {
+        "source": "A researcher has been coming in at 3am 'when the GPU cluster is quiet'. Security is concerned. So is their spouse.",
+        "target": "No cenário fictício, alguém da equipe usa os recursos administrativos fora do horário planejado por achar o ambiente mais tranquilo. Isso dificulta a organização e preocupa quem coordena as atividades."
+      },
+      "[\"research\",14,\"aside\"]": {
+        "source": "Dedication or obsession? The line blurs in research.",
+        "target": "Dedicação ou obsessão? A linha fica tênue na rotina."
+      },
+      "[\"research\",14,\"choices\",0,\"text\"]": {
+        "source": "Intervention: enforce normal hours",
+        "target": "Recombinar para horários adequados"
+      },
+      "[\"research\",14,\"choices\",0,\"reaction\"]": {
+        "source": "They grumble but sleep improves. So does their work.",
+        "target": "A pessoa reclama da mudança, mas a equipe consegue combinar melhor o uso dos recursos."
+      },
+      "[\"research\",14,\"choices\",1,\"text\"]": {
+        "source": "Give them a camp bed and snacks",
+        "target": "Tolerar o uso excepcional das instalações, com ressalvas"
+      },
+      "[\"research\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Breakthrough achieved. HR sends concerned emails.",
+        "target": "A exceção continua. A coordenação ainda precisa acompanhar os desencontros de horário."
+      },
+      "[\"research\",14,\"choices\",2,\"text\"]": {
+        "source": "Allocate dedicated GPU time instead",
+        "target": "Reservar janelas de uso em vez disso"
+      },
+      "[\"research\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Problem solved with scheduling. Novel concept.",
+        "target": "A agenda organiza o acesso aos recursos. Parece simples, depois que alguém sugere."
+      },
+      "[\"research\",15,\"intro\"]": {
+        "source": "The research team's TeamChat channel has devolved into an elaborate debate about whether a hot dog is a sandwich.",
+        "target": "O grupo de conversas fictício da equipe discute se cachorro-quente é sanduíche, e o tempo da rotina escapa."
+      },
+      "[\"research\",15,\"aside\"]": {
+        "source": "Productivity is down. But team bonding is... up?",
+        "target": "A produtividade caiu. Mas o vínculo do time... subiu?"
+      },
+      "[\"research\",15,\"choices\",0,\"text\"]": {
+        "source": "Join the debate with a formal position paper",
+        "target": "Participar do debate com um texto formal engraçado"
+      },
+      "[\"research\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Your 'Cylindrical Meat Taxonomy' becomes a meme. Team loves it.",
+        "target": "Sua 'Taxonomia Cilíndrica de Carnes' vira meme. A equipe amou."
+      },
+      "[\"research\",15,\"choices\",1,\"text\"]": {
+        "source": "Gently redirect to actual work",
+        "target": "Redirecionar gentilmente para a rotina"
+      },
+      "[\"research\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Adults behaving professionally. Briefly.",
+        "target": "Adultos comportados. Por pouco tempo."
+      },
+      "[\"research\",15,\"choices\",2,\"text\"]": {
+        "source": "Create a #random channel for nonsense",
+        "target": "Criar um espaço separado para conversas soltas"
+      },
+      "[\"research\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Chaos contained. Science resumes.",
+        "target": "Caos contido. A rotina volta."
+      },
+      "[\"research\",16,\"intro\"]": {
+        "source": "Ask ten customers to keep a diary for two weeks - when they use your product, how they feel, what frustrates them. Raw, unfiltered insight over time.",
+        "target": "No cenário fictício, a equipe recebe uma sequência de relatos administrativos inventados sobre o uso de materiais de rotina. Os exemplos descrevem consultas, dificuldades e adaptações ao longo de uma atividade simulada."
+      },
+      "[\"research\",16,\"aside\"]": {
+        "source": "Interviews capture what people remember. Diaries capture what actually happens.",
+        "target": "Uma sequência detalhada permite comparar os exemplos inventados ao longo da atividade. Um resumo deixa parte desse contexto de fora."
+      },
+      "[\"research\",16,\"choices\",0,\"text\"]": {
+        "source": "Full diary study with follow-ups",
+        "target": "Examinar a sequência detalhada com revisão"
+      },
+      "[\"research\",16,\"choices\",0,\"reaction\"]": {
+        "source": "The 2am frustration entries were eye-opening. You'd never catch that in an interview.",
+        "target": "A revisão dos relatos inventados revela detalhes que não apareciam no resumo da atividade simulada."
+      },
+      "[\"research\",16,\"choices\",1,\"text\"]": {
+        "source": "Shorter one-week study",
+        "target": "Examinar a sequência resumida"
+      },
+      "[\"research\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Good data. Smaller sample.",
+        "target": "A sequência resumida ajuda a comparar os exemplos, mas deixa alguns detalhes de fora."
+      },
+      "[\"research\",16,\"choices\",2,\"text\"]": {
+        "source": "Ask in a survey instead",
+        "target": "Examinar respostas inventadas de um questionário"
+      },
+      "[\"research\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Quick answers. Missing the context and emotion.",
+        "target": "Respostas rápidas, porém sem o contexto e o tom dos relatos inventados."
+      },
+      "[\"research\",17,\"intro\"]": {
+        "source": "One customer is using your product for problems most users won't face for years. They're frustrated by limitations nobody else has hit yet. They've already built workarounds.",
+        "target": "No cenário fictício, um exemplo administrativo apresenta uma necessidade pouco frequente que expõe limitações dos materiais de rotina. Uma participante da atividade simulada propõe adaptações para esse caso."
+      },
+      "[\"research\",17,\"aside\"]": {
+        "source": "Lead users live in the future. Their problems today are everyone's problems tomorrow.",
+        "target": "O caso incomum ajuda a examinar os limites da organização atual. Outros exemplos podem trazer dificuldades diferentes."
+      },
+      "[\"research\",17,\"choices\",0,\"text\"]": {
+        "source": "Deep collaboration with them",
+        "target": "Explorar em conjunto com essa pessoa"
+      },
+      "[\"research\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Their problems today are everyone's problems tomorrow. You're now two years ahead.",
+        "target": "A colaboração detalha as adaptações do exemplo. A equipe passa a conhecer melhor essa dificuldade específica."
+      },
+      "[\"research\",17,\"choices\",1,\"text\"]": {
+        "source": "Interview and document",
+        "target": "Examinar e documentar o exemplo"
+      },
+      "[\"research\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Useful insights captured. They wanted more involvement.",
+        "target": "Exemplo inventado registrado. Ele queria participar mais."
+      },
+      "[\"research\",17,\"choices\",2,\"text\"]": {
+        "source": "Focus on mainstream users",
+        "target": "Focar nos participantes mais frequentes"
+      },
+      "[\"research\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Serve the many. Pioneers can wait.",
+        "target": "Atender à maioria do cenário. O caso incomum pode esperar."
+      },
+      "[\"research\",18,\"intro\"]": {
+        "source": "A technically skilled customer has fixed a bug in your system and sent you the solution. It works. Your engineers didn't write it.",
+        "target": "No cenário fictício, um grupo sugere uma correção em um modelo de organização feito com materiais inventados. A equipe ainda precisa conferir a proposta antes de incorporá-la."
+      },
+      "[\"research\",18,\"aside\"]": {
+        "source": "Users sometimes solve problems faster than you can. The question is whether to accept help.",
+        "target": "Participantes às vezes resolvem necessidades mais rápido que a equipe. A dúvida é aceitar a ajuda."
+      },
+      "[\"research\",18,\"choices\",0,\"text\"]": {
+        "source": "Integrate and credit them",
+        "target": "Conferir, incorporar e reconhecer a colaboração"
+      },
+      "[\"research\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Community goodwill. Others start contributing.",
+        "target": "Boa vontade no cenário simulado. Outros passam a contribuir."
+      },
+      "[\"research\",18,\"choices\",1,\"text\"]": {
+        "source": "Rewrite it internally",
+        "target": "Refazer a solução internamente"
+      },
+      "[\"research\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Clean code. Same outcome. Slower.",
+        "target": "A equipe prepara uma versão própria da correção. O caminho exige mais trabalho interno."
+      },
+      "[\"research\",18,\"choices\",2,\"text\"]": {
+        "source": "Politely decline external code",
+        "target": "Recusar gentilmente a ajuda de fora"
+      },
+      "[\"research\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Security policy. Missed the help.",
+        "target": "Preferência interna mantida. A ajuda ficou de fora."
+      },
+      "[\"research\",19,\"intro\"]": {
+        "source": "You discover your lead researcher has been spending evenings working on something completely outside the roadmap. It's not what you're paying them for - but it's genuinely interesting.",
+        "target": "No cenário fictício, uma integrante dedica esforço a uma proposta administrativa fora do planejamento. O material é inventado e parece interessante, mas a atividade não foi combinada com a equipe."
+      },
+      "[\"research\",19,\"aside\"]": {
+        "source": "Bootleg projects. Against the rules. Also where breakthroughs hide.",
+        "target": "A proposta explora um caminho diferente. Para ganhar espaço na rotina, também precisa de coordenação."
+      },
+      "[\"research\",19,\"choices\",0,\"text\"]": {
+        "source": "Give them official time for it",
+        "target": "Reservar tempo coordenado para a proposta"
+      },
+      "[\"research\",19,\"choices\",0,\"reaction\"]": {
+        "source": "The side project becomes a real project. They're energised.",
+        "target": "A proposta vira projeto oficial do cenário simulado. A integrante fica motivada."
+      },
+      "[\"research\",19,\"choices\",1,\"text\"]": {
+        "source": "Ask them to stop",
+        "target": "Pedir que ela retome as prioridades"
+      },
+      "[\"research\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Back on roadmap. Something dies in their eyes.",
+        "target": "De volta ao planejamento. O entusiasmo esfria."
+      },
+      "[\"research\",19,\"choices\",2,\"text\"]": {
+        "source": "Pretend you didn't notice",
+        "target": "Ignorar a situação"
+      },
+      "[\"research\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Plausible deniability. Innovation continues in shadows.",
+        "target": "Nada muda no registro. A proposta segue fora do planejamento."
+      },
+      "[\"research\",20,\"intro\"]": {
+        "source": "You discover your research lead has been quietly diverting small amounts from various budgets to fund an unauthorised experiment. It's working. But it's definitely against policy.",
+        "target": "No cenário fictício, uma integrante usa recursos administrativos em uma atividade com materiais inventados que não foi combinada com a equipe. A proposta parece útil, mas faltou coordenar a alocação dos recursos."
+      },
+      "[\"research\",20,\"aside\"]": {
+        "source": "Hidden budgets. Creative accounting. Also how some of the best ideas survive.",
+        "target": "Valores usados fora do combinado. Contra as regras do cenário simulado."
+      },
+      "[\"research\",20,\"choices\",0,\"text\"]": {
+        "source": "Formalise the funding",
+        "target": "Formalizar a alocação dos recursos"
+      },
+      "[\"research\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Legitimise what works. Update the policy.",
+        "target": "A equipe discute a alocação e passa a incluir a atividade no planejamento. O uso dos recursos fica mais claro."
+      },
+      "[\"research\",20,\"choices\",1,\"text\"]": {
+        "source": "Shut it down, enforce process",
+        "target": "Interromper e seguir o planejamento"
+      },
+      "[\"research\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Rules matter. Researcher complies but checks out mentally.",
+        "target": "As regras importam. A pessoa obedece, mas se desengaja."
+      },
+      "[\"research\",20,\"choices\",2,\"text\"]": {
+        "source": "Create a discretionary innovation fund",
+        "target": "Criar um espaço delimitado para propostas"
+      },
+      "[\"research\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Give them a proper channel. Stop the workarounds.",
+        "target": "Um canal adequado no cenário simulado. Menos improvisos de fora do combinado."
+      },
+      "[\"research\",21,\"intro\"]": {
+        "source": "A researcher who left last year has built exactly what you need at their new startup. They developed the core idea while working for you - in their spare time, using their own laptop. Legally it's theirs.",
+        "target": "No cenário fictício, uma pessoa que colaborou com a equipe anteriormente oferece um conjunto de materiais administrativos inventados para organizar uma rotina. A oferta inclui acompanhamento e também permite escolher uma versão mais limitada."
+      },
+      "[\"research\",21,\"aside\"]": {
+        "source": "The one that got away. You could have had this for free.",
+        "target": "A equipe pode recorrer ao material oferecido ou dedicar esforço a preparar uma versão própria."
+      },
+      "[\"research\",21,\"choices\",0,\"text\"]": {
+        "source": "Acquire the startup",
+        "target": "Contratar o conjunto completo com apoio"
+      },
+      "[\"research\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Pay for what you could have had for free. But you get proven technology.",
+        "target": "O conjunto e o acompanhamento são contratados. A equipe coordena a incorporação dos materiais à rotina simulada."
+      },
+      "[\"research\",21,\"choices\",1,\"text\"]": {
+        "source": "License the IP, contract them as consultant",
+        "target": "Contratar apenas os materiais necessários com orientação limitada"
+      },
+      "[\"research\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper than acquisition. They keep their startup, you get the technology and their expertise part-time.",
+        "target": "Custo menor que o conjunto completo. Ela segue com a atividade dela e você usa só o que precisa, com apoio parcial."
+      },
+      "[\"research\",21,\"choices\",2,\"text\"]": {
+        "source": "Build it yourself, differently",
+        "target": "Preparar uma versão própria"
+      },
+      "[\"research\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Slower. More expensive. But yours.",
+        "target": "Preparar a versão própria exige mais trabalho da equipe. O material fica sob sua organização."
+      },
+      "[\"research\",22,\"intro\"]": {
+        "source": "You learn there's an informal network of researchers across departments sharing ideas and helping each other with unofficial projects. It's productive but completely outside management visibility.",
+        "target": "No cenário fictício, integrantes de diferentes áreas trocam modelos administrativos inventados e se ajudam em atividades fora do planejamento. A gestão ainda não acompanha como essas propostas são organizadas."
+      },
+      "[\"research\",22,\"aside\"]": {
+        "source": "The innovation underground. Works precisely because nobody's watching.",
+        "target": "A troca informal aproxima ideias diferentes. Sem coordenação, a gestão tem dificuldade para entender o que foi feito."
+      },
+      "[\"research\",22,\"choices\",0,\"text\"]": {
+        "source": "Support it with light structure",
+        "target": "Apoiar com coordenação leve"
+      },
+      "[\"research\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Legitimise without killing it. Tricky balance achieved.",
+        "target": "A equipe combina uma coordenação leve para acompanhar as propostas sem tornar toda troca uma reunião formal."
+      },
+      "[\"research\",22,\"choices\",1,\"text\"]": {
+        "source": "Leave it alone",
+        "target": "Deixar como está"
+      },
+      "[\"research\",22,\"choices\",1,\"reaction\"]": {
+        "source": "What you don't know keeps working.",
+        "target": "As trocas continuam informais. A gestão permanece sem uma visão clara das atividades."
+      },
+      "[\"research\",22,\"choices\",2,\"text\"]": {
+        "source": "Bring it into formal processes",
+        "target": "Incorporar ao planejamento formal"
+      },
+      "[\"research\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Structure enables scale. Channel the energy productively.",
+        "target": "As propostas passam pelo planejamento. A equipe precisa coordenar a troca entre as áreas."
+      },
+      "[\"research\",23,\"intro\"]": {
+        "source": "A project that was never officially approved just failed expensively. The researcher argues that's how innovation works - most experiments fail. Your board wants accountability.",
+        "target": "Uma atividade nunca aprovada oficialmente acabou falhando com prejuízo no cenário simulado. A pessoa envolvida argumenta que tentativas assim falham com frequência. A administração cobra prestação de contas."
+      },
+      "[\"research\",23,\"aside\"]": {
+        "source": "Failed experiments are the price of breakthroughs. But someone has to pay.",
+        "target": "Tentativas frustradas custam caro. Alguém precisa responder por isso."
+      },
+      "[\"research\",23,\"choices\",0,\"text\"]": {
+        "source": "Defend the culture of experimentation",
+        "target": "Defender espaço para tentar, com prestação clara de informações"
+      },
+      "[\"research\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Board uncomfortable. Researchers reassured. Next experiment might work.",
+        "target": "Administração desconfortável. Equipe tranquilizada. A próxima tentativa pode funcionar."
+      },
+      "[\"research\",23,\"choices\",1,\"text\"]": {
+        "source": "Implement approval processes",
+        "target": "Exigir aprovação antes das próximas tentativas"
+      },
+      "[\"research\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Fewer failures. Fewer surprises. Fewer breakthroughs.",
+        "target": "As próximas tentativas passam por aprovação. Há menos espaço para explorar formatos fora do planejamento."
+      },
+      "[\"research\",23,\"choices\",2,\"text\"]": {
+        "source": "Create a 'fast fail' budget",
+        "target": "Reservar espaço delimitado para pequenas tentativas"
+      },
+      "[\"research\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Legitimise small bets. Contain the risk.",
+        "target": "As pequenas tentativas passam a ter um espaço definido no planejamento. A equipe precisa acompanhar o uso dos recursos."
+      },
+      "[\"research\",24,\"intro\"]": {
+        "source": "After a major decision, you learn half the team had serious doubts but nobody voiced them. They assumed others knew better or didn't want to slow things down.",
+        "target": "Após uma decisão importante do cenário fictício, você descobre que boa parte da equipe tinha dúvidas sérias, mas ninguém as manifestou. Acharam que os outros sabiam melhor ou não queriam atrapalhar o andamento."
+      },
+      "[\"research\",24,\"aside\"]": {
+        "source": "Silent disagreement is agreement in name only. The doubts don't disappear.",
+        "target": "Discordância silenciosa é concordância só no nome. As dúvidas não desaparecem."
+      },
+      "[\"research\",24,\"choices\",0,\"text\"]": {
+        "source": "Structured pre-decision dissent process",
+        "target": "Processo estruturado de objeções antes da decisão"
+      },
+      "[\"research\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Force objections into the open before decisions lock. Slower but sounder.",
+        "target": "Traz as objeções à tona antes de a decisão fechar. Mais lento, com mais chance de acerto."
+      },
+      "[\"research\",24,\"choices\",1,\"text\"]": {
+        "source": "Ask directly for concerns next time",
+        "target": "Perguntar diretamente pelas dúvidas da próxima vez"
+      },
+      "[\"research\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Helps if people believe you mean it.",
+        "target": "Ajuda se as pessoas acreditarem que é a sério."
+      },
+      "[\"research\",24,\"choices\",2,\"text\"]": {
+        "source": "Trust the process worked",
+        "target": "Confiar que o processo funcionou"
+      },
+      "[\"research\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Decisions made. Move forward. Doubts linger.",
+        "target": "Decisão tomada. Segue em frente. As dúvidas ficam."
+      },
+      "[\"research\",25,\"intro\"]": {
+        "source": "You discover a researcher quietly fixed a data error rather than reporting it. The fix was correct, but hiding it meant nobody else learned. They were afraid of looking incompetent.",
+        "target": "No cenário fictício, um integrante corrige um erro em uma tabela administrativa com exemplos inventados sem avisar a equipe. A correção está certa, mas os outros não ficam sabendo do que aconteceu. A pessoa teme parecer incapaz."
+      },
+      "[\"research\",25,\"aside\"]": {
+        "source": "The cover-up instinct. Errors happen. Hiding them is the real problem.",
+        "target": "O instinto de encobrir. Erros acontecem. Escondê-los é o verdadeiro problema."
+      },
+      "[\"research\",25,\"choices\",0,\"text\"]": {
+        "source": "Thank them for fixing, discuss the hiding",
+        "target": "Agradecer a correção e conversar sobre o silêncio"
+      },
+      "[\"research\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Errors happen. Hiding them is what we can't have.",
+        "target": "Erros acontecem. Esconder é o que não pode acontecer."
+      },
+      "[\"research\",25,\"choices\",1,\"text\"]": {
+        "source": "Create a 'mistake of the week' ritual",
+        "target": "Abrir um espaço regular para conversar sobre erros"
+      },
+      "[\"research\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Normalise errors. Celebrate catches. Fear fades.",
+        "target": "A conversa valoriza quem percebe problemas e abre espaço para explicar as correções. O receio não desaparece de uma vez."
+      },
+      "[\"research\",25,\"choices\",2,\"text\"]": {
+        "source": "Enforce documentation requirements",
+        "target": "Exigir registro documentado das correções"
+      },
+      "[\"research\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Process ensures visibility. Doesn't address fear.",
+        "target": "As correções ficam registradas. O receio de comunicar erros ainda precisa ser discutido."
+      },
+      "[\"research\",26,\"intro\"]": {
+        "source": "In the quarterly review, our marketing lead challenged your strategy in front of the others. They were respectful but firm. Some of it was actually right. Your authority feels questioned.",
+        "target": "Na reunião fictícia de revisão, o integrante responsável por divulgação questiona sua estratégia diante dos outros. Fala com respeito, mas com firmeza. Parte do que ele diz faz sentido. Você sente a autoridade em questão."
+      },
+      "[\"research\",26,\"aside\"]": {
+        "source": "How you respond now teaches everyone what happens when someone challenges the boss.",
+        "target": "Como você responde agora ensina todo mundo o que acontece quando alguém contesta a chefia."
+      },
+      "[\"research\",26,\"choices\",0,\"text\"]": {
+        "source": "Thank them publicly, explore their point",
+        "target": "Agradecer em público e examinar o argumento"
+      },
+      "[\"research\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Ego bruised. Culture strengthened. Better decision made.",
+        "target": "Ego ferido. Clima fortalecido. Decisão examinada por mais ângulos."
+      },
+      "[\"research\",26,\"choices\",1,\"text\"]": {
+        "source": "Discuss privately afterwards",
+        "target": "Conversar em particular depois"
+      },
+      "[\"research\",26,\"choices\",1,\"reaction\"]": {
+        "source": "Maintain authority. They learn to raise concerns quietly.",
+        "target": "Autoridade mantida. A pessoa aprende a expor dúvidas em particular."
+      },
+      "[\"research\",26,\"choices\",2,\"text\"]": {
+        "source": "Shut it down, decide later",
+        "target": "Encerrar a discussão e decidir depois"
+      },
+      "[\"research\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Order restored. Junior won't speak up again. Neither will others.",
+        "target": "A reunião segue sem discutir o argumento. Algumas pessoas evitam voltar ao assunto."
+      },
+      "[\"research\",27,\"intro\"]": {
+        "source": "A researcher had an unconventional idea but never shared it, fearing ridicule. They mentioned it at their exit interview. It would have worked.",
+        "target": "Um integrante tinha uma proposta administrativa incomum, mas nunca a compartilhou, com medo de ridículo. Contou disso numa conversa de despedida do cenário fictício. Não dá para saber se teria funcionado."
+      },
+      "[\"research\",27,\"aside\"]": {
+        "source": "The ideas that die in silence. You'll never know how many there were.",
+        "target": "As ideias que morrem em silêncio. Nunca se sabe quantas foram."
+      },
+      "[\"research\",27,\"choices\",0,\"text\"]": {
+        "source": "Create structured 'wild idea' sessions",
+        "target": "Criar encontros estruturados de propostas incomuns"
+      },
+      "[\"research\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Legitimise unconventional thinking. Make it safe to be wrong.",
+        "target": "Dá espaço para o pensamento fora do comum. Errar passa a ser menos pesado."
+      },
+      "[\"research\",27,\"choices\",1,\"text\"]": {
+        "source": "Reach out, ask what else people hold back",
+        "target": "Procurar as pessoas e perguntar o que mais guardam"
+      },
+      "[\"research\",27,\"choices\",1,\"reaction\"]": {
+        "source": "One conversation at a time. Slow culture change.",
+        "target": "Uma conversa de cada vez. Mudança lenta de clima."
+      },
+      "[\"research\",27,\"choices\",2,\"text\"]": {
+        "source": "Regret it and move on",
+        "target": "Lamentar e seguir em frente"
+      },
+      "[\"research\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Can't change the past. Pattern continues.",
+        "target": "Não dá para mudar o passado. O padrão continua."
+      },
+      "[\"research\",28,\"intro\"]": {
+        "source": "Promotion time. Your female researcher has stronger results but downplays them - 'the team made it happen.' Your male researcher has weaker results but presents confidently - 'I delivered a breakthrough.' The panel is leaning toward him. You know the actual contributions.",
+        "target": "No cenário fictício de uma promoção, uma profissional tem contribuições mais fortes nos exemplos apresentados, mas atribui o mérito à equipe. Um colega tem contribuições menores e as apresenta com mais confiança. A comissão se inclina para ele. Os materiais inventados permitem comparar o trabalho de ambos."
+      },
+      "[\"research\",28,\"aside\"]": {
+        "source": "Results versus presentation. Speaking up might look like favouritism. Staying quiet rewards confidence over contribution.",
+        "target": "Resultados versus apresentação. Falar pode parecer favorecimento. Ficar em silêncio recompensa confiança em vez de contribuição."
+      },
+      "[\"research\",28,\"choices\",0,\"text\"]": {
+        "source": "Advocate for her with the evidence",
+        "target": "Defender as contribuições dela usando exemplos fictícios"
+      },
+      "[\"research\",28,\"choices\",0,\"reaction\"]": {
+        "source": "Panel surprised. Evidence speaks. Right person promoted.",
+        "target": "A comissão revê os exemplos apresentados e passa a dar mais peso às contribuições dela."
+      },
+      "[\"research\",28,\"choices\",1,\"text\"]": {
+        "source": "Coach her to self-promote better",
+        "target": "Orientar a apresentação dela, mantendo o problema coletivo visível"
+      },
+      "[\"research\",28,\"choices\",1,\"reaction\"]": {
+        "source": "She learns the game. Burden stays on her to fix a biased system.",
+        "target": "Ela aprende a se apresentar. O peso de corrigir um sistema enviesado continua sobre ela."
+      },
+      "[\"research\",28,\"choices\",2,\"text\"]": {
+        "source": "Let the process play out fairly",
+        "target": "Deixar o processo seguir sem interferir"
+      },
+      "[\"research\",28,\"choices\",2,\"reaction\"]": {
+        "source": "He's promoted. She's passed over. Results don't matter as much as you thought.",
+        "target": "Ele é promovido. Ela fica de fora. Os resultados pesaram menos do que você imaginava."
+      },
+      "[\"research\",29,\"intro\"]": {
+        "source": "An advisor with a pharmaceutical background keeps asking 'what's the approval process?' There isn't one—we just do things. She's uncomfortable. Last week she spotted a data handling practice that could have caused a serious regulatory breach. But her suggestions would triple our decision time.",
+        "target": "No cenário fictício, uma consultora de organização encontra instruções confusas e pedidos duplicados em materiais administrativos inventados. Ela propõe um fluxo de revisão para evitar desencontros. A equipe teme que isso torne as decisões mais demoradas."
+      },
+      "[\"research\",29,\"aside\"]": {
+        "source": "Her instincts might save us from a breach. Her instincts might also kill our speed. How much process buys safety without destroying momentum?",
+        "target": "Conferir as instruções exige tempo. Resolver a confusão depois também ocupa a equipe."
+      },
+      "[\"research\",29,\"choices\",0,\"text\"]": {
+        "source": "Take her advice seriously, build governance",
+        "target": "Levar a orientação dela a sério e fazer revisão completa"
+      },
+      "[\"research\",29,\"choices\",0,\"reaction\"]": {
+        "source": "Proper processes. Regulatory confidence. Foundation for scale.",
+        "target": "Os materiais são revisados e as decisões ficam mais documentadas. A coordenação passa a exigir mais atenção."
+      },
+      "[\"research\",29,\"choices\",1,\"text\"]": {
+        "source": "Lightweight approvals for high-risk only",
+        "target": "Revisão limitada às decisões mais complexas"
+      },
+      "[\"research\",29,\"choices\",1,\"reaction\"]": {
+        "source": "Balanced approach. Some frustration on both sides.",
+        "target": "Caminho equilibrado. Alguma frustração dos dois lados."
+      },
+      "[\"research\",29,\"choices\",2,\"text\"]": {
+        "source": "Thank her and ignore it—move fast",
+        "target": "Agradecer e ignorar, seguindo rápido"
+      },
+      "[\"research\",29,\"choices\",2,\"reaction\"]": {
+        "source": "She stops advising. Three months later, a regulator calls.",
+        "target": "Ela para de orientar. Depois, um parceiro fictício volta com a mesma dúvida."
+      },
+      "[\"research\",30,\"intro\"]": {
+        "source": "Our accelerator mentor speaks entirely in jargon. 'You need to pivot your value hypothesis based on validated learnings from your innovation accounting metrics.' We stare blankly. When asked what she means, she rephrases with more jargon. Our weekly sessions have become translation exercises.",
+        "target": "No cenário fictício, uma orientadora de gestão usa expressões difíceis para explicar exemplos administrativos inventados: precisamos compatibilizar as atribuições com a padronização dos encaminhamentos. A equipe não entende. Quando pedem clareza, ela troca as palavras por outras igualmente complicadas."
+      },
+      "[\"research\",30,\"aside\"]": {
+        "source": "Jargon can signal expertise or hide empty thinking. She might have real insights buried under the buzzwords. Or the accelerator assigned us someone who talks better than they think.",
+        "target": "Conhecer termos de gestão não basta para explicar uma proposta. A equipe precisa entender o que vai mudar na rotina."
+      },
+      "[\"research\",30,\"choices\",0,\"text\"]": {
+        "source": "Ask her to explain in plain English",
+        "target": "Pedir que explique em linguagem simples"
+      },
+      "[\"research\",30,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward pause. Then clarity. Some frameworks actually help.",
+        "target": "Pausa constrangedora. Depois, clareza. Alguns conceitos ajudam de fato."
+      },
+      "[\"research\",30,\"choices\",1,\"text\"]": {
+        "source": "Learn the language, extract what's useful",
+        "target": "Estudar os termos e extrair o que for útil"
+      },
+      "[\"research\",30,\"choices\",1,\"reaction\"]": {
+        "source": "Hard work. Some concepts stick. We now speak startup fluently.",
+        "target": "Trabalho árduo. Alguns conceitos ficam. A equipe passa a entender o vocabulário."
+      },
+      "[\"research\",30,\"choices\",2,\"text\"]": {
+        "source": "Request a different mentor",
+        "target": "Procurar orientação diferente"
+      },
+      "[\"research\",30,\"choices\",2,\"reaction\"]": {
+        "source": "New mentor is practical. Lost time, but better fit.",
+        "target": "A equipe troca de orientação e passa a discutir os exemplos com mais clareza. A procura tomou tempo."
+      },
+      "[\"research\",31,\"intro\"]": {
+        "source": "Your team spent months building a beloved feature. Before launch, you run a proper A/B test. The data is clear: users who see the feature convert 15% worse than the control group. The team insists the test must be flawed. The sample size is solid. The methodology is sound. The feature they love is hurting the product.",
+        "target": "No cenário fictício, a equipe preparou um modelo administrativo de que gosta bastante. Um ensaio com situações inventadas mostra mais dificuldade de organização do que o formato anterior nos mesmos exemplos. Parte da equipe prefere manter o modelo e questiona como o ensaio foi conduzido."
+      },
+      "[\"research\",31,\"aside\"]": {
+        "source": "Science says kill it. The team's morale says save it. Both matter for survival.",
+        "target": "Os exemplos do ensaio favorecem a revisão. A equipe quer preservar o trabalho que já fez."
+      },
+      "[\"research\",31,\"choices\",0,\"text\"]": {
+        "source": "Kill the feature - data wins",
+        "target": "Abandonar o modelo com base no ensaio"
+      },
+      "[\"research\",31,\"choices\",0,\"reaction\"]": {
+        "source": "Painful but right. Team learns that evidence beats intuition.",
+        "target": "A equipe abandona o modelo e retoma o formato anterior para os exemplos. A decisão frustra quem trabalhou na proposta."
+      },
+      "[\"research\",31,\"choices\",1,\"text\"]": {
+        "source": "Iterate based on what data suggests",
+        "target": "Rever o modelo e ensaiar de novo"
+      },
+      "[\"research\",31,\"choices\",1,\"reaction\"]": {
+        "source": "Slower path. Feature improves. Team dignity preserved.",
+        "target": "A equipe revê os pontos de dificuldade e prepara outro ensaio. O caminho exige mais trabalho."
+      },
+      "[\"research\",31,\"choices\",2,\"text\"]": {
+        "source": "Trust team's instincts, ship anyway",
+        "target": "Manter a preferência da equipe"
+      },
+      "[\"research\",31,\"choices\",2,\"reaction\"]": {
+        "source": "Conversion drops. Team learns nothing. Confidence in data erodes.",
+        "target": "A preferência é mantida, mas as dificuldades dos exemplos ficam sem revisão. A discussão sobre o ensaio continua."
+      },
+      "[\"research\",32,\"intro\"]": {
+        "source": "You're testing a new pricing model. After 50 customers, results look promising - 30% higher conversion. Your data scientist says you need 500 customers for statistical significance. Your sales lead says competitors are moving and you can't wait three months. The early signal is strong but not conclusive.",
+        "target": "No cenário fictício, a equipe compara formatos de organização em exemplos inventados. O primeiro ensaio parece favorável ao formato novo, mas abrange poucas situações. Parte da equipe quer adotá-lo logo; outra quer conhecer melhor seus limites."
+      },
+      "[\"research\",32,\"aside\"]": {
+        "source": "Rigorous science takes time. Markets don't wait. How much certainty is enough?",
+        "target": "Análise cuidadosa leva tempo. O negócio não espera. Quanta certeza basta?"
+      },
+      "[\"research\",32,\"choices\",0,\"text\"]": {
+        "source": "Wait for statistical significance",
+        "target": "Ampliar a comparação antes de decidir"
+      },
+      "[\"research\",32,\"choices\",0,\"reaction\"]": {
+        "source": "Three months later, result holds. But competitors moved.",
+        "target": "A comparação ampliada revela limites que o primeiro ensaio não mostrava. O trabalho leva mais tempo."
+      },
+      "[\"research\",32,\"choices\",1,\"text\"]": {
+        "source": "Roll out with monitoring and kill switch",
+        "target": "Adotar em parte, com revisão e retorno ao anterior se preciso"
+      },
+      "[\"research\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Result mostly holds. Quick reversal on one segment that didn't.",
+        "target": "A aplicação parcial expõe uma dificuldade. A equipe retoma o formato anterior nesse ponto e mantém a revisão."
+      },
+      "[\"research\",32,\"choices\",2,\"text\"]": {
+        "source": "Trust the early signal, full rollout",
+        "target": "Adotar tudo pelo sinal inicial"
+      },
+      "[\"research\",32,\"choices\",2,\"reaction\"]": {
+        "source": "The 30% gain was noise. Conversion actually flat. Wasted quarter.",
+        "target": "A adoção completa não melhora os exemplos como o primeiro ensaio sugeria. A equipe precisa rever o esforço aplicado."
+      },
+      "[\"research\",33,\"intro\"]": {
+        "source": "You spent £40k and three months testing whether your AI outperforms the existing solution. The answer is clear: it doesn't. Not worse, but not better. Your investors expect a breakthrough. Your team is deflated. But you now know something important - this approach is a dead end.",
+        "target": "No cenário fictício, a equipe dedicou bastante esforço a um modelo administrativo que não mostrou vantagem sobre o anterior nos exemplos inventados. O resultado desanima quem preparou a proposta. A equipe precisa decidir como explicar seus limites e o próximo passo."
+      },
+      "[\"research\",33,\"aside\"]": {
+        "source": "Null results are valid science. They're terrible marketing. But pretending they don't exist corrupts your decision-making.",
+        "target": "Explicar a ausência de vantagem é desconfortável. Omiti-la deixa a equipe sem parte da informação necessária para decidir."
+      },
+      "[\"research\",33,\"choices\",0,\"text\"]": {
+        "source": "Publish null result, pivot publicly",
+        "target": "Relatar os limites e rever a proposta abertamente"
+      },
+      "[\"research\",33,\"choices\",0,\"reaction\"]": {
+        "source": "Credibility with scientists. Investors nervous. Team respects honesty.",
+        "target": "Credibilidade com quem acompanha. Outros desconfiam. A equipe respeita a honestidade."
+      },
+      "[\"research\",33,\"choices\",1,\"text\"]": {
+        "source": "Quietly pivot, don't discuss failure",
+        "target": "Mudar de rumo sem explicar"
+      },
+      "[\"research\",33,\"choices\",1,\"reaction\"]": {
+        "source": "Move on cleanly. Learning stays internal.",
+        "target": "Segue tudo limpo por fora. O aprendizado fica guardado."
+      },
+      "[\"research\",33,\"choices\",2,\"text\"]": {
+        "source": "Reframe as 'different' not 'not better'",
+        "target": "Destacar diferenças sem ocultar a ausência de melhora"
+      },
+      "[\"research\",33,\"choices\",2,\"reaction\"]": {
+        "source": "Honest reframe. Pivot becomes story of learning and adaptation.",
+        "target": "A apresentação descreve as diferenças e mantém explícitos os limites do ensaio. A equipe explica o que pretende rever."
+      },
+      "[\"research\",34,\"intro\"]": {
+        "source": "Your Head of Product is convinced you need a mobile app. She's collecting 'evidence' - customer quotes, competitor moves, industry reports. Your researcher points out she's only gathering evidence that supports her belief. The contradicting data - that power users are all desktop-based - keeps getting dismissed as 'edge cases.'",
+        "target": "No cenário fictício, uma integrante defende um formato de material administrativo e reúne apenas exemplos inventados favoráveis. Uma colega aponta situações contrárias que ficaram de fora. A equipe precisa decidir como avaliar a proposta."
+      },
+      "[\"research\",34,\"aside\"]": {
+        "source": "Confirmation bias affects everyone, including trusted team members. Challenging a passionate colleague feels disloyal but might save the company from an expensive mistake.",
+        "target": "Preferir os exemplos que apoiam uma ideia deixa parte da comparação de fora. Questionar a seleção ajuda a examinar a proposta."
+      },
+      "[\"research\",34,\"choices\",0,\"text\"]": {
+        "source": "Demand a proper falsifiable test first",
+        "target": "Exigir uma comparação que permita contestar a proposta"
+      },
+      "[\"research\",34,\"choices\",0,\"reaction\"]": {
+        "source": "Test shows desktop-first is right. She's grateful eventually.",
+        "target": "A comparação mostra que o formato atual continua adequado. Ela reconhece com o tempo."
+      },
+      "[\"research\",34,\"choices\",1,\"text\"]": {
+        "source": "Build minimal mobile prototype to test",
+        "target": "Montar um ensaio de versão simplificada"
+      },
+      "[\"research\",34,\"choices\",1,\"reaction\"]": {
+        "source": "Prototype teaches us something. She's convinced by evidence.",
+        "target": "O ensaio traz informação. Ela muda de ideia com os exemplos."
+      },
+      "[\"research\",34,\"choices\",2,\"text\"]": {
+        "source": "Trust her pattern recognition",
+        "target": "Confiar no julgamento dela"
+      },
+      "[\"research\",34,\"choices\",2,\"reaction\"]": {
+        "source": "Mobile app built. Mixed results but we learned about the market.",
+        "target": "Novo formato entregue. Resultados mistos, mas a equipe aprendeu."
+      },
+      "[\"research\",35,\"intro\"]": {
+        "source": "Your team is about to run an important experiment. Your researcher wants to 'pre-register' it - write down exactly what you'll measure and what counts as success before seeing results. Commercial resists: 'What if we discover something unexpected? We need flexibility to interpret the data.'",
+        "target": "No cenário fictício, a equipe planeja um ensaio de organização com exemplos inventados. Uma parte quer definir antes o que observar e quais critérios usar. Outra quer deixar espaço para situações inesperadas e discutir os critérios depois."
+      },
+      "[\"research\",35,\"aside\"]": {
+        "source": "Pre-registration prevents fooling yourself. It also prevents legitimate discovery. Real science does both.",
+        "target": "Critérios definidos ajudam a acompanhar o ensaio. Situações inesperadas podem ser registradas à parte, com seus limites."
+      },
+      "[\"research\",35,\"choices\",0,\"text\"]": {
+        "source": "Pre-register with defined success criteria",
+        "target": "Definir os critérios antes do ensaio"
+      },
+      "[\"research\",35,\"choices\",0,\"reaction\"]": {
+        "source": "Experiment fails criteria. But you trust the result. Clean pivot.",
+        "target": "O modelo não atende aos critérios combinados nos exemplos. A equipe sabe o que comparar e decide rever a proposta."
+      },
+      "[\"research\",35,\"choices\",1,\"text\"]": {
+        "source": "Document hypotheses but allow flexibility",
+        "target": "Registrar as hipóteses com ressalvas para observações novas"
+      },
+      "[\"research\",35,\"choices\",1,\"reaction\"]": {
+        "source": "Results ambiguous. Debate about what counts. Some learning.",
+        "target": "Resultados ambíguos. Debate sobre o que conta. Algum aprendizado."
+      },
+      "[\"research\",35,\"choices\",2,\"text\"]": {
+        "source": "Stay flexible - we'll know success when we see it",
+        "target": "Manter a flexibilidade: o sucesso se vê depois"
+      },
+      "[\"research\",35,\"choices\",2,\"reaction\"]": {
+        "source": "Everyone sees what they want in the data. Nothing resolved.",
+        "target": "Cada um enxerga o que quer nos dados. Nada resolvido."
+      },
+      "[\"research\",36,\"intro\"]": {
+        "source": "Your data shows customers who use Feature X have 3x higher retention. Marketing wants to push everyone toward Feature X. Your analyst warns this might be correlation, not causation - maybe committed users find Feature X, rather than Feature X creating commitment. Testing causation properly would take months.",
+        "target": "No cenário fictício, alguns exemplos inventados associam um recurso de organização a uma rotina mais ordenada. Os exemplos também têm diferenças entre si. A equipe discute se o recurso explica o resultado ou se precisa comparar melhor as situações."
+      },
+      "[\"research\",36,\"aside\"]": {
+        "source": "Correlation is a signal. Causation is proof. Waiting for proof is rigorous. Acting on correlation is fast.",
+        "target": "O recurso aparece junto a uma rotina organizada. Isso não explica, sozinho, seu papel em cada exemplo."
+      },
+      "[\"research\",36,\"choices\",0,\"text\"]": {
+        "source": "Run controlled experiment for causation",
+        "target": "Comparar as situações com cuidado antes de concluir"
+      },
+      "[\"research\",36,\"choices\",0,\"reaction\"]": {
+        "source": "Now we know for sure. Better decisions from better data.",
+        "target": "A comparação mostra diferenças entre os exemplos e esclarece os limites da conclusão sobre o recurso."
+      },
+      "[\"research\",36,\"choices\",1,\"text\"]": {
+        "source": "Push Feature X while monitoring carefully",
+        "target": "Usar o recurso em parte, com acompanhamento"
+      },
+      "[\"research\",36,\"choices\",1,\"reaction\"]": {
+        "source": "Retention doesn't change. Wasted effort but learned quickly.",
+        "target": "A rotina não muda. Esforço desperdiçado, mas aprendizado rápido."
+      },
+      "[\"research\",36,\"choices\",2,\"text\"]": {
+        "source": "Assume causation - we need wins now",
+        "target": "Atribuir toda a melhora ao recurso"
+      },
+      "[\"research\",36,\"choices\",2,\"reaction\"]": {
+        "source": "Campaign launched. Retention unchanged. Budget wasted.",
+        "target": "O recurso vira prioridade, mas as dificuldades dos exemplos continuam sem revisão. Parte do esforço fica mal direcionada."
+      },
+      "[\"research\",37,\"intro\"]": {
+        "source": "Your investor pitch cites three successful companies that used your approach. Your researcher points out this is survivorship bias - you're ignoring hundreds who tried the same approach and failed. 'But investors expect success stories,' says commercial. 'Scientific accuracy isn't how fundraising works.'",
+        "target": "No cenário fictício, uma apresentação a parceiros reúne experiências administrativas inventadas que deram certo e omite as dificuldades. Uma integrante aponta que o relato ficou incompleto. A equipe receia perder atenção se mostrar também os casos desfavoráveis."
+      },
+      "[\"research\",37,\"aside\"]": {
+        "source": "Intellectually honest pitches might lose to dishonest competitors. But building strategy on survivorship bias means decisions based on flawed evidence.",
+        "target": "Um relato parcial pode chamar atenção. Também deixa dificuldades fora da proposta e cria expectativas incompletas."
+      },
+      "[\"research\",37,\"choices\",0,\"text\"]": {
+        "source": "Honest pitch with failure rates included",
+        "target": "Apresentação honesta, com os casos de dificuldade incluídos"
+      },
+      "[\"research\",37,\"choices\",0,\"reaction\"]": {
+        "source": "Some investors respect rigour. Builds trust with the right ones.",
+        "target": "A apresentação permite discutir tanto as possibilidades quanto as dificuldades. Alguns parceiros valorizam essa clareza."
+      },
+      "[\"research\",37,\"choices\",1,\"text\"]": {
+        "source": "Success stories with caveats in appendix",
+        "target": "Casos favoráveis com ressalvas em anexo"
+      },
+      "[\"research\",37,\"choices\",1,\"reaction\"]": {
+        "source": "Standard practice. Investors skim appendix. Round closes.",
+        "target": "Os casos favoráveis chamam atenção. As ressalvas ficam no anexo e recebem menos espaço na conversa."
+      },
+      "[\"research\",37,\"choices\",2,\"text\"]": {
+        "source": "Play the game - pitch like everyone else",
+        "target": "Jogar o jogo - apresentar como os outros"
+      },
+      "[\"research\",37,\"choices\",2,\"reaction\"]": {
+        "source": "Round closes fast. Strategy built on stories, not evidence.",
+        "target": "A apresentação desperta interesse, mas deixa dificuldades importantes fora das expectativas criadas."
+      },
+      "[\"research\",38,\"intro\"]": {
+        "source": "A competitor published impressive results. Your team tried to replicate their methodology and got completely different outcomes. Either they got lucky, their method has hidden variables, or they're exaggerating. Publishing your replication attempt would be scientifically valuable but commercially aggressive.",
+        "target": "No cenário fictício, outra organização compartilha um modelo de rotina. A equipe ensaia o formato em exemplos inventados e encontra resultados diferentes. Os materiais não esclarecem todos os detalhes de aplicação. A equipe discute como comunicar essas diferenças."
+      },
+      "[\"research\",38,\"aside\"]": {
+        "source": "Science advances through replication. Business advances through competitive advantage. Publishing helps the field but might help competitors more than you.",
+        "target": "Compartilhar diferenças exige explicar o contexto dos exemplos. Guardá-las reduz a troca, mas limita a exposição do material."
+      },
+      "[\"research\",38,\"choices\",0,\"text\"]": {
+        "source": "Publish replication failure publicly",
+        "target": "Divulgar as divergências com ressalvas"
+      },
+      "[\"research\",38,\"choices\",0,\"reaction\"]": {
+        "source": "Scientific credibility soars. Industry takes notice. Truth wins.",
+        "target": "As diferenças são compartilhadas junto com as limitações do ensaio. Outras equipes podem discutir os exemplos."
+      },
+      "[\"research\",38,\"choices\",1,\"text\"]": {
+        "source": "Share privately with potential partners",
+        "target": "Conversar só com os possíveis parceiros"
+      },
+      "[\"research\",38,\"choices\",1,\"reaction\"]": {
+        "source": "Partners trust your rigour. Competitor unaware.",
+        "target": "Os possíveis parceiros conhecem os limites encontrados. A discussão fica restrita a esse grupo."
+      },
+      "[\"research\",38,\"choices\",2,\"text\"]": {
+        "source": "Keep as competitive intelligence",
+        "target": "Manter a análise interna"
+      },
+      "[\"research\",38,\"choices\",2,\"reaction\"]": {
+        "source": "Advantage preserved. Science doesn't advance.",
+        "target": "A análise permanece interna. A equipe preserva o material, mas perde oportunidades de troca."
+      },
+      "[\"research\",39,\"intro\"]": {
+        "source": "Your team wants to build a full prototype to test a concept - six weeks of work. Your researcher argues you could test the core hypothesis with a paper mockup and 20 user interviews in one week. 'But users can't really evaluate something that isn't real,' engineering argues.",
+        "target": "No cenário fictício, a equipe quer preparar um material administrativo completo para um ensaio com situações inventadas. Uma integrante propõe começar com um esboço em papel. Outra prefere conhecer os detalhes da versão completa antes de decidir."
+      },
+      "[\"research\",39,\"aside\"]": {
+        "source": "Cheaper experiments might give false signals. Expensive experiments are more valid but consume resources. How much confidence is worth how much money?",
+        "target": "O esboço exige menos preparação e pode deixar detalhes de fora. A versão completa permite examinar mais pontos, mas dá mais trabalho."
+      },
+      "[\"research\",39,\"choices\",0,\"text\"]": {
+        "source": "Paper prototype first, build only if validated",
+        "target": "Começar pelo esboço e seguir só se funcionar"
+      },
+      "[\"research\",39,\"choices\",0,\"reaction\"]": {
+        "source": "Paper test kills idea early. Saved five weeks. Team initially frustrated.",
+        "target": "O esboço derruba a ideia cedo. Esforço economizado. Equipe frustrada no início."
+      },
+      "[\"research\",39,\"choices\",1,\"text\"]": {
+        "source": "Functional prototype with real metrics",
+        "target": "Preparar a versão completa, com o que medir definido"
+      },
+      "[\"research\",39,\"choices\",1,\"reaction\"]": {
+        "source": "Six weeks later, clear signal. Expensive but conclusive.",
+        "target": "A versão completa permite examinar mais detalhes dos exemplos. Sua preparação exige mais recursos da equipe."
+      },
+      "[\"research\",39,\"choices\",2,\"text\"]": {
+        "source": "Trust engineering intuition, skip testing",
+        "target": "Confiar na intuição da operação, sem ensaio"
+      },
+      "[\"research\",39,\"choices\",2,\"reaction\"]": {
+        "source": "Built something fast. Market reception mixed but we shipped.",
+        "target": "A equipe prepara o material sem ensaio. Algumas dificuldades só aparecem depois, nos exemplos usados para revisão."
+      },
+      "[\"research\",40,\"intro\"]": {
+        "source": "Your experiment didn't show the result you wanted on your primary metric. But slicing the data differently - a subset of users, a different time window - you find a statistically significant positive result. It's not what you set out to prove, but it's something. Commercial is desperate for good news.",
+        "target": "No cenário fictício, um ensaio administrativo não atende ao critério inicial nos exemplos inventados. Ao selecionar apenas parte dos casos, a equipe encontra um resultado aparentemente favorável. Ela precisa decidir como apresentar o recorte e o resultado do conjunto."
+      },
+      "[\"research\",40,\"aside\"]": {
+        "source": "P-hacking - torturing data until it confesses - is scientifically dishonest. But exploratory findings are legitimate. The line between 'interesting subset' and 'misleading cherry-pick' is genuinely blurry.",
+        "target": "Selecionar apenas os casos favoráveis pode distorcer a apresentação do conjunto. Um recorte precisa ter seus limites claros."
+      },
+      "[\"research\",40,\"choices\",0,\"text\"]": {
+        "source": "Report honestly - primary metric failed",
+        "target": "Relatar com honestidade - o critério principal não foi atingido"
+      },
+      "[\"research\",40,\"choices\",0,\"reaction\"]": {
+        "source": "Credibility preserved. Commercial disappointed. Right decision.",
+        "target": "Credibilidade preservada. A equipe comercial fica frustrada. Decisão correta."
+      },
+      "[\"research\",40,\"choices\",1,\"text\"]": {
+        "source": "Report subset finding with clear caveats",
+        "target": "Relatar o recorte com ressalvas claras"
+      },
+      "[\"research\",40,\"choices\",1,\"reaction\"]": {
+        "source": "Honest exploration. Requires follow-up. Defensible.",
+        "target": "O relato mostra o recorte e suas limitações. A equipe precisa examiná-lo em outros exemplos antes de ampliar a conclusão."
+      },
+      "[\"research\",40,\"choices\",2,\"text\"]": {
+        "source": "Lead with positive subset finding",
+        "target": "Destacar só o recorte favorável"
+      },
+      "[\"research\",40,\"choices\",2,\"reaction\"]": {
+        "source": "Press release looks good. Follow-up study fails. Credibility damaged.",
+        "target": "A apresentação interna parece boa. O ensaio seguinte falha. Credibilidade abalada."
+      },
+      "[\"research\",41,\"intro\"]": {
+        "source": "Your biggest customer - 40% of revenue - wants a major feature change. They're specific, articulate, and threatening to leave. Building it would take two months. But they're one customer, and what they want might actively hurt your product for everyone else. Or they might be the canary in the coal mine, expressing what others feel but haven't said.",
+        "target": "No cenário fictício, um parceiro pede uma mudança no modelo administrativo usado em exemplos inventados. A mudança atende à sua situação, mas pode dificultar a organização das outras. A equipe discute se deve comparar mais casos, criar uma opção ou alterar todo o formato."
+      },
+      "[\"research\",41,\"aside\"]": {
+        "source": "One customer isn't statistically significant. But this one customer might understand something others don't - or might be pulling you toward a niche you don't want.",
+        "target": "Um único pedido não decide nada sozinho. Mas pode revelar algo que os outros exemplos inventados não dizem - ou puxar a organização para um formato que não convém a todos."
+      },
+      "[\"research\",41,\"choices\",0,\"text\"]": {
+        "source": "Interview 20 similar customers first",
+        "target": "Comparar outras situações inventadas antes"
+      },
+      "[\"research\",41,\"choices\",0,\"reaction\"]": {
+        "source": "Takes three weeks. Turns out they're an outlier. You nearly rebuilt for one.",
+        "target": "Leva tempo. Descobre-se que o caso é atípico. Quase se reorganizou tudo por um só."
+      },
+      "[\"research\",41,\"choices\",1,\"text\"]": {
+        "source": "Build it for them, optional for others",
+        "target": "Adotar um formato opcional só para esse caso"
+      },
+      "[\"research\",41,\"choices\",1,\"reaction\"]": {
+        "source": "They stay. Product complexity increases. Others ignore the feature.",
+        "target": "O formato opcional atende ao exemplo pedido, mas exige manter e coordenar maneiras diferentes de organização."
+      },
+      "[\"research\",41,\"choices\",2,\"text\"]": {
+        "source": "Build it - they pay the bills",
+        "target": "Mudar tudo para atender ao pedido"
+      },
+      "[\"research\",41,\"choices\",2,\"reaction\"]": {
+        "source": "Feature ships. Three other customers quietly churn. Wrong direction.",
+        "target": "A mudança atende ao pedido, mas cria dificuldades nos outros exemplos. A equipe precisa reorganizar o trabalho."
+      },
+      "[\"research\",42,\"intro\"]": {
+        "source": "User interviews say customers love Feature A and never use Feature B. Your analytics show customers barely touch Feature A but spend hours on Feature B. When confronted, users say 'Oh, I meant to use Feature A more' and 'I only use Feature B because I have to.' People are telling you the opposite of what they do.",
+        "target": "No cenário fictício, relatos inventados indicam preferência pelo formato A. As atividades representadas nos exercícios usam mais o formato B. Os próprios relatos sugerem que preferir um formato e precisar de outro são situações diferentes. A equipe precisa examinar essa diferença."
+      },
+      "[\"research\",42,\"aside\"]": {
+        "source": "What people say and what they do often diverge. Behaviour is real but doesn't explain motivation. Stated preferences explain motivation but may be aspirational fiction.",
+        "target": "As atividades e os relatos representam aspectos diferentes dos exercícios. A comparação precisa considerar o contexto de ambos."
+      },
+      "[\"research\",42,\"choices\",0,\"text\"]": {
+        "source": "Trust behaviour data - actions don't lie",
+        "target": "Priorizar as atividades representadas nos exercícios"
+      },
+      "[\"research\",42,\"choices\",0,\"reaction\"]": {
+        "source": "You double down on Feature B. Users complain but keep using it. Revenue grows.",
+        "target": "Você reforça o formato B. As pessoas reclamam e continuam usando. O uso se mantém."
+      },
+      "[\"research\",42,\"choices\",1,\"text\"]": {
+        "source": "Trust stated preferences - users know what they want",
+        "target": "Confiar nos relatos - cada um sabe o que quer"
+      },
+      "[\"research\",42,\"choices\",1,\"reaction\"]": {
+        "source": "You invest in Feature A. Usage doesn't change. Wasted quarter.",
+        "target": "Você investe no formato A. O uso não muda. Esforço desperdiçado."
+      },
+      "[\"research\",42,\"choices\",2,\"text\"]": {
+        "source": "Dig deeper - why the gap?",
+        "target": "Aprofundar - por que a diferença?"
+      },
+      "[\"research\",42,\"choices\",2,\"reaction\"]": {
+        "source": "Expensive research reveals: Feature A is aspirational, Feature B solves real pain. Both insights valuable.",
+        "target": "A revisão esclarece por que os exemplos favorecem um formato e os relatos preferem outro. O exame exige mais esforço."
+      },
+      "[\"research\",43,\"intro\"]": {
+        "source": "Your customer satisfaction scores are excellent - 4.8 out of 5. But NPS is declining, and three long-term customers just churned without warning. Satisfaction measures the past. Churn reveals the present. By the time satisfaction drops, the damage is done. But you can't ignore that most customers report being happy.",
+        "target": "No cenário fictício, o resumo de uma atividade administrativa parece favorável. Alguns exemplos inventados de dificuldade, porém, não aparecem com clareza no resumo. A equipe discute se deve ampliar o acompanhamento, rever esses casos ou manter a leitura geral."
+      },
+      "[\"research\",43,\"aside\"]": {
+        "source": "Lagging indicators feel reassuring but describe yesterday. Leading indicators are noisy but predict tomorrow. Optimising for the wrong metrics means winning battles while losing wars.",
+        "target": "Um resumo reúne parte das informações. Os exemplos de dificuldade ajudam a perceber o que ficou fora dele."
+      },
+      "[\"research\",43,\"choices\",0,\"text\"]": {
+        "source": "Build leading indicator system",
+        "target": "Acompanhar mais sinais de organização"
+      },
+      "[\"research\",43,\"choices\",0,\"reaction\"]": {
+        "source": "Six months of work. You now see churn coming 90 days early. Worth it.",
+        "target": "O acompanhamento amplia a visão das dificuldades nos exemplos. Organizar esses sinais dá mais trabalho."
+      },
+      "[\"research\",43,\"choices\",1,\"text\"]": {
+        "source": "Deep-dive on churned customers",
+        "target": "Examinar de perto as situações problemáticas"
+      },
+      "[\"research\",43,\"choices\",1,\"reaction\"]": {
+        "source": "Pattern emerges: power users outgrow you. Satisfaction high until suddenly gone.",
+        "target": "O padrão aparece: quem participa muito passa a exigir mais. O resumo é bom até deixar de ser."
+      },
+      "[\"research\",43,\"choices\",2,\"text\"]": {
+        "source": "Trust satisfaction - three churns is noise",
+        "target": "Confiar no resumo e deixar as dificuldades de lado"
+      },
+      "[\"research\",43,\"choices\",2,\"reaction\"]": {
+        "source": "Six more churn next quarter. Pattern was real. Expensive lesson.",
+        "target": "Mais dificuldades no cenário seguinte. O padrão era real. Lição cara."
+      },
+      "[\"research\",44,\"intro\"]": {
+        "source": "You can't easily measure customer lifetime value directly - it takes years to know. So you use a proxy: engagement in the first week predicts long-term retention. But now teams are optimising for the proxy, adding features that boost week-one engagement but annoy users later. The metric that was supposed to represent value is being gamed.",
+        "target": "No cenário fictício, a equipe usa um indicador simplificado para acompanhar exemplos de organização. Aos poucos, passa a cumprir apenas esse indicador e deixa parte do objetivo de lado. A equipe precisa decidir como rever os critérios e o contexto da avaliação."
+      },
+      "[\"research\",44,\"aside\"]": {
+        "source": "Goodhart's Law: when a measure becomes a target, it ceases to be a good measure. But you can't manage what you can't measure. The act of measuring changes what's measured.",
+        "target": "Um indicador resume parte da atividade. Cumpri-lo sem examinar o contexto pode deixar o objetivo do exercício em segundo plano."
+      },
+      "[\"research\",44,\"choices\",0,\"text\"]": {
+        "source": "Multiple proxy metrics, resist gaming",
+        "target": "Comparar vários indicadores com seu contexto"
+      },
+      "[\"research\",44,\"choices\",0,\"reaction\"]": {
+        "source": "Harder to optimise. Teams frustrated. But signal quality improves.",
+        "target": "Mais difícil de ajustar. A equipe se frustra. Mas a leitura dos sinais melhora."
+      },
+      "[\"research\",44,\"choices\",1,\"text\"]": {
+        "source": "Accept some gaming, recalibrate quarterly",
+        "target": "Aceitar algumas distorções e rever o critério periodicamente"
+      },
+      "[\"research\",44,\"choices\",1,\"reaction\"]": {
+        "source": "Cat and mouse game. Some waste. Better than flying blind.",
+        "target": "Jogo de gato e rato. Alguma perda de esforço. Melhor do que decidir às cegas."
+      },
+      "[\"research\",44,\"choices\",2,\"text\"]": {
+        "source": "Trust teams to optimise for real value",
+        "target": "Confiar que a equipe mantém o foco no objetivo"
+      },
+      "[\"research\",44,\"choices\",2,\"reaction\"]": {
+        "source": "They optimise for the metric. Metric stops predicting value. Months of wasted effort.",
+        "target": "A equipe otimiza o indicador. O indicador deixa de apontar o objetivo. Bastante esforço desperdiçado."
+      },
+      "[\"research\",45,\"intro\"]": {
+        "source": "You interview users to understand why they love your product. Glowing feedback, great testimonials. But your researcher points out a problem: you only talked to current users. The ones who hated it left. You're getting feedback from survivors - the people your product already fits. You know nothing about why others abandoned you.",
+        "target": "No cenário fictício, a equipe reúne apenas exemplos inventados de uma atividade que deram certo. Casos com dificuldades ficaram de fora. Uma integrante aponta que o relato não mostra por que algumas situações deixaram de funcionar."
+      },
+      "[\"research\",45,\"aside\"]": {
+        "source": "Survivors tell you what works. Churned users tell you what's broken. Selection bias means the easiest feedback to collect is the least useful for growth.",
+        "target": "Os casos favoráveis mostram apenas parte da atividade. Rever as dificuldades pode explicar o que o resumo deixou de fora."
+      },
+      "[\"research\",45,\"choices\",0,\"text\"]": {
+        "source": "Hunt down and interview churned users",
+        "target": "Revisar os casos difíceis que ficaram de fora"
+      },
+      "[\"research\",45,\"choices\",0,\"reaction\"]": {
+        "source": "Painful truths. They left because onboarding was confusing. Fixable. Growth follows.",
+        "target": "Verdades desconfortáveis. O motivo foi um começo confuso. Corrigível. E o cenário melhora."
+      },
+      "[\"research\",45,\"choices\",1,\"text\"]": {
+        "source": "Intercept users at moment of leaving",
+        "target": "Incluir o registro inventado no ponto de interrupção"
+      },
+      "[\"research\",45,\"choices\",1,\"reaction\"]": {
+        "source": "Exit survey reveals: 60% leave in first week. Never knew. Now you do.",
+        "target": "Os registros inventados de interrupção destacam dificuldades no começo da atividade. O material fica mais completo."
+      },
+      "[\"research\",45,\"choices\",2,\"text\"]": {
+        "source": "Focus on making happy users happier",
+        "target": "Focar nos exemplos favoráveis"
+      },
+      "[\"research\",45,\"choices\",2,\"reaction\"]": {
+        "source": "Retention improves 5%. Acquisition stays flat. You've optimised a local maximum.",
+        "target": "A revisão melhora os casos favoráveis, mas deixa sem análise as situações que apresentavam dificuldades."
+      },
+      "[\"research\",46,\"intro\"]": {
+        "source": "Your rigorous bottom-up analysis says the market is £40 million. That's real, defensible, based on actual customer counts. Problem: venture capitalists want £500M+ markets. Your honest number won't get you funded. Your competitor just raised £15M claiming a £2 billion market - a number you're pretty sure is nonsense.",
+        "target": "No cenário fictício, uma proposta de organização apresenta uma estimativa moderada de escopo com base em casos inventados. Outra proposta anuncia uma amplitude maior, mas não esclarece suas limitações. A equipe discute como explicar seu próprio alcance aos parceiros."
+      },
+      "[\"research\",46,\"aside\"]": {
+        "source": "Being right and being funded aren't the same thing. Your competitor might be deluded - or they might understand something about fundraising you don't.",
+        "target": "Estar certo e ser escolhido não são a mesma coisa. A outra proposta pode ser ilusão - ou pode entender algo sobre o que desperta interesse que você ainda não entende."
+      },
+      "[\"research\",46,\"choices\",0,\"text\"]": {
+        "source": "Stick with £40M, seek non-VC funding",
+        "target": "Manter a estimativa e buscar parceiros de escopo compatível"
+      },
+      "[\"research\",46,\"choices\",0,\"reaction\"]": {
+        "source": "Angels and grants come through. Slower but you own more. Sustainable path.",
+        "target": "A proposta é discutida com parceiros de escopo compatível. Encontrar esse alinhamento exige tempo da equipe."
+      },
+      "[\"research\",46,\"choices\",1,\"text\"]": {
+        "source": "Find the story where £40M is the beachhead",
+        "target": "Explicar a possível ampliação, com ressalvas"
+      },
+      "[\"research\",46,\"choices\",1,\"reaction\"]": {
+        "source": "Credible expansion narrative. Some VCs bite. Took longer.",
+        "target": "Relato de ampliação convincente. Alguns contatos demonstram interesse. Levou mais tempo."
+      },
+      "[\"research\",46,\"choices\",2,\"text\"]": {
+        "source": "Match competitor's framing - play the game",
+        "target": "Exagerar a amplitude para chamar atenção"
+      },
+      "[\"research\",46,\"choices\",2,\"reaction\"]": {
+        "source": "Round closes. Now you have to pretend the £2B is real. Board expects it.",
+        "target": "A apresentação cria expectativas de uma amplitude que os exemplos não sustentam. A equipe terá de explicar essa diferença."
+      },
+      "[\"research\",47,\"intro\"]": {
+        "source": "You've been telling everyone - team, investors, advisors - that 'thousands of companies' need your product. You finally did the proper count: 340 companies in the UK fit your ideal customer profile. Maybe 600 if you stretch. Your team of 12 is built to serve thousands. The honest number suggests you're dramatically overstaffed.",
+        "target": "No cenário fictício, a equipe planejou atividades administrativas para um conjunto amplo de situações. Uma revisão de casos inventados indica um escopo menor do que o esperado. A equipe precisa decidir se ajusta a coordenação, procura situações próximas ou mantém o planejamento."
+      },
+      "[\"research\",47,\"aside\"]": {
+        "source": "The careful count might be right, meaning you've over-built. Or the count might be missing latent demand that's real but hard to measure. Resizing based on analysis feels responsible; it also might mean giving up too early.",
+        "target": "A revisão aponta um escopo menor nos casos inventados. Antes de ajustar atividades, a equipe também pode examinar situações que ficaram de fora."
+      },
+      "[\"research\",47,\"choices\",0,\"text\"]": {
+        "source": "Resize team to match the real market",
+        "target": "Ajustar atividades e coordenação ao escopo revisado"
+      },
+      "[\"research\",47,\"choices\",0,\"reaction\"]": {
+        "source": "Painful cuts. Survivors focused. Unit economics finally work.",
+        "target": "As atividades e prioridades são reorganizadas. A equipe concentra o esforço nos casos em discussão."
+      },
+      "[\"research\",47,\"choices\",1,\"text\"]": {
+        "source": "Broaden definition - find adjacent segments",
+        "target": "Ampliar a definição - buscar situações próximas"
+      },
+      "[\"research\",47,\"choices\",1,\"reaction\"]": {
+        "source": "New segments found. Product stretches. Some fit, some don't.",
+        "target": "Novas situações aparecem. A atividade se estende. Algumas se encaixam, outras não."
+      },
+      "[\"research\",47,\"choices\",2,\"text\"]": {
+        "source": "The count must be missing something",
+        "target": "A contagem deve estar deixando algo de fora"
+      },
+      "[\"research\",47,\"choices\",2,\"reaction\"]": {
+        "source": "Six months later, the count was right. Runway shorter. Harder cuts ahead.",
+        "target": "Mais tarde, a contagem se mostra certa. O planejamento aperta. Ajustes mais difíceis pela frente."
+      },
+      "[\"research\",48,\"intro\"]": {
+        "source": "Surveys show strong demand - 70% say they'd 'definitely buy.' But when you look at actual spending in the category - current solutions, budgets allocated, money changing hands - it's tiny. People love the idea of your product. They just don't pay for this category of thing.",
+        "target": "No cenário fictício, relatos inventados mostram interesse por uma atividade, mas os exemplos reservam poucos recursos para ela. A equipe precisa decidir se prioriza os recursos disponíveis, o interesse relatado ou os casos em que ambos combinam."
+      },
+      "[\"research\",48,\"aside\"]": {
+        "source": "Stated demand and actual spending tell different stories. Maybe you'll change behaviour. Maybe behaviour is the truth.",
+        "target": "Interesse relatado e recursos previstos mostram aspectos diferentes dos exemplos. Comparar ambos ajuda a delimitar a atividade."
+      },
+      "[\"research\",48,\"choices\",0,\"text\"]": {
+        "source": "Trust spending data - follow the money",
+        "target": "Priorizar os recursos disponíveis nos exemplos"
+      },
+      "[\"research\",48,\"choices\",0,\"reaction\"]": {
+        "source": "Smaller market but real buyers. Sales cycles shorter. Revenue predictable.",
+        "target": "A equipe concentra a proposta nos casos com recursos previstos. O escopo fica menor."
+      },
+      "[\"research\",48,\"choices\",1,\"text\"]": {
+        "source": "Trust demand—the spending will follow",
+        "target": "Priorizar o interesse relatado nos exemplos"
+      },
+      "[\"research\",48,\"choices\",1,\"reaction\"]": {
+        "source": "Long education cycle. Some convert. Most don't. Expensive lesson in behaviour change.",
+        "target": "A proposta atende ao interesse relatado, mas parte dos exemplos continua sem recursos para a atividade."
+      },
+      "[\"research\",48,\"choices\",2,\"text\"]": {
+        "source": "Find where demand AND spending align",
+        "target": "Procurar exemplos que alinhem interesse e recursos"
+      },
+      "[\"research\",48,\"choices\",2,\"reaction\"]": {
+        "source": "Tiny segment but they buy fast. Niche beachhead. Growth from there.",
+        "target": "A equipe encontra casos mais delimitados em que interesse e recursos combinam. A comparação exige esforço."
+      },
+      "[\"research\",49,\"intro\"]": {
+        "source": "The Manchester Prize is open — the UK government's annual £1 million competition for AI breakthroughs that serve the public good. Ten finalists get £100k each plus free compute; one wins the grand prize.",
+        "target": "Neste cenário fictício, um encontro de propostas de organização e formação recebe materiais inventados por cada equipe. A preparação é trabalhosa e não assegura reconhecimento ao final."
+      },
+      "[\"research\",49,\"aside\"]": {
+        "source": "It's prestigious and well-funded. But the application takes real effort with no guarantee of success.",
+        "target": "Preparar a proposta exige organizar os materiais e explicar seus limites. Participar não garante seleção ou reconhecimento."
+      },
+      "[\"research\",49,\"choices\",0,\"text\"]": {
+        "source": "Go all in — we're here to win",
+        "target": "Preparação completa — vamos a fundo"
+      },
+      "[\"research\",49,\"choices\",0,\"reaction\"]": {
+        "source": "Win or lose, the application forces our best work into one document.",
+        "target": "Ganhe ou não, a preparação reúne nosso melhor trabalho em um documento só."
+      },
+      "[\"research\",49,\"choices\",1,\"text\"]": {
+        "source": "Commit to a strong application",
+        "target": "Montar uma proposta bem delimitada"
+      },
+      "[\"research\",49,\"choices\",1,\"reaction\"]": {
+        "source": "This could put us on the map.",
+        "target": "Pode nos dar visibilidade."
+      },
+      "[\"research\",49,\"choices\",2,\"text\"]": {
+        "source": "Submit something lightweight",
+        "target": "Enviar uma contribuição simples"
+      },
+      "[\"research\",49,\"choices\",2,\"reaction\"]": {
+        "source": "Worth a shot, I suppose.",
+        "target": "Vale tentar, suponho."
+      },
+      "[\"research\",49,\"choices\",3,\"text\"]": {
+        "source": "Not this year",
+        "target": "Não participar"
+      },
+      "[\"research\",49,\"choices\",3,\"reaction\"]": {
+        "source": "Probably wise to stay focused.",
+        "target": "Provavelmente é melhor manter o foco."
+      },
+      "[\"research\",50,\"intro\"]": {
+        "source": "We've been invited to apply for the Creative Destruction Lab at HEC Paris—their AI and Machine Learning stream. It's a nine-month seed-stage programme with no fees and no equity taken. They pair you with experienced deep tech entrepreneurs as mentors and HEC MBA students as consultants. The catch: it's intensive. Five sprint sessions where mentors challenge your objectives and you have to deliver or get cut.",
+        "target": "No cenário fictício, a equipe recebe convite para uma oficina de gestão com orientação e revisão de atividades administrativas inventadas. Participar exige preparo e coordenação com a rotina. A equipe discute quanto esforço pode dedicar à atividade."
+      },
+      "[\"research\",50,\"aside\"]": {
+        "source": "CDL has created over $37 billion in equity value across their global network—Toronto, Oxford, Berlin, Paris. The mentors are serious people: founders who've exited, investors who've seen hundreds of companies. They'll push us hard, but that's the point. Professor Agrawal designed this around 'judgment'—learning to prioritise when everything feels urgent.",
+        "target": "A orientação usa os exemplos inventados para discutir prioridades. Preparar as atividades e receber críticas também exige tempo da equipe."
+      },
+      "[\"research\",50,\"choices\",0,\"text\"]": {
+        "source": "Apply and commit fully to the programme",
+        "target": "Participar integralmente da oficina"
+      },
+      "[\"research\",50,\"choices\",0,\"reaction\"]": {
+        "source": "This is how science becomes business. The mentor network alone is worth it—and those MBA consultants will stress-test our strategy.",
+        "target": "A equipe prepara as atividades e recebe comentários sobre sua organização. A participação exige dedicação."
+      },
+      "[\"research\",50,\"choices\",1,\"text\"]": {
+        "source": "Apply but protect our core research time",
+        "target": "Participar sem deixar que consuma nossa rotina"
+      },
+      "[\"research\",50,\"choices\",1,\"reaction\"]": {
+        "source": "We can participate without letting it consume us. Though they'll notice if we're half-committed.",
+        "target": "A participação fica limitada às atividades que cabem na rotina. Alguns comentários deixam de ser acompanhados."
+      },
+      "[\"research\",50,\"choices\",2,\"text\"]": {
+        "source": "Decline—we're not ready for that scrutiny",
+        "target": "Adiar — ainda não estamos prontos para essa exigência"
+      },
+      "[\"research\",50,\"choices\",2,\"reaction\"]": {
+        "source": "Fair. The mentors are ruthless about cutting ventures that aren't progressing. Better to apply when we're stronger.",
+        "target": "A equipe adia a oficina e mantém a rotina. A oportunidade de discutir esses materiais fica para depois."
+      },
+      "[\"research\",51,\"intro\"]": {
+        "source": "A Finnish robotics company spun out of VTT—Finland's national research centre—wants to partner on a Eurostars application. They're building autonomous systems for Arctic conditions; we'd provide the perception AI. The grant covers 50% of costs up to €500k each. Their CEO did fifteen years at Nokia before it collapsed and knows how to ship products.",
+        "target": "Neste cenário fictício, um parceiro do ramo de material de construção propõe organizar juntos materiais administrativos inventados de estoque e entrega e trocar modelos de rotina com nossa equipe. É organização do comércio, sem assegurar fornecimento."
+      },
+      "[\"research\",51,\"aside\"]": {
+        "source": "Eurostars is simpler than Horizon—faster decisions, less bureaucracy, focused on SMEs building things together. The Finns are engineer's engineers: quiet, precise, and they deliver. If they say the robot will work at minus forty, it will work at minus forty.",
+        "target": "Organizar estoque e entrega envolve rotinas diferentes. Trocar os modelos exige esclarecer o que cada equipe pretende compartilhar."
+      },
+      "[\"research\",51,\"choices\",0,\"text\"]": {
+        "source": "Full partnership with shared IP arrangements",
+        "target": "Colaboração ampla, organizando estoque e entrega juntos"
+      },
+      "[\"research\",51,\"choices\",0,\"reaction\"]": {
+        "source": "Joint development, joint ownership. We learn extreme-environment deployment; they learn our AI.",
+        "target": "As equipes organizam juntas os exemplos de estoque e entrega. O trabalho exige conciliar rotinas."
+      },
+      "[\"research\",51,\"choices\",1,\"text\"]": {
+        "source": "Partner but protect core IP separately",
+        "target": "Colaborar só em parte, mantendo o núcleo separado"
+      },
+      "[\"research\",51,\"choices\",1,\"reaction\"]": {
+        "source": "Collaborate on the interface, keep the crown jewels. Trickier negotiation.",
+        "target": "As equipes compartilham parte dos modelos e mantêm o restante separado. Precisam esclarecer os limites da troca."
+      },
+      "[\"research\",51,\"choices\",2,\"text\"]": {
+        "source": "Decline—IP sharing is too risky",
+        "target": "Recusar — dividir demais é arriscado"
+      },
+      "[\"research\",51,\"choices\",2,\"reaction\"]": {
+        "source": "Understandable caution. Solo development keeps everything ours.",
+        "target": "Cautela compreensível. Seguir sozinho mantém tudo conosco."
+      },
+      "[\"research\",52,\"intro\"]": {
+        "source": "Politecnico di Milano is coordinating a large Horizon Europe AI project and distributing cascade funding—small grants of €50-100k to startups who can plug in specific capabilities. Professor Bianchi, who runs their machine learning lab, saw our paper and thinks we're perfect for their interpretability workstream. Five-page application, six-week decision.",
+        "target": "No cenário fictício, um grupo de organização reúne equipes para preparar materiais administrativos inventados. Pede uma contribuição pontual ou participação mais ampla. A equipe compara o esforço de preparação e de coordenação com sua rotina."
+      },
+      "[\"research\",52,\"aside\"]": {
+        "source": "The Milanese take engineering seriously—Politecnico graduates end up at Ferrari, Pirelli, and half the Italian industrial giants. Cascade funding is low-effort EU money, but being inside their consortium opens doors to Italian manufacturing. And Professor Bianchi knows everyone.",
+        "target": "Contribuir permite discutir os materiais com outras equipes. Uma participação mais ampla também exige acompanhar a preparação."
+      },
+      "[\"research\",52,\"choices\",0,\"text\"]": {
+        "source": "Apply and integrate with the consortium",
+        "target": "Integrar a preparação do grupo"
+      },
+      "[\"research\",52,\"choices\",0,\"reaction\"]": {
+        "source": "Low effort, modest money, excellent connections. The Italians will want to meet in person—budget for espresso.",
+        "target": "A equipe participa da preparação e troca ideias sobre os exemplos. A coordenação toma espaço na rotina."
+      },
+      "[\"research\",52,\"choices\",1,\"text\"]": {
+        "source": "Apply but keep involvement minimal",
+        "target": "Contribuir pontualmente com os materiais"
+      },
+      "[\"research\",52,\"choices\",1,\"reaction\"]": {
+        "source": "Take the money, deliver the work, don't get sucked into consortium politics.",
+        "target": "A contribuição fica restrita aos materiais combinados. A equipe acompanha menos discussões do grupo."
+      },
+      "[\"research\",52,\"choices\",2,\"text\"]": {
+        "source": "Pass—even small grants have overhead",
+        "target": "Recusar a contribuição para preservar a rotina"
+      },
+      "[\"research\",52,\"choices\",2,\"reaction\"]": {
+        "source": "True. Any EU money comes with reporting.",
+        "target": "A equipe preserva o tempo de suas atividades e deixa de participar da preparação conjunta."
+      },
+      "[\"research\",53,\"intro\"]": {
+        "source": "Researchers at the University of Tartu want us as their commercial partner for an EIC Transition application. Estonia punches absurdly above its weight in digital—these are people who built the systems behind Skype and Wise. Their AI research is solid, and the EIC Transition offers up to €2.5 million to turn promising research into demonstrators. We'd own the commercialisation.",
+        "target": "No cenário fictício, um grupo de formação pede ajuda com um projeto de organização usando exemplos inventados. A frente de aplicação exige coordenação prolongada. A equipe discute se assume essa responsabilidade, manifesta interesse ou recusa."
+      },
+      "[\"research\",53,\"aside\"]": {
+        "source": "Estonia treats technology like a national sport. The Tartu team has deep connections to the government's digital infrastructure—if we build something together, we could pilot it with actual Estonian public services. That's a reference no one else can match.",
+        "target": "Coordenar uma frente reúne tarefas e responsabilidades. Manifestar interesse exige menos preparo agora, mas não define uma participação futura."
+      },
+      "[\"research\",53,\"choices\",0,\"text\"]": {
+        "source": "Lead the commercial work package",
+        "target": "Coordenar a frente de aplicação"
+      },
+      "[\"research\",53,\"choices\",0,\"reaction\"]": {
+        "source": "Three years of funded development with seriously capable partners. Estonia's small but influential.",
+        "target": "A equipe coordena a aplicação dos exemplos com o grupo. O esforço precisa ser acompanhado ao longo da atividade."
+      },
+      "[\"research\",53,\"choices\",1,\"text\"]": {
+        "source": "Support their application as a letter of intent",
+        "target": "Manifestar interesse sem assumir a execução"
+      },
+      "[\"research\",53,\"choices\",1,\"reaction\"]": {
+        "source": "Promise to commercialise if they win. Low commitment now, option value later.",
+        "target": "A equipe comunica seu interesse e pede mais detalhes. A execução continua sem compromisso definido."
+      },
+      "[\"research\",53,\"choices\",2,\"text\"]": {
+        "source": "Decline—three years is too long to plan",
+        "target": "Recusar — esforço prolongado demais para planejar"
+      },
+      "[\"research\",53,\"choices\",2,\"reaction\"]": {
+        "source": "Startups need agility. EU timelines don't match startup timelines.",
+        "target": "A equipe mantém suas prioridades e deixa a coordenação com o grupo. A troca de exemplos não acontece por essa via."
+      },
+      "[\"research\",54,\"intro\"]": {
+        "source": "The Novo Nordisk Foundation is hosting a week-long research symposium in Copenhagen on AI in life sciences. They've invited us to present our work and spend time with their funded researchers. It's not a grant application—it's an invitation to join their network. The foundation thinks in decades; relationships built here could lead to substantial funding later.",
+        "target": "No cenário fictício, uma rede de gestores convida a equipe a apresentar materiais administrativos inventados e conversar sobre organização. Preparar e participar das atividades exige dedicação. A equipe precisa decidir quanto espaço dará ao encontro."
+      },
+      "[\"research\",54,\"aside\"]": {
+        "source": "Novo's foundation is one of the world's largest. A week in Copenhagen won't directly fund anything, but being known to their programme officers matters enormously. The researchers they fund are world-class, and the informal conversations over Danish pastries often matter more than the formal sessions.",
+        "target": "Apresentar os materiais abre espaço para comentários. A conversa também depende de preparo e de disponibilidade das equipes."
+      },
+      "[\"research\",54,\"choices\",0,\"text\"]": {
+        "source": "Attend with our lead researcher for the full week",
+        "target": "Participar com a equipe em todas as atividades"
+      },
+      "[\"research\",54,\"choices\",0,\"reaction\"]": {
+        "source": "Immersion in their ecosystem. We'll come back with relationships that take years to build otherwise.",
+        "target": "A equipe acompanha as atividades e discute os materiais com a rede. A participação ocupa mais espaço na rotina."
+      },
+      "[\"research\",54,\"choices\",1,\"text\"]": {
+        "source": "Present our work and attend key sessions only",
+        "target": "Apresentar nosso trabalho e participar só das sessões essenciais"
+      },
+      "[\"research\",54,\"choices\",1,\"reaction\"]": {
+        "source": "Two days, make an impression, back to work. Efficient.",
+        "target": "A equipe apresenta o material e acompanha as atividades essenciais. Algumas conversas ficam de fora."
+      },
+      "[\"research\",54,\"choices\",2,\"text\"]": {
+        "source": "Decline—we need to focus on delivery",
+        "target": "Recusar — precisamos focar na entrega"
+      },
+      "[\"research\",54,\"choices\",2,\"reaction\"]": {
+        "source": "Symposia are nice but don't ship product. Fair.",
+        "target": "A equipe prioriza suas atividades e deixa de discutir esses exemplos com a rede."
+      },
+      "[\"research\",55,\"intro\"]": {
+        "source": "Berlin AI Week has invited us to participate in their deep tech track—three days of workshops, demos, and structured meetings with German research institutes and Mittelstand companies. The German government is pushing AI adoption in manufacturing, and they're actively looking for capable partners. Our ticket is covered; we just need to show up prepared.",
+        "target": "No cenário fictício, um encontro de organização oferece oficinas e trocas com outros negócios usando exemplos inventados. A equipe é convidada a apresentar seus materiais, mas precisa prepará-los e conciliar a participação com suas atividades."
+      },
+      "[\"research\",55,\"aside\"]": {
+        "source": "Germany's AI strategy is serious money looking for serious technology. The Mittelstand companies—those family-owned industrial champions—are harder to reach than corporates, but once they trust you, they're customers for decades. Berlin AI Week is where they come to scout.",
+        "target": "Os negócios trazem maneiras diferentes de organizar a rotina. A troca permite comparar os exemplos, sem assegurar parceria ou retorno."
+      },
+      "[\"research\",55,\"choices\",0,\"text\"]": {
+        "source": "Send a team and prepare tailored demos",
+        "target": "Enviar equipe e preparar demonstrações sob medida"
+      },
+      "[\"research\",55,\"choices\",0,\"reaction\"]": {
+        "source": "German engineers want specifics, not slides. We'll show them what we can actually do.",
+        "target": "A equipe apresenta os materiais preparados e recebe comentários sobre os exemplos. Preparar a demonstração exige mais trabalho."
+      },
+      "[\"research\",55,\"choices\",1,\"text\"]": {
+        "source": "Attend and participate in workshops",
+        "target": "Participar das oficinas"
+      },
+      "[\"research\",55,\"choices\",1,\"reaction\"]": {
+        "source": "Learn what German industry actually needs. Lower commitment, still valuable.",
+        "target": "A equipe acompanha as oficinas e reúne ideias para examinar em seus próprios exemplos."
+      },
+      "[\"research\",55,\"choices\",2,\"text\"]": {
+        "source": "Skip it—Germany isn't our priority market",
+        "target": "Ignorar — esse mercado não é prioridade"
+      },
+      "[\"research\",55,\"choices\",2,\"reaction\"]": {
+        "source": "Focus elsewhere. Can't be everywhere.",
+        "target": "Focar em outro lugar. Não dá para estar em toda parte."
+      },
+      "[\"research\",56,\"intro\"]": {
+        "source": "Our next model needs training data, and the best source is a large archive of illustrations, photographs and writing scraped from the open web. Most of it is copyrighted. Some of the creators have been loudly clear about AI companies using their work without permission. Our competitors are almost certainly using it.",
+        "target": "Neste cenário fictício, a próxima etapa do minimercado precisa de materiais de organização e divulgação. O acervo inclui ilustrações inventadas atribuídas a colaboradores do cenário, e o uso delas não foi combinado."
+      },
+      "[\"research\",56,\"aside\"]": {
+        "source": "The law is unsettled and the lawsuits are still working through the courts. What's legal, what's fair and what's wise may be three different answers.",
+        "target": "A origem das ilustrações está indicada, mas o uso ainda precisa ser conversado no cenário. Crédito e combinação de uso são questões diferentes."
+      },
+      "[\"research\",56,\"choices\",0,\"text\"]": {
+        "source": "License data properly from archives and collecting societies",
+        "target": "Preparar o material em colaboração com os autores"
+      },
+      "[\"research\",56,\"choices\",0,\"reaction\"]": {
+        "source": "Slower and costlier. Nobody can come after us, and some creators get paid.",
+        "target": "A preparação passa a incluir os autores fictícios e o crédito das ilustrações. Combinar o uso exige mais trabalho."
+      },
+      "[\"research\",56,\"choices\",1,\"text\"]": {
+        "source": "Use the scraped archive, document our sources",
+        "target": "Usar sem combinar e anotar a procedência"
+      },
+      "[\"research\",56,\"choices\",1,\"reaction\"]": {
+        "source": "The model improves quickly. The provenance file sits in a drawer like a loaded question.",
+        "target": "O material melhora rápido. O arquivo de procedência fica na gaveta como pergunta desconfortável."
+      },
+      "[\"research\",56,\"choices\",2,\"text\"]": {
+        "source": "Train on public-domain and synthetic data only",
+        "target": "Criar materiais próprios mais simples"
+      },
+      "[\"research\",56,\"choices\",2,\"reaction\"]": {
+        "source": "Clean conscience, smaller model. The gap shows in places.",
+        "target": "A equipe prepara ilustrações próprias mais simples e deixa o acervo anterior de lado. O material fica menos amplo."
+      },
+      "[\"research\",57,\"intro\"]": {
+        "source": "One of the big AI providers has invited us onto their early-access programme. We get their newest LLM months before public release, plus engineering help. In exchange they want feedback, a public case study, and a clause saying we won't test rival LLMs while we're in the programme.",
+        "target": "Nesta simulação fictícia, um fornecedor de materiais de organização nos convida a um acesso antecipado: recebemos um guia de organização inventado, ainda não divulgado, com orientação da equipe dele. Em troca, pede comentários sobre o guia, autorização para apresentar nossa experiência na atividade e que usemos somente esse guia enquanto ela durar."
+      },
+      "[\"research\",57,\"aside\"]": {
+        "source": "Early access is genuinely valuable. So is our freedom to shop around. They are not offering the first without taking some of the second.",
+        "target": "Antecipação vale muito. Também vale nossa liberdade de comparar outras alternativas. Eles não oferecem a primeira sem levar um pouco da segunda."
+      },
+      "[\"research\",57,\"choices\",0,\"text\"]": {
+        "source": "Join fully, accept the exclusivity clause",
+        "target": "Participar integralmente, atendendo a tudo o que pedem"
+      },
+      "[\"research\",57,\"choices\",0,\"reaction\"]": {
+        "source": "Months ahead of rivals on the new LLM. Their logo settles into our slide deck, and ours into theirs.",
+        "target": "Chegamos ao guia antes de todos. Nossa experiência entra na apresentação do fornecedor, e a deles entra na nossa."
+      },
+      "[\"research\",57,\"choices\",1,\"text\"]": {
+        "source": "Negotiate: feedback yes, exclusivity no",
+        "target": "Propor uma troca mantendo outras alternativas em aberto"
+      },
+      "[\"research\",57,\"choices\",1,\"reaction\"]": {
+        "source": "They agree, with less engineering help. Independence kept.",
+        "target": "Aceitam, com menos acompanhamento da equipe deles. Nossa liberdade de comparar fica de pé."
+      },
+      "[\"research\",57,\"choices\",2,\"text\"]": {
+        "source": "Decline and stay neutral",
+        "target": "Recusar e seguir com os guias que já usamos"
+      },
+      "[\"research\",57,\"choices\",2,\"reaction\"]": {
+        "source": "We read the public release notes like everyone else.",
+        "target": "Ficamos fora do acesso antecipado. Seguimos comparando outros materiais como todo mundo."
+      },
+      "[\"research\",58,\"intro\"]": {
+        "source": "A brand-new LLM has just launched and the benchmark results are startling. Our researchers want it immediately; they say it would make our product noticeably smarter. It's also a fortnight old. Nobody knows its quirks, its costs at scale, or whether the company behind it will change the rules next month.",
+        "target": "Nesta simulação fictícia, aparece um método administrativo recém-lançado que parece muito útil nos exemplos inventados da equipe. Quem propõe quer adotá-lo imediatamente. Só que ele foi pouco examinado: quase ninguém conhece seus limites, seus custos de manutenção nem o que muda se quem cuida dele alterar as regras."
+      },
+      "[\"research\",58,\"aside\"]": {
+        "source": "First onto a new LLM is an edge while it lasts. Proven and boring keeps its promises.",
+        "target": "O formato parece útil em alguns exemplos. Compará-lo com a rotina anterior ajuda a examinar os limites que ainda não estão claros."
+      },
+      "[\"research\",58,\"choices\",0,\"text\"]": {
+        "source": "Adopt it now and take the edge",
+        "target": "Adotar o formato agora"
+      },
+      "[\"research\",58,\"choices\",0,\"reaction\"]": {
+        "source": "The product gets visibly sharper. So does the weekly surprise.",
+        "target": "A adoção muda a organização dos exemplos. Alguns limites só aparecem durante a aplicação."
+      },
+      "[\"research\",58,\"choices\",1,\"text\"]": {
+        "source": "Pilot it on one feature first",
+        "target": "Ensaiar uma parte antes de decidir"
+      },
+      "[\"research\",58,\"choices\",1,\"reaction\"]": {
+        "source": "A controlled experiment. The quirks show up in testing, not in a sales call.",
+        "target": "O ensaio parcial revela dificuldades nos exemplos. A equipe pode rever a proposta antes de ampliá-la."
+      },
+      "[\"research\",58,\"choices\",2,\"text\"]": {
+        "source": "Wait until it's proven",
+        "target": "Esperar mais esclarecimentos"
+      },
+      "[\"research\",58,\"choices\",2,\"reaction\"]": {
+        "source": "Calmer. If it's as good as claimed, it'll still be good in six months.",
+        "target": "Mais tranquilo. Se ele for mesmo tão bom quanto dizem, continuará bom depois."
+      },
+      "[\"research\",59,\"intro\"]": {
+        "source": "A research lab has released a powerful LLM for anyone to download and use, free. It's nearly as good as the one we pay for. Our engineers are excited; our investors are asking what it means for our edge. Every competitor woke up to the same news.",
+        "target": "Neste cenário fictício, um grupo de trabalho divulgou gratuitamente um guia administrativo inventado, quase tão completo quanto o material pelo qual pagamos. A equipe se animou; a direção pergunta o que isso muda para a nossa frente de trabalho. Todos os concorrentes acordaram com a mesma novidade."
+      },
+      "[\"research\",59,\"aside\"]": {
+        "source": "Free intelligence is wonderful and terrible. Our costs could fall. So could everyone's.",
+        "target": "O guia compartilhado fica disponível às equipes do cenário. Adaptá-lo ou manter o material anterior envolve preparações diferentes."
+      },
+      "[\"research\",59,\"choices\",0,\"text\"]": {
+        "source": "Adapt it with our own data and make it ours",
+        "target": "Adaptar com nossos exemplos inventados e fazer nosso"
+      },
+      "[\"research\",59,\"choices\",0,\"reaction\"]": {
+        "source": "Weeks of training runs. What comes out knows our field in a way nobody can download.",
+        "target": "A equipe ajusta o guia aos seus exemplos inventados. A adaptação exige revisão e trabalho."
+      },
+      "[\"research\",59,\"choices\",1,\"text\"]": {
+        "source": "Switch to it and bank the savings",
+        "target": "Adotar como está e usar o tempo em outra coisa"
+      },
+      "[\"research\",59,\"choices\",1,\"reaction\"]": {
+        "source": "The bills drop sharply. The same option was open to everyone.",
+        "target": "A equipe usa o formato disponível e reduz a preparação inicial. Algumas particularidades dos exemplos ficam de fora."
+      },
+      "[\"research\",59,\"choices\",2,\"text\"]": {
+        "source": "Stay with the paid LLM",
+        "target": "Manter o material anterior"
+      },
+      "[\"research\",59,\"choices\",2,\"reaction\"]": {
+        "source": "Steady. We watch the free one improve every month.",
+        "target": "Estável. Observamos o guia gratuito evoluir sem pressa."
+      },
+      "[\"research\",60,\"intro\"]": {
+        "source": "Our researchers have a plan: use the big provider's LLM to generate thousands of worked examples, then train our own small model on them. We'd get most of the quality at a fraction of the running cost, and the small model would be ours. One problem. The provider's terms of service forbid using their outputs to train a rival model. Everyone in the industry seems to do it anyway.",
+        "target": "No cenário fictício, a equipe quer adaptar um material organizacional inventado que recebeu apenas para consulta. A reprodução não foi combinada com os colaboradores do cenário. Ela discute se cria seus próprios exemplos, copia sem conversar ou abandona a proposta."
+      },
+      "[\"research\",60,\"aside\"]": {
+        "source": "Teaching your own model from someone else's is the industry's open secret. The terms say no. The conference corridors say everyone.",
+        "target": "Consultar o material não define como reproduzi-lo. A equipe precisa considerar a combinação feita com os colaboradores fictícios."
+      },
+      "[\"research\",60,\"choices\",0,\"text\"]": {
+        "source": "Build our training data the slow, clean way",
+        "target": "Montar nosso material do jeito cuidadoso e demorado"
+      },
+      "[\"research\",60,\"choices\",0,\"reaction\"]": {
+        "source": "Months longer. Every example is ours, and nobody can send a lawyer's letter about it.",
+        "target": "A equipe prepara seus próprios exemplos e acompanha sua origem. O trabalho exige mais dedicação."
+      },
+      "[\"research\",60,\"choices\",1,\"text\"]": {
+        "source": "Do it, keep it quiet",
+        "target": "Copiar sem conversar com os colaboradores"
+      },
+      "[\"research\",60,\"choices\",1,\"reaction\"]": {
+        "source": "The small model works beautifully. Somewhere in a filing cabinet sits a contract we've broken.",
+        "target": "A equipe monta o material sem conversar. A falta de combinação com os colaboradores continua sem solução."
+      },
+      "[\"research\",60,\"choices\",2,\"text\"]": {
+        "source": "Drop the idea",
+        "target": "Descartar a ideia"
+      },
+      "[\"research\",60,\"choices\",2,\"reaction\"]": {
+        "source": "The running costs stay high. The sleep stays easy.",
+        "target": "A equipe abandona a adaptação e mantém o material anterior. Os limites dessa opção continuam presentes."
+      },
+      "[\"research\",61,\"intro\"]": {
+        "source": "Anyone can rent the same LLMs we do. What nobody else has is the data we're starting to accumulate: every test case, correction and awkward example from our pilot users. Collected and cleaned properly, it could make our product better than anything built on the public models alone. Right now it sits in spreadsheets and chat logs, gathering dust.",
+        "target": "Neste cenário fictício, qualquer um pode usar os mesmos materiais de organização que usamos. O que ninguém mais tem é o material que a equipe começou a acumular: exemplos inventados de teste, correção e situação difícil, espalhados em tabelas e anotações fictícias. Organizado e revisado com cuidado, poderia deixar nosso trabalho melhor do que o de quem só usa o material comum. Agora, isso fica encostado, juntando poeira."
+      },
+      "[\"research\",61,\"aside\"]": {
+        "source": "The LLMs are everyone's. The data could be ours alone, if we treat it like an asset rather than clutter.",
+        "target": "O material comum é de todos. O nosso poderia ser só nosso, se tratarmos isso como acervo e não como entulho."
+      },
+      "[\"research\",61,\"choices\",0,\"text\"]": {
+        "source": "Make the data our edge: collect, clean, label from day one",
+        "target": "Fazer do material nosso diferencial: organizar e revisar desde o começo"
+      },
+      "[\"research\",61,\"choices\",0,\"reaction\"]": {
+        "source": "Months of unglamorous work. The product starts knowing things no rival can download.",
+        "target": "A equipe reúne e revisa seus exemplos inventados. O acervo fica mais organizado, com esforço de preparação."
+      },
+      "[\"research\",61,\"choices\",1,\"text\"]": {
+        "source": "Buy a dataset in and shortcut the slog",
+        "target": "Adquirir uma coleção administrativa pronta de exemplos"
+      },
+      "[\"research\",61,\"choices\",1,\"reaction\"]": {
+        "source": "Faster. The seller's other customers bought the same shortcut.",
+        "target": "Mais rápido. Quem vendeu a coleção vendeu a mesma coisa a outros compradores."
+      },
+      "[\"research\",61,\"choices\",2,\"text\"]": {
+        "source": "Rely on the base LLMs",
+        "target": "Depender só do guia básico"
+      },
+      "[\"research\",61,\"choices\",2,\"reaction\"]": {
+        "source": "Cheap and quick. Our edge lives entirely in other people's products.",
+        "target": "A equipe usa apenas o guia básico. Seus exemplos dispersos continuam sem revisão."
+      },
+      "[\"research\",62,\"intro\"]": {
+        "source": "We nearly sent it to investors: a market analysis with a precise figure for our segment, complete with a named industry report as the source. The report doesn't exist. The LLM invented it, the number looked plausible, and three people passed it along without checking. Each assumed someone else had.",
+        "target": "Nesta simulação fictícia, quase enviamos uma apresentação de planejamento com uma estimativa que citava um relato inventado como fonte, um relato que nem existe dentro dos materiais do cenário. O relato foi criado do nada, a estimativa parecia plausível e várias pessoas repassaram sem conferir. Cada uma achou que outra havia checado."
+      },
+      "[\"research\",62,\"aside\"]": {
+        "source": "Made-up market data with a confident citation is the most dangerous kind. It looks exactly like research.",
+        "target": "Estimativa inventada com citação confiante é o mais perigoso. Parece exatamente material de planejamento."
+      },
+      "[\"research\",62,\"choices\",0,\"text\"]": {
+        "source": "Rebuild the habit: spot checks, named reviewers, no exceptions",
+        "target": "Recriar o hábito: revisão com responsabilidade definida, sem exceção"
+      },
+      "[\"research\",62,\"choices\",0,\"reaction\"]": {
+        "source": "Slower for a month. Then the checking becomes reflex again, and faster.",
+        "target": "Mais devagar no começo. Depois a conferência vira reflexo e o processo volta a andar."
+      },
+      "[\"research\",62,\"choices\",1,\"text\"]": {
+        "source": "Make the LLM show its sources, and check they exist",
+        "target": "Exigir as referências e conferir se existem de fato"
+      },
+      "[\"research\",62,\"choices\",1,\"reaction\"]": {
+        "source": "Harder to wave through. Two more invented reports caught in the first week.",
+        "target": "Difícil deixar passar. Relatos inventados param na checagem antes de virar apresentação."
+      },
+      "[\"research\",62,\"choices\",2,\"text\"]": {
+        "source": "One error in months; the average is still excellent",
+        "target": "Um caso isolado; o conjunto continua muito bom"
+      },
+      "[\"research\",62,\"choices\",2,\"reaction\"]": {
+        "source": "True. The next error will also look plausible.",
+        "target": "O caso é tratado como isolado. A responsabilidade pela conferência continua pouco definida."
+      },
+      "[\"research\",63,\"intro\"]": {
+        "source": "The quote for labelling our training data is a fifth of the local price, from an outsourcing firm in Nairobi. Then our research lead reads the terms properly: workers paid by the task, cents at a time, degrees required, no contracts, no support for the grim material. An association formed by Kenyan data labellers has begun writing to companies like ours.",
+        "target": "No cenário fictício, um fornecedor de organização propõe preparar materiais inventados com pouco esforço de coordenação. A proposta exige pressa e deixa indefinido o apoio à equipe do fornecedor. A equipe discute se recombina o trabalho, procura outro parceiro ou mantém a proposta."
+      },
+      "[\"research\",63,\"aside\"]": {
+        "source": "Every model rests on hours of human judgement that somebody priced. The cheaper the invoice, the more of the price someone else is paying.",
+        "target": "A proposta deixa dúvidas sobre preparo, apoio e responsabilidades. Esclarecer esses pontos ajuda a comparar as alternativas do cenário."
+      },
+      "[\"research\",63,\"choices\",0,\"text\"]": {
+        "source": "Pay properly and publish what we pay",
+        "target": "Recombinar o escopo e a preparação, e explicar o acordo com clareza"
+      },
+      "[\"research\",63,\"choices\",0,\"reaction\"]": {
+        "source": "Costs more. The labels get better; nobody is rushing tasks at that rate.",
+        "target": "As equipes esclarecem o escopo, o apoio e as responsabilidades. A preparação exige mais coordenação."
+      },
+      "[\"research\",63,\"choices\",1,\"text\"]": {
+        "source": "Move to a certified fair-work supplier",
+        "target": "Escolher um parceiro com organização mais clara"
+      },
+      "[\"research\",63,\"choices\",1,\"reaction\"]": {
+        "source": "A middle path. The invoice roughly doubles.",
+        "target": "A equipe procura um parceiro que explique melhor sua organização. Comparar as propostas exige esforço."
+      },
+      "[\"research\",63,\"choices\",2,\"text\"]": {
+        "source": "Keep the contract, it's their labour market",
+        "target": "Manter a proposta como está"
+      },
+      "[\"research\",63,\"choices\",2,\"reaction\"]": {
+        "source": "Cheap. The association's next letter names names.",
+        "target": "A equipe mantém a proposta. As dúvidas sobre pressa e apoio ficam sem esclarecimento."
+      },
+      "[\"research\",64,\"intro\"]": {
+        "source": "We have a folder of skill files that teach the models how we work: our standards, our checklists, the prompts that actually deliver. Half of them started life as other people's, shared free on GitHub. Our product lead wants to publish ours the same way; repositories full of good skills collect stars, and stars are a currency. It is also a folder that describes, in detail, exactly how we do what we do.",
+        "target": "No cenário fictício, a equipe reúne guias de organização inventados, inspirados em materiais que outras equipes compartilharam. Ela discute se devolve uma contribuição completa, compartilha apenas uma seleção ou mantém o acervo interno."
+      },
+      "[\"research\",64,\"aside\"]": {
+        "source": "We took freely from the commons for a year. The question is what it costs to give something back.",
+        "target": "Compartilhar permite devolver parte da troca. A equipe também precisa definir quais exemplos deseja manter internos no cenário."
+      },
+      "[\"research\",64,\"choices\",0,\"text\"]": {
+        "source": "Publish the lot, hold back only client work",
+        "target": "Compartilhar o guia completo, guardando só os exemplos internos"
+      },
+      "[\"research\",64,\"choices\",0,\"reaction\"]": {
+        "source": "A couple of hundred stars in the first month. Two job applicants mention the repo unprompted.",
+        "target": "A equipe compartilha o guia e mantém os exemplos internos separados. Outras equipes podem discutir o material."
+      },
+      "[\"research\",64,\"choices\",1,\"text\"]": {
+        "source": "Publish a curated half",
+        "target": "Compartilhar só uma seleção"
+      },
+      "[\"research\",64,\"choices\",1,\"reaction\"]": {
+        "source": "Respectable. The good half stays home, and readers can tell.",
+        "target": "A seleção permite uma troca mais limitada. Parte do acervo permanece interna."
+      },
+      "[\"research\",64,\"choices\",2,\"text\"]": {
+        "source": "Keep it all private",
+        "target": "Manter tudo interno"
+      },
+      "[\"research\",64,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing leaks. Nothing returns, either.",
+        "target": "A equipe mantém o acervo interno e deixa de contribuir por essa via."
+      },
+      "[\"research\",65,\"intro\"]": {
+        "source": "Our research lead has found a warehouse clearing decades of trade journals: installation guides, industry gossip, adverts, the working knowledge of a trade that never got digitised. Nobody else has this in a corpus, which is exactly why it would make ours better. The cheap way to scan is to cut off the spines and pulp what remains, and for some of these volumes there may be no other copies. The team wants a say in whether we build on something we destroyed.",
+        "target": "No cenário fictício, a equipe encontra materiais administrativos antigos inventados que podem ajudar em novos exercícios. O preparo rápido danificaria os únicos exemplares do cenário. A equipe precisa decidir como organizar o acervo, compartilhá-lo ou escolher materiais mais simples."
+      },
+      "[\"research\",65,\"aside\"]": {
+        "source": "Nobody can say what an old trade journal is worth. Pulp it, and the question is settled forever.",
+        "target": "Os exemplares únicos fazem parte do exercício de preservação. Danificá-los limita as alternativas de consulta dentro do cenário."
+      },
+      "[\"research\",65,\"choices\",0,\"text\"]": {
+        "source": "Scan carefully, then release the whole corpus openly",
+        "target": "Organizar com cuidado e compartilhar a coleção inteira"
+      },
+      "[\"research\",65,\"choices\",0,\"reaction\"]": {
+        "source": "The archive thanks us; so, quietly, does a competitor who never spent a penny. The trade press learns our name.",
+        "target": "A coleção é organizada com cuidado e compartilhada no cenário. Outras equipes podem consultar os exemplos."
+      },
+      "[\"research\",65,\"choices\",1,\"text\"]": {
+        "source": "Scan without destruction, give the volumes to an archive",
+        "target": "Organizar sem danificar e entregar os exemplares do cenário"
+      },
+      "[\"research\",65,\"choices\",1,\"reaction\"]": {
+        "source": "Twice the cost, a month slower. A trade archive takes the lot, and says so publicly.",
+        "target": "Os exemplares são organizados sem dano e entregues ao acervo fictício. A preparação exige mais trabalho."
+      },
+      "[\"research\",65,\"choices\",2,\"text\"]": {
+        "source": "Scan the cheap way; the knowledge survives, the paper doesn't",
+        "target": "Preparar rápido, mesmo com danificação dos exemplares"
+      },
+      "[\"research\",65,\"choices\",2,\"reaction\"]": {
+        "source": "The model gets measurably better at the trade. Nobody keeps a souvenir.",
+        "target": "O preparo rápido reúne mais exemplos, mas danifica os únicos exemplares do cenário. A consulta posterior fica limitada."
+      },
+      "[\"research\",65,\"choices\",3,\"text\"]": {
+        "source": "Leave the pallets, licence digital text instead",
+        "target": "Deixar de lado e usar outros materiais simples"
+      },
+      "[\"research\",65,\"choices\",3,\"reaction\"]": {
+        "source": "Cleaner rights, thinner corpus. The pallets go to someone less squeamish.",
+        "target": "A equipe usa materiais mais simples e deixa o acervo para outra ocasião. Os exemplares não são preparados por ela."
+      }
+    }
+  }
+}

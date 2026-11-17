@@ -1,0 +1,519 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Dezesseis eventos de Fátima em situações administrativas fictícias brasileiras, com caminhos e metadados originais preservados.",
+    "strings": {
+      "[\"research\",\"fatima\",1,\"intro\"]": {
+        "source": "A Russell Group lab wants to co-supervise a PhD student with us. It requires commitment but builds academic credibility.",
+        "target": "No exercício de organização de um negócio brasileiro, outra equipe propõe preparar materiais em conjunto. A colaboração exige escolher quanto apoio dedicar e como acompanhar as tarefas."
+      },
+      "[\"research\",\"fatima\",1,\"aside\"]": {
+        "source": "This student could become a future hire. The PI has excellent NHS connections.",
+        "target": "A troca pode ampliar os exemplos disponíveis, mas também ocupa tempo da equipe."
+      },
+      "[\"research\",\"fatima\",1,\"choices\",0,\"text\"]": {
+        "source": "Fully fund and integrate the PhD",
+        "target": "Assumir o preparo conjunto e o acompanhamento das tarefas"
+      },
+      "[\"research\",\"fatima\",1,\"choices\",0,\"reaction\"]": {
+        "source": "I'll ensure proper supervision.",
+        "target": "Vamos organizar as responsabilidades e acompanhar a preparação dos materiais."
+      },
+      "[\"research\",\"fatima\",1,\"choices\",1,\"text\"]": {
+        "source": "Support with data and mentoring",
+        "target": "Contribuir com exemplos e encontros de orientação"
+      },
+      "[\"research\",\"fatima\",1,\"choices\",1,\"reaction\"]": {
+        "source": "We can contribute without overcommitting.",
+        "target": "Podemos apoiar uma parte do trabalho sem assumir toda a preparação."
+      },
+      "[\"research\",\"fatima\",1,\"choices\",2,\"text\"]": {
+        "source": "Decline—stay focused internally",
+        "target": "Recusar o convite e manter o planejamento interno"
+      },
+      "[\"research\",\"fatima\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Focus pays off. Internal projects advance.",
+        "target": "A equipe mantém a atenção nos materiais que já estava preparando."
+      },
+      "[\"research\",\"fatima\",4,\"intro\"]": {
+        "source": "Our research lead wants to publish a paper about our work. The product team thinks keeping our methods secret is what protects us from competitors. This disagreement needs resolving.",
+        "target": "Na atividade fictícia, a equipe quer compartilhar um relato sobre os materiais preparados. Parte do grupo prefere manter o roteiro apenas para uso interno. É preciso decidir como apresentar o trabalho."
+      },
+      "[\"research\",\"fatima\",4,\"aside\"]": {
+        "source": "Publication builds credibility and helps recruiting. But there are legitimate IP concerns.",
+        "target": "Compartilhar permite receber comentários, mas exige selecionar o que será apresentado."
+      },
+      "[\"research\",\"fatima\",4,\"choices\",0,\"text\"]": {
+        "source": "Publish with clear IP boundaries",
+        "target": "Compartilhar um relato com escopo definido"
+      },
+      "[\"research\",\"fatima\",4,\"choices\",0,\"reaction\"]": {
+        "source": "We can protect what matters while contributing.",
+        "target": "Podemos explicar o trabalho e delimitar os exemplos incluídos na apresentação."
+      },
+      "[\"research\",\"fatima\",4,\"choices\",1,\"text\"]": {
+        "source": "Internal report only",
+        "target": "Preparar apenas um relato interno"
+      },
+      "[\"research\",\"fatima\",4,\"choices\",1,\"reaction\"]": {
+        "source": "We document but miss external signal.",
+        "target": "O trabalho fica documentado para a equipe, sem discussão com outros grupos."
+      },
+      "[\"research\",\"fatima\",4,\"choices\",2,\"text\"]": {
+        "source": "Pause publication—ship first",
+        "target": "Adiar o relato e concluir os materiais primeiro"
+      },
+      "[\"research\",\"fatima\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Product focus keeps us competitive.",
+        "target": "A equipe concentra o preparo na atividade que já estava em andamento."
+      },
+      "[\"research\",\"fatima\",5,\"intro\"]": {
+        "source": "A government AI safety roundtable invites us to present concrete failures and mitigations.",
+        "target": "Uma roda de conversa do exercício convida a equipe a apresentar falhas encontradas em um roteiro administrativo e as revisões feitas depois."
+      },
+      "[\"research\",\"fatima\",5,\"aside\"]": {
+        "source": "Showing vulnerability builds trust. We'd be 'the ones who brought evidence' rather than polished spin.",
+        "target": "Mostrar dificuldades exige preparo. Uma fala mais geral pode deixar de explicar o que foi aprendido."
+      },
+      "[\"research\",\"fatima\",5,\"choices\",0,\"text\"]": {
+        "source": "Bring real red-team data",
+        "target": "Levar exemplos detalhados das falhas e revisões"
+      },
+      "[\"research\",\"fatima\",5,\"choices\",0,\"reaction\"]": {
+        "source": "This builds trust with regulators.",
+        "target": "Os exemplos ajudam o grupo a compreender o que a equipe precisou rever."
+      },
+      "[\"research\",\"fatima\",5,\"choices\",1,\"text\"]": {
+        "source": "Share polished talking points",
+        "target": "Apresentar uma fala geral sobre o trabalho"
+      },
+      "[\"research\",\"fatima\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Safe, but we earn little.",
+        "target": "A apresentação é organizada, mas oferece poucos detalhes para a discussão."
+      },
+      "[\"research\",\"fatima\",5,\"choices\",2,\"text\"]": {
+        "source": "Submit written response only",
+        "target": "Enviar apenas uma síntese escrita"
+      },
+      "[\"research\",\"fatima\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Our position is on record. Efficient approach.",
+        "target": "A contribuição fica registrada no material da atividade, com preparo mais limitado."
+      },
+      "[\"research\",\"fatima\",7,\"intro\"]": {
+        "source": "We've made a genuine breakthrough. Now we face a choice: file for a patent to protect it, or publish in a top journal for academic credibility. The catch is timing—once we publish, we lose the right to patent in most countries. But the patent process is slow and expensive.",
+        "target": "No cenário fictício, a equipe encontrou uma forma diferente de organizar os materiais. O grupo discute se deve documentar o processo antes de apresentá-lo ou compartilhar logo os exemplos disponíveis."
+      },
+      "[\"research\",\"fatima\",7,\"aside\"]": {
+        "source": "Patents give us 20 years of exclusive rights to commercialise. Publications give us citations and reputation. In an ideal world we'd do both, but the clock is ticking.",
+        "target": "Documentar exige trabalho adicional. Apresentar mais cedo permite discutir os exemplos enquanto o roteiro ainda está em preparação."
+      },
+      "[\"research\",\"fatima\",7,\"choices\",0,\"text\"]": {
+        "source": "File the patent first, then publish",
+        "target": "Documentar o processo antes de compartilhar os exemplos"
+      },
+      "[\"research\",\"fatima\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Smart. We protect the commercial value and still get the paper.",
+        "target": "O grupo organiza o registro e depois prepara uma apresentação com os materiais selecionados."
+      },
+      "[\"research\",\"fatima\",7,\"choices\",1,\"text\"]": {
+        "source": "Publish quickly for academic impact",
+        "target": "Compartilhar os exemplos sem esperar o registro completo"
+      },
+      "[\"research\",\"fatima\",7,\"choices\",1,\"reaction\"]": {
+        "source": "The citations will come. But competitors can now use this freely.",
+        "target": "A discussão começa com os exemplos disponíveis, enquanto parte do processo ainda precisa ser registrada."
+      },
+      "[\"research\",\"fatima\",7,\"choices\",2,\"text\"]": {
+        "source": "Keep it as a trade secret for now",
+        "target": "Manter o roteiro apenas para uso da equipe"
+      },
+      "[\"research\",\"fatima\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Protect our edge. Competitors stay guessing.",
+        "target": "O grupo continua preparando os materiais sem apresentar a abordagem nesta atividade."
+      },
+      "[\"research\",\"fatima\",8,\"intro\"]": {
+        "source": "Our patent lawyer has flagged a problem: a large tech company holds patents that might cover techniques we're using. We need to do a 'freedom to operate' analysis—basically checking whether our product might infringe their patents. It's expensive but could save us from a lawsuit later.",
+        "target": "Uma comparação fictícia aponta semelhanças entre nosso roteiro administrativo e outro exemplo usado no exercício. A equipe precisa decidir quanto esforço dedicar à conferência dessas aproximações."
+      },
+      "[\"research\",\"fatima\",8,\"aside\"]": {
+        "source": "Patent disputes can destroy startups. Big companies sometimes use patent threats to eliminate competitors or force acquisitions at low prices. Better to know where we stand.",
+        "target": "Uma revisão detalhada pode esclarecer as diferenças. Uma conferência breve deixa mais pontos em aberto."
+      },
+      "[\"research\",\"fatima\",8,\"choices\",0,\"text\"]": {
+        "source": "Full freedom-to-operate analysis",
+        "target": "Conferir integralmente os roteiros e registrar as diferenças"
+      },
+      "[\"research\",\"fatima\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive but we'll sleep better. And investors will want to see this.",
+        "target": "A equipe dedica mais preparo à comparação e reúne os pontos que precisam de discussão."
+      },
+      "[\"research\",\"fatima\",8,\"choices\",1,\"text\"]": {
+        "source": "Quick review of the obvious risks",
+        "target": "Revisar apenas os trechos mais evidentes"
+      },
+      "[\"research\",\"fatima\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Covers the basics. Some uncertainty remains.",
+        "target": "Os principais pontos são examinados, mas parte da comparação continua em aberto."
+      },
+      "[\"research\",\"fatima\",8,\"choices\",2,\"text\"]": {
+        "source": "Proceed and deal with issues if they arise",
+        "target": "Continuar o preparo e examinar dúvidas quando aparecerem"
+      },
+      "[\"research\",\"fatima\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Move fast, stay agile.",
+        "target": "A equipe segue com as tarefas previstas e deixa a conferência para uma necessidade posterior."
+      },
+      "[\"research\",\"fatima\",9,\"intro\"]": {
+        "source": "A university where one of our team used to work is claiming they own some of our intellectual property. They say the early research was done using their facilities and funding, so they have rights to it. Our lawyer thinks we have a strong case, but fighting it will be costly and distracting.",
+        "target": "O roteiro do exercício traz uma divergência inventada entre equipes sobre a origem de alguns materiais compartilhados. Nosso grupo precisa decidir como esclarecer as contribuições ou reorganizar seus exemplos."
+      },
+      "[\"research\",\"fatima\",9,\"aside\"]": {
+        "source": "IP ownership disputes are common when founders come from academia. Most universities have policies about what they own, but the boundaries can be fuzzy.",
+        "target": "Reconstruir a preparação pode ocupar a equipe. Há também a possibilidade de desenvolver materiais diferentes."
+      },
+      "[\"research\",\"fatima\",9,\"choices\",0,\"text\"]": {
+        "source": "Negotiate a licence agreement",
+        "target": "Combinar uma descrição conjunta das contribuições"
+      },
+      "[\"research\",\"fatima\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Pay them something reasonable and move on. Business is about picking battles.",
+        "target": "As equipes procuram registrar como cada grupo participou da preparação e continuar a atividade."
+      },
+      "[\"research\",\"fatima\",9,\"choices\",1,\"text\"]": {
+        "source": "Fight it—we're in the right",
+        "target": "Reconstituir detalhadamente o histórico do preparo"
+      },
+      "[\"research\",\"fatima\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Could take years, but winning establishes precedent and reputation.",
+        "target": "O grupo dedica esforço aos registros para explicar sua participação na construção dos materiais."
+      },
+      "[\"research\",\"fatima\",9,\"choices\",2,\"text\"]": {
+        "source": "Redesign around the disputed IP",
+        "target": "Refazer os exemplos envolvidos na divergência"
+      },
+      "[\"research\",\"fatima\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Painful but builds something entirely new that's unquestionably ours.",
+        "target": "A equipe prepara outros materiais e revê a organização do próprio roteiro."
+      },
+      "[\"research\",\"fatima\",10,\"intro\"]": {
+        "source": "Our patent attorney has sent the bill for filing our first patent application in the UK. Now comes the hard part: where else do we file? Each country costs £15,000-30,000 in legal fees alone, plus translation costs. The US is essential for fundraising, the EU covers multiple countries in one filing, but China and Japan are where manufacturing happens.",
+        "target": "Na mostra fictícia de negócios, nosso roteiro já tem uma versão inicial. A equipe precisa escolher quantos contextos de apresentação incluir nas próximas versões dos exemplos."
+      },
+      "[\"research\",\"fatima\",10,\"aside\"]": {
+        "source": "Patents are territorial—a UK patent only protects you in the UK. Missing a key market means competitors can copy you there freely. But filing everywhere is ruinously expensive for a startup.",
+        "target": "Ampliar os contextos exige adaptar materiais. Um conjunto menor permite concentrar o preparo, mas deixa outras situações sem exemplo."
+      },
+      "[\"research\",\"fatima\",10,\"choices\",0,\"text\"]": {
+        "source": "File in UK, US, EU, China, and Japan",
+        "target": "Preparar exemplos para todos os contextos da mostra"
+      },
+      "[\"research\",\"fatima\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Maximum protection. Expensive but we're covered globally.",
+        "target": "O grupo dedica mais recursos à variedade de situações e organiza um conjunto amplo de materiais."
+      },
+      "[\"research\",\"fatima\",10,\"choices\",1,\"text\"]": {
+        "source": "File in UK, US, and EU only",
+        "target": "Preparar exemplos para os contextos prioritários"
+      },
+      "[\"research\",\"fatima\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Covers our main markets. We accept some risk in Asia.",
+        "target": "A equipe cobre as situações escolhidas e deixa outras para uma preparação posterior."
+      },
+      "[\"research\",\"fatima\",10,\"choices\",2,\"text\"]": {
+        "source": "Just UK and US for now",
+        "target": "Manter exemplos apenas para a apresentação inicial"
+      },
+      "[\"research\",\"fatima\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Minimal viable protection. We can't afford more right now.",
+        "target": "O conjunto fica mais restrito, com o preparo concentrado no roteiro que já existe."
+      },
+      "[\"research\",\"fatima\",11,\"intro\"]": {
+        "source": "Writing patent claims is an art form. Our scientists understand the technology best, but patent attorneys know how to write claims that will survive legal challenges. The attorney wants £25,000 to draft the application properly. Our Head of Research thinks she could write a first draft herself to save money.",
+        "target": "No exercício, a equipe precisa redigir um guia administrativo. Uma pessoa de apoio pode preparar o texto completo, ou o grupo pode escrever um rascunho e escolher quanto acompanhamento receber."
+      },
+      "[\"research\",\"fatima\",11,\"aside\"]": {
+        "source": "Badly written patents are worse than no patents—they can be easily invalidated or designed around. But good patent attorneys are expensive, and they still need our scientists to explain the technology.",
+        "target": "O guia precisa explicar bem as tarefas. Redação e revisão podem ser distribuídas de formas diferentes."
+      },
+      "[\"research\",\"fatima\",11,\"choices\",0,\"text\"]": {
+        "source": "Let the attorney draft from scratch",
+        "target": "Solicitar ao apoio a preparação integral do guia"
+      },
+      "[\"research\",\"fatima\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive but professional. The claims will be bulletproof.",
+        "target": "O apoio organiza a redação e a equipe fornece os exemplos necessários."
+      },
+      "[\"research\",\"fatima\",11,\"choices\",1,\"text\"]": {
+        "source": "Scientists draft, attorney reviews and refines",
+        "target": "Escrever em equipe e solicitar revisão detalhada"
+      },
+      "[\"research\",\"fatima\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Good balance. Broader claims and our team learns the process.",
+        "target": "O grupo participa da redação e aprende ao discutir as revisões propostas pelo apoio."
+      },
+      "[\"research\",\"fatima\",11,\"choices\",2,\"text\"]": {
+        "source": "Scientists write it, minimal attorney input",
+        "target": "Redigir internamente com pouca participação do apoio"
+      },
+      "[\"research\",\"fatima\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Risky. The examiner may tear it apart, or competitors will find loopholes.",
+        "target": "O guia fica pronto com uma conferência limitada, e algumas passagens precisam de mais clareza."
+      },
+      "[\"research\",\"fatima\",12,\"intro\"]": {
+        "source": "The patent examiner has rejected our application. They've found 'prior art'—earlier publications that they say make our invention obvious. Our attorney thinks we can argue our way through by narrowing the claims, but that means our patent will protect less. Alternatively, we can provide new experimental data showing our invention is genuinely different.",
+        "target": "Uma avaliação fictícia devolveu nosso roteiro para revisão por considerar alguns exemplos pouco distintos dos materiais de referência. A equipe pode aprofundar a comparação, reduzir o escopo ou preparar outra versão."
+      },
+      "[\"research\",\"fatima\",12,\"aside\"]": {
+        "source": "Patent prosecution is a negotiation. Most applications get rejected initially—it's how you respond that matters. Narrow claims are easier to get granted but easier for competitors to design around.",
+        "target": "Responder aos comentários exige escolher o que revisar e quanto do roteiro manter. Nenhuma alternativa dispensa o trabalho de preparação."
+      },
+      "[\"research\",\"fatima\",12,\"choices\",0,\"text\"]": {
+        "source": "Fight back with new experimental data",
+        "target": "Preparar novos exemplos e explicar melhor as diferenças"
+      },
+      "[\"research\",\"fatima\",12,\"choices\",0,\"reaction\"]": {
+        "source": "More work, but we might keep our broad claims. Worth trying.",
+        "target": "A equipe amplia a comparação e reúne materiais para responder aos comentários recebidos."
+      },
+      "[\"research\",\"fatima\",12,\"choices\",1,\"text\"]": {
+        "source": "Narrow the claims as the examiner suggests",
+        "target": "Reduzir o roteiro aos exemplos mais bem definidos"
+      },
+      "[\"research\",\"fatima\",12,\"choices\",1,\"reaction\"]": {
+        "source": "We get a granted patent, but it protects less territory.",
+        "target": "A versão fica mais delimitada e deixa parte das situações fora da apresentação."
+      },
+      "[\"research\",\"fatima\",12,\"choices\",2,\"text\"]": {
+        "source": "Abandon and file improved application",
+        "target": "Substituir o roteiro por uma versão reorganizada"
+      },
+      "[\"research\",\"fatima\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Start fresh with better claims. Costs time but stronger long-term.",
+        "target": "O grupo retoma o preparo com outra estrutura e seleciona novos exemplos para a atividade."
+      },
+      "[\"research\",\"fatima\",13,\"intro\"]": {
+        "source": "Our first patent is about to be granted—three years after we filed it. Our attorney is now asking about 'continuation' applications. These let us file new patents based on our original discovery, covering variations and improvements we've developed since. Each continuation costs money, but they extend our protection and can be valuable if someone tries to design around our first patent.",
+        "target": "No cenário fictício, a equipe concluiu a organização de um roteiro inicial. Agora discute se deve preparar várias versões complementares, uma revisão concentrada ou apenas manter o material existente."
+      },
+      "[\"research\",\"fatima\",13,\"aside\"]": {
+        "source": "Biotech companies often build 'patent families' with dozens of related patents covering the same core invention from different angles. It's expensive but creates a defensive thicket.",
+        "target": "Cada versão adicional exige preparo. A escolha define quantas variações serão trabalhadas no exercício."
+      },
+      "[\"research\",\"fatima\",13,\"choices\",0,\"text\"]": {
+        "source": "File multiple continuation applications",
+        "target": "Preparar várias versões complementares do roteiro"
+      },
+      "[\"research\",\"fatima\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Build a proper patent family. Harder for competitors to work around us.",
+        "target": "A equipe organiza diferentes variações dos exemplos e amplia o conjunto de materiais."
+      },
+      "[\"research\",\"fatima\",13,\"choices\",1,\"text\"]": {
+        "source": "File one continuation covering key improvements",
+        "target": "Preparar uma versão com as revisões prioritárias"
+      },
+      "[\"research\",\"fatima\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Balanced approach. Some additional protection without breaking the bank.",
+        "target": "O grupo concentra o trabalho nas melhorias escolhidas para esta atividade."
+      },
+      "[\"research\",\"fatima\",13,\"choices\",2,\"text\"]": {
+        "source": "Just keep the original patent",
+        "target": "Manter apenas o roteiro inicial"
+      },
+      "[\"research\",\"fatima\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Core protection maintained. Save resources.",
+        "target": "A equipe conserva o material disponível e direciona a atenção a outras tarefas."
+      },
+      "[\"research\",\"fatima\",14,\"intro\"]": {
+        "source": "We've spotted a competitor's product that looks suspiciously similar to our patented technology. Proving infringement in biotech is hard—you can't just look at their product, you need to analyse it scientifically. Our attorney estimates £50,000 to investigate properly, and litigation would cost ten times that.",
+        "target": "Em uma comparação inventada do exercício, outro grupo apresentou materiais parecidos com os nossos. A equipe discute se deve examinar as semelhanças, propor uma atividade conjunta ou apenas acompanhar novos exemplos."
+      },
+      "[\"research\",\"fatima\",14,\"aside\"]": {
+        "source": "Patent enforcement is where things get really expensive. Big pharma companies have legal teams on staff. Startups often can't afford to enforce their patents even when they're clearly being infringed.",
+        "target": "A comparação pede cuidado para distinguir coincidências, diferenças e possibilidades de colaboração."
+      },
+      "[\"research\",\"fatima\",14,\"choices\",0,\"text\"]": {
+        "source": "Investigate and send a cease-and-desist letter",
+        "target": "Examinar os materiais e enviar uma síntese das dúvidas"
+      },
+      "[\"research\",\"fatima\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Find out what they're doing first. A letter might be enough to scare them.",
+        "target": "A equipe reúne os pontos observados e propõe uma conversa sobre as semelhanças."
+      },
+      "[\"research\",\"fatima\",14,\"choices\",1,\"text\"]": {
+        "source": "Approach them about licensing",
+        "target": "Propor uma atividade conjunta de preparação"
+      },
+      "[\"research\",\"fatima\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Turn a threat into revenue. They might prefer to pay than fight.",
+        "target": "Os grupos discutem como combinar contribuições para desenvolver outros exemplos."
+      },
+      "[\"research\",\"fatima\",14,\"choices\",2,\"text\"]": {
+        "source": "Monitor but don't act yet",
+        "target": "Acompanhar as apresentações sem intervir agora"
+      },
+      "[\"research\",\"fatima\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Gather intelligence. Strike when ready.",
+        "target": "A equipe registra observações e mantém o planejamento enquanto acompanha os próximos materiais."
+      },
+      "[\"research\",\"fatima\",16,\"intro\"]": {
+        "source": "Training our AI models uses enormous amounts of electricity—and that means carbon emissions. Our latest model took three months of continuous computing, equivalent to several transatlantic flights. We could use renewable-powered data centres, but they're 40% more expensive.",
+        "target": "O cenário fictício propõe rever o uso de materiais na preparação de uma atividade do negócio. A equipe compara mudar os itens utilizados, reorganizar o reaproveitamento ou tornar as tarefas mais eficientes."
+      },
+      "[\"research\",\"fatima\",16,\"aside\"]": {
+        "source": "The environmental cost of AI is becoming a real concern. Some researchers now include carbon footprint in their papers. Being sustainable costs more but aligns with our values.",
+        "target": "As alternativas pedem formas diferentes de preparo. O grupo precisa escolher como tratar o uso de materiais no roteiro."
+      },
+      "[\"research\",\"fatima\",16,\"choices\",0,\"text\"]": {
+        "source": "Move to renewable-powered computing",
+        "target": "Reorganizar a atividade com outros materiais"
+      },
+      "[\"research\",\"fatima\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Higher costs but we can look our grandchildren in the eye.",
+        "target": "A equipe dedica mais preparo à mudança dos itens usados e revê a organização das tarefas."
+      },
+      "[\"research\",\"fatima\",16,\"choices\",1,\"text\"]": {
+        "source": "Buy carbon offsets for our computing",
+        "target": "Manter os itens e planejar seu reaproveitamento"
+      },
+      "[\"research\",\"fatima\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Imperfect solution but better than nothing.",
+        "target": "O grupo organiza uma etapa de reaproveitamento, sem substituir todos os materiais da atividade."
+      },
+      "[\"research\",\"fatima\",16,\"choices\",2,\"text\"]": {
+        "source": "Focus on efficiency, not where power comes from",
+        "target": "Concentrar o trabalho em evitar desperdícios nas tarefas"
+      },
+      "[\"research\",\"fatima\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Pragmatic. Keeps costs down.",
+        "target": "A equipe revê a execução para aproveitar melhor os materiais que já utiliza."
+      },
+      "[\"research\",\"fatima\",18,\"intro\"]": {
+        "source": "Our research findings could be used for good or harm. The same technology that helps doctors could help bad actors. Some researchers are calling for us to restrict access to our methods, but that goes against the open science principles we've always championed.",
+        "target": "No exercício de organização de um negócio brasileiro, a equipe discute como compartilhar os materiais preparados. O grupo compara organizar solicitações, acompanhar o uso dos exemplos ou disponibilizar o conjunto a todos."
+      },
+      "[\"research\",\"fatima\",18,\"aside\"]": {
+        "source": "Dual-use research is a genuine dilemma. Openness accelerates progress but also accelerates misuse. There's no perfect answer, only trade-offs.",
+        "target": "Facilitar a circulação e acompanhar os materiais exigem formas diferentes de preparo. A equipe precisa escolher como distribuir esse trabalho."
+      },
+      "[\"research\",\"fatima\",18,\"choices\",0,\"text\"]": {
+        "source": "Restricted access with vetting process",
+        "target": "Compartilhar os materiais após organizar as solicitações"
+      },
+      "[\"research\",\"fatima\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Slows legitimate researchers but limits bad actors.",
+        "target": "O grupo dedica tempo às solicitações e define com quem começar a troca de exemplos."
+      },
+      "[\"research\",\"fatima\",18,\"choices\",1,\"text\"]": {
+        "source": "Open access with usage monitoring",
+        "target": "Compartilhar os materiais e acompanhar os comentários"
+      },
+      "[\"research\",\"fatima\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Stay open but watch for misuse. Hard to enforce.",
+        "target": "Os exemplos circulam, enquanto a equipe reserva atenção às dúvidas e aos usos discutidos no exercício."
+      },
+      "[\"research\",\"fatima\",18,\"choices\",2,\"text\"]": {
+        "source": "Fully open—knowledge should be free",
+        "target": "Disponibilizar o conjunto a todos os grupos da atividade"
+      },
+      "[\"research\",\"fatima\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Community embraces us. Reputation builds.",
+        "target": "Outras equipes passam a consultar os exemplos, sem uma etapa própria de acompanhamento das solicitações."
+      },
+      "[\"research\",\"fatima\",19,\"intro\"]": {
+        "source": "Our AI sometimes gives answers that sound confident but are completely wrong—it essentially makes things up. We can make it more cautious and say 'I'm not sure' more often, but that also makes it less useful. Users want direct answers; constant hedging frustrates them.",
+        "target": "Na atividade fictícia, algumas orientações do roteiro parecem conclusivas, embora os exemplos ainda deixem dúvidas. A equipe precisa escolher como apresentar essas incertezas e quanto espaço dedicar à conferência."
+      },
+      "[\"research\",\"fatima\",19,\"aside\"]": {
+        "source": "There's a fundamental trade-off between confidence and accuracy. An AI that always hedges is useless. An AI that confidently invents things is dangerous. The right balance depends on what it's being used for.",
+        "target": "Uma orientação direta é mais breve. Explicar dúvidas pede atenção adicional e pode tornar a consulta aos materiais mais demorada."
+      },
+      "[\"research\",\"fatima\",19,\"choices\",0,\"text\"]": {
+        "source": "Prioritise accuracy—flag uncertainty clearly",
+        "target": "Sinalizar as dúvidas e conferir os exemplos antes de concluir"
+      },
+      "[\"research\",\"fatima\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Safer outputs. Some users find it annoying.",
+        "target": "O roteiro deixa mais claras as limitações dos exemplos, embora a leitura exija mais atenção."
+      },
+      "[\"research\",\"fatima\",19,\"choices\",1,\"text\"]": {
+        "source": "Let users choose how cautious it should be",
+        "target": "Oferecer versões com diferentes níveis de detalhamento"
+      },
+      "[\"research\",\"fatima\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Flexibility but complexity. Most won't understand the setting.",
+        "target": "A equipe prepara opções de consulta, mas precisa explicar como escolher entre elas."
+      },
+      "[\"research\",\"fatima\",19,\"choices\",2,\"text\"]": {
+        "source": "Optimise for what users like",
+        "target": "Priorizar uma apresentação direta, com poucas ressalvas"
+      },
+      "[\"research\",\"fatima\",19,\"choices\",2,\"reaction\"]": {
+        "source": "They prefer confident answers. Hope they check important ones.",
+        "target": "O roteiro fica mais breve, mas o grupo questiona se as dúvidas receberam a atenção necessária."
+      },
+      "[\"research\",\"fatima\",20,\"intro\"]": {
+        "source": "We've developed a capability that's genuinely impressive—and potentially dangerous. It could be used to generate convincing misinformation at scale. Some team members want to publish to advance the science; others think we should keep it quiet or at least delay until we understand the risks better.",
+        "target": "No cenário fictício, a equipe preparou uma apresentação que desperta interesse, mas alguns exemplos ainda podem gerar interpretações diferentes das pretendidas. O grupo discute se deve adiar a mostra, explicar os pontos pendentes ou apresentar o material como está."
+      },
+      "[\"research\",\"fatima\",20,\"aside\"]": {
+        "source": "There's a heated debate about when to publish powerful AI capabilities. Some say openness lets everyone study risks. Others say publishing before defences exist is reckless. There's no consensus in the field.",
+        "target": "Rever os exemplos pode atrasar a apresentação. Compartilhar antes permite discutir o trabalho, mas não elimina os pontos que ainda precisam de conferência."
+      },
+      "[\"research\",\"fatima\",20,\"choices\",0,\"text\"]": {
+        "source": "Delay publication until we develop safeguards",
+        "target": "Adiar a apresentação e revisar os exemplos ambíguos"
+      },
+      "[\"research\",\"fatima\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Responsible but others might discover it independently.",
+        "target": "A equipe dedica mais preparo à revisão enquanto outros grupos continuam com suas próprias apresentações."
+      },
+      "[\"research\",\"fatima\",20,\"choices\",1,\"text\"]": {
+        "source": "Publish with a detailed risks section",
+        "target": "Apresentar o roteiro com uma seção sobre os pontos pendentes"
+      },
+      "[\"research\",\"fatima\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Advance the science, flag the dangers. Some will ignore warnings.",
+        "target": "O material entra em discussão com as limitações descritas, embora nem todos deem a mesma atenção às ressalvas."
+      },
+      "[\"research\",\"fatima\",20,\"choices\",2,\"text\"]": {
+        "source": "Publish normally—others will find this anyway",
+        "target": "Apresentar o material sem uma revisão adicional"
+      },
+      "[\"research\",\"fatima\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Science advances. We're not the last line of defence.",
+        "target": "A apresentação acontece, mas parte da equipe demonstra desconforto com os pontos deixados em aberto."
+      },
+      "[\"research\",\"fatima\",21,\"intro\"]": {
+        "source": "Our AI makes predictions that affect people's lives—loan decisions, medical diagnoses, hiring recommendations. Users want to know why the AI decided what it did, but our system is so complex that even we can't fully explain individual decisions. We can add features that give plausible-sounding reasons, but they're simplified approximations, not the real answer.",
+        "target": "O exercício traz decisões simuladas de organização de um negócio. Os materiais indicam as escolhas do grupo, mas nem sempre explicam o caminho seguido. A equipe precisa decidir quanto trabalho dedicar à justificativa dos exemplos."
+      },
+      "[\"research\",\"fatima\",21,\"aside\"]": {
+        "source": "Being able to explain AI decisions is a genuine hard problem. Simple explanations of complex systems are necessarily incomplete. But 'the computer said so' isn't acceptable when the decision affects someone's life. Nobody's really solved this yet.",
+        "target": "Uma síntese facilita a consulta, mas pode deixar etapas de fora. Explicar o percurso completo exige organizar mais registros da atividade."
+      },
+      "[\"research\",\"fatima\",21,\"choices\",0,\"text\"]": {
+        "source": "Invest heavily in making decisions explainable",
+        "target": "Preparar uma justificativa detalhada para cada exemplo"
+      },
+      "[\"research\",\"fatima\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Hard problem. Might slow us down significantly.",
+        "target": "A equipe reúne registros e revê as etapas, dedicando bastante esforço à explicação do percurso."
+      },
+      "[\"research\",\"fatima\",21,\"choices\",1,\"text\"]": {
+        "source": "Add simplified explanations with clear caveats",
+        "target": "Acrescentar sínteses com as limitações indicadas"
+      },
+      "[\"research\",\"fatima\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Users might trust them too much.",
+        "target": "Os materiais ganham explicações mais breves, que ainda podem deixar dúvidas sobre parte do percurso."
+      },
+      "[\"research\",\"fatima\",21,\"choices\",2,\"text\"]": {
+        "source": "Focus on accuracy—explanations are secondary",
+        "target": "Priorizar os exemplos e deixar as justificativas para depois"
+      },
+      "[\"research\",\"fatima\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Right answers matter more than explaining wrong ones. Some disagree.",
+        "target": "O roteiro mantém o foco nas escolhas apresentadas, mas parte do grupo pede mais clareza sobre como foram feitas."
+      }
+    }
+  }
+}

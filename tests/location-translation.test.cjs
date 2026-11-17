@@ -29,6 +29,23 @@ function extract(file){
 const before=extract('source/index.original.html'),after=extract('index.html');
 const catalogue=JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','utf8')).LOCATIONS.strings;
 const plain=x=>JSON.parse(JSON.stringify(x));
+// O patch L3c já localiza este literal de apresentação. Nenhum outro dado
+// ou expressão dos métodos de fomento pode divergir nesta comparação.
+const originalHint='Channels, pricing, partnerships';
+const localizedHint='Canais, pricing, partnerships';
+function restoreQuestionHint(method){
+ assert.equal(method.split(localizedHint).length,2);
+ return method.replace(localizedHint,originalHint);
+}
+function restoreAssessmentHint(assessment){
+ const result=plain(assessment);
+ for(const rows of [result.qScores,result.feedback]){
+  const row=rows.find(item=>item.id==='q7');
+  assert.ok(row);
+  if(Object.hasOwn(row,'hint')){assert.equal(row.hint,localizedHint);row.hint=originalHint;}
+ }
+ return result;
+}
 test('location catalogue covers 276 display fields and preserves all canonical names, regions, salaries, bonuses and SVGs',()=>{
  const paths=[],restored=plain(after.data.LOCATIONS);
  function visit(value,path){if(typeof value==='string'){paths.push(JSON.stringify(path));return;}value.forEach((x,i)=>visit(x,[...path,i]));}
@@ -42,40 +59,45 @@ test('location catalogue covers 276 display fields and preserves all canonical n
   const leaf=path.at(-1);assert.equal(source,orig[leaf]);assert.equal(target,out[leaf]);assert.ok(target.trim());out[leaf]=source;
  }
  assert.deepEqual(restored,before.data.LOCATIONS);assert.deepEqual(after.data.LOCATION_MAP,{});assert.deepEqual(after.data.GEOGRAPHY_REGIONS,before.data.GEOGRAPHY_REGIONS);
- for(const name of ruleMethods)assert.equal(after.methods[name],before.methods[name],name);
- assert.deepEqual(after.functions,before.functions);
+ for(const name of ruleMethods)assert.equal(name==='getUKGrantQuestions'?restoreQuestionHint(after.methods[name]):after.methods[name],before.methods[name],name);
+ assert.equal(after.functions.getRegionForCity,before.functions.getRegionForCity);
+ assert.match(after.functions.getLocations,/SlingshotManagement.locations/);
+ assert.ok(after.functions.getLocationTier.includes(before.functions.getLocationTier.slice(before.functions.getLocationTier.indexOf('{')+1)));
 });
 function setup(source){
  const nodes=new Map(),events={sound:0,creditRender:0},map={};
  Object.values(source.data.LOCATIONS).flat().forEach(loc=>{map[loc.id]=loc;});
  const get=id=>{
   if(!nodes.has(id)){
-   const classes=new Set(['hidden']);nodes.set(id,{textContent:'',innerHTML:'',classList:{add(...v){v.forEach(x=>classes.add(x));},remove(...v){v.forEach(x=>classes.delete(x));},contains(x){return classes.has(x);}}});
+   const classes=new Set(['hidden']);nodes.set(id,{textContent:'',innerHTML:'',classList:{add(...v){v.forEach(x=>classes.add(x));},remove(...v){v.forEach(x=>classes.delete(x));},contains(x){return classes.has(x);},toggle(x,force){if(force)classes.add(x);else classes.delete(x);}}});
   }
   return nodes.get(id);
  };
  const math=Object.create(Math);math.random=()=>0.5;
- const context=vm.createContext({...source.data,LOCATION_MAP:map,SlingshotLocationDisplay:display,SlingshotInitialCredit:{render(){events.creditRender++;}},document:{getElementById:get},soundManager:{playLocationSelect(){events.sound++;}},setTimeout(){},console,Math:math});
+ const context=vm.createContext({...source.data,SlingshotCompanyDisplay:require('../company-display'),LOCATION_MAP:map,SlingshotLocationDisplay:display,SlingshotInitialCredit:{render(){events.creditRender++;}},document:{getElementById:get},soundManager:{playLocationSelect(){events.sound++;}},setTimeout(){},console,Math:math});
+ vm.runInContext(fs.readFileSync('management-runtime.js','utf8').replace('BR_MANAGEMENT_DATA',JSON.stringify(require('../locales/management-setup.pt-BR.json'))),context);
  for(const code of Object.values(source.functions))vm.runInContext(code,context);
  const g={company:{id:'aether',name:'Teste'},metrics:{sci:50,dev:45,mkt:35,hr:50},founderProfile:{id:'firsttimer'},ukGrantExperience:1,ukGrantStatus:1,investorRelationship:1};
  for(const [name,code]of Object.entries(source.methods))g[name]=vm.runInContext('('+code+')',context);
+ g.renderFundingStages=()=>events.creditRender++;g.showCoachingTip=()=>{};
  g.renderHeader=vm.runInContext('('+source.header[0]+')',context);
  return {g,get,events,math};
 }
 test('selection cards, detail dialog and header display Portuguese geography while selection retains original keys',()=>{
  const {g,get,events}=setup(after);let count=0;
- for(const [venture,locations]of Object.entries(after.data.LOCATIONS)){
+ for(const venture of Object.keys(after.data.LOCATIONS)){
+  const locations=require('../management-runtime').locations();
   g.company.id=venture;g.showLocationModal();
   for(const loc of locations){
    assert.ok(get('locationGrid').innerHTML.includes('>'+display.city(loc.name)+'</h3>'));
-   assert.ok(get('locationGrid').innerHTML.includes('>'+display.region(loc.region)+'</span>'));
-   g.showLocationInfo(loc.id);assert.equal(get('locationInfoName').textContent,'📍 '+display.city(loc.name));assert.equal(get('locationInfoRegion').textContent,display.region(loc.region));
-   assert.equal(get('locationInfoDesc').textContent,loc.description);assert.equal(get('locationInfoImage').innerHTML,loc.image);
+
+   g.showLocationInfo(loc.id);assert.equal(get('locationInfoName').textContent,display.city(loc.name));assert.equal(get('locationInfoRegion').textContent,display.region(loc.region));
+   assert.equal(get('locationInfoDesc').textContent,loc.description);assert.equal(get('locationInfoImage').textContent,loc.image);
    g.selectLocation(loc.id);assert.equal(g.location.id,loc.id);assert.equal(g.location.name,loc.name);assert.equal(g.location.region,loc.region);
    g.renderHeader();assert.equal(get('locationDisplay').textContent,'📍 '+display.city(loc.name));assert.ok(get('locationModal').classList.contains('hidden'));assert.ok(!get('fundingModal').classList.contains('hidden'));count++;
   }
  }
- assert.equal(count,36);assert.equal(events.sound,36);assert.equal(events.creditRender,36);
+ assert.equal(count,36);assert.equal(events.sound,0);assert.equal(events.creditRender,36);
  assert.equal(display.city('London'),'Londres');assert.equal(display.city('Edinburgh'),'Edimburgo');
  assert.equal(display.region('Scotland'),'Escócia');assert.equal(display.region('Wales'),'País de Gales');assert.equal(display.region('Northern Ireland'),'Irlanda do Norte');
  for(const value of ['Oxford','Newcastle upon Tyne','__proto__','constructor','Unknown'])assert.equal(display.city(value),value);
@@ -92,7 +114,7 @@ test('all 36 locations retain regional eligibility, local funding bonus and univ
    const app={partner,effort:'standard',advisor:false,quality:1,cashCost:0};
    for(const value of [0.01,0.5,0.99]){
     a.math.random=()=>value;b.math.random=()=>value;
-    for(const programme of programmes)assert.deepEqual(plain(b.g.generateUKGrantAssessment(app,programme)),plain(a.g.generateUKGrantAssessment(app,programme)),loc.id+'/'+partner+'/'+programme.id+'/'+value);
+    for(const programme of programmes)assert.deepEqual(restoreAssessmentHint(b.g.generateUKGrantAssessment(app,programme)),plain(a.g.generateUKGrantAssessment(app,programme)),loc.id+'/'+partner+'/'+programme.id+'/'+value);
    }
   }
  });

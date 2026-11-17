@@ -16,7 +16,7 @@
       frozen = Object.freeze({
         version:'slingshot-br-1', formulaVersion:result.formulaVersion,
         nonce:crypto.randomUUID(), data:new Date().toISOString(),
-        empresa:game.startupName || game.company.name, modo:game.gameMode || 'core',
+        empresa:SlingshotCompanyDisplay.exportName(game), modo:game.gameMode || 'core',
         razao:reason, nota:result.grade, componentes:result.components, metricas:result.inputs
       });
       capturedGame=game;

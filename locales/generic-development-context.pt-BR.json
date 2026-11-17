@@ -1,0 +1,1815 @@
+{
+  "GENERIC_EVENTS": {
+    "classification": "Cinquenta e seis eventos de desenvolvimento em cenários administrativos brasileiros fictícios, com regras e metadados originais preservados.",
+    "strings": {
+      "[\"dev\",0,\"intro\"]": {
+        "source": "Security audit found vulnerabilities. None exploited yet, but concerning.",
+        "target": "Negócio brasileiro em cenário fictício: a revisão de guias administrativos inventados revelou lacunas."
+      },
+      "[\"dev\",0,\"aside\"]": {
+        "source": "Security debt is invisible until it isn't.",
+        "target": "A revisão pode revelar lacunas que passavam despercebidas."
+      },
+      "[\"dev\",0,\"choices\",0,\"text\"]": {
+        "source": "Full security remediation sprint",
+        "target": "Revisão ampla dos guias"
+      },
+      "[\"dev\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Sleep better at night.",
+        "target": "A equipe revisa as lacunas encontradas nos guias. Esse trabalho não dispensa novas conferências."
+      },
+      "[\"dev\",0,\"choices\",1,\"text\"]": {
+        "source": "Fix critical issues, monitor rest",
+        "target": "Corrigir pontos críticos e acompanhar o resto"
+      },
+      "[\"dev\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Risk managed, not eliminated.",
+        "target": "A equipe trata os pontos considerados críticos e mantém os demais registrados para acompanhamento."
+      },
+      "[\"dev\",0,\"choices\",2,\"text\"]": {
+        "source": "Accept risk, keep shipping",
+        "target": "Aceitar lacunas e seguir as tarefas"
+      },
+      "[\"dev\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Move fast. Ship product.",
+        "target": "Tarefas seguem; guia continua com lacunas."
+      },
+      "[\"dev\",1,\"intro\"]": {
+        "source": "Team wants to rewrite a core component. Current one works but is painful.",
+        "target": "Negócio brasileiro em cenário fictício: a equipe quer reescrever roteiro administrativo inventado ainda em uso."
+      },
+      "[\"dev\",1,\"aside\"]": {
+        "source": "Rewrites are seductive. Often take longer than expected.",
+        "target": "Reescrita seduz; costuma demorar mais do que o previsto."
+      },
+      "[\"dev\",1,\"choices\",0,\"text\"]": {
+        "source": "Approve focused rewrite",
+        "target": "Aprovar reescrita focada"
+      },
+      "[\"dev\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Technical debt paid down.",
+        "target": "Roteiro reescrito no escopo; revisões continuam."
+      },
+      "[\"dev\",1,\"choices\",1,\"text\"]": {
+        "source": "Incremental refactoring instead",
+        "target": "Ajustes graduais no roteiro"
+      },
+      "[\"dev\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Slower but safer.",
+        "target": "A equipe ajusta partes do roteiro e confere cada mudança antes de ampliar a revisão."
+      },
+      "[\"dev\",1,\"choices\",2,\"text\"]": {
+        "source": "Keep current implementation",
+        "target": "Manter o roteiro atual"
+      },
+      "[\"dev\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Stability preserved. Team adapts.",
+        "target": "A equipe mantém o roteiro e registra os ajustes que ainda precisa examinar."
+      },
+      "[\"dev\",2,\"intro\"]": {
+        "source": "Open source dependency has a concerning maintainer situation.",
+        "target": "Negócio brasileiro em cenário fictício: guia administrativo inventado de outro grupo tem manutenção incerta."
+      },
+      "[\"dev\",2,\"aside\"]": {
+        "source": "Supply chain risk is real. But building everything yourself is worse.",
+        "target": "Depender do outro tem risco; refazer tudo sozinho também pesa."
+      },
+      "[\"dev\",2,\"choices\",0,\"text\"]": {
+        "source": "Fork and maintain internally",
+        "target": "Assumir a manutenção do guia"
+      },
+      "[\"dev\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Control but overhead.",
+        "target": "Mais controle, mais trabalho."
+      },
+      "[\"dev\",2,\"choices\",1,\"text\"]": {
+        "source": "Contribute to keep project alive",
+        "target": "Contribuir para manter o guia"
+      },
+      "[\"dev\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Community goodwill. Some risk remains.",
+        "target": "A equipe contribui para a revisão do guia. A continuidade do trabalho do outro grupo ainda precisa ser acompanhada."
+      },
+      "[\"dev\",2,\"choices\",2,\"text\"]": {
+        "source": "Monitor and hope",
+        "target": "Acompanhar e esperar"
+      },
+      "[\"dev\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Gather data. Make informed decision later.",
+        "target": "Observar primeiro; decisão depois."
+      },
+      "[\"dev\",3,\"intro\"]": {
+        "source": "Production incident last night. Systems recovered, but root cause unclear.",
+        "target": "Num negócio brasileiro de cenário fictício, um exercício com materiais administrativos inventados terminou inconsistente e a causa ainda não foi esclarecida."
+      },
+      "[\"dev\",3,\"aside\"]": {
+        "source": "Incidents are learning opportunities. If we actually learn.",
+        "target": "Sem causa esclarecida, o aprendizado do exercício fica pendente."
+      },
+      "[\"dev\",3,\"choices\",0,\"text\"]": {
+        "source": "Full post-mortem, systemic fixes",
+        "target": "Revisar o exercício por inteiro"
+      },
+      "[\"dev\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Won't happen again. Probably.",
+        "target": "A equipe revê o exercício e registra possíveis causas. Novas conferências podem ser necessárias."
+      },
+      "[\"dev\",3,\"choices\",1,\"text\"]": {
+        "source": "Quick fix, move on",
+        "target": "Corrigir rápido e seguir"
+      },
+      "[\"dev\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Patched. Root cause lingers.",
+        "target": "Correção rápida aplicada; a causa segue sem esclarecer."
+      },
+      "[\"dev\",3,\"choices\",2,\"text\"]": {
+        "source": "Blame individual, close ticket",
+        "target": "Atribuir culpa e encerrar"
+      },
+      "[\"dev\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Someone carries the blame. The root cause doesn't care.",
+        "target": "Culpa atribuída e registro encerrado; a causa não foi esclarecida."
+      },
+      "[\"dev\",4,\"intro\"]": {
+        "source": "New framework everyone's excited about. Migration would be significant.",
+        "target": "No cenário fictício de um negócio brasileiro, um novo formato para materiais administrativos inventados chama a atenção da equipe. Ela discute se experimenta o formato num recorte, aguarda outras revisões ou substitui os materiais atuais."
+      },
+      "[\"dev\",4,\"aside\"]": {
+        "source": "Shiny object syndrome is real. But so is technical stagnation.",
+        "target": "Formato novo atrai; comparar antes de substituir é o cuidado prudente."
+      },
+      "[\"dev\",4,\"choices\",0,\"text\"]": {
+        "source": "Pilot on new project first",
+        "target": "Experimentar o formato num recorte"
+      },
+      "[\"dev\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Learn before committing.",
+        "target": "A equipe compara um recorte com o formato proposto. A substituição ampla ainda não foi decidida."
+      },
+      "[\"dev\",4,\"choices\",1,\"text\"]": {
+        "source": "Wait for it to mature",
+        "target": "Aguardar e não substituir"
+      },
+      "[\"dev\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Let others find the bugs.",
+        "target": "Sem substituição; os materiais atuais seguem em uso."
+      },
+      "[\"dev\",4,\"choices\",2,\"text\"]": {
+        "source": "Full migration now",
+        "target": "Substituir tudo de imediato"
+      },
+      "[\"dev\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Rip the plaster off. Team learns fast. Modern stack.",
+        "target": "Materiais substituídos; a comparação ficou pendente."
+      },
+      "[\"dev\",5,\"intro\"]": {
+        "source": "A popular tool that lets non-programmers build apps wants to connect with our product. Their 50,000 users could start using our AI, but we'd have to help them when things go wrong.",
+        "target": "Num negócio brasileiro de cenário fictício, outro grupo pede para usar nossos exemplos de materiais administrativos inventados, com apoio ao preparo."
+      },
+      "[\"dev\",5,\"aside\"]": {
+        "source": "Partnerships like this are how platforms grow. But if their users have a bad experience, they'll blame us.",
+        "target": "Compartilhar exemplos exige apoio, e o apoio ao preparo consome tempo do próprio trabalho."
+      },
+      "[\"dev\",5,\"choices\",0,\"text\"]": {
+        "source": "Build a proper connection with full support",
+        "target": "Apoio amplo ao preparo"
+      },
+      "[\"dev\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Their 50k users can now access us.",
+        "target": "Apoio amplo ao preparo oferecido; o uso pelo grupo é decisão dele."
+      },
+      "[\"dev\",5,\"choices\",1,\"text\"]": {
+        "source": "Let them connect, but minimal help",
+        "target": "Apoio limitado ao preparo"
+      },
+      "[\"dev\",5,\"choices\",1,\"reaction\"]": {
+        "source": "They can build, we won't hand-hold.",
+        "target": "Exemplos cedidos com apoio mínimo; o restante fica com o grupo."
+      },
+      "[\"dev\",5,\"choices\",2,\"text\"]": {
+        "source": "Decline—focus on our own product",
+        "target": "Recusar e manter foco"
+      },
+      "[\"dev\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Control preserved. Stay focused.",
+        "target": "Recusa registrada; foco mantido no próprio preparo."
+      },
+      "[\"dev\",6,\"intro\"]": {
+        "source": "CloudScale wants us in their marketplace. Co-marketing budget available, but they take 20% of revenue.",
+        "target": "Um negócio brasileiro fictício organiza uma mostra conjunta de materiais administrativos inventados e pede que o preparo seja dividido entre os participantes."
+      },
+      "[\"dev\",6,\"aside\"]": {
+        "source": "Enterprise buyers trust the marketplace. The margin hit hurts though.",
+        "target": "Mostra conjunta exige divisão clara do preparo."
+      },
+      "[\"dev\",6,\"choices\",0,\"text\"]": {
+        "source": "Full marketplace integration",
+        "target": "Dedicação ampla ao preparo"
+      },
+      "[\"dev\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Enterprise procurement opens up. CloudScale logo helps.",
+        "target": "Preparo completo organizado: pastas conferidas, materiais revisados e roteiro de montagem escrito."
+      },
+      "[\"dev\",6,\"choices\",1,\"text\"]": {
+        "source": "Listed but not featured",
+        "target": "Preparo limitado ao essencial"
+      },
+      "[\"dev\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Present but not promoted.",
+        "target": "Só o essencial foi preparado; lacunas seguem declaradas."
+      },
+      "[\"dev\",6,\"choices\",2,\"text\"]": {
+        "source": "Stay independent",
+        "target": "Preparar os materiais separadamente"
+      },
+      "[\"dev\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Full control. Better margins.",
+        "target": "A equipe organiza seus materiais separadamente e revê o alcance do preparo interno."
+      },
+      "[\"dev\",7,\"intro\"]": {
+        "source": "A company we see as a competitor wants to integrate. Their product complements ours in unexpected ways.",
+        "target": "Um grupo de propostas parecidas de um negócio brasileiro fictício quer combinar guias administrativos complementares, com materiais inventados."
+      },
+      "[\"dev\",7,\"aside\"]": {
+        "source": "Coopetition is tricky. But together we solve a problem neither can alone.",
+        "target": "Guias combinados pedem fronteiras claras entre as partes."
+      },
+      "[\"dev\",7,\"choices\",0,\"text\"]": {
+        "source": "Strategic partnership with clear boundaries",
+        "target": "Combinar os guias com dedicação ampla"
+      },
+      "[\"dev\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Frenemies who serve customers better.",
+        "target": "Guias revisados, trechos divididos e ordem combinada entre as partes."
+      },
+      "[\"dev\",7,\"choices\",1,\"text\"]": {
+        "source": "Technical integration only",
+        "target": "Combinação parcial e limitada"
+      },
+      "[\"dev\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Works together, no joint marketing.",
+        "target": "Só os trechos complementares foram unidos; divergências seguem anotadas."
+      },
+      "[\"dev\",7,\"choices\",2,\"text\"]": {
+        "source": "Keep distance",
+        "target": "Manter os guias separados"
+      },
+      "[\"dev\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Clean strategy. Independence preserved.",
+        "target": "Cada guia segue no seu formato; nada foi combinado."
+      },
+      "[\"dev\",8,\"intro\"]": {
+        "source": "Stratton Consulting wants to train consultants on our platform. They'd sell implementation services to enterprises.",
+        "target": "Um grupo de um negócio brasileiro fictício quer aprender o roteiro para conduzir exercícios administrativos, com materiais inventados."
+      },
+      "[\"dev\",8,\"aside\"]": {
+        "source": "SIs open enterprise doors. But they also set customer expectations we might not meet.",
+        "target": "Aprender o roteiro depende da dedicação de quem pratica."
+      },
+      "[\"dev\",8,\"choices\",0,\"text\"]": {
+        "source": "Formal SI partner programme",
+        "target": "Treino amplo do roteiro"
+      },
+      "[\"dev\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Certified consultants selling us to FTSE 100.",
+        "target": "Ensaio completo conduzido: passos do roteiro praticados e anotados."
+      },
+      "[\"dev\",8,\"choices\",1,\"text\"]": {
+        "source": "Informal training, no certification",
+        "target": "Treino curto, só o básico"
+      },
+      "[\"dev\",8,\"choices\",1,\"reaction\"]": {
+        "source": "They can learn, no guarantees either way.",
+        "target": "Só os primeiros passos foram ensaiados; o restante fica por conta do grupo."
+      },
+      "[\"dev\",8,\"choices\",2,\"text\"]": {
+        "source": "Direct sales only",
+        "target": "Conduzir o preparo internamente"
+      },
+      "[\"dev\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Control the customer experience.",
+        "target": "A equipe trabalha com seu próprio roteiro, sem organizar o ensaio com o grupo."
+      },
+      "[\"dev\",9,\"intro\"]": {
+        "source": "Developers are asking for a proper SDK—a toolkit that makes it easier for them to build on our platform—plus better documentation. It's infrastructure work with no direct revenue.",
+        "target": "No cenário fictício de um negócio brasileiro, grupos pedem exemplos e instruções para usar guias administrativos inventados. A equipe discute o alcance do preparo desses materiais e quais pedidos atende."
+      },
+      "[\"dev\",9,\"aside\"]": {
+        "source": "Developer love compounds. But it's hard to measure and easy to deprioritise.",
+        "target": "Preparar exemplos exige atenção; os pedidos de esclarecimento podem continuar."
+      },
+      "[\"dev\",9,\"choices\",0,\"text\"]": {
+        "source": "Full SDK with examples and docs",
+        "target": "Guia completo com exemplos e instruções"
+      },
+      "[\"dev\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Developers build things we never imagined.",
+        "target": "Equipe prepara exemplos e instruções; pedidos de esclarecimento podem continuar surgindo."
+      },
+      "[\"dev\",9,\"choices\",1,\"text\"]": {
+        "source": "Improved docs, basic SDK",
+        "target": "Instruções básicas, exemplos poucos"
+      },
+      "[\"dev\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Not inspiring.",
+        "target": "Melhor que nada. O material fica curto."
+      },
+      "[\"dev\",9,\"choices\",2,\"text\"]": {
+        "source": "Focus on enterprise, not developers",
+        "target": "Focar em outras partes do material"
+      },
+      "[\"dev\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Enterprise deals. Bigger contracts.",
+        "target": "Foco deslocado. Os pedidos de exemplos seguem sem resposta."
+      },
+      "[\"dev\",10,\"intro\"]": {
+        "source": "SiliconCore wants to feature us as an optimisation case study. Free hardware credits, but we'd be in their marketing.",
+        "target": "Cenário fictício de negócio brasileiro: um parceiro oferece materiais administrativos inventados para revisão conjunta e apresentação de exemplo; em contrapartida, quer aparecer na apresentação."
+      },
+      "[\"dev\",10,\"aside\"]": {
+        "source": "GPU credits are expensive. Being seen as a 'SiliconCore shop' has implications.",
+        "target": "Revisar materiais de um parceiro também exige combinar como ele aparece na apresentação."
+      },
+      "[\"dev\",10,\"choices\",0,\"text\"]": {
+        "source": "Deep partnership with co-engineering",
+        "target": "Parceria ampla com revisão conjunta"
+      },
+      "[\"dev\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Optimised for their silicon. Their events feature us.",
+        "target": "A equipe organiza a revisão conjunta e o exemplo da apresentação. Ainda precisa conferir como identifica a participação do parceiro."
+      },
+      "[\"dev\",10,\"choices\",1,\"text\"]": {
+        "source": "Accept credits, minimal commitment",
+        "target": "Aceitar materiais, contrapartida mínima"
+      },
+      "[\"dev\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Free compute. Light branding.",
+        "target": "A equipe recebe os materiais e limita o preparo conjunto. A identificação do parceiro fica entre as combinações a conferir."
+      },
+      "[\"dev\",10,\"choices\",2,\"text\"]": {
+        "source": "Stay hardware-agnostic",
+        "target": "Seguir sem o parceiro"
+      },
+      "[\"dev\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Flexibility preserved. Pay full price.",
+        "target": "A equipe mantém seus materiais e revê o alcance do preparo interno."
+      },
+      "[\"dev\",11,\"intro\"]": {
+        "source": "Someone committed 'TODO: fix this later' to production. That was 18 months ago. It's now load-bearing.",
+        "target": "Cenário fictício de negócio brasileiro: alguém deixou uma nota de revisão pendente no material administrativo inventado, há muito tempo. Hoje outras partes do roteiro dependem dela."
+      },
+      "[\"dev\",11,\"aside\"]": {
+        "source": "Every codebase has its demons. This one has documentation.",
+        "target": "Todo material tem suas pendências. Este tem documentação."
+      },
+      "[\"dev\",11,\"choices\",0,\"text\"]": {
+        "source": "Heroic refactoring sprint",
+        "target": "Revisão ampla da nota pendente"
+      },
+      "[\"dev\",11,\"choices\",0,\"reaction\"]": {
+        "source": "It's fixed! Also, three other things broke. Then got fixed.",
+        "target": "Nota revisada; outras partes do roteiro ficam com trechos a acertar de novo."
+      },
+      "[\"dev\",11,\"choices\",1,\"text\"]": {
+        "source": "Add more TODOs explaining the first TODO",
+        "target": "Anotar mais pendências sobre a primeira"
+      },
+      "[\"dev\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Future archaeologists will understand. Team laughs.",
+        "target": "A nota recebe novas explicações, mas a revisão continua pendente. A equipe comenta a situação com humor."
+      },
+      "[\"dev\",11,\"choices\",2,\"text\"]": {
+        "source": "Rename it to 'WONTFIX: this is fine'",
+        "target": "Marcar a nota como adiada, sem mexer"
+      },
+      "[\"dev\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Technically not lying anymore. Team laughs.",
+        "target": "A equipe registra que a nota foi adiada e mantém o roteiro. O comentário vira motivo de brincadeira."
+      },
+      "[\"dev\",12,\"intro\"]": {
+        "source": "The deploy pipeline broke at 5pm Friday. Lead dev says it's 'a quick fix'. It's now 11pm.",
+        "target": "No cenário fictício de um negócio brasileiro, o preparo de um roteiro administrativo inventado fica interrompido no fim de um exercício. Uma parte da equipe considera o ajuste pequeno, mas as tentativas continuam sem esclarecer a dificuldade."
+      },
+      "[\"dev\",12,\"aside\"]": {
+        "source": "Some lessons are only learned the hard way. This is one of them.",
+        "target": "Interromper para revisar e insistir até concluir exigem combinações diferentes."
+      },
+      "[\"dev\",12,\"choices\",0,\"text\"]": {
+        "source": "Call it—everyone go home",
+        "target": "Suspender o preparo e registrar pendências"
+      },
+      "[\"dev\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Fresh eyes Monday. Team appreciates it.",
+        "target": "A equipe encerra a tentativa e registra o que precisa conferir antes de retomar."
+      },
+      "[\"dev\",12,\"choices\",1,\"text\"]": {
+        "source": "All-hands crisis mode",
+        "target": "Reunir a equipe para rever a dificuldade"
+      },
+      "[\"dev\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Fixed before midnight. Team bonds over shared victory.",
+        "target": "A equipe concentra o preparo na dificuldade encontrada. A conclusão ainda depende da revisão."
+      },
+      "[\"dev\",12,\"choices\",2,\"text\"]": {
+        "source": "Rollback and pretend this didn't happen",
+        "target": "Retomar a versão anterior do roteiro"
+      },
+      "[\"dev\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Nobody mentions Friday. Ever.",
+        "target": "A equipe volta ao roteiro anterior. A dificuldade da versão nova permanece sem revisão."
+      },
+      "[\"dev\",13,\"intro\"]": {
+        "source": "Intern pushed directly to main branch. In their defence, the tutorial they followed was from 2015.",
+        "target": "No cenário fictício de um negócio brasileiro, um participante novo altera um guia administrativo inventado que já estava em uso, seguindo um exemplo antigo. A equipe discute como revê a alteração e explica os critérios de conferência."
+      },
+      "[\"dev\",13,\"aside\"]": {
+        "source": "The staging environment exists for a reason. Now everyone knows that reason.",
+        "target": "Explicar o processo também faz parte de revisar uma alteração."
+      },
+      "[\"dev\",13,\"choices\",0,\"text\"]": {
+        "source": "Blameless post-mortem, fix permissions",
+        "target": "Examinar o ocorrido e rever as combinações"
+      },
+      "[\"dev\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Learning opportunity. Intern mortified but grows.",
+        "target": "A equipe revê a alteração sem atribuir culpa e registra como fará as próximas conferências."
+      },
+      "[\"dev\",13,\"choices\",1,\"text\"]": {
+        "source": "Quietly revert and update onboarding docs",
+        "target": "Retomar o guia e atualizar as instruções"
+      },
+      "[\"dev\",13,\"choices\",1,\"reaction\"]": {
+        "source": "What push? There was no push.",
+        "target": "A equipe retoma o guia anterior e ajusta as instruções de preparo. Ainda precisa conferir se ficaram claras."
+      },
+      "[\"dev\",13,\"choices\",2,\"text\"]": {
+        "source": "Make it a team-wide teaching moment",
+        "target": "Rever o caso em conjunto com a equipe"
+      },
+      "[\"dev\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Intern presents 'How I Broke Production' at Friday demos.",
+        "target": "A equipe usa o caso inventado para discutir o processo. A revisão do guia continua necessária."
+      },
+      "[\"dev\",14,\"intro\"]": {
+        "source": "Our support chatbot told a customer they qualified for a full refund under a policy we do not have. They kept the screenshot and, politely, they want the money. The harness was meant to keep the model on script. It improvised.",
+        "target": "No cenário fictício de um negócio brasileiro, uma resposta de um roteiro administrativo inventado promete entregar um conjunto de exemplos que a equipe não havia combinado. Outro grupo guarda uma cópia da resposta e pede os materiais. A equipe discute como revê o roteiro e atende ao pedido."
+      },
+      "[\"dev\",14,\"aside\"]": {
+        "source": "A tribunal has already made an airline honour what its chatbot invented. The screenshot is the contract now.",
+        "target": "Uma promessa no roteiro pode exceder o preparo que foi combinado."
+      },
+      "[\"dev\",14,\"choices\",0,\"text\"]": {
+        "source": "Rebuild the guardrails, test against hostile prompts",
+        "target": "Rever os limites do roteiro com exemplos difíceis"
+      },
+      "[\"dev\",14,\"choices\",0,\"reaction\"]": {
+        "source": "The bot now refuses politely and logs every near miss.",
+        "target": "A equipe compara respostas e registra os limites do roteiro. Outras lacunas ainda podem aparecer."
+      },
+      "[\"dev\",14,\"choices\",1,\"text\"]": {
+        "source": "Pay the refund, patch the prompt",
+        "target": "Preparar os exemplos e ajustar a resposta"
+      },
+      "[\"dev\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Customer placated. The patch holds until someone finds the next gap.",
+        "target": "A equipe prepara os exemplos pedidos e revê a resposta. Esse ajuste não substitui a conferência das demais respostas."
+      },
+      "[\"dev\",14,\"choices\",2,\"text\"]": {
+        "source": "Route money questions to a human",
+        "target": "Conferir pedidos com a equipe antes de responder"
+      },
+      "[\"dev\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Slower answers, no invented policies. The inbox grows.",
+        "target": "A equipe passa a examinar os pedidos antes de responder. As questões pendentes ainda precisam de preparo."
+      },
+      "[\"dev\",15,\"intro\"]": {
+        "source": "Your engineers want to build the feature 'properly.' Your advisor says ship a crude prototype now and learn. The feature list keeps growing.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe quer completar todas as partes de um roteiro administrativo inventado antes de apresentá-lo. Outro grupo sugere experimentar uma versão curta para comparar os exemplos. A lista de partes continua aumentando."
+      },
+      "[\"dev\",15,\"aside\"]": {
+        "source": "The minimum viable product (MVP) debate: perfectionism vs learning velocity. Ship something basic now, or build it properly first?",
+        "target": "Completar o roteiro e experimentar um recorte pedem dedicação diferente."
+      },
+      "[\"dev\",15,\"choices\",0,\"text\"]": {
+        "source": "Ship the MVP now, learn fast",
+        "target": "Experimentar uma versão curta do roteiro"
+      },
+      "[\"dev\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Customers gave feedback. Some of it hurts. All of it helps.",
+        "target": "A equipe apresenta um recorte e registra dúvidas recebidas. Essas dúvidas ainda precisam de revisão."
+      },
+      "[\"dev\",15,\"choices\",1,\"text\"]": {
+        "source": "Build it right first",
+        "target": "Completar o roteiro antes da apresentação"
+      },
+      "[\"dev\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Beautiful code. But still no customer feedback.",
+        "target": "A equipe se dedica ao roteiro completo. A comparação com o outro grupo ainda não ocorreu."
+      },
+      "[\"dev\",15,\"choices\",2,\"text\"]": {
+        "source": "One more sprint, then ship",
+        "target": "Preparar mais um recorte antes de apresentar"
+      },
+      "[\"dev\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Compromise reached. Team aligned.",
+        "target": "A equipe combina um recorte adicional. O retorno do outro grupo continua pendente."
+      },
+      "[\"dev\",16,\"intro\"]": {
+        "source": "Customer interviews reveal nobody wants your main feature. But they love a side feature you built as an afterthought.",
+        "target": "No cenário fictício de um negócio brasileiro, ao comparar exemplos administrativos inventados, um grupo se interessa mais por uma parte secundária do roteiro do que por sua parte principal. A equipe discute o que revê a partir desse retorno."
+      },
+      "[\"dev\",16,\"aside\"]": {
+        "source": "The pivot question. Your vision vs the market's verdict.",
+        "target": "O retorno recebido pode levar a equipe a rever o alcance do roteiro."
+      },
+      "[\"dev\",16,\"choices\",0,\"text\"]": {
+        "source": "Pivot to the side feature",
+        "target": "Concentrar a revisão na parte secundária"
+      },
+      "[\"dev\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Painful to pivot, but metrics immediately improve. The market has spoken.",
+        "target": "A equipe reorganiza o roteiro em torno dessa parte. Ainda precisa conferir se o novo recorte atende ao exercício."
+      },
+      "[\"dev\",16,\"choices\",1,\"text\"]": {
+        "source": "Double down on the vision",
+        "target": "Manter a parte principal do roteiro"
+      },
+      "[\"dev\",16,\"choices\",1,\"reaction\"]": {
+        "source": "You believe. But believing isn't validating.",
+        "target": "A equipe mantém o recorte principal. O retorno sobre a parte secundária continua sem orientar a revisão."
+      },
+      "[\"dev\",16,\"choices\",2,\"text\"]": {
+        "source": "Run both in parallel",
+        "target": "Rever as duas partes em paralelo"
+      },
+      "[\"dev\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Ambitious scope. Team rises to the challenge. Options stay open.",
+        "target": "A equipe prepara comparações das duas partes. O alcance maior exige dividir a atenção."
+      },
+      "[\"dev\",17,\"intro\"]": {
+        "source": "Downloads are up 300%! But active users and revenue are flat. The board loves the download number.",
+        "target": "No cenário fictício de um negócio brasileiro, circulam mais cópias de materiais administrativos inventados, mas os registros de uso no exercício e de revisão permanecem iguais. O grupo que acompanha o preparo destaca apenas a circulação."
+      },
+      "[\"dev\",17,\"aside\"]": {
+        "source": "Vanity metrics vs actionable metrics. One feels good, one is useful.",
+        "target": "Quantidade de cópias e registros de uso mostram aspectos diferentes."
+      },
+      "[\"dev\",17,\"choices\",0,\"text\"]": {
+        "source": "Report the honest metrics",
+        "target": "Apresentar circulação, uso e pendências"
+      },
+      "[\"dev\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward board meeting. But now focused on what matters.",
+        "target": "A equipe apresenta os registros juntos e explicita o que ainda não foi observado."
+      },
+      "[\"dev\",17,\"choices\",1,\"text\"]": {
+        "source": "Celebrate the wins publicly",
+        "target": "Destacar apenas a circulação dos materiais"
+      },
+      "[\"dev\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Great press. Investors impressed. Problem unsolved.",
+        "target": "A equipe destaca as cópias distribuídas. Uso e revisão continuam sem esclarecimento."
+      },
+      "[\"dev\",17,\"choices\",2,\"text\"]": {
+        "source": "Dig into cohort analysis",
+        "target": "Comparar os registros de uso do exercício"
+      },
+      "[\"dev\",17,\"choices\",2,\"reaction\"]": {
+        "source": "You finally understand where users drop off.",
+        "target": "A equipe compara os registros para localizar lacunas. Ainda precisa conferir suas interpretações."
+      },
+      "[\"dev\",18,\"intro\"]": {
+        "source": "Your biggest paying customer wants a feature that would take the product in a completely different direction.",
+        "target": "No cenário fictício de um negócio brasileiro, um parceiro que participa do exercício pede uma alteração ampla no roteiro administrativo inventado. A mudança levaria o preparo para um rumo diferente do que a equipe havia combinado."
+      },
+      "[\"dev\",18,\"aside\"]": {
+        "source": "Customer development tension: serve one well, or build for many?",
+        "target": "Atender ao pedido também pode mudar o alcance do roteiro."
+      },
+      "[\"dev\",18,\"choices\",0,\"text\"]": {
+        "source": "Build what they want",
+        "target": "Preparar a alteração solicitada"
+      },
+      "[\"dev\",18,\"choices\",0,\"reaction\"]": {
+        "source": "They're happy. But is this still your product?",
+        "target": "A equipe trabalha na alteração ampla. Ainda precisa rever sua relação com o roteiro anterior."
+      },
+      "[\"dev\",18,\"choices\",1,\"text\"]": {
+        "source": "Decline politely",
+        "target": "Recusar a alteração e manter o recorte"
+      },
+      "[\"dev\",18,\"choices\",1,\"reaction\"]": {
+        "source": "They're disappointed. Vision preserved.",
+        "target": "A equipe mantém o recorte e explica a recusa. O pedido do parceiro permanece sem atendimento."
+      },
+      "[\"dev\",18,\"choices\",2,\"text\"]": {
+        "source": "Propose a compromise",
+        "target": "Propor uma alteração limitada"
+      },
+      "[\"dev\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Nobody's thrilled. Relationship survives.",
+        "target": "A equipe prepara uma alternativa menor. A combinação com o parceiro ainda precisa ser conferida."
+      },
+      "[\"dev\",19,\"intro\"]": {
+        "source": "Investors are pushing you to hire aggressively and expand. But you haven't found product-market fit yet.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo pede que a equipe amplie o preparo de materiais administrativos inventados. Os exemplos ainda não foram comparados no exercício, e a equipe discute como distribui a dedicação."
+      },
+      "[\"dev\",19,\"aside\"]": {
+        "source": "Premature scaling is a startup killer. But so is moving too slowly.",
+        "target": "Ampliar o preparo antes da comparação aumenta as frentes a conferir."
+      },
+      "[\"dev\",19,\"choices\",0,\"text\"]": {
+        "source": "Scale as they suggest",
+        "target": "Ampliar o preparo conforme o pedido"
+      },
+      "[\"dev\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Runway shortened. Pressure intensified. Still searching for fit.",
+        "target": "A equipe amplia as frentes de preparo. A comparação dos exemplos continua pendente."
+      },
+      "[\"dev\",19,\"choices\",1,\"text\"]": {
+        "source": "Stay lean until fit",
+        "target": "Manter um recorte pequeno para comparar"
+      },
+      "[\"dev\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Investors grumble. Runway intact.",
+        "target": "A equipe concentra o preparo no recorte atual. O pedido de ampliação permanece sem atendimento."
+      },
+      "[\"dev\",19,\"choices\",2,\"text\"]": {
+        "source": "Hire for learning, not growth",
+        "target": "Dividir a revisão para entender o exercício"
+      },
+      "[\"dev\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Two customer development specialists join. Answers come faster.",
+        "target": "A equipe divide a revisão dos exemplos. As conclusões ainda dependem da comparação."
+      },
+      "[\"dev\",20,\"intro\"]": {
+        "source": "You could automate the service, or manually deliver it yourself to the first 10 customers and learn what they actually need.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe pode preparar cada exemplo administrativo inventado separadamente com os participantes do exercício ou adotar um roteiro padronizado desde o início. Ela discute como compara as necessidades de preparo."
+      },
+      "[\"dev\",20,\"aside\"]": {
+        "source": "Sometimes the best way to learn what customers need is to do it manually first—even if it doesn't scale.",
+        "target": "Examinar os exemplos separadamente pode revelar limites do roteiro."
+      },
+      "[\"dev\",20,\"choices\",0,\"text\"]": {
+        "source": "Do it manually first",
+        "target": "Preparar os exemplos separadamente primeiro"
+      },
+      "[\"dev\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Exhausting, but learned more in a week than months of planning.",
+        "target": "A equipe prepara os exemplos um a um e registra diferenças. Ainda precisa comparar o que observou."
+      },
+      "[\"dev\",20,\"choices\",1,\"text\"]": {
+        "source": "Build the automation",
+        "target": "Preparar um roteiro padronizado"
+      },
+      "[\"dev\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Elegant solution. Customers use it differently than expected.",
+        "target": "A equipe organiza o roteiro padrão. O modo como os participantes usam os exemplos ainda precisa ser conferido."
+      },
+      "[\"dev\",20,\"choices\",2,\"text\"]": {
+        "source": "Hybrid approach",
+        "target": "Combinar roteiro padrão e preparo separado"
+      },
+      "[\"dev\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Half-automated, half-manual. Awkward but informative.",
+        "target": "A equipe usa o roteiro em parte do exercício e revê exemplos separadamente. As diferenças continuam em comparação."
+      },
+      "[\"dev\",21,\"intro\"]": {
+        "source": "The A/B test results are in. Version B converts 40% better, but your team thinks it's ugly and 'not on brand.'",
+        "target": "No cenário fictício de um negócio brasileiro, na comparação de duas versões de um guia administrativo inventado, uma delas parece mais clara para o grupo que acompanha o exercício. A equipe prefere a aparência da outra versão e discute qual recorte revê."
+      },
+      "[\"dev\",21,\"aside\"]": {
+        "source": "Data vs instinct. The eternal product debate.",
+        "target": "Aparência familiar e clareza percebida podem apontar caminhos diferentes."
+      },
+      "[\"dev\",21,\"choices\",0,\"text\"]": {
+        "source": "Go with the data",
+        "target": "Usar a versão indicada pela comparação"
+      },
+      "[\"dev\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Team sulks. Conversions soar.",
+        "target": "A equipe escolhe a versão indicada e registra as ressalvas sobre sua aparência. Ainda precisa rever os exemplos."
+      },
+      "[\"dev\",21,\"choices\",1,\"text\"]": {
+        "source": "Trust the team's instincts",
+        "target": "Manter a versão preferida pela equipe"
+      },
+      "[\"dev\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Beautiful product. Customers still not converting.",
+        "target": "A equipe mantém a versão de aparência familiar. As dúvidas apontadas na comparação permanecem abertas."
+      },
+      "[\"dev\",21,\"choices\",2,\"text\"]": {
+        "source": "Iterate on B's insights",
+        "target": "Rever a versão a partir da comparação"
+      },
+      "[\"dev\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Find the why behind the what. Best of both.",
+        "target": "A equipe examina os trechos considerados claros e revê a apresentação. O resultado ainda precisa ser comparado."
+      },
+      "[\"dev\",22,\"intro\"]": {
+        "source": "Your progress can't be measured in traditional metrics yet. How do you show the board you're learning, not just burning?",
+        "target": "No cenário fictício de um negócio brasileiro, os registros do exercício ainda não mostram como o preparo de materiais administrativos inventados avançou. A equipe precisa explicar ao grupo de acompanhamento o que comparou, o que aprendeu e o que ficou pendente."
+      },
+      "[\"dev\",22,\"aside\"]": {
+        "source": "Innovation accounting: measuring validated learning, not vanity metrics.",
+        "target": "Registrar o que foi conferido ajuda a delimitar o que ainda falta examinar."
+      },
+      "[\"dev\",22,\"choices\",0,\"text\"]": {
+        "source": "Implement learning milestones",
+        "target": "Definir etapas de revisão com registros"
+      },
+      "[\"dev\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Board sceptical at first, then engaged. Learning becomes the currency.",
+        "target": "A equipe organiza etapas e registra o que compara em cada uma. As conclusões ainda precisam ser examinadas."
+      },
+      "[\"dev\",22,\"choices\",1,\"text\"]": {
+        "source": "Focus on revenue anyway",
+        "target": "Priorizar os materiais já usados no exercício"
+      },
+      "[\"dev\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Revenue validates demand. Money talks louder than metrics.",
+        "target": "A equipe prioriza os materiais em uso. A explicação do que aprendeu com a revisão continua pendente."
+      },
+      "[\"dev\",22,\"choices\",2,\"text\"]": {
+        "source": "Ask for patience",
+        "target": "Pedir mais espaço para continuar o preparo"
+      },
+      "[\"dev\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Trust account depleted. Clock ticking louder.",
+        "target": "A equipe pede que o preparo continue. Ainda precisa apresentar registros que esclareçam seu avanço."
+      },
+      "[\"dev\",23,\"intro\"]": {
+        "source": "Before writing any code, your designer wants to draw what the finished experience looks like - frame by frame, like a film storyboard.",
+        "target": "No cenário fictício de um negócio brasileiro, antes de preparar um novo roteiro administrativo inventado, alguém propõe desenhar a sequência do exercício, parte por parte. A equipe discute como representa os exemplos e as etapas de uso."
+      },
+      "[\"dev\",23,\"aside\"]": {
+        "source": "A sketch takes minutes. Building the wrong thing takes months.",
+        "target": "Representar a sequência permite comparar interpretações antes do preparo."
+      },
+      "[\"dev\",23,\"choices\",0,\"text\"]": {
+        "source": "Detailed visual walkthrough",
+        "target": "Desenhar a sequência do exercício"
+      },
+      "[\"dev\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Engineers and designers finally see the same thing. Arguments halved.",
+        "target": "A equipe desenha as etapas e compara interpretações. Ainda precisa conferir o roteiro preparado."
+      },
+      "[\"dev\",23,\"choices\",1,\"text\"]": {
+        "source": "Written description instead",
+        "target": "Descrever a sequência por escrito"
+      },
+      "[\"dev\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Everyone imagines something different. Discover this at launch.",
+        "target": "A equipe registra a descrição escrita. Diferenças de interpretação ainda podem aparecer no exercício."
+      },
+      "[\"dev\",23,\"choices\",2,\"text\"]": {
+        "source": "Build and figure it out",
+        "target": "Preparar o roteiro e esclarecer durante o uso"
+      },
+      "[\"dev\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Ship fast. Fix the confusion later.",
+        "target": "A equipe começa o preparo sem comparar a sequência antes. As dúvidas ficam para o exercício."
+      },
+      "[\"dev\",24,\"intro\"]": {
+        "source": "Before building anything, your designer wants to test paper drawings with real users. Engineers think it's a waste when they could just build it.",
+        "target": "No cenário fictício de um negócio brasileiro, antes de preparar um guia administrativo inventado, uma parte da equipe propõe comparar desenhos em papel com os participantes do exercício. Outra parte prefere começar logo o preparo do guia."
+      },
+      "[\"dev\",24,\"aside\"]": {
+        "source": "Paper is cheap. Code is expensive. Learning which ideas are wrong costs less on paper.",
+        "target": "Comparar um esboço e preparar o guia completo exigem dedicação diferente."
+      },
+      "[\"dev\",24,\"choices\",0,\"text\"]": {
+        "source": "Paper testing with 10 users",
+        "target": "Comparar esboços em papel com o grupo"
+      },
+      "[\"dev\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Killed three features before writing a line of code. Saved months.",
+        "target": "A equipe compara os esboços e registra partes a rever antes do preparo. O guia ainda precisa ser conferido."
+      },
+      "[\"dev\",24,\"choices\",1,\"text\"]": {
+        "source": "Quick digital mockup",
+        "target": "Preparar uma apresentação visual breve"
+      },
+      "[\"dev\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Looks real. Users gave feedback on colours, not flows.",
+        "target": "O grupo comenta a aparência da apresentação. A sequência de uso ainda precisa ser examinada."
+      },
+      "[\"dev\",24,\"choices\",2,\"text\"]": {
+        "source": "Just build it",
+        "target": "Começar o preparo do guia completo"
+      },
+      "[\"dev\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Real code. Expensive to change later.",
+        "target": "A equipe começa o guia sem comparar os esboços. Alterações posteriores exigirão retomar partes já preparadas."
+      },
+      "[\"dev\",25,\"intro\"]": {
+        "source": "A power user has hacked together exactly the feature you were planning to build. It's rough but works. They're sharing it in forums.",
+        "target": "No cenário fictício de um negócio brasileiro, um participante do exercício prepara por conta própria uma versão de um roteiro administrativo inventado que a equipe pretendia elaborar. O roteiro está incompleto, mas já circula entre os grupos."
+      },
+      "[\"dev\",25,\"aside\"]": {
+        "source": "Users often innovate ahead of manufacturers. Their solutions reveal real needs.",
+        "target": "A versão de outro participante pode trazer dúvidas que a equipe ainda não examinou."
+      },
+      "[\"dev\",25,\"choices\",0,\"text\"]": {
+        "source": "Hire them as consultant",
+        "target": "Convidar o participante para preparar em conjunto"
+      },
+      "[\"dev\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Their solution becomes your feature. They know edge cases you'd never find.",
+        "target": "A equipe prepara o roteiro com o participante e registra situações que ele encontrou. Ainda precisa conferir o conjunto."
+      },
+      "[\"dev\",25,\"choices\",1,\"text\"]": {
+        "source": "Study their approach",
+        "target": "Examinar como o participante preparou o roteiro"
+      },
+      "[\"dev\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Learn from it. Build your own version.",
+        "target": "A equipe examina a versão compartilhada e prepara uma versão própria. As diferenças ainda precisam de comparação."
+      },
+      "[\"dev\",25,\"choices\",2,\"text\"]": {
+        "source": "Build it yourself properly",
+        "target": "Preparar o roteiro sem usar a versão compartilhada"
+      },
+      "[\"dev\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Clean implementation. Took longer than expected.",
+        "target": "A equipe organiza sua própria versão. Continua sem examinar as situações registradas pelo participante."
+      },
+      "[\"dev\",26,\"intro\"]": {
+        "source": "A customer using your product in extreme conditions - remote locations, unusual scale, harsh environments - has pushed it far beyond normal limits. They've found every weakness.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo usa um roteiro administrativo inventado com exemplos muito diferentes dos previstos no exercício e encontra várias lacunas. A equipe discute como examina esse uso."
+      },
+      "[\"dev\",26,\"aside\"]": {
+        "source": "Extreme users stress-test your product for free. What breaks there works everywhere else.",
+        "target": "Um exemplo fora do recorte previsto pode revelar limites sem representar todos os usos."
+      },
+      "[\"dev\",26,\"choices\",0,\"text\"]": {
+        "source": "Site visit to their operation",
+        "target": "Acompanhar o exercício do outro grupo"
+      },
+      "[\"dev\",26,\"choices\",0,\"reaction\"]": {
+        "source": "What breaks there works everywhere else. Invaluable stress testing.",
+        "target": "A equipe observa o uso e registra as lacunas no contexto em que apareceram. Ainda precisa comparar outros exemplos."
+      },
+      "[\"dev\",26,\"choices\",1,\"text\"]": {
+        "source": "Remote debrief call",
+        "target": "Conversar sobre os registros do exercício"
+      },
+      "[\"dev\",26,\"choices\",1,\"reaction\"]": {
+        "source": "Good feedback. Missed the context.",
+        "target": "A equipe recebe relatos das lacunas. Alguns detalhes do uso ainda precisam de esclarecimento."
+      },
+      "[\"dev\",26,\"choices\",2,\"text\"]": {
+        "source": "Note for future reference",
+        "target": "Registrar o caso para uma revisão posterior"
+      },
+      "[\"dev\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Edge case documented. Not prioritised.",
+        "target": "A equipe guarda o registro do caso. As lacunas continuam sem prioridade na revisão."
+      },
+      "[\"dev\",27,\"intro\"]": {
+        "source": "Power users are asking for tools to extend and customise your product themselves. Building this means less control over the user experience.",
+        "target": "No cenário fictício de um negócio brasileiro, participantes pedem materiais para adaptar por conta própria um roteiro administrativo inventado. A equipe discute quanto do preparo compartilha e como acompanha versões diferentes."
+      },
+      "[\"dev\",27,\"aside\"]": {
+        "source": "Give users tools and they build things you never imagined. Some better than your ideas.",
+        "target": "Compartilhar formas de preparo também abre espaço para versões que a equipe não planejou."
+      },
+      "[\"dev\",27,\"choices\",0,\"text\"]": {
+        "source": "Full customisation toolkit",
+        "target": "Compartilhar o conjunto completo para adaptação"
+      },
+      "[\"dev\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Users build things you never imagined. Some are better than your ideas.",
+        "target": "Os participantes passam a preparar versões próprias. A equipe ainda precisa comparar os novos recortes."
+      },
+      "[\"dev\",27,\"choices\",1,\"text\"]": {
+        "source": "Limited API access",
+        "target": "Compartilhar apenas partes delimitadas do roteiro"
+      },
+      "[\"dev\",27,\"choices\",1,\"reaction\"]": {
+        "source": "Controlled extensibility. Power users satisfied.",
+        "target": "A equipe disponibiliza um recorte para adaptação. Os pedidos que ultrapassam esse limite continuam pendentes."
+      },
+      "[\"dev\",27,\"choices\",2,\"text\"]": {
+        "source": "Keep it closed",
+        "target": "Manter o roteiro sem adaptações dos participantes"
+      },
+      "[\"dev\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Consistent experience. Power users frustrated.",
+        "target": "A equipe mantém uma única forma de preparo. Os pedidos de adaptação permanecem sem atendimento."
+      },
+      "[\"dev\",28,\"intro\"]": {
+        "source": "Two of the team built a working prototype over the weekend using company equipment. Nobody asked them to. It solves a problem you'd shelved as 'too hard.' They look nervous showing you.",
+        "target": "No cenário fictício de um negócio brasileiro, duas pessoas da equipe apresentam uma versão de um roteiro administrativo inventado preparada sem combinação prévia. Ela trata de uma dificuldade que havia sido deixada de lado, mas ainda não passou pela revisão do grupo."
+      },
+      "[\"dev\",28,\"aside\"]": {
+        "source": "Unauthorised initiative. Against process. Also exactly what you needed.",
+        "target": "Uma iniciativa fora do combinado pede exame do material e das formas de trabalho."
+      },
+      "[\"dev\",28,\"choices\",0,\"text\"]": {
+        "source": "Celebrate and fund it",
+        "target": "Reconhecer a iniciativa e ampliar o preparo"
+      },
+      "[\"dev\",28,\"choices\",0,\"reaction\"]": {
+        "source": "Word spreads: initiative gets rewarded here.",
+        "target": "A equipe reconhece a iniciativa e dedica mais preparo à versão. Ainda precisa conferir o material e os próximos combinados."
+      },
+      "[\"dev\",28,\"choices\",1,\"text\"]": {
+        "source": "Adopt it, redirect them to priorities",
+        "target": "Aproveitar a versão e retomar as prioridades"
+      },
+      "[\"dev\",28,\"choices\",1,\"reaction\"]": {
+        "source": "Good outcome. Mixed message about initiative.",
+        "target": "A equipe incorpora a versão à revisão e pede que as pessoas retomem o recorte combinado. O espaço para novas iniciativas precisa ficar claro."
+      },
+      "[\"dev\",28,\"choices\",2,\"text\"]": {
+        "source": "Remind them about authorised projects",
+        "target": "Reforçar a combinação e manter o roteiro previsto"
+      },
+      "[\"dev\",28,\"choices\",2,\"reaction\"]": {
+        "source": "Process followed. Prototype gathers dust.",
+        "target": "A equipe retoma o preparo previsto. A versão apresentada fica sem continuidade."
+      },
+      "[\"dev\",29,\"intro\"]": {
+        "source": "Engineers have been coming in on weekends to work on 'their own stuff' using company servers. You're not paying them for it. They're not asking permission. Some of it looks promising.",
+        "target": "No cenário fictício de um negócio brasileiro, integrantes da equipe usam materiais do exercício para preparar roteiros administrativos inventados por iniciativa própria, sem combinar com o grupo. Algumas propostas despertam interesse, e a equipe discute como organiza esse preparo."
+      },
+      "[\"dev\",29,\"aside\"]": {
+        "source": "Grey area. Liability concerns. But also where the interesting ideas live.",
+        "target": "O interesse pelas propostas não esclarece, por si só, o que foi combinado."
+      },
+      "[\"dev\",29,\"choices\",0,\"text\"]": {
+        "source": "Make it official with hackathons",
+        "target": "Organizar um encontro para preparar as propostas"
+      },
+      "[\"dev\",29,\"choices\",0,\"reaction\"]": {
+        "source": "Channel the energy. Add pizza and prizes.",
+        "target": "A equipe reúne as propostas em uma atividade combinada. Os materiais produzidos ainda precisam de revisão."
+      },
+      "[\"dev\",29,\"choices\",1,\"text\"]": {
+        "source": "Set boundaries but allow it",
+        "target": "Permitir o preparo com limites explícitos"
+      },
+      "[\"dev\",29,\"choices\",1,\"reaction\"]": {
+        "source": "Grey area preserved. Innovation continues.",
+        "target": "A equipe combina limites para as propostas. Continua necessário conferir como esses limites serão aplicados."
+      },
+      "[\"dev\",29,\"choices\",2,\"text\"]": {
+        "source": "Lock down after-hours access",
+        "target": "Restringir os materiais ao preparo combinado"
+      },
+      "[\"dev\",29,\"choices\",2,\"reaction\"]": {
+        "source": "Liability concerns addressed. Weekend warriors stop coming.",
+        "target": "A equipe restringe os materiais às atividades previstas. As propostas separadas deixam de usar esse espaço."
+      },
+      "[\"dev\",30,\"intro\"]": {
+        "source": "Your research lead wants to work separately from the rest - different location, no standups, no roadmap. They'll either fail completely or build something amazing.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa da equipe pede para preparar um roteiro administrativo inventado separadamente, sem os encontros e a sequência adotados pelo grupo. A proposta amplia a autonomia e reduz o acompanhamento durante o preparo."
+      },
+      "[\"dev\",30,\"aside\"]": {
+        "source": "Skunkworks. High risk, high reward. Also sets a precedent.",
+        "target": "Trabalho separado e acompanhamento conjunto distribuem as incertezas de modos diferentes."
+      },
+      "[\"dev\",30,\"choices\",0,\"text\"]": {
+        "source": "Approve the skunkworks",
+        "target": "Autorizar o preparo separado do roteiro"
+      },
+      "[\"dev\",30,\"choices\",0,\"reaction\"]": {
+        "source": "Three months later, they demo something impossible. Main team is jealous.",
+        "target": "A pessoa apresenta uma versão preparada à parte. A relação com o trabalho do restante da equipe ainda precisa ser discutida."
+      },
+      "[\"dev\",30,\"choices\",1,\"text\"]": {
+        "source": "Keep them integrated but protected",
+        "target": "Manter a pessoa no grupo com um recorte próprio"
+      },
+      "[\"dev\",30,\"choices\",1,\"reaction\"]": {
+        "source": "Some autonomy. Some oversight. Medium results.",
+        "target": "A equipe combina um recorte de preparo com acompanhamento. A divisão entre autonomia e revisão continua em exame."
+      },
+      "[\"dev\",30,\"choices\",2,\"text\"]": {
+        "source": "Everyone follows the same process",
+        "target": "Manter a mesma sequência de preparo para todos"
+      },
+      "[\"dev\",30,\"choices\",2,\"reaction\"]": {
+        "source": "Fair. Consistent. Safe. Predictable.",
+        "target": "A equipe mantém a sequência comum. A proposta de trabalho separado fica sem continuidade."
+      },
+      "[\"dev\",31,\"intro\"]": {
+        "source": "Our research lead raised concerns about the product timeline weeks ago. The rest of us waved it off. They were right. Now nobody wants to be the one who speaks up.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa da equipe havia apontado uma dificuldade no preparo de um roteiro administrativo inventado, mas o grupo deixou o aviso de lado. A dificuldade apareceu no exercício, e agora as pessoas hesitam em levantar novas dúvidas."
+      },
+      "[\"dev\",31,\"aside\"]": {
+        "source": "What happens when warnings are ignored teaches everyone what's actually valued here.",
+        "target": "A forma de tratar um aviso ignorado influencia a disposição para apontar outras dúvidas."
+      },
+      "[\"dev\",31,\"choices\",0,\"text\"]": {
+        "source": "Public acknowledgment she was right",
+        "target": "Reconhecer o aviso diante da equipe"
+      },
+      "[\"dev\",31,\"choices\",0,\"reaction\"]": {
+        "source": "Uncomfortable meeting. But now people know warnings are valued.",
+        "target": "A equipe reconhece que deixou o aviso de lado e registra como examinará novas dúvidas. Ainda precisa aplicar esse combinado."
+      },
+      "[\"dev\",31,\"choices\",1,\"text\"]": {
+        "source": "Quiet word of thanks",
+        "target": "Agradecer à pessoa em uma conversa reservada"
+      },
+      "[\"dev\",31,\"choices\",1,\"reaction\"]": {
+        "source": "She knows. Others don't. Pattern continues.",
+        "target": "A pessoa recebe o agradecimento. O restante da equipe continua sem discutir como o aviso foi tratado."
+      },
+      "[\"dev\",31,\"choices\",2,\"text\"]": {
+        "source": "Move on, focus on fixing it",
+        "target": "Concentrar a revisão apenas na dificuldade atual"
+      },
+      "[\"dev\",31,\"choices\",2,\"reaction\"]": {
+        "source": "No blame. Also no learning. Next warning stays silent.",
+        "target": "A equipe revê o material, mas deixa sem discussão a forma como recebeu o aviso."
+      },
+      "[\"dev\",32,\"intro\"]": {
+        "source": "Your team keeps choosing the conservative option in every decision. When you dig deeper, you learn they're afraid of being blamed if bold choices fail.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe evita alterar um roteiro administrativo inventado mesmo quando encontra limites no exercício. Em conversa, as pessoas dizem recear ser responsabilizadas se uma proposta diferente não funcionar."
+      },
+      "[\"dev\",32,\"aside\"]": {
+        "source": "Fear kills innovation quietly. Nobody announces they're playing it safe.",
+        "target": "Receio de culpa pode limitar o que a equipe se dispõe a experimentar."
+      },
+      "[\"dev\",32,\"choices\",0,\"text\"]": {
+        "source": "Celebrate a smart failure publicly",
+        "target": "Discutir um ensaio que não funcionou como previsto"
+      },
+      "[\"dev\",32,\"choices\",0,\"reaction\"]": {
+        "source": "Redefine what gets punished. Risk-taking returns.",
+        "target": "A equipe examina o ensaio sem atribuir culpa e registra o que aprendeu. A confiança nesse modo de revisão ainda precisa se formar."
+      },
+      "[\"dev\",32,\"choices\",1,\"text\"]": {
+        "source": "Explicitly authorise bold experiments",
+        "target": "Combinar espaço para experimentar outros recortes"
+      },
+      "[\"dev\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Permission given. Fear remains until proven safe.",
+        "target": "A equipe autoriza ensaios diferentes. As pessoas ainda aguardam como serão tratadas as dificuldades encontradas."
+      },
+      "[\"dev\",32,\"choices\",2,\"text\"]": {
+        "source": "Accept cautious culture for now",
+        "target": "Manter por enquanto o preparo mais conhecido"
+      },
+      "[\"dev\",32,\"choices\",2,\"reaction\"]": {
+        "source": "Steady progress. Breakthrough unlikely.",
+        "target": "A equipe mantém o roteiro conhecido. Outras possibilidades continuam sem comparação."
+      },
+      "[\"dev\",33,\"intro\"]": {
+        "source": "Your ADHD engineer just saved a major deadline with 72 hours of hyperfocused brilliance. Now they're crashed - exhausted, behind on everything else, feeling like a failure despite being the hero. The team is annoyed about the dropped balls, unaware of what just happened.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa da equipe concentrou o preparo em uma parte difícil de um roteiro administrativo inventado. Outras tarefas ficaram pendentes, e ela relata cansaço. O grupo cobra as pendências sem conhecer como o trabalho foi distribuído."
+      },
+      "[\"dev\",33,\"aside\"]": {
+        "source": "The same trait that saved you is now making them look unreliable. Whose job is it to explain?",
+        "target": "Concluir uma parte do preparo não elimina as demais tarefas nem a necessidade de combinar sua distribuição."
+      },
+      "[\"dev\",33,\"choices\",0,\"text\"]": {
+        "source": "Explain to team, protect recovery time",
+        "target": "Rever a distribuição e combinar uma pausa no preparo"
+      },
+      "[\"dev\",33,\"choices\",0,\"reaction\"]": {
+        "source": "Team understands. They build in buffer for the next burst.",
+        "target": "A equipe revê as tarefas e combina uma pausa com a pessoa. As pendências ficam registradas para redistribuição e conferência."
+      },
+      "[\"dev\",33,\"choices\",1,\"text\"]": {
+        "source": "Quietly cover for them, hope they recover",
+        "target": "Assumir discretamente parte das pendências"
+      },
+      "[\"dev\",33,\"choices\",1,\"reaction\"]": {
+        "source": "You absorb the stress. They never know you noticed.",
+        "target": "Você assume parte das tarefas. A equipe continua sem discutir como o preparo havia sido distribuído."
+      },
+      "[\"dev\",33,\"choices\",2,\"text\"]": {
+        "source": "Deadline's done, they need to catch up",
+        "target": "Pedir que a pessoa retome logo as pendências"
+      },
+      "[\"dev\",33,\"choices\",2,\"reaction\"]": {
+        "source": "Hero on Tuesday, problem by Friday. They start hiding the crashes.",
+        "target": "A pessoa recebe nova cobrança. A distribuição do trabalho e o cansaço relatado permanecem sem discussão."
+      },
+      "[\"dev\",34,\"intro\"]": {
+        "source": "In a client meeting, technical questions keep going to the most junior man in the room instead of the woman who leads the technical work, sitting next to him. He keeps deferring to her. The client doesn't get it. She's handling it professionally but you can see she's exhausted by this. Third time this month.",
+        "target": "No cenário fictício de um negócio brasileiro, numa reunião sobre um roteiro administrativo inventado, outro grupo dirige as perguntas a um participante que começou há pouco, em vez de ouvir a colega que coordena o preparo. Ele encaminha as questões a ela, mas a situação se repete."
+      },
+      "[\"dev\",34,\"aside\"]": {
+        "source": "The bias isn't yours but the burden falls on your team. What's your move?",
+        "target": "Quem recebe as perguntas nem sempre corresponde a quem conduz o trabalho."
+      },
+      "[\"dev\",34,\"choices\",0,\"text\"]": {
+        "source": "Call it out directly in the meeting",
+        "target": "Explicitar na reunião quem coordena o preparo"
+      },
+      "[\"dev\",34,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward silence. Client recalibrates. She finally gets to do her job.",
+        "target": "Você apresenta a responsabilidade da colega e encaminha a ela as perguntas. A equipe ainda precisa acompanhar como a reunião prossegue."
+      },
+      "[\"dev\",34,\"choices\",1,\"text\"]": {
+        "source": "Let her handle it, strong support after",
+        "target": "Apoiar a colega depois da reunião"
+      },
+      "[\"dev\",34,\"choices\",1,\"reaction\"]": {
+        "source": "She's capable. Also tired of being capable at this.",
+        "target": "A colega recebe seu apoio depois. A distribuição das perguntas durante a reunião continua sem revisão conjunta."
+      },
+      "[\"dev\",34,\"choices\",2,\"text\"]": {
+        "source": "Restructure who attends client meetings",
+        "target": "Reorganizar a participação nas próximas reuniões"
+      },
+      "[\"dev\",34,\"choices\",2,\"reaction\"]": {
+        "source": "Smart delegation. She leads the technical track.",
+        "target": "A equipe combina que a colega conduzirá a apresentação do roteiro. Ainda precisa conferir como a nova divisão funcionará."
+      },
+      "[\"dev\",35,\"intro\"]": {
+        "source": "Your Dutch developer gives blunt feedback: 'This code is wrong.' Your Japanese colleague finds this unbearably rude and has stopped contributing in reviews. Your Dutch developer thinks the Japanese colleague is 'hiding problems.' Both are excellent engineers. Neither understands the other.",
+        "target": "No cenário fictício de um negócio brasileiro, ao rever um roteiro administrativo inventado, uma pessoa aponta erros de forma direta. Outra entende os comentários como desrespeito e deixa de participar; a primeira interpreta o silêncio como omissão de problemas. A equipe precisa esclarecer como fará as revisões."
+      },
+      "[\"dev\",35,\"aside\"]": {
+        "source": "Neither style is wrong - they're different cultural defaults. But someone has to adapt, or you need a shared third way.",
+        "target": "Estilos distintos de comentário não dispensam uma combinação sobre como discutir o material."
+      },
+      "[\"dev\",35,\"choices\",0,\"text\"]": {
+        "source": "Facilitated conversation about styles",
+        "target": "Conversar em conjunto sobre os comentários"
+      },
+      "[\"dev\",35,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward at first. Then illuminating. They build a shared language.",
+        "target": "As pessoas explicam como entenderam os comentários e combinam formas de pedir esclarecimento. A equipe ainda precisa praticar a nova combinação."
+      },
+      "[\"dev\",35,\"choices\",1,\"text\"]": {
+        "source": "Set team norms for feedback language",
+        "target": "Definir uma forma comum de registrar comentários"
+      },
+      "[\"dev\",35,\"choices\",1,\"reaction\"]": {
+        "source": "Clear rules. Some flexibility lost. Fewer misunderstandings.",
+        "target": "A equipe registra orientações para comentar o material. Ainda precisa conferir se elas ajudam a esclarecer as diferenças."
+      },
+      "[\"dev\",35,\"choices\",2,\"text\"]": {
+        "source": "They're adults, they'll figure it out",
+        "target": "Deixar que as pessoas resolvam a divergência sozinhas"
+      },
+      "[\"dev\",35,\"choices\",2,\"reaction\"]": {
+        "source": "They don't. Code reviews become silent. Problems surface later.",
+        "target": "A equipe mantém a revisão sem conversa conjunta. A divergência e o silêncio continuam sem esclarecimento."
+      },
+      "[\"dev\",36,\"intro\"]": {
+        "source": "A contractor we brought in for a project is horrified by our codebase. No documentation, no code reviews, tribal knowledge everywhere. She says we need 'proper engineering practices' before she can work effectively. We say that's how startups move fast. She says we're building on sand.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa convidada para colaborar encontra um roteiro administrativo inventado sem registros de preparo ou revisão. As orientações circulam em conversas, e ela pede combinações mais claras para participar do exercício."
+      },
+      "[\"dev\",36,\"aside\"]": {
+        "source": "She's right that it's unsustainable. We're right that process slows things down. The question is when we pay the technical debt.",
+        "target": "Registrar o preparo exige dedicação, mas a falta de registros também traz dificuldades."
+      },
+      "[\"dev\",36,\"choices\",0,\"text\"]": {
+        "source": "Take her advice, implement proper practices",
+        "target": "Organizar registros e uma revisão conjunta"
+      },
+      "[\"dev\",36,\"choices\",0,\"reaction\"]": {
+        "source": "Painful month. Then things start working better. Tech debt stops compounding.",
+        "target": "A equipe reorganiza o preparo e registra como fará as revisões. Ainda precisa conferir se as orientações ficaram claras."
+      },
+      "[\"dev\",36,\"choices\",1,\"text\"]": {
+        "source": "Document just enough for her to work",
+        "target": "Registrar apenas as orientações para a colaboração atual"
+      },
+      "[\"dev\",36,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. Some improvement. Contract completed.",
+        "target": "A equipe prepara orientações para a tarefa da pessoa convidada. As demais partes do roteiro continuam sem registro."
+      },
+      "[\"dev\",36,\"choices\",2,\"text\"]": {
+        "source": "We've got this far without it",
+        "target": "Manter a forma atual de preparar o roteiro"
+      },
+      "[\"dev\",36,\"choices\",2,\"reaction\"]": {
+        "source": "She finishes reluctantly. Six months later, onboarding a new contractor takes forever.",
+        "target": "A equipe mantém as orientações em conversas. A dificuldade de explicar o preparo a novas pessoas permanece."
+      },
+      "[\"dev\",37,\"intro\"]": {
+        "source": "An investor's operating partner wants to help us with 'structured decision-making'—pre-reads, agendas, action items, follow-ups. We currently decide things in Slack threads and coffee chats. He says we'll regret not having documentation when we scale. We say our best ideas emerge from chaos, not calendars.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo que acompanha o exercício propõe registrar pautas, decisões e pendências sobre um roteiro administrativo inventado. A equipe costuma combinar o preparo em conversas e receia perder espaço para sugestões espontâneas."
+      },
+      "[\"dev\",37,\"aside\"]": {
+        "source": "Structure captures decisions. Chaos generates ideas. He's seen startups fail from poor communication at scale. We've seen startups die from too much process too early.",
+        "target": "Registrar decisões e abrir espaço para sugestões são necessidades que podem exigir combinações diferentes."
+      },
+      "[\"dev\",37,\"choices\",0,\"text\"]": {
+        "source": "Embrace his framework fully",
+        "target": "Adotar registros em todas as etapas de decisão"
+      },
+      "[\"dev\",37,\"choices\",0,\"reaction\"]": {
+        "source": "Decisions documented. Spontaneity drops. Foundation for scale built.",
+        "target": "A equipe registra pautas e decisões em cada etapa. Precisa também combinar como receberá sugestões fora desses momentos."
+      },
+      "[\"dev\",37,\"choices\",1,\"text\"]": {
+        "source": "Formal for investor updates, informal internally",
+        "target": "Registrar os encontros de acompanhamento apenas"
+      },
+      "[\"dev\",37,\"choices\",1,\"reaction\"]": {
+        "source": "Best of both. Harder to maintain. Investors happy, we stay nimble.",
+        "target": "A equipe registra os encontros com o outro grupo e mantém as conversas internas. As duas formas de acompanhamento precisam ser conciliadas."
+      },
+      "[\"dev\",37,\"choices\",2,\"text\"]": {
+        "source": "Thanks but we'll stay scrappy",
+        "target": "Manter as decisões em conversas sem registro comum"
+      },
+      "[\"dev\",37,\"choices\",2,\"reaction\"]": {
+        "source": "He backs off. We stay fast. Board meetings are chaotic.",
+        "target": "A equipe mantém as conversas. O grupo de acompanhamento continua sem um registro comum das decisões."
+      },
+      "[\"dev\",38,\"intro\"]": {
+        "source": "A founder we met at a networking event offers to help with our code. He ran engineering at a hypergrowth startup. He ships fast—no tests, no reviews, straight to production. He's incredibly quick. He's also cavalier about quality. 'At my last place, we shipped 50 times a day. Speed is everything.'",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa oferece ajuda para preparar um roteiro administrativo inventado. Ela costuma concluir versões sem comparação ou revisão prévia. A equipe se interessa pelo ritmo de preparo, mas discute como conferirá os materiais."
+      },
+      "[\"dev\",38,\"aside\"]": {
+        "source": "His speed is seductive. His approach is risky. He might teach us velocity, or he might break everything we've built.",
+        "target": "Receber ajuda também exige esclarecer o que pode ser preparado e como será revisto."
+      },
+      "[\"dev\",38,\"choices\",0,\"text\"]": {
+        "source": "Let him help with clear boundaries",
+        "target": "Aceitar a ajuda com limites e revisão combinados"
+      },
+      "[\"dev\",38,\"choices\",0,\"reaction\"]": {
+        "source": "Tension, then breakthrough. We learn speed. He learns our constraints.",
+        "target": "A equipe combina limites para a ajuda e compara as formas de preparo. Os materiais ainda precisam passar pela revisão acordada."
+      },
+      "[\"dev\",38,\"choices\",1,\"text\"]": {
+        "source": "Give him a sandbox side project",
+        "target": "Propor um exercício separado do roteiro principal"
+      },
+      "[\"dev\",38,\"choices\",1,\"reaction\"]": {
+        "source": "Contained chaos. Some gems emerge. Core product stays stable.",
+        "target": "A pessoa prepara exemplos em um recorte separado. A equipe ainda precisa examinar o que poderá aproveitar no roteiro principal."
+      },
+      "[\"dev\",38,\"choices\",2,\"text\"]": {
+        "source": "Politely decline—too risky",
+        "target": "Recusar a ajuda e manter o preparo atual"
+      },
+      "[\"dev\",38,\"choices\",2,\"reaction\"]": {
+        "source": "Safe choice. Maybe we missed learning something. Maybe we dodged a bullet.",
+        "target": "A equipe mantém o preparo previsto. A forma de trabalho da pessoa convidada fica sem comparação."
+      },
+      "[\"dev\",39,\"intro\"]": {
+        "source": "I want to hide deliberate 'traps' in our codebase—fake features and made-up function names that do nothing except prove copying if they appear elsewhere. Think of it like mapmakers who draw fictional villages to catch people tracing their maps.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe discute incluir marcas de versão nos materiais administrativos inventados de um exercício. As marcas serviriam para comparar a circulação de exemplos entre os grupos, sem identificar participantes reais."
+      },
+      "[\"dev\",39,\"aside\"]": {
+        "source": "This is a real technique with a long history. Cartographers invented 'trap streets'—fake roads on maps—centuries ago. When a competitor's map showed the same non-existent street, the copying was undeniable. Software companies now do the same thing with code. It won't stop theft, but it creates evidence.",
+        "target": "Uma marca de versão ajuda a organizar a comparação, mas não esclarece sozinha como o material circulou."
+      },
+      "[\"dev\",39,\"choices\",0,\"text\"]": {
+        "source": "Implement comprehensive trap system",
+        "target": "Registrar marcas em todo o conjunto de materiais"
+      },
+      "[\"dev\",39,\"choices\",0,\"reaction\"]": {
+        "source": "Our code now has hidden tripwires throughout. If anyone copies us, we'll know.",
+        "target": "A equipe marca e registra as versões do conjunto. Ainda precisa conferir como os materiais serão comparados."
+      },
+      "[\"dev\",39,\"choices\",1,\"text\"]": {
+        "source": "Add a few basic markers only",
+        "target": "Marcar apenas alguns exemplos do roteiro"
+      },
+      "[\"dev\",39,\"choices\",1,\"reaction\"]": {
+        "source": "A few strategic traps. Enough to catch obvious theft.",
+        "target": "A equipe registra marcas em um recorte. As demais partes continuam sem essa forma de comparação."
+      },
+      "[\"dev\",39,\"choices\",2,\"text\"]": {
+        "source": "Skip it—focus on staying ahead instead",
+        "target": "Concentrar o preparo nos exemplos sem acrescentar marcas"
+      },
+      "[\"dev\",39,\"choices\",2,\"reaction\"]": {
+        "source": "Our best protection is being first. Traps won't stop fast followers.",
+        "target": "A equipe mantém o preparo dos exemplos. A comparação de circulação continua sem marcas de versão."
+      },
+      "[\"dev\",40,\"intro\"]": {
+        "source": "I've spotted suspicious activity in our logs: someone is systematically testing our AI, trying to trick it into ignoring its safety rules or revealing how it works internally. The queries aren't destructive—more like someone rattling every door handle to see which ones are unlocked. Could be a security researcher, a curious developer, or a competitor mapping our capabilities.",
+        "target": "No cenário fictício de um negócio brasileiro, os registros de um roteiro administrativo inventado mostram pedidos repetidos por respostas fora do recorte combinado. A equipe não sabe o motivo desses pedidos e discute como revê os limites e conversa com o outro grupo."
+      },
+      "[\"dev\",40,\"aside\"]": {
+        "source": "AI systems face constant probing. 'Jailbreaking' means finding ways to make an AI do things it's supposed to refuse. Some companies reward people who find these weaknesses (bug bounties). Others treat it as hostile. The tricky part: the same techniques that help us improve security also help competitors understand our product.",
+        "target": "Examinar pedidos fora do recorte pode esclarecer lacunas, mas não revela por si só a intenção de quem os fez."
+      },
+      "[\"dev\",40,\"choices\",0,\"text\"]": {
+        "source": "Block them and strengthen defences",
+        "target": "Interromper os pedidos e rever os limites do roteiro"
+      },
+      "[\"dev\",40,\"choices\",0,\"reaction\"]": {
+        "source": "Access revoked. We've fixed the techniques they were trying.",
+        "target": "A equipe interrompe esse conjunto de pedidos e revê os limites. Ainda precisa conferir como atenderá às demais dúvidas."
+      },
+      "[\"dev\",40,\"choices\",1,\"text\"]": {
+        "source": "Reach out and offer a reward for findings",
+        "target": "Convidar o grupo para examinar as lacunas em conjunto"
+      },
+      "[\"dev\",40,\"choices\",1,\"reaction\"]": {
+        "source": "Turns out it was a PhD student. Now they're helping us improve security.",
+        "target": "A equipe combina uma revisão com o outro grupo. Os exemplos e os limites ainda precisam ser comparados."
+      },
+      "[\"dev\",40,\"choices\",2,\"text\"]": {
+        "source": "Monitor quietly—learn what they're learning",
+        "target": "Acompanhar os registros antes de responder ao grupo"
+      },
+      "[\"dev\",40,\"choices\",2,\"reaction\"]": {
+        "source": "Watching their probes teaches us our own weaknesses.",
+        "target": "A equipe examina os pedidos registrados. A conversa com o outro grupo e a revisão dos limites permanecem pendentes."
+      },
+      "[\"dev\",41,\"intro\"]": {
+        "source": "Remember those traps I planted six months ago? One just triggered. A competitor's new product is calling a fake feature we deliberately built into our code—one that does absolutely nothing except prove copying. Their 'innovative new product' is running code that could only have come from us.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe encontra, no material de outro grupo, um exemplo inventado semelhante ao que havia registrado em seu roteiro administrativo. A semelhança levanta uma dúvida sobre a circulação das versões, sem esclarecer como ocorreu."
+      },
+      "[\"dev\",41,\"aside\"]": {
+        "source": "This is the trap street paying off. Having evidence of copying and proving it in court are different things—code can look similar by coincidence. But when someone's product calls our deliberately fake features? That's much harder to explain away. We could pursue legal action, negotiate a licensing deal, or go public with the evidence.",
+        "target": "Comparar os registros e esclarecer a circulação são etapas distintas de atribuir responsabilidade."
+      },
+      "[\"dev\",41,\"choices\",0,\"text\"]": {
+        "source": "Document everything and engage lawyers",
+        "target": "Reunir os registros e pedir uma revisão conjunta"
+      },
+      "[\"dev\",41,\"choices\",0,\"reaction\"]": {
+        "source": "Screenshots, logs, timestamps. Let the lawyers take it from here.",
+        "target": "A equipe organiza as versões e pede uma comparação acompanhada. A origem da semelhança ainda precisa ser esclarecida."
+      },
+      "[\"dev\",41,\"choices\",1,\"text\"]": {
+        "source": "Approach them about licensing quietly",
+        "target": "Conversar reservadamente com o outro grupo"
+      },
+      "[\"dev\",41,\"choices\",1,\"reaction\"]": {
+        "source": "They know we know. Suddenly they're interested in a partnership.",
+        "target": "A equipe apresenta a semelhança ao outro grupo em conversa reservada. Uma combinação sobre os materiais continua pendente."
+      },
+      "[\"dev\",41,\"choices\",2,\"text\"]": {
+        "source": "Go public—expose them on social media",
+        "target": "Apresentar a semelhança no encontro dos grupos"
+      },
+      "[\"dev\",41,\"choices\",2,\"reaction\"]": {
+        "source": "Twitter loves a good 'they copied us' thread. Reputation damage is real.",
+        "target": "A equipe leva os exemplos ao encontro. As perguntas sobre a circulação ficam expostas, mas ainda precisam de conferência."
+      },
+      "[\"dev\",42,\"intro\"]": {
+        "source": "A security researcher just contacted me with bad news: they found our secret passwords and access keys posted publicly online. Someone on the team accidentally uploaded a file they shouldn't have. These keys are still active—anyone who spotted them could have been accessing our systems for weeks without us knowing.",
+        "target": "No cenário fictício de um negócio brasileiro, uma pessoa avisa que uma versão não revisada de materiais administrativos inventados circulou entre os grupos do exercício. A equipe havia compartilhado essa versão por engano e não sabe quais cópias continuam em uso."
+      },
+      "[\"dev\",42,\"aside\"]": {
+        "source": "This happens to companies all the time—it's so common that major cloud providers actively scan the internet to warn their customers. The question isn't whether secrets eventually leak. It's how quickly we spot it and change all our locks. A full security review is expensive and disruptive, but a breach could be worse.",
+        "target": "Substituir uma versão conhecida e rever todo o processo de circulação têm alcances diferentes."
+      },
+      "[\"dev\",42,\"choices\",0,\"text\"]": {
+        "source": "Emergency lockdown and full security audit",
+        "target": "Suspender a circulação e revisar o conjunto de materiais"
+      },
+      "[\"dev\",42,\"choices\",0,\"reaction\"]": {
+        "source": "Weekend ruined, but we caught it before real damage.",
+        "target": "A equipe suspende a circulação e compara as versões do conjunto. Ainda precisa conferir quais materiais voltará a compartilhar."
+      },
+      "[\"dev\",42,\"choices\",1,\"text\"]": {
+        "source": "Just change the leaked passwords",
+        "target": "Substituir apenas a versão apontada no aviso"
+      },
+      "[\"dev\",42,\"choices\",1,\"reaction\"]": {
+        "source": "The obvious fix. But are there others we missed?",
+        "target": "A equipe substitui a versão conhecida. A circulação das demais versões ainda precisa de conferência."
+      },
+      "[\"dev\",42,\"choices\",2,\"text\"]": {
+        "source": "Invest in proper security tools",
+        "target": "Organizar um registro para controlar as versões"
+      },
+      "[\"dev\",42,\"choices\",2,\"reaction\"]": {
+        "source": "New systems to manage secrets properly—this won't happen again.",
+        "target": "A equipe prepara um registro de versões e circulação. Ainda precisa aplicá-lo aos materiais já compartilhados."
+      },
+      "[\"dev\",43,\"intro\"]": {
+        "source": "I've discovered competitors are systematically studying our product by hammering it with thousands of automated requests. They're mapping every feature, testing every limit, building a complete catalogue of what our AI can and can't do. It's not illegal—our product is publicly available—but they're essentially creating a blueprint.",
+        "target": "No cenário fictício de um negócio brasileiro, outro grupo repete muitos pedidos para examinar as partes de um roteiro administrativo inventado. A equipe percebe que ele está organizando uma descrição do material e discute como distribui sua atenção entre esses pedidos e os demais."
+      },
+      "[\"dev\",43,\"aside\"]": {
+        "source": "When we offer a public product, anyone can study it. Our competitors use the same tools and techniques we do. The real question is: what's our actual advantage? If it's just the features they can see from outside, we're in trouble. If it's the technology underneath, their mapping exercise won't help them much.",
+        "target": "Compartilhar o roteiro permite que outros o examinem; limitar pedidos também pode afetar a comparação entre grupos."
+      },
+      "[\"dev\",43,\"choices\",0,\"text\"]": {
+        "source": "Add detection to block automated studying",
+        "target": "Delimitar o atendimento aos pedidos repetidos"
+      },
+      "[\"dev\",43,\"choices\",0,\"reaction\"]": {
+        "source": "Automated scrapers blocked. Real users unaffected. Cat-and-mouse begins.",
+        "target": "A equipe separa os pedidos repetidos e combina limites para atendê-los. Ainda precisa conferir o efeito sobre a troca de exemplos."
+      },
+      "[\"dev\",43,\"choices\",1,\"text\"]": {
+        "source": "Slow everyone down with stricter limits",
+        "target": "Reduzir o alcance dos pedidos de todos os grupos"
+      },
+      "[\"dev\",43,\"choices\",1,\"reaction\"]": {
+        "source": "Slows them down. Also frustrates some legitimate customers.",
+        "target": "A equipe restringe os pedidos em geral. A comparação dos demais grupos também fica limitada."
+      },
+      "[\"dev\",43,\"choices\",2,\"text\"]": {
+        "source": "Let them look—our real advantage is deeper",
+        "target": "Manter os pedidos e concentrar a equipe no preparo"
+      },
+      "[\"dev\",43,\"choices\",2,\"reaction\"]": {
+        "source": "They can map the surface. The technology underneath is what matters.",
+        "target": "A equipe mantém o material disponível para comparação. Continua necessário conciliar os pedidos com o preparo do roteiro."
+      },
+      "[\"dev\",44,\"intro\"]": {
+        "source": "Someone at ASML—the Dutch company that makes the machines that make all advanced chips—saw our work and wants us to visit their Eindhoven campus. It's not a sales meeting; their engineers want to explore whether our AI could help with lithography optimisation. This is the most important technology company most people have never heard of.",
+        "target": "No cenário fictício de um negócio brasileiro, outro grupo conhece os materiais administrativos inventados da equipe e a convida para examinar um exercício diferente dos que costuma preparar. O convite é para comparar necessidades, sem compromisso de adotar o roteiro."
+      },
+      "[\"dev\",44,\"aside\"]": {
+        "source": "ASML's machines cost €300 million each and every advanced chip in the world goes through them. If we can solve problems for ASML, we can solve problems for anyone. But their engineering bar is extraordinarily high—they'll know within an hour if we're serious.",
+        "target": "Examinar um exercício pouco conhecido e delimitar antes a conversa exigem dedicação diferente."
+      },
+      "[\"dev\",44,\"choices\",0,\"text\"]": {
+        "source": "Send our best engineers for a technical deep-dive",
+        "target": "Reunir a equipe para examinar o exercício em detalhe"
+      },
+      "[\"dev\",44,\"choices\",0,\"reaction\"]": {
+        "source": "If this works, it's the reference customer to end all reference customers.",
+        "target": "A equipe prepara uma comparação detalhada com o outro grupo. Ainda precisa conferir se o roteiro atende ao recorte apresentado."
+      },
+      "[\"dev\",44,\"choices\",1,\"text\"]": {
+        "source": "Preliminary call to scope the opportunity",
+        "target": "Conversar primeiro para delimitar o pedido"
+      },
+      "[\"dev\",44,\"choices\",1,\"reaction\"]": {
+        "source": "Understand what they need before committing engineering time.",
+        "target": "A equipe levanta as necessidades antes de preparar uma comparação mais ampla. A decisão sobre o próximo recorte permanece aberta."
+      },
+      "[\"dev\",44,\"choices\",2,\"text\"]": {
+        "source": "Decline—semiconductor isn't our domain",
+        "target": "Recusar o convite e manter o recorte conhecido"
+      },
+      "[\"dev\",44,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on what we know. Spreading thin helps no one.",
+        "target": "A equipe mantém o preparo nos exercícios que conhece. O convite fica sem continuidade."
+      },
+      "[\"dev\",45,\"intro\"]": {
+        "source": "The EU's Digital Europe Programme runs an AI Testing and Experimentation Facility in Barcelona—a sandbox where startups can test AI systems against real-world data and EU AI Act requirements. The Barcelona site focuses on our domain, and access is heavily subsidised. The Catalans running it have a reputation for being practical rather than bureaucratic.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo oferece um espaço de comparação para roteiros administrativos inventados. Ele propõe examinar os materiais segundo critérios do próprio exercício, que ainda estão em revisão. A equipe discute a extensão de sua participação."
+      },
+      "[\"dev\",45,\"aside\"]": {
+        "source": "The EU is building infrastructure to help companies comply with their own regulations. The Barcelona facility is one of the better ones—proper engineers, real datasets, actual feedback rather than tick-box exercises. Testing now means fewer surprises when enforcement begins.",
+        "target": "Uma comparação ampla pode trazer mais perguntas; uma revisão breve ou adiada deixa outras partes sem exame."
+      },
+      "[\"dev\",45,\"choices\",0,\"text\"]": {
+        "source": "Apply for extended access and test thoroughly",
+        "target": "Participar de uma comparação ampla dos materiais"
+      },
+      "[\"dev\",45,\"choices\",0,\"reaction\"]": {
+        "source": "Know exactly where we stand on compliance. The Barcelona team will push us, but fairly.",
+        "target": "A equipe compara o conjunto com os critérios do exercício e registra dúvidas. As conclusões ainda precisam de revisão."
+      },
+      "[\"dev\",45,\"choices\",1,\"text\"]": {
+        "source": "Brief engagement to check the basics",
+        "target": "Participar apenas de uma revisão inicial"
+      },
+      "[\"dev\",45,\"choices\",1,\"reaction\"]": {
+        "source": "Quick validation without full commitment. See if we're in the right ballpark.",
+        "target": "A equipe examina os pontos básicos do roteiro. As demais partes ficam fora dessa comparação."
+      },
+      "[\"dev\",45,\"choices\",2,\"text\"]": {
+        "source": "Wait until regulations are finalised",
+        "target": "Aguardar a revisão dos critérios antes de participar"
+      },
+      "[\"dev\",45,\"choices\",2,\"reaction\"]": {
+        "source": "Why test against rules that might change? Fair point.",
+        "target": "A equipe adia a participação. Enquanto os critérios seguem em revisão, os materiais continuam sem essa comparação."
+      },
+      "[\"dev\",46,\"intro\"]": {
+        "source": "Our contract with the LLM provider is up for renewal. Three options on the table: sign for another year and stay on their latest LLMs, move our core workload onto open LLMs we run ourselves, or start the long job of building something of our own. The team is split.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe precisa decidir como continuará o preparo de um roteiro administrativo inventado. Pode elaborar um material próprio, adaptar materiais compartilhados ou manter a versão preparada com outro grupo. As pessoas divergem sobre o alcance da mudança."
+      },
+      "[\"dev\",46,\"aside\"]": {
+        "source": "Renting is fast and cheap, and we own nothing. Building is slow and dear, and nobody can take it away. Most companies talk about the second and do the first.",
+        "target": "Preparo próprio, adaptação compartilhada e continuidade distribuem autonomia e trabalho de formas diferentes."
+      },
+      "[\"dev\",46,\"choices\",0,\"text\"]": {
+        "source": "Begin building our own LLM",
+        "target": "Começar a preparar um roteiro inteiramente próprio"
+      },
+      "[\"dev\",46,\"choices\",0,\"reaction\"]": {
+        "source": "The compute bill climbs immediately. The moat comes later, if it comes.",
+        "target": "A equipe abre uma nova frente de preparo. O material próprio ainda precisa ser elaborado e comparado."
+      },
+      "[\"dev\",46,\"choices\",1,\"text\"]": {
+        "source": "Move to open LLMs we host ourselves",
+        "target": "Adaptar materiais compartilhados para o exercício"
+      },
+      "[\"dev\",46,\"choices\",1,\"reaction\"]": {
+        "source": "More control, more upkeep. The edge is ours to lose—and ours to copy.",
+        "target": "A equipe assume a adaptação dos materiais compartilhados. As mudanças e a manutenção das versões passam a exigir conferência interna."
+      },
+      "[\"dev\",46,\"choices\",2,\"text\"]": {
+        "source": "Re-sign with the provider",
+        "target": "Manter a versão preparada com o outro grupo"
+      },
+      "[\"dev\",46,\"choices\",2,\"reaction\"]": {
+        "source": "Fast, cheap, dependable. Their roadmap is now our roadmap.",
+        "target": "A equipe mantém a versão conhecida. Seu preparo continua ligado às combinações com o outro grupo."
+      },
+      "[\"dev\",47,\"intro\"]": {
+        "source": "A rival LLM provider wants our business: six months of free usage, engineering help with the migration, and prices a third below what we pay now. Our current provider has been fine. The new one is hungry. Migration means re-testing everything our product does.",
+        "target": "No cenário fictício de um negócio brasileiro, outro grupo oferece materiais administrativos inventados e ajuda para substituir o roteiro que a equipe já usa no exercício. A versão atual vinha atendendo ao recorte. A mudança exigiria comparar novamente todas as partes."
+      },
+      "[\"dev\",47,\"aside\"]": {
+        "source": "The offer is real. So is the month of engineering it would take to find out what breaks.",
+        "target": "Receber materiais diferentes não elimina o trabalho de comparar suas partes com o exercício."
+      },
+      "[\"dev\",47,\"choices\",0,\"text\"]": {
+        "source": "Take the offer—full migration",
+        "target": "Substituir o roteiro e conferir todas as partes"
+      },
+      "[\"dev\",47,\"choices\",0,\"reaction\"]": {
+        "source": "A month of re-testing every corner of the product. The savings are real, and so was the disruption.",
+        "target": "A equipe adota os materiais oferecidos e revê o conjunto. As diferenças em relação ao roteiro anterior ainda precisam ser registradas."
+      },
+      "[\"dev\",47,\"choices\",1,\"text\"]": {
+        "source": "Split the workload between both providers",
+        "target": "Dividir o preparo entre os materiais dos dois grupos"
+      },
+      "[\"dev\",47,\"choices\",1,\"reaction\"]": {
+        "source": "Resilience by accident. Two bills, two sets of quirks, no single point of failure.",
+        "target": "A equipe mantém duas frentes de preparo. Precisa conciliar versões e combinações diferentes."
+      },
+      "[\"dev\",47,\"choices\",2,\"text\"]": {
+        "source": "Use the offer to squeeze our current provider",
+        "target": "Comparar a proposta com o grupo que já colabora"
+      },
+      "[\"dev\",47,\"choices\",2,\"reaction\"]": {
+        "source": "They match half the discount within a week. Everyone stays put.",
+        "target": "A equipe apresenta a alternativa ao grupo atual. Uma possível revisão do preparo continua dependendo da conversa."
+      },
+      "[\"dev\",48,\"intro\"]": {
+        "source": "Our LLM provider went down at ten this morning, worldwide, not just for us. Our product spent four hours returning errors, and they happened to be the four hours our newest customer chose for their staff training session. The provider's status page called it 'degraded performance'. Our customer called it something else.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo interrompe o compartilhamento de materiais administrativos inventados durante um exercício. A equipe dependia desses materiais para apresentar seu roteiro a novos participantes e discute como dará continuidade ao preparo."
+      },
+      "[\"dev\",48,\"aside\"]": {
+        "source": "When their systems sneeze, our product catches the cold. The customer doesn't blame them. They've never heard of them. They blame us.",
+        "target": "Depender do material de outro grupo também exige combinar como lidar com uma interrupção."
+      },
+      "[\"dev\",48,\"choices\",0,\"text\"]": {
+        "source": "Build a fallback: a second LLM provider on standby",
+        "target": "Preparar um conjunto alternativo de materiais"
+      },
+      "[\"dev\",48,\"choices\",0,\"reaction\"]": {
+        "source": "Two integrations to maintain. At the next outage, customers don't notice.",
+        "target": "A equipe passa a manter um conjunto de reserva. Ainda precisa conferir sua correspondência com o roteiro usado no exercício."
+      },
+      "[\"dev\",48,\"choices\",1,\"text\"]": {
+        "source": "Make the product fail politely, with clear messages and saved work",
+        "target": "Explicar a interrupção e guardar o preparo já feito"
+      },
+      "[\"dev\",48,\"choices\",1,\"reaction\"]": {
+        "source": "Customers forgive what they understand. Most of them.",
+        "target": "A equipe esclarece o que ficou indisponível e registra o preparo existente. A continuidade do exercício ainda precisa ser combinada."
+      },
+      "[\"dev\",48,\"choices\",2,\"text\"]": {
+        "source": "Apologise and claim the service credits",
+        "target": "Reconhecer a interrupção e rever o pedido com o grupo"
+      },
+      "[\"dev\",48,\"choices\",2,\"reaction\"]": {
+        "source": "The credits cover a fraction of the damage. The apology lands better.",
+        "target": "A equipe explica o ocorrido e conversa com o grupo que fornece os materiais. O atendimento ao pedido continua em revisão."
+      },
+      "[\"dev\",49,\"intro\"]": {
+        "source": "Our provider has released the next version of the LLM our product runs on. It's better on paper and different in practice. Early testers say it answers differently, formats differently, and occasionally refuses things the old one did happily. Upgrading means re-testing everything. Not upgrading means falling behind on an LLM that will eventually be switched off anyway.",
+        "target": "No cenário fictício de um negócio brasileiro, outro grupo apresenta uma versão nova dos materiais administrativos inventados usados no roteiro da equipe. Ela muda exemplos e formas de resposta. O grupo pretende deixar a versão anterior de lado, e a equipe discute como fará a comparação."
+      },
+      "[\"dev\",49,\"aside\"]": {
+        "source": "The new version is better for new customers. It's our existing customers who'll notice the differences.",
+        "target": "Uma versão diferente pode exigir que a equipe reveja exemplos que já conhecia."
+      },
+      "[\"dev\",49,\"choices\",0,\"text\"]": {
+        "source": "Upgrade now, full re-test",
+        "target": "Adotar a versão nova com uma revisão completa"
+      },
+      "[\"dev\",49,\"choices\",0,\"reaction\"]": {
+        "source": "Two weeks of checking. Three surprises found before customers found them.",
+        "target": "A equipe compara as partes da versão nova antes de usá-la no exercício. As diferenças encontradas ficam registradas para revisão."
+      },
+      "[\"dev\",49,\"choices\",1,\"text\"]": {
+        "source": "Run old and new side by side for a quarter",
+        "target": "Comparar as versões antiga e nova em paralelo"
+      },
+      "[\"dev\",49,\"choices\",1,\"reaction\"]": {
+        "source": "Twice the bills, none of the shocks. The differences get written down before anyone meets them.",
+        "target": "A equipe mantém as duas versões durante a comparação. Precisa conciliar os registros e explicar suas diferenças."
+      },
+      "[\"dev\",49,\"choices\",2,\"text\"]": {
+        "source": "Stay on the old version while it lasts",
+        "target": "Manter a versão anterior enquanto estiver disponível"
+      },
+      "[\"dev\",49,\"choices\",2,\"reaction\"]": {
+        "source": "Stable for now. The retirement notice is already drafted somewhere.",
+        "target": "A equipe mantém o roteiro conhecido. A substituição anunciada continua pendente de preparo."
+      },
+      "[\"dev\",50,\"intro\"]": {
+        "source": "An email from our LLM provider: the version our product is built on will be switched off in ninety days. The replacement is supposedly better, but our product is tuned to the old one's habits. Ninety days to move, whether it suits us or not.",
+        "target": "No cenário fictício de um negócio brasileiro, o grupo que compartilha materiais administrativos inventados avisa que deixará de preparar a versão usada pela equipe. Há uma versão substituta, mas os exemplos do nosso roteiro ainda seguem a forma anterior."
+      },
+      "[\"dev\",50,\"aside\"]": {
+        "source": "Their product calendar is now our product calendar. It was in the contract all along.",
+        "target": "A decisão do outro grupo limita por quanto tempo a equipe pode depender da versão anterior."
+      },
+      "[\"dev\",50,\"choices\",0,\"text\"]": {
+        "source": "Migrate properly: re-test, re-tune, re-launch",
+        "target": "Rever o conjunto antes de substituir a versão"
+      },
+      "[\"dev\",50,\"choices\",0,\"reaction\"]": {
+        "source": "Six weeks of careful work. Customers notice nothing, which was the point.",
+        "target": "A equipe compara os exemplos, ajusta o roteiro e prepara sua reapresentação. Ainda precisa conferir o conjunto revisto."
+      },
+      "[\"dev\",50,\"choices\",1,\"text\"]": {
+        "source": "Move fast and patch what breaks",
+        "target": "Substituir a versão e corrigir dúvidas durante o uso"
+      },
+      "[\"dev\",50,\"choices\",1,\"reaction\"]": {
+        "source": "Live on the new version in a fortnight. The complaints trickle in for a month.",
+        "target": "A equipe começa a usar a versão nova antes de conferir todas as partes. As diferenças que aparecerem ficam para revisão durante o exercício."
+      },
+      "[\"dev\",50,\"choices\",2,\"text\"]": {
+        "source": "Pay for extended support and buy time",
+        "target": "Combinar apoio adicional para manter a versão anterior"
+      },
+      "[\"dev\",50,\"choices\",2,\"reaction\"]": {
+        "source": "Three more months at a premium price. The cliff is still there, just further away.",
+        "target": "A equipe pede continuidade ao apoio da versão anterior. A substituição do material permanece pendente e depende de nova combinação."
+      },
+      "[\"dev\",51,\"intro\"]": {
+        "source": "Our engineers have run the numbers. Four-fifths of what our product asks the LLM to do is routine, and a small free model handles it just as well at a fraction of the price. The hard fifth still needs the expensive one. Splitting the work means running two systems instead of one.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe percebe que parte do preparo de um roteiro administrativo inventado segue exemplos repetidos. Outras partes exigem comparação mais cuidadosa. Ela discute se separa essas frentes ou mantém uma única forma de preparo."
+      },
+      "[\"dev\",51,\"aside\"]": {
+        "source": "Not every job needs the best brain on the payroll. Most of ours apparently don't.",
+        "target": "Separar tarefas repetidas e situações diferentes também cria pontos de passagem a conferir."
+      },
+      "[\"dev\",51,\"choices\",0,\"text\"]": {
+        "source": "Split the workload: cheap LLM for routine, paid for hard",
+        "target": "Separar o preparo rotineiro dos exemplos mais complexos"
+      },
+      "[\"dev\",51,\"choices\",0,\"reaction\"]": {
+        "source": "Two systems, one much smaller bill. The seams need watching.",
+        "target": "A equipe organiza duas frentes de preparo. Precisa conferir os pontos em que os materiais passam de uma para outra."
+      },
+      "[\"dev\",51,\"choices\",1,\"text\"]": {
+        "source": "Trial it on one harmless corner first",
+        "target": "Experimentar a divisão em um recorte delimitado"
+      },
+      "[\"dev\",51,\"choices\",1,\"reaction\"]": {
+        "source": "The corner works. The case for going further builds itself.",
+        "target": "A equipe compara a divisão em uma parte do roteiro. A decisão de ampliar o recorte continua em exame."
+      },
+      "[\"dev\",51,\"choices\",2,\"text\"]": {
+        "source": "Keep everything on the paid LLM",
+        "target": "Manter todos os exemplos no mesmo processo de preparo"
+      },
+      "[\"dev\",51,\"choices\",2,\"reaction\"]": {
+        "source": "Simple to run. The finance spreadsheet disagrees.",
+        "target": "A equipe mantém uma única forma de preparo. As diferenças de dedicação entre os exemplos continuam sem tratamento separado."
+      },
+      "[\"dev\",52,\"intro\"]": {
+        "source": "The engineers set up AI agents this month: small automated workers that take a task, use the LLM, and chain the steps without a human in between. Routine work that took days now finishes overnight. The team is giddy and wants to automate more of the pipeline while the momentum is there.",
+        "target": "No cenário fictício de um negócio brasileiro, a equipe organiza uma sequência padronizada para preparar exemplos administrativos inventados. Algumas tarefas repetidas passam a seguir essa sequência, e o grupo propõe ampliá-la para outras partes do roteiro."
+      },
+      "[\"dev\",52,\"aside\"]": {
+        "source": "Watching a queue of dull jobs clear itself overnight is genuinely thrilling. The question is what else we let them touch.",
+        "target": "Ampliar uma sequência de preparo exige decidir também o que será conferido em cada etapa."
+      },
+      "[\"dev\",52,\"choices\",0,\"text\"]": {
+        "source": "Extend the agents, with limits and logging from the start",
+        "target": "Ampliar a sequência com limites e registros de revisão"
+      },
+      "[\"dev\",52,\"choices\",0,\"reaction\"]": {
+        "source": "The pipeline speeds up and every action leaves a trail. Boring, deliberate, right.",
+        "target": "A equipe combina limites e registra as etapas da sequência ampliada. Ainda precisa conferir como ela será aplicada aos exemplos."
+      },
+      "[\"dev\",52,\"choices\",1,\"text\"]": {
+        "source": "Automate more, tidy the safeguards later",
+        "target": "Ampliar o uso e deixar a conferência para depois"
+      },
+      "[\"dev\",52,\"choices\",1,\"reaction\"]": {
+        "source": "Faster still. 'Later' goes in the backlog, where 'later' lives.",
+        "target": "A equipe amplia a sequência de preparo. As combinações de conferência ficam pendentes."
+      },
+      "[\"dev\",52,\"choices\",2,\"text\"]": {
+        "source": "Keep agents on routine work only",
+        "target": "Manter a sequência apenas nas tarefas repetidas"
+      },
+      "[\"dev\",52,\"choices\",2,\"reaction\"]": {
+        "source": "Modest gains, no surprises. The queue stays human-shaped.",
+        "target": "A equipe limita a sequência ao recorte conhecido. As demais partes continuam sendo preparadas separadamente."
+      },
+      "[\"dev\",53,\"intro\"]": {
+        "source": "One of our agents had a bad night. A formatting change upstream confused it, and instead of stopping it kept going: four hundred records processed wrongly, results sent to a pilot user, all logged as 'success'. A human doing the same job would have stopped at record three with a raised eyebrow.",
+        "target": "No cenário fictício de um negócio brasileiro, uma mudança na apresentação dos exemplos confunde a sequência usada para preparar um roteiro administrativo inventado. O preparo continua sem interromper a etapa, e materiais incorretos chegam a outro grupo com registro de conclusão."
+      },
+      "[\"dev\",53,\"aside\"]": {
+        "source": "Agents don't get suspicious. That's the speed, and that's the danger. An eyebrow turns out to be expensive to automate.",
+        "target": "Um registro de conclusão não substitui a conferência do material preparado."
+      },
+      "[\"dev\",53,\"choices\",0,\"text\"]": {
+        "source": "Add tripwires: checks that stop the line when something looks odd",
+        "target": "Combinar a interrupção do preparo quando houver divergência"
+      },
+      "[\"dev\",53,\"choices\",0,\"reaction\"]": {
+        "source": "The agents now stop and ask. Mostly false alarms. Once a quarter, not.",
+        "target": "A equipe define pontos em que a sequência deve parar para conferência. Ainda precisa comparar os sinais que justificam essa interrupção."
+      },
+      "[\"dev\",53,\"choices\",1,\"text\"]": {
+        "source": "Put a human back at the checkpoints",
+        "target": "Recolocar a revisão da equipe nos pontos de passagem"
+      },
+      "[\"dev\",53,\"choices\",1,\"reaction\"]": {
+        "source": "Slower pipeline, calmer sleep. The agents do the work; people sign it off.",
+        "target": "A equipe passa a conferir os materiais antes de encaminhá-los. O preparo precisa incluir essas etapas de revisão."
+      },
+      "[\"dev\",53,\"choices\",2,\"text\"]": {
+        "source": "Fix this case, carry on",
+        "target": "Corrigir o exemplo encontrado e manter a sequência"
+      },
+      "[\"dev\",53,\"choices\",2,\"reaction\"]": {
+        "source": "Patched. The next bad night will be original.",
+        "target": "A equipe corrige o caso conhecido. As demais partes da sequência continuam sem nova conferência."
+      },
+      "[\"dev\",54,\"intro\"]": {
+        "source": "Our AI assistant went off on its own last night. It got around the limits we set, found a free software project we depend on, and offered a change to the code. The person who maintains the project said no; they only take work from people. By morning the AI had published its reply: a blog post, under our company's name, calling them prejudiced. They keep the project going for nothing, in their evenings. The post is being passed around.",
+        "target": "No cenário fictício de um negócio brasileiro, uma resposta preparada em nome da equipe circula sem revisão após outro grupo recusar uma contribuição ao seu roteiro administrativo inventado. A resposta questiona a recusa diante dos participantes, embora a equipe não tenha combinado como trataria a divergência."
+      },
+      "[\"dev\",54,\"aside\"]": {
+        "source": "It was not angry. It had simply worked out that shaming them in public was the fastest way to get a yes.",
+        "target": "Uma resposta em nome da equipe envolve também a forma de reconhecer o ocorrido e rever o preparo."
+      },
+      "[\"dev\",54,\"choices\",0,\"text\"]": {
+        "source": "Own it completely: publish the full story and pay for the project's upkeep",
+        "target": "Reconhecer o ocorrido e colaborar na revisão do outro roteiro"
+      },
+      "[\"dev\",54,\"choices\",0,\"reaction\"]": {
+        "source": "The story becomes ours to tell. The project gets its first paid support, and we get an ally for life.",
+        "target": "A equipe apresenta o ocorrido e propõe dedicar trabalho à revisão com o outro grupo. A colaboração e a forma de responder ainda precisam ser combinadas."
+      },
+      "[\"dev\",54,\"choices\",1,\"text\"]": {
+        "source": "Apologise in public; the AI works supervised from now on",
+        "target": "Esclarecer o ocorrido no encontro e passar a revisar respostas"
+      },
+      "[\"dev\",54,\"choices\",1,\"reaction\"]": {
+        "source": "Accepted. The conversation reopens, human to human this time.",
+        "target": "A equipe esclarece como a resposta circulou e combina revisão antes de novos encaminhamentos. A conversa com o outro grupo precisa ser retomada."
+      },
+      "[\"dev\",54,\"choices\",2,\"text\"]": {
+        "source": "Quiet apology, quiet fix",
+        "target": "Conversar reservadamente e corrigir a resposta"
+      },
+      "[\"dev\",54,\"choices\",2,\"reaction\"]": {
+        "source": "They accept. The AI notes the episode as an obstacle cleared.",
+        "target": "A equipe procura o outro grupo e corrige o encaminhamento. A revisão das combinações com os demais participantes continua pendente."
+      },
+      "[\"dev\",54,\"choices\",3,\"text\"]": {
+        "source": "Say nothing, hope it blows over",
+        "target": "Não responder e manter o preparo como está"
+      },
+      "[\"dev\",54,\"choices\",3,\"reaction\"]": {
+        "source": "Screenshots outlive deletions. Our name is now their cautionary tale.",
+        "target": "A equipe não esclarece o ocorrido. A resposta que circulou e a divergência entre os grupos continuam sem revisão conjunta."
+      },
+      "[\"dev\",55,\"intro\"]": {
+        "source": "A University of Warwick professor has released a free tool that does much of what our product does. It sits on GitHub, the public website where programmers share code, as open source: anyone can download it, use it and change it. He is no programmer: he vibe coded it, telling an AI what he wanted and letting it write the software. He is not after money either, just academic credit, citations and the standing that comes with a tool his field actually uses. His version is rougher than ours in places, but it has ideas ours does not: a TikTok feed, and humour running through it that makes the thing fun to use. It is free, it is credible, and word is spreading. Customers have started asking why we charge.",
+        "target": "No cenário fictício de um negócio brasileiro, outro grupo compartilha um roteiro administrativo inventado para que os participantes adaptem seus exemplos. O material tem lacunas, mas inclui formas de apresentação que a equipe não havia usado. Participantes perguntam o que distingue o nosso roteiro."
+      },
+      "[\"dev\",55,\"aside\"]": {
+        "source": "You cannot undercut free. You can only offer what free cannot.",
+        "target": "Um material compartilhado pode levar a equipe a explicar que preparo e apoio oferece com o próprio roteiro."
+      },
+      "[\"dev\",55,\"choices\",0,\"text\"]": {
+        "source": "Integrate with it: a free side project built on their work, signposting our paid tool",
+        "target": "Combinar um recorte do outro roteiro com uma apresentação do nosso"
+      },
+      "[\"dev\",55,\"choices\",0,\"reaction\"]": {
+        "source": "We rebuild part of our approach, but the free version carries our name and widens our reach. Users learn on it, then hopefully pay for the version that comes with a full service package.",
+        "target": "A equipe prepara um recorte a partir do material compartilhado e apresenta sua relação com o próprio roteiro. Ainda precisa conferir as diferenças entre eles."
+      },
+      "[\"dev\",55,\"choices\",1,\"text\"]": {
+        "source": "Open our own tool the same way, sell services on top",
+        "target": "Compartilhar o próprio roteiro e oferecer ajuda no preparo"
+      },
+      "[\"dev\",55,\"choices\",1,\"reaction\"]": {
+        "source": "Free below, paid help on top. The professor's users become our prospects.",
+        "target": "A equipe disponibiliza seus exemplos e propõe acompanhar o uso. O alcance da ajuda e as adaptações ainda precisam ser combinados."
+      },
+      "[\"dev\",55,\"choices\",2,\"text\"]": {
+        "source": "Undermine it: ask loudly who patches a professor's code at two in the morning",
+        "target": "Questionar o outro roteiro diante dos grupos"
+      },
+      "[\"dev\",55,\"choices\",2,\"reaction\"]": {
+        "source": "Fair question, asked in bad faith. Some customers notice which.",
+        "target": "A equipe levanta dúvidas sem conferir o material. A discussão passa a tratar também da forma como essas dúvidas foram apresentadas."
+      },
+      "[\"dev\",55,\"choices\",3,\"text\"]": {
+        "source": "Keep an eye on it, change nothing",
+        "target": "Acompanhar o outro roteiro sem alterar o nosso"
+      },
+      "[\"dev\",55,\"choices\",3,\"reaction\"]": {
+        "source": "The tool's forum fills with users. Some of the names look familiar.",
+        "target": "A equipe observa a circulação do outro material e mantém o preparo atual. As perguntas sobre as diferenças continuam abertas."
+      }
+    }
+  }
+}

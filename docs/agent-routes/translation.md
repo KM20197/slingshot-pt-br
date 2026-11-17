@@ -1,9 +1,9 @@
 # Rota de conteúdo e tradução
 
-Siga a ordem e as linhas de `docs/INVENTARIO.md`. O próximo bloco incompleto registrado no handoff é `FUNDER_ADVICE`, a partir de `klausMuller`; confirme no catálogo e no Git antes de começar.
+Leia `docs/ESTADO_ATUAL.md` e confira o inventário/catálogo antes de escolher o próximo recorte. `FUNDER_ADVICE` tem registro de cobertura de 861 caminhos em 41 perfis; o antigo início em `klausMuller` está ultrapassado. Não repetir perfis já cobertos por causa de um prompt histórico.
 
-Extraia cada string pelo caminho AST, classifique texto de interface, prosa, nome próprio, referência factual ou dado técnico e registre `source` e `target` em `locales/structures.pt-BR.json` por gerador. Não use substituição global. Uma tradução só é completa quando cada caminho do lote foi traduzido ou preservado com justificativa.
+Siga caminhos/ordem do original no lote escolhido. Extraia strings pelo AST; classifique interface, prosa, nome próprio, referência factual ou dado técnico. Registre source/target por gerador, sem substituição global. Cada caminho precisa estar traduzido ou preservado com justificativa.
 
-Preserve nomes reais sem exônimo, universidades, marcas, siglas regulatórias, bancos de nomes, números, moeda, datas, IDs, seletores, SVGs e `[NEW]`. Use exônimos portugueses consagrados apenas na apresentação. Compare AST e métodos reais com o original; traduções podem participar de seletores de remoção.
+Preserve IDs, chaves, métodos, ordem, seletores, fórmulas, valores, datas, SVGs e marcadores [NEW]. Exônimos ficam na apresentação; tradução britânica não equivale a adaptação factual brasileira.
 
-As 2.987 entradas e as 49 estruturas sem entrada são o retrato de 21/09/2026, não uma medida permanente. Atualize contagens após cada lote. Conteúdo britânico traduzido ainda não equivale à adaptação factual brasileira.
+Não mantenha contagens antigas como métricas correntes. Reextraia cobertura quando essa frente for retomada e registre o comando, o escopo e o resultado. Valide AST, métodos reais, prosa e apresentação. Siga o fluxo de revisão do manual; depois atualize estado, relatório e pacote do Drive.

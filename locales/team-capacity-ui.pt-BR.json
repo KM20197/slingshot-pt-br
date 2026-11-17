@@ -1,0 +1,10 @@
+{
+  "classification": "presentation-only-team-capacity",
+  "strings": {
+    "heading": { "source": "Team Capacity", "target": "Capacidade da equipe" },
+    "help": { "source": "How staffing works", "target": "Como funciona a equipe" },
+    "staff": { "source": "Staff", "target": "Equipe" },
+    "bonus": { "source": "AP Bonus", "target": "Bônus de AP" },
+    "burn": { "source": "Burn/Q", "target": "Custo/T" }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "preambleModal2": {
+    "Two ways to start": "Duas formas de começar",
+    "Take on a venture": "Assumir um empreendimento",
+    "Pick one of twelve AI ventures, from healthcare to robotics to the creative industries, and race your rivals to milestones before money or time runs out.": "Escolha um dos doze empreendimentos e avance pelos marcos antes que o dinheiro ou o tempo acabem.",
+    "Choose your venture": "Escolha seu empreendimento",
+    "← Back": "← Voltar"
+  },
+  "founderModal": {
+    "👤 Who Are You?": "👤 Quem é você?",
+    "← Back": "← Voltar",
+    "Your background shapes your strengths, challenges, and how investors perceive you.": "Sua trajetória influencia seus pontos fortes, desafios e relações com financiadores.",
+    "Your Name": "Nome fictício do personagem",
+    "Enter your name...": "Digite um nome fictício...",
+    "Please enter your name above, then select a profile": "Digite um nome fictício acima e escolha um perfil"
+  },
+  "profileInfoModal": {
+    "🎯 Best For": "🎯 Indicado para",
+    "Strengths": "Pontos fortes",
+    "Challenges": "Desafios",
+    "🎮 Gameplay Tips": "🎮 Dicas para jogar",
+    "🏛️ Grants": "🏛️ Fomento",
+    "💰 Fundraising": "💰 Captação de recursos",
+    "👥 Hiring": "👥 Contratação",
+    "⚡ Risk Profile": "⚡ Perfil de risco",
+    "Back": "Voltar",
+    "Choose this founder →": "Escolher este perfil →"
+  },
+  "ventureModal": {
+    "Choose Your Venture": "Escolha seu empreendimento",
+    "🔥 EXTREME MODE": "🔥 MODO EXTREMO",
+    "← Back": "← Voltar",
+    "Each AI startup faces unique market, technical, and competitive challenges. Which will you tackle?": "Cada empreendimento enfrenta desafios de mercado, operação e concorrência. Qual você escolherá?"
+  },
+  "ventureInfoModal": {
+    "What you're building": "O que você está construindo",
+    "Who buys this": "Quem compra",
+    "How you make money": "Como você ganha dinheiro",
+    "Why this could work": "Por que pode dar certo",
+    "What makes this hard": "O que torna difícil",
+    "Competition": "Concorrência",
+    "Back": "Voltar",
+    "Choose this venture →": "Escolher este empreendimento →"
+  }
+}

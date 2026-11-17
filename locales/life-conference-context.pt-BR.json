@@ -1,0 +1,726 @@
+{
+  "LIFE_EVENTS": {
+    "classification": "Adaptação editorial brasileira fictícia; IDs, valores, efeitos, categorias, ordem e seletores preservados.",
+    "strings": {
+      "[0,\"title\"]": {
+        "source": "Last Train to Nowhere",
+        "target": "Ponto final inesperado"
+      },
+      "[0,\"text\"]": {
+        "source": "Your lead developer fell asleep on the train home. She's now in Penzance. You're driving to get her.",
+        "target": "Uma pessoa da equipe perdeu o ponto do ônibus ao voltar para casa. Você interrompe a agenda para ajudá-la a retornar."
+      },
+      "[1,\"title\"]": {
+        "source": "Visa Nightmare",
+        "target": "Pendência documental"
+      },
+      "[1,\"text\"]": {
+        "source": "The Home Office rejected your engineer's visa renewal. Missing fingerprints. Three weeks of panic.",
+        "target": "Um documento administrativo da equipe foi devolvido por falta de uma assinatura. Você precisa reorganizar a agenda para resolver a pendência."
+      },
+      "[2,\"title\"]": {
+        "source": "Hen Do Casualty",
+        "target": "Festa e atraso"
+      },
+      "[2,\"text\"]": {
+        "source": "The Bath hen weekend was 'legendary.' Your head of marketing won't be in this week.",
+        "target": "Uma comemoração no fim de semana deixou a pessoa responsável pela divulgação indisponível. Você precisa cobrir parte da agenda."
+      },
+      "[3,\"title\"]": {
+        "source": "Food Poisoning Roulette",
+        "target": "Equipe reduzida"
+      },
+      "[3,\"text\"]": {
+        "source": "The team lunch spot had issues. Half your engineers are working from the bathroom.",
+        "target": "Parte da equipe precisou se ausentar após o almoço. Você reorganiza as atividades para manter o atendimento."
+      },
+      "[4,\"title\"]": {
+        "source": "The Reply-All Incident",
+        "target": "Responder a todos"
+      },
+      "[4,\"text\"]": {
+        "source": "Someone replied-all to a client thread with opinions about the client. Damage control time.",
+        "target": "Uma mensagem interna com comentários sobre um cliente foi enviada a todos os destinatários. Você reserva tempo para esclarecer o ocorrido."
+      },
+      "[5,\"title\"]": {
+        "source": "Flu Sweeps the Office",
+        "target": "Ausências na equipe"
+      },
+      "[5,\"text\"]": {
+        "source": "It spread like wildfire. Three people out. The rest are 'soldiering on' unconvincingly.",
+        "target": "Algumas pessoas precisam se afastar temporariamente. Você dedica atenção extra à distribuição das tarefas."
+      },
+      "[6,\"title\"]": {
+        "source": "Jury Duty",
+        "target": "Compromisso obrigatório"
+      },
+      "[6,\"text\"]": {
+        "source": "The Crown Court needs you. 'I'm disrupting an industry' is not a valid excuse.",
+        "target": "Uma convocação pessoal obrigatória ocupa parte da sua agenda. Você remarca compromissos do negócio."
+      },
+      "[7,\"title\"]": {
+        "source": "School Called",
+        "target": "Reunião na escola"
+      },
+      "[7,\"text\"]": {
+        "source": "Your child expressed themselves creatively on the headteacher's car. Meeting required.",
+        "target": "A escola solicita uma reunião sobre uma situação envolvendo seu filho. Você precisa ajustar a agenda do trabalho."
+      },
+      "[8,\"title\"]": {
+        "source": "Extended Houseguest",
+        "target": "Visita prolongada"
+      },
+      "[8,\"text\"]": {
+        "source": "Your uni friend is 'passing through.' That was two weeks ago. They have opinions about your product.",
+        "target": "Uma amizade está hospedada na sua casa há mais tempo que o combinado. Resolver a situação ocupa parte da sua atenção."
+      },
+      "[9,\"title\"]": {
+        "source": "Family Emergency",
+        "target": "Prioridade familiar"
+      },
+      "[9,\"text\"]": {
+        "source": "A close relative needs you. Work waits.",
+        "target": "Uma pessoa próxima precisa de apoio. Você reserva tempo para cuidar da situação familiar."
+      },
+      "[10,\"title\"]": {
+        "source": "Stag Do Fallout",
+        "target": "Retorno da comemoração"
+      },
+      "[10,\"text\"]": {
+        "source": "Prague was a mistake. Your lead engineer is back but not really back. Write off the week.",
+        "target": "Uma pessoa da equipe volta de uma festa sem disposição para a rotina. Você acompanha de perto a reorganização das atividades."
+      },
+      "[11,\"title\"]": {
+        "source": "Train Strike",
+        "target": "Deslocamento interrompido"
+      },
+      "[11,\"text\"]": {
+        "source": "The entire team is working from home. Half don't have WiFi. The other half have toddlers.",
+        "target": "Uma interrupção no transporte dificulta a chegada da equipe. Você reorganiza horários e tarefas do negócio."
+      },
+      "[12,\"title\"]": {
+        "source": "Dinner at the Athenaeum",
+        "target": "Jantar que se prolonga"
+      },
+      "[12,\"text\"]": {
+        "source": "Your angel invites you to dinner at the Athenaeum Club. The gooseberry crumble is exceptional. The three-hour monologue about their nephew's crypto project is not.",
+        "target": "Um contato comercial convida você para jantar. A conversa se prolonga com assuntos pessoais e ocupa tempo reservado à gestão."
+      },
+      "[13,\"title\"]": {
+        "source": "The Loud Train Conversation",
+        "target": "Conversa ouvida por terceiros"
+      },
+      "[13,\"text\"]": {
+        "source": "Two researchers discussed the algorithm on the quiet coach. A competitor was three rows back.",
+        "target": "Duas pessoas comentam um procedimento interno em voz alta durante o trajeto. Um concorrente ouve detalhes; o diferencial de operações e qualidade perde força."
+      },
+      "[14,\"title\"]": {
+        "source": "Laptop Left in Uber",
+        "target": "Material comercial esquecido"
+      },
+      "[14,\"text\"]": {
+        "source": "Your sales lead left their laptop in a cab. It had the pitch deck and the customer list.",
+        "target": "A pessoa responsável pelas vendas esquece uma pasta com apresentações e contatos no transporte. O trabalho comercial fica prejudicado."
+      },
+      "[15,\"title\"]": {
+        "source": "Conference Overshare",
+        "target": "Informação além da conta"
+      },
+      "[15,\"text\"]": {
+        "source": "Your lead engineer got enthusiastic at drinks and told a journalist everything. Everything.",
+        "target": "Durante um encontro empresarial, alguém da equipe revela detalhes de um processo ainda em preparação. A organização da produção e dos serviços perde parte da vantagem."
+      },
+      "[16,\"title\"]": {
+        "source": "The Slack Screenshot",
+        "target": "Mensagem fora do grupo"
+      },
+      "[16,\"text\"]": {
+        "source": "An internal rant about a partner got screenshotted. It's now on LinkedIn.",
+        "target": "Uma crítica interna a um parceiro é compartilhada fora do grupo da equipe. A confiança entre as pessoas diminui."
+      },
+      "[17,\"title\"]": {
+        "source": "The Zoom Background",
+        "target": "Reunião interrompida"
+      },
+      "[17,\"text\"]": {
+        "source": "Your developer joined the investor call from their bedroom. Their housemate walked past. Undressed.",
+        "target": "Uma conversa comercial por vídeo é interrompida por ruídos e distrações. A apresentação perde força junto ao contato."
+      },
+      "[18,\"title\"]": {
+        "source": "Pub Argument",
+        "target": "Desentendimento na equipe"
+      },
+      "[18,\"text\"]": {
+        "source": "Two team members had a falling out at Friday drinks. It's now affecting standups.",
+        "target": "Duas pessoas discutem depois do expediente. A tensão passa a atrapalhar a comunicação no trabalho."
+      },
+      "[19,\"title\"]": {
+        "source": "In-Laws to the Rescue",
+        "target": "Apoio em casa"
+      },
+      "[19,\"text\"]": {
+        "source": "Your partner's parents arrived for a month. They've taken over everything. You're suspiciously free.",
+        "target": "Familiares ajudam com a rotina doméstica. Você ganha tempo para acompanhar o negócio."
+      },
+      "[20,\"title\"]": {
+        "source": "Conference Cancelled",
+        "target": "Agenda liberada"
+      },
+      "[20,\"text\"]": {
+        "source": "The event you dreaded is off. No travel, no small talk. A week reclaimed.",
+        "target": "Um encontro empresarial foi cancelado. O deslocamento e os preparativos deixam de ocupar sua agenda."
+      },
+      "[21,\"title\"]": {
+        "source": "Childcare Miracle",
+        "target": "Rotina familiar organizada"
+      },
+      "[21,\"text\"]": {
+        "source": "The nursery had a cancellation. Three days became five. You could cry with relief.",
+        "target": "A família consegue organizar o cuidado das crianças durante a semana. Você ganha tempo para a gestão."
+      },
+      "[22,\"title\"]": {
+        "source": "Smooth Quarter",
+        "target": "Trimestre sem imprevistos"
+      },
+      "[22,\"text\"]": {
+        "source": "Nothing broke. Nobody quit. The build worked first time. Suspicious, but you'll take it.",
+        "target": "As rotinas funcionam, a equipe permanece completa e as tarefas seguem o planejamento. Você ganha espaço na agenda."
+      },
+      "[23,\"title\"]": {
+        "source": "Flight Upgrade",
+        "target": "Viagem tranquila"
+      },
+      "[23,\"text\"]": {
+        "source": "Business class to the investor meeting. Arrived rested. Pitched well. Sometimes luck helps.",
+        "target": "Uma viagem para reunião comercial ocorre sem contratempos. Você chega descansado e consegue aproveitar melhor a agenda."
+      },
+      "[24,\"title\"]": {
+        "source": "Remote Work Week",
+        "target": "Tarefas administrativas em dia"
+      },
+      "[24,\"text\"]": {
+        "source": "Everyone worked from home. No commutes, no interruptions. Surprisingly productive.",
+        "target": "As tarefas administrativas foram organizadas com menos interrupções. Você ganha tempo para acompanhar a operação."
+      },
+      "[25,\"title\"]": {
+        "source": "Hotel Chocolat Delivery",
+        "target": "Agradecimento do cliente"
+      },
+      "[25,\"text\"]": {
+        "source": "A grateful client sent a massive box of truffles. Productivity briefly dipped, then soared.",
+        "target": "Um cliente agradecido envia chocolates para a equipe. O bom humor ajuda a rotina a avançar com menos interrupções."
+      },
+      "[26,\"title\"]": {
+        "source": "Perfect Weather Week",
+        "target": "Semana de deslocamentos tranquilos"
+      },
+      "[26,\"text\"]": {
+        "source": "Sunshine every day. Everyone in good moods. Meetings were shorter. Things just worked.",
+        "target": "O clima favorece os deslocamentos e os compromissos ocorrem no horário. Você aproveita melhor o tempo de gestão."
+      },
+      "[27,\"title\"]": {
+        "source": "Weekend Hero",
+        "target": "Preparação bem concluída"
+      },
+      "[27,\"text\"]": {
+        "source": "Your developer stayed up all night to fix the demo. The Monday pitch went perfectly.",
+        "target": "A equipe corrige uma falha na preparação de uma entrega. A organização da produção e dos serviços melhora."
+      },
+      "[28,\"title\"]": {
+        "source": "Conference Serendipity",
+        "target": "Contato no caminho"
+      },
+      "[28,\"text\"]": {
+        "source": "Your sales rep sat next to a procurement director on the train. We have a pilot.",
+        "target": "Durante uma viagem, alguém da equipe conhece uma pessoa interessada no negócio. A conversa abre uma oportunidade comercial."
+      },
+      "[29,\"title\"]": {
+        "source": "The Helpful Intern",
+        "target": "Olhar atento"
+      },
+      "[29,\"text\"]": {
+        "source": "The intern fixed a bug that stumped everyone. 'It was obvious,' she said.",
+        "target": "Uma pessoa em formação identifica uma etapa desnecessária no procedimento. O cuidado com operações e qualidade melhora."
+      },
+      "[30,\"title\"]": {
+        "source": "Rival's Engineer Defects",
+        "target": "Interesse em trabalhar na equipe"
+      },
+      "[30,\"text\"]": {
+        "source": "A senior engineer from CortexAI DM'd asking if you're hiring. Their culture is 'interesting.'",
+        "target": "Uma pessoa experiente de outro negócio entra em contato para saber sobre futuras vagas. A reputação do negócio como lugar de trabalho melhora."
+      },
+      "[31,\"title\"]": {
+        "source": "Pub Breakthrough",
+        "target": "Ideia em conversa informal"
+      },
+      "[31,\"text\"]": {
+        "source": "Friday drinks whiteboard session cracked a problem you'd been stuck on for months.",
+        "target": "Uma conversa entre colegas esclarece um problema antigo da rotina. A equipe melhora seu entendimento das operações e da qualidade."
+      },
+      "[32,\"title\"]": {
+        "source": "The Viral Post",
+        "target": "Publicação compartilhada"
+      },
+      "[32,\"text\"]": {
+        "source": "Your engineer's blog post hit front page of Hacker News. Inbox flooded with CVs.",
+        "target": "Uma publicação sobre a rotina do negócio circula entre moradores e contatos locais. A visibilidade aumenta e mais pessoas demonstram interesse na equipe."
+      },
+      "[33,\"title\"]": {
+        "source": "Client Referral",
+        "target": "Indicação espontânea"
+      },
+      "[33,\"text\"]": {
+        "source": "Your happiest customer recommended you to three companies. Without being asked.",
+        "target": "Um cliente satisfeito recomenda o negócio a outros contatos. O relacionamento comercial ganha força."
+      },
+      "[34,\"title\"]": {
+        "source": "Side Project Surprise",
+        "target": "Melhoria inesperada"
+      },
+      "[34,\"text\"]": {
+        "source": "Your researcher's weekend experiment accidentally solved a customer problem.",
+        "target": "Um teste simples da equipe revela uma forma de organizar melhor uma entrega. A produção e os serviços ganham consistência."
+      },
+      "[35,\"title\"]": {
+        "source": "Team Bonding Success",
+        "target": "Equipe mais próxima"
+      },
+      "[35,\"text\"]": {
+        "source": "The offsite actually worked. People are communicating better. Who knew escape rooms helped?",
+        "target": "Uma atividade conjunta ajuda as pessoas a conversar e colaborar. A gestão de pessoas ganha força."
+      },
+      "[36,\"title\"]": {
+        "source": "Podcast Mention",
+        "target": "Menção em programa local"
+      },
+      "[36,\"text\"]": {
+        "source": "A popular tech podcast mentioned your product unprompted. Downloads spiked.",
+        "target": "Um programa de áudio local comenta o negócio espontaneamente. Mais pessoas passam a conhecer seus produtos ou serviços."
+      },
+      "[37,\"title\"]": {
+        "source": "Diwali Sweets",
+        "target": "Diwali compartilhado"
+      },
+      "[37,\"text\"]": {
+        "source": "Your developer brought boxes of mithai for Diwali. The office smells amazing and everyone's in high spirits.",
+        "target": "Uma pessoa da equipe compartilha doces para celebrar o Diwali. O encontro fortalece o bom humor e ajuda a rotina a fluir."
+      },
+      "[38,\"title\"]": {
+        "source": "Eid Feast",
+        "target": "Almoço de Eid"
+      },
+      "[38,\"text\"]": {
+        "source": "Your engineer organised an Eid lunch for the team. The biryani was exceptional. Nobody worked very hard afterwards.",
+        "target": "Uma pessoa da equipe organiza um almoço para celebrar o Eid. O convívio aproxima as pessoas."
+      },
+      "[39,\"title\"]": {
+        "source": "Chinese New Year Celebration",
+        "target": "Ano-Novo Chinês"
+      },
+      "[39,\"text\"]": {
+        "source": "Your product lead organised a Chinese New Year lunch. The dragon dance in the car park set off a car alarm. Worth it.",
+        "target": "Uma pessoa da equipe organiza uma pequena celebração do Ano-Novo Chinês. A convivência melhora e a agenda do trabalho flui com mais facilidade."
+      },
+      "[40,\"title\"]": {
+        "source": "Hanukkah Latkes",
+        "target": "Hanukkah na equipe"
+      },
+      "[40,\"text\"]": {
+        "source": "Your researcher brought in latkes and taught the team to spin the dreidel to enjoy the Festival of Lights.",
+        "target": "Uma pessoa da equipe compartilha uma comida tradicional e conta como celebra o Hanukkah. As pessoas se conhecem melhor."
+      },
+      "[41,\"title\"]": {
+        "source": "Great-Aunt Mildred",
+        "target": "Herança no cenário fictício"
+      },
+      "[41,\"text\"]": {
+        "source": "A distant relative left you £50,000. You put it straight into the company. Thanks, Mildred.",
+        "target": "Uma pessoa da família deixa uma herança de R$ 50 mil. No cenário fictício, você destina esse recurso ao caixa do negócio."
+      },
+      "[42,\"title\"]": {
+        "source": "Forgotten Tax Credit",
+        "target": "Pagamento duplicado devolvido"
+      },
+      "[42,\"text\"]": {
+        "source": "Your accountant found R&D credits you'd missed. HMRC sends £15,000.",
+        "target": "A contabilidade identifica um pagamento em duplicidade de R$ 15 mil. No cenário fictício, o valor é devolvido ao caixa; não se trata de benefício tributário real."
+      },
+      "[43,\"title\"]": {
+        "source": "Leaves on the Line",
+        "target": "Atraso no trajeto"
+      },
+      "[43,\"text\"]": {
+        "source": "Your train was delayed. Leaves on the line. You arrived late to an important meeting, apologising profusely.",
+        "target": "Um problema no trajeto faz você chegar atrasado a uma reunião comercial. O contato recebe a apresentação com menos confiança."
+      },
+      "[44,\"title\"]": {
+        "source": "State Funeral",
+        "target": "Luto na comunidade"
+      },
+      "[44,\"text\"]": {
+        "source": "The country stops for a state funeral. Staff take the day off. Nothing gets done, but it feels right.",
+        "target": "Um falecimento mobiliza a comunidade do cenário fictício. Você reorganiza a agenda para permitir que a equipe participe da despedida."
+      },
+      "[45,\"title\"]": {
+        "source": "Royal Visit",
+        "target": "Visita da associação local"
+      },
+      "[45,\"text\"]": {
+        "source": "A royal visit to your tech park caused security chaos — but you got a photo opportunity and local press coverage.",
+        "target": "Uma associação empresarial fictícia visita o bairro e divulga o negócio. A presença na comunicação local aumenta sua visibilidade."
+      },
+      "[46,\"title\"]": {
+        "source": "King's Award for Enterprise",
+        "target": "Reconhecimento local fictício"
+      },
+      "[46,\"text\"]": {
+        "source": "Your venture wins a King's Award for Enterprise in Innovation. The credibility boost opens doors.",
+        "target": "O negócio recebe um reconhecimento de uma associação empresarial fictícia pela organização de sua rotina. A divulgação fortalece a reputação comercial."
+      },
+      "[47,\"title\"]": {
+        "source": "Palace Reception",
+        "target": "Encontro de negócios local"
+      },
+      "[47,\"text\"]": {
+        "source": "Your investor secured you an invitation to a Buckingham Palace reception for tech entrepreneurs. You make useful connections over canapés.",
+        "target": "Um contato convida você para uma recepção empresarial fictícia na cidade. A conversa aproxima o negócio de novos contatos comerciais."
+      }
+    }
+  },
+  "CONFERENCES": {
+    "classification": "Adaptação editorial brasileira fictícia; IDs, valores, efeitos, categorias, ordem e seletores preservados.",
+    "strings": {
+      "[\"voed\",0,\"name\"]": {
+        "source": "FoodTech Live",
+        "target": "Feira de Refeições (fictícia)"
+      },
+      "[\"voed\",0,\"location\"]": {
+        "source": "ExCeL London",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"voed\",1,\"name\"]": {
+        "source": "The Grocer Summit",
+        "target": "Encontro de Produção (fictícia)"
+      },
+      "[\"voed\",1,\"location\"]": {
+        "source": "Business Design Centre, Islington",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"voed\",2,\"name\"]": {
+        "source": "Sustainable Food Show",
+        "target": "Feira de Distribuição (fictícia)"
+      },
+      "[\"voed\",2,\"location\"]": {
+        "source": "NEC Birmingham",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"arene\",0,\"name\"]": {
+        "source": "Sports Analytics Summit",
+        "target": "Feira de Academias (fictícia)"
+      },
+      "[\"arene\",0,\"location\"]": {
+        "source": "Wembley Stadium",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"arene\",1,\"name\"]": {
+        "source": "Leaders Week",
+        "target": "Encontro de Gestão (fictícia)"
+      },
+      "[\"arene\",1,\"location\"]": {
+        "source": "Twickenham",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"arene\",2,\"name\"]": {
+        "source": "Esports & Games Expo",
+        "target": "Feira de Equipamentos (fictícia)"
+      },
+      "[\"arene\",2,\"location\"]": {
+        "source": "Manchester Central",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"sorgente\",0,\"name\"]": {
+        "source": "Wellbeing at Work",
+        "target": "Feira de Higiene e Perfumaria (fictícia)"
+      },
+      "[\"sorgente\",0,\"location\"]": {
+        "source": "ExCeL London",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"sorgente\",1,\"name\"]": {
+        "source": "Digital Health Rewired",
+        "target": "Encontro de Varejo (fictícia)"
+      },
+      "[\"sorgente\",1,\"location\"]": {
+        "source": "The Brewery, London",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"sorgente\",2,\"name\"]": {
+        "source": "The Sleep & Wellness Show",
+        "target": "Feira de Conveniência (fictícia)"
+      },
+      "[\"sorgente\",2,\"location\"]": {
+        "source": "Olympia London",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"avam\",0,\"name\"]": {
+        "source": "AI Infrastructure Summit",
+        "target": "Feira de Reparos (fictícia)"
+      },
+      "[\"avam\",0,\"location\"]": {
+        "source": "QEII Centre, Westminster",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"avam\",1,\"name\"]": {
+        "source": "Developer Week Europe",
+        "target": "Encontro de Manutenção (fictícia)"
+      },
+      "[\"avam\",1,\"location\"]": {
+        "source": "Here East, Stratford",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"avam\",2,\"name\"]": {
+        "source": "Edge & On-Device AI Expo",
+        "target": "Feira de Peças (fictícia)"
+      },
+      "[\"avam\",2,\"location\"]": {
+        "source": "Bristol Beacon",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"aether\",0,\"name\"]": {
+        "source": "BioTech World London",
+        "target": "Feira de Gestão de Clínicas (fictícia)"
+      },
+      "[\"aether\",0,\"location\"]": {
+        "source": "ExCeL Centre",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"aether\",1,\"name\"]": {
+        "source": "NHS Innovation Expo",
+        "target": "Encontro de Atendimento (fictícia)"
+      },
+      "[\"aether\",1,\"location\"]": {
+        "source": "Manchester Central",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"aether\",2,\"name\"]": {
+        "source": "Life Sciences Summit",
+        "target": "Feira de Instalações (fictícia)"
+      },
+      "[\"aether\",2,\"location\"]": {
+        "source": "Edinburgh ICC",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"vanguard\",0,\"name\"]": {
+        "source": "Robotics & Automation Show",
+        "target": "Feira de Materiais de Construção (fictícia)"
+      },
+      "[\"vanguard\",0,\"location\"]": {
+        "source": "NEC Birmingham",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"vanguard\",1,\"name\"]": {
+        "source": "Manufacturing Technology Expo",
+        "target": "Encontro de Varejistas (fictícia)"
+      },
+      "[\"vanguard\",1,\"location\"]": {
+        "source": "Coventry Arena",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"vanguard\",2,\"name\"]": {
+        "source": "Industry 4.0 Summit",
+        "target": "Feira de Ferragens (fictícia)"
+      },
+      "[\"vanguard\",2,\"location\"]": {
+        "source": "London Olympia",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"quant\",0,\"name\"]": {
+        "source": "FinTech Connect",
+        "target": "Feira de Produção Gráfica (fictícia)"
+      },
+      "[\"quant\",0,\"location\"]": {
+        "source": "ExCeL Centre",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"quant\",1,\"name\"]": {
+        "source": "Quant Summit Europe",
+        "target": "Encontro de Impressão (fictícia)"
+      },
+      "[\"quant\",1,\"location\"]": {
+        "source": "The Barbican",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"quant\",2,\"name\"]": {
+        "source": "AI in Finance Conference",
+        "target": "Feira de Materiais Gráficos (fictícia)"
+      },
+      "[\"quant\",2,\"location\"]": {
+        "source": "Canary Wharf",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      },
+      "[\"dream\",0,\"name\"]": {
+        "source": "Creative Tech Week",
+        "target": "Feira de Mercados de Bairro (fictícia)"
+      },
+      "[\"dream\",0,\"location\"]": {
+        "source": "Shoreditch",
+        "target": "São Paulo — Pavilhão Comercial (fictício)"
+      },
+      "[\"dream\",1,\"name\"]": {
+        "source": "Games Developer Conference UK",
+        "target": "Encontro de Abastecimento (fictícia)"
+      },
+      "[\"dream\",1,\"location\"]": {
+        "source": "Brighton Centre",
+        "target": "Belo Horizonte — Pavilhão Comercial (fictício)"
+      },
+      "[\"dream\",2,\"name\"]": {
+        "source": "AI & Creativity Summit",
+        "target": "Feira de Comércio Local (fictícia)"
+      },
+      "[\"dream\",2,\"location\"]": {
+        "source": "Kings Cross",
+        "target": "Recife — Pavilhão Comercial (fictício)"
+      }
+    }
+  },
+  "TICKER_LINES": {
+    "classification": "Adaptação editorial brasileira fictícia; IDs, valores, efeitos, categorias, ordem e seletores preservados.",
+    "strings": {
+      "[\"voed\",0]": {
+        "source": "Overheard: \"our unit economics work if nobody ever throws food away, which is the whole idea.\"",
+        "target": "No corredor: \"Reduzir o desperdício começa com pedidos e produção bem organizados.\""
+      },
+      "[\"voed\",1]": {
+        "source": "Tannoy: the sampling stand in Hall 1 has run out of everything except the oat milk.",
+        "target": "Aviso: as amostras do estande de embalagens estão no salão 1."
+      },
+      "[\"arene\",0]": {
+        "source": "Overheard: \"we can tell you the expected goals, we just cannot tell you why the manager ignored them.\"",
+        "target": "No corredor: \"A agenda organizada ajuda a aproveitar o espaço da academia.\""
+      },
+      "[\"arene\",1]": {
+        "source": "Tannoy: would the five-a-side game in the demo area please wrap up, you are on the main feed.",
+        "target": "Aviso: a apresentação de equipamentos termina em breve; confira a programação."
+      },
+      "[\"sorgente\",0]": {
+        "source": "Overheard: \"our churn is basically January, and then again every Monday.\"",
+        "target": "No corredor: \"O cliente voltou pela atenção e pelo produto de higiene que encontrou aqui.\""
+      },
+      "[\"sorgente\",1]": {
+        "source": "Tannoy: the mindfulness pod is fully booked, please breathe where you are.",
+        "target": "Aviso: o painel trata de higiene e perfumaria; não há venda de medicamentos no cenário."
+      },
+      "[\"avam\",0]": {
+        "source": "Overheard: \"it runs on the device, offline, in a field, which is more than the wifi in here manages.\"",
+        "target": "No corredor: \"O orçamento ficou pronto; agora precisamos conferir as peças disponíveis.\""
+      },
+      "[\"avam\",1]": {
+        "source": "Tannoy: the demo laptop in Hall 2 has gone to sleep and will not wake, much like its owner.",
+        "target": "Aviso: a apresentação de organização da bancada ocorre no salão 2."
+      },
+      "[\"generic\",0]": {
+        "source": "Tannoy: the cloakroom has run out of hangers. Coats are now a matter of trust.",
+        "target": "Aviso: mantenha seus pertences com você durante o encontro."
+      },
+      "[\"generic\",1]": {
+        "source": "Overheard: \"we're pre-revenue, but aggressively so.\"",
+        "target": "No corredor: \"Ainda precisamos organizar o fluxo de caixa do próximo trimestre.\""
+      },
+      "[\"generic\",2]": {
+        "source": "The queue for the barista cart has passed the forty-minute mark.",
+        "target": "A fila do café virou um ponto de conversa entre os visitantes."
+      },
+      "[\"generic\",3]": {
+        "source": "Tannoy: would the owner of the drone in Hall 2 please land it.",
+        "target": "Aviso: mantenha os corredores livres para a circulação."
+      },
+      "[\"generic\",4]": {
+        "source": "Overheard: \"our addressable market is basically everyone.\"",
+        "target": "No corredor: \"Conhecer nosso público ajuda a escolher onde divulgar.\""
+      },
+      "[\"generic\",5]": {
+        "source": "Tannoy: badges must be worn at all times, including on the terrace.",
+        "target": "Aviso: use o crachá durante todo o encontro."
+      },
+      "[\"generic\",6]": {
+        "source": "The 4:15 panel, \"Founding While Tired\", has moved to Room 9b.",
+        "target": "O painel das 16h15, \"Gestão na rotina\", mudou para a sala 9b."
+      },
+      "[\"generic\",7]": {
+        "source": "Overheard: \"it's like Uber, but for this.\"",
+        "target": "No corredor: \"Nossa ideia é melhorar o atendimento de quem já nos procura.\""
+      },
+      "[\"aether\",0]": {
+        "source": "Overheard: \"regulatory pathway\", said with a straight face.",
+        "target": "No corredor: \"Recepção e agenda bem organizadas fazem diferença na rotina.\""
+      },
+      "[\"aether\",1]": {
+        "source": "Tannoy: the gene therapy panel is over-subscribed. Again.",
+        "target": "Aviso: o painel trata de gestão administrativa, sem decisões clínicas ou dados de pacientes."
+      },
+      "[\"vanguard\",0]": {
+        "source": "A robot arm in Hall 1 appears to have befriended the coffee machine.",
+        "target": "No corredor: \"Separar os pedidos antes da entrega evita correria na loja.\""
+      },
+      "[\"vanguard\",1]": {
+        "source": "Tannoy: steel toe caps are required on the demo floor.",
+        "target": "Aviso: a apresentação de organização do estoque ocorre no salão 1."
+      },
+      "[\"quant\",0]": {
+        "source": "Overheard: \"the backtest looked great until Tuesday.\"",
+        "target": "No corredor: \"Conferimos o pedido antes de iniciar a impressão.\""
+      },
+      "[\"quant\",1]": {
+        "source": "Tannoy: delegates are reminded the FCA stand is not a photo opportunity.",
+        "target": "Aviso: o painel de programação da produção começa em breve."
+      },
+      "[\"dream\",0]": {
+        "source": "Overheard: \"the game is basically finished, apart from the game.\"",
+        "target": "No corredor: \"A reposição precisa acompanhar o que sai das prateleiras.\""
+      },
+      "[\"dream\",1]": {
+        "source": "Tannoy: cosplay is welcome. Katanas, foam only.",
+        "target": "Aviso: a conversa sobre atendimento de bairro ocorre no salão 2."
+      },
+      "[\"closing\"]": {
+        "source": "Tannoy: the hall is closing shortly. Please make your way to the exits.",
+        "target": "Aviso: o salão fecha em breve. Dirija-se às saídas."
+      }
+    }
+  },
+  "DELEGATE_TYPES": {
+    "classification": "Adaptação editorial brasileira fictícia; IDs, valores, efeitos, categorias, ordem e seletores preservados.",
+    "strings": {
+      "[0,\"name\"]": {
+        "source": "Student",
+        "target": "Estudante"
+      },
+      "[1,\"name\"]": {
+        "source": "Developer",
+        "target": "Profissional operacional"
+      },
+      "[2,\"name\"]": {
+        "source": "Manager",
+        "target": "Gestor"
+      },
+      "[3,\"name\"]": {
+        "source": "Executive",
+        "target": "Diretor"
+      },
+      "[4,\"name\"]": {
+        "source": "Investor",
+        "target": "Representante comercial"
+      },
+      "[5,\"name\"]": {
+        "source": "Journalist",
+        "target": "Jornalista"
+      },
+      "[6,\"name\"]": {
+        "source": "Competitor",
+        "target": "Concorrente"
+      }
+    }
+  }
+}

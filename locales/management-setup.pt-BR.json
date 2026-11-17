@@ -1,0 +1,560 @@
+{
+  "version": 1,
+  "roles": {
+    "research": "Gerente Geral",
+    "dev": "Supervisor de Operações",
+    "marketing": "Gerente Comercial",
+    "hr": "Gerente de Pessoas"
+  },
+  "metrics": {
+    "sci": "Operações e Qualidade",
+    "dev": "Produção e Serviços",
+    "mkt": "Vendas e Marketing",
+    "hr": "Gestão de Pessoas"
+  },
+  "executives": {
+    "fatima": {
+      "role": "research",
+      "name": "Referência em Processos",
+      "title": "Responsável Administrativo e de Qualidade",
+      "wage": 22.5,
+      "bonus": {
+        "sci": 4,
+        "dev": 1,
+        "hr": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Padronização de procedimentos e auditorias internas em negócios.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Pós-graduação em Gestão da Qualidade e formação em Engenharia de Produção.",
+        "experience": [
+          "Padronização de procedimentos e auditorias internas em negócios."
+        ],
+        "strengths": [
+          "Rigor na documentação e formação da equipe."
+        ],
+        "weaknesses": [
+          "O perfeccionismo pode atrasar decisões e elevar custos."
+        ]
+      },
+      "id": "fatima",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 27
+    },
+    "yuki": {
+      "role": "research",
+      "name": "Ponte entre Fornecedores e Equipes",
+      "title": "Responsável Administrativo e de Qualidade",
+      "wage": 18.333333333333336,
+      "bonus": {
+        "sci": 3,
+        "dev": 2
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Coordenação de operações, fornecedores e prestadores de serviço.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Pós-graduação em Cadeia de Suprimentos e formação em Administração.",
+        "experience": [
+          "Coordenação de operações, fornecedores e prestadores de serviço."
+        ],
+        "strengths": [
+          "Alinhamento entre áreas e boa organização de fornecimento."
+        ],
+        "weaknesses": [
+          "A busca por consenso pode atrasar decisões urgentes."
+        ]
+      },
+      "id": "yuki",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 22
+    },
+    "kwame": {
+      "role": "research",
+      "name": "Ambição de Escala",
+      "title": "Responsável Administrativo e de Qualidade",
+      "wage": 25.0,
+      "bonus": {
+        "sci": 5,
+        "mkt": 1,
+        "hr": -1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Estruturação de novas unidades em uma rede em expansão.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "MBA em Gestão de Negócios e formação em Administração.",
+        "experience": [
+          "Estruturação de novas unidades em uma rede em expansão."
+        ],
+        "strengths": [
+          "Mobilização para expansão e negociação com parceiros."
+        ],
+        "weaknesses": [
+          "O ritmo de crescimento pode pressionar o caixa e a equipe."
+        ]
+      },
+      "id": "kwame",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 30
+    },
+    "aoife": {
+      "role": "dev",
+      "name": "Padronização da Operação",
+      "title": "Responsável por Operações",
+      "wage": 20.0,
+      "bonus": {
+        "dev": 4,
+        "mkt": 1,
+        "hr": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Organização de rotinas de produção e atendimento em pequenas empresas.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Gestão da Produção e aperfeiçoamento em processos.",
+        "experience": [
+          "Organização de rotinas de produção e atendimento em pequenas empresas."
+        ],
+        "strengths": [
+          "Qualidade consistente, documentação e orientação da equipe."
+        ],
+        "weaknesses": [
+          "Implantação inicial mais lenta e maior custo de remuneração."
+        ]
+      },
+      "id": "aoife",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 24
+    },
+    "raj": {
+      "role": "dev",
+      "name": "Execução Prática",
+      "title": "Responsável por Operações",
+      "wage": 16.666666666666668,
+      "bonus": {
+        "dev": 3,
+        "mkt": 2,
+        "hr": -1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Organização de entregas e solução de gargalos em negócios.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação técnica e capacitação em gestão de operações.",
+        "experience": [
+          "Organização de entregas e solução de gargalos em negócios."
+        ],
+        "strengths": [
+          "Agilidade para entregar e compreensão de prioridades comerciais."
+        ],
+        "weaknesses": [
+          "Improvisação excessiva pode gerar retrabalho e desgaste."
+        ]
+      },
+      "id": "raj",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 20
+    },
+    "wei": {
+      "role": "dev",
+      "name": "Desenvolvimento da Equipe",
+      "title": "Responsável por Operações",
+      "wage": 15.0,
+      "bonus": {
+        "dev": 3,
+        "hr": 2
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Capacitação e distribuição de trabalho em unidades de produção e serviços.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Gestão de Operações e treinamento de equipes.",
+        "experience": [
+          "Capacitação e distribuição de trabalho em unidades de produção e serviços."
+        ],
+        "strengths": [
+          "Colaboração, treinamento e ritmo sustentável."
+        ],
+        "weaknesses": [
+          "Pode precisar de apoio para acelerar entregas em períodos de pico."
+        ]
+      },
+      "id": "wei",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 18
+    },
+    "priya": {
+      "role": "marketing",
+      "name": "Negociação Institucional",
+      "title": "Responsável Comercial",
+      "wage": 23.333333333333336,
+      "bonus": {
+        "mkt": 4
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Gestão de contas e vendas institucionais em organizações.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "MBA em Gestão Comercial e formação em Economia.",
+        "experience": [
+          "Gestão de contas e vendas institucionais em organizações."
+        ],
+        "strengths": [
+          "Relacionamentos comerciais e acompanhamento de contratos."
+        ],
+        "weaknesses": [
+          "Maior custo; ciclos de venda demorados e menor foco em compras avulsas."
+        ]
+      },
+      "id": "priya",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 28
+    },
+    "marcus": {
+      "role": "marketing",
+      "name": "Análise de Crescimento",
+      "title": "Responsável Comercial",
+      "wage": 18.333333333333336,
+      "bonus": {
+        "mkt": 3,
+        "dev": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Acompanhamento de vendas e crescimento de público em negócios.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Economia e análise comercial.",
+        "experience": [
+          "Acompanhamento de vendas e crescimento de público em negócios."
+        ],
+        "strengths": [
+          "Identifica gargalos em canais de venda e testa campanhas."
+        ],
+        "weaknesses": [
+          "O foco em indicadores pode deixar de lado aspectos do relacionamento."
+        ]
+      },
+      "id": "marcus",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 22
+    },
+    "emma": {
+      "role": "marketing",
+      "name": "Estratégia de Marca",
+      "title": "Responsável Comercial",
+      "wage": 20.0,
+      "bonus": {
+        "mkt": 3,
+        "sci": 1,
+        "hr": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Construção de marcas e comunicação com clientes locais.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Pós-graduação em Marketing e formação em Comunicação.",
+        "experience": [
+          "Construção de marcas e comunicação com clientes locais."
+        ],
+        "strengths": [
+          "Posicionamento claro e consistência da promessa ao cliente."
+        ],
+        "weaknesses": [
+          "Retorno gradual e menor orientação para vendas imediatas."
+        ]
+      },
+      "id": "emma",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 24
+    },
+    "david": {
+      "role": "hr",
+      "name": "Organização de Pessoas",
+      "title": "Gerente de Pessoas",
+      "wage": 16.666666666666668,
+      "bonus": {
+        "hr": 5,
+        "mkt": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Organização de admissões, integração e rotinas de equipes.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Gestão de Pessoas.",
+        "experience": [
+          "Organização de admissões, integração e rotinas de equipes."
+        ],
+        "strengths": [
+          "Clareza de responsabilidades e acompanhamento de problemas."
+        ],
+        "weaknesses": [
+          "Formalização excessiva pode tornar decisões lentas."
+        ]
+      },
+      "id": "david",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 20
+    },
+    "sofia": {
+      "role": "hr",
+      "name": "Formação e Retenção",
+      "title": "Gerente de Pessoas",
+      "wage": 15.0,
+      "bonus": {
+        "hr": 4,
+        "dev": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Treinamento e acompanhamento de equipes em pequenas empresas.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Desenvolvimento de Pessoas.",
+        "experience": [
+          "Treinamento e acompanhamento de equipes em pequenas empresas."
+        ],
+        "strengths": [
+          "Integração, aprendizagem e prevenção de rotatividade."
+        ],
+        "weaknesses": [
+          "Treinamento exige tempo antes de melhorar a produtividade."
+        ]
+      },
+      "id": "sofia",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 18
+    },
+    "aisha": {
+      "role": "hr",
+      "name": "Recrutamento por Competências",
+      "title": "Gerente de Pessoas",
+      "wage": 18.333333333333336,
+      "bonus": {
+        "hr": 4,
+        "sci": 1
+      },
+      "origin": "Perfil de competências do simulador",
+      "background": "Recrutamento para comércio, serviços e indústria.",
+      "personality": "Competências, experiência, forma de trabalhar",
+      "quote": "Resultados precisam de planejamento, execução e revisão.",
+      "cv": {
+        "education": "Formação em Gestão de Pessoas e seleção por competências.",
+        "experience": [
+          "Recrutamento para comércio, serviços e indústria."
+        ],
+        "strengths": [
+          "Busca de competências complementares e avaliação de candidatos."
+        ],
+        "weaknesses": [
+          "A contratação rápida pode pressionar a folha e a integração."
+        ]
+      },
+      "id": "aisha",
+      "avatar": "",
+      "equity": 0,
+      "vestingYears": 0,
+      "cliff": 0,
+      "metroWage": 22
+    }
+  },
+  "cities": [
+    {
+      "id": "br_metropole",
+      "name": "Metrópole Central",
+      "region": "Grande centro urbano",
+      "tagline": "Onde a tradição encontra o movimento",
+      "description": "Mercado consumidor amplo e concentrado, escolas técnicas e rede diversificada de fornecedores. A concorrência por clientes e profissionais é intensa. Valores comparativos de simulação, sujeitos a calibração.",
+      "salaryMod": 0.2,
+      "bonuses": {
+        "mkt": 4,
+        "dev": 2
+      },
+      "supply": 0.9,
+      "localCharge": 0.04,
+      "occupancy": 8,
+      "industrySupply": 0.9,
+      "industryCharge": 0.04,
+      "pros": [
+        "Mercado consumidor amplo e concentrado.",
+        "Rede diversificada de fornecedores com entrega rápida.",
+        "Oferta de profissionais qualificados."
+      ],
+      "cons": [
+        "Ocupação e mão de obra mais caras.",
+        "Disputa por profissionais reduz em 5 pontos percentuais o interesse nas vagas.",
+        "Encargo local simulado sem desconto."
+      ],
+      "conversionBonus": 0.04,
+      "churnReduction": 0,
+      "clinicConversionBonus": 0,
+      "deliveryDelay": 0,
+      "talentInterest": -0.05,
+      "industryIncentiveQuarters": 0,
+      "image": "🏙️",
+      "tier": "london"
+    },
+    {
+      "id": "br_vale",
+      "name": "Vale Industrial",
+      "region": "Polo industrial",
+      "tagline": "A cidade que se reinventou",
+      "description": "Tradição em produção e operação de máquinas, fornecedores industriais e transportadoras. A demanda de consumo e a oferta de profissionais de atendimento são menores. Valores comparativos de simulação, sujeitos a calibração.",
+      "salaryMod": -0.05,
+      "bonuses": {
+        "dev": 4,
+        "sci": 2
+      },
+      "supply": 1,
+      "localCharge": 0.04,
+      "occupancy": 3,
+      "industrySupply": 0.85,
+      "industryCharge": 0.02,
+      "pros": [
+        "Capacidade inicial de produção e qualidade.",
+        "Custo de fornecimento industrial 15% menor.",
+        "Encargo industrial reduzido nos primeiros quatro trimestres.",
+        "Indústria: empreendimentos de Confecção, Alimentos congelados, Produtos de limpeza e Gráfica/embalagens recebem +4 pontos percentuais na conversão comercial, sem contrato garantido."
+      ],
+      "cons": [
+        "Sem bônus geral de acesso ao mercado.",
+        "Crédito mantém as condições didáticas comuns às três cidades.",
+        "Menor oferta de profissionais de atendimento é contexto do caso."
+      ],
+      "conversionBonus": 0,
+      "churnReduction": 0,
+      "industryConversionBonus": 0.04,
+      "deliveryDelay": 0,
+      "talentInterest": 0,
+      "industryIncentiveQuarters": 4,
+      "image": "🏭",
+      "tier": "major"
+    },
+    {
+      "id": "br_interior",
+      "name": "Capital do Interior",
+      "region": "Cidade média do interior",
+      "tagline": "Crescimento com apoio",
+      "description": "Comércio e serviços em expansão, menor custo de instalação e apoio à capacitação. A distância dos centros de distribuição encarece insumos. Incentivos são parâmetros do jogo, não ofertas ou benefícios fiscais reais. Valores comparativos de simulação, sujeitos a calibração.",
+      "salaryMod": -0.1,
+      "bonuses": {
+        "hr": 4,
+        "sci": 1
+      },
+      "supply": 1.15,
+      "localCharge": 0.025,
+      "occupancy": 1,
+      "industrySupply": 1.15,
+      "industryCharge": 0.025,
+      "pros": [
+        "Menores despesas de ocupação e salários.",
+        "Interesse nas vagas +5 pontos percentuais.",
+        "Capacidade inicial de gestão de pessoas reforçada."
+      ],
+      "cons": [
+        "Conversão comercial 2 pontos percentuais menor.",
+        "Fornecimento 15% mais caro.",
+        "Novas oportunidades demoram um trimestre adicional para entrega e faturamento."
+      ],
+      "conversionBonus": -0.02,
+      "churnReduction": 0,
+      "clinicConversionBonus": 0,
+      "deliveryDelay": 1,
+      "talentInterest": 0.05,
+      "industryIncentiveQuarters": 0,
+      "image": "🏘️",
+      "tier": "peripheral"
+    }
+  ],
+  "milestones": [
+    {
+      "name": "Validação do processo-piloto",
+      "desc": "Provar que o processo de produção ou atendimento funciona de forma consistente em escala reduzida. Priorize gestão da qualidade e capacidade de execução antes de expandir.",
+      "focus": [
+        "sci",
+        "dev"
+      ],
+      "threshold": {
+        "sci": 40,
+        "dev": 15
+      },
+      "time": 8,
+      "val": 200,
+      "icon": "⚙"
+    },
+    {
+      "name": "Selo de qualidade reconhecido",
+      "desc": "Concluir uma avaliação de qualidade do setor, sustentada por processos documentados e demonstração comercial dos resultados. A meta não equivale a licença, registro ou certificação real.",
+      "focus": [
+        "dev",
+        "mkt"
+      ],
+      "threshold": {
+        "dev": 43,
+        "mkt": 35
+      },
+      "time": 7,
+      "val": 450,
+      "icon": "📄"
+    },
+    {
+      "name": "Contrato institucional de grande porte",
+      "desc": "Conquistar, na simulação, um contrato com uma grande organização. Exige capacidade de entrega e relacionamento comercial. A meta não representa aprovação real em licitação ou credenciamento.",
+      "focus": [
+        "mkt",
+        "dev"
+      ],
+      "threshold": {
+        "mkt": 46,
+        "dev": 37
+      },
+      "time": 6,
+      "val": 900,
+      "icon": "🏛"
+    }
+  ]
+}

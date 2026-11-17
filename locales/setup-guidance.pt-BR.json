@@ -1,0 +1,10 @@
+{
+  "setup_founder": {
+    "title": "Escolha seu perfil de gestão",
+    "content": "<p class=\"mb-3\">Seu perfil define as competências iniciais. Escolha uma forma de gerir, sem associação a gênero, raça, origem ou idade.</p><ul class=\"list-disc list-inside space-y-2\"><li><strong>O iniciante:</strong> atributos equilibrados e maior adaptabilidade. Aprenda com os resultados e ajuste as escolhas.</li><li><strong>O visionário:</strong> maior liderança e comunicação comercial. Mobilize a equipe e complemente sua capacidade de operação.</li><li><strong>O estrategista:</strong> maior capacidade financeira. Compare alternativas e transforme planos em ações.</li></ul><p class=\"mt-3\">Nenhum perfil garante vendas, crédito ou fomento. Considere o caixa, a equipe e os requisitos da meta ao escolher.</p>"
+  },
+  "setup_venture": {
+    "title": "Escolha seu empreendimento",
+    "content": "<p class=\"mb-3\">Compare negócios de serviços, comércio e indústria. Abra <strong>Saiba mais</strong> para ler quem compra, como o negócio gera receita, oportunidades, dificuldades e concorrência.</p><ul class=\"list-disc list-inside space-y-2\"><li><strong>Serviços:</strong> atendimento, capacidade da equipe e qualidade da entrega.</li><li><strong>Comércio:</strong> compras, vendas, estoque e capital de giro.</li><li><strong>Indústria:</strong> pedidos, insumos, produção e prazos de entrega.</li></ul><p class=\"mt-3\">Esses textos apresentam o contexto do caso. Os efeitos de cada ação aparecem nos cartões e nos indicadores do jogo.</p>"
+  }
+}

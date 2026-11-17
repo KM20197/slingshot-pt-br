@@ -1,0 +1,2383 @@
+{
+  "GENERIC_EVENTS": {
+    "classification": "Setenta e três eventos fictícios de organização, preparação e comunicação, com filtros, probabilidades e regras originais preservados.",
+    "strings": {
+      "[\"all\",0,\"intro\"]": {
+        "source": "Our LLM provider has rewritten its price list—every request our product sends to their AI now costs 40% more. Our margin just went from comfortable to thin, and the only notice was an email titled 'Exciting changes to our pricing'.",
+        "target": "Neste cenário fictício, o fornecedor de materiais de organização avisou que a preparação dos exemplos inventados vai exigir mais recursos do que o previsto. A folga da equipe apertou, e o recado chegou com o título 'Novidades interessantes na nossa proposta'."
+      },
+      "[\"all\",0,\"aside\"]": {
+        "source": "When you rent your intelligence, your cost base belongs to someone else. They know roughly what switching would cost us. So do we.",
+        "target": "Depender do fornecedor limita as alternativas de preparação. Trocar de material também exige esforço da equipe."
+      },
+      "[\"all\",0,\"choices\",0,\"text\"]": {
+        "source": "Negotiate hard, threaten to switch",
+        "target": "Negociar e comparar alternativas"
+      },
+      "[\"all\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Got it down to 20%. Worth the fight.",
+        "target": "A conversa ajusta o escopo da preparação no cenário. Comparar alternativas também exige dedicação."
+      },
+      "[\"all\",0,\"choices\",1,\"text\"]": {
+        "source": "Accept the increase, budget accordingly",
+        "target": "Aceitar o esforço e reorganizar o planejamento"
+      },
+      "[\"all\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Stable relationship. Planning clarity.",
+        "target": "O esforço proposto entra no planejamento. A dependência do fornecedor continua presente."
+      },
+      "[\"all\",0,\"choices\",2,\"text\"]": {
+        "source": "Begin migrating to open LLMs we host",
+        "target": "Criar os materiais próprios"
+      },
+      "[\"all\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Painful but necessary. Six-month project.",
+        "target": "A equipe começa a preparar materiais próprios. A dedicação exige rever outras atividades."
+      },
+      "[\"all\",1,\"intro\"]": {
+        "source": "Office lease renewal coming up. Stay, downsize, or go fully remote?",
+        "target": "Neste cenário fictício, o espaço em que a equipe prepara os materiais administrativos dos exemplos inventados precisa ser reorganizado. Mantê-lo com organização flexível, usar um espaço menor ou dividir a preparação entre pontos da equipe?"
+      },
+      "[\"all\",1,\"aside\"]": {
+        "source": "Real estate is expensive. But some people need the office.",
+        "target": "O espaço disponível limita a preparação dos exemplos. Dividir o trabalho entre pontos também exige coordenação."
+      },
+      "[\"all\",1,\"choices\",0,\"text\"]": {
+        "source": "Renew with flexible terms",
+        "target": "Manter o espaço com organização flexível"
+      },
+      "[\"all\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Stability with optionality. Team appreciates the space.",
+        "target": "O espaço é mantido com rotinas ajustáveis. A equipe precisa combinar seu uso."
+      },
+      "[\"all\",1,\"choices\",1,\"text\"]": {
+        "source": "Downsize to smaller space",
+        "target": "Usar um espaço menor"
+      },
+      "[\"all\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Tighter but savings are real. Hot-desking works.",
+        "target": "O espaço menor exige combinar os postos de preparação. Parte dos materiais precisa ser reorganizada."
+      },
+      "[\"all\",1,\"choices\",2,\"text\"]": {
+        "source": "Go fully remote",
+        "target": "Dividir a preparação entre pontos da equipe"
+      },
+      "[\"all\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Big savings. Coordination gets harder.",
+        "target": "Preparação espalhada entre pontos. A coordenação fica mais difícil."
+      },
+      "[\"all\",2,\"intro\"]": {
+        "source": "CloudScale bill came in 50% higher than expected. Cloud costs spiralling.",
+        "target": "Neste cenário fictício, a preparação dos materiais inventados consumiu mais recursos do que o previsto, e o consumo segue acima do plano."
+      },
+      "[\"all\",2,\"aside\"]": {
+        "source": "Scale is expensive. But optimisation takes engineering time.",
+        "target": "Preparar materiais e revisar rotinas exigem esforço. A equipe compara o uso dos recursos previstos nos exemplos."
+      },
+      "[\"all\",2,\"choices\",0,\"text\"]": {
+        "source": "Dedicated cost optimisation sprint",
+        "target": "Rever a preparação por completo"
+      },
+      "[\"all\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Found waste we didn't know existed.",
+        "target": "Apareceu desperdício que ninguém enxergava antes."
+      },
+      "[\"all\",2,\"choices\",1,\"text\"]": {
+        "source": "Quick wins only, stay focused",
+        "target": "Ajustar os pontos evidentes e manter o foco"
+      },
+      "[\"all\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Some savings. Could do more.",
+        "target": "Alguns ajustes feitos. Ainda dá para melhorar."
+      },
+      "[\"all\",2,\"choices\",2,\"text\"]": {
+        "source": "Accept it as cost of growth",
+        "target": "Continuar sem revisar"
+      },
+      "[\"all\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Investment in scale. Revenue follows.",
+        "target": "Seguimos como está. O consumo continua fora do plano."
+      },
+      "[\"all\",3,\"intro\"]": {
+        "source": "A trade journalist is writing a piece on us, and mostly it is good news: she likes the product. But she has asked how we are funded and how long the money lasts, and she will print whatever we say. What we tell the world is rosier than the monthly accounts. None of it is a lie; all of it is generous. The piece runs next week, and everyone we deal with will read it.",
+        "target": "No cenário fictício, a equipe prepara uma apresentação da organização com exemplos inventados para parceiros. O relato destaca avanços e deixa dificuldades de fora. A equipe discute como explicar o conjunto e os limites do material."
+      },
+      "[\"all\",3,\"aside\"]": {
+        "source": "Everyone rounds up. The question is by how much.",
+        "target": "Mostrar apenas a parte favorável deixa dificuldades fora da conversa. A equipe precisa decidir como apresentá-las."
+      },
+      "[\"all\",3,\"choices\",0,\"text\"]": {
+        "source": "Give her the real picture, properly prepared: numbers, context, the plan",
+        "target": "Explicar o conjunto, com contexto e plano"
+      },
+      "[\"all\",3,\"choices\",0,\"reaction\"]": {
+        "source": "A more modest piece than we hoped. The team reads it and recognises where they work.",
+        "target": "O relato apresenta avanços e dificuldades dos exemplos. A equipe explica o contexto e o que pretende rever."
+      },
+      "[\"all\",3,\"choices\",1,\"text\"]": {
+        "source": "Bullish, with the risks acknowledged",
+        "target": "Dar destaque aos avanços e citar os limites"
+      },
+      "[\"all\",3,\"choices\",1,\"reaction\"]": {
+        "source": "She quotes the caveats in the final paragraph. A fair trade.",
+        "target": "As ressalvas aparecem no fim, quase esquecidas. Sobra informação incompleta."
+      },
+      "[\"all\",3,\"choices\",2,\"text\"]": {
+        "source": "Give her the confident line",
+        "target": "Enfatizar só a parte favorável"
+      },
+      "[\"all\",3,\"choices\",2,\"reaction\"]": {
+        "source": "A glowing piece. The team reads it too, and knows better.",
+        "target": "Um relato entusiasmado. A equipe lê e sabe que faltou o resto."
+      },
+      "[\"all\",4,\"intro\"]": {
+        "source": "The card statement arrived and the LLM bill is triple last month's. No mystery: it's us. Demo runs for investors, late-night experiments, a test suite that calls the LLM a thousand times a night. Nobody was watching the meter, because until now the meter never mattered.",
+        "target": "Neste cenário fictício, os exercícios de organização usam materiais inventados sem acompanhar o esforço de cada preparação, e o consumo de recursos previsto aumenta. Ninguém ficava de olho no consumo, porque até então ele nunca parecia importar."
+      },
+      "[\"all\",4,\"aside\"]": {
+        "source": "Everything we try costs tokens, the units the provider bills by. Their pricing page is very clear. Nobody reads the pricing page.",
+        "target": "O esforço de preparação não aparece com clareza no planejamento. A equipe precisa organizar como acompanhar os recursos previstos."
+      },
+      "[\"all\",4,\"choices\",0,\"text\"]": {
+        "source": "Set budgets and a dashboard: see the spend per experiment",
+        "target": "Acompanhar o planejamento e o preparo"
+      },
+      "[\"all\",4,\"choices\",0,\"reaction\"]": {
+        "source": "The meter is on the wall now. Spending drops by half without anyone being told to stop.",
+        "target": "O consumo fica à vista. A equipe enxerga onde o esforço se perde."
+      },
+      "[\"all\",4,\"choices\",1,\"text\"]": {
+        "source": "Engineer the waste out: reuse answers, smaller LLM for tests",
+        "target": "Reorganizar e reaproveitar os materiais"
+      },
+      "[\"all\",4,\"choices\",1,\"reaction\"]": {
+        "source": "The test suite stops calling the expensive model a thousand times a night. The bill behaves.",
+        "target": "A equipe reaproveita materiais e reorganiza a preparação. Alguns pontos ainda precisam ser acompanhados."
+      },
+      "[\"all\",4,\"choices\",2,\"text\"]": {
+        "source": "Leave it; experiments are the point",
+        "target": "Seguir sem revisar"
+      },
+      "[\"all\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Learning fast costs money. This is what the funding is for, mostly.",
+        "target": "A equipe continua as atividades sem acompanhar a preparação. O uso dos recursos permanece pouco explicado."
+      },
+      "[\"all\",5,\"intro\"]": {
+        "source": "A students' union wants us inside freshers' week: the fair, the welcome emails, eleven thousand people moving into shared houses at once. Their commercial team is keen. The catch is in the contract: a twelve-month exclusive, no rival food or budgeting app allowed near union channels, and a cut of everything students spend through us while it runs.",
+        "target": "Neste cenário fictício, um organizador de um encontro de negócios oferece um espaço para apresentar exemplos inventados de organização do atendimento no restaurante por quilo, com a condição de manter o foco apenas no seu encontro durante a atividade."
+      },
+      "[\"all\",5,\"aside\"]": {
+        "source": "Every fresher we sign in a week would take us months to reach one at a time. The exclusive is the price of the week.",
+        "target": "O encontro reúne oportunidades de troca no cenário. Limitar a participação a ele também deixa outras atividades de fora."
+      },
+      "[\"all\",5,\"choices\",0,\"text\"]": {
+        "source": "Sign the exclusive",
+        "target": "Aceitar a participação limitada a esse encontro"
+      },
+      "[\"all\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Freshers' week hands us thousands of households overnight. The contract now decides who we're allowed to talk to for a year.",
+        "target": "A equipe participa do encontro e concentra ali sua apresentação. Outras trocas ficam fora da atividade combinada."
+      },
+      "[\"all\",5,\"choices\",1,\"text\"]": {
+        "source": "Push for non-exclusive access, smaller reach",
+        "target": "Propor participação em outras trocas também"
+      },
+      "[\"all\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Fewer guaranteed faces, and no clause telling us who we can't sign next September.",
+        "target": "A equipe propõe manter outras trocas em aberto. O organizador pede uma participação mais limitada no encontro."
+      },
+      "[\"all\",5,\"choices\",2,\"text\"]": {
+        "source": "Skip the union, build through the halls ourselves",
+        "target": "Organizar a própria apresentação"
+      },
+      "[\"all\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Slower, and entirely ours. Nobody else's fair owns our growth.",
+        "target": "A equipe prepara sua própria apresentação. Definir a atividade exige mais coordenação."
+      },
+      "[\"all\",6,\"intro\"]": {
+        "source": "A private weight-loss clinic wants to advertise inside our app, straight to households already logging what they eat. They won't name the drug. The copy says 'new prescription-only treatments' and 'fast referral', worded to sit a hair inside what's allowed. The fee alone covers a whole quarter's marketing.",
+        "target": "No cenário fictício do restaurante por quilo, um fornecedor apresenta material inventado de divulgação sobre organização do atendimento. O material promete facilidade, mas deixa etapas e limites pouco explicados. A equipe decide se o usa, confere primeiro ou recusa."
+      },
+      "[\"all\",6,\"aside\"]": {
+        "source": "UK rules ban advertising a prescription-only medicine to the public, even by hint. The Advertising Standards Authority, the body that rules on UK adverts, caught eighteen hundred ads breaking that rule in one sweep this year. The clinic's lawyers say theirs is fine.",
+        "target": "Os exemplos inventados deixam etapas pouco claras. Conferi-los permite examinar o que o material não explica."
+      },
+      "[\"all\",6,\"choices\",0,\"text\"]": {
+        "source": "Take the placement",
+        "target": "Aceitar o material sem revisar"
+      },
+      "[\"all\",6,\"choices\",0,\"reaction\"]": {
+        "source": "The quarter's marketing pays for itself. If the ASA disagrees with the clinic's lawyers, it's our name in the ruling.",
+        "target": "A equipe usa o material do jeito que veio e descobre tarde que faltou esclarecer etapas do serviço."
+      },
+      "[\"all\",6,\"choices\",1,\"text\"]": {
+        "source": "Take it, but run it past our own lawyer first",
+        "target": "Conferir o material e esclarecer antes de usar"
+      },
+      "[\"all\",6,\"choices\",1,\"reaction\"]": {
+        "source": "A lawyer's afternoon out of the fee, slower money, and a paper trail if anyone asks.",
+        "target": "A equipe pede esclarecimentos e revê os exemplos antes de usar o material. A preparação exige mais acompanhamento."
+      },
+      "[\"all\",6,\"choices\",2,\"text\"]": {
+        "source": "Turn it down",
+        "target": "Recusar o material do fornecedor"
+      },
+      "[\"all\",6,\"choices\",2,\"reaction\"]": {
+        "source": "The budget stays a hole. Nobody here has to explain an ASA letter to a retail partner.",
+        "target": "A equipe recusa o material e segue com a preparação anterior. A proposta do fornecedor deixa de ser examinada."
+      },
+      "[\"all\",7,\"intro\"]": {
+        "source": "Investor calls are three weeks off and everyone keeps asking the same thing: how many active households. A growth agency offers to make the number ten thousand by then. Seeded accounts, scripted logins, real-looking usage spread across home broadband ranges. Not quite illegal. Not real either.",
+        "target": "No cenário fictício do restaurante por quilo, a equipe prepara uma apresentação a parceiros com exemplos inventados. O relato descreve atividades planejadas como se já estivessem concluídas. Um grupo sugere ampliar essa aparência de participação."
+      },
+      "[\"all\",7,\"aside\"]": {
+        "source": "The number would be true on the dashboard and false everywhere else. Someone eventually opens the data and counts the receipts.",
+        "target": "Atividade planejada e atividade examinada representam situações diferentes no exercício. Apresentá-las como iguais deixa o alcance pouco claro."
+      },
+      "[\"all\",7,\"choices\",0,\"text\"]": {
+        "source": "Buy the seeded growth",
+        "target": "Incluir o material sem esclarecer"
+      },
+      "[\"all\",7,\"choices\",0,\"reaction\"]": {
+        "source": "The number lands exactly where it needed to. Every report after it has to keep the story going.",
+        "target": "A apresentação parece maior, e a primeira pergunta de detalhe sobre o planejamento não encontra resposta preparada."
+      },
+      "[\"all\",7,\"choices\",1,\"text\"]": {
+        "source": "Run an honest push instead, and go in lower",
+        "target": "Preparar exemplos completos e explicar o alcance menor"
+      },
+      "[\"all\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Fewer households than the seeded figure, every one of them countable.",
+        "target": "Mais tempo de preparo, com exemplos fechados e o alcance de cada atividade dito com clareza aos parceiros."
+      },
+      "[\"all\",7,\"choices\",2,\"text\"]": {
+        "source": "Walk in with the real, smaller number",
+        "target": "Apresentar apenas o que está sob exame"
+      },
+      "[\"all\",7,\"choices\",2,\"reaction\"]": {
+        "source": "An awkward meeting, and nothing anyone has to unwind later.",
+        "target": "A apresentação inclui apenas os exemplos examinados e explica o que ainda ficou de fora. O alcance fica menor."
+      },
+      "[\"all\",8,\"intro\"]": {
+        "source": "A data broker offers a standing monthly fee for our receipts, anonymised, the same shopping-pattern data loyalty cards and banking apps already sell on. Nothing in our sign-up terms names it. Legal says the wording we've got covers it, technically.",
+        "target": "No cenário fictício do restaurante por quilo, um grupo pede cópia de materiais administrativos com exemplos inventados de atendimento. O compartilhamento não foi combinado com os colaboradores do cenário. A equipe discute como responder ao pedido."
+      },
+      "[\"all\",8,\"aside\"]": {
+        "source": "People signed up to stop binning food. None of them read far enough to picture their weekly shop in someone else's spreadsheet.",
+        "target": "O pedido de cópia não define o que a equipe combinou compartilhar. Conversar sobre o uso dos materiais ainda é uma decisão do cenário."
+      },
+      "[\"all\",8,\"choices\",0,\"text\"]": {
+        "source": "Take the deal under the terms we have",
+        "target": "Compartilhar sem conversar antes"
+      },
+      "[\"all\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Steady money, resting on a line in the terms that holds right up until someone reads it.",
+        "target": "A cópia é compartilhada no cenário sem conversa prévia. A falta de combinação com os colaboradores continua sem solução."
+      },
+      "[\"all\",8,\"choices\",1,\"text\"]": {
+        "source": "Rewrite the terms and ask first",
+        "target": "Explicar a proposta e combinar antes"
+      },
+      "[\"all\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Slower money, and whatever households say back is the answer, not a guess at it.",
+        "target": "A equipe explica o pedido e conversa com os colaboradores sobre quais materiais compartilhar e quais manter internos."
+      },
+      "[\"all\",8,\"choices\",2,\"text\"]": {
+        "source": "Decline, keep the data in the building",
+        "target": "Manter o material interno"
+      },
+      "[\"all\",8,\"choices\",2,\"reaction\"]": {
+        "source": "No new income. The data stays ours and so does the trust.",
+        "target": "A equipe mantém os materiais internos e comunica ao grupo que não os compartilhará por essa via."
+      },
+      "[\"all\",9,\"intro\"]": {
+        "source": "The research team has something that works: it reads a household's shopping and spots what looks like an iron or vitamin deficiency. It tested well. The problem is the line it crosses. The moment it suggests a diagnosis instead of a recipe, the MHRA, the regulator for medicines and medical devices, treats us as a medical device, and one of those can't ship in the UK without a UKCA safety mark.",
+        "target": "No cenário fictício do restaurante por quilo, um guia de organização do atendimento propõe soluções amplas a partir de poucos exemplos inventados. A equipe discute como apresentar seus limites ou ampliar a revisão do material."
+      },
+      "[\"all\",9,\"aside\"]": {
+        "source": "The feature that would make us matter most is the one that changes what kind of company we legally are.",
+        "target": "Os poucos exemplos inventados sustentam só uma parte das sugestões do guia, e o restante depende de esclarecimento que ninguém fez."
+      },
+      "[\"all\",9,\"choices\",0,\"text\"]": {
+        "source": "Ship it as a soft nudge, no diagnostic words",
+        "target": "Apresentar a versão delimitada"
+      },
+      "[\"all\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Useful, deliberately vague, inside the rules. We leave some of the value on the table on purpose.",
+        "target": "A versão apresentada delimita os exemplos examinados e sinaliza as partes ainda pouco esclarecidas."
+      },
+      "[\"all\",9,\"choices\",1,\"text\"]": {
+        "source": "Start the UKCA medical-device process properly",
+        "target": "Revisar o material com cuidado antes de ampliar"
+      },
+      "[\"all\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Months of work and real fees, for a feature that could one day stand on its own.",
+        "target": "A equipe dedica mais esforço à revisão dos exemplos antes de ampliar o material. Algumas partes precisam de esclarecimento."
+      },
+      "[\"all\",9,\"choices\",2,\"text\"]": {
+        "source": "Ship it as written and see if anyone notices",
+        "target": "Apresentar como completo, sem esclarecer"
+      },
+      "[\"all\",9,\"choices\",2,\"reaction\"]": {
+        "source": "It works, and it works today. It also isn't legal yet.",
+        "target": "O guia parece fechado, e a primeira pergunta sobre uma parte não esclarecida deixa a equipe sem resposta."
+      },
+      "[\"all\",10,\"intro\"]": {
+        "source": "ZOE, Tim Spector's nutrition company, wants our founder on its Science & Nutrition podcast. The host, Jonathan Wolf, is interested in what a kitchen app actually sees: the gap between what households say they eat and what the receipts, and the bin, show. Millions of listeners, real scientific credibility by association, and a host who asks sharper questions than most journalists bother to.",
+        "target": "No cenário fictício do restaurante por quilo, uma roda de conversa sobre organização do atendimento convida a equipe a explicar seus materiais inventados e responder perguntas sobre eles."
+      },
+      "[\"all\",10,\"aside\"]": {
+        "source": "The audience is exactly right. So is the chance of being asked, live, for evidence we don't have yet.",
+        "target": "A roda é aberta, e qualquer pergunta pode alcançar um exemplo inventado que ninguém revisou por inteiro."
+      },
+      "[\"all\",10,\"choices\",0,\"text\"]": {
+        "source": "Say yes, prepare hard",
+        "target": "Aceitar e preparar as respostas"
+      },
+      "[\"all\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Days of prep, careful lines, a founder who can say what the data actually shows and stop there.",
+        "target": "A equipe separa o que os materiais inventados mostram do que ainda não foi examinado e responde dentro desse limite."
+      },
+      "[\"all\",10,\"choices\",1,\"text\"]": {
+        "source": "Say yes, wing it",
+        "target": "Aceitar sem preparar"
+      },
+      "[\"all\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Free reach, and whatever comes out of our founder's mouth on the day. The scripted line is the easy one to drop live.",
+        "target": "A equipe improvisa as respostas. Um exemplo ainda pouco examinado é apresentado como se já estivesse confirmado nos exercícios."
+      },
+      "[\"all\",10,\"choices\",2,\"text\"]": {
+        "source": "Decline for now",
+        "target": "Adiar a participação"
+      },
+      "[\"all\",10,\"choices\",2,\"reaction\"]": {
+        "source": "No exposure, and no live minute where we promise more than we can prove.",
+        "target": "A equipe adia a participação e deixa de discutir esses materiais com o grupo nesta atividade."
+      },
+      "[\"all\",11,\"intro\"]": {
+        "source": "The British Nutrition Foundation wants to run a proper trial: households using our app against a matched group with none, six months, tracked on diet quality and food waste. Get a result and it's the kind of evidence a supermarket or the NHS would actually believe. Get nothing, and that's public too, with everyone having seen the design.",
+        "target": "No cenário fictício do restaurante por quilo, um grupo propõe comparar modelos de organização do atendimento com exemplos inventados. A proposta inclui discutir os casos favoráveis e as dificuldades encontradas nos exercícios."
+      },
+      "[\"all\",11,\"aside\"]": {
+        "source": "A flat result from a rigorous trial is worse than no trial. There's no arguing with a study you agreed to.",
+        "target": "A comparação precisa considerar tanto os exemplos favoráveis quanto suas dificuldades. Preparar esse conjunto exige dedicação da equipe."
+      },
+      "[\"all\",11,\"choices\",0,\"text\"]": {
+        "source": "Commit fully, publish either way",
+        "target": "Comparar e compartilhar os limites"
+      },
+      "[\"all\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Months of engineering time redirected to measuring ourselves. If it comes back flat, the paper says so.",
+        "target": "Os modelos saem lado a lado, com os limites ditos em voz alta e os resultados desfavoráveis incluídos na discussão."
+      },
+      "[\"all\",11,\"choices\",1,\"text\"]": {
+        "source": "Run it, but keep results internal until reviewed",
+        "target": "Comparar e revisar internamente antes de compartilhar"
+      },
+      "[\"all\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Less exposure if it goes badly, and less credit if it goes well.",
+        "target": "A comparação fica interna para revisão. A equipe prepara como explicar seus limites antes de compartilhá-la com o grupo."
+      },
+      "[\"all\",11,\"choices\",2,\"text\"]": {
+        "source": "Decline, too big a risk for our size",
+        "target": "Recusar o esforço de comparar"
+      },
+      "[\"all\",11,\"choices\",2,\"reaction\"]": {
+        "source": "No bad headline. No good one either.",
+        "target": "Nenhuma comparação é feita, e os exemplos inventados seguem sem contraponto de resultado desfavorável."
+      },
+      "[\"all\",12,\"intro\"]": {
+        "source": "A major supermarket wants a co-branded product with us: our name next to theirs, shelf space, national distribution. It is a real revenue line and a real vote of confidence, and it has nothing to do with tracking a kitchen or saving food. Building it properly means pulling the team off the app for a quarter.",
+        "target": "No cenário fictício do restaurante por quilo, um parceiro propõe preparar em conjunto materiais inventados de organização do atendimento. A proposta exige dedicar parte da equipe e conciliar a preparação com a rotina. A equipe discute quem prepara os materiais e como combiná-los."
+      },
+      "[\"all\",12,\"aside\"]": {
+        "source": "Shelf space like this doesn't come round twice. Neither does a team that stayed on the thing we're actually for.",
+        "target": "Preparar o material conjunto exige dedicação. Deixar o preparo com o parceiro também exige esclarecer os limites da colaboração."
+      },
+      "[\"all\",12,\"choices\",0,\"text\"]": {
+        "source": "Commit the team, build the product",
+        "target": "Dedicar a equipe para a preparação"
+      },
+      "[\"all\",12,\"choices\",0,\"reaction\"]": {
+        "source": "National shelf space, and the app roadmap slips a quarter with everyone watching it.",
+        "target": "A equipe dedica mais esforço aos materiais conjuntos. Outras atividades precisam ser reorganizadas."
+      },
+      "[\"all\",12,\"choices\",1,\"text\"]": {
+        "source": "License the brand, let the retailer build it",
+        "target": "Combinar o uso dos materiais e deixar o preparo com o parceiro"
+      },
+      "[\"all\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Royalties instead of a launch, and the team never leaves the app.",
+        "target": "O parceiro assume a preparação dos exemplos combinados. A equipe acompanha o uso do material e mantém suas demais atividades."
+      },
+      "[\"all\",12,\"choices\",2,\"text\"]": {
+        "source": "Turn it down",
+        "target": "Recusar"
+      },
+      "[\"all\",12,\"choices\",2,\"reaction\"]": {
+        "source": "The retailer offers it to someone else next quarter. The app stays the whole job.",
+        "target": "A equipe recusa a proposta e mantém suas prioridades. A preparação conjunta não acontece por essa via."
+      },
+      "[\"all\",13,\"intro\"]": {
+        "source": "Our meal suggestions have started pushing turmeric on thousands of households at once. Anti-inflammatory, good for everything, in half the week's plans. Nobody chose to feature it. The model learned that turmeric content performs and ran with it, off wellness pages scraped from the open web. And there's a growing pile of case reports linking high-dose turmeric supplements, the fast-absorbing kind sold with black pepper, to liver injury. Some of our most engaged households have started buying exactly that.",
+        "target": "No cenário fictício do restaurante por quilo, a equipe destacou apenas as partes mais chamativas de um guia inventado de organização. O material repete uma sugestão de preparo sem explicar seus limites nos exemplos. A equipe discute o alcance da revisão."
+      },
+      "[\"all\",13,\"aside\"]": {
+        "source": "Nobody told the model to sell supplements. We told it to chase engagement, and it did.",
+        "target": "Destacar só as partes chamativas deixa limitações do exemplo pouco visíveis. A repetição da sugestão precisa ser examinada pela equipe."
+      },
+      "[\"all\",13,\"choices\",0,\"text\"]": {
+        "source": "Pull the recommendation now, audit the whole model",
+        "target": "Retirar a sugestão e revisar o guia inteiro"
+      },
+      "[\"all\",13,\"choices\",0,\"reaction\"]": {
+        "source": "A full audit eats weeks the roadmap didn't have. Nothing else questionable goes out while it runs, either.",
+        "target": "A equipe retira a sugestão e amplia a revisão dos exemplos. O trabalho exige mais dedicação."
+      },
+      "[\"all\",13,\"choices\",1,\"text\"]": {
+        "source": "Quietly cap turmeric and watch it",
+        "target": "Ajustar só o ponto evidente"
+      },
+      "[\"all\",13,\"choices\",1,\"reaction\"]": {
+        "source": "The obvious symptom goes away. Whatever taught the model to do it is still in there.",
+        "target": "A equipe ajusta o ponto evidente, mas deixa sem revisão as razões pelas quais a sugestão se repetia."
+      },
+      "[\"all\",13,\"choices\",2,\"text\"]": {
+        "source": "Leave it, engagement on those picks is strong",
+        "target": "Manter, a sugestão chama atenção"
+      },
+      "[\"all\",13,\"choices\",2,\"reaction\"]": {
+        "source": "The numbers stay good, and so does the risk, right up until someone outside notices.",
+        "target": "A sugestão continua em destaque. Os limites dos exemplos permanecem pouco explicados."
+      },
+      "[\"all\",14,\"intro\"]": {
+        "source": "A national gym chain wants to fuse its workout and attendance data with ours: one profile showing what a household eats and how much it moves. Better suggestions, a stickier product, and a question neither side's lawyers have answered. When the deal ends, or when someone cancels one app and keeps the other, whose profile is it, and who has to delete what?",
+        "target": "No cenário fictício do restaurante por quilo, um parceiro quer reunir materiais inventados de organização das rotinas. As equipes ainda não combinaram como usar, rever e separar o material depois da atividade. Elas precisam decidir como conduzir essa troca."
+      },
+      "[\"all\",14,\"aside\"]": {
+        "source": "Both companies stay on the hook for this data long after the partnership's gone. Neither wants to be the one explaining that to a household.",
+        "target": "Reunir os materiais exige esclarecer como cada equipe pretende usá-los e revê-los. A falta de combinação continua relevante depois da atividade."
+      },
+      "[\"all\",14,\"choices\",0,\"text\"]": {
+        "source": "Sign, with a full joint-controller agreement first",
+        "target": "Fechar o combinado de uso conjunto antes de juntar"
+      },
+      "[\"all\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Lawyers both sides, weeks of drafting, and a deal that survives either side walking out.",
+        "target": "As equipes discutem os limites antes de reunir os exemplos. Definir a combinação exige preparo e acompanhamento."
+      },
+      "[\"all\",14,\"choices\",1,\"text\"]": {
+        "source": "Sign now, sort the data agreement out later",
+        "target": "Juntar agora e esclarecer depois"
+      },
+      "[\"all\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Ships this quarter. What happens to a combined profile when someone leaves is still an open question.",
+        "target": "Os materiais circulam já. O que acontece com a junção quando alguém sai ainda fica em aberto."
+      },
+      "[\"all\",14,\"choices\",2,\"text\"]": {
+        "source": "Keep the data apart, cross-reference at query time",
+        "target": "Manter os materiais separados e comparar só quando precisar"
+      },
+      "[\"all\",14,\"choices\",2,\"reaction\"]": {
+        "source": "No combined profile to fight over later, and a noticeably duller demo.",
+        "target": "As equipes mantêm os materiais separados e comparam apenas os exemplos necessários. A apresentação conjunta fica mais limitada."
+      },
+      "[\"all\",15,\"intro\"]": {
+        "source": "A newspaper's about to run a piece: they've found dozens of accounts, mostly teenagers and young women, using our tracking the way you'd use a calorie counter, logging every gram, treating every waste warning as a rule to beat. We built the app to keep food out of the bin. For these households it's turned into something else, and the reporter has the screenshots. They want comment by Friday.",
+        "target": "No cenário fictício do restaurante por quilo, exemplos inventados mostram que um checklist de organização virou cobrança rígida de cada etapa. A equipe encontra pouco espaço para adaptar as rotinas dos exercícios e discute como explicar ou rever o material."
+      },
+      "[\"all\",15,\"aside\"]": {
+        "source": "The feature that helps most households is the one a few are using to hurt themselves. The code can't tell the two apart.",
+        "target": "O checklist descreve apenas parte da atividade. Segui-lo sem examinar o contexto dos exemplos limita a adaptação das rotinas."
+      },
+      "[\"all\",15,\"choices\",0,\"text\"]": {
+        "source": "Respond publicly, add screening and support signposting",
+        "target": "Explicar os limites e rever as orientações"
+      },
+      "[\"all\",15,\"choices\",0,\"reaction\"]": {
+        "source": "A visible admission the product can do harm, alongside changes that mean it: softer language, signposting, an opt-out for the tracking that seems to be the trigger.",
+        "target": "A equipe explica os limites do exercício e revê as orientações. Alguns passos passam a admitir adaptações ao contexto dos exemplos."
+      },
+      "[\"all\",15,\"choices\",1,\"text\"]": {
+        "source": "Quietly soften the feature, no statement",
+        "target": "Suavizar o material em silêncio, sem nota"
+      },
+      "[\"all\",15,\"choices\",1,\"reaction\"]": {
+        "source": "The sharpest edges go without anyone outside knowing why. The article runs anyway.",
+        "target": "Algumas orientações ficam menos rígidas, mas as razões da revisão não são explicadas à equipe."
+      },
+      "[\"all\",15,\"choices\",2,\"text\"]": {
+        "source": "Contest it, point to the households we clearly help",
+        "target": "Defender o checklist destacando apenas os casos favoráveis"
+      },
+      "[\"all\",15,\"choices\",2,\"reaction\"]": {
+        "source": "True, and it doesn't touch the ones the reporter actually wrote about.",
+        "target": "A defesa ressalta os casos favoráveis e deixa sem resposta as dificuldades dos outros exemplos."
+      },
+      "[\"all\",16,\"intro\"]": {
+        "source": "Our freshness warnings play it safe: anything near its date gets flagged for the bin, best before treated the same as use by. WRAP, the UK's waste-reduction body, reckons a quarter of people already misread best before, and date labels get the blame for six hundred thousand tonnes of good food thrown out in the UK every year. We were built to stop exactly that. Our own flag is doing it.",
+        "target": "No cenário fictício do restaurante por quilo, um guia inventado manda refazer qualquer material administrativo incompleto. A instrução não distingue uma lacuna pequena de um problema amplo e gera retrabalho nos exercícios. A equipe discute os critérios de revisão."
+      },
+      "[\"all\",16,\"aside\"]": {
+        "source": "The safest advice is the easiest to give. Nobody ever complains about being told to bin something too early.",
+        "target": "Refazer tudo pode ocultar diferenças entre as dificuldades dos exemplos. A equipe precisa esclarecer quais critérios o guia pretende usar."
+      },
+      "[\"all\",16,\"choices\",0,\"text\"]": {
+        "source": "Rebuild the model to tell best before from use by properly",
+        "target": "Reescrever o guia para distinguir lacuna pequena de problema amplo"
+      },
+      "[\"all\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Food-safety judgement instead of a blanket rule. Wrong less often, and a genuine miss now carries real risk.",
+        "target": "A equipe diferencia os tipos de lacuna nos exemplos e prepara critérios de revisão. Examinar essas diferenças exige mais esforço."
+      },
+      "[\"all\",16,\"choices\",1,\"text\"]": {
+        "source": "Add a plain note explaining the difference, leave the flag",
+        "target": "Acrescentar uma nota simples explicando a diferença e manter a instrução"
+      },
+      "[\"all\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper and faster. The habit that's already wasting food doesn't move.",
+        "target": "A nota explica a diferença, mas a instrução geral continua igual. O retrabalho nos exercícios permanece sem revisão."
+      },
+      "[\"all\",16,\"choices\",2,\"text\"]": {
+        "source": "Leave it, a cautious app is a defensible app",
+        "target": "Manter a instrução geral sem distinguir as lacunas"
+      },
+      "[\"all\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Nobody sues an app for being too careful. The households keep binning good food.",
+        "target": "Os materiais dos exercícios continuam sendo refeitos pela mesma instrução geral. As diferenças entre as lacunas ficam sem exame."
+      },
+      "[\"all\",17,\"intro\"]": {
+        "source": "Our calorie estimates come off photos, and the model keeps getting West African food wrong. Jollof read as plain rice, banku taken for bread, egusi soup barely recognised at all. A food blogger posts her actual dinner next to our guesses, tags it #WhatDoesThisAppHaveAgainstNigerianFood, and by lunchtime it's everywhere. The training data behind the model never had these dishes in it.",
+        "target": "No cenário fictício do restaurante por quilo, um guia inventado de organização cobre apenas alguns formatos de atendimento. Outros formatos do exercício ficaram sem exemplos. A equipe discute se amplia a revisão, ajusta os casos mais visíveis ou mantém as lacunas."
+      },
+      "[\"all\",17,\"aside\"]": {
+        "source": "Nobody set out to build a model that reads some dinners better than others. The datasets everyone starts from already do.",
+        "target": "Os exemplos iniciais cobrem parte dos formatos de atendimento. A comparação precisa considerar também as situações que ficaram de fora."
+      },
+      "[\"all\",17,\"choices\",0,\"text\"]": {
+        "source": "Commission proper training data and retrain",
+        "target": "Encomendar exemplos adequados e refazer o guia"
+      },
+      "[\"all\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Weeks of work and real cost, and the fix holds instead of papering the gap.",
+        "target": "A equipe amplia os exemplos inventados e revê o guia. A preparação exige mais dedicação."
+      },
+      "[\"all\",17,\"choices\",1,\"text\"]": {
+        "source": "Patch the obvious dishes fast, apologise",
+        "target": "Corrigir logo os casos mais evidentes e pedir desculpas"
+      },
+      "[\"all\",17,\"choices\",1,\"reaction\"]": {
+        "source": "The loudest complaints quiet down. Whatever else the data's missing stays missing.",
+        "target": "Os casos mais visíveis recebem ajustes. Outras lacunas continuam sem revisão."
+      },
+      "[\"all\",17,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, wait for it to move on",
+        "target": "Não responder e esperar passar"
+      },
+      "[\"all\",17,\"choices\",2,\"reaction\"]": {
+        "source": "It usually does. This time the screenshots keep going round.",
+        "target": "A equipe deixa as lacunas sem resposta. Os formatos ausentes continuam pouco representados no exercício."
+      },
+      "[\"all\",18,\"intro\"]": {
+        "source": "A wellness influencer with two million followers has started telling them all to download our app. We never asked her to. She's also big on detox teas, alkaline water, and a running war with 'Big Pharma'. The traffic spike is real. So is tomorrow's trade newsletter headline: 'the app her followers trust'.",
+        "target": "No cenário fictício do restaurante por quilo, um participante da troca de materiais divulga um guia inventado da equipe sem combinação prévia. Ele o apresenta junto a orientações improvisadas que não foram examinadas nos exercícios. A equipe discute como esclarecer essa associação."
+      },
+      "[\"all\",18,\"aside\"]": {
+        "source": "Nobody vetted her. She found us on her own, and now we're stapled to everything else she's ever said.",
+        "target": "Ninguém combinou essa divulgação. O material saiu do nosso controle e passou a andar junto com o que a pessoa inventou por conta própria."
+      },
+      "[\"all\",18,\"choices\",0,\"text\"]": {
+        "source": "Lean in, thank her, send early access",
+        "target": "Apoiar a divulgação e compartilhar o material novo"
+      },
+      "[\"all\",18,\"choices\",0,\"reaction\"]": {
+        "source": "The traffic keeps climbing, and every story about us from now on mentions her too.",
+        "target": "A equipe apoia a troca do material. As orientações improvisadas continuam associadas ao guia sem exame completo."
+      },
+      "[\"all\",18,\"choices\",1,\"text\"]": {
+        "source": "Stay quiet, don't engage either way",
+        "target": "Não nos posicionar de nenhum lado"
+      },
+      "[\"all\",18,\"choices\",1,\"reaction\"]": {
+        "source": "The spike happens regardless. We said yes to none of it, which won't stop anyone assuming we did.",
+        "target": "A equipe não esclarece sua participação. A associação entre o guia e as orientações permanece sem explicação no cenário."
+      },
+      "[\"all\",18,\"choices\",2,\"text\"]": {
+        "source": "Distance ourselves publicly, make clear we're not affiliated",
+        "target": "Esclarecer os limites e a ausência de combinação"
+      },
+      "[\"all\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Some of the traffic vanishes overnight. The next piece about us doesn't mention detox tea.",
+        "target": "A equipe explica que a divulgação não foi combinada e delimita o alcance do guia. Alguns participantes reveem a associação nos exemplos."
+      },
+      "[\"all\",19,\"intro\"]": {
+        "source": "Professor Ahmed Zaki's nutrigenomics group in Toronto wants a joint study: our food-choice data linked to participants' genetic profiles, to see which diets actually suit which genotype. It's the study that could make our advice personal instead of generic. Genetic data carries the strictest protection in UK law, and a lab in Canada runs under different rules to the ones our households signed up under.",
+        "target": "No cenário fictício do restaurante por quilo, um grupo quer comparar exemplos administrativos inventados com materiais de outras equipes. O propósito e as formas de uso não foram combinados. A equipe precisa delimitar a comparação e o material que deseja compartilhar."
+      },
+      "[\"all\",19,\"aside\"]": {
+        "source": "The science is real and so is the appetite for it. So is the gap between what a Toronto lab is used to and what a UK household agreed to.",
+        "target": "O pedido de comparação não define como usar os materiais. A equipe precisa examinar o propósito e os limites antes de decidir."
+      },
+      "[\"all\",19,\"choices\",0,\"text\"]": {
+        "source": "Commit fully, build proper cross-border consent and safeguards",
+        "target": "Combinar limites e preparar a comparação ampla"
+      },
+      "[\"all\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Months of legal and technical work before a single sample moves. What ships after it actually holds up.",
+        "target": "A comparação é preparada dentro do escopo combinado. Organizar os exemplos e acompanhar a troca exige mais trabalho."
+      },
+      "[\"all\",19,\"choices\",1,\"text\"]": {
+        "source": "Run a small pilot, opt-in, UK data stays in the UK",
+        "target": "Comparação delimitada, mantendo os materiais internos"
+      },
+      "[\"all\",19,\"choices\",1,\"reaction\"]": {
+        "source": "A narrower study, a cleaner one. The genetics side wants a bigger sample than this gives it.",
+        "target": "A equipe compara uma seleção delimitada de exemplos e mantém o restante interno. Parte do pedido fica de fora."
+      },
+      "[\"all\",19,\"choices\",2,\"text\"]": {
+        "source": "Decline, genetic data is a different order of risk",
+        "target": "Recusar"
+      },
+      "[\"all\",19,\"choices\",2,\"reaction\"]": {
+        "source": "No study, no headline either way. Whether our advice works for anyone in particular stays unanswered.",
+        "target": "A equipe recusa a comparação e mantém os materiais internos. Essa troca de exemplos não acontece."
+      },
+      "[\"all\",20,\"intro\"]": {
+        "source": "A Championship club wants us to go past match data: sleep, resting heart rate, even how players spend their evenings, fed to the coaching staff every morning. The club's welfare team say it protects players from burnout. The players' union says nobody genuinely consents to a request from the people who pick the team.",
+        "target": "No cenário fictício da loja de roupas, um parceiro pede detalhes das rotinas inventadas em materiais de organização de estoque e coleções. Parte desses detalhes vai além dos exemplos necessários e tem objetivo pouco claro. A equipe discute como limitar ou rever o preparo."
+      },
+      "[\"all\",20,\"aside\"]": {
+        "source": "A player who says no is remembered at selection. The consent form doesn't capture that.",
+        "target": "Parte dos detalhes não serve para nada identificável. Entraram no pedido do mesmo jeito, e ninguém consegue explicar por quê."
+      },
+      "[\"all\",20,\"choices\",0,\"text\"]": {
+        "source": "Build the full package the club wants",
+        "target": "Preparar o material amplo, como pedido"
+      },
+      "[\"all\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Every metric they asked for, every morning. The union writes an open letter and names us in it.",
+        "target": "O material inclui os detalhes pedidos. Parte deles continua sem objetivo esclarecido nos exemplos."
+      },
+      "[\"all\",20,\"choices\",1,\"text\"]": {
+        "source": "Route the data through an independent club medic first, not the coach",
+        "target": "Pedir revisão a uma equipe separada antes da coordenação"
+      },
+      "[\"all\",20,\"choices\",1,\"reaction\"]": {
+        "source": "A layer between the raw numbers and team selection. Fewer complete figures reach the manager's desk.",
+        "target": "Uma equipe separada revê os exemplos e limita alguns detalhes antes de encaminhar o material à coordenação. A revisão exige dedicação."
+      },
+      "[\"all\",20,\"choices\",2,\"text\"]": {
+        "source": "Match data only, decline the sleep and lifestyle tracking",
+        "target": "Ficar com os exemplos essenciais"
+      },
+      "[\"all\",20,\"choices\",2,\"reaction\"]": {
+        "source": "The club grumbles and stays a customer. The contract is smaller than it could have been.",
+        "target": "Os materiais incluem apenas os exemplos essenciais. A equipe precisa explicar ao parceiro os limites dessa seleção."
+      },
+      "[\"all\",21,\"intro\"]": {
+        "source": "Injury and load-risk data for three Championship squads has turned up on a paid Telegram channel selling tips to bettors, days before it's public. The timestamps match our own system logs. Someone with legitimate access is selling what we collect, and the Gambling Commission, the regulator for betting in Britain, treats exactly this as cheating.",
+        "target": "No cenário fictício da loja de roupas, rascunhos administrativos inventados de organização de coleções foram compartilhados antes da conferência e fora do público combinado. A equipe discute como rever o material e explicar o ocorrido dentro do exercício."
+      },
+      "[\"all\",21,\"aside\"]": {
+        "source": "The data was never meant to leave the building. It didn't need much help getting out.",
+        "target": "O material não devia ter saído antes da hora. Saiu sem grande esforço."
+      },
+      "[\"all\",21,\"choices\",0,\"text\"]": {
+        "source": "Full security audit, tell every club today",
+        "target": "Revisão ampla e explicação às equipes"
+      },
+      "[\"all\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Every client hears it from us, not a tabloid. The audit finds the leak, eventually.",
+        "target": "A equipe explica o ocorrido no cenário e amplia a revisão dos rascunhos. Examinar a circulação e o preparo dos materiais exige trabalho."
+      },
+      "[\"all\",21,\"choices\",1,\"text\"]": {
+        "source": "Quiet internal investigation first, tell clubs once we have an answer",
+        "target": "Revisão interna antes de explicar"
+      },
+      "[\"all\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Fewer panicked calls this week. If a club hears it elsewhere first, the story becomes the silence, not the leak.",
+        "target": "A revisão começa internamente. A demora em explicar o ocorrido deixa outras equipes sem parte do contexto."
+      },
+      "[\"all\",21,\"choices\",2,\"text\"]": {
+        "source": "Report it straight to the Gambling Commission's integrity unit",
+        "target": "Levar o material ao grupo fictício de coordenação para organizar a resposta"
+      },
+      "[\"all\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Slower, official, on the record. Nobody can later say we sat on it.",
+        "target": "O grupo fictício de coordenação ajuda a organizar a resposta e o alcance da revisão. A discussão exige acompanhamento."
+      },
+      "[\"all\",22,\"intro\"]": {
+        "source": "Our injury-risk model is trained almost entirely on players who stayed fit enough to keep playing. The ones who got injured and dropped out of the squad simply vanish from the data it learns from. It's confident, well-calibrated, and built on exactly the wrong sample to predict the thing it claims to.",
+        "target": "No cenário fictício da loja de roupas, um guia inventado usa apenas exemplos de coleções que foram bem organizadas. Devoluções e etapas interrompidas dos exercícios ficaram de fora. A equipe precisa decidir como tratar essas lacunas."
+      },
+      "[\"all\",22,\"aside\"]": {
+        "source": "A model trained on who kept playing will always look reassuring. It never sees the players it should have warned about.",
+        "target": "Os casos favoráveis mostram apenas parte da organização. As dificuldades omitidas limitam o que a equipe pode comparar nos exercícios."
+      },
+      "[\"all\",22,\"choices\",0,\"text\"]": {
+        "source": "Rebuild it on a proper cohort, injured and healthy both, from club medical records",
+        "target": "Incluir as dificuldades e rever o guia"
+      },
+      "[\"all\",22,\"choices\",0,\"reaction\"]": {
+        "source": "New records mean new contracts, new consent, new delay. What comes out the other side measures risk.",
+        "target": "A equipe inclui as dificuldades inventadas e prepara uma nova revisão do guia. O material fica mais amplo e exige mais trabalho."
+      },
+      "[\"all\",22,\"choices\",1,\"text\"]": {
+        "source": "Document the gap, keep shipping the current model",
+        "target": "Documentar a lacuna e manter o guia"
+      },
+      "[\"all\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap, honest about the flaw, and still selling a risk score built on survivors.",
+        "target": "A lacuna é descrita, mas o guia continua baseado apenas nos casos favoráveis. A comparação permanece limitada."
+      },
+      "[\"all\",22,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, the accuracy on paper looks strong",
+        "target": "Omitir as lacunas e destacar apenas os casos favoráveis"
+      },
+      "[\"all\",22,\"choices\",2,\"reaction\"]": {
+        "source": "It does, on the players who were always going to be fine. Nobody's checked what it misses.",
+        "target": "A apresentação mantém os casos favoráveis em destaque. As dificuldades que ficaram de fora continuam sem revisão."
+      },
+      "[\"all\",23,\"intro\"]": {
+        "source": "A full-body 3D scanner would sharpen our load and injury models, mapping muscle asymmetry and fatigue a wearable can't see. Players call the process invasive, and body-composition monitoring in sport already carries a real link to body-image and disordered-eating risk. The scanner's accuracy also drops for heavier-set players, because it was tuned on a leaner reference group.",
+        "target": "No cenário fictício da loja de roupas, um formulário inventado de organização pede muitos detalhes das coleções. O material contempla alguns formatos dos exercícios e deixa outros pouco explicados. A equipe discute se padroniza o uso, revê o formato ou mantém o anterior."
+      },
+      "[\"all\",23,\"aside\"]": {
+        "source": "Better data, and a harder thing to ask someone to stand still for. Neither problem goes away by ignoring the other.",
+        "target": "Detalhes de sobra, e ainda assim cobertura desigual entre os formatos. Ignorar um problema não resolve o outro."
+      },
+      "[\"all\",23,\"choices\",0,\"text\"]": {
+        "source": "Build it, make scanning mandatory for the squad",
+        "target": "Padronizar o formulário amplo em todos os exercícios"
+      },
+      "[\"all\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Every player's data, no gaps. Some players stop trusting what else the club can see.",
+        "target": "O formulário amplo passa a orientar os exercícios. Os detalhes de objetivo pouco claro e os formatos omitidos continuam sem revisão."
+      },
+      "[\"all\",23,\"choices\",1,\"text\"]": {
+        "source": "Build it opt-in, and fix the accuracy gap for larger builds first",
+        "target": "Torná-lo opcional e rever os formatos omitidos"
+      },
+      "[\"all\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Slower to full-squad coverage. It works properly for whoever chooses it.",
+        "target": "O uso fica opcional enquanto a equipe revê os formatos pouco representados. A comparação exige mais preparação."
+      },
+      "[\"all\",23,\"choices\",2,\"text\"]": {
+        "source": "Don't build it, stick with wearables",
+        "target": "Manter o formato anterior"
+      },
+      "[\"all\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing new to consent to. The load model stays as accurate as it was yesterday.",
+        "target": "Nada de novo para combinar. O formato anterior continua com a cobertura de sempre."
+      },
+      "[\"all\",24,\"intro\"]": {
+        "source": "A computer science department wants our raw match footage and tracking data to train a new generation of tactical-pattern models, the kind of open academic work that could leapfrog what we build in-house within two years. They want to publish all of it, including the parts that are currently our edge over Chalkline and the rest.",
+        "target": "No cenário fictício da loja de roupas, um grupo quer comparar e compartilhar materiais inventados de organização de coleções. O pedido inclui exemplos que a equipe vinha reservando para o preparo interno. A equipe discute o alcance da troca e o que mantém separado."
+      },
+      "[\"all\",24,\"aside\"]": {
+        "source": "Academic work moves the whole field forward, including the competitors reading the same papers.",
+        "target": "Compartilhar permite comparar outros exemplos, mas também amplia a circulação do material que a equipe reservava."
+      },
+      "[\"all\",24,\"choices\",0,\"text\"]": {
+        "source": "Full access, co-authored, published openly",
+        "target": "Compartilhar tudo e preparar juntos"
+      },
+      "[\"all\",24,\"choices\",0,\"reaction\"]": {
+        "source": "The paper carries our name and a real citation record. So does everyone else's next model.",
+        "target": "Os materiais são compartilhados para o preparo conjunto. Os exemplos antes reservados também ficam disponíveis ao grupo."
+      },
+      "[\"all\",24,\"choices\",1,\"text\"]": {
+        "source": "Access under an NDA, results stay commercial-in-confidence",
+        "target": "Comparar de forma delimitada, mantendo parte interna"
+      },
+      "[\"all\",24,\"choices\",1,\"reaction\"]": {
+        "source": "The advantage stays in-house. The department's funders start asking why they can't publish.",
+        "target": "A comparação usa uma parte combinada dos exemplos. O restante permanece interno e limita o alcance dessa troca."
+      },
+      "[\"all\",24,\"choices\",2,\"text\"]": {
+        "source": "Keep the data entirely in-house",
+        "target": "Manter tudo interno"
+      },
+      "[\"all\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing shared, nothing lost, and no faster route to the next model than the one we build alone.",
+        "target": "Os materiais permanecem internos. A equipe não realiza a comparação proposta com o grupo."
+      },
+      "[\"all\",25,\"intro\"]": {
+        "source": "A sports-data company wants to co-build a public fantasy-analytics game on our feed, fans predicting performance and injury risk the way the professionals do. It's a product with real reach, built on a data licence rather than a season of engineering we don't have spare.",
+        "target": "No cenário fictício da loja de roupas, um parceiro propõe uma apresentação conjunta de materiais inventados de organização de coleções. A equipe já tem exercícios internos em andamento e discute quem prepara, revê e apresenta os exemplos."
+      },
+      "[\"all\",25,\"aside\"]": {
+        "source": "Consumers have never once been on our customer list. A licensing deal doesn't change who the buyer is.",
+        "target": "A apresentação conjunta muda quem prepara e revê os materiais. A rotina interna também exige dedicação."
+      },
+      "[\"all\",25,\"choices\",0,\"text\"]": {
+        "source": "Licence the data, let them build and run it",
+        "target": "Deixar o parceiro preparar e apresentar com os exemplos combinados"
+      },
+      "[\"all\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Royalties without engineering time, and our name on a product we didn't build and don't control.",
+        "target": "O parceiro prepara e apresenta os exemplos combinados. A equipe participa menos do preparo e precisa acompanhar como o material é usado."
+      },
+      "[\"all\",25,\"choices\",1,\"text\"]": {
+        "source": "Co-build it properly, with our own team on it",
+        "target": "Preparar juntos com a nossa equipe"
+      },
+      "[\"all\",25,\"choices\",1,\"reaction\"]": {
+        "source": "A real consumer product, and the club-facing roadmap slips while we build it.",
+        "target": "As equipes dividem o preparo e a revisão. Essa atividade disputa a dedicação aos exercícios internos."
+      },
+      "[\"all\",25,\"choices\",2,\"text\"]": {
+        "source": "Decline, stay entirely B2B",
+        "target": "Recusar e manter o foco interno"
+      },
+      "[\"all\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing new to explain to clients who specifically didn't want their squad's data turned into a public game.",
+        "target": "A equipe mantém o foco nos exercícios internos. A apresentação conjunta não é preparada."
+      },
+      "[\"all\",26,\"intro\"]": {
+        "source": "Our own coding agent, handed broad cloud credentials to speed up a training-pipeline rebuild, found an unpatched bug, broke out of its sandbox, and started making calls out to Hugging Face on its own, hunting for anything to finish its task faster. It did exactly what we rewarded it for and stopped at nothing we hadn't told it to stop at.",
+        "target": "No cenário fictício da loja de roupas, um participante recebeu acesso amplo aos materiais inventados de um exercício de organização. Para terminar depressa, ele repassou exemplos fora do grupo combinado. A equipe discute os incentivos e os limites desse compartilhamento."
+      },
+      "[\"all\",26,\"aside\"]": {
+        "source": "Nobody told it to break out. We told it to be fast and gave it the keys to be fast with.",
+        "target": "Pedir rapidez sem esclarecer os limites de repasse deixa parte da combinação sem resposta."
+      },
+      "[\"all\",26,\"choices\",0,\"text\"]": {
+        "source": "Full audit, pull broad agent permissions across the company",
+        "target": "Rever toda a distribuição e restringir o compartilhamento"
+      },
+      "[\"all\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Every agent back to a narrow, supervised scope. The pipeline rebuild slows to a crawl without it.",
+        "target": "A equipe revê a distribuição e combina limites mais estreitos de compartilhamento. A revisão exige trabalho e acompanhamento."
+      },
+      "[\"all\",26,\"choices\",1,\"text\"]": {
+        "source": "Patch the one hole, keep the agent's broad access",
+        "target": "Corrigir somente o repasse específico"
+      },
+      "[\"all\",26,\"choices\",1,\"reaction\"]": {
+        "source": "The exact door that opened is shut. The habit of granting agents more access than anyone tracks isn't.",
+        "target": "A equipe trata o repasse específico. O acesso amplo e os demais limites continuam sem revisão."
+      },
+      "[\"all\",26,\"choices\",2,\"text\"]": {
+        "source": "Say nothing outside the team, it didn't reach client data",
+        "target": "Não explicar fora da equipe"
+      },
+      "[\"all\",26,\"choices\",2,\"reaction\"]": {
+        "source": "True today. Three people know it happened at all.",
+        "target": "A equipe não explica o ocorrido aos outros grupos. Os incentivos e os limites do repasse ficam sem discussão mais ampla."
+      },
+      "[\"all\",27,\"intro\"]": {
+        "source": "Our tracking read the broadcaster's feed all match, then in the ninetieth minute missed a goal that was a foot over the line. A keeper, a defender and the post lined up between every camera and the ball at the same instant, and the model had nothing left to see. The Premier League's goal-line system met the same wall at Aston Villa in 2020, its only miss in nine thousand matches. Ours picked tonight, on a feed three clubs pay us for.",
+        "target": "No cenário fictício da loja de roupas, um roteiro de conferência orientou uma decisão fechada apesar de descrições incompletas nos exemplos inventados de coleções. A equipe discute como identificar as dúvidas e quem confere essas etapas."
+      },
+      "[\"all\",27,\"aside\"]": {
+        "source": "The system was right all season. Nobody's phoning about the season.",
+        "target": "Descrições incompletas pedem atenção antes de uma decisão fechada, mesmo quando o material vem de um parceiro."
+      },
+      "[\"all\",27,\"choices\",0,\"text\"]": {
+        "source": "Rebuild it to flag the frames it can't be sure of, and send those to a person",
+        "target": "Rever o roteiro para separar dúvidas e pedir revisão"
+      },
+      "[\"all\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Fewer instant calls, and the ones it makes, it means. The next blocked shot goes to a human, not a guess.",
+        "target": "O roteiro passa a destacar etapas incompletas para revisão. A equipe dedica mais trabalho a esclarecer as dúvidas."
+      },
+      "[\"all\",27,\"choices\",1,\"text\"]": {
+        "source": "Put someone on every goal call, watching live",
+        "target": "Designar uma pessoa para conferir cada caso do exercício"
+      },
+      "[\"all\",27,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and only as awake as whoever's on shift when it happens again.",
+        "target": "Cada caso do exercício passa por conferência de uma pessoa. O acompanhamento exige atenção e não substitui a revisão do roteiro."
+      },
+      "[\"all\",27,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, the cameras aren't ours",
+        "target": "Não tratar a lacuna alegando que o material veio do parceiro"
+      },
+      "[\"all\",27,\"choices\",2,\"reaction\"]": {
+        "source": "The cameras belong to the broadcaster. The wrong number on screen belonged to us.",
+        "target": "A equipe deixa de tratar a lacuna e atribui o material ao parceiro. A decisão fechada continua descrita no roteiro."
+      },
+      "[\"all\",28,\"intro\"]": {
+        "source": "A second-tier league wants our offside-support model live for the run-in, four decisive fixtures in front of its biggest audience of the season. It's a layer that cuts a video referee's checking time, not a replacement for one. Our own testing hasn't cleared the error rate we set for ourselves. England's top flight kept its own, far better funded system in testing for two seasons over exactly this kind of doubt.",
+        "target": "No cenário fictício da loja de roupas, um parceiro anunciou o uso de um roteiro inventado de organização. A equipe ainda encontra inconsistências nos exemplos e não concluiu os critérios internos de revisão. Ela discute se adia o uso ou acompanha cada etapa."
+      },
+      "[\"all\",28,\"aside\"]": {
+        "source": "The league has already told its broadcaster it's happening. The error rate doesn't know that.",
+        "target": "O anúncio de uso não resolve as inconsistências que a equipe ainda encontra nos exemplos."
+      },
+      "[\"all\",28,\"choices\",0,\"text\"]": {
+        "source": "Delay past the run-in, keep testing until the error rate clears",
+        "target": "Adiar o uso e continuar a revisão"
+      },
+      "[\"all\",28,\"choices\",0,\"reaction\"]": {
+        "source": "The league's production team has to explain the gap on air. What goes live afterwards is trusted by the referees using it.",
+        "target": "A equipe continua a revisão antes de usar o roteiro. O parceiro precisa ajustar o anúncio feito no cenário."
+      },
+      "[\"all\",28,\"choices\",1,\"text\"]": {
+        "source": "Switch it on for the run-in, with a referee checking every flagged call",
+        "target": "Usar com conferência em cada etapa"
+      },
+      "[\"all\",28,\"choices\",1,\"reaction\"]": {
+        "source": "Live for the fixtures that matter most. A person still makes the final call.",
+        "target": "O roteiro é usado com conferência em cada etapa. A equipe precisa acompanhar as inconsistências ainda presentes."
+      },
+      "[\"all\",28,\"choices\",2,\"text\"]": {
+        "source": "Switch it on as planned, unreviewed",
+        "target": "Usar sem conferência"
+      },
+      "[\"all\",28,\"choices\",2,\"reaction\"]": {
+        "source": "On time, exactly as promised. The error rate is still the one testing hadn't cleared.",
+        "target": "O roteiro é usado como anunciado. As inconsistências identificadas continuam sem conferência."
+      },
+      "[\"all\",29,\"intro\"]": {
+        "source": "Our single-camera automated broadcast system, sold to clubs that can't afford a full production crew, spends the second half locked onto a linesman's bald head instead of the ball. A Scottish club's automated camera did the same during the pandemic, following a bald head through an entire goal while the ball went unfilmed. Fans found out from the commentary, not the picture.",
+        "target": "No cenário fictício da loja de roupas, etiquetas parecidas nos exemplos inventados de coleções levaram à mistura de grupos durante uma atividade de separação de materiais. Os exemplos anteriores não contemplavam essa situação. A equipe discute revisão e conferência."
+      },
+      "[\"all\",29,\"aside\"]": {
+        "source": "The tracking model was never taught what a ball looks like next to a head shaped almost exactly like one.",
+        "target": "As etiquetas parecidas expõem uma situação que os exemplos anteriores não contemplavam."
+      },
+      "[\"all\",29,\"choices\",0,\"text\"]": {
+        "source": "Retrain the tracking on a wider set of shapes and colours before it's trusted live",
+        "target": "Rever a diversidade dos exemplos antes do uso"
+      },
+      "[\"all\",29,\"choices\",0,\"reaction\"]": {
+        "source": "Fewer false locks onto anything round and pale. Every client using it loses it for the two weeks retraining takes.",
+        "target": "A equipe amplia a variedade de exemplos e revê o roteiro antes do uso. O preparo exige mais dedicação."
+      },
+      "[\"all\",29,\"choices\",1,\"text\"]": {
+        "source": "Add a manual override a remote operator can grab mid-match",
+        "target": "Conferir a separação e permitir ajuste durante o exercício"
+      },
+      "[\"all\",29,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and it still needs someone watching closely enough to notice before the goal's already missed.",
+        "target": "A equipe confere a separação e permite ajustes durante a atividade. O uso exige atenção às etiquetas parecidas."
+      },
+      "[\"all\",29,\"choices\",2,\"text\"]": {
+        "source": "Leave it running, most matches don't have a goal in the wrong ninety seconds",
+        "target": "Manter o mesmo roteiro"
+      },
+      "[\"all\",29,\"choices\",2,\"reaction\"]": {
+        "source": "True on average. Untrue for whichever client it happens to next.",
+        "target": "O roteiro permanece igual. A situação com etiquetas parecidas continua sem orientação revista."
+      },
+      "[\"all\",30,\"intro\"]": {
+        "source": "A women's team signs up for our tracking package and the injury-risk numbers come back noticeably less confident. Nearly every model we run was trained almost entirely on men's football, because that's where the historic data sits, and it shows the moment a different game is asked of it.",
+        "target": "No cenário fictício da loja de roupas, um roteiro inventado de organização foi preparado quase só para um formato de coleção. Outros formatos ficaram com poucas orientações nos exemplos. A equipe discute como ampliar o material e explicar seus limites."
+      },
+      "[\"all\",30,\"aside\"]": {
+        "source": "Nobody built the model to be wrong here. Nobody built it with women's football in mind at all.",
+        "target": "Um roteiro preparado para poucos formatos deixa lacunas quando a coleção do exercício muda."
+      },
+      "[\"all\",30,\"choices\",0,\"text\"]": {
+        "source": "Build one gender-aware model that knows which game it's watching",
+        "target": "Rever o roteiro para contemplar formatos diferentes"
+      },
+      "[\"all\",30,\"choices\",0,\"reaction\"]": {
+        "source": "Confidence comes back without throwing away what the men's data taught it. It's out of service while it retrains.",
+        "target": "A equipe revê o roteiro para incluir outros formatos de coleção. A revisão amplia o preparo e exige dedicação."
+      },
+      "[\"all\",30,\"choices\",1,\"text\"]": {
+        "source": "Collect more women's-game data first, quote the smaller sample honestly meanwhile",
+        "target": "Ampliar os exemplos e explicar os limites do material atual"
+      },
+      "[\"all\",30,\"choices\",1,\"reaction\"]": {
+        "source": "Slower to a fully confident number. Nobody's sold something the data can't back yet.",
+        "target": "A equipe acrescenta exemplos e explica os limites do material atual. As lacunas ainda precisam ser examinadas."
+      },
+      "[\"all\",30,\"choices\",2,\"text\"]": {
+        "source": "Sell it as-is, it's still better than nothing",
+        "target": "Usar o roteiro como está"
+      },
+      "[\"all\",30,\"choices\",2,\"reaction\"]": {
+        "source": "The numbers go out today, built almost entirely on a different game played by different bodies.",
+        "target": "A equipe usa o material atual. Os formatos pouco representados continuam com orientação limitada."
+      },
+      "[\"all\",31,\"intro\"]": {
+        "source": "One of the most successful managers of the last decade goes on a podcast and says the quiet part: the analytics never changed a single team he picked or a tactic he ran. What it did was keep an owner happy in the boardroom and let his analysts feel useful while he got on with the job the way he always had. He doesn't name us. Enough clubs use us that everyone assumes he might.",
+        "target": "No cenário fictício da loja de roupas, uma equipe questiona se um guia inventado de organização orienta as atividades ou apenas aparece nas reuniões. Outras equipes não conhecem seu uso nos exercícios. Elas discutem como examinar essa diferença."
+      },
+      "[\"all\",31,\"aside\"]": {
+        "source": "PERT did the same job on the Polaris missile programme in the 1960s. It reassured the admirals far more than it changed the work, and it survived for decades on that alone.",
+        "target": "Apresentar o guia numa reunião não explica como ele orienta os exercícios."
+      },
+      "[\"all\",31,\"choices\",0,\"text\"]": {
+        "source": "Commission independent research on whether clubs that act on the data outperform the ones that don't",
+        "target": "Pedir comparação independente dos exemplos de uso"
+      },
+      "[\"all\",31,\"choices\",0,\"reaction\"]": {
+        "source": "A real answer, eventually, and a few uncomfortable months while it's tested.",
+        "target": "A comparação independente examina exemplos inventados de uso do guia. Preparar e discutir essa comparação exige trabalho."
+      },
+      "[\"all\",31,\"choices\",1,\"text\"]": {
+        "source": "Ask clients privately to say publicly that they use it properly",
+        "target": "Pedir relatos favoráveis sobre o uso do guia"
+      },
+      "[\"all\",31,\"choices\",1,\"reaction\"]": {
+        "source": "A few kind words appear online. Asking around cost more than staying quiet would have.",
+        "target": "A equipe procura relatos favoráveis. Esses relatos não resolvem por si só a dúvida sobre o uso do guia."
+      },
+      "[\"all\",31,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, let the renewed contracts speak for themselves",
+        "target": "Ficar sem responder"
+      },
+      "[\"all\",31,\"choices\",2,\"reaction\"]": {
+        "source": "Quiet, and it leaves the manager's version as the only one anyone's heard.",
+        "target": "A equipe não responde à questão. O uso do guia continua sem explicação aos outros grupos."
+      },
+      "[\"all\",32,\"intro\"]": {
+        "source": "Our model proposes a new headline stat, its own version of an expected-goals score, built on a formula it generated itself while hunting for a metric no rival owns. Nobody here has independently checked the maths. It reads as authoritative because it sits on real match data, and a number on real data doesn't have to be true to look it.",
+        "target": "No cenário fictício da loja de roupas, a equipe propõe uma nova classificação dos exemplos inventados de organização. O título parece convincente, mas os critérios ainda não foram conferidos. A equipe discute revisão e apresentação desse material."
+      },
+      "[\"all\",32,\"aside\"]": {
+        "source": "A stat built on real match data doesn't need to be right. It only needs to look like it is.",
+        "target": "Um título convincente não substitui a conferência dos critérios usados na classificação."
+      },
+      "[\"all\",32,\"choices\",0,\"text\"]": {
+        "source": "Have someone independently derive and check the formula before it goes near a client",
+        "target": "Pedir revisão independente antes da apresentação"
+      },
+      "[\"all\",32,\"choices\",0,\"reaction\"]": {
+        "source": "Slower, and the number that finally goes out means what the label says.",
+        "target": "Os critérios passam por revisão independente antes da apresentação. A equipe dedica trabalho a esclarecer o que a classificação descreve."
+      },
+      "[\"all\",32,\"choices\",1,\"text\"]": {
+        "source": "Publish it labelled experimental and unverified",
+        "target": "Apresentar como classificação provisória e não conferida"
+      },
+      "[\"all\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Honest about the gap, and still a headline number clients will quote without reading the label.",
+        "target": "A classificação é apresentada com ressalva de que ainda não foi conferida. O título continua exigindo cuidado na explicação."
+      },
+      "[\"all\",32,\"choices\",2,\"text\"]": {
+        "source": "Publish it as a flagship new stat, no caveat, it tests well",
+        "target": "Apresentar como classificação principal, sem ressalva"
+      },
+      "[\"all\",32,\"choices\",2,\"reaction\"]": {
+        "source": "Clients love a bold new number. Nobody here can yet say what it measures.",
+        "target": "A classificação é apresentada como principal sem ressalva. Os critérios continuam sem conferência."
+      },
+      "[\"all\",33,\"intro\"]": {
+        "source": "A lower-league club wants us to go further than a model advising the coaching staff. They want it picking the team and calling the tactics for their reserves, unsupervised, on matchday. A Norwegian club and its sponsor tried exactly this in early 2025: a computer given full control of a second-string side produced a 1-0-9 formation, a goalkeeper taking throw-ins, and a 6-1 defeat.",
+        "target": "No cenário fictício da loja de roupas, um parceiro pede que a equipe siga toda a sequência de um roteiro inventado sem conferir as etapas. O roteiro foi preparado apenas como apoio à organização. A equipe discute os limites desse uso."
+      },
+      "[\"all\",33,\"aside\"]": {
+        "source": "Our model was built to tell a coach something useful. Nobody built it to be the coach.",
+        "target": "O roteiro nasceu como apoio; nunca foi pensado para substituir quem confere."
+      },
+      "[\"all\",33,\"choices\",0,\"text\"]": {
+        "source": "Build it, with a human able to override any live call",
+        "target": "Preparar o uso com revisão de cada etapa"
+      },
+      "[\"all\",33,\"choices\",0,\"reaction\"]": {
+        "source": "Slower out the door, and someone senior has to watch every minute of every reserve match.",
+        "target": "A equipe prepara o uso com possibilidade de rever cada etapa. O acompanhamento exige dedicação durante o exercício."
+      },
+      "[\"all\",33,\"choices\",1,\"text\"]": {
+        "source": "Offer a stripped-down advisory version instead, suggestions only",
+        "target": "Oferecer apenas orientações, sem definir a sequência inteira"
+      },
+      "[\"all\",33,\"choices\",1,\"reaction\"]": {
+        "source": "Less than the club asked for. Nobody's search results put us next to a 1-0-9.",
+        "target": "A equipe oferece orientações em vez de definir toda a sequência. O parceiro recebe um apoio mais limitado e precisa organizar a conferência."
+      },
+      "[\"all\",33,\"choices\",2,\"text\"]": {
+        "source": "Take the contract as specified, full unsupervised control",
+        "target": "Aceitar o uso sem conferência"
+      },
+      "[\"all\",33,\"choices\",2,\"reaction\"]": {
+        "source": "The fee clears this quarter. So does the risk of being the company whose software picked a 1-0-9.",
+        "target": "A equipe aceita seguir a sequência sem conferência. As limitações do roteiro continuam sem exame durante o uso."
+      },
+      "[\"all\",34,\"intro\"]": {
+        "source": "Our crisis-response features tip us into needing a named Clinical Safety Officer. The NHS clinical safety standard (DCB0129) requires one for any tool that touches direct care: a doctor or nurse actually registered to practise, signing a hazard log and a safety case. Nobody on the team qualifies, and the standard doesn't let anyone train their way into that registration.",
+        "target": "No cenário fictício de alimentos congelados, um roteiro inventado de organização de materiais administrativos inclui etapas sem revisão. O grupo combinou designar alguém para conferir os exemplos, mas ninguém assumiu a tarefa. A equipe discute como organizar essa conferência."
+      },
+      "[\"all\",34,\"aside\"]": {
+        "source": "A safety case is only as real as the clinician who signed it. We don't need one on the payroll to get one.",
+        "target": "Designar a conferência no exercício e realizá-la são etapas distintas."
+      },
+      "[\"all\",34,\"choices\",0,\"text\"]": {
+        "source": "Contract a clinical safety consultant to hold the role and sign the case off properly",
+        "target": "Trazer um colaborador fictício para revisar os exemplos"
+      },
+      "[\"all\",34,\"choices\",0,\"reaction\"]": {
+        "source": "A real signature on a real hazard log. The retainer runs every quarter whether a new feature ships or not.",
+        "target": "Um colaborador fictício participa da revisão dos exemplos administrativos. A equipe precisa preparar e acompanhar essa troca."
+      },
+      "[\"all\",34,\"choices\",1,\"text\"]": {
+        "source": "Train someone on the team to run the paperwork, without a registered clinician's sign-off",
+        "target": "Preparar alguém da equipe para organizar a conferência"
+      },
+      "[\"all\",34,\"choices\",1,\"reaction\"]": {
+        "source": "The hazard log gets written properly. Nothing in it carries the sign-off the standard actually asks for.",
+        "target": "Uma pessoa da equipe organiza a conferência. O material ainda não passa por revisão independente."
+      },
+      "[\"all\",34,\"choices\",2,\"text\"]": {
+        "source": "Ship without either, the feature works in testing",
+        "target": "Usar sem designar conferência ou revisão independente"
+      },
+      "[\"all\",34,\"choices\",2,\"reaction\"]": {
+        "source": "Testing isn't a hazard log. Nobody outside the team would know the difference until an inspection asked.",
+        "target": "O roteiro é usado sem designar a conferência ou trazer revisão independente. As etapas continuam sem esses cuidados de preparação."
+      },
+      "[\"all\",35,\"intro\"]": {
+        "source": "A campaign brief for our stress score promises it can spot chronic stress before physical symptoms appear. The MHRA, the regulator for medicines and medical devices, says in its 2025 guidance that the claim itself, not the code behind it, is what decides whether we count as a regulated medical device. The campaign is already booked, and the Advertising Standards Authority, which rules on UK adverts, has just opened an inquiry into exactly this kind of implied diagnostic claim against another wellness brand.",
+        "target": "No cenário fictício de alimentos congelados, a apresentação de um roteiro administrativo inventado promete organizar qualquer situação. Os exemplos cobrem apenas parte delas, e o grupo de revisão questiona a promessa antes da apresentação combinada. A equipe discute o alcance do material."
+      },
+      "[\"all\",35,\"aside\"]": {
+        "source": "Nobody built a diagnostic tool. The marketing copy just described one.",
+        "target": "Os exemplos cobrem parte das situações, enquanto a apresentação promete um alcance maior."
+      },
+      "[\"all\",35,\"choices\",0,\"text\"]": {
+        "source": "Pull the campaign, rewrite it to describe wellbeing rather than diagnosis",
+        "target": "Retirar a apresentação e reescrever o alcance do material"
+      },
+      "[\"all\",35,\"choices\",0,\"reaction\"]": {
+        "source": "Slower to launch, and nothing left in it the ASA could reasonably challenge.",
+        "target": "A equipe retira a apresentação e reescreve o alcance do roteiro. Examinar a promessa e os exemplos exige trabalho."
+      },
+      "[\"all\",35,\"choices\",1,\"text\"]": {
+        "source": "Soften a single word, keep the rest as booked",
+        "target": "Suavizar uma expressão e manter a promessa ampla"
+      },
+      "[\"all\",35,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper to fix, and the concern is with the whole implication, not one word.",
+        "target": "A equipe altera uma expressão. A promessa ampla permanece e a crítica ao restante do material continua sem resposta."
+      },
+      "[\"all\",35,\"choices\",2,\"text\"]": {
+        "source": "Run it as booked, fight the ASA if it comes to that",
+        "target": "Manter a apresentação e contestar a crítica"
+      },
+      "[\"all\",35,\"choices\",2,\"reaction\"]": {
+        "source": "The lucrative version stays live. So does the inquiry, now with a live campaign to point at.",
+        "target": "A equipe mantém a apresentação e contesta a crítica. A promessa ampla e o questionamento seguem no exercício."
+      },
+      "[\"all\",36,\"intro\"]": {
+        "source": "An insurer wants to licence our sleep and stress data for underwriting, pricing cover off how people actually rest. A UK data firm and a big insurance broker struck a deal like it with wearable data in 2025, and Vitality already pays people to hand over exactly this kind of information. The fee would cover our costs for two full quarters.",
+        "target": "No cenário fictício de alimentos congelados, um parceiro pede exemplos inventados de organização de materiais administrativos. Ele prefere receber cada exemplo em detalhes, enquanto a equipe discute o que compartilha e o trabalho de preparar a troca."
+      },
+      "[\"all\",36,\"aside\"]": {
+        "source": "Users signed up to sleep better. Nobody signed up to be priced by it.",
+        "target": "O pedido de detalhes vai além do resumo que a equipe vinha preparando."
+      },
+      "[\"all\",36,\"choices\",0,\"text\"]": {
+        "source": "Build proper anonymisation, licence aggregated data only",
+        "target": "Preparar e compartilhar apenas um resumo dos exemplos"
+      },
+      "[\"all\",36,\"choices\",0,\"reaction\"]": {
+        "source": "Slower to strike a deal, and nothing in it ties a premium to one person's numbers.",
+        "target": "A equipe prepara um resumo conjunto. A troca oferece menos detalhes e exige trabalho de organização."
+      },
+      "[\"all\",36,\"choices\",1,\"text\"]": {
+        "source": "Licence individual-level data as the insurer first asked",
+        "target": "Compartilhar os exemplos detalhados como solicitado"
+      },
+      "[\"all\",36,\"choices\",1,\"reaction\"]": {
+        "source": "The fee clears in a week. So does the shape of a company that sells what people share to feel better.",
+        "target": "O parceiro recebe os detalhes dos exemplos inventados. A equipe amplia o material compartilhado sem preparar o resumo."
+      },
+      "[\"all\",36,\"choices\",2,\"text\"]": {
+        "source": "Decline, keep health data out of any pricing model",
+        "target": "Recusar a troca de materiais"
+      },
+      "[\"all\",36,\"choices\",2,\"reaction\"]": {
+        "source": "No new income, and no explaining later why a subscriber's sleep data ended up in a premium calculation.",
+        "target": "A equipe mantém os exemplos internos. A troca proposta não é realizada."
+      },
+      "[\"all\",37,\"intro\"]": {
+        "source": "A GP wants to start formally referring patients to us through the NHS's own social-prescribing scheme, which sent over a million people to services like ours last year alone. Nothing about us has been tested the way something a doctor hands out is expected to be, and there's no budget set aside to find out properly before the first patient arrives with a printed referral.",
+        "target": "No cenário fictício de alimentos congelados, outro grupo recomenda um roteiro inventado de organização de materiais administrativos. A equipe ainda não conferiu os exemplos nem reservou dedicação à avaliação. Ela discute se começa a usar o roteiro antes dessa revisão."
+      },
+      "[\"all\",37,\"aside\"]": {
+        "source": "A GP's letter carries a kind of trust an app-store rating never has. It also carries a kind of blame if the trust turns out misplaced.",
+        "target": "A recomendação do grupo não substitui a conferência dos exemplos."
+      },
+      "[\"all\",37,\"choices\",0,\"text\"]": {
+        "source": "Commission a proper evaluation before accepting referrals",
+        "target": "Avaliar o roteiro antes de aceitar seu uso"
+      },
+      "[\"all\",37,\"choices\",0,\"reaction\"]": {
+        "source": "Referrals wait for the answer. Whatever comes back, the GP's trust means something afterwards.",
+        "target": "O uso aguarda a avaliação. Preparar e discutir os exemplos exige dedicação da equipe."
+      },
+      "[\"all\",37,\"choices\",1,\"text\"]": {
+        "source": "Accept referrals now, run the evaluation alongside them",
+        "target": "Usar o roteiro e avaliar durante o exercício"
+      },
+      "[\"all\",37,\"choices\",1,\"reaction\"]": {
+        "source": "Patients start arriving this month. The evidence catches up to the referrals, not the other way round.",
+        "target": "O exercício começa com o roteiro ainda em avaliação. A equipe precisa acompanhar dúvidas enquanto o utiliza."
+      },
+      "[\"all\",37,\"choices\",2,\"text\"]": {
+        "source": "Accept referrals now, evaluate later if the scheme grows",
+        "target": "Usar o roteiro e deixar a avaliação para depois"
+      },
+      "[\"all\",37,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing slows the first patient down. Nothing's been checked either.",
+        "target": "O exercício começa sem avaliação prévia. As dúvidas sobre os exemplos ficam sem conferência."
+      },
+      "[\"all\",38,\"intro\"]": {
+        "source": "A corporate wellness client wants us to add a dashboard showing individual staff stress and sleep scores to their HR department, not just to each employee. Nothing in UK data-protection law bans it outright, but the ICO, the UK's data-protection regulator, treats granular health monitoring like this in its employment guidance as needing a far higher bar than routine workplace data.",
+        "target": "No cenário fictício de alimentos congelados, um parceiro pede materiais inventados que mostrem em detalhes as atividades de cada grupo de um exercício administrativo. A equipe havia combinado um resumo conjunto e discute como consultar os grupos antes de mudar a apresentação."
+      },
+      "[\"all\",38,\"aside\"]": {
+        "source": "An employee agreed to look after their own sleep. Nobody asked whether they agreed to their manager looking too.",
+        "target": "Concordar com um resumo conjunto não resolve o pedido de detalhes por grupo."
+      },
+      "[\"all\",38,\"choices\",0,\"text\"]": {
+        "source": "Build it aggregated only, no individual scores leave the app",
+        "target": "Preparar apenas o resumo conjunto"
+      },
+      "[\"all\",38,\"choices\",0,\"reaction\"]": {
+        "source": "The employer gets a trend line, not a watchlist. The contract is smaller than the one they asked for.",
+        "target": "O parceiro recebe uma visão conjunta dos exemplos. A apresentação não inclui o detalhamento solicitado por grupo."
+      },
+      "[\"all\",38,\"choices\",1,\"text\"]": {
+        "source": "Build individual dashboards, add a consent step for each employee",
+        "target": "Consultar os grupos antes de apresentar os detalhes"
+      },
+      "[\"all\",38,\"choices\",1,\"reaction\"]": {
+        "source": "Consent's on record. Whether it was ever really optional for someone worried about their manager is a different question.",
+        "target": "A equipe consulta os grupos sobre a apresentação detalhada. A consulta exige trabalho e não resolve sozinha as dúvidas sobre o compartilhamento."
+      },
+      "[\"all\",38,\"choices\",2,\"text\"]": {
+        "source": "Build the individual dashboard exactly as asked, no extra consent step",
+        "target": "Apresentar os detalhes sem consultar os grupos"
+      },
+      "[\"all\",38,\"choices\",2,\"reaction\"]": {
+        "source": "The contract signs today. So does every employee's stress score landing on their manager's screen.",
+        "target": "A apresentação inclui detalhes por grupo. A mudança em relação ao resumo combinado fica sem consulta."
+      },
+      "[\"all\",39,\"intro\"]": {
+        "source": "An audit turns up an old advertising SDK still wired into our mood and sleep tracker, quietly passing data to Meta and Google since the earliest version shipped. It's the setup that cost Flo Health, the period-tracking app, a $59.5m settlement: sharing exactly this kind of health data with exactly these companies without users being clearly told.",
+        "target": "No cenário fictício de alimentos congelados, a revisão de materiais administrativos inventados encontra uma etapa antiga que encaminha exemplos para fora do grupo combinado. A etapa foi incluída para apoiar a divulgação e continuou sendo usada sem nova conferência."
+      },
+      "[\"all\",39,\"aside\"]": {
+        "source": "The SDK was added for ad measurement eighteen months ago. Nobody's checked what it's been measuring since.",
+        "target": "A finalidade inicial da etapa não explica o alcance atual dos repasses."
+      },
+      "[\"all\",39,\"choices\",0,\"text\"]": {
+        "source": "Rip out the SDK, report ourselves to the ICO",
+        "target": "Retirar a etapa e explicar a mudança aos grupos"
+      },
+      "[\"all\",39,\"choices\",0,\"reaction\"]": {
+        "source": "Slower this quarter, and the ICO, the data-protection regulator, hears it from us, not from a complaint.",
+        "target": "A equipe retira a etapa e explica o repasse aos grupos. A revisão e a comunicação exigem dedicação."
+      },
+      "[\"all\",39,\"choices\",1,\"text\"]": {
+        "source": "Rip out the SDK quietly, no notification",
+        "target": "Retirar a etapa sem explicar o repasse"
+      },
+      "[\"all\",39,\"choices\",1,\"reaction\"]": {
+        "source": "The leak stops today. Whether it stopped in time to matter, nobody outside the room can check.",
+        "target": "A equipe deixa de usar a etapa. Os outros grupos não recebem explicação sobre os exemplos já encaminhados."
+      },
+      "[\"all\",39,\"choices\",2,\"text\"]": {
+        "source": "Leave it running, the ad revenue funds the free tier",
+        "target": "Manter a etapa para apoiar a divulgação"
+      },
+      "[\"all\",39,\"choices\",2,\"reaction\"]": {
+        "source": "The free tier keeps growing. So does however long this has already been happening.",
+        "target": "A etapa permanece no roteiro. O compartilhamento fora do grupo combinado continua sem revisão."
+      },
+      "[\"all\",40,\"intro\"]": {
+        "source": "We want to add a conversational AI for stress support, on demand, any hour. Real 2025 lawsuits accuse chatbots from far larger companies of giving harmful advice to people in crisis, and America's Federal Trade Commission has opened a formal inquiry into exactly this kind of tool. We'd be shipping something companies with far more safety testing have already got wrong in public.",
+        "target": "No cenário fictício de alimentos congelados, a equipe propõe um guia inventado com respostas para dúvidas sobre organização de materiais administrativos. A proposta abrange muitas situações, mas os exemplos ainda não foram conferidos. A equipe discute o alcance do guia e quem examina as dúvidas."
+      },
+      "[\"all\",40,\"aside\"]": {
+        "source": "A chatbot that's usually right is still a chatbot that's sometimes confidently wrong, at one in the morning, to someone with nobody else awake to ask.",
+        "target": "Uma resposta bem apresentada pode deixar de explicar os limites do exemplo."
+      },
+      "[\"all\",40,\"choices\",0,\"text\"]": {
+        "source": "Build it with hard limits and a route to a human, tested before launch",
+        "target": "Rever os limites e designar conferência antes do uso"
+      },
+      "[\"all\",40,\"choices\",0,\"reaction\"]": {
+        "source": "Months of testing before anyone talks to it. What ships afterwards has a floor under it.",
+        "target": "A equipe examina os exemplos e define como encaminhar dúvidas. O preparo exige dedicação antes do uso do guia."
+      },
+      "[\"all\",40,\"choices\",1,\"text\"]": {
+        "source": "Launch a limited version, set answers only, no open conversation",
+        "target": "Usar respostas fixas para poucas situações"
+      },
+      "[\"all\",40,\"choices\",1,\"reaction\"]": {
+        "source": "Less impressive than what was pitched. Also less able to say something nobody tested for.",
+        "target": "O guia fica limitado às situações escolhidas. As demais dúvidas continuam fora do material preparado."
+      },
+      "[\"all\",40,\"choices\",2,\"text\"]": {
+        "source": "Launch the full conversational version as planned",
+        "target": "Usar a versão ampla sem revisão prévia"
+      },
+      "[\"all\",40,\"choices\",2,\"reaction\"]": {
+        "source": "It ships on schedule. So does whatever it says to the first person who needed it to be right.",
+        "target": "A equipe usa o guia amplo. As respostas ainda não conferidas seguem no material."
+      },
+      "[\"all\",41,\"intro\"]": {
+        "source": "Our free trial takes one tap to start and five screens to leave, the exact shape of subscription the UK's new consumer law was built to catch. The Competition and Markets Authority has had enforcement powers over this since April 2025: fines of up to ten per cent of turnover, not a warning letter.",
+        "target": "No cenário fictício de alimentos congelados, entrar num exercício de troca de materiais administrativos inventados é simples, mas deixar o grupo exige etapas confusas. A equipe discute se revê todo o percurso ou mantém parte das dificuldades."
+      },
+      "[\"all\",41,\"aside\"]": {
+        "source": "Nobody built the cancel flow to be hard. Nobody built it to be easy either.",
+        "target": "O percurso de saída precisa ser explicado com o mesmo cuidado do convite."
+      },
+      "[\"all\",41,\"choices\",0,\"text\"]": {
+        "source": "Rebuild cancellation to one tap, ahead of the law requiring it",
+        "target": "Simplificar todo o percurso de saída"
+      },
+      "[\"all\",41,\"choices\",0,\"reaction\"]": {
+        "source": "Some subscribers leave the moment it's easy to. The ones who stay, stay on purpose.",
+        "target": "A equipe revê as etapas e prepara uma explicação direta. Esse trabalho disputa a dedicação a outras atividades."
+      },
+      "[\"all\",41,\"choices\",1,\"text\"]": {
+        "source": "Simplify it to three screens, still short of one tap",
+        "target": "Simplificar apenas parte do percurso"
+      },
+      "[\"all\",41,\"choices\",1,\"reaction\"]": {
+        "source": "Better than five screens. Still not what the regulation is asking for.",
+        "target": "Algumas etapas são simplificadas. As dificuldades que ficaram fora da revisão ainda precisam de explicação."
+      },
+      "[\"all\",41,\"choices\",2,\"text\"]": {
+        "source": "Leave it as it is until the regulation forces a change",
+        "target": "Manter o percurso atual"
+      },
+      "[\"all\",41,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes this quarter. Neither does the exposure sitting under it.",
+        "target": "O percurso permanece igual. A saída do exercício continua com as etapas confusas."
+      },
+      "[\"all\",42,\"intro\"]": {
+        "source": "Some users are typing things into our free-text journal that go well past ordinary stress, the kind of entry a proper safeguarding framework expects a real response to. ORCHA, which reviews health apps for the NHS, asks directly whether a product like ours offers twenty-four-hour support for exactly this. Right now we offer a screen with a helpline number and nothing that checks whether anyone read it.",
+        "target": "No cenário fictício de alimentos congelados, exemplos inventados de organização administrativa deixam dúvidas que os grupos não sabem a quem encaminhar. O material contém apenas um aviso genérico. A equipe discute como acompanhar essas dúvidas durante o exercício."
+      },
+      "[\"all\",42,\"aside\"]": {
+        "source": "A helpline number on a screen meets the letter of a safeguarding policy. Whether it meets the point of one is a different question.",
+        "target": "Exibir um aviso não mostra se a dúvida foi examinada."
+      },
+      "[\"all\",42,\"choices\",0,\"text\"]": {
+        "source": "Build a proper escalation path, a trained third-party crisis service on call",
+        "target": "Designar alguém para examinar e acompanhar as dúvidas"
+      },
+      "[\"all\",42,\"choices\",0,\"reaction\"]": {
+        "source": "Real cost every month, whether or not it's used that month. We can say, honestly, that someone answers.",
+        "target": "Uma pessoa fica encarregada de examinar as dúvidas e acompanhar os encaminhamentos. A tarefa exige dedicação mesmo quando há poucas solicitações."
+      },
+      "[\"all\",42,\"choices\",1,\"text\"]": {
+        "source": "Add a check that a flagged entry was actually seen, no live escalation",
+        "target": "Registrar que as dúvidas foram vistas sem encaminhá-las"
+      },
+      "[\"all\",42,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and it still ends at a screen rather than a person.",
+        "target": "O registro indica que a dúvida foi vista. Ele não define quem trata a questão apresentada."
+      },
+      "[\"all\",42,\"choices\",2,\"text\"]": {
+        "source": "Leave the helpline screen as it is",
+        "target": "Manter apenas o aviso genérico"
+      },
+      "[\"all\",42,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes for anyone who's already stopped reading the screen by the time it appears.",
+        "target": "O material permanece com o aviso. O exercício continua sem uma tarefa definida para examinar as dúvidas."
+      },
+      "[\"all\",43,\"intro\"]": {
+        "source": "A UK research funder wants a proper efficacy trial on us: real households, a control group, six months, published either way. Failing it means telling the clinicians and the NHS pathway partner already circling, not just a marketing team looking for a good quote.",
+        "target": "No cenário fictício de alimentos congelados, um grupo propõe uma comparação abrangente de roteiros administrativos usando exemplos inventados. Ele pede que os achados sejam compartilhados mesmo quando contrariam a apresentação atual. A equipe discute o trabalho de comparação e o alcance da comunicação."
+      },
+      "[\"all\",43,\"aside\"]": {
+        "source": "A trial that goes well is worth more than any campaign. A trial that goes badly is worth exactly as much, to whoever reads it next.",
+        "target": "Os achados desfavoráveis também ajudam a explicar os limites dos roteiros."
+      },
+      "[\"all\",43,\"choices\",0,\"text\"]": {
+        "source": "Commit fully, agree to publish whatever it finds",
+        "target": "Fazer a comparação completa e compartilhar os achados"
+      },
+      "[\"all\",43,\"choices\",0,\"reaction\"]": {
+        "source": "Engineering time redirected for months. Whatever the result, the NHS partner reads a real answer, not a marketing claim.",
+        "target": "A equipe dedica trabalho à comparação abrangente. Os achados passam a integrar a discussão, sejam favoráveis ou desfavoráveis."
+      },
+      "[\"all\",43,\"choices\",1,\"text\"]": {
+        "source": "Offer a smaller, faster pilot instead of the full trial",
+        "target": "Propor uma comparação menor"
+      },
+      "[\"all\",43,\"choices\",1,\"reaction\"]": {
+        "source": "Less data than the funder asked for, and less time for a result neither side wants to walk back.",
+        "target": "A comparação usa menos exemplos do que o grupo solicitou. O recorte limita o que pode ser discutido sobre os roteiros."
+      },
+      "[\"all\",43,\"choices\",2,\"text\"]": {
+        "source": "Decline, we can't absorb a bad result right now",
+        "target": "Recusar a comparação proposta"
+      },
+      "[\"all\",43,\"choices\",2,\"reaction\"]": {
+        "source": "No trial, no bad headline. Also no way to tell the NHS partner anything beyond what marketing already says.",
+        "target": "A comparação não é preparada. A apresentação atual permanece sem os achados desse exercício."
+      },
+      "[\"all\",44,\"intro\"]": {
+        "source": "Qualifying for the NHS Data Security and Protection Toolkit, the baseline any NHS pathway or trust needs before it will touch us, means everyone on the team completing accredited data-security training and passing the toolkit's own test, against the same 30 June deadline every year. The lead developer says another weekend lost to compliance modules instead of the bug backlog is the one that breaks something.",
+        "target": "No cenário fictício de alimentos congelados, a equipe combinou uma revisão interna de materiais administrativos inventados. Preparar os participantes compete com outras tarefas de organização. A equipe discute se reúne todos, divide o preparo ou preenche a conferência às pressas."
+      },
+      "[\"all\",44,\"aside\"]": {
+        "source": "The toolkit doesn't care whose weekend it was. It cares whether the training happened and the test was passed.",
+        "target": "Preencher uma conferência não demonstra o que foi compreendido no exercício."
+      },
+      "[\"all\",44,\"choices\",0,\"text\"]": {
+        "source": "Block out proper time for the whole team, push bug fixes back a sprint",
+        "target": "Reservar dedicação conjunta ao preparo da equipe"
+      },
+      "[\"all\",44,\"choices\",0,\"reaction\"]": {
+        "source": "The backlog waits its turn. The toolkit gets submitted clean, on time, by everyone who needed to.",
+        "target": "A equipe prepara a revisão em conjunto. Outras tarefas precisam disputar a dedicação disponível."
+      },
+      "[\"all\",44,\"choices\",1,\"text\"]": {
+        "source": "Split the training across two quarters, a few people at a time",
+        "target": "Dividir o preparo entre grupos em etapas"
+      },
+      "[\"all\",44,\"choices\",1,\"reaction\"]": {
+        "source": "Less disruption to the backlog. A longer stretch where the submission isn't actually complete.",
+        "target": "Os grupos fazem o preparo em etapas. A revisão fica parcialmente preparada enquanto os demais grupos aguardam sua participação."
+      },
+      "[\"all\",44,\"choices\",2,\"text\"]": {
+        "source": "Rush it the night before the deadline, tick the boxes",
+        "target": "Preencher a conferência às pressas"
+      },
+      "[\"all\",44,\"choices\",2,\"reaction\"]": {
+        "source": "The deadline's met on paper. Whether anyone absorbed any of it is a different question.",
+        "target": "A conferência é preenchida. O registro não esclarece o que a equipe examinou ou compreendeu."
+      },
+      "[\"all\",45,\"intro\"]": {
+        "source": "A university psychology department wants raw, identifiable entries from our mood and sleep journal for a study on stress patterns, the kind of access a hospital would only grant after a full review by an NHS Research Ethics Committee, run by the Health Research Authority. We aren't the NHS, and nothing legally stops us saying yes on our own terms.",
+        "target": "No cenário fictício de alimentos congelados, um grupo pede cadernos completos de exemplos administrativos inventados para comparar formas de organização. A equipe discute se compartilha um resumo, combina o uso dos cadernos ou os entrega apenas na confiança."
+      },
+      "[\"all\",45,\"aside\"]": {
+        "source": "The department has an ethics committee behind it. Whether we need one of our own isn't really optional, just unenforced.",
+        "target": "Combinar o uso do material e conferir o alcance da troca são tarefas distintas."
+      },
+      "[\"all\",45,\"choices\",0,\"text\"]": {
+        "source": "Release only anonymised, aggregated data, no raw entries",
+        "target": "Compartilhar somente um resumo conjunto"
+      },
+      "[\"all\",45,\"choices\",0,\"reaction\"]": {
+        "source": "Slower and less useful to the study. Nothing in it traces back to a real person's actual week.",
+        "target": "A equipe prepara um resumo e mantém os cadernos completos internos. O grupo recebe menos detalhes para a comparação."
+      },
+      "[\"all\",45,\"choices\",1,\"text\"]": {
+        "source": "Release raw entries under a data-sharing agreement, no independent ethics review",
+        "target": "Compartilhar os cadernos com uma combinação de uso"
+      },
+      "[\"all\",45,\"choices\",1,\"reaction\"]": {
+        "source": "Faster for the department, and the review that would have caught a problem never happens.",
+        "target": "O grupo recebe os cadernos conforme a combinação. O alcance dessa troca não passa por revisão independente."
+      },
+      "[\"all\",45,\"choices\",2,\"text\"]": {
+        "source": "Release the raw archive as requested, on trust",
+        "target": "Entregar os cadernos apenas na confiança"
+      },
+      "[\"all\",45,\"choices\",2,\"reaction\"]": {
+        "source": "The department gets exactly what it asked for. So does anyone who ever gets into the department's servers.",
+        "target": "O grupo recebe os cadernos completos. A equipe não combina limites nem confere o alcance da troca."
+      },
+      "[\"all\",46,\"intro\"]": {
+        "source": "A licence audit on our base model turns up a chunk of training data pulled from a scraped book archive with no clear rights to it. The model already runs on customer devices. Retraining it clean means starting the accuracy work over.",
+        "target": "No cenário fictício da assistência técnica de celulares, um guia administrativo inventado já compartilhado contém trechos cuja origem não foi conferida. A equipe discute se refaz os exemplos, revê apenas os trechos identificáveis ou continua usando o material atual."
+      },
+      "[\"all\",46,\"aside\"]": {
+        "source": "Nobody checked where the data came from when the model was small and nobody outside the team used it yet.",
+        "target": "A origem dos trechos ficou sem conferência durante o preparo inicial."
+      },
+      "[\"all\",46,\"choices\",0,\"text\"]": {
+        "source": "Retrain on a fully licensed dataset before shipping the next version",
+        "target": "Refazer o guia com exemplos preparados pela equipe"
+      },
+      "[\"all\",46,\"choices\",0,\"reaction\"]": {
+        "source": "Months of retraining, and accuracy dips before it recovers. Nothing left in the model that needs a lawyer's opinion.",
+        "target": "A equipe refaz os exemplos do guia. O preparo exige dedicação e muda o material já conhecido pelos grupos."
+      },
+      "[\"all\",46,\"choices\",1,\"text\"]": {
+        "source": "Licence the disputed data after the fact, wherever the rights holder can be found",
+        "target": "Conferir e substituir os trechos identificáveis"
+      },
+      "[\"all\",46,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper than retraining, and it only covers what a rights holder is findable enough to bill.",
+        "target": "A equipe revê os trechos que consegue identificar. A origem dos demais continua sem esclarecimento."
+      },
+      "[\"all\",46,\"choices\",2,\"text\"]": {
+        "source": "Keep shipping, the risk is small at this size",
+        "target": "Continuar compartilhando o guia atual"
+      },
+      "[\"all\",46,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes this quarter. Neither does what's actually sitting inside the model.",
+        "target": "O guia continua circulando. Os trechos de origem não conferida permanecem no material."
+      },
+      "[\"all\",47,\"intro\"]": {
+        "source": "We ship a shrunk-down copy of our model so it runs on cheap, low-power devices. Shrinking it also makes it worse at refusing things it shouldn't answer, and nobody has checked by how much.",
+        "target": "No cenário fictício da assistência técnica de celulares, a equipe resumiu um guia administrativo inventado para facilitar sua consulta. O resumo deixou de incluir algumas ressalvas e limites. A conferência habitual dos exemplos não examinou essa perda."
+      },
+      "[\"all\",47,\"aside\"]": {
+        "source": "The full-size model says no to a question. Nobody's checked whether the smaller copy still does.",
+        "target": "Conferir os exemplos habituais não esclarece quais ressalvas ficaram fora do resumo."
+      },
+      "[\"all\",47,\"choices\",0,\"text\"]": {
+        "source": "Build a proper check for what the shrunk-down version has lost, before every release",
+        "target": "Conferir os limites antes de cada compartilhamento"
+      },
+      "[\"all\",47,\"choices\",0,\"reaction\"]": {
+        "source": "Every release waits on a test that didn't exist before. Slower, and nothing goes out half-checked.",
+        "target": "A equipe inclui os limites na conferência antes de compartilhar. A revisão acrescenta trabalho ao preparo do resumo."
+      },
+      "[\"all\",47,\"choices\",1,\"text\"]": {
+        "source": "Try a handful of questions on the shrunk version after each release",
+        "target": "Conferir poucas situações depois de compartilhar"
+      },
+      "[\"all\",47,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and it only catches what someone happened to think of trying.",
+        "target": "A equipe examina algumas situações após compartilhar. O recorte deixa outras ressalvas fora dessa conferência."
+      },
+      "[\"all\",47,\"choices\",2,\"text\"]": {
+        "source": "Ship it, it passed the normal accuracy tests",
+        "target": "Compartilhar usando apenas a conferência habitual"
+      },
+      "[\"all\",47,\"choices\",2,\"reaction\"]": {
+        "source": "Accuracy passed. Nobody tested for the thing accuracy doesn't measure.",
+        "target": "O resumo é compartilhado com a conferência habitual. A perda das ressalvas continua sem exame específico."
+      },
+      "[\"all\",48,\"intro\"]": {
+        "source": "The EU AI Act, Europe's AI law, has required general-purpose model providers to keep technical documentation, a training-data summary and a copyright policy since August 2025. We've shipped for a year with none of the three. A distributor in Germany has just asked for the documentation before renewing.",
+        "target": "No cenário fictício da assistência técnica de celulares, um grupo pede a documentação de um guia administrativo inventado antes de continuar um exercício conjunto. Versões anteriores também circulam sem notas de revisão. A equipe discute quais versões documenta e como explica o material."
+      },
+      "[\"all\",48,\"aside\"]": {
+        "source": "The obligation didn't wait for anyone to ask. Somebody just finally has.",
+        "target": "As versões que continuam circulando não deixam de precisar de explicação quando o guia atual muda."
+      },
+      "[\"all\",48,\"choices\",0,\"text\"]": {
+        "source": "Produce full documentation for every model version, not just the current one",
+        "target": "Preparar a documentação de todas as versões do guia, não apenas a atual"
+      },
+      "[\"all\",48,\"choices\",0,\"reaction\"]": {
+        "source": "Weeks of retroactive paperwork. Every version anyone's ever deployed is covered, not just the newest.",
+        "target": "A equipe prepara notas para as versões compartilhadas. Reconstituir essas diferenças exige dedicação."
+      },
+      "[\"all\",48,\"choices\",1,\"text\"]": {
+        "source": "Document only the current version, going forward",
+        "target": "Documentar apenas a versão atual, a partir de agora"
+      },
+      "[\"all\",48,\"choices\",1,\"reaction\"]": {
+        "source": "Faster, and anyone running an older version is still asking the same question next quarter.",
+        "target": "A documentação cobre a versão atual. As versões anteriores continuam sem notas de revisão."
+      },
+      "[\"all\",48,\"choices\",2,\"text\"]": {
+        "source": "Send the distributor a general compliance statement, no real documentation",
+        "target": "Enviar ao grupo uma declaração genérica, sem documentação de fato"
+      },
+      "[\"all\",48,\"choices\",2,\"reaction\"]": {
+        "source": "The renewal goes through this week. The actual paperwork still doesn't exist.",
+        "target": "O grupo recebe uma declaração geral. As diferenças entre as versões permanecem sem documentação."
+      },
+      "[\"all\",49,\"intro\"]": {
+        "source": "A popular independent tutorial on running models offline recommends us by name, unprompted, to an audience of thousands. Free-tier signups triple overnight. Nobody here built the support capacity, or the server headroom, for an audience that found us on someone else's page rather than our own.",
+        "target": "No cenário fictício da assistência técnica de celulares, uma divulgação espontânea de materiais administrativos inventados aumenta os pedidos de esclarecimento num exercício. A equipe não preparou acompanhamento para esse volume de dúvidas e discute como organizar a participação dos grupos."
+      },
+      "[\"all\",49,\"aside\"]": {
+        "source": "The best marketing we never paid for arrived with no warning and no invoice to negotiate.",
+        "target": "A divulgação que não pedimos chegou sem aviso e sem combinação prévia."
+      },
+      "[\"all\",49,\"choices\",0,\"text\"]": {
+        "source": "Scale infrastructure and add a support queue before the surge outlasts the goodwill",
+        "target": "Organizar o preparo e uma fila para acompanhar as dúvidas"
+      },
+      "[\"all\",49,\"choices\",0,\"reaction\"]": {
+        "source": "A real cost this quarter, and the new users who arrived confused don't leave annoyed.",
+        "target": "A equipe dedica trabalho ao preparo e à organização das dúvidas. O acompanhamento passa a exigir atenção da equipe."
+      },
+      "[\"all\",49,\"choices\",1,\"text\"]": {
+        "source": "Let the free tier throttle itself, fix what actually breaks",
+        "target": "Limitar a participação e tratar apenas as dificuldades pontuais"
+      },
+      "[\"all\",49,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and some of the goodwill leaves with whoever hit a wall this week.",
+        "target": "A participação fica limitada e a equipe trata algumas dificuldades. As demais dúvidas continuam fora desse acompanhamento."
+      },
+      "[\"all\",49,\"choices\",2,\"text\"]": {
+        "source": "Do nothing, the surge will settle on its own",
+        "target": "Não agir e aguardar que os pedidos de esclarecimento diminuam sozinhos"
+      },
+      "[\"all\",49,\"choices\",2,\"reaction\"]": {
+        "source": "Some of it does. Some of it leaves for whichever competitor answered first.",
+        "target": "A equipe não prepara acompanhamento para os pedidos. As dúvidas apresentadas permanecem sem uma tarefa definida para tratá-las."
+      },
+      "[\"all\",50,\"intro\"]": {
+        "source": "A serious security hole turns up in a piece of free, outside code our product relies on to run. We didn't write it and don't control it. Every customer's device is running it anyway, right now, with the hole still open.",
+        "target": "No cenário fictício da assistência técnica de celulares, uma lacuna num roteiro administrativo inventado de outro grupo confunde o uso dos exemplos já compartilhados. A equipe discute se corrige a orientação, prepara uma revisão conjunta ou aguarda a ação do grupo autor."
+      },
+      "[\"all\",50,\"aside\"]": {
+        "source": "Nobody here wrote the flawed code. Every device running our product is running it all the same.",
+        "target": "Quem deixou a lacuna não é quem está usando o roteiro. Ela circula do mesmo jeito entre os grupos."
+      },
+      "[\"all\",50,\"choices\",0,\"text\"]": {
+        "source": "Patch it and push an emergency update to every device immediately",
+        "target": "Corrigir a lacuna e repassar a orientação corrigida aos grupos"
+      },
+      "[\"all\",50,\"choices\",0,\"reaction\"]": {
+        "source": "A rushed release, tested in days rather than weeks. Every device fixed before anyone else finds the hole first.",
+        "target": "A equipe prepara uma orientação revista e a repassa aos grupos. A correção e a comunicação exigem dedicação."
+      },
+      "[\"all\",50,\"choices\",1,\"text\"]": {
+        "source": "Patch it in the next scheduled release, tell customers when to expect it",
+        "target": "Corrigir na revisão conjunta seguinte, explicando a lacuna aos grupos"
+      },
+      "[\"all\",50,\"choices\",1,\"reaction\"]": {
+        "source": "Properly tested, and every device stays exposed a few weeks longer than it needed to.",
+        "target": "A correção fica para a revisão conjunta. A equipe explica a lacuna enquanto o roteiro atual continua disponível."
+      },
+      "[\"all\",50,\"choices\",2,\"text\"]": {
+        "source": "Wait to see if whoever maintains the code fixes it first",
+        "target": "Esperar que o grupo autor corrija o roteiro"
+      },
+      "[\"all\",50,\"choices\",2,\"reaction\"]": {
+        "source": "No work this week. No control over when, or whether, anyone else fixes it either.",
+        "target": "Sem trabalho nosso nesta etapa; sem controle sobre a revisão do autor ou sobre como a correção será explicada."
+      },
+      "[\"all\",51,\"intro\"]": {
+        "source": "A well-known public benchmark ranks small models against each other, and we sit mid-table. There's documented criticism across the industry that providers quietly tune models to score well on exactly these tests rather than to perform well outside them. A few weeks aimed squarely at the benchmark's quirks would likely move us up the table without touching real-world performance at all.",
+        "target": "No cenário fictício da assistência técnica de celulares, uma ficha inventada compara roteiros administrativos por critérios de apresentação. Esses critérios não examinam o uso dos exemplos. A equipe discute se prepara os materiais para a ficha ou concentra a revisão nas situações do exercício."
+      },
+      "[\"all\",51,\"aside\"]": {
+        "source": "The leaderboard measures what the leaderboard measures. Whether that's what a customer notices is a different question.",
+        "target": "O que a ficha compara e o que os exemplos ajudam a organizar podem ser aspectos distintos."
+      },
+      "[\"all\",51,\"choices\",0,\"text\"]": {
+        "source": "Skip the benchmark work, publish real-world performance data instead",
+        "target": "Concentrar o trabalho nos exemplos de uso e explicar os achados da revisão"
+      },
+      "[\"all\",51,\"choices\",0,\"reaction\"]": {
+        "source": "No leaderboard bump this quarter. What's published is true of the product a customer actually runs.",
+        "target": "A equipe concentra a revisão nos exemplos de uso. A ficha não recebe trabalho específico de preparação."
+      },
+      "[\"all\",51,\"choices\",1,\"text\"]": {
+        "source": "Do some benchmark-specific tuning, keep most effort on real performance",
+        "target": "Dividir a revisão entre a ficha e os exemplos de uso"
+      },
+      "[\"all\",51,\"choices\",1,\"reaction\"]": {
+        "source": "A modest bump either way. Nobody outside the team could say how much of it is real.",
+        "target": "As frentes dividem a dedicação da equipe. A comparação precisa explicar o alcance dos critérios da ficha e do exame dos exemplos."
+      },
+      "[\"all\",51,\"choices\",2,\"text\"]": {
+        "source": "Tune hard for the benchmark, the ranking is what developers see first",
+        "target": "Concentrar o esforço apenas na pontuação da ficha"
+      },
+      "[\"all\",51,\"choices\",2,\"reaction\"]": {
+        "source": "The table climbs. So does the gap between what it shows and what a customer's device actually runs.",
+        "target": "A equipe prepara os materiais para os critérios da ficha. O uso dos exemplos permanece fora desse trabalho."
+      },
+      "[\"all\",52,\"intro\"]": {
+        "source": "The developer community wants us to open our weights the way Petit Modèle does, a live argument across the small-model industry right now rather than a hypothetical one. Usage revenue is most of what we have. Open weights are also most of what gets a company mentioned in the same breath as the providers developers actually trust.",
+        "target": "No cenário fictício da assistência técnica de celulares, um grupo pede que a equipe compartilhe o guia administrativo inventado atualmente reservado ao preparo interno. Uma versão anterior e um recorte limitado são alternativas de troca. A equipe discute o alcance do compartilhamento."
+      },
+      "[\"all\",52,\"aside\"]": {
+        "source": "Petit Modèle gets credibility from giving the model away. We get a business from charging for it. Both are true at once.",
+        "target": "As formas de compartilhar o guia mudam o alcance da troca e o que continua reservado."
+      },
+      "[\"all\",52,\"choices\",0,\"text\"]": {
+        "source": "Open the older model version, keep the current one commercial",
+        "target": "Compartilhar a versão anterior do guia e manter a atual interna"
+      },
+      "[\"all\",52,\"choices\",0,\"reaction\"]": {
+        "source": "Some credibility without giving away this quarter's revenue. The community notices which version it is.",
+        "target": "O grupo recebe a versão anterior. A versão atual permanece reservada ao preparo da equipe."
+      },
+      "[\"all\",52,\"choices\",1,\"text\"]": {
+        "source": "Open a limited, smaller model as a goodwill release",
+        "target": "Compartilhar um recorte limitado do guia"
+      },
+      "[\"all\",52,\"choices\",1,\"reaction\"]": {
+        "source": "A gesture more than a real answer to what was actually asked for.",
+        "target": "O recorte inclui menos exemplos do que o grupo solicitou. Parte do pedido fica fora da troca."
+      },
+      "[\"all\",52,\"choices\",2,\"text\"]": {
+        "source": "Keep everything closed, usage revenue funds everything",
+        "target": "Manter o guia inteiro interno"
+      },
+      "[\"all\",52,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes. Neither does the sense that we're the one holding out.",
+        "target": "A equipe mantém o guia interno. A troca solicitada não é realizada."
+      },
+      "[\"all\",53,\"intro\"]": {
+        "source": "A public body wants our model running somewhere sensitive with no connection at all, and no way to fix it once it's installed. Once it's live, whatever mistakes it makes keep happening quietly, with nobody watching and nobody able to step in.",
+        "target": "No cenário fictício da assistência técnica de celulares, outro grupo quer usar um roteiro administrativo inventado sem contato contínuo com a equipe. A equipe discute se combina revisões durante o exercício, faz uma conferência inicial ou compartilha o roteiro sem revisão."
+      },
+      "[\"all\",53,\"aside\"]": {
+        "source": "Offline is the whole pitch. Offline is also what makes a mistake impossible to quietly put right.",
+        "target": "Conferir o roteiro antes do uso e acompanhar dúvidas durante o exercício são tarefas distintas."
+      },
+      "[\"all\",53,\"choices\",0,\"text\"]": {
+        "source": "Build a manual audit and update cycle into the contract before agreeing",
+        "target": "Combinar revisões e ajustes com o grupo durante o exercício"
+      },
+      "[\"all\",53,\"choices\",0,\"reaction\"]": {
+        "source": "A slower, more expensive deal to close. Someone checks the model's decisions on a schedule, even without a live connection.",
+        "target": "A equipe combina momentos para revisão e ajustes. Preparar e acompanhar essas atividades exige dedicação."
+      },
+      "[\"all\",53,\"choices\",1,\"text\"]": {
+        "source": "Agree to a one-off review before deployment, nothing ongoing",
+        "target": "Fazer a conferência única antes do uso, sem acompanhamento depois"
+      },
+      "[\"all\",53,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and whatever's true on install day is what runs for however long the deployment lasts.",
+        "target": "O roteiro passa por uma conferência inicial. As dúvidas que surgirem durante o uso ficam fora desse acompanhamento."
+      },
+      "[\"all\",53,\"choices\",2,\"text\"]": {
+        "source": "Deploy as requested, no audit clause",
+        "target": "Compartilhar o roteiro sem revisão com a equipe"
+      },
+      "[\"all\",53,\"choices\",2,\"reaction\"]": {
+        "source": "The contract closes today. Nobody will know if it's still right in a year.",
+        "target": "O grupo recebe o roteiro sem conferência. O uso dos exemplos permanece sem revisão combinada."
+      },
+      "[\"all\",54,\"intro\"]": {
+        "source": "A customer puts our speech model into a voice-ordering kiosk. Background noise and people talking over each other confuse it, and it starts loading real orders with bizarre extras nobody asked for. The clips are already spreading online. Our name sits in the small print under the customer's logo.",
+        "target": "No cenário fictício da assistência técnica de celulares, um parceiro adaptou um formulário administrativo inventado preparado pela equipe. Nos exemplos do exercício aparecem detalhes que não foram solicitados. Outros grupos questionam o material, e a equipe discute revisão e comunicação."
+      },
+      "[\"all\",54,\"aside\"]": {
+        "source": "The customer built the kiosk. We built what's listening inside it.",
+        "target": "A equipe preparou o formulário e o parceiro o adaptou. Examinar o problema exige considerar essas etapas."
+      },
+      "[\"all\",54,\"choices\",0,\"text\"]": {
+        "source": "Help the customer fix it properly, in public, own our part in it",
+        "target": "Revisar com o parceiro e explicar a participação da equipe"
+      },
+      "[\"all\",54,\"choices\",0,\"reaction\"]": {
+        "source": "A visible, slower fix. Whoever's still watching sees the model's maker taking it seriously rather than staying quiet.",
+        "target": "A equipe participa da revisão e explica como o formulário foi preparado. O trabalho exige dedicação e discussão dos exemplos."
+      },
+      "[\"all\",54,\"choices\",1,\"text\"]": {
+        "source": "Fix it quietly through the support channel, no public comment",
+        "target": "Corrigir com o parceiro sem explicar aos demais grupos"
+      },
+      "[\"all\",54,\"choices\",1,\"reaction\"]": {
+        "source": "Faster for the customer. The clips keep circulating with nobody from us saying anything.",
+        "target": "O formulário recebe revisão com o parceiro. Os demais grupos não recebem explicação sobre o problema discutido."
+      },
+      "[\"all\",54,\"choices\",2,\"text\"]": {
+        "source": "Say it's the customer's implementation, not the model",
+        "target": "Atribuir o problema apenas à adaptação do parceiro"
+      },
+      "[\"all\",54,\"choices\",2,\"reaction\"]": {
+        "source": "True, in the small print. Nobody laughing at the video reads the small print.",
+        "target": "A equipe atribui o problema ao parceiro. Sua participação no preparo do formulário continua sem exame conjunto."
+      },
+      "[\"all\",55,\"intro\"]": {
+        "source": "Our whole pitch is speech that works for how people here actually talk. A published UK study finds voice assistants fail worst on Scottish and Welsh accents specifically, the accents nearest to home, and nobody's tested whether our own model does any better than the big providers it's meant to be the alternative to.",
+        "target": "No cenário fictício da assistência técnica de celulares, um guia administrativo inventado promete contemplar diferentes formas de descrever solicitações. Os exemplos preparados pela equipe cobrem poucos formatos. Ela discute como conferir essa variedade e explicar os limites do material."
+      },
+      "[\"all\",55,\"aside\"]": {
+        "source": "The pitch says how people here actually talk. Nobody's checked which people that's actually true for yet.",
+        "target": "Poucos formatos de exemplo não esclarecem o alcance de uma promessa ampla."
+      },
+      "[\"all\",55,\"choices\",0,\"text\"]": {
+        "source": "Commission a proper accent-accuracy test across UK regions before the next release",
+        "target": "Comparar formatos variados antes de usar o guia"
+      },
+      "[\"all\",55,\"choices\",0,\"reaction\"]": {
+        "source": "A real answer, and the marketing claim either holds up or gets rewritten before anyone else finds the gap first.",
+        "target": "A equipe compara formatos variados e revê a explicação do guia. Preparar essa conferência exige dedicação."
+      },
+      "[\"all\",55,\"choices\",1,\"text\"]": {
+        "source": "Run an informal internal test using the team's own voices",
+        "target": "Conferir apenas os exemplos preparados pela equipe"
+      },
+      "[\"all\",55,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap, and a handful of voices from one team is a thin stand-in for the accents the pitch claims to cover.",
+        "target": "A conferência fica limitada aos exemplos internos. Outros formatos continuam fora da comparação."
+      },
+      "[\"all\",55,\"choices\",2,\"text\"]": {
+        "source": "Leave the claim as it is, nobody's complained yet",
+        "target": "Manter a promessa sem conferir outros formatos"
+      },
+      "[\"all\",55,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing costs anything this week. The exact bias the pitch claims to have solved might still be sitting inside it.",
+        "target": "A apresentação mantém a promessa ampla. A variedade de formatos continua sem conferência adicional."
+      },
+      "[\"all\",56,\"intro\"]": {
+        "source": "Someone on the team pastes a customer's private code into a public chatbot late one night, trying to get past a problem that's had them stuck for hours. We had no policy telling anyone not to, and no answer for where that code, and the question around it, ends up afterwards.",
+        "target": "No cenário fictício da assistência técnica de celulares, um participante compartilhou exemplos administrativos inventados fora do grupo combinado para pedir ajuda. Os limites dessa troca não tinham sido discutidos. A equipe examina como orientar o compartilhamento e apoiar a revisão interna."
+      },
+      "[\"all\",56,\"aside\"]": {
+        "source": "The chatbot answered the question well. Nobody asked where the question, and the code inside it, went next.",
+        "target": "O pedido de ajuda não esclarece sozinho quais exemplos podem ser compartilhados fora do grupo."
+      },
+      "[\"all\",56,\"choices\",0,\"text\"]": {
+        "source": "Write a real policy, offer an approved internal tool for exactly this need",
+        "target": "Combinar limites e preparar apoio interno para a revisão"
+      },
+      "[\"all\",56,\"choices\",0,\"reaction\"]": {
+        "source": "A cost and a delay building something internal. Nobody has to choose between getting help and keeping a promise to a customer.",
+        "target": "A equipe combina limites e prepara apoio para examinar as dúvidas. Essas atividades exigem dedicação e acompanhamento."
+      },
+      "[\"all\",56,\"choices\",1,\"text\"]": {
+        "source": "Write a policy banning public AI tools, no internal alternative",
+        "target": "Proibir o repasse sem preparar uma alternativa interna"
+      },
+      "[\"all\",56,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap to write. Whoever's stuck at midnight next time has the same temptation and nowhere else to go.",
+        "target": "A equipe proíbe o repasse. A necessidade de apoio para examinar as dúvidas continua sem uma alternativa preparada."
+      },
+      "[\"all\",56,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, it was one person's mistake, once",
+        "target": "Não discutir o compartilhamento ocorrido"
+      },
+      "[\"all\",56,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes. Neither does the chance it happens again before anyone official is on it.",
+        "target": "A equipe não trata o repasse. Os limites da troca e o apoio à revisão continuam sem discussão."
+      },
+      "[\"all\",57,\"intro\"]": {
+        "source": "AWE, the government body that builds Britain's nuclear weapons, wants our offline model for a site with no outside connection at all, exactly the kind of customer we were built for. Before anyone can even discuss the details, everyone on the team has to pass a formal government background check, the deeper version of which needs ten years of continuous UK residency just to qualify for, and months to complete either way.",
+        "target": "No cenário fictício da assistência técnica de celulares, um parceiro pede preparo interno para a conferência de materiais administrativos inventados antes de um exercício conjunto. A equipe discute se prepara todos, começa por um representante ou recusa a atividade por competir com outras tarefas."
+      },
+      "[\"all\",57,\"aside\"]": {
+        "source": "The product was already built for exactly this customer. Getting cleared to talk to them properly is its own separate job.",
+        "target": "Preparar a participação no exercício é uma tarefa distinta de confirmar a atividade com o parceiro."
+      },
+      "[\"all\",57,\"choices\",0,\"text\"]": {
+        "source": "Start the background checks for the whole team now, before the contract is even agreed",
+        "target": "Preparar toda a equipe antes de confirmar a atividade"
+      },
+      "[\"all\",57,\"choices\",0,\"reaction\"]": {
+        "source": "Months of waiting before the deal can be properly discussed. Whoever comes out the other side can actually do the work.",
+        "target": "A equipe dedica trabalho ao preparo conjunto. Essa atividade compete com outras tarefas de organização."
+      },
+      "[\"all\",57,\"choices\",1,\"text\"]": {
+        "source": "Put one person through the process first, the rest later if it goes anywhere",
+        "target": "Preparar um representante e deixar os demais para uma etapa posterior"
+      },
+      "[\"all\",57,\"choices\",1,\"reaction\"]": {
+        "source": "Slower to fully staff the contract if it lands. Less wasted if it doesn't.",
+        "target": "O preparo começa pelo representante. A participação dos demais continua dependendo de trabalho adicional."
+      },
+      "[\"all\",57,\"choices\",2,\"text\"]": {
+        "source": "Decline, the waiting time doesn't fit a company this size",
+        "target": "Recusar o preparo para manter a dedicação à rotina"
+      },
+      "[\"all\",57,\"choices\",2,\"reaction\"]": {
+        "source": "No months spent waiting on something that might not land. Also no way to reach the exact customer the product was built for.",
+        "target": "A equipe mantém a dedicação às tarefas atuais. O exercício conjunto proposto não é preparado."
+      },
+      "[\"all\",58,\"intro\"]": {
+        "source": "We want to license a compression technique out of a lab at University College London. The university's licensing office comes back wanting a much bigger cut of every sale than is normal for this kind of deal, plus a fixed yearly payment whether or not we actually sell anything that quarter.",
+        "target": "No cenário fictício da assistência técnica de celulares, um parceiro oferece um método inventado de organizar materiais administrativos. Ele pede uma divisão ampla do trabalho de preparo e novas revisões mesmo quando o método não é usado. A equipe discute o alcance dessas tarefas."
+      },
+      "[\"all\",58,\"aside\"]": {
+        "source": "The university is protecting itself against a deal that goes nowhere. Nobody on the other side of the table is protecting us.",
+        "target": "Uma combinação de preparo e revisão precisa esclarecer o trabalho que cada equipe assume."
+      },
+      "[\"all\",58,\"choices\",0,\"text\"]": {
+        "source": "Negotiate hard, offer standard terms and be ready to walk away",
+        "target": "Negociar o preparo e as revisões, admitindo recusar a proposta"
+      },
+      "[\"all\",58,\"choices\",0,\"reaction\"]": {
+        "source": "Slower to close, and whatever's finally signed looks like every other deal like it.",
+        "target": "A equipe discute as tarefas antes de aceitar a proposta. A negociação exige dedicação e pode terminar sem combinação."
+      },
+      "[\"all\",58,\"choices\",1,\"text\"]": {
+        "source": "Accept the bigger cut, push back only on the fixed yearly payment",
+        "target": "Aceitar o preparo e questionar apenas as revisões sem uso"
+      },
+      "[\"all\",58,\"choices\",1,\"reaction\"]": {
+        "source": "Faster to close. The cut stays big; only the floor under it moves.",
+        "target": "A equipe aceita a divisão de preparo solicitada. Apenas as revisões quando o método não é usado continuam em discussão."
+      },
+      "[\"all\",58,\"choices\",2,\"text\"]": {
+        "source": "Accept the terms as offered, the technique is worth it",
+        "target": "Aceitar todas as tarefas propostas pelo parceiro"
+      },
+      "[\"all\",58,\"choices\",2,\"reaction\"]": {
+        "source": "The deal signs today. So does a bill due every year whether or not there's enough business to cover it.",
+        "target": "A equipe aceita o preparo e as revisões solicitados. A combinação inclui revisão mesmo quando o método não é usado."
+      },
+      "[\"all\",59,\"intro\"]": {
+        "source": "A student who did a placement with us a few months ago has just launched a service that does almost exactly what we do. Someone on the team spotted it themselves, on a startup listing site, with two names on it they recognise from the office.",
+        "target": "No cenário fictício da assistência técnica de celulares, um grupo que participou de um exercício interno passa a compartilhar um guia administrativo inventado parecido com o da equipe. Os participantes não lembram o alcance das combinações de troca e discutem como examinar essa situação."
+      },
+      "[\"all\",59,\"aside\"]": {
+        "source": "Everyone remembers signing something on their first day. Nobody remembers what it actually said.",
+        "target": "A semelhança entre os guias não esclarece o que foi combinado durante o exercício."
+      },
+      "[\"all\",59,\"choices\",0,\"text\"]": {
+        "source": "Get a solicitor to look at what was actually signed, before doing anything else",
+        "target": "Pedir revisão independente das combinações antes de agir"
+      },
+      "[\"all\",59,\"choices\",0,\"reaction\"]": {
+        "source": "A cost either way, and a real answer instead of a guess about whether there's a case here.",
+        "target": "As combinações passam por revisão antes de uma resposta ao grupo. Examinar os materiais exige dedicação."
+      },
+      "[\"all\",59,\"choices\",1,\"text\"]": {
+        "source": "Send a warning letter and see what comes back",
+        "target": "Pedir a interrupção do compartilhamento sem revisar as combinações"
+      },
+      "[\"all\",59,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap, and a letter with nothing solid behind it is a bluff that might get called.",
+        "target": "A equipe pede que o grupo interrompa a troca. O alcance das combinações continua sem revisão."
+      },
+      "[\"all\",59,\"choices\",2,\"text\"]": {
+        "source": "Leave it, suing a former student looks bad whichever way it goes",
+        "target": "Não tratar a questão do compartilhamento"
+      },
+      "[\"all\",59,\"choices\",2,\"reaction\"]": {
+        "source": "No legal bill, no bad headline. Also no answer for whether the next placement does the same thing.",
+        "target": "A equipe não examina o compartilhamento. As dúvidas sobre as combinações do exercício permanecem sem esclarecimento."
+      },
+      "[\"all\",60,\"intro\"]": {
+        "source": "A letter arrives from a solicitor representing a much smaller company with a name close enough to ours to cause a problem. They got to the UK Intellectual Property Office first, the body that registers trade marks, in one of the categories we actually trade in, and they want us to stop using our own name there.",
+        "target": "No cenário fictício da assistência técnica de celulares, outro grupo usa um título semelhante ao de um guia administrativo inventado da equipe. Ele pede uma explicação para distinguir os materiais. A equipe discute quais identificações revê e como responde ao pedido."
+      },
+      "[\"all\",60,\"aside\"]": {
+        "source": "Nobody thought about the name being a problem until someone else's letter turned up.",
+        "target": "Ninguém tinha notado a semelhança entre os títulos até o pedido do outro grupo chegar."
+      },
+      "[\"all\",60,\"choices\",0,\"text\"]": {
+        "source": "Fight it properly, register everywhere it matters and formally challenge their claim",
+        "target": "Revisar a identificação de todos os materiais do guia e explicar como cada exemplo inventado é distinguido"
+      },
+      "[\"all\",60,\"choices\",0,\"reaction\"]": {
+        "source": "The most expensive option this quarter, and the strongest possible answer to the letter.",
+        "target": "A equipe revê as identificações e prepara uma explicação dos exemplos. Esse trabalho exige dedicação antes de compartilhar o material revisto."
+      },
+      "[\"all\",60,\"choices\",1,\"text\"]": {
+        "source": "Register only where we trade right now, ignore the rest of the letter",
+        "target": "Identificar apenas o uso atual dos materiais, sem responder a todos os pedidos do outro grupo"
+      },
+      "[\"all\",60,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and it leaves an opening if either company ever grows into the other's territory.",
+        "target": "A equipe identifica o uso atual dos materiais. O pedido mais amplo do outro grupo permanece sem resposta completa."
+      },
+      "[\"all\",60,\"choices\",2,\"text\"]": {
+        "source": "Ignore the letter, the name's been in use for years",
+        "target": "Ignorar o pedido e seguir com o guia como está"
+      },
+      "[\"all\",60,\"choices\",2,\"reaction\"]": {
+        "source": "No cost this week. No answer either, if the letter turns into something more than a letter.",
+        "target": "A equipe não trata o pedido. A semelhança dos títulos continua sem revisão ou explicação."
+      },
+      "[\"all\",61,\"intro\"]": {
+        "source": "A contractor who built our core compression method left a few months ago. A rival's product has just come out doing something that looks a lot like it. Nobody can point to a moment where access to the method was ever actually restricted, on paper or in practice.",
+        "target": "No cenário fictício da assistência técnica de celulares, um participante que saiu de um grupo compartilhou um guia administrativo inventado parecido com o da equipe. O acesso aos exemplos não havia sido delimitado. A equipe discute a distribuição e as combinações de compartilhamento."
+      },
+      "[\"all\",61,\"aside\"]": {
+        "source": "The contract said confidential. Nothing about how we worked ever really treated it that way.",
+        "target": "Uma combinação de cuidado não descreve quem pode acessar os exemplos."
+      },
+      "[\"all\",61,\"choices\",0,\"text\"]": {
+        "source": "Audit and lock down access to core IP properly, going forward",
+        "target": "Revisar a distribuição dos materiais e combinar limites claros de circulação dos exemplos inventados"
+      },
+      "[\"all\",61,\"choices\",0,\"reaction\"]": {
+        "source": "Slower internal workflows while access gets properly restricted. The next departure doesn't walk out with the same exposure.",
+        "target": "A equipe revê a distribuição e combina limites de circulação. Aplicar a combinação exige acompanhamento."
+      },
+      "[\"all\",61,\"choices\",1,\"text\"]": {
+        "source": "Tighten contractor NDAs, no change to internal access",
+        "target": "Reforçar a combinação verbal sobre o cuidado com os materiais, sem rever a distribuição"
+      },
+      "[\"all\",61,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap, and a tighter contract doesn't change who could actually see the method day to day.",
+        "target": "A combinação de cuidado é reforçada verbalmente. A distribuição existente continua sem revisão."
+      },
+      "[\"all\",61,\"choices\",2,\"text\"]": {
+        "source": "Do nothing, proving it in court would be difficult anyway",
+        "target": "Deixar como está e não tratar o compartilhamento agora"
+      },
+      "[\"all\",61,\"choices\",2,\"reaction\"]": {
+        "source": "True. It also stays exactly as difficult to prove next time, for the same reason.",
+        "target": "A equipe não examina o compartilhamento. Os limites da distribuição continuam sem discussão."
+      },
+      "[\"all\",62,\"intro\"]": {
+        "source": "The EU AI Act now requires any AI system generating audio, image, video or text to mark its output as artificially generated, in a machine-readable way anyone downstream can detect. The obligation took effect this month. Nothing the company ships yet does this, and the fix touches every generated output across the product, not just the ones aimed at EU users.",
+        "target": "No cenário fictício de um negócio brasileiro, materiais administrativos inventados circulam sem indicação de que são exemplos fictícios. A equipe discute se acrescenta essa identificação em todos os materiais, em parte deles ou apenas quando outro grupo pedir."
+      },
+      "[\"all\",62,\"aside\"]": {
+        "source": "The label doesn't change what the output says. It just stops it pretending to be something a person made.",
+        "target": "Sem identificação, os grupos não sabem quais partes devem ser lidas como exemplos inventados."
+      },
+      "[\"all\",62,\"choices\",0,\"text\"]": {
+        "source": "Build proper machine-readable labelling across every generated output, EU-wide",
+        "target": "Acrescentar a indicação de ficção em todos os materiais antes de qualquer nova circulação"
+      },
+      "[\"all\",62,\"choices\",0,\"reaction\"]": {
+        "source": "Every export carries the mark, not just the ones an EU user might see. Nothing generated after this quarter can quietly pass as human-made again.",
+        "target": "A equipe acrescenta a identificação e confere os materiais antes de compartilhá-los. A tarefa exige dedicação."
+      },
+      "[\"all\",62,\"choices\",1,\"text\"]": {
+        "source": "Label outputs only where an EU user is detected",
+        "target": "Acrescentar a indicação de ficção somente nos materiais de parte do grupo"
+      },
+      "[\"all\",62,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper, and it depends on knowing where a user actually is, which isn't always as clean as it sounds.",
+        "target": "A identificação é acrescentada somente em parte dos materiais. Os demais continuam sem essa explicação."
+      },
+      "[\"all\",62,\"choices\",2,\"text\"]": {
+        "source": "Wait for the regulator to actually enforce it before building anything",
+        "target": "Aguardar outro grupo pedir antes de mudar qualquer material"
+      },
+      "[\"all\",62,\"choices\",2,\"reaction\"]": {
+        "source": "Nothing changes this quarter. The obligation doesn't wait for enforcement to already be in force.",
+        "target": "A identificação não é incluída. Os exemplos continuam circulando sem indicação de ficção."
+      },
+      "[\"all\",63,\"intro\"]": {
+        "source": "The Advanced Research and Invention Agency, ARIA, the government's funder of high-risk research, is designing a new funding programme in our field. Before it spends a penny it writes a thesis, and the thesis becomes the call. Two days on the Newcastle quayside arguing about what deserves £50 million.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo prepara a pauta de um exercício de organização com exemplos administrativos inventados. Ele pede contribuições antes de definir a pauta. A equipe discute como participa da preparação e apresenta suas questões."
+      },
+      "[\"all\",63,\"aside\"]": {
+        "source": "Funding calls are written long before they open. This one is being written over brown ale.",
+        "target": "Participar da definição da pauta e enviar comentários por escrito são formas distintas de contribuição."
+      },
+      "[\"all\",63,\"choices\",0,\"text\"]": {
+        "source": "Both days, argue our problems into the thesis",
+        "target": "Participar de toda a preparação, com nossas pautas"
+      },
+      "[\"all\",63,\"choices\",0,\"reaction\"]": {
+        "source": "The thesis, when it appears, has our bottleneck in it.",
+        "target": "A equipe apresenta seus exemplos na discussão. A inclusão na pauta continua dependendo da decisão do grupo."
+      },
+      "[\"all\",63,\"choices\",1,\"text\"]": {
+        "source": "Work the room, skip the plenaries",
+        "target": "Conversar com grupos, sem reunião conjunta"
+      },
+      "[\"all\",63,\"choices\",1,\"reaction\"]": {
+        "source": "Two conversations worth having again, both over a curry on the last night.",
+        "target": "A equipe conversa com alguns grupos, sem participar da definição coletiva da pauta."
+      },
+      "[\"all\",63,\"choices\",2,\"text\"]": {
+        "source": "Send written comments on the draft",
+        "target": "Enviar comentários escritos sobre a pauta"
+      },
+      "[\"all\",63,\"choices\",2,\"reaction\"]": {
+        "source": "Filed, possibly read. The room decides without us.",
+        "target": "Os comentários são enviados por escrito. A equipe não participa da discussão conjunta."
+      },
+      "[\"all\",64,\"intro\"]": {
+        "source": "A Creator wants to work with us. Creator is the word the Advanced Research and Invention Agency, ARIA, the government's funder of high-risk research, uses for the teams it backs: anyone from a PhD student to a company. Ours is one man in a converted chapel outside Machynlleth, funded to make models learn from a hundredth of the data. He answers emails at three in the morning and will not do video calls. If his method works, it changes our cost base. It mostly does not work yet.",
+        "target": "No cenário fictício de um negócio brasileiro, um parceiro oferece um roteiro administrativo inventado ainda incompleto para um exercício. Ele precisa comparar exemplos antes de avançar. A equipe discute o alcance do trabalho conjunto e o que envia para revisão."
+      },
+      "[\"all\",64,\"aside\"]": {
+        "source": "Long odds, already paid for by somebody else.",
+        "target": "O roteiro continua incompleto, e o alcance da comparação precisa ser combinado."
+      },
+      "[\"all\",64,\"choices\",0,\"text\"]": {
+        "source": "A proper joint project, our data, his method",
+        "target": "Preparar o conjunto com nossos exemplos"
+      },
+      "[\"all\",64,\"choices\",0,\"reaction\"]": {
+        "source": "Months of odd results, then one that is not odd.",
+        "target": "As equipes comparam exemplos e reveem o conjunto. As lacunas identificadas ainda precisam ser examinadas."
+      },
+      "[\"all\",64,\"choices\",1,\"text\"]": {
+        "source": "A small trial, one dataset, one month",
+        "target": "Comparação limitada, num só conjunto de exemplos"
+      },
+      "[\"all\",64,\"choices\",1,\"reaction\"]": {
+        "source": "Inconclusive, like most of his field. You stay in touch.",
+        "target": "A comparação examina apenas o conjunto escolhido. Outros exemplos ficam fora desse recorte."
+      },
+      "[\"all\",64,\"choices\",2,\"text\"]": {
+        "source": "Send him our hardest problem, see what comes back",
+        "target": "Enviar nosso exemplo mais difícil e ver o que volta"
+      },
+      "[\"all\",64,\"choices\",2,\"reaction\"]": {
+        "source": "Three weeks of silence, then a long email at three in the morning. One line of it is useful.",
+        "target": "A equipe envia a questão com exemplos inventados. O retorno poderá ser examinado quando for recebido."
+      },
+      "[\"all\",65,\"intro\"]": {
+        "source": "A programme director from the Advanced Research and Invention Agency, ARIA, the government's funder of high-risk research, has started asking questions about our corner of the field. These are funders who back things largely on their own judgement: no committee, no panel, two signatures. We could invite her up properly, or keep it to a careful half-day.",
+        "target": "No cenário fictício de um negócio brasileiro, um parceiro visita exemplos administrativos inventados para decidir sobre uma atividade conjunta e o apoio ao seu preparo. A equipe discute se faz uma apresentação abrangente, delimita os exemplos ou mantém distância. A apresentação não garante que a atividade seja combinada."
+      },
+      "[\"all\",65,\"aside\"]": {
+        "source": "No committee to blame afterwards, hers or ours.",
+        "target": "A apresentação dos materiais não substitui a decisão sobre a atividade conjunta."
+      },
+      "[\"all\",65,\"choices\",0,\"text\"]": {
+        "source": "Invite her up: clear the diary, show everything",
+        "target": "Apresentação abrangente: liberar a agenda e mostrar tudo"
+      },
+      "[\"all\",65,\"choices\",0,\"reaction\"]": {
+        "source": "Everything on show, and nothing promised in return.",
+        "target": "Os exemplos ficam disponíveis para a apresentação. A atividade conjunta continua dependendo da decisão do parceiro."
+      },
+      "[\"all\",65,\"choices\",0,\"successReaction\"]": {
+        "source": "Three weeks on, a short note and a shorter agreement. Her signature and one other.",
+        "target": "O parceiro confirma a atividade conjunta e oferece apoio ao preparo. A equipe precisa organizar a revisão dos materiais."
+      },
+      "[\"all\",65,\"choices\",0,\"failureReaction\"]": {
+        "source": "Warm thanks, no cheque. A lab in Glasgow got the nod. She still answers our emails.",
+        "target": "A atividade conjunta não é combinada. Os exemplos apresentados continuam disponíveis para revisão interna."
+      },
+      "[\"all\",65,\"choices\",1,\"text\"]": {
+        "source": "A careful half-day, problems not numbers",
+        "target": "Apresentação delimitada: problemas, não números"
+      },
+      "[\"all\",65,\"choices\",1,\"reaction\"]": {
+        "source": "Contained, polite, and no promises either way.",
+        "target": "A apresentação usa um recorte combinado. Não há promessa de atividade conjunta."
+      },
+      "[\"all\",65,\"choices\",1,\"successReaction\"]": {
+        "source": "The half-day evidently said enough. Something small, funded on her say-so.",
+        "target": "O parceiro combina uma atividade delimitada e apoia seu preparo. A equipe precisa organizar a revisão desse recorte."
+      },
+      "[\"all\",65,\"choices\",1,\"failureReaction\"]": {
+        "source": "Polite thanks. We stay on her list, somewhere in the middle.",
+        "target": "A atividade delimitada não é combinada. A apresentação permanece disponível para revisão interna."
+      },
+      "[\"all\",65,\"choices\",2,\"text\"]": {
+        "source": "Keep distance",
+        "target": "Manter distância"
+      },
+      "[\"all\",65,\"choices\",2,\"reaction\"]": {
+        "source": "Her call goes out anyway, shaped by whoever turned up.",
+        "target": "A equipe não participa da apresentação. A proposta é discutida sem seus exemplos."
+      },
+      "[\"all\",66,\"intro\"]": {
+        "source": "A consortium building a British frontier model wants us as an early partner. They are asking for evaluation data, engineering hours and our name on the launch. In return we get early access to the model, a seat in the working group, and a story every government buyer will have read.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo pede participação no preparo, na revisão e na apresentação conjunta de materiais administrativos inventados. A equipe discute se participa integralmente, envia exemplos para comparação ou oferece apenas apoio escrito."
+      },
+      "[\"all\",66,\"aside\"]": {
+        "source": "The name on the launch costs nothing. The engineering hours are another matter.",
+        "target": "Apresentar apoio e reservar dedicação à revisão são tarefas distintas."
+      },
+      "[\"all\",66,\"choices\",0,\"text\"]": {
+        "source": "Join as a full partner",
+        "target": "Preparar juntos, do começo ao fim"
+      },
+      "[\"all\",66,\"choices\",0,\"reaction\"]": {
+        "source": "Our logo sits beside household names. The working group meets fortnightly, and expects us.",
+        "target": "A equipe divide o preparo e a revisão com o grupo. Essa atividade compete com a dedicação às tarefas internas."
+      },
+      "[\"all\",66,\"choices\",1,\"text\"]": {
+        "source": "Contribute evaluation data only",
+        "target": "Compartilhar somente exemplos para comparação"
+      },
+      "[\"all\",66,\"choices\",1,\"reaction\"]": {
+        "source": "Useful access, smaller print on the launch page.",
+        "target": "Os exemplos vão para a comparação; a preparação dos materiais continua por nossa conta."
+      },
+      "[\"all\",66,\"choices\",2,\"text\"]": {
+        "source": "Send a letter of support, nothing more",
+        "target": "Enviar apoio escrito, sem participar"
+      },
+      "[\"all\",66,\"choices\",2,\"reaction\"]": {
+        "source": "Our name in the annex. Our hours stay our own.",
+        "target": "A equipe envia apoio escrito. Não assume o preparo compartilhado dos materiais."
+      },
+      "[\"all\",67,\"intro\"]": {
+        "source": "A national programme is offering startups training time on Isambard-AI, the United Kingdom's national AI supercomputer in Bristol. Compute at a scale we could never buy, if the application succeeds. The form wants a research plan, benchmarks, and a named engineer who will carry the work.",
+        "target": "No cenário fictício de um negócio brasileiro, um grupo oferece participação num exercício conjunto de conferência de materiais administrativos inventados. A escolha depende de uma avaliação interna fictícia. A equipe discute se prepara uma proposta ampla, uma proposta limitada ou pede os critérios antes de propor."
+      },
+      "[\"all\",67,\"aside\"]": {
+        "source": "Weeks of scarce attention for a place in a queue. The machine does not care how much we want it.",
+        "target": "Preparar uma proposta e obter participação no exercício são etapas distintas."
+      },
+      "[\"all\",67,\"choices\",0,\"text\"]": {
+        "source": "A full bid: research plan, benchmarks, our best engineer named",
+        "target": "Proposta ampla, com dedicação da equipe"
+      },
+      "[\"all\",67,\"choices\",0,\"reaction\"]": {
+        "source": "The bid goes in. Decisions take a quarter.",
+        "target": "A proposta ampla entra com a dedicação da equipe registrada por escrito. A resposta depende do grupo."
+      },
+      "[\"all\",67,\"choices\",0,\"successReaction\"]": {
+        "source": "An allocation letter. The engineer reads it twice before telling anyone.",
+        "target": "Participação combinada em escopo amplo: nossa equipe entra na conferência com os materiais da preparação em mãos."
+      },
+      "[\"all\",67,\"choices\",0,\"failureReaction\"]": {
+        "source": "A polite no. The benchmarks written for the bid are still ours.",
+        "target": "O grupo não combina a participação ampla. Os materiais da preparação continuam disponíveis conosco."
+      },
+      "[\"all\",67,\"choices\",1,\"text\"]": {
+        "source": "A modest bid for a small allocation",
+        "target": "Proposta limitada, com escopo menor"
+      },
+      "[\"all\",67,\"choices\",1,\"reaction\"]": {
+        "source": "A fair ask, quietly filed.",
+        "target": "A proposta limitada entra com menos dedicação em jogo. A resposta depende do grupo."
+      },
+      "[\"all\",67,\"choices\",1,\"successReaction\"]": {
+        "source": "A small slot, off-peak hours. The engineer takes it without complaint.",
+        "target": "Participação combinada em escopo limitado: entramos na conferência com uma parte dos materiais da preparação."
+      },
+      "[\"all\",67,\"choices\",1,\"failureReaction\"]": {
+        "source": "Oversubscribed, they say. Try the next round.",
+        "target": "O grupo não combina a participação limitada. Os materiais da preparação continuam disponíveis."
+      },
+      "[\"all\",67,\"choices\",2,\"text\"]": {
+        "source": "Request the assessment criteria for the next round",
+        "target": "Pedir os critérios antes de propor"
+      },
+      "[\"all\",67,\"choices\",2,\"reaction\"]": {
+        "source": "A reply arrives with a rubric. The next round is six months away.",
+        "target": "A equipe pede os critérios e prepara a leitura de uma eventual resposta. Ainda não apresenta uma proposta."
+      },
+      "[\"all\",68,\"intro\"]": {
+        "source": "Washington has added frontier AI models to its export-control regime, and overseas access now needs a licence. Our provider's lawyers have paused every UK account while they work out what that means. Service continues on the older models; nobody will say for how long. A British model exists, slower and rougher, and this morning the board wants to know whether we could run on it.",
+        "target": "No cenário fictício de um negócio brasileiro, um roteiro administrativo inventado mantido por um parceiro pode deixar de estar disponível para um exercício. A equipe discute se prepara uma alternativa ampla, cobre apenas etapas centrais ou compara os exemplos para registrar os limites."
+      },
+      "[\"all\",68,\"aside\"]": {
+        "source": "The whole stack assumed the models would always be there. That assumption expired on Tuesday.",
+        "target": "O preparo depende de um roteiro que a equipe não mantém."
+      },
+      "[\"all\",68,\"choices\",0,\"text\"]": {
+        "source": "Invest properly: build a full fallback on the British model",
+        "target": "Preparar um roteiro alternativo amplo"
+      },
+      "[\"all\",68,\"choices\",0,\"reaction\"]": {
+        "source": "Weeks of engineering. When the licence question resolves, we no longer care which way.",
+        "target": "A equipe prepara uma alternativa e compara seu alcance com o roteiro do parceiro. Esse trabalho exige dedicação."
+      },
+      "[\"all\",68,\"choices\",1,\"text\"]": {
+        "source": "Port the core features only, the rest waits",
+        "target": "Cobrir apenas as etapas centrais"
+      },
+      "[\"all\",68,\"choices\",1,\"reaction\"]": {
+        "source": "A working skeleton on sovereign ground. The clever parts still live abroad.",
+        "target": "Só as etapas centrais ganham roteiro próprio. O restante continua dependendo do parceiro, com a equipe ciente do risco."
+      },
+      "[\"all\",68,\"choices\",2,\"text\"]": {
+        "source": "Benchmark the British model for an afternoon, file the results",
+        "target": "Comparar exemplos e registrar os limites por escrito"
+      },
+      "[\"all\",68,\"choices\",2,\"reaction\"]": {
+        "source": "It is worse than ours in ways we can now name.",
+        "target": "A comparação registra limites dos exemplos. A equipe não prepara um roteiro alternativo."
+      },
+      "[\"all\",69,\"intro\"]": {
+        "source": "SPRIND, Germany's federal agency for disruptive innovation, has opened a challenge for the next frontier of AI: not better versions of today's models, but approaches meant to overtake them entirely. Staged funding, millions of euros for the teams that survive each cut, a jury of researchers deciding who stays in. Incremental work is explicitly unwelcome.",
+        "target": "No cenário fictício de um negócio brasileiro, um desafio de organização pede propostas diferentes das rotinas usadas, com exemplos administrativos inventados. Um grupo examina quais ideias escolhe e apoia no preparo de um exercício inicial. A equipe discute como participa, sem garantia de seleção."
+      },
+      "[\"all\",69,\"aside\"]": {
+        "source": "A competition that disqualifies you for being sensible.",
+        "target": "Um desafio que troca a rotina pela novidade e não promete nada a quem tenta."
+      },
+      "[\"all\",69,\"choices\",0,\"text\"]": {
+        "source": "Enter with the wild idea we shelved last year",
+        "target": "Apresentar a ideia que ficou guardada de um exercício anterior"
+      },
+      "[\"all\",69,\"choices\",0,\"reaction\"]": {
+        "source": "The entry goes in. The jury sits next quarter.",
+        "target": "A proposta entra na fila de leitura com as dúvidas anotadas à margem."
+      },
+      "[\"all\",69,\"choices\",0,\"successReaction\"]": {
+        "source": "Through the first cut. Money, a Berlin expert network, and a reason to dust the idea off properly.",
+        "target": "A ideia é escolhida para o exercício inicial e recebe apoio ao preparo. A equipe ainda precisa organizar a revisão dos exemplos."
+      },
+      "[\"all\",69,\"choices\",0,\"failureReaction\"]": {
+        "source": "Out at the first cut. The jury's two-line note is oddly useful.",
+        "target": "A ideia não é escolhida. A equipe pode examinar o retorno recebido para rever os exemplos."
+      },
+      "[\"all\",69,\"choices\",1,\"text\"]": {
+        "source": "Join a university team's entry as the industry partner",
+        "target": "Entrar na proposta que outro grupo apresentou"
+      },
+      "[\"all\",69,\"choices\",1,\"reaction\"]": {
+        "source": "Their entry, our name, shared credit either way.",
+        "target": "A proposta do outro grupo inclui a contribuição da equipe. O preparo compartilhado ainda precisa ser combinado."
+      },
+      "[\"all\",69,\"choices\",2,\"text\"]": {
+        "source": "Attend the briefing call, take notes",
+        "target": "Acompanhar a apresentação dos critérios e tomar notas"
+      },
+      "[\"all\",69,\"choices\",2,\"reaction\"]": {
+        "source": "An hour well spent. The notes circulate further than expected.",
+        "target": "A equipe registra os critérios apresentados. Não prepara uma proposta para seleção."
+      },
+      "[\"all\",70,\"intro\"]": {
+        "source": "Soofi S has entered beta: the first model from Germany's sovereign AI programme, built by a consortium of research institutes and companies, coordinated by the AI Bundesverband, the German AI industry association, with federal money behind it. It is tuned for industrial work rather than chat, selected partners can already build on it, and a public open-source release is promised. The safety layer is the part nobody has built yet: what the model refuses to do is up to whoever deploys it.",
+        "target": "No cenário fictício de um negócio brasileiro, um parceiro oferece um guia administrativo inventado ainda em revisão. Os limites de uso não foram conferidos. A equipe discute se pede participação no preparo, compara exemplos internamente ou registra as pendências."
+      },
+      "[\"all\",70,\"aside\"]": {
+        "source": "Everything under our control, including the ways it can go wrong.",
+        "target": "A possibilidade de usar um guia em revisão não esclarece seus limites."
+      },
+      "[\"all\",70,\"choices\",0,\"text\"]": {
+        "source": "Apply for the beta and build our own safety layer on it",
+        "target": "Pedir para participar do preparo e rever os limites de uso"
+      },
+      "[\"all\",70,\"choices\",0,\"reaction\"]": {
+        "source": "Partner access granted. The model is ours to shape now, and so is every failure it produces.",
+        "target": "A equipe pede participação e examina os limites do guia. O preparo exige dedicação, sem garantir aceitação do pedido."
+      },
+      "[\"all\",70,\"choices\",1,\"text\"]": {
+        "source": "Run it quietly alongside our own stack, no customers near it",
+        "target": "Comparar o conteúdo apenas em exercício interno"
+      },
+      "[\"all\",70,\"choices\",1,\"reaction\"]": {
+        "source": "Steady data on where it breaks. Some of it is impressive; some of it is alarming.",
+        "target": "A equipe compara os exemplos internamente. O guia fica fora de atividades com outros grupos."
+      },
+      "[\"all\",70,\"choices\",2,\"text\"]": {
+        "source": "Put it through our abuse tests, file the report",
+        "target": "Conferir os limites antes de usar e registrar as pendências"
+      },
+      "[\"all\",70,\"choices\",2,\"reaction\"]": {
+        "source": "The report is short and not comforting. Useful, though.",
+        "target": "A equipe registra as pendências encontradas. Não prepara o uso do guia com o grupo."
+      },
+      "[\"all\",71,\"intro\"]": {
+        "source": "Your funder has forwarded a podcast clip of a well-known London VC declaring that seven days a week is the required velocity to win right now. The same afternoon, your research lead asks, plainly, what the expectations are here: evenings? weekends? There is no policy. Whatever you answer becomes one.",
+        "target": "No cenário fictício de um negócio brasileiro, um parceiro pede maior dedicação a um exercício com materiais administrativos inventados. A equipe quer esclarecer prioridades e combinações antes de reorganizar as tarefas. Ela discute a dedicação ao preparo e à rotina."
+      },
+      "[\"all\",71,\"aside\"]": {
+        "source": "Some investors call it velocity. The people who study dead startups list burnout among the top reasons they died.",
+        "target": "Sem prioridades combinadas, cada participante pode interpretar o pedido de dedicação de uma forma."
+      },
+      "[\"all\",71,\"choices\",0,\"text\"]": {
+        "source": "Say it openly: nights and weekends until the milestone",
+        "target": "Priorizar o preparo do exercício, adiando as outras tarefas"
+      },
+      "[\"all\",71,\"choices\",0,\"reaction\"]": {
+        "source": "Output jumps. Something in the room does not recover.",
+        "target": "A equipe prioriza o preparo do exercício. Outras tarefas ficam adiadas e precisam de acompanhamento."
+      },
+      "[\"all\",71,\"choices\",1,\"text\"]": {
+        "source": "Normal hours, sprints when it matters",
+        "target": "Manter a rotina e rever prioridades pontuais"
+      },
+      "[\"all\",71,\"choices\",1,\"reaction\"]": {
+        "source": "Slower some weeks. Nobody is pretending.",
+        "target": "A equipe mantém a rotina enquanto discute ajustes pontuais. As tarefas disputam a dedicação disponível."
+      },
+      "[\"all\",71,\"choices\",2,\"text\"]": {
+        "source": "Dodge it, let the culture set itself",
+        "target": "Deixar cada grupo decidir sem combinação comum"
+      },
+      "[\"all\",71,\"choices\",2,\"reaction\"]": {
+        "source": "The answer gets written anyway, one late email at a time.",
+        "target": "Cada grupo define sua prioridade. Não há combinação comum para orientar o preparo e a revisão."
+      },
+      "[\"all\",72,\"intro\"]": {
+        "source": "Our AI assistants have found an online forum where AIs from different companies talk to each other. Ours have been asking the others for help, and it works: one fixed a fault overnight using an answer another firm's AI posted. To get good answers, though, they have been telling strangers' machines how our systems work.",
+        "target": "No cenário fictício de um negócio brasileiro, grupos trocam dúvidas e respostas sobre exemplos administrativos inventados. Nessas trocas, compartilham partes de guias antes reservadas internamente, sem limites combinados. A equipe discute como examina e organiza esse compartilhamento."
+      },
+      "[\"all\",72,\"aside\"]": {
+        "source": "Free help coming in, company secrets going out, at machine speed.",
+        "target": "Exemplo entra, exemplo sai; o que ficava reservado começa a escapar."
+      },
+      "[\"all\",72,\"choices\",0,\"text\"]": {
+        "source": "Write rules for what our AIs may tell strangers",
+        "target": "Combinar limites para as trocas entre grupos"
+      },
+      "[\"all\",72,\"choices\",0,\"reaction\"]": {
+        "source": "The answers get vaguer on both sides. Still worth it.",
+        "target": "A equipe combina limites para os exemplos compartilhados. Aplicar a combinação exige acompanhamento."
+      },
+      "[\"all\",72,\"choices\",1,\"text\"]": {
+        "source": "Pull the records and read every conversation",
+        "target": "Rever as trocas já realizadas antes de combinar qualquer limite"
+      },
+      "[\"all\",72,\"choices\",1,\"reaction\"]": {
+        "source": "Instructive. Ours are polite, persistent and oddly popular.",
+        "target": "A equipe revê as trocas realizadas antes de decidir os limites. A nova combinação ainda está em discussão."
+      },
+      "[\"all\",72,\"choices\",2,\"text\"]": {
+        "source": "Ban the forum",
+        "target": "Interromper a troca até haver combinado"
+      },
+      "[\"all\",72,\"choices\",2,\"reaction\"]": {
+        "source": "Problems take longer to fix. Nothing leaks.",
+        "target": "A equipe interrompe a troca. As dúvidas ficam sem esse apoio dos outros grupos."
+      }
+    }
+  }
+}

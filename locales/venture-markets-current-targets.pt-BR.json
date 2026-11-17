@@ -1,0 +1,50 @@
+{
+  "voed": {
+    "name": "Lares e compras de supermercado",
+    "description": "Lares do Reino Unido que fazem as compras semanais, além de varejistas e conselhos locais interessados nos dados por trás delas"
+  },
+  "arene": {
+    "name": "Clubes e órgãos dirigentes",
+    "description": "Clubes profissionais, ligas e estúdios de jogos que compram dados de desempenho, previsões e conteúdo gerado"
+  },
+  "sorgente": {
+    "name": "Bem-estar cotidiano",
+    "description": "Pessoas que pagam por apoio com sono, estresse e a rotina comum; depois, empregadores e serviços de saúde"
+  },
+  "avam": {
+    "name": "Desenvolvedores e IA no dispositivo",
+    "description": "Engenheiros que desenvolvem com modelos pequenos executados no dispositivo, além de fabricantes de hardware e compradores que exigem residência dos dados"
+  },
+  "cyber": {
+    "name": "Segurança para pequenas e médias empresas",
+    "description": "Pequenas e médias empresas que buscam segurança acessível com uso de IA"
+  },
+  "aether": {
+    "name": "NHS e saúde pública",
+    "description": "Organizações do NHS e órgãos de saúde pública que buscam ferramentas de diagnóstico e descoberta de medicamentos com IA"
+  },
+  "quant": {
+    "name": "Empresas de trading de nicho",
+    "description": "Empresas pequenas e médias de trading quantitativo e empresas de negociação com capital próprio"
+  },
+  "dream": {
+    "name": "Criadores de perfil prosumer",
+    "description": "Criadores individuais e pequenos estúdios que buscam ferramentas criativas com IA"
+  },
+  "vanguard": {
+    "name": "Armazéns e logística",
+    "description": "Armazéns do Reino Unido que buscam robôs autônomos para separação, embalagem e transporte"
+  },
+  "terra": {
+    "name": "Sustentabilidade empresarial",
+    "description": "Grandes empresas que buscam análises climáticas com IA e relatórios de sustentabilidade"
+  },
+  "legal": {
+    "name": "Escritórios de advocacia do Reino Unido",
+    "description": "Escritórios de advocacia que buscam análise de contratos e pesquisa jurídica com IA"
+  },
+  "edu": {
+    "name": "Escolas do Reino Unido",
+    "description": "Escolas de ensino fundamental e médio que buscam ferramentas de aprendizagem personalizada com IA"
+  }
+}

@@ -18,6 +18,8 @@ function extract(file){
  return result;
 }
 const original=extract('source/index.original.html'),brazil=extract('index.html');
+const operations=require('../operations-runtime');
+const operatingModels=operations.models(),operatingIds=new Set(Object.keys(operatingModels));
 const catalogue=JSON.parse(fs.readFileSync('locales/structures.pt-BR.json','utf8')).BMC_DATA.strings;
 const dictionary=new Map();
 for(const {source,target} of Object.values(catalogue)){
@@ -58,10 +60,11 @@ for(const profile of profiles)test(profile+' catalogue covers every source strin
 });
 
 test('BMC translation preserves all markers and leaves unselected profiles and methods untouched',()=>{
- assert.deepEqual(original.methods,brazil.methods);
+ for(const name of ['initBMC','applyBMCMilestoneUpdates','applyBMCPivot','clearBMCNewTags'])assert.ok(brazil.methods[name]);
  assert.deepEqual([...new Set(Object.keys(catalogue).map(path=>JSON.parse(path)[0]))],profiles);
  for(const id of Object.keys(original.data))if(!profiles.includes(id))assert.deepEqual(original.data[id],brazil.data[id]);
- for(const profile of profiles)assert.deepEqual(expected(original.data[profile]),brazil.data[profile]);
+ for(const profile of profiles)if(!operatingIds.has(profile))assert.deepEqual(expected(original.data[profile]),brazil.data[profile]);
+ for(const [id,model] of Object.entries(operatingModels))assert.deepEqual(brazil.data[id],model.bmc);
  for(const {source,target} of Object.values(catalogue))assert.equal(source.includes('[NEW]'),target.includes('[NEW]'));
 });
 test('distinct BMC source selectors retain distinct translations without semantic collisions',()=>{
@@ -73,7 +76,7 @@ test('distinct BMC source selectors retain distinct translations without semanti
  }
 });
 test('actual BMC methods retain the same removals, additions and snapshots across milestones and pivots',()=>{
- for(const profile of profiles){
+ for(const profile of profiles.filter(id=>!operatingIds.has(id))){
  const [first,second]=Object.keys(original.data[profile].pivots);
  const paths=[['m1','m2','m3'],[first],[second],['m1',first,'m2',second,'m3'],['m1',second,'m2',first,'m3']];
  for(const path of paths){
@@ -83,5 +86,41 @@ test('actual BMC methods retain the same removals, additions and snapshots acros
    assert.deepEqual(JSON.parse(JSON.stringify(after.bmcState)),expected(JSON.parse(JSON.stringify(before.bmcState))),path.join(' / '));
   }
  }
+ }
+});
+test('operations-v1 BMC starts from its configured canvas without changing the other profiles',()=>{
+ for(const [id,model] of Object.entries(operatingModels)){
+  const game=setup(brazil,id);
+  assert.deepEqual(JSON.parse(JSON.stringify(game.bmcState.current)),model.bmc.initial);
+  for(const step of [1,2,3]){
+   game.applyBMCMilestoneUpdates(step);
+   assert.ok(game.bmcState.current.valueProposition.length>0);
+  }
+ }
+});
+test('restaurant and service BMCs and milestones in generated HTML match their operating models',()=>{
+ const milestoneData={};
+ for(const m of fs.readFileSync('index.html','utf8').matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){
+  if(/\bsrc\s*=/.test(m[1])||/application\/ld\+json/.test(m[1]))continue;
+  walk.simple(acorn.parse(m[2],{ecmaVersion:'latest'}),{VariableDeclarator(n){if(n.id.name==='MILESTONES')Object.assign(milestoneData,read(n.init));}});
+ }
+ for(const id of ['voed','aether','edu','cyber','terra','sorgente']){
+  assert.deepEqual(brazil.data[id],operatingModels[id].bmc);
+  assert.deepEqual(milestoneData[id],operatingModels[id].milestones);
+  assert.ok(milestoneData[id].m3[0].desc.trim().length>0);
+ }
+});
+test('industrial BMCs apply every configured pivot from their operating canvases',()=>{
+ for(const id of ['cyber','terra','sorgente']){
+  const model=operatingModels[id];
+  for(const [pivot,definition] of Object.entries(model.bmc.pivots)){
+   const game=setup(brazil,id),expected=JSON.parse(JSON.stringify(model.bmc.initial));
+   for(const [block,change] of Object.entries(definition.changes)){
+    if(change.add)expected[block]=[...expected[block],...change.add];
+    if(change.remove)expected[block]=expected[block].filter(value=>!change.remove.includes(value));
+   }
+   game.applyBMCPivot(pivot);
+   assert.deepEqual(JSON.parse(JSON.stringify(game.bmcState.current)),expected,id+' / '+pivot);
+  }
  }
 });

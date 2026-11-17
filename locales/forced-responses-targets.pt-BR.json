@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Mudar de direção",
+    "subtitle": "Encontrar outro mercado para liderar",
+    "description": "Faça um pivô para um mercado em que seu concorrente não atua. Torne-se líder em outro lugar, em vez de disputar o segundo lugar.",
+    "preserves": ["Tecnologia central", "Capacidades da equipe", "Investimento em pesquisa"],
+    "costs": ["Abandonar o marco atual", "Reconstruir o funil de vendas", "Transição de aproximadamente £30 mil"],
+    "timeImpact": "+4 trimestres até o novo marco",
+    "bestWhen": "O mercado do concorrente não é sua única opção",
+    "teamQuotes": {
+      "research": "Encontre um mercado que valorize rigor científico em vez de velocidade de lançamento.",
+      "product": "Podemos adaptar nosso produto a um novo segmento mais rápido do que alcançá-los.",
+      "sales": "Tenho contatos promissores em outros lugares. Deixe-me trabalhar com eles, em vez de travar uma disputa difícil.",
+      "investor": "É melhor liderar um nicho do que seguir em um mercado saturado."
+    }
+  },
+  {
+    "name": "Competir diretamente",
+    "subtitle": "Manter o rumo como nº 2",
+    "description": "Continue avançando em direção ao marco atual. O segundo lugar ainda pode vencer: concorrentes podem tropeçar, e você preserva todo o seu progresso.",
+    "preserves": ["Todo o progresso do marco", "Funil de vendas atual", "Posicionamento de mercado", "Sem custos de transição"],
+    "costs": ["Impacto imediato de -20% na avaliação", "+15% de diluição em futuras captações", "Conversas de vendas mais difíceis", "Competir contra o líder do mercado"],
+    "timeImpact": "Sem atraso — manter o cronograma atual",
+    "bestWhen": "Você está perto de concluir e acredita que o concorrente vai tropeçar",
+    "teamQuotes": {
+      "research": "Nossa tecnologia é melhor — os atalhos deles terão consequências.",
+      "product": "Estamos fazendo bom progresso. Fazer um pivô agora desperdiça nosso trabalho.",
+      "sales": "Em toda ligação ouviremos “por que não eles?”, mas alguns compradores querem alternativas.",
+      "investor": "Se vocês estão perto de ganhar tração, concluir pode ser melhor do que recomeçar."
+    }
+  },
+  {
+    "name": "Restringir o foco",
+    "subtitle": "Tornar-se especialista",
+    "description": "Deixe seu concorrente atuar de forma ampla enquanto você domina profundamente um segmento. O mercado total é menor, mas a posição é defensável e permite preços mais altos.",
+    "preserves": ["A maior parte do progresso (cerca de 60% é mantida)", "Tecnologia central", "Parte do funil de vendas"],
+    "costs": ["Mercado endereçável menor", "Recompensas de marco reduzidas (cerca de 20% menores)", "Transição de aproximadamente £20 mil"],
+    "timeImpact": "+2 trimestres, mas com um limite mais fácil",
+    "bestWhen": "Você tem tração em um segmento específico",
+    "teamQuotes": {
+      "research": "Especialização profunda em um segmento aproveita nossos pontos fortes científicos.",
+      "product": "Um produto focado é mais fácil de lançar, apoiar e aprimorar.",
+      "sales": "O posicionamento de especialista facilita as conversas — somos A empresa para isso.",
+      "investor": "Especialistas conseguem preços mais altos e podem captar em condições melhores."
+    }
+  }
+]

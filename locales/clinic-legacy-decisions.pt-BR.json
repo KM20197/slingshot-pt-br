@@ -1,0 +1,423 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Adaptação administrativa brasileira dos treze eventos exclusivos da clínica popular; IDs, efeitos, custos e demais eventos preservados.",
+    "strings": {
+      "[\"research\",\"fatima\",0,\"intro\"]": {
+        "source": "We have preliminary results on the protein binding work. They're promising, but I want to run three more validation experiments before we tell anyone.",
+        "target": "Já temos um resultado preliminar da reorganização da recepção. Parece bom, mas quero fazer mais três conferências administrativas antes de comunicar qualquer melhoria."
+      },
+      "[\"research\",\"fatima\",0,\"aside\"]": {
+        "source": "I've seen careers destroyed by premature claims. Extraordinary claims require extraordinary evidence.",
+        "target": "Já vi reputação abalada por anúncio apressado. Melhoria anunciada sem base suficiente custa caro."
+      },
+      "[\"research\",\"fatima\",0,\"choices\",0,\"text\"]": {
+        "source": "Run the full validation suite",
+        "target": "Fazer a conferência completa"
+      },
+      "[\"research\",\"fatima\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Thank you. This is how real science works.",
+        "target": "Obrigada. É assim que se cuida da credibilidade da clínica."
+      },
+      "[\"research\",\"fatima\",0,\"choices\",1,\"text\"]": {
+        "source": "One more experiment, then share",
+        "target": "Mais uma conferência e então comunicamos"
+      },
+      "[\"research\",\"fatima\",0,\"choices\",1,\"reaction\"]": {
+        "source": "A compromise I can accept.",
+        "target": "Um acordo que eu consigo aceitar."
+      },
+      "[\"research\",\"fatima\",0,\"choices\",2,\"text\"]": {
+        "source": "Data's good enough—move forward",
+        "target": "Está bom o suficiente, sigamos"
+      },
+      "[\"research\",\"fatima\",0,\"choices\",2,\"reaction\"]": {
+        "source": "I want my concerns formally noted.",
+        "target": "Quero que minhas ressalvas fiquem registradas."
+      },
+      "[\"research\",\"fatima\",2,\"intro\"]": {
+        "source": "The MHRA—the UK's medicines regulator—has offered a pre-submission meeting about our regulatory pathway. This could shape our approach for years.",
+        "target": "Um fornecedor fictício ofereceu uma reunião para esclarecer a organização e a manutenção das instalações. Isso pode definir nossa rotina por anos."
+      },
+      "[\"research\",\"fatima\",2,\"aside\"]": {
+        "source": "Getting regulatory clarity early saves years of mistakes. I've seen companies fail by not asking these questions.",
+        "target": "Esclarecer essas coisas cedo evita anos de retrabalho. Já vi operações falharem por não fazer essas perguntas."
+      },
+      "[\"research\",\"fatima\",2,\"choices\",0,\"text\"]": {
+        "source": "Prepare extensively, send senior team",
+        "target": "Preparar bastante e enviar a equipe principal"
+      },
+      "[\"research\",\"fatima\",2,\"choices\",0,\"reaction\"]": {
+        "source": "I'll coordinate the dossier personally.",
+        "target": "Vou organizar o material da reunião eu mesma."
+      },
+      "[\"research\",\"fatima\",2,\"choices\",1,\"text\"]": {
+        "source": "Attend with standard materials",
+        "target": "Ir com o material padrão"
+      },
+      "[\"research\",\"fatima\",2,\"choices\",1,\"reaction\"]": {
+        "source": "We might leave questions unanswered.",
+        "target": "Podemos sair com perguntas em aberto."
+      },
+      "[\"research\",\"fatima\",2,\"choices\",2,\"text\"]": {
+        "source": "Postpone until we have more data",
+        "target": "Adiar até reunir mais informações"
+      },
+      "[\"research\",\"fatima\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Cautious approach pays off.",
+        "target": "Cautela compensa."
+      },
+      "[\"research\",\"fatima\",3,\"intro\"]": {
+        "source": "A UK rare disease charity wants to partner using their patient registry. Unique data, but complex governance.",
+        "target": "Uma associação do bairro propõe colaborar com cenários fictícios, sem registros pessoais, para compreender as dificuldades de acesso e organizar a recepção. A proposta é útil, mas exige coordenação."
+      },
+      "[\"research\",\"fatima\",3,\"aside\"]": {
+        "source": "Real patient data could differentiate our research. But these are vulnerable populations—we must do this right.",
+        "target": "A visão do bairro pode melhorar nossa organização. Mas estamos falando de moradores que merecem cuidado — precisamos fazer isso do jeito certo."
+      },
+      "[\"research\",\"fatima\",3,\"choices\",0,\"text\"]": {
+        "source": "Build formal partnership with ethics board",
+        "target": "Fazer um acordo administrativo formal com a associação"
+      },
+      "[\"research\",\"fatima\",3,\"choices\",0,\"reaction\"]": {
+        "source": "This is how biotech should work with patients.",
+        "target": "É assim que a clínica deve trabalhar com o bairro."
+      },
+      "[\"research\",\"fatima\",3,\"choices\",1,\"text\"]": {
+        "source": "Accept limited data for pilot",
+        "target": "Aceitar um ensaio limitado"
+      },
+      "[\"research\",\"fatima\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Test hypotheses without full governance.",
+        "target": "Testar sem compromisso amplo."
+      },
+      "[\"research\",\"fatima\",3,\"choices\",2,\"text\"]": {
+        "source": "Decline—too complex now",
+        "target": "Recusar — agora é complexo demais"
+      },
+      "[\"research\",\"fatima\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Stay lean. Avoid scope creep.",
+        "target": "Manter o foco. Evitar escopo demais."
+      },
+      "[\"research\",\"fatima\",6,\"intro\"]": {
+        "source": "A London biomedical campus invites us to their seminar series on AI in molecular design.",
+        "target": "Uma rede fictícia de clínicas de bairro nos convida para encontros de gestão da recepção e das instalações."
+      },
+      "[\"research\",\"fatima\",6,\"aside\"]": {
+        "source": "Regular presence builds relationships. We'd become 'the AI people' on campus.",
+        "target": "Presença regular cria vínculos. Passaríamos a ser vistos como a equipe de gestão entre as clínicas."
+      },
+      "[\"research\",\"fatima\",6,\"choices\",0,\"text\"]": {
+        "source": "Commit to regular slot, co-organise",
+        "target": "Assumir um encontro fixo e ajudar a organizar"
+      },
+      "[\"research\",\"fatima\",6,\"choices\",0,\"reaction\"]": {
+        "source": "We'll get early sight of interesting projects.",
+        "target": "Teríamos contato antecipado com projetos interessantes."
+      },
+      "[\"research\",\"fatima\",6,\"choices\",1,\"text\"]": {
+        "source": "Give a one-off flagship talk",
+        "target": "Fazer uma apresentação única"
+      },
+      "[\"research\",\"fatima\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Impact without ongoing commitment.",
+        "target": "Impacto sem compromisso contínuo."
+      },
+      "[\"research\",\"fatima\",6,\"choices\",2,\"text\"]": {
+        "source": "Decline—no bandwidth",
+        "target": "Recusar—sem folga na rotina"
+      },
+      "[\"research\",\"fatima\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on priorities. Team stays productive.",
+        "target": "Foco nas prioridades. A equipe segue produtiva."
+      },
+      "[\"research\",\"fatima\",15,\"intro\"]": {
+        "source": "Testing reveals our AI model is less accurate for some patient populations—it works well for groups heavily represented in our training data, less well for others. This isn't unusual; it's a known challenge in medical AI. Fixing it requires more diverse data, which means more time and partnerships. But the populations it works well for still need help now.",
+        "target": "A simulação do novo fluxo de recepção funciona bem nos horários tranquilos e menos bem nos períodos de movimento. A diferença aparece na espera e na capacidade das filas, aspectos administrativos da rotina, sem relação com a qualidade do atendimento clínico. Reduzir essa diferença exige ajustes, tempo e acompanhamento; até lá, os horários já conferidos seguem estáveis."
+      },
+      "[\"research\",\"fatima\",15,\"aside\"]": {
+        "source": "Perfect fairness in AI is often impossible—you're trading off accuracy for different groups. Waiting for perfection means no one gets helped. Launching with known gaps means some get helped more than others. Both positions have ethical weight.",
+        "target": "Ajustar o fluxo de todos os horários de uma vez é difícil: o que melhora o período tranquilo pode desorganizar o de movimento. Adiar evita atrapalhar a rotina, mas mantém a diferença como está. As duas posições têm peso."
+      },
+      "[\"research\",\"fatima\",15,\"choices\",0,\"text\"]": {
+        "source": "Delay until we can reduce the gap significantly",
+        "target": "Adiar a implantação até reduzir a diferença"
+      },
+      "[\"research\",\"fatima\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Higher standard. Takes longer. Some patients wait who didn't need to.",
+        "target": "Critério mais alto. Demora mais. A rotina segue com a diferença até lá."
+      },
+      "[\"research\",\"fatima\",15,\"choices\",1,\"text\"]": {
+        "source": "Launch with clear scope—only for populations where it's validated",
+        "target": "Usar somente os horários já conferidos"
+      },
+      "[\"research\",\"fatima\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Honest about limitations. Narrower impact. Some feel excluded.",
+        "target": "Honesto sobre os limites. Alcance menor. Parte do público fica de fora."
+      },
+      "[\"research\",\"fatima\",15,\"choices\",2,\"text\"]": {
+        "source": "Launch broadly with warnings and monitoring",
+        "target": "Expandir com avisos e acompanhamento das filas"
+      },
+      "[\"research\",\"fatima\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Helps more people sooner. Risk of harm if warnings ignored.",
+        "target": "Atende mais gente antes. Risco de desorganização se os avisos forem ignorados."
+      },
+      "[\"research\",\"fatima\",17,\"intro\"]": {
+        "source": "We need patient data to train our medical AI. A hospital is offering access to thousands of records, but the consent forms patients signed years ago didn't specifically mention AI. Legally it might be covered, but ethically it's a grey area. Patients didn't know their data would train algorithms.",
+        "target": "A equipe recebeu material administrativo fictício de treinamento, com exemplos antigos. Não está claro se esses exemplos podem ser reutilizados no novo material da clínica. Como a dúvida ficou registrada, precisamos decidir como seguir sem tratar o assunto como confirmado."
+      },
+      "[\"research\",\"fatima\",17,\"aside\"]": {
+        "source": "Data consent is evolving faster than the forms people signed. What was acceptable five years ago may not meet today's ethical standards. Being conservative protects patients and our reputation.",
+        "target": "Materiais de treinamento mudam mais rápido do que as indicações que os acompanham. O que era aceitável antes pode não servir para o material novo. Uma postura cautelosa evita retrabalho e preserva a confiança da equipe."
+      },
+      "[\"research\",\"fatima\",17,\"choices\",0,\"text\"]": {
+        "source": "Only use data with explicit AI consent",
+        "target": "Usar somente exemplos com permissão clara"
+      },
+      "[\"research\",\"fatima\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Higher standards than required. Patients trust matters.",
+        "target": "Padrão mais alto que o mínimo. A confiança da equipe importa."
+      },
+      "[\"research\",\"fatima\",17,\"choices\",1,\"text\"]": {
+        "source": "Use it but anonymise more aggressively",
+        "target": "Recriar os exemplos e rever os materiais"
+      },
+      "[\"research\",\"fatima\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Extra precautions reduce risk. Not perfect but defensible.",
+        "target": "Precaução extra reduz o risco. Não é perfeito, mas se justifica."
+      },
+      "[\"research\",\"fatima\",17,\"choices\",2,\"text\"]": {
+        "source": "Legal says it's fine—proceed",
+        "target": "Seguir a indicação interna apesar da dúvida"
+      },
+      "[\"research\",\"fatima\",17,\"choices\",2,\"reaction\"]": {
+        "source": "I'm uncomfortable. Noting my objection.",
+        "target": "Estou desconfortável. Registro minha objeção."
+      },
+      "[\"research\",\"yuki\",7,\"intro\"]": {
+        "source": "A data-sharing MoU with a UK university would give us access to valuable clinical datasets.",
+        "target": "Uma escola técnica fictícia do bairro propõe colaborar com materiais de treinamento da recepção, criados apenas com cenários fictícios e sem registros pessoais."
+      },
+      "[\"research\",\"yuki\",7,\"aside\"]": {
+        "source": "Proper governance takes time but builds lasting partnerships. Their data is unique.",
+        "target": "Um bom acordo administrativo leva tempo, mas sustenta parcerias duradouras. Os materiais deles são únicos no bairro."
+      },
+      "[\"research\",\"yuki\",7,\"choices\",0,\"text\"]": {
+        "source": "Negotiate rigorous privacy-first MoU",
+        "target": "Negociar acordo administrativo detalhado com privacidade em primeiro lugar"
+      },
+      "[\"research\",\"yuki\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Access without terrifying our lawyers.",
+        "target": "Acesso aos materiais sem alarmar nossa assessoria jurídica."
+      },
+      "[\"research\",\"yuki\",7,\"choices\",1,\"text\"]": {
+        "source": "Agree narrow pilot-scale MoU",
+        "target": "Aceitar ensaio limitado com escopo reduzido"
+      },
+      "[\"research\",\"yuki\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Test the relationship first.",
+        "target": "Testar a relação primeiro."
+      },
+      "[\"research\",\"yuki\",7,\"choices\",2,\"text\"]": {
+        "source": "Use public data only",
+        "target": "Preparar materiais próprios com exemplos inventados"
+      },
+      "[\"research\",\"yuki\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Safe and compliant. No regulatory risk.",
+        "target": "Mais autonomia e menos material compartilhado, com mais trabalho para a nossa equipe."
+      },
+      "[\"research\",\"kwame\",11,\"intro\"]": {
+        "source": "A major pharma company wants to license our AI models. As part of due diligence—the investigation process before any big deal—they want to examine our training data, model architecture, and evaluation methods in detail. If the deal goes through, it's transformative revenue. If it doesn't, they've seen everything.",
+        "target": "Uma rede fictícia de clínicas quer discutir uma parceria na organização da recepção e pede uma apresentação das rotinas administrativas, usando cenários fictícios e sem registros pessoais. A parceria pode abrir oportunidades de colaboração; se não avançar, teremos exposto nosso método de organização."
+      },
+      "[\"research\",\"kwame\",11,\"aside\"]": {
+        "source": "Due diligence is standard for big deals. But there's always a risk they're really just gathering competitive intelligence. The NDA offers some protection, but proving a breach is almost impossible.",
+        "target": "Examinar material antes de fechar parceria é rotina em acordos grandes. Mas sempre existe o risco de que queiram apenas copiar o nosso método. Relações de confiança dão algum apoio, mas é difícil provar que o material foi usado fora do combinado."
+      },
+      "[\"research\",\"kwame\",11,\"choices\",0,\"text\"]": {
+        "source": "Full disclosure under NDA",
+        "target": "Apresentar todo o material administrativo"
+      },
+      "[\"research\",\"kwame\",11,\"choices\",0,\"reaction\"]": {
+        "source": "They see everything. The deal either happens or we've educated a potential competitor.",
+        "target": "A rede conhece todo o material. A parceria avança ou uma possível concorrente aprende nossas rotinas."
+      },
+      "[\"research\",\"kwame\",11,\"choices\",1,\"text\"]": {
+        "source": "Staged disclosure—reveal more as deal progresses",
+        "target": "Compartilhar em etapas conforme a parceria avança"
+      },
+      "[\"research\",\"kwame\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Build trust gradually. Some companies walk away at this stage.",
+        "target": "A confiança cresce aos poucos. Algumas redes desistem nesta altura."
+      },
+      "[\"research\",\"kwame\",11,\"choices\",2,\"text\"]": {
+        "source": "Demonstrate results only, protect methods",
+        "target": "Mostrar apenas exemplos de resultados fictícios e preservar os detalhes das rotinas"
+      },
+      "[\"research\",\"kwame\",11,\"choices\",2,\"reaction\"]": {
+        "source": "They see what our system does, not how. Some buyers won't accept this.",
+        "target": "Elas veem o resultado da organização, não como fazemos. Algumas redes não aceitam isso."
+      },
+      "[\"research\",\"kwame\",14,\"intro\"]": {
+        "source": "A ministry of health wants to license our AI for disease prediction. The science would genuinely help patients. But this government restricts press freedom and has used technology for surveillance before. Our contract would be for healthcare only—but once they have the technology, we can't control how it's used or what it's combined with.",
+        "target": "Uma organização fictícia do bairro pede um modelo de organização da recepção para um projeto comunitário, usando apenas materiais inventados e nenhum dado pessoal. O projeto atenderia moradores do bairro, mas há dúvidas sobre o aproveitamento do material em publicidade fora do combinado: uma vez entregue, não controlamos como será divulgado nem com o que será associado."
+      },
+      "[\"research\",\"kwame\",14,\"aside\"]": {
+        "source": "Every major tech company faces decisions like this. The healthcare ministry isn't the security ministry—but they're part of the same government. Some argue engagement creates leverage for reform; others say it provides tools and legitimacy.",
+        "target": "Toda administração enfrenta decisões parecidas. Quem pede o modelo não é o mesmo grupo que cuida da divulgação, mas ambos circulam na mesma vizinhança. Uns argumentam que participar dá espaço para negociar limites depois; outros que isso oferece ferramentas e credibilidade a um uso não combinado."
+      },
+      "[\"research\",\"kwame\",14,\"choices\",0,\"text\"]": {
+        "source": "Decline—we can't guarantee it won't be misused",
+        "target": "Recusar — não controlamos o uso fora do combinado"
+      },
+      "[\"research\",\"kwame\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Principled stand. Patients who might have benefited won't. Someone else may take the contract.",
+        "target": "Posição coerente. Os moradores que contavam com o apoio ficam de fora. Outro grupo pode assumir o material."
+      },
+      "[\"research\",\"kwame\",14,\"choices\",1,\"text\"]": {
+        "source": "Accept with audit rights and use restrictions",
+        "target": "Aceitar com acompanhamento e limites de divulgação"
+      },
+      "[\"research\",\"kwame\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Try to build in safeguards. Enforcement is another matter.",
+        "target": "Tentar combinar salvaguardas. O cumprimento é outra questão."
+      },
+      "[\"research\",\"kwame\",14,\"choices\",2,\"text\"]": {
+        "source": "Accept—healthcare is healthcare",
+        "target": "Aceitar — o projeto comunitário é o que importa"
+      },
+      "[\"research\",\"kwame\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Help the patients, not the politics. A defensible position that some will attack.",
+        "target": "Priorizar a colaboração, não as críticas. Uma posição defensável que alguns vão contestar."
+      },
+      "[\"marketing\",\"priya\",0,\"intro\"]": {
+        "source": "I've got us in front of the NHS trust's CIO next Tuesday. Budget before year-end, but competitors circling.",
+        "target": "Marquei um encontro com a coordenadora da associação fictícia do bairro para apresentar a organização da recepção, com outros prestadores interessados. O prazo é curto e a atenção anda disputada."
+      },
+      "[\"marketing\",\"priya\",0,\"aside\"]": {
+        "source": "I've built this relationship for eight months. This is our shot.",
+        "target": "Construí essa relação ao longo de meses. Esta é a nossa chance."
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",0,\"text\"]": {
+        "source": "Full pitch—whatever it takes",
+        "target": "Apresentação completa, o que for necessário"
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Clear my week. We're winning this.",
+        "target": "Vou liberar minha semana. Vamos conseguir."
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",1,\"text\"]": {
+        "source": "Solid pitch within scope",
+        "target": "Apresentação no escopo, já organizada"
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Conservative, but I'll make it work.",
+        "target": "Conservador, mas vou fazer funcionar."
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",2,\"text\"]": {
+        "source": "We're not ready—wait",
+        "target": "Ainda não estamos prontos—adiar"
+      },
+      "[\"marketing\",\"priya\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Better to be ready. Product quality first.",
+        "target": "Melhor estar preparado. Primeiro a organização em ordem."
+      },
+      "[\"marketing\",\"priya\",5,\"intro\"]": {
+        "source": "Royal College conference next month. Invited to present alongside clinicians.",
+        "target": "Um encontro fictício de gestores de clínicas populares convida nossa equipe a trocar experiências administrativas, apresentando apenas cenários inventados e sem registros pessoais."
+      },
+      "[\"marketing\",\"priya\",5,\"aside\"]": {
+        "source": "The NHS network is everything. This is where trust gets built.",
+        "target": "A rede de contatos entre gestores é o que importa. É ali que a confiança é construída."
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",0,\"text\"]": {
+        "source": "Send scientist plus clinician champion",
+        "target": "Enviar equipe de recepção e responsável administrativo"
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Talk goes down well. Stand coffee less so.",
+        "target": "A apresentação cai bem. O café do espaço, menos."
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",1,\"text\"]": {
+        "source": "Modest stand only",
+        "target": "Apenas um espaço simples de apresentação"
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Collect lanyards and handful of leads.",
+        "target": "Alguns contatos fictícios e poucos interessados."
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",2,\"text\"]": {
+        "source": "Skip—focus on direct meetings",
+        "target": "Recusar—focar em reuniões diretas"
+      },
+      "[\"marketing\",\"priya\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Quality over quantity. Deepen key relationships.",
+        "target": "Menos quantidade, mais profundidade. Aprofundar as relações principais."
+      },
+      "[\"marketing\",\"priya\",6,\"intro\"]": {
+        "source": "The NHS Innovation Accelerator has a slot. Pitch for place on their programme.",
+        "target": "A oficina fictícia do bairro sobre organização de atendimento oferece um espaço de participação. Podemos apresentar e disputar esse espaço."
+      },
+      "[\"marketing\",\"priya\",6,\"aside\"]": {
+        "source": "The NIA opens doors across the NHS. Worth the effort.",
+        "target": "A oficina abre portas com outros prestadores do bairro. Vale o esforço."
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",0,\"text\"]": {
+        "source": "Careful, evidence-heavy pitch",
+        "target": "Apresentação cuidadosa com exemplos administrativos fictícios"
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Impress clinicians and policy people alike.",
+        "target": "Agradar tanto a gestão quanto os prestadores presentes."
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",1,\"text\"]": {
+        "source": "Reuse investor deck with tweaks",
+        "target": "Adaptar material institucional existente"
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Scrape through Q&A. Don't stand out.",
+        "target": "Respondemos às perguntas com dificuldade, sem destacar nossa proposta."
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",2,\"text\"]": {
+        "source": "Decline—admin looks heavy",
+        "target": "Recusar—a preparação pesa"
+      },
+      "[\"marketing\",\"priya\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid bureaucracy. Stay nimble.",
+        "target": "Evitar burocracia. Manter a rotina leve."
+      },
+      "[\"marketing\",\"emma\",6,\"intro\"]": {
+        "source": "The board wants us to write up our clinical evidence—a proper document explaining what our product does and the research behind it. The question is: do we make it detailed and scientific, or polished and exciting?",
+        "target": "A equipe quer um relatório sobre a organização administrativa da recepção, com exemplos fictícios e sem registros pessoais. A pergunta é: detalhado e cuidadoso, ou apresentado de forma otimista?"
+      },
+      "[\"marketing\",\"emma\",6,\"aside\"]": {
+        "source": "Doctors want to see rigorous evidence and honest limitations. Investors want confident success stories. Hard to please both.",
+        "target": "Uns exigem detalhe e limitações honestas. Outros preferem uma versão otimista. Difícil agradar todos."
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",0,\"text\"]": {
+        "source": "Write a detailed, careful document",
+        "target": "Escrever um documento detalhado e cuidadoso"
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Clinicians quietly approve.",
+        "target": "Quem lê com atenção aprova em silêncio."
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",1,\"text\"]": {
+        "source": "Make it polished and optimistic",
+        "target": "Deixar o material visual otimista"
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Investors love it. Our ethics advisor winces.",
+        "target": "Todos elogiam a aparência. Mas o material pode ocultar limites."
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",2,\"text\"]": {
+        "source": "Wait until we have more results",
+        "target": "Aguardar mais observações administrativas fictícias"
+      },
+      "[\"marketing\",\"emma\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Stronger story when ready.",
+        "target": "O relato fica mais forte quando estiver pronto."
+      }
+    }
+  }
+}

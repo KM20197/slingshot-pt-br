@@ -1,0 +1,33 @@
+{
+  "classification": "presentation-only-indicators",
+  "strings": {
+    "scoreExcellent": {
+      "source": "Excellent",
+      "target": "Excelente"
+    },
+    "scoreStrong": {
+      "source": "Strong",
+      "target": "Forte"
+    },
+    "scoreSolid": {
+      "source": "Solid",
+      "target": "Sólido"
+    },
+    "scoreDeveloping": {
+      "source": "Developing",
+      "target": "Em desenvolvimento"
+    },
+    "scoreEarly": {
+      "source": "Early Stage",
+      "target": "Estágio inicial"
+    },
+    "cashToast": {
+      "source": "Cash",
+      "target": "Caixa"
+    },
+    "runwayToast": {
+      "source": "Runway",
+      "target": "Autonomia financeira"
+    }
+  }
+}

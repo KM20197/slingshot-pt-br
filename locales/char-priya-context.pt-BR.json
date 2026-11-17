@@ -1,0 +1,967 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de relações comerciais, colaboração e escolhas de atendimento em Priya, preservando metadados e efeitos originais",
+    "strings": {
+      "[\"marketing\",\"priya\",1,\"intro\"]": {
+        "source": "A UK logistics firm wants a pilot. Not paying much, but the logo would be huge for us.",
+        "target": "Uma empresa de entregas fictícia quer experimentar nosso atendimento por um valor baixo. Ter esse cliente como referência pode ajudar nas próximas conversas comerciais."
+      },
+      "[\"marketing\",\"priya\",1,\"aside\"]": {
+        "source": "Enterprise sales is all about references. This opens ten more doors.",
+        "target": "Uma boa referência abre conversas, mas não paga sozinha o esforço da equipe. Precisamos separar o recebimento deste trabalho da expectativa de novas vendas."
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",0,\"text\"]": {
+        "source": "Run pilot at cost",
+        "target": "Fazer o atendimento inicial com margem reduzida"
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Investment in the pipeline. Logo opens doors.",
+        "target": "Recebemos pelo atendimento inicial, com pouca margem. A experiência pode servir de referência comercial; as próximas vendas ainda precisam ser conquistadas."
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",1,\"text\"]": {
+        "source": "Negotiate middle ground",
+        "target": "Negociar um valor melhor para o atendimento inicial"
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",1,\"reaction\"]": {
+        "source": "We'll find something that works.",
+        "target": "Conseguimos um pagamento maior pelo atendimento combinado. Ainda há concessão no preço, mas a equipe não fica só com a promessa de divulgação."
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",2,\"text\"]": {
+        "source": "Full price or nothing",
+        "target": "Manter o preço e recusar o desconto do atendimento inicial"
+      },
+      "[\"marketing\",\"priya\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Hold the line. They walk.",
+        "target": "O cliente desistiu dessa ampliação ao preço pedido. Recebemos pela etapa preliminar já atendida, sem contar com o restante do pedido."
+      },
+      "[\"marketing\",\"priya\",2,\"intro\"]": {
+        "source": "Biggest customer up for renewal. Happy but asking for discount. Competitors circling.",
+        "target": "Nosso maior cliente vai renovar os pedidos e pediu desconto. Ele diz que outros negócios cobram menos. Como vamos responder?"
+      },
+      "[\"marketing\",\"priya\",2,\"aside\"]": {
+        "source": "Retention is cheaper than acquisition. But we need to value ourselves.",
+        "target": "Não quero decidir só pelo receio de perder a venda. Precisamos mostrar o valor do atendimento e avaliar quanto resta depois de cumprir o pedido."
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",0,\"text\"]": {
+        "source": "Defend pricing with added value",
+        "target": "Defender o preço com os resultados do atendimento"
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",0,\"reaction\"]": {
+        "source": "I'll show them what they'd lose. They stay at full price.",
+        "target": "O cliente manteve os pedidos pelo preço apresentado. O pagamento recebido reforça o caixa, e o atendimento continua exigindo entrega cuidadosa."
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",1,\"text\"]": {
+        "source": "Small discount for multi-year",
+        "target": "Oferecer um desconto menor para pedidos por mais de um ano"
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Lock-in has value. Fair trade.",
+        "target": "Recebemos pelos pedidos com o desconto negociado. A perspectiva de continuidade ajuda a organização, mas não transforma pedidos futuros em recebimentos certos."
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",2,\"text\"]": {
+        "source": "Match competitor discount",
+        "target": "Igualar o desconto dos concorrentes"
+      },
+      "[\"marketing\",\"priya\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Keep them, but at much lower margin.",
+        "target": "O cliente continuou comprando e recebemos pelas vendas, com margem menor. Manter o volume não elimina a pressão sobre o resultado."
+      },
+      "[\"marketing\",\"priya\",3,\"intro\"]": {
+        "source": "Industry dinner next week at the Savoy. All the right buyers. Expensive tickets.",
+        "target": "Na próxima semana haverá um encontro de negócios fictício, com ingresso caro. Alguns contatos comerciais que buscamos devem participar. Vale reservar tempo e recursos?"
+      },
+      "[\"marketing\",\"priya\",3,\"aside\"]": {
+        "source": "Networking matters. This is where UK deals actually start.",
+        "target": "Uma conversa pode abrir caminho, mas presença em evento não é venda confirmada. Quero avaliar o esforço junto com as oportunidades de contato."
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",0,\"text\"]": {
+        "source": "Full presence, host side meeting",
+        "target": "Participar com destaque e marcar conversas à parte"
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Leave this to me. Business cards loaded.",
+        "target": "Voltamos com contatos e ideias para melhorar a rotina e organizar o atendimento. A presença consumiu recursos; ainda precisamos transformar as conversas em pedidos."
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",1,\"text\"]": {
+        "source": "Just attend, work the room",
+        "target": "Participar com uma presença mais simples"
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Lower key but I'll connect.",
+        "target": "Fizemos contatos e trouxemos observações úteis para o negócio, com uma participação menor. Vamos acompanhar as conversas sem antecipar resultados."
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",2,\"text\"]": {
+        "source": "Skip it—too expensive",
+        "target": "Não participar e preservar a reserva de caixa"
+      },
+      "[\"marketing\",\"priya\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Save budget for better opportunities.",
+        "target": "Preservamos no caixa os recursos que iriam para a participação. O ganho é de reserva, sem uma venda nova; seguimos observando outras formas de contato."
+      },
+      "[\"marketing\",\"priya\",4,\"intro\"]": {
+        "source": "An important customer is frustrated and threatening to cancel. Some of their complaints are fair—we did mess up. Others seem like they expected something we never promised.",
+        "target": "Um cliente ameaça interromper os pedidos. Parte da reclamação aponta falhas nossas; outra parte cobra um atendimento que não foi combinado. Como vamos conduzir a conversa?"
+      },
+      "[\"marketing\",\"priya\",4,\"aside\"]": {
+        "source": "How we handle angry customers defines who we are. Turn this around and they could become our biggest advocate. Handle it badly and they'll tell everyone.",
+        "target": "Quero recuperar a confiança sem esconder as falhas nem assumir toda exigência como se já estivesse incluída no pedido."
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",0,\"text\"]": {
+        "source": "Go all-out to fix everything",
+        "target": "Corrigir as falhas e atender também às exigências adicionais"
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Turn this into our best advocate.",
+        "target": "A equipe assumiu um esforço maior para resolver o conjunto das reclamações. Recuperamos espaço para conversar com o cliente e aprendemos com o atendimento."
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",1,\"text\"]": {
+        "source": "Fix the things that were our fault",
+        "target": "Corrigir nossas falhas e esclarecer o que ficou fora do pedido"
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Fair response. Should stabilise.",
+        "target": "Ajustamos o que era nossa responsabilidade e deixamos mais claro o atendimento combinado. O cliente tem uma resposta concreta para avaliar."
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",2,\"text\"]": {
+        "source": "Push back on the unreasonable demands",
+        "target": "Recusar as exigências adicionais e sustentar o combinado"
+      },
+      "[\"marketing\",\"priya\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Risky. Sometimes they need to hear it.",
+        "target": "Recebemos pelo atendimento já realizado e mantivemos os limites do pedido. A conversa deixou a relação tensa, embora a equipe tenha alinhado melhor a rotina."
+      },
+      "[\"marketing\",\"priya\",7,\"intro\"]": {
+        "source": "Major UK retailer offers joint press release about our robots in their warehouses.",
+        "target": "Uma loja fictícia que atendemos quer divulgar conosco como organizamos a compra, a separação e a entrega de materiais. A proposta serve ao nosso comércio com estoque; vamos participar?"
+      },
+      "[\"marketing\",\"priya\",7,\"aside\"]": {
+        "source": "Their brand validates ours. This will circulate in logistics industry chat groups.",
+        "target": "A divulgação pode mostrar uma experiência concreta. Precisamos apresentar o que foi feito, sem transformar um caso em promessa de disponibilidade ou prazo para todo pedido."
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",0,\"text\"]": {
+        "source": "Agree and film short joint video",
+        "target": "Preparar uma divulgação conjunta e um vídeo curto"
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Video circulates everywhere.",
+        "target": "Organizamos o relato com a loja, mostrando materiais e entregas acompanhadas. A preparação aproximou a equipe e trouxe ideias para o atendimento."
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",1,\"text\"]": {
+        "source": "Simple written statement",
+        "target": "Preparar apenas um relato escrito em conjunto"
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Safe, tidy, moderately visible.",
+        "target": "A divulgação escrita apresenta o atendimento que realizamos e ajuda nas conversas comerciais, sem prometer o mesmo resultado em qualquer situação."
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",2,\"text\"]": {
+        "source": "Keep partnership quiet",
+        "target": "Manter a experiência fora da divulgação conjunta"
+      },
+      "[\"marketing\",\"priya\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Strategic discretion. Flexibility preserved.",
+        "target": "Seguimos usando a experiência para orientar o atendimento comercial, sem preparar uma divulgação conjunta agora."
+      },
+      "[\"marketing\",\"priya\",8,\"intro\"]": {
+        "source": "A FTSE 100 company wants to explore a 'strategic partnership'. They've asked for a detailed presentation on our technology, roadmap, and business model. This could lead to investment, acquisition, or a major contract—or they could just be gathering intelligence before building it themselves.",
+        "target": "Uma empresa de maior porte propõe uma parceria comercial, mas quer conhecer de perto nossa rotina, os próximos passos e a forma de atender. Pode virar um pedido importante ou apenas ampliar o que ela sabe sobre nós."
+      },
+      "[\"marketing\",\"priya\",8,\"aside\"]": {
+        "source": "Large companies do this constantly. Some partnerships are genuine. Others are fishing expeditions. The problem is you can't tell which until you've already revealed everything.",
+        "target": "Quero aproveitar a conversa sem abrir tudo por entusiasmo. Precisamos distinguir pagamento pelo trabalho de exposição desnecessária de como nos organizamos."
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",0,\"text\"]": {
+        "source": "Full disclosure—bet on the relationship",
+        "target": "Apresentar toda a rotina e os planos de atendimento"
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",0,\"reaction\"]": {
+        "source": "They see everything. Either this becomes transformative or we've educated a future competitor.",
+        "target": "Recebemos pelo trabalho comercial combinado e ampliamos a conversa. Ao abrir tantos detalhes, perdemos parte da vantagem de organização que a equipe vinha construindo."
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",1,\"text\"]": {
+        "source": "Staged disclosure—reveal more as they commit",
+        "target": "Apresentar os detalhes em etapas conforme o trabalho avança"
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Trust but verify. Some corporates hate this dance.",
+        "target": "Recebemos pelo atendimento combinado e organizamos melhor as explicações em cada etapa. A equipe contribuiu sem concentrar toda a preparação de uma vez."
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",2,\"text\"]": {
+        "source": "Surface-level only until term sheet",
+        "target": "Limitar a apresentação até haver um pedido mais definido"
+      },
+      "[\"marketing\",\"priya\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Protect ourselves, but they might lose interest.",
+        "target": "Recebemos pela etapa inicial do atendimento e mostramos apenas o necessário. A conversa comercial avançou menos, mas preservamos espaço para organizar o restante."
+      },
+      "[\"marketing\",\"priya\",9,\"intro\"]": {
+        "source": "We're in 'customer discovery' calls with a large bank. They're asking detailed questions about exactly how we'd solve their problems—workflow, integration, pricing, timeline. It feels less like buying and more like a free consulting session. But walking away means no sale.",
+        "target": "Um possível cliente quer discutir nossa rotina, prazos e preços em detalhe antes de ampliar o pedido. A conversa pode se transformar num trabalho de preparação bem maior do que o atendimento inicial."
+      },
+      "[\"marketing\",\"priya\",9,\"aside\"]": {
+        "source": "Enterprise buyers often extract detailed proposals from multiple vendors, then build internally or give the best ideas to their preferred supplier. It's exhausting but standard practice.",
+        "target": "Temos experiência para ajudar, mas precisamos combinar o alcance dessa preparação. Uma conversa comercial não deve esconder o esforço dedicado a desenhar toda a rotina do cliente."
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",0,\"text\"]": {
+        "source": "Give them the full solution design",
+        "target": "Desenhar em detalhe toda a proposta de atendimento"
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",0,\"reaction\"]": {
+        "source": "If they buy, it's a big deal. If not, they have our playbook.",
+        "target": "Recebemos pelo trabalho de preparação combinado e fortalecemos a conversa comercial. A exposição do método consumiu parte da vantagem de organização da equipe."
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",1,\"text\"]": {
+        "source": "High-level approach, details after commitment",
+        "target": "Apresentar o geral e detalhar depois de confirmar a próxima etapa"
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Some buyers respect this. Others move to competitors who'll do free work.",
+        "target": "Recebemos pelo atendimento inicial e mantivemos a preparação dentro do alcance combinado. A equipe ficou mais confortável para continuar a conversa."
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",2,\"text\"]": {
+        "source": "Charge for detailed scoping work",
+        "target": "Cobrar pelo trabalho de preparação detalhada"
+      },
+      "[\"marketing\",\"priya\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Filters serious buyers. Loses tyre-kickers who might've converted.",
+        "target": "O cliente pagou pela preparação detalhada. Organizamos esse trabalho como atendimento remunerado, com espaço para aperfeiçoar nossa própria rotina."
+      },
+      "[\"marketing\",\"priya\",10,\"intro\"]": {
+        "source": "A large consulting firm wants to partner with us—they'll recommend our product to their clients in exchange for a referral fee. But first, they need to 'understand our technology deeply' so they can explain it. They want a full day with our technical team.",
+        "target": "Uma empresa fictícia que aproxima fornecedores e clientes oferece indicações em troca de uma participação comercial. Antes disso, pede um dia inteiro de orientação sobre nossa forma de trabalhar."
+      },
+      "[\"marketing\",\"priya\",10,\"aside\"]": {
+        "source": "Consultants work with everyone in an industry. What they learn from you might inform advice they give your competitors. But their recommendations can drive serious enterprise deals.",
+        "target": "Indicações podem ampliar as vendas, mas ensinar toda a rotina também expõe o que aprendemos. Quero definir quanto dessa orientação cabe na relação comercial."
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",0,\"text\"]": {
+        "source": "Full technical deep-dive",
+        "target": "Dedicar o dia a explicar toda a rotina de atendimento"
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",0,\"reaction\"]": {
+        "source": "They become effective advocates. And they know all our secrets.",
+        "target": "Recebemos pelo trabalho comercial combinado e ampliamos as possibilidades de indicação. Ao detalhar tanto o método, cedemos parte da vantagem de organização que tínhamos."
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",1,\"text\"]": {
+        "source": "Business-level training only",
+        "target": "Orientar sobre o atendimento e seus benefícios, sem abrir toda a rotina"
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",1,\"reaction\"]": {
+        "source": "They can sell the benefits but stumble on technical questions.",
+        "target": "Recebemos pelo trabalho combinado e preparamos a empresa para apresentar nosso atendimento aos clientes. A orientação ficou concentrada no que eles precisam conhecer para indicar."
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",2,\"text\"]": {
+        "source": "Decline the partnership",
+        "target": "Recusar essa forma de aproximação comercial"
+      },
+      "[\"marketing\",\"priya\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Control our secrets. Stay independent.",
+        "target": "Preferimos manter a organização do atendimento conosco. A conversa não avançou para as indicações propostas, mas aproveitamos o tempo para ajustar nossa rotina."
+      },
+      "[\"marketing\",\"priya\",11,\"intro\"]": {
+        "source": "We're negotiating a pilot with a large company. They want us to share our source code into escrow 'for business continuity'—so they can access it if we go bust. Reasonable on the surface, but their lawyers will review the escrow contents, and 'going bust' is broadly defined.",
+        "target": "Um cliente quer receber materiais de orientação para dar continuidade ao atendimento caso nosso negócio deixe de operar. O pedido inclui situações amplas, e precisamos decidir o que cabe compartilhar."
+      },
+      "[\"marketing\",\"priya\",11,\"aside\"]": {
+        "source": "Source code escrow is standard in enterprise deals. But it's also a legal way to get access to your code. Once it's in escrow, the security depends on lawyers and contracts, not technology.",
+        "target": "Podemos conversar sobre continuidade, mas um conjunto de materiais não garante que outra equipe consiga manter o atendimento. Quero tratar isso como um combinado operacional fictício."
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",0,\"text\"]": {
+        "source": "Agree to standard escrow terms",
+        "target": "Aceitar o compartilhamento amplo dos materiais de orientação"
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Close the deal. Trust the legal protections.",
+        "target": "Recebemos pelo atendimento combinado e preparamos os materiais pedidos. O cliente conhece melhor a rotina, sem que isso assegure a continuidade por outra equipe."
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",1,\"text\"]": {
+        "source": "Negotiate narrow release conditions",
+        "target": "Delimitar as situações e os materiais que serão compartilhados"
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Protect ourselves. Delays the deal, frustrates their legal team.",
+        "target": "Recebemos pelo atendimento negociado e organizamos melhor os materiais e as situações previstas. O combinado ficou mais claro para ambos, sem garantia de continuidade."
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",2,\"text\"]": {
+        "source": "Refuse escrow entirely",
+        "target": "Recusar o compartilhamento amplo, mesmo com risco para o pedido"
+      },
+      "[\"marketing\",\"priya\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Some enterprises won't proceed without it. This might kill the deal.",
+        "target": "Recebemos pela etapa de atendimento já realizada, mas recusamos abrir os materiais como solicitado. A relação ficou tensa e o restante do pedido continua incerto."
+      },
+      "[\"marketing\",\"priya\",12,\"intro\"]": {
+        "source": "A potential acquirer wants to begin due diligence. They'll need access to our code, our customer data, our financial models, and interviews with key staff. If the deal happens, we're set. If it falls through, they've seen everything—and they're already in our market.",
+        "target": "Uma empresa avalia fazer um pedido comercial de grande porte e quer examinar nossas rotinas, exemplos fictícios de atendimento e a organização da equipe. A preparação é trabalhosa, e a negociação pode não avançar."
+      },
+      "[\"marketing\",\"priya\",12,\"aside\"]": {
+        "source": "Acquisition due diligence is the ultimate disclosure paradox. You have to show everything to get the deal done. But half of all acquisitions fall through after due diligence.",
+        "target": "Quero mostrar que conseguimos atender sem confundir interesse com pedido fechado. Quanto vamos preparar e compartilhar antes de definir o trabalho remunerado?"
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",0,\"text\"]": {
+        "source": "Open the books completely",
+        "target": "Abrir toda a organização para a avaliação comercial"
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Standard process. They either buy us or they don't.",
+        "target": "Recebemos pelo trabalho comercial de preparação combinado. A apresentação ampla ajudou a organizar materiais e equipe, mas não assegura a continuidade do pedido maior."
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",1,\"text\"]": {
+        "source": "Phased disclosure tied to offer price",
+        "target": "Apresentar a organização em etapas ligadas ao pedido em negociação"
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",1,\"reaction\"]": {
+        "source": "More protection, but signals distrust. Some buyers walk.",
+        "target": "Recebemos pelas etapas de preparação combinadas e distribuímos melhor as informações apresentadas. O pedido maior ainda depende do avanço da negociação."
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",2,\"text\"]": {
+        "source": "Insist on break fee if they walk",
+        "target": "Combinar pagamento pelo trabalho de preparação antes de detalhar"
+      },
+      "[\"marketing\",\"priya\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Compensation if they back out. Many buyers refuse this term.",
+        "target": "Recebemos pelo trabalho de preparação que o cliente aceitou remunerar. Isso dá alcance concreto ao esforço da equipe, sem criar pagamento automático caso a negociação termine."
+      },
+      "[\"marketing\",\"priya\",13,\"intro\"]": {
+        "source": "We've been invited to pitch at a large corporation's 'innovation day'. Great exposure to senior executives, but we'll be presenting alongside our direct competitors. The format encourages detailed demos. Everyone watches everyone else's pitch.",
+        "target": "Uma empresa fictícia reuniu fornecedores para um dia de apresentação de soluções de atendimento. Ela quer demonstrações detalhadas, com outros participantes observando. Como vamos nos apresentar?"
+      },
+      "[\"marketing\",\"priya\",13,\"aside\"]": {
+        "source": "Innovation days are speed-dating for corporates. They get to compare solutions side-by-side. You get to learn about competitors too—if you're paying attention.",
+        "target": "A exposição pode render contatos, mas também revela escolhas da nossa rotina. Quero mostrar o que fazemos sem esquecer o trabalho que levou a essa organização."
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",0,\"text\"]": {
+        "source": "Go all-in with impressive demo",
+        "target": "Apresentar toda a rotina em uma demonstração detalhada"
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Stand out from the crowd. Competitors see our best features.",
+        "target": "A apresentação atraiu atenção e animou a conversa comercial. Ao mostrar tantos detalhes, cedemos parte da vantagem de organização que a equipe tinha desenvolvido."
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",1,\"text\"]": {
+        "source": "Solid presentation, hold back innovations",
+        "target": "Apresentar o atendimento, reservando detalhes da rotina"
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Competitive but not revealing. Might not win.",
+        "target": "Conseguimos conversar com possíveis clientes e aproveitar observações do encontro. Mantivemos parte do método fora da demonstração aberta."
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",2,\"text\"]": {
+        "source": "Decline and request private meeting",
+        "target": "Propor uma conversa reservada com a empresa interessada"
+      },
+      "[\"marketing\",\"priya\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid the circus. They might not accommodate.",
+        "target": "A conversa foi mais restrita, com espaço para entender o pedido e aperfeiçoar nossa preparação. Não tivemos a mesma exposição diante de todos os participantes."
+      },
+      "[\"marketing\",\"priya\",14,\"intro\"]": {
+        "source": "Three other UK AI startups have approached us about forming an alliance. We'd share resources—maybe a joint sales team for big deals, shared computer systems, even recommending each other to customers. Together we'd look more credible to large buyers than any of us alone. But we'd also be tying ourselves to companies that might fail, change direction, or become competitors.",
+        "target": "Três negócios fictícios propõem uma parceria para apresentar ofertas em conjunto, compartilhar esforço de preparação e indicar clientes. A aproximação amplia contatos, mas também pode trazer dependências."
+      },
+      "[\"marketing\",\"priya\",14,\"aside\"]": {
+        "source": "Startup alliances can punch above their weight. But they're fragile—everyone's priorities shift, funding situations change, and today's partner might be tomorrow's competitor.",
+        "target": "Quero avaliar quanto conseguimos coordenar sem sobrecarregar as pessoas. Uma boa conversa entre negócios não substitui o trabalho de organizar cada atendimento."
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",0,\"text\"]": {
+        "source": "Join the alliance fully",
+        "target": "Participar de toda a preparação e das apresentações conjuntas"
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Strength in numbers. We sink or swim together.",
+        "target": "Ampliamos os contatos e organizamos melhor a preparação dos atendimentos. A coordenação entre negócios, porém, sobrecarregou a equipe; esse esforço também entra na conta."
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",1,\"text\"]": {
+        "source": "Join loosely—recommend each other only",
+        "target": "Manter apenas indicações e uma aproximação mais simples"
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Low commitment. Benefits without deep entanglement.",
+        "target": "Ampliamos algumas conversas comerciais e ajustamos a preparação sem assumir toda a coordenação conjunta. Vamos acompanhar as indicações caso a caso."
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",2,\"text\"]": {
+        "source": "Decline—we'll build our own credibility",
+        "target": "Recusar a parceria e seguir com a organização própria"
+      },
+      "[\"marketing\",\"priya\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Independence preserved. Earn it ourselves.",
+        "target": "Mantivemos o atendimento independente e usamos o espaço para melhorar nossa rotina. As apresentações conjuntas seguem sem a nossa participação."
+      },
+      "[\"marketing\",\"priya\",15,\"intro\"]": {
+        "source": "A group of startups is trying to create common rules for how companies in our industry share information with each other. If it works, customers wouldn't be trapped with one vendor anymore—they could easily switch between us. We'd all benefit from a bigger market. But creating industry standards is slow, political, and most attempts fail. Our time could go toward our own product instead.",
+        "target": "Alguns negócios fictícios querem combinar uma forma voluntária de registrar pedidos e apresentar informações aos clientes. Isso pode facilitar a comparação entre fornecedores, mas preparar o modelo em conjunto consome tempo que também faz falta no nosso atendimento."
+      },
+      "[\"marketing\",\"priya\",15,\"aside\"]": {
+        "source": "Common standards create bigger markets. But most attempts die in endless meetings, and even successful ones take years. The question is whether the collective benefit is worth the individual cost.",
+        "target": "Um formato comum pode ajudar os clientes a escolher, sem prender ninguém a um fornecedor. Mas podemos passar anos em reuniões sem chegar a algo útil; quero avaliar esse esforço antes de assumir a frente."
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",0,\"text\"]": {
+        "source": "Lead the standards effort",
+        "target": "Liderar a preparação do modelo comum de informações"
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Shape the future. Distract from our product. If it works, we're kingmakers.",
+        "target": "Ampliamos os contatos e o aprendizado com os outros negócios. A liderança, porém, desviou bastante esforço da nossa rotina e prejudicou sua organização."
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",1,\"text\"]": {
+        "source": "Participate but don't lead",
+        "target": "Participar da preparação sem assumir a liderança"
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Stay informed, influence direction, limited commitment.",
+        "target": "Acompanhamos as propostas e contribuímos com nossa experiência, com um compromisso menor de tempo e recursos."
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",2,\"text\"]": {
+        "source": "Wait and adopt if it succeeds",
+        "target": "Esperar e avaliar o modelo se ele funcionar"
+      },
+      "[\"marketing\",\"priya\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Smart timing. Let others take the risk.",
+        "target": "Seguimos organizando nosso próprio atendimento. Se o modelo comum se mostrar útil, poderemos avaliar como adotá-lo, sem antecipar esse resultado."
+      },
+      "[\"marketing\",\"priya\",16,\"intro\"]": {
+        "source": "Another startup has proposed we build a connection between our products so they work together smoothly. Their customers would benefit from our AI; our customers would benefit from their data. But we'd need to share technical details, coordinate our plans, and trust them not to copy our approach.",
+        "target": "Outro negócio fictício propõe coordenar o atendimento conosco. Cada um contribuiria com sua experiência, mas precisaríamos compartilhar detalhes da rotina e confiar no cumprimento dos combinados."
+      },
+      "[\"marketing\",\"priya\",16,\"aside\"]": {
+        "source": "Connecting deeply with other startups can create powerful combined offerings. But both sides need to stay healthy, maintain trust, and keep pulling in the same direction—a lot can go wrong.",
+        "target": "Uma oferta conjunta pode atender melhor alguns pedidos. Também cria dependência: os dois lados precisam manter o atendimento e acompanhar as mudanças de planos."
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",0,\"text\"]": {
+        "source": "Build a deep connection together",
+        "target": "Organizar um atendimento conjunto mais integrado"
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Powerful together. Dependent on each other's success and honesty.",
+        "target": "Recebemos pelos pedidos atendidos em conjunto e melhoramos a preparação. A continuidade desse atendimento depende também da organização e dos combinados do parceiro."
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",1,\"text\"]": {
+        "source": "Simple connection—easy to undo",
+        "target": "Combinar uma colaboração simples, fácil de encerrar"
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Works but not magic. Either side can walk away.",
+        "target": "Recebemos pelos atendimentos dessa colaboração menor. A rotina fica mais simples de separar se algum dos negócios mudar de direção."
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",2,\"text\"]": {
+        "source": "Decline—too risky to depend on them",
+        "target": "Recusar a colaboração e manter o atendimento próprio"
+      },
+      "[\"marketing\",\"priya\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Our product stands alone. Full control.",
+        "target": "Seguimos com nossa própria organização, sem depender desse parceiro para preparar o atendimento."
+      },
+      "[\"marketing\",\"priya\",17,\"intro\"]": {
+        "source": "We've been asked to split the cost of building a shared system with two other startups—a common way to process and move data that all three companies would use. It would cost each of us £20k, but building it alone would cost £35k. The catch: if any company fails or changes direction, the others are stuck maintaining their share.",
+        "target": "Dois outros negócios fictícios nos convidaram a dividir a preparação de materiais e de uma rotina comum de organização de pedidos. Compartilhar sai menos caro do que preparar tudo sozinhos, mas alguém terá de cuidar do trabalho se um parceiro sair."
+      },
+      "[\"marketing\",\"priya\",17,\"aside\"]": {
+        "source": "Sharing costs makes sense when everyone's going the same direction. But startups change constantly. What happens when one partner gets bought, runs out of money, or decides they don't need this anymore?",
+        "target": "Dividir o esforço ajuda enquanto os negócios seguem na mesma direção. Quero pensar em quem manterá os materiais e os combinados se um deles deixar de participar."
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",0,\"text\"]": {
+        "source": "Share the cost with the others",
+        "target": "Dividir a preparação e os custos com os outros negócios"
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Cheaper together. Hope everyone stays committed.",
+        "target": "Conseguimos organizar os materiais com um gasto menor por participante. Ainda precisamos acompanhar o compromisso dos parceiros e a divisão do trabalho."
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",1,\"text\"]": {
+        "source": "Build our own—keep control",
+        "target": "Preparar nossa própria rotina e os materiais necessários"
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",1,\"reaction\"]": {
+        "source": "More expensive but we own it completely. No dependencies.",
+        "target": "Gastamos mais para preparar tudo por conta própria e avançamos mais na organização. A manutenção fica conosco, sem depender dos outros participantes."
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",2,\"text\"]": {
+        "source": "Use ready-made solutions instead",
+        "target": "Usar materiais de organização já disponíveis"
+      },
+      "[\"marketing\",\"priya\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Less tailored to our needs, but simple.",
+        "target": "Adotamos materiais mais simples e menos ajustados ao nosso atendimento. A preparação exige menos esforço, com um resultado mais limitado."
+      },
+      "[\"marketing\",\"priya\",18,\"intro\"]": {
+        "source": "Several startups in our space are talking about jointly lobbying the government on AI regulation. Together we could afford professional lobbyists and present a united industry voice. Separately, none of us have the resources or credibility. But agreeing on policy positions among competitors is complicated.",
+        "target": "Alguns negócios fictícios querem preparar uma proposta conjunta para melhorar a organização do atendimento e apresentá-la num encontro local. Sozinhos teriam pouca presença, mas combinar posições entre concorrentes pode ser difícil."
+      },
+      "[\"marketing\",\"priya\",18,\"aside\"]": {
+        "source": "Collective lobbying shapes regulation before it shapes you. But getting competitors to agree on anything is hard, and whatever you advocate will be public—potentially alienating customers or investors who disagree.",
+        "target": "Uma proposta conjunta pode tornar nossas dificuldades mais claras. As posições apresentadas também ficarão conhecidas, inclusive por clientes que discordem delas; não se trata de criar uma norma obrigatória."
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",0,\"text\"]": {
+        "source": "Lead the lobbying coalition",
+        "target": "Liderar a preparação e a apresentação da proposta conjunta"
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Shape the rules. Spend time on politics instead of product.",
+        "target": "Ampliamos as conversas e o aprendizado, mas liderar a articulação desviou esforço da nossa rotina e prejudicou sua organização."
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",1,\"text\"]": {
+        "source": "Participate and contribute",
+        "target": "Participar e contribuir com a preparação"
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Voice in the room without leading. Share the cost and influence.",
+        "target": "Levamos nossa experiência à conversa e dividimos o esforço da preparação, sem assumir a liderança da proposta."
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",2,\"text\"]": {
+        "source": "Stay out of politics",
+        "target": "Não participar da articulação e cuidar da própria rotina"
+      },
+      "[\"marketing\",\"priya\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on product. Let others lobby.",
+        "target": "Mantivemos o foco na nossa organização e acompanhamos o que poderia ser aprendido com a discussão, sem assumir a preparação conjunta."
+      },
+      "[\"marketing\",\"priya\",19,\"intro\"]": {
+        "source": "A new platform—not yet dominant but growing fast—wants us as an early partner. We'd get first access, featured placement, and a say in how they build things. But the platform might fail, leaving us with wasted work. Or it might take off and we'd be locked in as a favoured partner from the start.",
+        "target": "Um novo canal fictício de aproximação entre negócios e clientes quer nossa participação desde o início. O convite inclui destaque na apresentação e espaço para ajudar a organizar o atendimento, mas o canal pode não se sustentar."
+      },
+      "[\"marketing\",\"priya\",19,\"aside\"]": {
+        "source": "Early bets on new platforms can be transformative—like being one of the first apps on a major social network or team chat platform. They can also be expensive dead ends. Timing is everything.",
+        "target": "Participar cedo pode abrir contatos ou consumir esforço numa iniciativa que não avance. Preciso avaliar essa oportunidade sem tratar uma posição inicial como venda garantida."
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",0,\"text\"]": {
+        "source": "Bet early on the new platform",
+        "target": "Participar desde o início do novo canal comercial"
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",0,\"reaction\"]": {
+        "source": "High risk, but potential to be first in line.",
+        "target": "Ampliamos a apresentação comercial e organizamos o atendimento para esse canal. O esforço já foi feito, mas os próximos resultados ainda dependem de como ele avançar."
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",1,\"text\"]": {
+        "source": "Wait and see if it takes off",
+        "target": "Esperar para avaliar se o novo canal se sustenta"
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Lower risk. Might miss the best position.",
+        "target": "Acompanhamos a iniciativa e preparamos melhor nossa aproximação. Podemos perder espaço entre os primeiros participantes, mas assumimos um compromisso menor agora."
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",2,\"text\"]": {
+        "source": "Focus on established platforms only",
+        "target": "Concentrar o atendimento nos canais que já conhecemos"
+      },
+      "[\"marketing\",\"priya\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Reliable approach. Proven returns.",
+        "target": "Seguimos apresentando o atendimento por caminhos conhecidos. A experiência ajuda na abordagem, mas cada venda ainda precisa ser conquistada."
+      },
+      "[\"marketing\",\"priya\",20,\"intro\"]": {
+        "source": "A competitor has proposed we team up to win a customer that neither of us could win alone—the contract is simply too big for any single startup. We'd split the work and the money. It could be the start of ongoing collaboration or just a one-off necessity. Either way, we'd be sharing a customer relationship with a rival.",
+        "target": "Um concorrente propõe dividir conosco um pedido grande demais para qualquer um dos dois atender sozinho. Compartilharíamos o trabalho e os recebimentos, mas também o contato com um cliente que ambos querem conquistar."
+      },
+      "[\"marketing\",\"priya\",20,\"aside\"]": {
+        "source": "Teaming up with competitors is surprisingly common when deals are too large for any one company. But it requires trusting companies you normally fight for the same customers.",
+        "target": "Atender juntos pode viabilizar esse pedido. Quero considerar o esforço de coordenação e a confiança necessária para dividir o atendimento com quem também disputa clientes conosco."
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",0,\"text\"]": {
+        "source": "Partner for this deal",
+        "target": "Dividir o atendimento deste pedido com o concorrente"
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Win together what we couldn't win alone. Complicated relationship.",
+        "target": "Recebemos pela parte atendida e ampliamos a presença comercial. A coordenação da parceria, porém, sobrecarregou a equipe."
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",1,\"text\"]": {
+        "source": "Decline and bid solo",
+        "target": "Recusar a parceria e tentar atender por conta própria"
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Long shot alone. At least we keep full control.",
+        "target": "Recebemos pela parte do pedido que conseguimos atender sozinhos. Mantivemos a condução do trabalho e aprendemos com a preparação, sem assumir o pedido inteiro."
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",2,\"text\"]": {
+        "source": "Pass on this opportunity",
+        "target": "Deixar esse pedido de lado e manter o foco na rotina"
+      },
+      "[\"marketing\",\"priya\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid complexity. Stay focused.",
+        "target": "Não assumimos a coordenação desse pedido e usamos o espaço para melhorar nossa organização."
+      },
+      "[\"marketing\",\"priya\",21,\"intro\"]": {
+        "source": "A potential customer wants to use our AI for something we're uncomfortable with—not illegal, but ethically questionable. They're a significant contract. Our terms of service are vague enough that we could technically allow it, but some team members think we shouldn't.",
+        "target": "Um possível cliente quer um atendimento para uma finalidade que deixa parte da equipe desconfortável. O pedido é importante para as vendas, mas nossos combinados ainda não deixam claro se queremos participar desse tipo de trabalho."
+      },
+      "[\"marketing\",\"priya\",21,\"aside\"]": {
+        "source": "You can't always control how your product is used, but you can choose who you sell to. Saying no to revenue is hard. Saying yes to the wrong use case can define your company.",
+        "target": "Podemos escolher a quem atender. Quero ouvir a equipe e pensar nas consequências do pedido, sem tratar o pagamento como resposta suficiente para toda dúvida."
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",0,\"text\"]": {
+        "source": "Decline the contract—values matter",
+        "target": "Recusar o pedido por não combinar com nossos valores"
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Walk away from money. Keep our integrity.",
+        "target": "Recusamos o pedido e assumimos uma perda adicional de caixa, além do gasto de preparação. A equipe reconheceu a decisão e ficou mais unida em torno do que considera importante."
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",1,\"text\"]": {
+        "source": "Accept with use restrictions in the contract",
+        "target": "Aceitar e combinar limites para o atendimento"
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Try to limit the problematic use. Hard to enforce.",
+        "target": "Recebemos pelo atendimento e procuramos delimitar o que faríamos. Esses combinados ajudam a conversa, mas não asseguram como o cliente usará o resultado do trabalho."
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",2,\"text\"]": {
+        "source": "Accept—it's their responsibility how they use it",
+        "target": "Aceitar sem discutir limites para a finalidade do pedido"
+      },
+      "[\"marketing\",\"priya\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Revenue now. Reputation questions later.",
+        "target": "Recebemos pelo atendimento como foi pedido. As dúvidas continuaram e desgastaram a confiança da equipe, deixando a relação desconfortável."
+      },
+      "[\"marketing\",\"priya\",22,\"intro\"]": {
+        "source": "We're being asked to build AI for a customer that makes decisions about people—hiring, lending, insurance pricing. They want the AI to optimise for their business metrics. But their metrics might encode biases or create unfair outcomes. Do we build what they want, push back, or walk away?",
+        "target": "Um cliente fictício quer organizar a prioridade dos pedidos olhando apenas para o resultado comercial. Esses critérios podem deixar algumas demandas sempre para depois. Vamos seguir o pedido, discutir os critérios ou recusar o trabalho?"
+      },
+      "[\"marketing\",\"priya\",22,\"aside\"]": {
+        "source": "AI that affects life outcomes is high-stakes. You might be building a tool that discriminates, even unintentionally. Some companies build whatever they're paid to; others refuse high-risk applications entirely.",
+        "target": "Uma escolha de organização também afeta quem recebe atendimento. Quero examinar os critérios e os casos deixados de lado, sem presumir que um aviso resolve uma decisão ruim."
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",0,\"text\"]": {
+        "source": "Engage but insist on fairness auditing",
+        "target": "Aceitar e conferir os critérios e os casos de atendimento"
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",0,\"reaction\"]": {
+        "source": "Do the work responsibly. Adds cost and complexity for everyone.",
+        "target": "Recebemos pelo trabalho e examinamos os critérios com mais cuidado. A revisão trouxe aprendizado e exigiu preparação adicional, sem assegurar que todo problema será evitado."
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",1,\"text\"]": {
+        "source": "Build what they want with standard disclaimers",
+        "target": "Seguir os critérios pedidos e apenas apresentar uma ressalva"
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Their use case, their responsibility. Hope nothing goes wrong.",
+        "target": "Recebemos pelo trabalho seguindo os critérios do cliente. A ressalva foi apresentada, mas não resolve por si só os problemas que esses critérios podem causar."
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",2,\"text\"]": {
+        "source": "Decline high-risk applications entirely",
+        "target": "Recusar esse tipo de organização do atendimento"
+      },
+      "[\"marketing\",\"priya\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Clear ethics. Team proud of our standards.",
+        "target": "Não assumimos o trabalho. A equipe reconheceu o limite que escolhemos para nossa participação."
+      },
+      "[\"marketing\",\"priya\",23,\"intro\"]": {
+        "source": "A defence contractor wants to license our AI. The application is logistics and planning—nothing lethal. But it's part of a military supply chain, and our technology could eventually end up in weapons systems. Some employees would resign; others see defence as a legitimate customer.",
+        "target": "Um cliente fictício cuja atividade divide opiniões da equipe quer contratar apoio para organizar pedidos e entregas. Parte das pessoas vê esse atendimento como uma relação comercial comum; outra parte não quer se envolver nessa atividade."
+      },
+      "[\"marketing\",\"priya\",23,\"aside\"]": {
+        "source": "The defence sector is a genuine ethical divide. Some see it as protecting democracy; others won't participate at any level. There's no consensus view—even within single companies.",
+        "target": "A divergência não desaparece só porque nosso trabalho é de apoio. Quero considerar o alcance do atendimento e ouvir a equipe, sem fingir que existe uma resposta aceita por todos."
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",0,\"text\"]": {
+        "source": "Accept—logistics isn't weapons",
+        "target": "Aceitar o apoio à organização dos pedidos e entregas"
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Draw the line at direct harm. Some staff uncomfortable.",
+        "target": "Recebemos pelo atendimento combinado. A decisão provocou forte desgaste na equipe, mesmo com o trabalho limitado à organização dos pedidos e entregas."
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",1,\"text\"]": {
+        "source": "Decline all defence work",
+        "target": "Recusar todo atendimento ligado a essa atividade"
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Clear policy. Lose a lucrative sector. Some staff relieved.",
+        "target": "Algumas pessoas ficaram aliviadas e a equipe se fortaleceu com o limite adotado. Ao mesmo tempo, perdemos espaço comercial entre esses clientes."
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",2,\"text\"]": {
+        "source": "Case-by-case review",
+        "target": "Examinar separadamente cada pedido desse cliente"
+      },
+      "[\"marketing\",\"priya\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Flexibility but constant internal debates.",
+        "target": "Recebemos pelo atendimento que aceitamos e melhoramos sua preparação. As avaliações continuam exigindo conversa interna a cada novo pedido."
+      },
+      "[\"marketing\",\"priya\",24,\"intro\"]": {
+        "source": "A buyer wants to use our AI to automate content moderation for their social platform—taking down posts, banning users, flagging content. Our AI will make consequential decisions about speech. It will make mistakes. Some mistakes will be high-profile.",
+        "target": "Um cliente fictício quer nossa ajuda para separar reclamações e pedidos de revisão do atendimento. Será preciso decidir o que retomar, encaminhar ou encerrar. Um erro pode deixar uma demanda sem resposta ou prolongar um problema."
+      },
+      "[\"marketing\",\"priya\",24,\"aside\"]": {
+        "source": "Content moderation is one of the hardest AI applications. False positives silence legitimate speech; false negatives let harm through. There's no way to get it right, only trade-offs about what kind of wrong you prefer.",
+        "target": "Organizar as demandas exige escolhas e atenção aos erros. Quero deixar claro quem confere os encaminhamentos e quem decide, sem prometer que uma rotina elimina todos os problemas."
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",0,\"text\"]": {
+        "source": "Accept with human review requirements",
+        "target": "Aceitar e conferir os encaminhamentos antes de encerrar demandas"
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",0,\"reaction\"]": {
+        "source": "AI flags, humans decide. Slower but fewer disasters.",
+        "target": "Recebemos pelo atendimento e organizamos uma conferência dos encaminhamentos. A preparação ficou mais cuidadosa e trouxe aprendizado, sem eliminar a possibilidade de erro."
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",1,\"text\"]": {
+        "source": "Accept as purely assistive tool",
+        "target": "Apenas organizar as sugestões para o cliente decidir"
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Recommend, don't decide. Less liability, less value.",
+        "target": "Recebemos pelo trabalho de organizar os possíveis encaminhamentos. A decisão fica com o cliente, e precisamos explicar as limitações das sugestões apresentadas."
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",2,\"text\"]": {
+        "source": "Decline—too high-risk for our reputation",
+        "target": "Recusar o trabalho pelo risco de um atendimento inadequado"
+      },
+      "[\"marketing\",\"priya\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Protect our brand. Right decision.",
+        "target": "Não assumimos essa organização de demandas. A equipe reconheceu o limite adotado para o atendimento que estamos preparados para oferecer."
+      },
+      "[\"marketing\",\"priya\",25,\"intro\"]": {
+        "source": "A big prospect is about to sign. In the final meeting, they ask if we can do something we can't actually do yet. It's on our roadmap, maybe two months out. If we say no, we lose the deal. If we say yes, we're promising something that doesn't exist.",
+        "target": "Um possível cliente está perto de fechar um pedido e perguntou se fazemos algo que ainda não estamos preparados para entregar. Pensávamos em organizar esse atendimento talvez em dois meses. Dizer que já está pronto seria prometer o que ainda não existe."
+      },
+      "[\"marketing\",\"priya\",25,\"aside\"]": {
+        "source": "Selling the roadmap is standard startup practice. But there's a spectrum from 'coming soon' to 'we haven't started building it'. Promising features that don't exist can win deals—or destroy trust when you can't deliver.",
+        "target": "Apresentar um plano é diferente de anunciar um atendimento pronto. Quero avaliar o que conseguimos preparar e explicar essa diferença antes de assumir o pedido."
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",0,\"text\"]": {
+        "source": "Be honest—it's not ready yet",
+        "target": "Explicar que esse atendimento ainda não está pronto"
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Might lose the deal. Keep our integrity.",
+        "target": "A conversa comercial perdeu força, mas fomos claros sobre nossa preparação. A equipe ganhou confiança nessa forma de apresentar o que podemos fazer."
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",1,\"text\"]": {
+        "source": "Commit to delivery with a realistic timeline",
+        "target": "Combinar uma data que avaliamos ser possível cumprir"
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Promise it for a specific date. Pressure on the team.",
+        "target": "Recebemos pelo trabalho combinado com data definida. A preparação acelerada consumiu parte da organização da rotina, embora a equipe tenha se alinhado ao compromisso."
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",2,\"text\"]": {
+        "source": "Say yes and figure it out later",
+        "target": "Dizer que fazemos e resolver a preparação depois"
+      },
+      "[\"marketing\",\"priya\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Win the deal. Scramble to deliver. Hope we can.",
+        "target": "Recebemos pelo pedido, mas a correria prejudicou bastante a organização e desgastou a equipe. O compromisso assumido sem preparo deixou a relação desconfortável."
+      },
+      "[\"marketing\",\"priya\",26,\"intro\"]": {
+        "source": "We're in a competitive pitch. Our product is genuinely better at some things, worse at others. The buyer is clearly comparing us to our main competitor. We could give a balanced comparison, or we could emphasise only where we win and hope they don't dig into where we lose.",
+        "target": "Estamos apresentando uma proposta e o cliente compara nosso atendimento ao de um concorrente. Temos pontos fortes e limitações. Podemos apresentar os dois lados ou destacar só o que nos favorece."
+      },
+      "[\"marketing\",\"priya\",26,\"aside\"]": {
+        "source": "Every sales pitch emphasises strengths. But there's a difference between 'best foot forward' and 'actively misleading'. Customers who buy based on misleading comparisons often become angry ex-customers.",
+        "target": "Valorizar uma qualidade é diferente de levar o cliente a uma conclusão sem base. Quero pensar na confiança que vamos precisar depois que o pedido estiver fechado."
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",0,\"text\"]": {
+        "source": "Balanced comparison—strengths and limitations",
+        "target": "Comparar nossos pontos fortes e nossas limitações"
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Honest. Might lose to someone who oversells.",
+        "target": "A apresentação ficou mais clara para o cliente e fortaleceu a confiança da equipe, mesmo com o risco de perder a venda para uma promessa mais atraente."
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",1,\"text\"]": {
+        "source": "Focus on our strengths, don't mention weaknesses",
+        "target": "Destacar os pontos fortes e omitir as limitações"
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",1,\"reaction\"]": {
+        "source": "Standard practice. Hope they don't ask the right questions.",
+        "target": "Recebemos pelo pedido após uma apresentação concentrada nos nossos pontos fortes. As limitações ficaram fora da conversa e ainda precisarão ser tratadas no atendimento."
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",2,\"text\"]": {
+        "source": "Imply competitor weaknesses we can't prove",
+        "target": "Sugerir falhas do concorrente sem ter como demonstrá-las"
+      },
+      "[\"marketing\",\"priya\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Aggressive. Might backfire badly if they check.",
+        "target": "Recebemos pelo pedido, mas a comparação sem base provocou forte desgaste na confiança da equipe. A forma de conduzir a venda deixou a relação desconfortável."
+      },
+      "[\"marketing\",\"priya\",27,\"intro\"]": {
+        "source": "A prospect asks for references. Our two happy customers are tired of taking calls—we've used them for every pitch this quarter. Our three unhappy customers would give honest but damaging feedback. We could ask the happy ones again, find creative ways to avoid giving references, or be honest about our mixed track record.",
+        "target": "Um possível cliente fictício quer conversar com quem já atendemos. Nossos dois clientes satisfeitos estão cansados de participar de todas as apresentações deste trimestre, e três clientes com críticas dariam relatos menos favoráveis. Como vamos apresentar essas referências?"
+      },
+      "[\"marketing\",\"priya\",27,\"aside\"]": {
+        "source": "References are social proof. Everyone cherry-picks their best ones. But sophisticated buyers know this and sometimes insist on talking to customers you didn't choose. What happens when they find the unhappy ones?",
+        "target": "É comum escolher os melhores relatos, mas um cliente cuidadoso pode querer ouvir outras experiências. Precisamos pensar no que vamos dizer quando surgirem as críticas."
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",0,\"text\"]": {
+        "source": "Offer balanced references including critics",
+        "target": "Apresentar referências variadas, incluindo quem tem críticas"
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Brave. Shows confidence in addressing problems.",
+        "target": "Mostramos disposição para tratar os problemas e apresentar uma experiência mais completa. A equipe ganhou confiança nessa forma de conversar sobre o atendimento."
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",1,\"text\"]": {
+        "source": "Use the happy ones again, apologise for asking",
+        "target": "Pedir novamente a ajuda dos clientes satisfeitos"
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",1,\"reaction\"]": {
+        "source": "Standard practice. Hope they don't get tired of us.",
+        "target": "Recebemos pelo pedido após apresentar essas referências. Agradecemos a ajuda dos clientes satisfeitos, sem esquecer o desgaste de recorrer sempre às mesmas pessoas."
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",2,\"text\"]": {
+        "source": "Delay and deflect on references",
+        "target": "Adiar a apresentação das referências e mudar o foco da conversa"
+      },
+      "[\"marketing\",\"priya\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Buy time to close the deal.",
+        "target": "Ganhamos tempo na conversa comercial, mas as referências continuam pendentes. Ainda precisaremos explicar nosso histórico de atendimento."
+      },
+      "[\"marketing\",\"priya\",28,\"intro\"]": {
+        "source": "SLUSH—the Helsinki startup conference—has invited us to their curated founder track. It's not a booth situation; it's two days of structured meetings with Nordic VCs and corporate innovation heads. The Finns built this thing from a student project into Europe's most intense investor matchmaking event. Twenty thousand people in a repurposed shipyard in November darkness.",
+        "target": "Recebemos um convite para um encontro de negócios fictício com dois dias de conversas organizadas entre responsáveis por negócios e possíveis clientes. O foco está nas reuniões, sem preparar um espaço de exposição. Vale participar?"
+      },
+      "[\"marketing\",\"priya\",28,\"aside\"]": {
+        "source": "SLUSH is weird and wonderful. Volunteers running everything, brutal cold, everyone genuinely engaged. The Nordics take it seriously—this is where Supercell, Wolt, and dozens of others found their backers. It's not about visibility; it's about conversations.",
+        "target": "O valor desse convite está nas conversas e nos contatos que conseguirmos acompanhar depois. Uma agenda cheia não transforma apresentação em venda confirmada."
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",0,\"text\"]": {
+        "source": "Attend the full founder track",
+        "target": "Participar dos dois dias de conversas organizadas"
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",0,\"reaction\"]": {
+        "source": "Two days of back-to-back meetings with serious people. We'll come back exhausted with warm introductions.",
+        "target": "Foram dois dias de reuniões seguidas. Voltamos cansados, com contatos apresentados e mais aproximação entre as pessoas da equipe, sem antecipar novos pedidos."
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",1,\"text\"]": {
+        "source": "Send someone to scout it this year",
+        "target": "Enviar uma pessoa para conhecer a edição deste ano"
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",1,\"reaction\"]": {
+        "source": "See if it's worth the founder's time next year. Lower stakes.",
+        "target": "Conhecemos melhor o encontro com uma participação menor. Isso ajuda a avaliar se vale dedicar mais tempo à próxima edição."
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",2,\"text\"]": {
+        "source": "Skip it—conferences aren't our channel",
+        "target": "Não participar e concentrar o esforço na própria rotina"
+      },
+      "[\"marketing\",\"priya\",28,\"choices\",2,\"reaction\"]": {
+        "source": "Fair. Some companies thrive without the conference circuit.",
+        "target": "Preferimos seguir organizando o atendimento e os contatos pelos caminhos que já usamos. Nem todo negócio precisa participar desse tipo de encontro."
+      },
+      "[\"marketing\",\"priya\",29,\"intro\"]": {
+        "source": "EIT Digital's Stockholm hub is recruiting for their scaleup programme. The Swedes run the tightest ship in the network—alumni include companies now selling to Ericsson, Volvo, and half the Nordic telecoms. Six months of structured introductions to corporate innovation buyers across Scandinavia and Germany. No cash, but access you couldn't buy.",
+        "target": "Um programa fictício de aproximação comercial nos convida para seis meses de conversas organizadas com possíveis clientes. Não há repasse de caixa; a proposta é ampliar contatos. Participar também consome tempo da nossa rotina."
+      },
+      "[\"marketing\",\"priya\",29,\"aside\"]": {
+        "source": "The Stockholm hub benefits from Sweden's absurd density of successful tech companies. The programme managers know everyone. If we want Nordic enterprise customers, this is the fast track. The trade-off is time in Stockholm rather than building.",
+        "target": "A organização das apresentações pode facilitar conversas que seriam difíceis de marcar por conta própria. Quero avaliar esse acesso junto com o tempo e o trabalho de acompanhar cada contato."
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",0,\"text\"]": {
+        "source": "Join and engage actively with corporate partners",
+        "target": "Participar ativamente das apresentações e dos encontros"
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",0,\"reaction\"]": {
+        "source": "Nordic enterprise on a plate. Swedes are hard to crack from outside but loyal once you're in.",
+        "target": "Ampliamos as conversas comerciais e organizamos melhor a preparação do atendimento. Os contatos ainda precisam ser acompanhados, sem promessa de venda."
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",1,\"text\"]": {
+        "source": "Join but cherry-pick relevant introductions",
+        "target": "Participar apenas das apresentações mais relevantes"
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",1,\"reaction\"]": {
+        "source": "Take what's useful, skip the rest. They might notice we're not fully engaged.",
+        "target": "Aproveitamos as conversas que fazem mais sentido e aprendemos com elas. A participação menor pode não corresponder ao envolvimento esperado pela organização do programa."
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",2,\"text\"]": {
+        "source": "Decline—we'll find our own customers",
+        "target": "Recusar e buscar clientes por conta própria"
+      },
+      "[\"marketing\",\"priya\",29,\"choices\",2,\"reaction\"]": {
+        "source": "Direct sales over programme intermediaries. Fair approach.",
+        "target": "Seguimos preparando nossa abordagem direta, sem depender das apresentações do programa."
+      },
+      "[\"marketing\",\"priya\",30,\"intro\"]": {
+        "source": "A Lisbon firm we met at a conference is assembling a consortium for a European grant bid and wants us as its AI partner. Horizon Europe consortia need members from several countries, and since association UK firms can join again. Nobody gets rich on the money: the grant reimburses the costs of the work it commissions. What a small firm gains is the network, the credibility of a European bid with our name on it, and a seat at tables we could not book ourselves. The price is in the consortium agreement: months of coordination calls, Brussels-grade reporting, and a clause on who owns what we build together.",
+        "target": "Um negócio fictício que conhecemos num encontro está preparando uma proposta conjunta de atendimento e quer nossa participação. A preparação envolve meses de reuniões, divisão de tarefas e um combinado sobre o uso dos materiais produzidos em conjunto."
+      },
+      "[\"marketing\",\"priya\",30,\"aside\"]": {
+        "source": "European money comes with European meetings.",
+        "target": "Uma proposta conjunta pode abrir contatos, mas também ocupa a agenda. Quero entender nossa parte do trabalho e o que ficará combinado sobre os materiais, sem presumir um recebimento de caixa."
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",0,\"text\"]": {
+        "source": "Join as a full partner, help shape the bid",
+        "target": "Participar da preparação e ajudar a definir a proposta"
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",0,\"reaction\"]": {
+        "source": "Months of calls and one trip to Lisbon, and our name on a European bid. Win or lose, three partners now know our work.",
+        "target": "Foram meses de reuniões e uma visita de trabalho. Nosso nome entrou na proposta e, independentemente do resultado, três parceiros passaram a conhecer melhor nosso atendimento."
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",1,\"text\"]": {
+        "source": "Join as a minor partner: less say, less work",
+        "target": "Participar com uma parte menor do trabalho e das decisões"
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",1,\"reaction\"]": {
+        "source": "A modest work package with our name on it. The coordination calls happen mostly without us.",
+        "target": "Assumimos tarefas delimitadas e aparecemos na proposta conjunta. A maior parte da coordenação ficou com os outros participantes."
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",2,\"text\"]": {
+        "source": "Decline: the IP clause is too vague",
+        "target": "Recusar porque o combinado sobre os materiais está pouco claro"
+      },
+      "[\"marketing\",\"priya\",30,\"choices\",2,\"reaction\"]": {
+        "source": "The consortium finds another AI partner. We keep our code and our calendar.",
+        "target": "Não entramos na proposta. Mantivemos os materiais conosco e usamos o espaço da agenda para melhorar nossa própria organização."
+      },
+      "[\"marketing\",\"priya\",31,\"intro\"]": {
+        "source": "The Polish AI Society is hosting their annual conference in Warsaw, and they've offered us a keynote slot. Poland's tech scene has matured rapidly—serious research at Jagiellonian and Warsaw universities, growing startup ecosystem, and Central European enterprises looking for AI partners. The conference draws CTOs from across the Visegrád countries.",
+        "target": "Um encontro fictício de negócios de outra região nos convidou para fazer a apresentação de abertura. Participar pode aproximar nosso atendimento de clientes que ainda conhecemos pouco. Vamos aceitar o convite?"
+      },
+      "[\"marketing\",\"priya\",31,\"aside\"]": {
+        "source": "Central Europe is often overlooked, but the technical talent is exceptional and the enterprises are digitising fast. A keynote in Warsaw signals we take the region seriously. The Poles appreciate directness—no hand-waving allowed.",
+        "target": "Uma apresentação pode mostrar interesse por essa região, mas as conversas depois da fala também exigem atenção. Quero decidir quanto tempo conseguimos dedicar ao encontro."
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",0,\"text\"]": {
+        "source": "Accept keynote and stay for networking day",
+        "target": "Fazer a abertura e ficar para o dia de conversas comerciais"
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",0,\"reaction\"]": {
+        "source": "Visibility across Central Europe. The conversations after the talk are where deals start.",
+        "target": "Apresentamos nossa experiência e aprendemos com as conversas que vieram depois. A presença ajudou a aproximar nosso atendimento de outros negócios."
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",1,\"text\"]": {
+        "source": "Give the keynote, return same day",
+        "target": "Fazer a apresentação e voltar no mesmo dia"
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",1,\"reaction\"]": {
+        "source": "Make the impression, limit the time commitment.",
+        "target": "Deixamos uma apresentação do nosso atendimento e aproveitamos parte das conversas, com um compromisso menor de tempo."
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",2,\"text\"]": {
+        "source": "Decline—Central Europe can wait",
+        "target": "Recusar e priorizar os mercados que já atendemos"
+      },
+      "[\"marketing\",\"priya\",31,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise markets we're already in. Understood.",
+        "target": "Mantivemos o esforço na organização do atendimento para os clientes e mercados que já conhecemos."
+      },
+      "[\"marketing\",\"priya\",32,\"intro\"]": {
+        "source": "A major US university wants to license our product for campus-wide use. It would be our first American deal, and a reference that opens the whole sector. Their compliance team has just sent 251 questions to be answered before contracts can even be drafted—data handling, security architecture, accessibility, export controls. Some of the answers would document exactly how our technology works.",
+        "target": "Um cliente fictício que atende várias unidades quer avaliar nosso atendimento. Antes de definir o pedido, enviou duzentas e cinquenta e uma perguntas sobre organização, materiais e acompanhamento dos trabalhos. Algumas respostas também abririam detalhes da nossa rotina."
+      },
+      "[\"marketing\",\"priya\",32,\"aside\"]": {
+        "source": "Enterprise compliance is a test of stamina as much as substance. The questionnaire also tells you what working with them will be like after the contract is signed.",
+        "target": "Responder exige preparo e atenção. O questionário também ajuda a conhecer as expectativas desse cliente e o esforço necessário para manter a relação depois."
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",0,\"text\"]": {
+        "source": "Answer all 251 properly",
+        "target": "Responder com cuidado às duzentas e cinquenta e uma perguntas"
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",0,\"reaction\"]": {
+        "source": "It takes over everyone's calendar. The answers become our standard pack for every future enterprise deal.",
+        "target": "O trabalho ocupou a agenda de todos, mas ajudou a organizar os materiais e a equipe. As respostas passaram a servir de referência para preparar outras propostas."
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",1,\"text\"]": {
+        "source": "Brief, factual answers—the bare minimum",
+        "target": "Dar respostas factuais bem breves, apenas o mínimo"
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Every answer one sentence. Compliant but joyless. Forty requests for clarification come back.",
+        "target": "Usamos uma frase para cada resposta. Depois voltaram quarenta pedidos de esclarecimento, mostrando que a concisão deixou dúvidas importantes."
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",2,\"text\"]": {
+        "source": "Let an LLM draft the answers, team reviews",
+        "target": "Usar um modelo de respostas e revisar o rascunho em equipe"
+      },
+      "[\"marketing\",\"priya\",32,\"choices\",2,\"reaction\"]": {
+        "source": "Done in two days. One answer was confidently wrong; we caught it on review. We think we caught them all.",
+        "target": "Preparamos as respostas em dois dias. A equipe encontrou e corrigiu uma resposta errada; a conferência feita não assegura que todos os outros erros tenham sido encontrados."
+      }
+    }
+  }
+}

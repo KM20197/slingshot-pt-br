@@ -9,7 +9,7 @@
     publicBank: Object.freeze({name:'Banco público', annualRate:0.24, quarters:12, borrower:'company'}),
     family: Object.freeze({name:'Empréstimo de familiares', annualRate:0.06, quarters:8, borrower:'owner'}),
     ngo: Object.freeze({name:'Crédito de ONG elegível', annualRate:0.08, quarters:12, borrower:'company'}),
-    informal: Object.freeze({name:'Agiotagem — cenário fictício', annualRate:1.20, quarters:4, borrower:'owner'})
+    informal: Object.freeze({name:'Crédito informal de alto risco', annualRate:1.20, quarters:4, borrower:'owner'})
   });
   function integer(value, label) {
     if (!Number.isSafeInteger(value) || value < 0) throw new TypeError(label + ': inteiro não negativo obrigatório.');

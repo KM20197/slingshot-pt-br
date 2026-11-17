@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "businesses": {
+    "avam": {
+      "label": "Assistência técnica de celulares",
+      "supervisor": {"label": "Supervisor de operações", "quarterlyCost": 16, "capacityBonus": 5},
+      "crew": {"label": "Técnicos de bancada", "count": 2, "maxCount": 5, "quarterlyCostEach": 8, "capacityEach": 4},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 4},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 5, "demandBonus": 1}
+      }
+    },
+    "dream": {
+      "label": "Minimercado",
+      "supervisor": {"label": "Supervisor de loja", "quarterlyCost": 15, "capacityBonus": 6},
+      "crew": {"label": "Atendentes e reposição", "count": 2, "maxCount": 5, "quarterlyCostEach": 7, "capacityEach": 5},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 4},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 5, "demandBonus": 1}
+      }
+    },
+    "quant": {
+      "label": "Gráfica e embalagens",
+      "supervisor": {"label": "Supervisor de produção", "quarterlyCost": 17, "capacityBonus": 5},
+      "crew": {"label": "Operadores de produção", "count": 2, "maxCount": 5, "quarterlyCostEach": 9, "capacityEach": 4},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 5},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 6, "demandBonus": 1}
+      }
+    },
+    "vanguard": {
+      "label": "Material de construção",
+      "supervisor": {"label": "Supervisor de loja e entrega", "quarterlyCost": 16, "capacityBonus": 6},
+      "crew": {"label": "Atendentes e separação", "count": 2, "maxCount": 5, "quarterlyCostEach": 8, "capacityEach": 5},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 4},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 5, "demandBonus": 1}
+      }
+    },
+    "legal": {
+      "label": "Higiene, perfumaria e conveniência",
+      "supervisor": {"label": "Supervisor de loja", "quarterlyCost": 15, "capacityBonus": 6},
+      "crew": {"label": "Atendentes e reposição", "count": 2, "maxCount": 5, "quarterlyCostEach": 7, "capacityEach": 5},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 4},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 5, "demandBonus": 1}
+      }
+    },
+    "arene": {
+      "label": "Loja de roupas",
+      "supervisor": {"label": "Supervisor de loja", "quarterlyCost": 15, "capacityBonus": 6},
+      "crew": {"label": "Atendentes e reposição", "count": 2, "maxCount": 5, "quarterlyCostEach": 7, "capacityEach": 5},
+      "contracts": {
+        "accounting": {"label": "Assessoria administrativa e contábil", "quarterlyCost": 4},
+        "marketing": {"label": "Marketing e promoção local", "quarterlyCost": 5, "demandBonus": 1}
+      }
+    }
+  }
+}

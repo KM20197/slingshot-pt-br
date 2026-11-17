@@ -1,0 +1,86 @@
+{
+  "voed": [
+    "As pessoas gostam da ideia e duvidam que conseguirão mantê-la. Já baixaram um aplicativo de alimentação antes e pararam de usá-lo. A curiosidade é fácil; o hábito é difícil.",
+    "A compra semanal é uma tarefa tediosa, e o desperdício gera uma culpa discreta. Qualquer coisa que reduza a conta sem acrescentar complicação ganha uma segunda semana.",
+    "'Tenho que escanear tudo?', 'Para onde vão meus dados de gastos?', 'Ele só vai ficar me importunando?'. Privacidade e esforço são os dois fatores que fazem as pessoas desistirem.",
+    "Para o consumidor, comprar é, na prática, continuar usando: o nível gratuito só converte quando o hábito já está estabelecido. As famílias decidem em conjunto, e um parceiro que ignora o aplicativo acaba com seu uso.",
+    "A pessoa que organiza a casa e faz as compras, o pai ou a mãe preocupado com sustentabilidade, quem economiza dinheiro e conta para todo mundo. Marta, enfermeira nascida na Polônia e residente em Leeds, que planeja as refeições para quatro pessoas, é o arquétipo."
+  ],
+  "arene": [
+    "Os clubes são curiosos e céticos. Já lhes venderam dashboards antes e querem provas no campo de treinamento, não uma demonstração.",
+    "As equipes estão sobrecarregadas, e uma decisão ruim pode custar uma temporada. Qualquer coisa que poupe tempo de um analista e não falhe durante uma transmissão chama a atenção.",
+    "'O treinador realmente vai usar isso?', 'E se estiver errado na frente do técnico?', 'Nós desenvolvemos o nosso próprio.' Confiança e orgulho interno são os obstáculos.",
+    "Primeiro um analista defensor da solução, depois o diretor de desempenho, depois a aprovação comercial, dentro de uma estreita janela de pré-temporada. Um piloto com uma equipe é essencial.",
+    "O jovem analista que vive mergulhado nos dados, o diretor de desempenho sob pressão, o diretor comercial em busca de uma vantagem. Ingrid, norueguesa e chefe de análise de um clube da Championship, é o arquétipo."
+  ],
+  "sorgente": [
+    "As pessoas querem ajuda e já tentaram aplicativos que perderam força. Desconfiam de mais um que promete demais.",
+    "Sono, estresse e a rotina comum da semana: problemas pequenos, diários e pouco atendidos. Qualquer coisa que ajude de forma discreta e consistente conquista confiança.",
+    "'Isso realmente funciona?', 'Meus dados são privados?', 'Isso é apenas mindfulness com outra embalagem?' Evidências e privacidade são os obstáculos.",
+    "No consumidor, a permanência vem pelo hábito; nas empresas, a compra passa por HR e saúde ocupacional; nos serviços de saúde, por evidências e por um defensor clínico.",
+    "O pai ou a mãe privado de sono, o responsável por bem-estar no HR, o GP procurando algo para recomendar. Katarina, enfermeira eslovaca de saúde ocupacional em Manchester, é o arquétipo."
+  ],
+  "avam": [
+    "Engenheiros testam antes de conversar. Julgam a documentação e a primeira hora de uso, não o discurso de vendas.",
+    "Custo, latência e dados que não podem sair das instalações. Qualquer solução que funcione onde a nuvem não pode operar recebe atenção séria.",
+    "'Por que não usar simplesmente o grande fornecedor?', 'Vocês ainda existirão daqui a dois anos?', 'Podemos hospedar nós mesmos?' Confiança e longevidade são os obstáculos.",
+    "A adoção começa de baixo para cima, pelos engenheiros; depois vem a conversão paga e, em seguida, um cliente âncora nomeado. Uma implementação de referência é o ponto de virada.",
+    "O staff engineer que defende a solução internamente, o CTO de uma empresa regulada, o parceiro de hardware que a incorpora à oferta. Tomasz, engenheiro polonês de nível staff em uma empresa industrial do UK, é o arquétipo."
+  ],
+  "cyber": [
+    "Segurança é importante, mas parece avassaladora. A maioria das SMEs sabe que deveria fazer mais, mas não sabe por onde começar.",
+    "Principais preocupações: 'complexo demais', 'não temos conhecimento especializado em IT', 'tivemos um susto, mas não sabíamos o que fazer'. O medo impulsiona o interesse.",
+    "'Já temos antivírus', 'Somos pequenos demais para sermos alvo', 'Nosso pessoal de IT cuida disso'. É preciso ter evidências para responder a cada objeção.",
+    "O MD aprova, mas precisa da adesão do gerente de IT. Ciclo de 4 a 8 semanas. Prazo de compliance ou evento de renovação acelera o processo.",
+    "Melhores defensores: gerentes de IT que já passaram por uma violação, MDs diante da renovação do seguro cibernético e responsáveis por compliance."
+  ],
+  "aether": [
+    "Os clínicos são curiosos, mas cautelosos. Já viram exageros em torno de AI antes. Querem ver evidências, não promessas.",
+    "A carga de trabalho é esmagadora. Qualquer coisa que economize tempo sem acrescentar risco chama a atenção. Burnout é real.",
+    "'Como sei que é seguro?', 'E se deixar algo passar?', 'Quem é responsável?'. É necessária uma história de validação sólida.",
+    "É necessário um defensor clínico, depois a aprovação de IT e, em seguida, procurement. Ciclo de 12 a 24 meses. Piloto essencial.",
+    "Consultores voltados à inovação, clínicos mais jovens e nativos digitais, diretores clínicos sob pressão."
+  ],
+  "quant": [
+    "Quants são profundamente céticos. Já construíram suas próprias ferramentas. É preciso provar que você não está desperdiçando o tempo deles.",
+    "A deterioração do alpha é implacável. Eles precisam de vantagem constantemente. Build vs buy é uma tensão real – confiam mais em si mesmos.",
+    "'Mostre-me o backtest', 'Qual é o seu Sharpe?', 'Todo mundo afirma ter alpha'. Dados e provas pesam mais que marketing.",
+    "Um teste prolongado é essencial. Eles testarão exaustivamente. Tanto o CTO quanto o head quant precisam ser convencidos. Avaliação de 3 a 6 meses.",
+    "Quants mais jovens abertos a ferramentas externas. CTOs sob pressão para encontrar vantagem. Empresas que perderam talentos precisam preencher lacunas de capacidade."
+  ],
+  "dream": [
+    "Criadores têm pouco tempo e estão cansados de ferramentas. Experimentam qualquer coisa, mas abandonam rápido se não funcionar de imediato.",
+    "A esteira de produção de conteúdo é exaustiva. Qualquer coisa que acelere a criação sem destruir a autenticidade vence. Há uma troca entre qualidade e velocidade.",
+    "'Vai parecer gerado por AI?', 'Posso deixar com o meu estilo?', 'E os direitos autorais?'. As preocupações com autenticidade são reais.",
+    "O teste gratuito é essencial. Fazem upgrade quando atingem os limites. Primeiro compromisso mensal, depois anual. A creator economy é volátil.",
+    "Criadores de nível intermediário (10k-100k seguidores) têm a maior necessidade. Mega-creators têm equipes. Micro-creators não conseguem pagar por ferramentas."
+  ],
+  "vanguard": [
+    "As equipes de operações são pragmáticas. Já viram promessas de automação antes. Querem ver a solução funcionar no ambiente delas.",
+    "A mão de obra é pouco confiável e cara. Temporadas de pico são pesadelos. Problemas de precisão custam dinheiro. Incidentes de segurança preocupam todos.",
+    "'O que acontece quando quebra?', 'Vai funcionar com o nosso layout?', 'E quanto à nossa equipe atual?'. A gestão da mudança é um fator real.",
+    "Primeiro, um piloto em uma zona. Avaliação de 3 a 6 meses. Diretor de operações, CFO e IT precisam estar alinhados. Pode ser necessária consulta ao sindicato.",
+    "Diretores de operações voltados ao futuro, unidades com graves problemas de mão de obra, empresas que já usam automação em outras partes do negócio."
+  ],
+  "terra": [
+    "As equipes de sustentabilidade estão sobrecarregadas. A regulamentação avança rapidamente. Precisam de ajuda, mas temem acusações de greenwashing.",
+    "Dados de Scope 3 são um pesadelo. Os requisitos de reporte continuam mudando. O conselho quer números, mas os dados são desorganizados.",
+    "'Você pode provar que os dados são precisos?', 'E a trilha de auditoria?', 'Como vocês lidam com Scope 3?'. Credibilidade é tudo.",
+    "O CSO defende a solução, mas o CFO precisa aprovar. Procurement quer referências. Ciclo de 6 a 12 meses. Piloto com uma unidade de negócios.",
+    "CSOs com mandato do conselho, CFOs sob pressão de investidores, empresas com compromissos públicos de Net Zero."
+  ],
+  "legal": [
+    "Advogados são céticos quanto à precisão de AI. Eles são pessoalmente responsáveis pelos erros. A confiança precisa ser conquistada lentamente.",
+    "O tempo de advogados juniores é caro, mas necessário. A revisão de documentos é tediosa. É difícil manter consistência entre casos.",
+    "'E a confidencialidade?', 'Vocês podem garantir a precisão?', 'E se a AI deixar algo passar?'. A aversão ao risco é extrema.",
+    "Primeiro, um sócio de inovação conduz o piloto. Depois, revisão de segurança de IT. Em seguida, aprovação do managing partner. Avaliação de 6 a 12 meses.",
+    "Sócios de inovação com mandato, associates sobrecarregados com revisão documental, sócios que viram concorrentes adotar a tecnologia."
+  ],
+  "edu": [
+    "Professores estão exaustos e céticos. Já viram modismos de EdTech antes. Qualquer coisa que aumente a carga de trabalho é rejeitada.",
+    "Correções e tarefas administrativas consomem todo o tempo. Diferenciar o ensino é impossível com 30 crianças. O suporte a SEN está sobrecarregado. A carga de trabalho está em nível de crise.",
+    "'Quando vou aprender isso?', 'E quanto à safeguarding?', 'Isso realmente funciona?'. O tempo é o recurso mais escasso.",
+    "Professores defensores da solução levam a ideia ao SLT. O diretor aprova. Acordos com MAT passam por procurement central. Ciclo de 3 a 6 meses.",
+    "Professores entusiastas de tecnologia, diretores sob pressão da Ofsted, líderes de MAT que querem consistência entre escolas."
+  ]
+}

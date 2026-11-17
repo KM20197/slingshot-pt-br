@@ -1,0 +1,487 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de cooperação, melhoria e divulgação em Yuki, sem alterar metadados",
+    "strings": {
+      "[\"research\",\"yuki\",0,\"intro\"]": {
+        "source": "Collaborators in Tokyo and Singapore are interested in a joint publication. We share credit but gain their datasets.",
+        "target": "Equipes de duas unidades parceiras querem montar juntas um relatório único de melhorias. Dividimos os créditos pela autoria do documento, mas recebemos os registros operacionais delas."
+      },
+      "[\"research\",\"yuki\",0,\"aside\"]": {
+        "source": "Science advances faster together. Their data would strengthen our claims significantly.",
+        "target": "O trabalho avança mais rápido quando as equipes somam esforços. Os registros delas dariam mais peso ao nosso relatório."
+      },
+      "[\"research\",\"yuki\",0,\"choices\",0,\"text\"]": {
+        "source": "Pursue international collaboration",
+        "target": "Buscar cooperação entre as equipes parceiras"
+      },
+      "[\"research\",\"yuki\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Wonderful. I'll arrange calls this week.",
+        "target": "Ótimo. Vou marcar as reuniões ainda nesta semana."
+      },
+      "[\"research\",\"yuki\",0,\"choices\",1,\"text\"]": {
+        "source": "Share data, keep publication separate",
+        "target": "Trocar os registros, manter o relatório separado"
+      },
+      "[\"research\",\"yuki\",0,\"choices\",1,\"reaction\"]": {
+        "source": "That's not how collaboration works. But I'll try.",
+        "target": "Não é bem assim que a cooperação funciona. Mas vou tentar."
+      },
+      "[\"research\",\"yuki\",0,\"choices\",2,\"text\"]": {
+        "source": "Keep research internal",
+        "target": "Manter o trabalho restrito à própria equipe"
+      },
+      "[\"research\",\"yuki\",0,\"choices\",2,\"reaction\"]": {
+        "source": "We're losing an opportunity.",
+        "target": "Estamos perdendo uma oportunidade."
+      },
+      "[\"research\",\"yuki\",1,\"intro\"]": {
+        "source": "A university in Seoul has complementary techniques. They propose a technology exchange programme.",
+        "target": "Uma equipe parceira domina métodos complementares aos nossos. Ela propõe um intercâmbio de práticas entre os grupos."
+      },
+      "[\"research\",\"yuki\",1,\"aside\"]": {
+        "source": "Their approach could solve problems we're stuck on. And they want to learn from us too.",
+        "target": "O jeito de trabalhar deles pode destravar pontos em que estamos parados. E eles também querem aprender com o nosso grupo."
+      },
+      "[\"research\",\"yuki\",1,\"choices\",0,\"text\"]": {
+        "source": "Establish formal exchange programme",
+        "target": "Formalizar o intercâmbio de métodos"
+      },
+      "[\"research\",\"yuki\",1,\"choices\",0,\"reaction\"]": {
+        "source": "This is how science should work.",
+        "target": "É assim que o trabalho conjunto deveria funcionar."
+      },
+      "[\"research\",\"yuki\",1,\"choices\",1,\"text\"]": {
+        "source": "Share methods informally",
+        "target": "Compartilhar os métodos de modo informal"
+      },
+      "[\"research\",\"yuki\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Less structured, but we'll learn.",
+        "target": "Menos organizado, mas vamos aprender."
+      },
+      "[\"research\",\"yuki\",1,\"choices\",2,\"text\"]": {
+        "source": "Protect our techniques",
+        "target": "Manter nossas técnicas reservadas"
+      },
+      "[\"research\",\"yuki\",1,\"choices\",2,\"reaction\"]": {
+        "source": "We're slowing ourselves down.",
+        "target": "Assim estamos freando o próprio avanço."
+      },
+      "[\"research\",\"yuki\",2,\"intro\"]": {
+        "source": "The Alan Turing Institute invites us to join a responsible AI consortium. Prestigious but requires commitment.",
+        "target": "Uma rede de melhoria responsável convida o empreendimento a entrar como parceiro. É uma adesão respeitada, mas exige dedicação contínua."
+      },
+      "[\"research\",\"yuki\",2,\"aside\"]": {
+        "source": "Access to top UK researchers and a seat at important tables. These connections last decades.",
+        "target": "Isso dá acesso a grupos experientes e lugar nas conversas que definem rumos. Contatos assim costumam durar anos."
+      },
+      "[\"research\",\"yuki\",2,\"choices\",0,\"text\"]": {
+        "source": "Become full industry partner",
+        "target": "Participar plenamente da rede"
+      },
+      "[\"research\",\"yuki\",2,\"choices\",0,\"reaction\"]": {
+        "source": "We gain access to the best minds in UK AI.",
+        "target": "Passamos a contar com quem tem mais experiência no setor."
+      },
+      "[\"research\",\"yuki\",2,\"choices\",1,\"text\"]": {
+        "source": "Join as associate, limited commitment",
+        "target": "Entrar como parceiro parcial, com dedicação menor"
+      },
+      "[\"research\",\"yuki\",2,\"choices\",1,\"reaction\"]": {
+        "source": "We're in the room, if not always central.",
+        "target": "Estamos nas conversas, ainda que não no centro delas."
+      },
+      "[\"research\",\"yuki\",2,\"choices\",2,\"text\"]": {
+        "source": "Decline—focus resources elsewhere",
+        "target": "Recusar a adesão e concentrar os recursos no próprio empreendimento"
+      },
+      "[\"research\",\"yuki\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise wisely. Team stays focused.",
+        "target": "Prioridade bem escolhida. A equipe segue concentrada."
+      },
+      "[\"research\",\"yuki\",3,\"intro\"]": {
+        "source": "A European research consortium invites us to their Horizon grant application. Obligations, but substantial funding.",
+        "target": "Um grupo de projeto conjunto convida o empreendimento a integrar a proposta com outros parceiros. Há obrigações de acompanhamento, mas também aporte de recursos."
+      },
+      "[\"research\",\"yuki\",3,\"aside\"]": {
+        "source": "Consortium work is slow but opens doors across Europe. The funding is significant.",
+        "target": "Trabalhar em grupo é mais lento, mas abre portas com outros parceiros. O aporte previsto na parceria ajudaria a cobrir as despesas do período."
+      },
+      "[\"research\",\"yuki\",3,\"choices\",0,\"text\"]": {
+        "source": "Join as full partner, lead work package",
+        "target": "Entrar como parceiro principal e coordenar a frente de trabalho"
+      },
+      "[\"research\",\"yuki\",3,\"choices\",0,\"reaction\"]": {
+        "source": "This establishes us as serious European players.",
+        "target": "O empreendimento passa a ser visto como parceiro de peso no grupo."
+      },
+      "[\"research\",\"yuki\",3,\"choices\",1,\"text\"]": {
+        "source": "Join as junior partner",
+        "target": "Entrar como parceiro secundário"
+      },
+      "[\"research\",\"yuki\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Less visibility, but valuable connections.",
+        "target": "Menos destaque, mas contatos que valem a pena."
+      },
+      "[\"research\",\"yuki\",3,\"choices\",2,\"text\"]": {
+        "source": "Decline—too many strings",
+        "target": "Recusar a entrada, para evitar obrigações demais"
+      },
+      "[\"research\",\"yuki\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Stay independent. Full control preserved.",
+        "target": "O empreendimento segue independente, com o controle preservado."
+      },
+      "[\"research\",\"yuki\",4,\"intro\"]": {
+        "source": "Professor Okafor from Imperial wants to spend her sabbatical with us. Six months, embedded with the research team. She's brilliant, and she'd expect a desk, compute, and a slice of everyone's time.",
+        "target": "Uma profissional convidada quer passar um período com a equipe, acompanhando a rotina de perto. Ela é experiente e contará com espaço, ferramentas e parte do tempo de todos."
+      },
+      "[\"research\",\"yuki\",4,\"aside\"]": {
+        "source": "Visitors like her change how a team thinks. The cost is real, but so is what she leaves behind.",
+        "target": "Visitas assim mudam o jeito de pensar da equipe. O custo é real, e o que fica depois também."
+      },
+      "[\"research\",\"yuki\",4,\"choices\",0,\"text\"]": {
+        "source": "Host with dedicated resources",
+        "target": "Receber a convidada com recursos dedicados"
+      },
+      "[\"research\",\"yuki\",4,\"choices\",0,\"reaction\"]": {
+        "source": "This will raise everyone's game.",
+        "target": "Isso eleva o nível de todos."
+      },
+      "[\"research\",\"yuki\",4,\"choices\",1,\"text\"]": {
+        "source": "Welcome with limited support",
+        "target": "Receber com apoio limitado"
+      },
+      "[\"research\",\"yuki\",4,\"choices\",1,\"reaction\"]": {
+        "source": "She's resourceful. She'll manage.",
+        "target": "Ela tem experiência e vai se virar."
+      },
+      "[\"research\",\"yuki\",4,\"choices\",2,\"text\"]": {
+        "source": "Suggest another time",
+        "target": "Sugerir outra data para a visita"
+      },
+      "[\"research\",\"yuki\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Relationship maintained. Door stays open.",
+        "target": "A relação se mantém e a porta continua aberta."
+      },
+      "[\"research\",\"yuki\",5,\"intro\"]": {
+        "source": "We've been invited to a two-day workshop in Edinburgh linking UK and Singaporean AI labs. Nothing gets signed at these things. It's about meeting the people we'll want to work with in five years.",
+        "target": "O empreendimento foi convidado para um encontro regional de equipes e futuros parceiros. Nada é assinado nesses eventos. A ideia é conhecer quem pode trabalhar conosco mais adiante."
+      },
+      "[\"research\",\"yuki\",5,\"aside\"]": {
+        "source": "My best collaborations all started with a chat at something like this. Not one of them paid off within the year.",
+        "target": "As melhores parcerias começam numa conversa dessas. Nenhuma delas rendeu fruto logo no primeiro ano."
+      },
+      "[\"research\",\"yuki\",5,\"choices\",0,\"text\"]": {
+        "source": "Send team, host dinner afterwards",
+        "target": "Levar a equipe e oferecer um jantar depois"
+      },
+      "[\"research\",\"yuki\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Relationship-building at its best.",
+        "target": "É assim que se constrói relação de confiança."
+      },
+      "[\"research\",\"yuki\",5,\"choices\",1,\"text\"]": {
+        "source": "Present virtually to save costs",
+        "target": "Apresentar à distância, para economizar despesas"
+      },
+      "[\"research\",\"yuki\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Present but won't build same connections.",
+        "target": "A apresentação acontece, mas sem o mesmo contato pessoal."
+      },
+      "[\"research\",\"yuki\",5,\"choices\",2,\"text\"]": {
+        "source": "Send apologies—too busy",
+        "target": "Enviar desculpas e não participar"
+      },
+      "[\"research\",\"yuki\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on what matters. They understand.",
+        "target": "A equipe segue no que é prioritário e os organizadores entendem."
+      },
+      "[\"research\",\"yuki\",6,\"intro\"]": {
+        "source": "A UK university proposes a Knowledge Transfer Partnership placing an associate with us.",
+        "target": "Uma entidade parceira propõe acompanhar um projeto nosso com uma profissional dedicada à melhoria da rotina."
+      },
+      "[\"research\",\"yuki\",6,\"aside\"]": {
+        "source": "KTPs bridge academia and industry. Government subsidises the salary.",
+        "target": "Esse tipo de acompanhamento aproxima equipes diferentes, e os custos da dedicação ficam compartilhados entre as partes."
+      },
+      "[\"research\",\"yuki\",6,\"choices\",0,\"text\"]": {
+        "source": "Co-fund a strategic KTP project",
+        "target": "Dividir os custos de um projeto conjunto e estratégico"
+      },
+      "[\"research\",\"yuki\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Perfect bridge into academic networks.",
+        "target": "Ponte boa para chegar a outras redes de equipes."
+      },
+      "[\"research\",\"yuki\",6,\"choices\",1,\"text\"]": {
+        "source": "Support with minimal budget",
+        "target": "Apoiar com orçamento reduzido"
+      },
+      "[\"research\",\"yuki\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Light bridge with limited commitment.",
+        "target": "Contato leve, com compromisso pequeno."
+      },
+      "[\"research\",\"yuki\",6,\"choices\",2,\"text\"]": {
+        "source": "Decline—avoid complexity",
+        "target": "Recusar, para evitar complicação"
+      },
+      "[\"research\",\"yuki\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Keep things simple. Focus pays off.",
+        "target": "Simplicidade primeiro. A equipe rende mais com menos frentes abertas."
+      },
+      "[\"research\",\"yuki\",8,\"intro\"]": {
+        "source": "We've been invited to present at a major AI conference. The audience will include potential customers, investors, and collaborators—but also competitors. How much do we reveal? A vague talk won't impress anyone, but a detailed one hands our methods to rivals.",
+        "target": "Recebemos um convite para apresentar nossas práticas em um encontro do setor. A plateia terá possíveis clientes, apoiadores e parceiros, mas também concorrentes. Quanto revelar? Uma fala genérica pode passar despercebida, e uma apresentação detalhada entrega os métodos aos rivais."
+      },
+      "[\"research\",\"yuki\",8,\"aside\"]": {
+        "source": "Conferences are where reputations are made. But I've seen companies give away their secrets on stage and regret it within months.",
+        "target": "Encontros assim constroem reputação. Também já vi empreendimentos abrirem tudo para a plateia e se arrependerem meses depois."
+      },
+      "[\"research\",\"yuki\",8,\"choices\",0,\"text\"]": {
+        "source": "Present high-level vision, keep details private",
+        "target": "Apresentar apenas a proposta geral e guardar os detalhes"
+      },
+      "[\"research\",\"yuki\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Safe but forgettable. We won't stand out.",
+        "target": "Seguro, porém esquecível. Não vamos chamar atenção."
+      },
+      "[\"research\",\"yuki\",8,\"choices\",1,\"text\"]": {
+        "source": "Share enough to impress, hold back key insights",
+        "target": "Mostrar o suficiente para impressionar e guardar os pontos principais"
+      },
+      "[\"research\",\"yuki\",8,\"choices\",1,\"reaction\"]": {
+        "source": "The art of strategic disclosure. Takes careful preparation.",
+        "target": "É a arte de dosar o que se conta. Dá trabalho preparar."
+      },
+      "[\"research\",\"yuki\",8,\"choices\",2,\"text\"]": {
+        "source": "Be completely open—transparency builds trust",
+        "target": "Abrir tudo, porque transparência constrói confiança"
+      },
+      "[\"research\",\"yuki\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Bold. Competitors take notes, but so do future partners.",
+        "target": "Corajoso. Os concorrentes anotam, mas os futuros parceiros também."
+      },
+      "[\"research\",\"yuki\",9,\"intro\"]": {
+        "source": "A PhD student at a partner university has made a breakthrough using our data. She wants to publish immediately. The problem is, her paper would reveal techniques we haven't patented yet—and once it's public, we lose the right to patent in most countries.",
+        "target": "Uma colaboradora de uma equipe parceira alcançou um avanço com os nossos dados e quer divulgar o resultado imediatamente. O problema é que o relato dela mostraria métodos que ainda não tornamos públicos, e depois de divulgado não há como retomar o controle."
+      },
+      "[\"research\",\"yuki\",9,\"aside\"]": {
+        "source": "Academic incentives favour fast publication. Commercial incentives favour controlled disclosure. These worlds don't always align.",
+        "target": "Quem fez a melhoria quer divulgá-la logo. Quem administra o empreendimento prefere combinar primeiro o que será divulgado. Esses interesses nem sempre coincidem."
+      },
+      "[\"research\",\"yuki\",9,\"choices\",0,\"text\"]": {
+        "source": "Ask her to delay while we file patents",
+        "target": "Pedir que ela adie a divulgação por um tempo"
+      },
+      "[\"research\",\"yuki\",9,\"choices\",0,\"reaction\"]": {
+        "source": "She won't be happy—publication timing matters for her career. But we protect ourselves.",
+        "target": "Ela não vai gostar, porque o momento da divulgação importa para a carreira dela. Em troca, ganhamos tempo para preparar o que será contado."
+      },
+      "[\"research\",\"yuki\",9,\"choices\",1,\"text\"]": {
+        "source": "Let her publish, accept the loss of patent rights",
+        "target": "Deixar que ela divulgue, mesmo perdendo o controle sobre o método"
+      },
+      "[\"research\",\"yuki\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Good for the relationship. Great for credibility.",
+        "target": "Bom para a relação e excelente para a credibilidade."
+      },
+      "[\"research\",\"yuki\",9,\"choices\",2,\"text\"]": {
+        "source": "Collaborate on a joint filing before publication",
+        "target": "Preparar um relato conjunto antes da divulgação"
+      },
+      "[\"research\",\"yuki\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Complex but everyone wins. Takes coordination.",
+        "target": "É uma saída boa para os dois lados, mas exige coordenação."
+      },
+      "[\"research\",\"yuki\",10,\"intro\"]": {
+        "source": "Our approach to a key problem is genuinely novel, and we're not sure whether to patent it or keep it secret. Patents give us 20 years of protection, but require publishing exactly how it works. Trade secrets last forever—unless someone figures it out or an employee leaks it.",
+        "target": "Nossa forma de resolver um problema central é original. Podemos compartilhar o método em um relato aberto ou mantê-lo apenas nos registros internos. Divulgar permite que outros conheçam nosso trabalho, mas também revela como fazemos. Manter tudo reservado reduz essa exposição, até alguém descobrir o caminho ou comentar os detalhes."
+      },
+      "[\"research\",\"yuki\",10,\"aside\"]": {
+        "source": "The choice depends on whether competitors could reverse-engineer our innovation. If they can work it out by studying our product, a trade secret is worthless. If it's truly hidden in our process, secrecy might be better.",
+        "target": "A decisão depende de quanto os concorrentes conseguem deduzir olhando o que entregamos. Se o método fica evidente no produto, guardar os registros pouco ajuda. Se está no processo interno, limitar a divulgação pode fazer mais sentido."
+      },
+      "[\"research\",\"yuki\",10,\"choices\",0,\"text\"]": {
+        "source": "Patent it—we need enforceable rights",
+        "target": "Documentar e divulgar o método em um relato aberto"
+      },
+      "[\"research\",\"yuki\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Competitors will read our patent, but they can't legally use it for 20 years.",
+        "target": "Os concorrentes também vão ler, mas mostramos nosso trabalho e deixamos uma referência para novos contatos."
+      },
+      "[\"research\",\"yuki\",10,\"choices\",1,\"text\"]": {
+        "source": "Keep it as a trade secret",
+        "target": "Manter o método em sigilo"
+      },
+      "[\"research\",\"yuki\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Hidden forever, or until someone reverse-engineers it or talks.",
+        "target": "Fechado por tempo indeterminado, até alguém deduzir o caminho ou comentar demais."
+      },
+      "[\"research\",\"yuki\",10,\"choices\",2,\"text\"]": {
+        "source": "File a patent but keep the best bits as trade secrets",
+        "target": "Divulgar a estrutura do método e guardar os detalhes principais"
+      },
+      "[\"research\",\"yuki\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Hybrid approach. Patent the architecture, hide the special sauce.",
+        "target": "Uma solução mista: mostramos a estrutura e mantemos internamente os detalhes que fazem diferença."
+      },
+      "[\"research\",\"yuki\",11,\"intro\"]": {
+        "source": "A journalist from a major tech publication wants to write a feature about our technology. Great exposure, but she's asking detailed questions about how our system works. Our marketing lead says be open; our product lead says we're giving away competitive intelligence.",
+        "target": "Uma jornalista de uma publicação do setor quer escrever uma matéria sobre as nossas práticas. É uma divulgação valiosa, mas ela faz perguntas detalhadas sobre como o trabalho funciona. A área de comunicação quer abrir, e a área técnica diz que isso entrega vantagem aos concorrentes."
+      },
+      "[\"research\",\"yuki\",11,\"aside\"]": {
+        "source": "Press coverage can put a startup on the map. But journalists want interesting details, and interesting details are often exactly what competitors want to know.",
+        "target": "Uma matéria pode colocar o empreendimento no mapa. Mas jornalista gosta de detalhe curioso, e detalhe curioso é justamente o que o concorrente quer saber."
+      },
+      "[\"research\",\"yuki\",11,\"choices\",0,\"text\"]": {
+        "source": "Be open—good press is worth more than secrecy",
+        "target": "Abrir tudo, porque divulgação boa vale mais que sigilo"
+      },
+      "[\"research\",\"yuki\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Great article. Competitors read it too, but so do thousands of potential customers.",
+        "target": "Matéria ótima. Os concorrentes leem, mas muita gente que pode comprar também."
+      },
+      "[\"research\",\"yuki\",11,\"choices\",1,\"text\"]": {
+        "source": "Carefully stage-manage what we reveal",
+        "target": "Alinhar com cuidado o que será revelado"
+      },
+      "[\"research\",\"yuki\",11,\"choices\",1,\"reaction\"]": {
+        "source": "She might write a less enthusiastic piece, but we control the narrative.",
+        "target": "A matéria pode sair menos entusiasmada, mas nós conduzimos o que é contado."
+      },
+      "[\"research\",\"yuki\",11,\"choices\",2,\"text\"]": {
+        "source": "Decline the interview",
+        "target": "Recusar a entrevista"
+      },
+      "[\"research\",\"yuki\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Protect our secrets. Stay mysterious.",
+        "target": "Preservar o que é nosso e manter a discrição."
+      },
+      "[\"research\",\"yuki\",12,\"intro\"]": {
+        "source": "We're considering posting a preprint of our research before formal peer review. It would establish priority—proving we had the idea first—but it also means competitors see our work months before we've published in a proper journal. They could scoop our follow-up research.",
+        "target": "Pensamos em divulgar um relato preliminar das melhorias antes da revisão externa. Isso mostra que já estamos trabalhando na ideia, mas deixa os concorrentes conhecerem nossos avanços antes da versão final. Eles podem adiantar o trabalho que pretendíamos fazer depois."
+      },
+      "[\"research\",\"yuki\",12,\"aside\"]": {
+        "source": "Preprints have become standard in AI research. Move too slowly and someone else publishes first. Move too fast and you give away your roadmap.",
+        "target": "A equipe quer dar visibilidade às melhorias sem antecipar todo o trabalho que vem depois. Esperar demais deixa espaço para outros grupos se apresentarem primeiro. Divulgar cedo demais expõe o caminho que pretendemos seguir."
+      },
+      "[\"research\",\"yuki\",12,\"choices\",0,\"text\"]": {
+        "source": "Post the preprint immediately",
+        "target": "Divulgar o relato preliminar imediatamente"
+      },
+      "[\"research\",\"yuki\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Establish priority. Competitors see it, but so does everyone else.",
+        "target": "Mostramos que já estamos trabalhando na ideia. Os concorrentes veem, e os possíveis parceiros também."
+      },
+      "[\"research\",\"yuki\",12,\"choices\",1,\"text\"]": {
+        "source": "Wait for peer review and formal publication",
+        "target": "Aguardar a revisão externa e a versão final"
+      },
+      "[\"research\",\"yuki\",12,\"choices\",1,\"reaction\"]": {
+        "source": "More prestigious, but someone might publish similar work first.",
+        "target": "Versão mais respeitada, mas outro grupo pode contar algo parecido antes."
+      },
+      "[\"research\",\"yuki\",12,\"choices\",2,\"text\"]": {
+        "source": "Post a limited version, hold back key details",
+        "target": "Divulgar uma versão resumida, sem os detalhes principais"
+      },
+      "[\"research\",\"yuki\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Claim priority without revealing everything. Some call this bad form.",
+        "target": "Mostramos nosso avanço sem contar tudo. Há quem veja essa divulgação parcial com reserva."
+      },
+      "[\"research\",\"yuki\",13,\"intro\"]": {
+        "source": "We're collaborating with researchers at a university whose government restricts academic freedom and surveils its own citizens. The scientists themselves are brilliant and share our values—some are quietly pushing for reform from within. But our partnership gives prestige to an institution that's part of the state apparatus.",
+        "target": "O empreendimento mantém cooperação com uma equipe parceira competente, que quer melhorar as próprias práticas internas. A direção dessa entidade, porém, concentra as decisões e restringe a participação em várias frentes. A parceria também dá prestígio a uma estrutura que responde à direção, e isso incomoda parte do nosso grupo."
+      },
+      "[\"research\",\"yuki\",13,\"aside\"]": {
+        "source": "The 'engage or isolate' debate has no easy answers. Cutting ties abandons reformers inside the system. Continuing means being used for legitimacy. Different team members see this genuinely differently based on their own backgrounds and values.",
+        "target": "O debate entre continuar perto e se afastar não tem resposta simples. Romper o contato deixa sem apoio quem tenta mudar por dentro. Continuar pode servir de aval para a direção. Cada pessoa da equipe enxerga a situação de um jeito, conforme a própria trajetória e os próprios valores."
+      },
+      "[\"research\",\"yuki\",13,\"choices\",0,\"text\"]": {
+        "source": "Continue—support the reformers inside",
+        "target": "Continuar, apoiando quem busca mudar por dentro"
+      },
+      "[\"research\",\"yuki\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Engagement over isolation. We trust our collaborators' judgment about their own situation.",
+        "target": "Manter a cooperação vale mais do que se afastar. Confiamos no julgamento dos parceiros sobre a própria realidade."
+      },
+      "[\"research\",\"yuki\",13,\"choices\",1,\"text\"]": {
+        "source": "Personal ties only, no institutional branding",
+        "target": "Manter contato pessoal, sem divulgação conjunta da parceria"
+      },
+      "[\"research\",\"yuki\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Work with individuals, avoid legitimising institutions. Complicated in practice.",
+        "target": "Apoiar as pessoas sem dar visibilidade conjunta à entidade. Na prática, é difícil separar uma coisa da outra."
+      },
+      "[\"research\",\"yuki\",13,\"choices\",2,\"text\"]": {
+        "source": "Pause until conditions improve",
+        "target": "Pausar a parceria até que as condições melhorem"
+      },
+      "[\"research\",\"yuki\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Principled but may never resume. Our collaborators understand but are disappointed.",
+        "target": "Fico em paz com a decisão, embora talvez a parceria nunca seja retomada. Os parceiros entendem, mas ficam desapontados."
+      },
+      "[\"research\",\"yuki\",14,\"intro\"]": {
+        "source": "A wealthy donor wants to fund our research, but they made their money in an industry we find ethically questionable. Their name would be on our lab. Some team members are strongly opposed; others say money is money and we can do good work with it.",
+        "target": "Um apoiador oferece recursos para as melhorias do empreendimento. O nome dele ficaria ligado à iniciativa, mas parte da equipe considera questionável a atividade que deu origem ao dinheiro. Alguns são contrários à proposta; outros defendem que os recursos podem ser usados em trabalho sério."
+      },
+      "[\"research\",\"yuki\",14,\"aside\"]": {
+        "source": "Research funding always has strings—sometimes visible, sometimes not. Whose money we accept shapes how we're perceived and who wants to work with us.",
+        "target": "Ao aceitar apoio para melhorias, precisamos examinar as condições e a associação que ele cria. De quem recebemos recursos influencia como somos vistos e quem quer trabalhar conosco."
+      },
+      "[\"research\",\"yuki\",14,\"choices\",0,\"text\"]": {
+        "source": "Accept the funding with thanks",
+        "target": "Aceitar os recursos e divulgar o apoio"
+      },
+      "[\"research\",\"yuki\",14,\"choices\",0,\"reaction\"]": {
+        "source": "We can do important work. People will forget the source.",
+        "target": "Com os recursos, o trabalho pode avançar. A lembrança da origem, porém, não desaparece sozinha com o tempo."
+      },
+      "[\"research\",\"yuki\",14,\"choices\",1,\"text\"]": {
+        "source": "Accept but don't use their name",
+        "target": "Aceitar, limitando a exposição do nome do apoiador"
+      },
+      "[\"research\",\"yuki\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Take the money, limit the association. Awkward conversation ahead.",
+        "target": "Receber os recursos e reduzir a associação pública. A conversa interna continua difícil, e a ligação com a origem não se dissolve apenas por isso."
+      },
+      "[\"research\",\"yuki\",14,\"choices\",2,\"text\"]": {
+        "source": "Decline and seek other funding",
+        "target": "Recusar e procurar outras formas de apoio"
+      },
+      "[\"research\",\"yuki\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Principled but painful. The team respects this.",
+        "target": "É coerente, ainda que custoso. A equipe respeita a decisão e reconhece o esforço envolvido."
+      },
+      "[\"research\",\"yuki\",15,\"intro\"]": {
+        "source": "Flying to conferences burns enormous carbon. Our team attends a dozen international conferences a year. We could switch to virtual attendance for most events, but networking happens in hallways and over dinners—not on video calls.",
+        "target": "Participar dos encontros do setor gera deslocamentos frequentes, com impacto ambiental. A equipe costuma comparecer a uma dúzia de encontros por ano. Seria possível acompanhar a maioria à distância, mas boa parte das conversas acontece nos corredores e à mesa, não na tela."
+      },
+      "[\"research\",\"yuki\",15,\"aside\"]": {
+        "source": "Academic careers are built on in-person connections. But the climate cost of constant flying is hard to ignore. Some conferences now offer hybrid options.",
+        "target": "Boa parte das oportunidades nasce do contato pessoal. Ao mesmo tempo, o custo ambiental de tantos deslocamentos é difícil de ignorar. Alguns encontros do setor já oferecem participação à distância."
+      },
+      "[\"research\",\"yuki\",15,\"choices\",0,\"text\"]": {
+        "source": "Limit to two in-person conferences per year",
+        "target": "Limitar a dois encontros presenciais por ano"
+      },
+      "[\"research\",\"yuki\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Significant cut. We'll miss some opportunities but set an example.",
+        "target": "É um corte grande. Perdemos algumas oportunidades de aprendizado, mas poupamos a equipe e damos o exemplo aos parceiros."
+      },
+      "[\"research\",\"yuki\",15,\"choices\",1,\"text\"]": {
+        "source": "Virtual when possible, fly when essential",
+        "target": "Participar à distância quando possível e viajar quando necessário"
+      },
+      "[\"research\",\"yuki\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Case-by-case. More complicated but flexible.",
+        "target": "Caso a caso. Dá mais trabalho organizar, mas mantém flexibilidade."
+      },
+      "[\"research\",\"yuki\",15,\"choices\",2,\"text\"]": {
+        "source": "Attend everything—careers depend on it",
+        "target": "Manter a agenda presencial completa"
+      },
+      "[\"research\",\"yuki\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Networking matters. The planet will have to wait.",
+        "target": "Os contatos rendem, mas continuo incomodada com o impacto ambiental dos deslocamentos."
+      }
+    }
+  }
+}

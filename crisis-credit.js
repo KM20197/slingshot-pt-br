@@ -15,7 +15,9 @@
  }
  function canResolve(game,choice){
   if(!game.gameStarted||game.failureState!=='runway_crisis'||game.crisisLifelineUsed)return false;
+  const people=typeof globalThis!=='undefined'?globalThis.SlingshotPeopleContracts:null;
   if(choice==='bridge')return !(game.brLoans||[]).some(loan=>loan.id==='br-crisis-credit'||loan.brCrisis===true);
+  if(choice==='layoffs'&&people?.enabled?.(game)&&game.brBusiness)return people.canEmergencyReduce(game);
   if(choice==='layoffs')return game.hiredStaff.length>0;
   if(choice==='pivot')return game.completedMilestones.length>=1&&(game.pivotHistory?.length||0)<(game.maxPivots||2);
   if(choice==='decline')return game.metrics.cash>0;

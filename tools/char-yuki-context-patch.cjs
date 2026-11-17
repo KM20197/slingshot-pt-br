@@ -1,0 +1,18 @@
+'use strict';
+const fs=require('node:fs'),acorn=require('acorn'),walk=require('acorn-walk');
+const {translate}=require('./structured-translation.cjs'),{metadataHash}=require('./generic-general-context-patch.cjs');
+const indices=[0,1,2,3,4,5,6,8,9,10,11,12,13,14,15],pins=["4f0cad45acc135c0f960741cc25ae91e32bd250aaf241447ba8402222e8dcea1","e8ca7105fd0f79a8b30551073600a11b227eaf51103e62abc46ba397b207708d","60a90fe56050397bdf373af4c4e3759239e50015bc32716ffae328a9ca44b703","3645dfbdd0ee1ad35adae639a64b2cad1d71bc61689e1aaf103a2c046d9d2d62","3281ae5c2087b3b65b13c45f3ec97018be11f12e177dc7674d19114861b47eed","c6c5b3ff9d4ab91a9419bf3eea5f46e55767ab61ad5a0f31776deac50b744ce0","e758afa149ebfc3fc5da10977785dc55fefe38da8a9acbf7a1cbf1145b450dd4","180888bf93a3dec5547007c81a1d6d60ee3b4f383fdda7d7faaf0361b5287779","08743e2f0507c4d493ca862eda170d61c46fdc91eef0f3965abb50ae64b090cf","5ad43ff16e3a87506cbfc4cd69b32d97de6dd004dfeda681a74f8b6b428f01d0","0f918628e85290dee3728fde307919721f3fe25b6433a2f7a66d25cc5b7146b1","d146a78914c497dd59d185665fd8b9fb7d344457fcbc5e6863f357bb290f24cc","1d64b4b60cbf995db511dfb6dc420a4406f19be504955d9de1dc798904fae3e8","eeb77fbe90e67b9c015f1a5a84afda42b8112ed0a253074548060524f4819407","87fe7794b6524def43628022d9240c9f9714f4ebdfaea334153764c298c0f35b"],keys=[];
+for(const i of indices){const path=['research','yuki',i];for(const f of ['intro','aside'])keys.push(JSON.stringify([...path,f]));for(let c=0;c<3;c++)for(const f of ['text','reaction'])keys.push(JSON.stringify([...path,'choices',c,f]));}
+const get=(n,k)=>n?.properties?.find(q=>q.type==='Property'&&!q.computed&&(q.key.name??q.key.value)===k)?.value;
+function locate(html){let result,count=0;for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){if(/\bsrc\s*=|application\/ld\+json/.test(m[1]))continue;walk.ancestor(acorn.parse(m[2],{ecmaVersion:'latest'}),{VariableDeclarator(n,a){if(n.id?.name==='CHAR_EVENTS'&&!a.some(x=>/Function/.test(x.type))){count++;result={node:n.init,base:m.index+m[0].indexOf('>')+1};}}});}if(count!==1)throw Error('CHAR_EVENTS ausente ou duplicado');return result;}
+function apply(html,catalogue=JSON.parse(fs.readFileSync(require.resolve('../locales/char-yuki-context.pt-BR.json'),'utf8'))){
+ if(!catalogue||Object.keys(catalogue).join('|')!=='CHAR_EVENTS')throw Error('Raiz de Yuki divergente');
+ const e=catalogue.CHAR_EVENTS,actual=Object.keys(e?.strings||{});
+ if(typeof e?.classification!=='string'||actual.length!==120||actual.some(k=>!keys.includes(k)))throw Error('Caminhos de Yuki divergentes');
+ for(const key of keys){const v=e.strings[key];if(!v||typeof v.source!=='string'||typeof v.target!=='string'||!v.target.trim()||v.source===v.target||/[<>0-9£€{}]/.test(v.target)||v.target.includes(String.fromCharCode(96))||v.target.includes('$'+'{')||/\b(UK|US|EU|NHS|England|Inglaterra|London|Edinburgh|Singapore|Tokyo|Seoul|Horizon|Turing|Imperial|KTP|PhD|startup|IA|AI|LLM|software|app|apps|SDK|equity|salário|bônus|diagnóstico|terapia|CLT|FGTS|INSS|LGPD|GDPR|patente|patentes|patent|patents|licença|licenciamento|judicial|litígio|subsídio|subsídios)\b|propriedade intelectual|segredo industrial|proteção legal|direito exclusivo/i.test(v.target))throw Error('Texto de Yuki inválido: '+key);if((v.source.match(/\[NEW\]/g)||[]).length!==(v.target.match(/\[NEW\]/g)||[]).length)throw Error('Marcador NEW de Yuki alterado');}
+ const pool=get(get(locate(html).node,'research'),'yuki');
+ if(pool?.type!=='ArrayExpression'||pool.elements.length!==16)throw Error('Pool de Yuki divergente');
+ for(let n=0;n<indices.length;n++)if(metadataHash(pool.elements[indices[n]])!==pins[n])throw Error('Metadados de Yuki divergentes: '+indices[n]);
+ return translate(html,catalogue);
+}
+module.exports={apply,locate,metadataHash};

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "classification": "Mensagens de reconhecimento fictício administrativo; sem órgão real, moeda nova, IA ou promessa financeira externa. Probabilidades, valores, prazos e flags do mecanismo original preservados.",
+  "items": [
+    {
+      "source": "🏆 MANCHESTER PRIZE FINALIST! £100k awarded plus free compute access.",
+      "target": "🏆 Nossa proposta foi selecionada no encontro fictício de organização. O reconhecimento traz recursos e apoio para a equipe nesta simulação.",
+      "count": 1
+    },
+    {
+      "source": "🎯 You're one of ten finalists. The winner will be announced in a future quarter...",
+      "target": "🎯 Estamos entre as propostas selecionadas. O resultado final será anunciado em um trimestre futuro.",
+      "count": 1
+    },
+    {
+      "source": "📋 Manchester Prize application submitted. The competition was fierce - not shortlisted this year.",
+      "target": "📋 A proposta foi apresentada ao encontro fictício, mas não entrou na seleção desta vez.",
+      "count": 1
+    },
+    {
+      "source": "🏆🏆🏆 MANCHESTER PRIZE WINNER! £1 MILLION awarded!",
+      "target": "🏆🏆🏆 Nossa proposta recebeu o reconhecimento principal no encontro fictício. A equipe ganha recursos na simulação.",
+      "count": 1
+    },
+    {
+      "source": "🌟 Your venture is now recognised as a leader in AI for public good.",
+      "target": "🌟 Os materiais de organização da equipe ganham visibilidade neste cenário.",
+      "count": 1
+    },
+    {
+      "source": "📈 Investor interest surges. Valuation increased significantly.",
+      "target": "📈 O reconhecimento desperta interesse de parceiros no cenário fictício.",
+      "count": 1
+    },
+    {
+      "source": "🥈 Manchester Prize winner announced — another finalist took the grand prize.",
+      "target": "🥈 O resultado do encontro fictício foi anunciado. Outra proposta recebeu o reconhecimento principal.",
+      "count": 1
+    },
+    {
+      "source": "💪 Being a finalist still carries weight. The experience and recognition help.",
+      "target": "💪 A participação deixou experiências e contatos que a equipe pode aproveitar.",
+      "count": 1
+    }
+  ]
+}

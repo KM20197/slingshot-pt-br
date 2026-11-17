@@ -1,0 +1,263 @@
+{
+  "COMPETITIVE_EVENTS": {
+    "classification": "Oito eventos competitivos em contextos administrativos brasileiros fictícios, com marcador dinâmico e metadados originais preservados.",
+    "strings": {
+      "[\"research\",0,\"intro\"]": {
+        "source": "Bad news. {rival} just announced a breakthrough in our core research area. The press is all over them.",
+        "target": "No exercício de um negócio brasileiro, {rival} apresentou uma melhoria em materiais de organização que também estávamos preparando. O exemplo recebeu destaque na discussão do grupo."
+      },
+      "[\"research\",0,\"aside\"]": {
+        "source": "We can't let them control the narrative. But chasing headlines isn't science.",
+        "target": "A atenção ao outro exemplo pressiona a equipe, mas a comparação exige conferir os materiais com cuidado."
+      },
+      "[\"research\",0,\"choices\",0,\"text\"]": {
+        "source": "Accelerate our own announcement",
+        "target": "Antecipar nossa apresentação com conferência reduzida"
+      },
+      "[\"research\",0,\"choices\",0,\"reaction\"]": {
+        "source": "We'll need to cut some validation steps.",
+        "target": "A apresentação é antecipada. Parte das conferências dos exemplos fica para depois."
+      },
+      "[\"research\",0,\"choices\",1,\"text\"]": {
+        "source": "Publish a detailed rebuttal",
+        "target": "Apresentar uma revisão detalhada dos exemplos comparados"
+      },
+      "[\"research\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Point out the gaps in their work.",
+        "target": "A equipe aponta diferenças e lacunas nos materiais do cenário."
+      },
+      "[\"research\",0,\"choices\",2,\"text\"]": {
+        "source": "Stay focused on our roadmap",
+        "target": "Manter o planejamento de preparação dos materiais"
+      },
+      "[\"research\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Let them have the spotlight. We'll have the substance.",
+        "target": "O outro exemplo continua em destaque. A equipe dedica atenção ao próprio roteiro."
+      },
+      "[\"dev\",0,\"intro\"]": {
+        "source": "{rival} just launched a feature we had on our roadmap. They beat us to market.",
+        "target": "Na atividade fictícia de preparação de um negócio, {rival} apresentou um material que também estava em nosso roteiro. A equipe precisa decidir como responder à comparação."
+      },
+      "[\"dev\",0,\"aside\"]": {
+        "source": "First-mover advantage is real. But fast followers can learn from their mistakes.",
+        "target": "A apresentação anterior oferece pontos para observar, mas não resolve como preparar nosso material."
+      },
+      "[\"dev\",0,\"choices\",0,\"text\"]": {
+        "source": "Rush our version out",
+        "target": "Apresentar nossa versão com preparo apressado"
+      },
+      "[\"dev\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Shipped in a week. The bug reports arrive in week two.",
+        "target": "O material é apresentado com pressa e surgem falhas na revisão seguinte."
+      },
+      "[\"dev\",0,\"choices\",1,\"text\"]": {
+        "source": "Learn from their launch, improve ours",
+        "target": "Examinar o outro exemplo e aprimorar nosso material"
+      },
+      "[\"dev\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Their reviews will be our roadmap.",
+        "target": "A comparação ajuda a selecionar pontos para revisar no próprio roteiro."
+      },
+      "[\"dev\",0,\"choices\",2,\"text\"]": {
+        "source": "Pivot to a different feature",
+        "target": "Preparar um material com outra abordagem"
+      },
+      "[\"dev\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Find blue ocean instead of competing head-on.",
+        "target": "A equipe procura uma forma diferente de apresentar a atividade do negócio."
+      },
+      "[\"marketing\",0,\"intro\"]": {
+        "source": "{rival} is the headline sponsor at the conference we're attending. Their booth is twice our size.",
+        "target": "Na mostra fictícia de negócios do exercício, {rival} ocupa o espaço de maior destaque. Nosso material será apresentado em uma área mais discreta."
+      },
+      "[\"marketing\",0,\"aside\"]": {
+        "source": "We can't outspend them. But we can be smarter.",
+        "target": "Disputar o destaque exige recursos de preparo. Há outras formas de organizar a apresentação."
+      },
+      "[\"marketing\",0,\"choices\",0,\"text\"]": {
+        "source": "Host an exclusive side event",
+        "target": "Organizar uma conversa própria sobre a atividade"
+      },
+      "[\"marketing\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Intimate dinners beat crowded booths.",
+        "target": "Um grupo menor discute os materiais com mais tempo e atenção."
+      },
+      "[\"marketing\",0,\"choices\",1,\"text\"]": {
+        "source": "Focus on quality demos",
+        "target": "Concentrar o preparo nos exemplos apresentados"
+      },
+      "[\"marketing\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Let the product speak.",
+        "target": "A equipe procura tornar os exemplos mais claros para a discussão."
+      },
+      "[\"marketing\",0,\"choices\",2,\"text\"]": {
+        "source": "Skip this one, pick our battles",
+        "target": "Deixar esta mostra e priorizar outra atividade"
+      },
+      "[\"marketing\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Strategic patience. Save resources.",
+        "target": "A equipe mantém os materiais preparados e volta a atenção a outras tarefas."
+      },
+      "[\"marketing\",1,\"intro\"]": {
+        "source": "A journalist wants our comment on {rival}'s funding round. They raised twice what we did.",
+        "target": "No roteiro de uma entrevista fictícia, a equipe é convidada a comentar o destaque recebido por {rival} em uma atividade de preparação. A resposta fará parte do material de discussão."
+      },
+      "[\"marketing\",1,\"aside\"]": {
+        "source": "Whatever we say will be quoted. No comment looks defensive. Praise looks weak.",
+        "target": "Qualquer resposta pode orientar a comparação entre os exemplos. O silêncio também pode gerar interpretações."
+      },
+      "[\"marketing\",1,\"choices\",0,\"text\"]": {
+        "source": "Subtly question their approach",
+        "target": "Questionar pontos da abordagem do outro exemplo"
+      },
+      "[\"marketing\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Money isn't everything. Execution matters.",
+        "target": "A resposta chama atenção para a execução das tarefas e para o que ainda falta esclarecer."
+      },
+      "[\"marketing\",1,\"choices\",1,\"text\"]": {
+        "source": "Congratulate and differentiate",
+        "target": "Reconhecer o destaque e explicar nossas diferenças"
+      },
+      "[\"marketing\",1,\"choices\",1,\"reaction\"]": {
+        "source": "We're focused on different things.",
+        "target": "A equipe reconhece a apresentação e descreve o foco de seu próprio material."
+      },
+      "[\"marketing\",1,\"choices\",2,\"text\"]": {
+        "source": "No comment",
+        "target": "Não comentar a apresentação do outro exemplo"
+      },
+      "[\"marketing\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Let the work speak for itself. Professional.",
+        "target": "A equipe mantém o foco nas próprias tarefas e deixa a comparação sem resposta."
+      },
+      "[\"marketing\",2,\"intro\"]": {
+        "source": "A key prospect is evaluating us against {rival}. They want a bake-off next week.",
+        "target": "Uma atividade do exercício propõe comparar nosso material com o de {rival}. A equipe precisa decidir quanto esforço dedicar à apresentação conjunta dos exemplos."
+      },
+      "[\"marketing\",2,\"aside\"]": {
+        "source": "Head-to-head comparisons are risky. But winning this would be a huge reference.",
+        "target": "A comparação pode expor diferenças e pontos ainda não preparados. Participar exige escolher prioridades."
+      },
+      "[\"marketing\",2,\"choices\",0,\"text\"]": {
+        "source": "All hands on deck for the demo",
+        "target": "Concentrar a equipe no preparo da apresentação"
+      },
+      "[\"marketing\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Cancel everything. We're winning this.",
+        "target": "O grupo suspende outras tarefas para preparar os exemplos da comparação."
+      },
+      "[\"marketing\",2,\"choices\",1,\"text\"]": {
+        "source": "Standard demo, highlight our strengths",
+        "target": "Usar a apresentação habitual e destacar pontos próprios"
+      },
+      "[\"marketing\",2,\"choices\",1,\"reaction\"]": {
+        "source": "We'll show what makes us different.",
+        "target": "A equipe organiza os exemplos existentes para mostrar as diferenças de sua abordagem."
+      },
+      "[\"marketing\",2,\"choices\",2,\"text\"]": {
+        "source": "Decline the bake-off",
+        "target": "Recusar a comparação proposta"
+      },
+      "[\"marketing\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Compete on our terms, not theirs.",
+        "target": "A equipe deixa essa atividade e mantém o formato de apresentação que já vinha preparando."
+      },
+      "[\"marketing\",3,\"intro\"]": {
+        "source": "{rival} closed a funding round this morning and the trade press crowned them market leader by lunchtime. Two customers have forwarded us the article, one with a question mark. Funding news is the easiest story journalists ever write; the question is whether we give them a different one.",
+        "target": "Na síntese fictícia de uma mostra de negócios, {rival} recebeu grande destaque. O roteiro traz comentários inventados que questionam como nossa equipe pretende apresentar o próprio trabalho."
+      },
+      "[\"marketing\",3,\"aside\"]": {
+        "source": "The press covers money because money is easy to count. Customers are better news, and harder work.",
+        "target": "O destaque ao outro exemplo ocupa a discussão. Apresentar o que já foi preparado também exige esforço."
+      },
+      "[\"marketing\",3,\"choices\",0,\"text\"]": {
+        "source": "Pitch the counter-story: customers, not capital",
+        "target": "Apresentar uma síntese dos materiais que preparamos"
+      },
+      "[\"marketing\",3,\"choices\",0,\"reaction\"]": {
+        "source": "A trade piece runs on what we have actually built. Two prospects mention it.",
+        "target": "A síntese chama atenção para exemplos concretos da atividade e gera novas perguntas no grupo."
+      },
+      "[\"marketing\",3,\"choices\",1,\"text\"]": {
+        "source": "Ride their news: give journalists the industry view",
+        "target": "Contribuir para a discussão sobre a mostra"
+      },
+      "[\"marketing\",3,\"choices\",1,\"reaction\"]": {
+        "source": "We become the quote in their coverage. Their round, our sentence.",
+        "target": "Uma observação da equipe passa a fazer parte da conversa sobre o outro exemplo."
+      },
+      "[\"marketing\",3,\"choices\",2,\"text\"]": {
+        "source": "Say nothing, keep building",
+        "target": "Não comentar e continuar preparando o material"
+      },
+      "[\"marketing\",3,\"choices\",2,\"reaction\"]": {
+        "source": "The news cycle moves on in a week. The product does not.",
+        "target": "A discussão segue para outros assuntos. A equipe continua com suas tarefas de preparação."
+      },
+      "[\"hr\",0,\"intro\"]": {
+        "source": "{rival}'s WorkReview reviews just tanked. Former employees are sharing horror stories on LinkedIn.",
+        "target": "O roteiro do exercício traz relatos inventados sobre dificuldades de convivência em {rival}. A equipe discute se deve relacionar esses exemplos à apresentação de sua própria organização."
+      },
+      "[\"hr\",0,\"aside\"]": {
+        "source": "Their dysfunction is our opportunity. But gloating looks bad.",
+        "target": "Comparar formas de convivência pode ser útil, mas explorar dificuldades do outro exemplo também causa desconforto."
+      },
+      "[\"hr\",0,\"choices\",0,\"text\"]": {
+        "source": "Quietly highlight our culture in job posts",
+        "target": "Destacar nossos combinados na apresentação da equipe"
+      },
+      "[\"hr\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Let our values speak for themselves.",
+        "target": "Os combinados do grupo ganham espaço no material de apresentação."
+      },
+      "[\"hr\",0,\"choices\",1,\"text\"]": {
+        "source": "Publicly comment on healthy workplace practices",
+        "target": "Comentar de forma geral os cuidados com a convivência"
+      },
+      "[\"hr\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Thought leadership on culture. Subtle contrast.",
+        "target": "A equipe discute orientações para a atividade e estabelece um contraste entre os exemplos."
+      },
+      "[\"hr\",0,\"choices\",2,\"text\"]": {
+        "source": "Stay out of it entirely",
+        "target": "Deixar os relatos fora de nossa apresentação"
+      },
+      "[\"hr\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Not our drama. Focus on our own team.",
+        "target": "A equipe mantém a conversa nas próprias tarefas e nos combinados do grupo."
+      },
+      "[\"hr\",1,\"intro\"]": {
+        "source": "The gossip from the last meetup is that {rival} has put everyone on eighty-hour weeks. Their releases have sped up. Their people look grey, and one of their engineers has started liking our LinkedIn posts. At some point the board will ask why they are faster than us, and I want a better answer ready than 'we should do that too'.",
+        "target": "No cenário fictício do exercício, {rival} aumentou a quantidade de tarefas e passou a apresentar materiais mais rapidamente. O roteiro também descreve dificuldades para sustentar esse ritmo. Nossa equipe é chamada a discutir a comparação."
+      },
+      "[\"hr\",1,\"aside\"]": {
+        "source": "Overtime is a loan against next quarter.",
+        "target": "Aumentar a carga pode antecipar uma apresentação, mas deixa dúvidas sobre a organização das tarefas seguintes."
+      },
+      "[\"hr\",1,\"choices\",0,\"text\"]": {
+        "source": "Keep our hours; pay for cover in the crunch",
+        "target": "Manter nosso ritmo e ampliar o apoio de preparação"
+      },
+      "[\"hr\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Deliveries hold. Two of their engineers ask our recruiter if we are hiring.",
+        "target": "A atividade segue organizada e os materiais preparados despertam interesse na discussão do grupo."
+      },
+      "[\"hr\",1,\"choices\",1,\"text\"]": {
+        "source": "Match them for one quarter",
+        "target": "Reproduzir a carga maior em parte da atividade"
+      },
+      "[\"hr\",1,\"choices\",1,\"reaction\"]": {
+        "source": "The release gets out. The team wants to know what happens next quarter.",
+        "target": "O material é apresentado, mas a equipe questiona como ficará a distribuição das tarefas depois."
+      },
+      "[\"hr\",1,\"choices\",2,\"text\"]": {
+        "source": "Carry on as we are",
+        "target": "Continuar com a organização atual"
+      },
+      "[\"hr\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Their business, not ours. The work carries on.",
+        "target": "A equipe mantém suas atividades sem alterar o planejamento por causa do outro exemplo."
+      }
+    }
+  }
+}

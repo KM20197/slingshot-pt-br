@@ -1,0 +1,15 @@
+{
+  "healthcare_nhs": "Compradores da saúde valorizam credibilidade científica mais do que velocidade. Sua pesquisa é bem aproveitada.",
+  "healthcare_private": "O setor privado avança mais rápido que o NHS. As margens são maiores, mas o mercado é menor.",
+  "healthcare_mental": "A demanda por soluções de saúde mental está crescendo. Sua experiência em aprendizado de máquina se aplica, mas o produto precisa ser redesenhado.",
+  "healthcare_specialist": "Restringir o foco ainda exige que você se prove no nicho. Parte do progresso é mantida.",
+  "fintech_retail": "O mercado é maior que o institucional. O produto precisa ser simplificado, mas os algoritmos centrais se aplicam.",
+  "fintech_compliance": "Toda empresa financeira precisa de conformidade. É menos empolgante, mas a demanda é estável.",
+  "fintech_specialist": "Serviços financeiros exigem excelência. Parte do progresso é mantida, mas você precisa se provar.",
+  "general_enterprise": "Vendas corporativas são lentas, mas têm alto valor. A credibilidade técnica importa.",
+  "general_smb": "Pequenas e médias empresas dão retorno mais rápido, mas os contratos têm menor valor. O produto precisa ser simplificado.",
+  "general_automation": "O mercado tem amplo apelo, mas é competitivo. É preciso uma diferenciação clara.",
+  "general_edge": "É uma grande mudança técnica. A pesquisa precisa focar em otimização. Relacionamentos corporativos valorizam soluções locais.",
+  "general_api": "Uma estratégia de plataforma. O produto precisa reconstruir a infraestrutura de API. Vendas B2B2C.",
+  "general_specialist": "Restringir o foco ainda exige que você se prove no nicho. Parte do progresso é mantida."
+}

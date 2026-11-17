@@ -1,0 +1,242 @@
+{
+  "voed": {
+    "retailInsights": [
+      "Marcas e supermercados gastam muito em painéis de consumo (Kantar, NielsenIQ). Dados reais de cesto e desperdício são escassos e valiosos.",
+      "Category managers querem substituição, desperdício e consumo real, não compras declaradas. Dados consentidos e opt-in são o argumento de venda.",
+      "Painel representativo do Reino Unido, dados limpos e sem duplicatas, e consentimento sólido sob UK GDPR. Um líder de governança de dados é essencial.",
+      "Duas equipes de insights de marca em conversa. Léa, category lead francesa em um supermercado britânico, é o primeiro comprador sério."
+    ],
+    "publicSector": [
+      "Autoridades locais enfrentam metas estatutárias de resíduos e têm orçamentos para mudança de comportamento. WRAP e Defra financiam a evidência.",
+      "Councils compram toneladas medidas desviadas e evidência para a próxima rodada de financiamento, não downloads. Procurement é lento e baseado em relacionamento.",
+      "Capacidade de bid e tender, avaliação independente, e relatórios a membros eleitos. Um líder de entrega setor público é necessário.",
+      "Um piloto de condado em discussão por uma rede de governo local. Dagmara, oficial de reciclagem polonesa, é a champion dentro do council."
+    ],
+    "commerce": [
+      "Comércio online de mercearia é grande e de baixa margem. O prêmio é estar onde a compra é decidida, à frente do próprio app do varejista.",
+      "Lares querem que o plano se torne o pedido em um toque. Varejistas querem a demanda, mas não um intermediário levando margem.",
+      "Integrações profundas com varejistas ou entregadores, fulfillment confiável, e uma razão para o varejista compartilhar margem. O acordo comercial é a parte difícil.",
+      "Um supermercado de médio porte em conversas de integração. Temem desintermediação tanto quanto querem a demanda."
+    ]
+  },
+  "arene": {
+    "broadcastFan": [
+      "Detentores de direitos e broadcasters têm orçamentos reais e querem gráficos ao vivo e histórias. Betting e fantasy pagam por feeds.",
+      "Baixa latência, confiabilidade no ar, e direitos de distribuir dados derivados. Uma falha diante do público é imperdoável.",
+      "Pipeline broadcast-grade, direitos de dados, e controles de integridade. Uma capacidade de operações em dia de jogo é necessária.",
+      "Um broadcaster e uma plataforma de fantasy em conversas. Pieter, editor de dados holandês em um broadcaster britânico, é o primeiro comprador."
+    ],
+    "grassroots": [
+      "Participação é enorme e financiada, e a saúde dos jogadores preocupa os pais. Sport England e conselhos de condado seguram orçamentos.",
+      "Treinadores e pais querem menos lesões e progresso claro, a um preço que um clube não pode cobrar. Safeguarding é primordial.",
+      "Rastreamento acessível, proteção de dados para menores, e relatórios simples para treinadores e pais.",
+      "Um piloto de conselho de condado em discussão. Aoife, fisioterapeuta de academia irlandesa, é a champion empurrando."
+    ],
+    "integrity": [
+      "Ligas e a Gambling Commission se importam com integridade, e operadores pagam por dados oficiais rápidos. Incumbentes são fortes aqui.",
+      "Velocidade, precisão e cadeia de custódia limpa. Qualquer dúvida sobre integridade é fatal para o negócio.",
+      "Direitos de dados oficiais, entrega de baixa latência, e independência de resultados de apostas.",
+      "Uma unidade de integridade de liga avaliando um feed. É um mercado que confia devagar."
+    ]
+  },
+  "sorgente": {
+    "employer": [
+      "Empregadores gastam com bem-estar e valorizam retenção. Benefits brokers e provedores EAP são a rota de entrada.",
+      "Relatórios agregados, seguros em privacidade e uso real dos funcionários, não mais um benefício não usado. Revisão de segurança é esperada.",
+      "Segurança enterprise, um dashboard de relatórios, e um lançamento que alcance os funcionários. Um time de contas dedicado é necessário.",
+      "Dois empregadores de médio porte em procurement. Henrik, gestor de benefícios dinamarquês, é o champion interno."
+    ],
+    "clinical": [
+      "Ferramentas digitais com evidência podem entrar nos caminhos do NHS e formulários de seguradoras. NICE e ORCHA definem o padrão.",
+      "Prova com padrão clínico, segurança, e integração em encaminhamento. Compradores comissionados compram resultados.",
+      "Trials, segurança clínica e trabalho regulatório, e um parceiro de care pathway. Um líder regulatório é essencial.",
+      "Um piloto de ICB e uma conversa com seguradora. Lento de conquistar, duradouro uma vez obtido."
+    ],
+    "focus": [
+      "Bem-estar geral é saturado; uma dificuldade específica feita com competência pode dominar seu nicho e sua evidência.",
+      "Profundidade e credibilidade em uma área, não amplitude. Quem sofre quer uma ferramenta que claramente entende seu problema.",
+      "Conteúdo especializado, evidência focada, e boca a boca dentro de uma comunidade.",
+      "Boa retenção no nicho escolhido. Priya, GP britânica-indiana, recomenda para exatamente uma coisa."
+    ]
+  },
+  "avam": {
+    "vertical": [
+      "Operadores de campo, industriais e do setor público pagarão por uma ferramenta on-device acabada, não uma biblioteca.",
+      "Deve funcionar offline, atender às regras do setor, e ser comprada pelo operador, não pelo desenvolvedor.",
+      "Produto pronto para envio, certificação setorial, e suporte e implantação local.",
+      "Um operador em piloto pago. Elin, líder de operações sueca, é a compradora dentro da empresa."
+    ],
+    "assurance": [
+      "Empresas reguladas e órgãos públicos precisam de prova de que um modelo é seguro para implantar. Assurance é onde confiança, e o dinheiro, se move.",
+      "Independência, metodologia reconhecida, e evidência que um regulador aceitará.",
+      "Suítes de testes, metodologia de assurance, e credibilidade junto a órgãos de normas (NCSC-facing).",
+      "Uma empresa regulada e um auditor engajados. Confiança é o produto, e é lento de conquistar."
+    ],
+    "speech": [
+      "Modelos mainstream de speech atendem mal vozes britânicas regionais e com sotaque. Acessibilidade e serviços públicos precisam de melhor.",
+      "Precisão em vozes reais, privacidade on-device, e confiabilidade onde conectividade é ruim.",
+      "Dados de speech britânicos diversos com consentimento, e parcerias de acessibilidade.",
+      "Um órgão de acessibilidade e um serviço público em conversas. Rhys, líder de produto de fala galesa, impulsiona a primeira implantação."
+    ]
+  },
+  "cyber": {
+    "enterprise": [
+      "Mercado de £890M, crescimento de 8%. Dominado por CrowdStrike, Darktrace, Palo Alto, SentinelOne.",
+      "CISOs precisam de relatórios prontos para board. Procurement precisa de documentos de compliance (SOC2, ISO). Times de SOC precisam de integração SIEM.",
+      "Obrigações: SSO/SAML, integração SIEM, SOC2 Type II, SLA de suporte 24/7, opção de implantação on-prem.",
+      "Interesse em piloto confirmado com 2 prospects enterprise. Esperar ciclos de venda de 6-12 meses. Contratar vendedor enterprise."
+    ],
+    "channel": [
+      "£450M endereçável via MSPs do Reino Unido. Os 20 maiores MSPs controlam 60% do gasto de segurança SME.",
+      "MSPs esperam margem de 30-40%. Querem receita recorrente, não one-time. Opção white-label valiosa.",
+      "Deve integrar com ferramentas RMM ConnectWise, Datto, Kaseya. Necessita arquitetura API-first, multi-tenant.",
+      "3 MSPs expressaram interesse em piloto. Territórios exclusivos serão ponto-chave de negociação."
+    ],
+    "government": [
+      "£520M em cibersegurança no setor público do Reino Unido. Ciclos longos (18-24 meses) mas contratos multi-anuais muito sticky.",
+      "Listagem em G-Cloud essencial. Certificação NCSC é enorme diferencial. Muitas vezes exigem residência de dados somente no Reino Unido.",
+      "Pode exigir staff com clearance SC. Opções de implantação air-gapped. Extenso requisito de auditoria e pen-test.",
+      "Councils locais e NHS trusts movem-se mais rápido que governo central. Dois councils expressaram interesse em piloto."
+    ]
+  },
+  "aether": {
+    "pharma": [
+      "Big Pharma gasta £4B+ anualmente em parcerias de AI. Principais alvos: AstraZeneca, GSK, Novartis.",
+      "Opções: pagamentos por milestone, equity stakes, co-development. Pharma quer exclusividade em áreas terapêuticas.",
+      "Precisa de alvos validados, IP limpo, histórico de publicações. Querem ver validação em laboratório.",
+      "Conversas iniciais com 2 times de BD de farmacêuticas. Querem ver proof-of-concept em área terapêutica específica."
+    ],
+    "private": [
+      "Mercado de saúde privada de £12B no Reino Unido. Principais players: Bupa, Spire, HCA, Nuffield. Decisões mais rápidas que NHS.",
+      "Foco em experiência e resultados do paciente. Dispostos a pagar prêmio por tecnologia de ponta. Menos burocracia.",
+      "Ainda precisa de MHRA mas processo mais rápido. Compliance com CQC. Integração com sistemas EPR privados.",
+      "Discussões de piloto com um grupo hospitalar privado. Ciclos de venda típicos de 3-6 meses."
+    ],
+    "diagnostics": [
+      "Mercado de AI em diagnósticos de £800M no Reino Unido. Caminho regulatório mais rápido que terapêuticos. Classificação SaMD.",
+      "Radiologia AI saturada. Patologia, oftalmologia, dermatologia menos saturadas. Point-of-care emergindo.",
+      "Marcação UKCA obrigatória. Estudos de validação clínica. Integração com sistemas PACS/imagem.",
+      "Conversas com dois NHS trusts sobre piloto de AI em patologia. Caminho de 6-12 meses até implantação."
+    ]
+  },
+  "quant": {
+    "banks": [
+      "Mercado de £2.4B. Dominado por Bloomberg, Refinitiv. Bancos também construindo internamente.",
+      "Foco em gestão de risco. Compliance regulatório crítico. Requisitos de explicabilidade.",
+      "SOC2 Type II mínimo. Implantação on-prem muitas vezes exigida. Avaliação extensiva de risco de fornecedor.",
+      "Conversa inicial com time de inovação de um banco Tier 2. Ciclos de venda de 12-18 meses."
+    ],
+    "asset_managers": [
+      "Mercado britânico de £1.8B. Menos sensível a latência que trading. Mais foco em pesquisa e análise.",
+      "Geração de alpha, integração ESG, análise de risco. Menos técnico que quant shops.",
+      "Implantação cloud OK. Integração com sistemas de gestão de portfólio. Audit trails.",
+      "Dois gestores de ativos de médio porte interessados em piloto. Ciclos de venda de 6-9 meses."
+    ],
+    "data_provider": [
+      "Mercado de dados alternativos de £3.2B. Crescimento rápido. Menos competitivo que sistemas de trading.",
+      "Fontes de dados únicas valorizadas. Formatos quant-ready. Entrega via API. Suporte a backtesting.",
+      "Qualidade e proveniência de dados críticas. Necessita termos de licenciamento claros. Compliance com regulações de dados.",
+      "Vários fundos quant expressaram interesse em nossos dados de sinal. Poderia lançar dentro de 2 trimestres."
+    ]
+  },
+  "dream": {
+    "enterprise_creative": [
+      "Ferramentas criativas enterprise de £1.2B. Adobe domina. Espaço para challengers AI-native.",
+      "Consistência de marca, colaboração, workflows de aprovação, gestão de ativos, compliance.",
+      "SSO, gestão de times, aplicação de guidelines de marca, análises de uso, SLA.",
+      "Duas equipes de marketing enterprise interessadas em piloto. Precisa construir primeiro as funcionalidades de time."
+    ],
+    "gaming": [
+      "Ferramentas de game dev de £280M no Reino Unido. Forte crescimento em geração de ativos com IA. Integração Unity/Unreal é chave.",
+      "Estilos de arte consistentes, geração em lote, integração com game engines, velocidade de iteração.",
+      "Plugins Unity e Unreal. Consistência de estilo entre ativos. Clareza de licenciamento comercial.",
+      "Três estúdios indie interessados. Um estúdio AA em conversas iniciais."
+    ],
+    "platform": [
+      "Creative AI API-first está emergindo. Concorrentes: Stability AI, Replicate. Precificação baseada em volume.",
+      "Confiabilidade, latência, custo por geração, qualidade do modelo, opções de fine-tuning.",
+      "SLA de uptime 99.9%. CDN global. Limites de taxa claros. Documentação para desenvolvedores.",
+      "Vários desenvolvedores de apps expressaram interesse. Precisaria reconstruir o modelo de precificação."
+    ]
+  },
+  "vanguard": {
+    "manufacturing": [
+      "Automação de manufatura de £1.4B no Reino Unido. Mais tolerante a capex. Ciclos de venda mais longos mas mais sticky.",
+      "Flexibilidade para trocas de produto. Integração com MES. Inspeção de qualidade. Manutenção preditiva.",
+      "Marcação CE, certificação de segurança, integração com PLCs e SCADA. Compliance específico por indústria.",
+      "Dois fornecedores tier-1 automotivos interessados em piloto. Precisaria funcionalidades específicas de manufatura."
+    ],
+    "last_mile": [
+      "Robótica de last-mile de £340M no Reino Unido. Estágio inicial. Incerteza regulatória. Starship, Amazon competindo.",
+      "Custo por entrega, velocidade, confiabilidade em todas as condições climáticas, experiência do cliente.",
+      "Navegação em calçada, resistência climática, compartimentos seguros, gestão de frota.",
+      "Duas redes de supermercados interessadas mas aguardando clareza regulatória. Alto risco, alto retorno."
+    ],
+    "software_platform": [
+      "Plataformas de software para robôs emergindo. Ecossistema ROS. Potencial para servir múltiplos fabricantes de hardware.",
+      "Navegação, evitamento de obstáculos, gestão de frota, simulação. Agnóstico de hardware.",
+      "Compatibilidade ROS2. Suporte a múltiplos sensores. Implantação cloud e edge.",
+      "Três startups de robôs expressaram interesse em licenciamento. Mudaria significativamente o modelo de negócio."
+    ]
+  },
+  "terra": {
+    "climate_risk": [
+      "Mercado de risco climático de £680M no Reino Unido. Impulsionado por regulação (TCFD, PRA). Bancos devem avaliar portfólios.",
+      "Modelagem de risco físico, risco de transição, análise de cenários, reporting regulatório.",
+      "Modelos de nível atuarial, audit trails, alinhamento regulatório, integração com sistemas de risco.",
+      "Um banco regional e uma seguradora interessados em piloto. Precisa de expertise em serviços financeiros."
+    ],
+    "carbon_markets": [
+      "Mercado voluntário de carbono crescendo rapidamente. MRV é o principal gargalo. Satellite + AI emergindo.",
+      "Desenvolvedores de projetos precisam de verificação. Compradores precisam de garantia de qualidade. Registros precisam de automação.",
+      "Integração com sensoriamento remoto, protocolos de validação em campo, integração com registros, detecção de fraude.",
+      "Dois desenvolvedores de projetos de carbono interessados. Um registro explorando parceria. Oportunidade emergente."
+    ],
+    "government_climate": [
+      "Gasto climático do governo do Reino Unido aumentando. Autoridades locais têm mandatos Net Zero.",
+      "Planejamento de adaptação, risco de inundação, mapeamento de calor, modelagem de impacto de políticas.",
+      "Listagem em G-Cloud, experiência em procurement setor público, integração com dados abertos.",
+      "Dois councils interessados em pilotos de planejamento de adaptação climática. Ciclos de venda longos."
+    ]
+  },
+  "legal": {
+    "inhouse": [
+      "Crescendo mais rápido que escritórios de advocacia. GCs sob pressão para cortar custos. Mais tech-forward.",
+      "Gestão de contratos, gestão de gasto, gestão de matérias, supervisão de outside counsel.",
+      "Integração com sistemas CLM, workflows de procurement, padrões de segurança de TI corporativos.",
+      "Três GCs da FTSE 250 interessados em piloto. Ciclos de venda mais curtos que escritórios de advocacia."
+    ],
+    "compliance": [
+      "Mercado de RegTech de £1.2B no Reino Unido. Serviços financeiros principal. Saúde, energia crescendo.",
+      "Rastreamento de mudanças regulatórias, workflow de compliance, preparação de auditoria, gestão de políticas.",
+      "Feeds regulatórios em tempo real, conhecimento específico por setor, audit trails, automação de workflows.",
+      "Dois times de compliance de serviços financeiros expressaram interesse. Precisaria parcerias de conteúdo regulatório."
+    ],
+    "litigation": [
+      "Tech de litígio de £340M no Reino Unido. Dominado por players dos EUA. AI review crescendo rápido.",
+      "Aceleração de revisão de documentos, detecção de privilégio, estratégia de caso, previsão de custos.",
+      "Defensabilidade, audit trails, integração com plataformas de review, outputs admissíveis em tribunal.",
+      "Duas práticas de litígio interessadas em piloto de AI review. Precisaria funcionalidades específicas de litígio."
+    ]
+  },
+  "edu": {
+    "tutoring": [
+      "Mercado de tutoring de £2.1B no Reino Unido. Crescimento pós-COVID. Pais gastando mais com educação.",
+      "Resultados (melhoria de notas), conveniência, acessibilidade vs tutores humanos, engajamento.",
+      "Mobile-first, gamificação, dashboards para pais, alinhamento curricular, safeguarding.",
+      "Grupos focais de pais positivos. Precisaria mudanças significativas de produto e investimento em marketing."
+    ],
+    "corporate_training": [
+      "Mercado de L&D corporativo de £3.4B no Reino Unido. Lacunas de skills impulsionando investimento. AI training em tendência.",
+      "Treinamento de compliance, desenvolvimento de skills, onboarding, desenvolvimento de liderança. ROI mensurável.",
+      "Integração LMS (Cornerstone, Workday), SCORM/xAPI, SSO, análises, criação de conteúdo.",
+      "Dois diretores de L&D interessados em piloto. Precisa de funcionalidades e integrações enterprise."
+    ],
+    "assessment": [
+      "Mercado de avaliação crescendo com AI grading. Exam boards e awarding bodies interessados.",
+      "Consistência de grading, eficiência, qualidade do feedback, detecção de trapaça, acessibilidade.",
+      "Validade psicométrica, detecção de viés, audit trails, integração com sistemas de exames.",
+      "Um awarding body interessado em piloto de AI grading. Mercado de alto stakes, alto escrutínio."
+    ]
+  }
+}

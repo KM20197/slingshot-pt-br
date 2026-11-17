@@ -1,0 +1,903 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de organização de rotinas, cooperação e transição em Aoife, preservando metadados e desembolsos originais",
+    "strings": {
+      "[\"dev\",\"aoife\",0,\"intro\"]": {
+        "source": "The way our system is built will cope with maybe two more big customers. After that, things will start crashing and slowing down. We need to either rebuild the core structure now, or accept we'll face serious problems later.",
+        "target": "Do jeito que a nossa estrutura está montada, ela aguenta talvez mais dois clientes grandes. Depois disso, as coisas começam a travar e a ficar lentas. Ou a gente reorganiza a base agora, ou aceita que vai encarar problema sério mais adiante."
+      },
+      "[\"dev\",\"aoife\",0,\"aside\"]": {
+        "source": "Adding new features to a shaky foundation just means more things that can break. I've watched this story play out before at other companies.",
+        "target": "Colocar novidade em cima de uma base frágil é só arranjar mais coisa para quebrar. Eu já vi essa história acontecer em outros lugares onde trabalhei."
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",0,\"text\"]": {
+        "source": "Rebuild the core structure properly",
+        "target": "Reorganizar a base como deve ser"
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Grand. I'll put together a proper plan. This sets us up for scale.",
+        "target": "Ótimo. Vou montar um plano direito. Isso deixa a casa pronta para crescer."
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",1,\"text\"]": {
+        "source": "Fix only the worst problems",
+        "target": "Corrigir só os piores problemas"
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Not ideal, but we can make it work for now.",
+        "target": "Não é o ideal, mas dá para segurar assim por enquanto."
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",2,\"text\"]": {
+        "source": "Keep adding features, fix later",
+        "target": "Continuar ampliando a oferta e resolver depois"
+      },
+      "[\"dev\",\"aoife\",0,\"choices\",2,\"reaction\"]": {
+        "source": "I want 'later' in writing. We're borrowing from the future.",
+        "target": "Quero esse 'depois' por escrito. Estamos pegando emprestado do futuro."
+      },
+      "[\"dev\",\"aoife\",1,\"intro\"]": {
+        "source": "Remember all those times we said 'we'll fix it properly later'? Later is now. Every quick fix and workaround we've built is slowing us down. Simple changes take three times as long because the code is a tangled mess.",
+        "target": "Lembra de todas as vezes que dissemos que depois a gente arrumava direito? O depois chegou. Cada remendo e cada gambiarra que fizemos está atrasando o nosso trabalho. Mudança simples leva o triplo do tempo porque as rotinas viraram um emaranhado."
+      },
+      "[\"dev\",\"aoife\",1,\"aside\"]": {
+        "source": "I've watched good engineers quit over this. Nobody wants to work in a codebase held together with string and prayers.",
+        "target": "Já vi gente boa pedir as contas por causa disso. Ninguém quer trabalhar num lugar onde tudo se sustenta com barbante e reza."
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",0,\"text\"]": {
+        "source": "Dedicate two weeks to fixing it properly",
+        "target": "Separar duas semanas para organizar de verdade"
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",0,\"reaction\"]": {
+        "source": "The team will thank us. So will future us.",
+        "target": "A equipe vai agradecer. A gente do futuro também."
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",1,\"text\"]": {
+        "source": "Split time between fixes and features",
+        "target": "Dividir o tempo entre organizar as rotinas e ampliar a oferta"
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. I can work with that.",
+        "target": "Um acordo possível. Dá para trabalhar assim."
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",2,\"text\"]": {
+        "source": "Just fix things when they break",
+        "target": "Arrumar só quando quebrar"
+      },
+      "[\"dev\",\"aoife\",1,\"choices\",2,\"reaction\"]": {
+        "source": "We're making it worse. Note that.",
+        "target": "Assim a gente só piora. Anota isso."
+      },
+      "[\"dev\",\"aoife\",2,\"intro\"]": {
+        "source": "Every time we update our software, someone has to manually copy files, run checks, and pray nothing breaks. Last week's 3am emergency? That was a typo in a manual step. We need to automate this entire process.",
+        "target": "Toda vez que atualizamos os procedimentos, alguém precisa copiar arquivos, conferir etapa por etapa e torcer para nada quebrar. O susto da madrugada da semana passada? Foi um errinho de digitação numa etapa feita na mão. Precisamos padronizar esse fluxo inteiro."
+      },
+      "[\"dev\",\"aoife\",2,\"aside\"]": {
+        "source": "Machines don't get tired or make typos at 3am. We should let them handle the boring, repetitive work.",
+        "target": "Na madrugada, o cansaço pesa e um erro passa fácil. Um roteiro claro pode reduzir os improvisos nesse trabalho repetitivo."
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",0,\"text\"]": {
+        "source": "Build a fully automated update system",
+        "target": "Padronizar o fluxo de atualização por inteiro"
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",0,\"reaction\"]": {
+        "source": "This pays for itself in months.",
+        "target": "Menos susto e menos retrabalho. É para isso que vamos organizar o fluxo."
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",1,\"text\"]": {
+        "source": "Automate just the riskiest parts",
+        "target": "Padronizar só as etapas mais arriscadas"
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. We'll build on this.",
+        "target": "Melhor que nada. Depois a gente amplia."
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",2,\"text\"]": {
+        "source": "Keep doing it manually",
+        "target": "Manter tudo como está, feito na mão"
+      },
+      "[\"dev\",\"aoife\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Until it breaks. At the worst time.",
+        "target": "Até quebrar. E vai quebrar na pior hora."
+      },
+      "[\"dev\",\"aoife\",3,\"intro\"]": {
+        "source": "A large UK company wants to hire us for a custom project—they want our AI adapted to work in their specific systems. We could build it in a way that creates tools we can sell to others, or just do exactly what they need and move on.",
+        "target": "Um cliente grande quer nos contratar para uma encomenda sob medida: ele quer o nosso jeito de trabalhar adaptado ao funcionamento da casa dele. Dá para montar isso de um modo que depois sirva para outras ofertas, ou fazer exatamente o que ele pediu e seguir em frente."
+      },
+      "[\"dev\",\"aoife\",3,\"aside\"]": {
+        "source": "Custom projects pay well, but they can distract us from our main product. The smart approach is to build things that help this client AND become part of our product for everyone else.",
+        "target": "Encomenda sob medida paga bem, mas desvia a atenção do nosso trabalho principal. O caminho esperto é montar algo que ajude esse cliente e que depois sirva para os outros também."
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",0,\"text\"]": {
+        "source": "Build it so we can reuse it later",
+        "target": "Montar de um jeito que depois sirva para outros"
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Revenue now, and features everyone can use.",
+        "target": "Receita agora e aprendizado que pode ajudar nas próximas ofertas."
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",1,\"text\"]": {
+        "source": "Just build what they need",
+        "target": "Fazer só o que esse cliente pediu"
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Quick money, but we can't use this work again.",
+        "target": "Dinheiro rápido, mas esse trabalho não se aproveita de novo."
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",2,\"text\"]": {
+        "source": "Decline—stay focused on our product",
+        "target": "Recusar e manter o foco no nosso plano"
+      },
+      "[\"dev\",\"aoife\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Product focus pays off. Ship faster.",
+        "target": "Foco no nosso plano compensa. A gente entrega mais rápido."
+      },
+      "[\"dev\",\"aoife\",4,\"intro\"]": {
+        "source": "Another UK startup wants to connect their product to ours so their customers can use our AI. It would mean more users for us, but also more support calls and we'd need to coordinate whenever either of us makes changes.",
+        "target": "Outro negócio quer fazer uma cooperação comercial com a gente, para atender clientes em conjunto e alcançar mais gente. Isso pode trazer novos clientes, mas também mais pedidos de suporte, e qualquer mudança de um lado precisa ser combinada com o outro."
+      },
+      "[\"dev\",\"aoife\",4,\"aside\"]": {
+        "source": "Partnerships can help us reach customers we'd never find alone. But every connection we build is another thing we have to maintain.",
+        "target": "Cooperação ajuda a chegar em clientes que sozinhos a gente nunca alcançaria. Só que cada frente aberta é mais coisa para manter de pé."
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",0,\"text\"]": {
+        "source": "Build a proper connection with full support",
+        "target": "Organizar a cooperação com suporte completo"
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Share customers and learn from their edge cases.",
+        "target": "Dividir clientes e aprender com os casos difíceis deles."
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",1,\"text\"]": {
+        "source": "Build a basic version first to test it",
+        "target": "Começar com uma experiência pequena"
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Test whether it works without drowning in requests.",
+        "target": "Ver se funciona antes de afundar em pedidos."
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",2,\"text\"]": {
+        "source": "Decline—keep things simple",
+        "target": "Recusar e manter a operação simples"
+      },
+      "[\"dev\",\"aoife\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Our roadmap stays clear. Execute well.",
+        "target": "Nosso plano de trabalho segue limpo. Executar bem."
+      },
+      "[\"dev\",\"aoife\",5,\"intro\"]": {
+        "source": "Our research data is scattered across dozens of spreadsheets, random folders, and the personal laptops of stressed PhD students. Last month we wasted a week recreating an experiment because nobody could find the original results.",
+        "target": "Nossos registros de experiências e melhorias estão espalhados por planilhas, pastas soltas e anotações de todo tipo. No mês passado a gente perdeu uma semana refazendo um teste porque ninguém achou os resultados originais."
+      },
+      "[\"dev\",\"aoife\",5,\"aside\"]": {
+        "source": "A proper system would let us find past experiments instantly and repeat them exactly. Right now, when someone leaves, their knowledge walks out the door with them.",
+        "target": "Um acervo organizado facilitaria encontrar avaliações anteriores e repetir os passos que seguimos. Do jeito que está, quando alguém sai, leva parte do conhecimento junto."
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",0,\"text\"]": {
+        "source": "Build a proper data management system",
+        "target": "Organizar um acervo comum de registros"
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Chaos subsides. We'll discover datasets we'd forgotten.",
+        "target": "A bagunça diminui. Vamos achar material que já tínhamos esquecido."
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",1,\"text\"]": {
+        "source": "Hire someone to organise the worst bits",
+        "target": "Deixar uma pessoa cuidando das partes críticas"
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Better, but we'll revisit this.",
+        "target": "Melhora, mas vamos voltar nesse assunto."
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",2,\"text\"]": {
+        "source": "Leave it for after the next deadline",
+        "target": "Deixar para depois do próximo prazo"
+      },
+      "[\"dev\",\"aoife\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise the deadline. Team stays focused.",
+        "target": "Prioriza o prazo. A equipe segue focada."
+      },
+      "[\"dev\",\"aoife\",6,\"intro\"]": {
+        "source": "A UK supermarket wants our robots to work differently at night—slower movements, quieter motors, different routes when shelf-stackers are around. We could build a settings system that any customer can adjust, or just write special code for this one client.",
+        "target": "Um cliente comercial quer que a entrega e a separação de materiais aconteçam à noite, com menos barulho e em rotas e horários que caibam na rotina da equipe dele. Dá para deixar essa rotina ajustável para qualquer cliente, ou só atender o pedido pontual desse."
+      },
+      "[\"dev\",\"aoife\",6,\"aside\"]": {
+        "source": "The quick fix works for them, but next month another customer will want something different. If we keep doing one-off fixes, eventually our code becomes an unmaintainable mess.",
+        "target": "O ajuste pontual resolve para ele, mas no mês que vem outro cliente vai querer diferente. Se a gente só faz remendo para cada um, a operação vira um nó."
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",0,\"text\"]": {
+        "source": "Build a proper settings system",
+        "target": "Deixar a rotina ajustável para cada cliente"
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Adapt to each store without rewriting code every time.",
+        "target": "Atender cada cliente sem refazer tudo do zero a cada pedido."
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",1,\"text\"]": {
+        "source": "Write custom code just for them",
+        "target": "Fazer um ajuste só para esse cliente"
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Works for now. The mess grows.",
+        "target": "Resolve agora. A bagunça cresce depois."
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",2,\"text\"]": {
+        "source": "Tell them our product works one way",
+        "target": "Explicar que a nossa operação segue um padrão único"
+      },
+      "[\"dev\",\"aoife\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Clear positioning. Integrity preserved.",
+        "target": "Posição clara. Coerência preservada."
+      },
+      "[\"dev\",\"aoife\",7,\"intro\"]": {
+        "source": "A UK competitor just launched a feature that's very similar to something we were planning to build. Customers are asking if we have it too. We could rush to catch up, focus on doing something different instead, or stick to our original plan.",
+        "target": "Um concorrente acabou de lançar uma oferta muito parecida com uma que a gente estava planejando. Os clientes já perguntam se a gente também tem. Dá para correr atrás, apostar em algo diferente, ou seguir o plano que já estava traçado."
+      },
+      "[\"dev\",\"aoife\",7,\"aside\"]": {
+        "source": "Reacting to competitors can distract us from what makes us special. But ignoring them completely might mean losing customers who want that feature.",
+        "target": "Ficar reagindo ao concorrente desvia do que faz a gente diferente. Mas ignorar de vez pode custar cliente que quer aquela oferta."
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",0,\"text\"]": {
+        "source": "Rush to build our own version",
+        "target": "Correr e lançar a nossa versão"
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Ship a better version. Show side-by-side comparisons.",
+        "target": "Buscar uma versão melhor. Mostrar a comparação lado a lado."
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",1,\"text\"]": {
+        "source": "Focus on what makes us different",
+        "target": "Apostar no que nos diferencia"
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Lean into our strengths instead of chasing features.",
+        "target": "Reforçar o que a gente faz bem em vez de perseguir a oferta dos outros."
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",2,\"text\"]": {
+        "source": "Stick to our original plan",
+        "target": "Seguir o plano que já tínhamos"
+      },
+      "[\"dev\",\"aoife\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Disciplined execution. Stay focused.",
+        "target": "Execução disciplinada. Manter o foco."
+      },
+      "[\"dev\",\"aoife\",8,\"intro\"]": {
+        "source": "We need to decide how to license our code. Open source could build a community and attract developers, but we'd be giving away our work for free. Keeping it proprietary protects our investment but limits how quickly we can grow. There are also different types of open source licences with very different rules.",
+        "target": "Precisamos decidir como compartilhar os nossos materiais de trabalho e as práticas que a gente desenvolveu. Abrir tudo pode formar uma rede de gente usando e melhorando junto, mas também entrega de graça o que nos custou tempo. Guardar só para o nosso uso protege esse esforço e ao mesmo tempo limita o quanto a gente cresce."
+      },
+      "[\"dev\",\"aoife\",8,\"aside\"]": {
+        "source": "Some open source licences let anyone use your code for anything, including competitors. Others require anyone who modifies it to share their changes. The choice matters more than people realise.",
+        "target": "Tem gente que compartilha sem pedir nada em troca, e aí qualquer um aproveita, inclusive concorrente. Outros combinam que quem melhorar devolve a melhoria para o grupo. A escolha pesa mais do que parece."
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",0,\"text\"]": {
+        "source": "Permissive open source (like MIT)",
+        "target": "Compartilhar livremente, sem pedir nada em troca"
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Maximum adoption. Anyone can use it, even competitors building commercial products.",
+        "target": "Alcance máximo. Qualquer um usa, inclusive concorrente montando oferta comercial em cima."
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",1,\"text\"]": {
+        "source": "Copyleft open source (like GPL)",
+        "target": "Compartilhar pedindo reciprocidade nas melhorias"
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Derivatives must also be open source. Protects the commons but scares some businesses.",
+        "target": "Quem melhora costuma devolver a melhoria para o grupo. Fica no combinado de boa vontade, sem obrigação."
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",2,\"text\"]": {
+        "source": "Keep it proprietary",
+        "target": "Manter tudo só para uso interno"
+      },
+      "[\"dev\",\"aoife\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Full control. Slower community growth but we own everything.",
+        "target": "Mantemos os materiais no nosso uso. A rede de colaboradores cresce mais devagar."
+      },
+      "[\"dev\",\"aoife\",9,\"intro\"]": {
+        "source": "A supplier we like won't show us their technology until we sign a mutual NDA. Our lawyer has read their draft and isn't happy. The confidentiality runs five years, and there's a clause that stops us hiring their people.",
+        "target": "Um fornecedor de quem a gente gosta só mostra o jeito de trabalhar dele se combinarmos reserva de informações dos dois lados. A proposta que ele mandou é ampla e duradoura, e ainda inclui limitar a nossa aproximação com a equipe dele."
+      },
+      "[\"dev\",\"aoife\",9,\"aside\"]": {
+        "source": "The NDA itself is normal. The terms are the problem. Sign the wrong ones and we're still living with them in five years.",
+        "target": "Combinar reserva de informações faz parte dessa conversa. O problema está no alcance. Aceitar um combinado amplo demais pode limitar a nossa cooperação por muito tempo."
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",0,\"text\"]": {
+        "source": "Review carefully and negotiate terms",
+        "target": "Examinar com calma e negociar os termos"
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Takes time but protects us from nasty surprises.",
+        "target": "Leva tempo, mas evita surpresa ruim."
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",1,\"text\"]": {
+        "source": "Sign their standard agreement",
+        "target": "Aceitar o combinado como está"
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Quick and easy. Hope there's nothing unusual in there.",
+        "target": "Rápido e simples. Tomara que não tenha nada estranho ali."
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",2,\"text\"]": {
+        "source": "Decline and find another supplier",
+        "target": "Recusar e procurar outro fornecedor"
+      },
+      "[\"dev\",\"aoife\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Avoid the complexity. Find alternatives.",
+        "target": "Evita a complicação. Vamos atrás de alternativas."
+      },
+      "[\"dev\",\"aoife\",10,\"intro\"]": {
+        "source": "A large potential customer wants to see a demo of our product, but first they're asking us to sign a one-way NDA. We'd promise to keep their information confidential, but they wouldn't promise the same about ours. It feels unbalanced, but this is apparently standard practice for big corporations.",
+        "target": "Um cliente grande quer ver uma apresentação do nosso trabalho, mas antes pede que a gente combine reserva só das informações dele. Nós cuidaríamos do que é dele, e ele não faria o mesmo com o nosso. Parece desequilibrado, mas dizem que é o costume entre empresas grandes."
+      },
+      "[\"dev\",\"aoife\",10,\"aside\"]": {
+        "source": "Large companies often insist on one-way NDAs because they talk to many vendors. But it means if you show them your innovations, you have no legal protection if they share your ideas.",
+        "target": "Eles dizem que pedem esse cuidado porque conversam com muitos fornecedores. Mas, se mostrarmos o que desenvolvemos, não teremos combinado o mesmo cuidado com as nossas informações."
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",0,\"text\"]": {
+        "source": "Push for a mutual NDA instead",
+        "target": "Pedir cuidado dos dois lados"
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Fair is fair. Some big companies will agree if you push.",
+        "target": "Justo é justo. Algumas empresas grandes cedem quando a gente insiste."
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",1,\"text\"]": {
+        "source": "Sign but limit what we reveal",
+        "target": "Aceitar, mas mostrando menos"
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Play the game, but keep our best secrets hidden.",
+        "target": "Jogar o jogo, guardando o que a gente tem de melhor."
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",2,\"text\"]": {
+        "source": "Sign and share everything",
+        "target": "Aceitar e mostrar tudo"
+      },
+      "[\"dev\",\"aoife\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Full transparency wins trust.",
+        "target": "Transparência total ajuda a construir confiança."
+      },
+      "[\"dev\",\"aoife\",11,\"intro\"]": {
+        "source": "Someone who worked with us in the early months is joining a competitor. Their contract includes a non-compete clause that says they can't work for competitors for 12 months after leaving. Our lawyer says we could enforce it, but it would be expensive, create bad publicity, and might not even hold up in court.",
+        "target": "Alguém que colaborou com a gente nos primeiros meses está indo para um concorrente. Esperávamos uma passagem de tarefas mais tranquila, e agora há quem queira pressionar a pessoa para adiar a saída. Insistir nisso pode gerar desgaste para os dois lados."
+      },
+      "[\"dev\",\"aoife\",11,\"aside\"]": {
+        "source": "Non-compete clauses are controversial. UK courts often refuse to enforce them unless they're reasonable in scope and duration. But the threat alone can deter people.",
+        "target": "Essa conversa pode virar pressão sobre quem está saindo. É fácil confundir o cuidado com a transição com a vontade de controlar o próximo passo da pessoa."
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",0,\"text\"]": {
+        "source": "Enforce the non-compete",
+        "target": "Pressionar para adiar a saída"
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Send a message. But lawyers get rich and we look bad.",
+        "target": "Manda um recado para os outros. Mas gera desgaste e a gente sai com fama ruim."
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",1,\"text\"]": {
+        "source": "Negotiate a deal—garden leave",
+        "target": "Negociar uma transição com apoio financeiro"
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Pay them to stay home for a few months. Expensive but cleaner.",
+        "target": "É um desembolso adicional para negociar a transição. Custa, mas pode reduzir o conflito."
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",2,\"text\"]": {
+        "source": "Let them go without a fight",
+        "target": "Deixar a pessoa sair sem criar caso"
+      },
+      "[\"dev\",\"aoife\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Take the high road. They might even come back one day.",
+        "target": "Seguir pelo caminho limpo. Quem sabe ela volta um dia."
+      },
+      "[\"dev\",\"aoife\",12,\"intro\"]": {
+        "source": "We've discovered that a smaller company is using code that looks very similar to ours in their product. We think they might have copied it—possibly from an ex-employee or from code we shared during a partnership discussion. Our lawyer says we could sue for copyright infringement.",
+        "target": "Um negócio menor está usando materiais e um método de trabalho muito parecidos com os nossos. Podem ter conhecido a ideia numa conversa de cooperação ou com alguém que saiu da equipe, mas só a semelhança não esclarece o que aconteceu. Vale cobrar explicações ou tentar negociar um acerto?"
+      },
+      "[\"dev\",\"aoife\",12,\"aside\"]": {
+        "source": "Copyright automatically protects original code. But proving someone copied it is hard, and lawsuits are expensive and distracting. Sometimes a strongly-worded letter is enough.",
+        "target": "Correr atrás disso consome tempo e atenção. Às vezes uma mensagem firme basta para esclarecer o assunto. Levar a negociação adiante custa mais esforço e pode trazer uma compensação."
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",0,\"text\"]": {
+        "source": "Send a cease and desist letter",
+        "target": "Pedir esclarecimentos por escrito"
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Put them on notice. Often enough to make them stop.",
+        "target": "Deixar o pedido claro e registrado. Talvez baste para pôr o assunto em pratos limpos."
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",1,\"text\"]": {
+        "source": "Sue for copyright infringement",
+        "target": "Negociar um acerto comercial com compensação financeira"
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Full legal action. Expensive, slow, but sends a strong message and may get damages.",
+        "target": "Leva tempo e consome recursos. A compensação financeira faz parte do acerto que vamos tentar negociar."
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",2,\"text\"]": {
+        "source": "Let it go—focus on our own work",
+        "target": "Deixar de lado e focar na nossa oferta"
+      },
+      "[\"dev\",\"aoife\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Outcompete them with better product.",
+        "target": "Competir com uma oferta melhor."
+      },
+      "[\"dev\",\"aoife\",13,\"intro\"]": {
+        "source": "Our robots use a clever new gripper mechanism. The question is: can we patent it? Our attorney says mechanical inventions are straightforward to patent, but the software controlling the gripper is trickier. In Europe, 'software as such' can't be patented, but 'software with a technical effect' sometimes can. The US is more permissive but the rules keep changing.",
+        "target": "Nossa operação de comércio de materiais desenvolveu um jeito novo de separar, embalar e movimentar os materiais no estoque. A pergunta é se documentamos e apresentamos o método completo, se mostramos apenas a parte visível e guardamos os detalhes internos, ou se mantemos tudo interno e apostamos na rapidez."
+      },
+      "[\"dev\",\"aoife\",13,\"aside\"]": {
+        "source": "Robotics companies often file separate patents for hardware and software. The mechanical parts are usually easier to protect. The AI and algorithms are harder—and that's often where the real value lies.",
+        "target": "Podemos mostrar o que ajuda a explicar o atendimento, mas os detalhes que fazem diferença também podem ser imitados. É preciso decidir quanto vamos expor."
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",0,\"text\"]": {
+        "source": "Patent both hardware and software aspects",
+        "target": "Documentar e apresentar o método completo"
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Cover all angles. The software patent might be challenged, but it's worth trying.",
+        "target": "Mostrar tudo deixa a rotina clara para quem acompanha, mas também expõe os detalhes internos à concorrência."
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",1,\"text\"]": {
+        "source": "Patent the hardware, keep software as trade secret",
+        "target": "Apresentar a parte visível e guardar os detalhes internos"
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Protects what we can. The code stays hidden instead of published in a patent.",
+        "target": "Mostramos o suficiente para gerar confiança e mantemos a parte crítica da rotina com a equipe."
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",2,\"text\"]": {
+        "source": "Rely on speed and trade secrets instead",
+        "target": "Manter o método interno e apostar na rapidez"
+      },
+      "[\"dev\",\"aoife\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Move fast. Stay ahead.",
+        "target": "Andar rápido. Manter a frente."
+      },
+      "[\"dev\",\"aoife\",14,\"intro\"]": {
+        "source": "We're entering a market dominated by large industrial automation companies. They have thousands of patents—a 'patent thicket' that's almost impossible to navigate without infringing something. Our lawyer warns that building any robot arm probably infringes someone's patent somewhere. The question is whether anyone will notice, and whether they'll care about a small startup.",
+        "target": "Estamos entrando num mercado dominado por grandes fornecedores de materiais, com rotinas e relações entre eles difíceis de entender. Existe risco de dependências e de atritos que não controlamos. Podemos mapear o contexto e as dependências de atendimento de forma ampla, contornar apenas os problemas mais evidentes ou avançar sem checar."
+      },
+      "[\"dev\",\"aoife\",14,\"aside\"]": {
+        "source": "Big companies sometimes ignore small competitors, but they also use patent threats to force acquisitions at low prices. Once you're successful enough to be noticed, you become a target.",
+        "target": "Fornecedores grandes às vezes ignoram quem é pequeno, mas também criam dependências comerciais que ficam caras com o tempo. Quando a operação cresce e chama atenção, a relação deixa de ser neutra."
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",0,\"text\"]": {
+        "source": "Do a full patent landscape analysis",
+        "target": "Mapear o contexto e as dependências de atendimento de forma ampla"
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive but we'll know exactly where the landmines are. Sleep easier.",
+        "target": "Custa, mas ajuda a conhecer os pontos frágeis antes de avançar. Dá para dormir mais tranquilo."
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",1,\"text\"]": {
+        "source": "Design around the obvious problem patents",
+        "target": "Contornar os problemas mais evidentes"
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Avoid the worst risks. Some uncertainty remains.",
+        "target": "Evitamos os piores riscos. Resta incerteza sobre o resto."
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",2,\"text\"]": {
+        "source": "Move fast and hope nobody sues",
+        "target": "Avançar sem checar"
+      },
+      "[\"dev\",\"aoife\",14,\"choices\",2,\"reaction\"]": {
+        "source": "The startup way. Works until it doesn't.",
+        "target": "Avançar no escuro. Funciona até aparecer o problema."
+      },
+      "[\"dev\",\"aoife\",15,\"intro\"]": {
+        "source": "One of the team has invented an improvement to our path-planning algorithm. Should we patent it? Patents require public disclosure—our competitors will read exactly how it works. The alternative is keeping it as a trade secret, like Coca-Cola's formula. But if a competitor independently invents the same thing and patents it, they could block us from using our own invention.",
+        "target": "Uma pessoa da equipe melhorou nossa rotina de preparação e organização do trabalho. O que fazemos com a melhoria: preparamos uma divulgação detalhada, assumindo o desembolso adicional, mantemos os detalhes internos ou compartilhamos abertamente. Detalhar tudo significa que a concorrência lê exatamente como funciona. Guardar significa depender de ninguém descobrir. Compartilhar deixa a melhoria disponível para todos, inclusive para quem não participou do esforço."
+      },
+      "[\"dev\",\"aoife\",15,\"aside\"]": {
+        "source": "The patent vs trade secret decision depends on whether competitors could reverse-engineer your innovation. If they can figure it out by examining your product, a trade secret won't help.",
+        "target": "Mostrar em detalhe expõe o método para a concorrência. Guardar tudo limita o reconhecimento pelo trabalho feito. Compartilhar não impede que outros usem algo parecido depois."
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",0,\"text\"]": {
+        "source": "Patent it—disclosure is worth the protection",
+        "target": "Preparar a divulgação detalhada e assumir o desembolso"
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Twenty years of exclusive rights. Competitors know how it works but can't use it.",
+        "target": "É um desembolso adicional para organizar e divulgar os detalhes. Podemos ganhar visibilidade, mas também mostramos o caminho à concorrência."
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",1,\"text\"]": {
+        "source": "Keep it as a trade secret",
+        "target": "Manter os detalhes internos"
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Stays hidden forever—or until someone leaks it or figures it out.",
+        "target": "Fica guardado por tempo indeterminado, até alguém descobrir ou reproduzir por conta própria."
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",2,\"text\"]": {
+        "source": "Publish it to prevent anyone patenting it",
+        "target": "Compartilhar abertamente"
+      },
+      "[\"dev\",\"aoife\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Defensive publishing. We can't own it, but neither can anyone else.",
+        "target": "Divulgação livre. Não controlamos o uso, mas também não dependemos de esconder nada."
+      },
+      "[\"dev\",\"aoife\",16,\"intro\"]": {
+        "source": "A customer sent us photos of a product from a Shenzhen manufacturer that looks suspiciously like our robot design, selling at half our price. International patent enforcement is always difficult—different legal systems, language barriers, local courts that may favour local companies. China has improved its IP courts significantly, but the process is still slow, expensive, and uncertain.",
+        "target": "Um cliente nos mandou imagens de uma oferta de materiais e atendimento muito parecida com a nossa, de um fornecedor de outra região, custando metade do nosso preço. Comparar operações entre regiões é sempre difícil: distâncias, jeitos diferentes de trabalhar e negociações locais que não acompanhamos. Resolver isso de longe é lento, caro e incerto."
+      },
+      "[\"dev\",\"aoife\",16,\"aside\"]": {
+        "source": "Cross-border IP enforcement is genuinely hard everywhere. The question isn't whether the system is perfect—it isn't—but whether enforcement is worth the cost and distraction. Some companies find success; many don't.",
+        "target": "Comparar ofertas entre regiões é difícil em qualquer lugar. A questão não é se o processo é perfeito, porque não é, mas se vale o custo e a distração. Alguns negócios conseguem; muitos não."
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",0,\"text\"]": {
+        "source": "Pursue enforcement through Chinese IP courts",
+        "target": "Investigar e buscar esclarecimentos com o fornecedor de outra região"
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Long process. Better odds than a decade ago. Might get injunction.",
+        "target": "Processo longo. Mais chances de entender o caso do que antes. Pode render algum esclarecimento."
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",1,\"text\"]": {
+        "source": "Focus on markets where we have stronger protections",
+        "target": "Concentrar o esforço nos clientes com quem nossa relação é mais forte"
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Pick battles we can win. Accept losses elsewhere.",
+        "target": "Escolher onde concentrar o esforço. Aceitar o que não dá para resolver de longe."
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",2,\"text\"]": {
+        "source": "Compete on quality, service, and speed instead",
+        "target": "Competir pela qualidade, pelo atendimento e pelo prazo"
+      },
+      "[\"dev\",\"aoife\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Accept copycats exist everywhere. Win on everything else.",
+        "target": "Ofertas parecidas vão aparecer. Buscar diferença na qualidade, no serviço e no prazo."
+      },
+      "[\"dev\",\"aoife\",17,\"intro\"]": {
+        "source": "Our investors are asking about our patent portfolio before the next funding round. They want to see strong intellectual property protection—an 'IP moat'—that protects our technology from competitors. Our current portfolio has three granted patents and two pending applications. The investors' IP advisor thinks we need at least ten patents to look serious to later-stage investors.",
+        "target": "Nossos apoiadores estão pedindo evidências das melhorias antes de continuar as conversas. Querem ver o trabalho organizado e registrado, algo que mostre que a oferta evoluiu de verdade. Temos três iniciativas registradas e duas em andamento. Quem analisa isso para eles acha que precisamos de pelo menos dez registros para parecer sérios a apoiadores mais experientes."
+      },
+      "[\"dev\",\"aoife\",17,\"aside\"]": {
+        "source": "Some investors count patents like trophies. Others care more about whether the patents actually protect something valuable. Quality matters more than quantity, but quantity is easier to measure.",
+        "target": "Alguns apoiadores contam registros como troféus. Outros se importam mais com o que cada registro comprova. Qualidade importa mais que quantidade, mas quantidade é mais fácil de medir."
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",0,\"text\"]": {
+        "source": "File several new patent applications",
+        "target": "Documentar várias iniciativas novas"
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Bulks up the portfolio for investors. Expensive but looks impressive.",
+        "target": "Engorda a lista para os apoiadores. Caro, mas impressiona."
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",1,\"text\"]": {
+        "source": "Focus on strengthening existing patents",
+        "target": "Focar em fortalecer o que já está registrado"
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Quality over quantity. Harder to explain to non-experts.",
+        "target": "Qualidade acima de quantidade. Mais difícil de explicar a quem não acompanha."
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",2,\"text\"]": {
+        "source": "Push back—our tech speaks for itself",
+        "target": "Defender que a oferta fala por si"
+      },
+      "[\"dev\",\"aoife\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Confident stance. Serious investors respect it.",
+        "target": "Postura confiante. Apoiadores sérios respeitam."
+      },
+      "[\"dev\",\"aoife\",18,\"intro\"]": {
+        "source": "We've received a letter from a company we've never heard of claiming we infringe their patent. Looking them up, they appear to be a 'patent troll'—a company that buys up patents purely to threaten other businesses with litigation. They're demanding £200,000 to go away. Our lawyer says fighting them would cost more than settling, even if we'd probably win.",
+        "target": "Um grupo comercial desconhecido contesta as semelhanças entre a nossa oferta e um material que dizem representar. Querem um valor alto para encerrar o assunto. Não está claro de onde veio a reclamação. Reunir informações e enfrentar a pressão pode custar mais que tentar um acerto."
+      },
+      "[\"dev\",\"aoife\",18,\"aside\"]": {
+        "source": "Patent trolls are a tax on innovation. They target companies that can afford to settle but can't afford to fight. Many founders quietly pay them off rather than face years of distraction.",
+        "target": "É uma escolha ruim de qualquer jeito: gastar tempo para contestar ou pagar para tentar encerrar o assunto. Só o desgaste dessa conversa já pesa no trabalho."
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",0,\"text\"]": {
+        "source": "Fight it on principle",
+        "target": "Enfrentar a contestação reunindo informações"
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive, but winning sends a message. Others will think twice about targeting us.",
+        "target": "É caro e exige firmeza. Quero que fique claro que não aceitamos pressão sem pedir explicações."
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",1,\"text\"]": {
+        "source": "Negotiate a smaller settlement",
+        "target": "Negociar um acerto menor com pagamento"
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",1,\"reaction\"]": {
+        "source": "Painful but pragmatic. They take less to avoid court.",
+        "target": "Um desembolso adicional para tentar encerrar a discussão por um valor menor. Doloroso, mas pragmático."
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",2,\"text\"]": {
+        "source": "Join a defensive patent pool",
+        "target": "Participar de uma rede setorial de apoio, com contribuição financeira"
+      },
+      "[\"dev\",\"aoife\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Pay into a group that fights trolls collectively. Helps everyone.",
+        "target": "Há um desembolso adicional para participar. Dividimos experiências e o esforço de responder às contestações."
+      },
+      "[\"dev\",\"aoife\",19,\"intro\"]": {
+        "source": "I want to dedicate one of our best engineers to 'patent mining'—systematically reviewing everything we've built to find patentable inventions we haven't protected yet. It would take her off product development for two months, but she knows the technology better than anyone and could probably identify a dozen filings.",
+        "target": "Quero dedicar uma das nossas melhores pessoas a levantar melhorias e rotinas que ainda não organizamos, revisando com calma tudo o que já construímos para encontrar o que ficou de fora. Isso a afasta do desenvolvimento da oferta por dois meses completos, mas ela conhece o trabalho melhor que qualquer um e provavelmente identificaria vários pontos."
+      },
+      "[\"dev\",\"aoife\",19,\"aside\"]": {
+        "source": "Most companies patent less than they could because engineers hate the paperwork and want to build things instead. Dedicated patent mining often uncovers valuable IP that would otherwise be lost.",
+        "target": "A maioria dos negócios organiza menos do que poderia porque a equipe prefere fazer a registrar. Uma revisão dedicada costuma encontrar melhorias valiosas que de outro modo se perdem."
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",0,\"text\"]": {
+        "source": "Go ahead—two months of her time",
+        "target": "Seguir em frente, com dois meses completos do tempo dela"
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Systematic approach. We'll find things we didn't know we had.",
+        "target": "Um levantamento sistemático. Pode mostrar coisa que nem lembrávamos, mas a oferta perde o tempo dela por enquanto."
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",1,\"text\"]": {
+        "source": "One month, focused on highest priorities",
+        "target": "Um mês, focado nas prioridades mais altas"
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Balance between coverage and keeping the product moving.",
+        "target": "Equilíbrio entre olhar o que importa mais e manter a oferta andando."
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",2,\"text\"]": {
+        "source": "Add patent review to regular sprint process",
+        "target": "Incluir a revisão no processo periódico"
+      },
+      "[\"dev\",\"aoife\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Lightweight approach. Catches the obvious stuff.",
+        "target": "Abordagem leve. Pega o que é mais óbvio."
+      },
+      "[\"dev\",\"aoife\",20,\"intro\"]": {
+        "source": "We've found a way to make our software work on older, cheaper devices—not just the latest phones and computers. This matters for healthcare workers using clinic tablets in rural Indonesia, teachers in underfunded UK schools, and field researchers everywhere. But supporting diverse hardware means more testing, more bugs, and slower feature development.",
+        "target": "Encontramos formas de adaptar os materiais e o atendimento para equipes com equipamentos simples e recursos limitados, inclusive em regiões distantes. Atender condições diferentes exige mais testes e ajustes e pode atrasar outras melhorias. Vamos trabalhar para o público que temos ou apenas para quem conta com a estrutura que gostaríamos?"
+      },
+      "[\"dev\",\"aoife\",20,\"aside\"]": {
+        "source": "Device constraints exist everywhere—budget-conscious users in wealthy countries, infrastructure limitations in remote areas, organisations that can't refresh hardware often. The question is whether we build for the users we have or the users we wish we had.",
+        "target": "Recursos limitados existem em todo lugar: quem trabalha com orçamento curto, locais com infraestrutura precária, organizações que não conseguem renovar equipamentos com frequência. A pergunta é se trabalhamos para quem temos ou para quem gostaríamos de ter."
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",0,\"text\"]": {
+        "source": "Support a wide range of devices",
+        "target": "Atender uma ampla variedade de condições"
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",0,\"reaction\"]": {
+        "source": "More complex to build. Reaches people others ignore.",
+        "target": "Mais complexo de organizar. Alcança quem os outros ignoram."
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",1,\"text\"]": {
+        "source": "Core features on old devices, full experience on new",
+        "target": "Básico para recursos simples, completo para condições melhores"
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Tiered approach. Everyone gets something useful.",
+        "target": "O essencial com poucos recursos. A experiência ainda fica diferente para cada grupo."
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",2,\"text\"]": {
+        "source": "Optimise for modern devices only",
+        "target": "Otimizar apenas para as condições mais modernas"
+      },
+      "[\"dev\",\"aoife\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Simpler to build. Excludes people we could have helped.",
+        "target": "Mais simples de organizar. Exclui pessoas que poderíamos ter ajudado."
+      },
+      "[\"dev\",\"aoife\",21,\"intro\"]": {
+        "source": "Our servers run constantly, burning electricity even when nobody's using the product. We could redesign to scale down when quiet and scale up when busy—it would cut our energy use by 60% but cost three months of engineering time to rebuild.",
+        "target": "Nossos equipamentos e a rotina da operação consomem energia o tempo todo, mesmo nos horários em que quase ninguém usa nada. Poderíamos reorganizar a capacidade conforme a demanda, reduzindo nos horários vazios e ampliando quando há movimento. Isso diminuiria bastante o gasto, mas custaria três meses de trabalho para refazer a operação."
+      },
+      "[\"dev\",\"aoife\",21,\"aside\"]": {
+        "source": "Most software wastes enormous amounts of energy running at full power around the clock. Efficient design is better for the planet and, eventually, cheaper.",
+        "target": "Boa parte da operação desperdiça energia funcionando a plena capacidade o dia inteiro. Organizar conforme a demanda faz bem ao caixa e, com o tempo, sai mais barato."
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",0,\"text\"]": {
+        "source": "Rebuild for efficiency",
+        "target": "Reorganizar a operação para economizar energia"
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Three months now saves energy forever. And cuts our bills.",
+        "target": "Três meses de reorganização para reduzir desperdício e aliviar as despesas."
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",1,\"text\"]": {
+        "source": "Gradual improvements over time",
+        "target": "Melhorias graduais ao longo do tempo"
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Chip away at it. Less disruptive, slower progress.",
+        "target": "Aos poucos. Menos disruptivo, progresso mais lento."
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",2,\"text\"]": {
+        "source": "Energy costs aren't our biggest problem",
+        "target": "Gasto com energia não é nosso maior problema"
+      },
+      "[\"dev\",\"aoife\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on core priorities. Practical choice.",
+        "target": "Focar nas prioridades centrais. Escolha prática."
+      },
+      "[\"dev\",\"aoife\",22,\"intro\"]": {
+        "source": "We've discovered our product is being used in ways we didn't intend and don't like—nothing illegal, but ethically uncomfortable. We could add restrictions that prevent this use, but some paying customers would leave. Or we could ignore it since we can't control what people do with our tools.",
+        "target": "Descobrimos usos da nossa oferta que contrariam os valores da equipe. Não são os usos que pretendíamos incentivar. Podemos restringi-los, mesmo perdendo clientes que pagam, ou continuar atendendo sem interferir nessa escolha."
+      },
+      "[\"dev\",\"aoife\",22,\"aside\"]": {
+        "source": "Once you ship a product, you lose control of how it's used. But you can design to encourage good uses and discourage bad ones.",
+        "target": "Depois de entregar uma oferta, você perde o controle sobre como ela é usada. Mas dá para organizar o produto de modo a favorecer usos que combinam com nossos valores e desestimular os que não combinam."
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",0,\"text\"]": {
+        "source": "Add restrictions—values matter more than revenue",
+        "target": "Criar restrições: os valores importam mais que a receita"
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",0,\"reaction\"]": {
+        "source": "We lose some customers. We keep our integrity.",
+        "target": "Assumimos a perda de receita dos clientes que forem embora. Mantemos a coerência."
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",1,\"text\"]": {
+        "source": "Discourage the use without blocking it",
+        "target": "Desestimular o uso sem bloquear"
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Softer approach. Some will ignore us.",
+        "target": "Abordagem mais suave. Alguns vão nos ignorar."
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",2,\"text\"]": {
+        "source": "Not our responsibility how people use it",
+        "target": "Não é nossa responsabilidade como usam"
+      },
+      "[\"dev\",\"aoife\",22,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on core product. Let customers decide.",
+        "target": "Manter os clientes e a receita, deixando que decidam como usar a oferta."
+      },
+      "[\"dev\",\"aoife\",23,\"intro\"]": {
+        "source": "A team member has noticed our product isn't accessible to users with disabilities—people who use screen readers or can't use a mouse can't use our software at all. Fixing it properly would take significant effort, and we don't think disabled users are a big part of our market.",
+        "target": "Uma pessoa da equipe percebeu que nossos materiais e canais de atendimento não funcionam para pessoas com deficiência: quem tem dificuldade de leitura, de visão ou de locomoção encontra barreiras concretas para usar o que oferecemos. Corrigir isso direito daria bastante trabalho, e não achamos que essas pessoas sejam uma parte grande do nosso público."
+      },
+      "[\"dev\",\"aoife\",23,\"aside\"]": {
+        "source": "Accessibility is often treated as optional. But it's both legally required in many places and simply the right thing to do. Everyone deserves to use technology.",
+        "target": "Acessibilidade costuma ficar para depois. Mas as barreiras já deixam pessoas com deficiência de fora agora. Rever materiais, orientações e canais de atendimento pode ampliar a participação."
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",0,\"text\"]": {
+        "source": "Full accessibility redesign",
+        "target": "Fazer uma revisão ampla dos materiais e do atendimento"
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Significant investment. We'll be proud of the result.",
+        "target": "Investimento grande. Vamos ter orgulho do resultado."
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",1,\"text\"]": {
+        "source": "Basic accessibility fixes",
+        "target": "Correções básicas de acessibilidade"
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Not perfect.",
+        "target": "Melhor que nada. Não resolve tudo."
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",2,\"text\"]": {
+        "source": "Add to backlog for later",
+        "target": "Deixar para depois"
+      },
+      "[\"dev\",\"aoife\",23,\"choices\",2,\"reaction\"]": {
+        "source": "Noted for future. Stay focused now.",
+        "target": "Anotado para o futuro. Foco no agora."
+      },
+      "[\"dev\",\"aoife\",24,\"intro\"]": {
+        "source": "Before we release our AI, we should probably write up what it can and can't do—what data we trained it on, where it's known to fail, what biases we've found. Creating proper documentation takes time. We could ship now and write it up later, or delay release to do it right.",
+        "target": "Antes de lançar o novo formato de atendimento, convém registrar por escrito o que ele cobre e o que não cobre: de onde vêm as informações que usamos, onde já sabemos que falha, que distorções apareceram pelo caminho. Montar um registro detalhado consome tempo. Podemos começar agora e escrever depois, ou adiar a estreia para fazer isso com cuidado."
+      },
+      "[\"dev\",\"aoife\",24,\"aside\"]": {
+        "source": "Good documentation helps users understand what they're getting and helps researchers spot problems. It's increasingly expected for responsible AI releases. But it's extra work, and the pressure to ship is real.",
+        "target": "Orientações claras ajudam clientes a entender o que vão receber e a equipe a revisar falhas. Precisamos decidir quanto registrar antes de começar. Só que é trabalho extra, e a pressa para atender continua real."
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",0,\"text\"]": {
+        "source": "Delay release for proper documentation",
+        "target": "Adiar a estreia para preparar orientações detalhadas"
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Responsible approach. Competitors don't wait.",
+        "target": "Postura responsável. A concorrência não espera."
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",1,\"text\"]": {
+        "source": "Ship with basic docs, improve over time",
+        "target": "Começar com orientações básicas e atualizar depois"
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Commit to updating it.",
+        "target": "Melhor que nada. Assumir o compromisso de atualizar."
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",2,\"text\"]": {
+        "source": "Ship now, document if anyone asks",
+        "target": "Começar agora e documentar só se alguém perguntar"
+      },
+      "[\"dev\",\"aoife\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Speed to market. Customers happy.",
+        "target": "Rapidez para chegar ao cliente. Clientes satisfeitos."
+      },
+      "[\"dev\",\"aoife\",25,\"intro\"]": {
+        "source": "Our AI can be tricked into producing harmful outputs if users phrase their requests cleverly—asking for dangerous information disguised as fiction, for example. We can add safety filters, but they slow down responses and sometimes block legitimate requests. Tighter safety means worse usability; looser safety means more ways to cause harm.",
+        "target": "Alguns pedidos chegam disfarçados: por trás de uma encomenda comum pode estar o uso prejudicial do material ou do atendimento. Conferências mais rigorosas dificultam o abuso, mas atrasam a fila e às vezes barram solicitações legítimas. Quanto mais apertamos, pior fica a experiência de quem só quer ser atendido; quanto mais soltamos, mais brechas aparecem."
+      },
+      "[\"dev\",\"aoife\",25,\"aside\"]": {
+        "source": "Every AI system can be manipulated. The question is how much inconvenience you're willing to impose on ordinary users to make manipulation harder. There's no perfect answer.",
+        "target": "Um serviço pode ser usado de forma prejudicial mesmo com conferências. A questão é quanto transtorno impomos a quem faz pedidos legítimos para dificultar o abuso. Não existe resposta perfeita."
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",0,\"text\"]": {
+        "source": "Strong safety filters—prioritise preventing harm",
+        "target": "Conferência ampla, priorizando evitar o dano"
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Some users frustrated. Fewer harmful outputs.",
+        "target": "Alguns clientes se irritam. Menos uso prejudicial passa."
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",1,\"text\"]": {
+        "source": "Balanced approach—block obvious harms",
+        "target": "Meio-termo, barrando o abuso evidente"
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Most manipulation prevented. Clever tricks might get through.",
+        "target": "Abusos evidentes ficam mais difíceis. Pedidos bem disfarçados ainda podem passar."
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",2,\"text\"]": {
+        "source": "Minimal filters—trust users",
+        "target": "Conferência mínima, confiando no cliente"
+      },
+      "[\"dev\",\"aoife\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Fast and flexible. Users love the freedom.",
+        "target": "Rápido e flexível. Clientes gostam da liberdade."
+      },
+      "[\"dev\",\"aoife\",26,\"intro\"]": {
+        "source": "We're considering whether to hire people to deliberately try to break our AI before we release it—finding ways it could be misused or fail dangerously. This kind of stress-testing takes weeks and might find problems that delay our launch. But it might also find problems before our users and the press do.",
+        "target": "Estamos avaliando convidar pessoas de fora para testar os limites da nova rotina antes de abri-la ao público, simulando dificuldades e uso indevido em condições seguras. Essa avaliação leva semanas e pode revelar problemas que adiem a estreia. É uma chance de perceber falhas antes dos clientes e da imprensa."
+      },
+      "[\"dev\",\"aoife\",26,\"aside\"]": {
+        "source": "Having outsiders try to break your system before launch is becoming standard practice at major AI companies. Finding your own problems is better than having journalists or bad actors find them for you. But it costs time and money.",
+        "target": "Pessoas de fora podem perceber dificuldades que a equipe acostumada à rotina deixa passar. Encontrar esses problemas antes de começar dá tempo para ajustes, embora a avaliação não descubra tudo. Só que custa tempo e dinheiro."
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",0,\"text\"]": {
+        "source": "Thorough stress-testing before release",
+        "target": "Avaliação ampla antes de abrir"
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Find problems before users do. Might delay launch.",
+        "target": "Achar problemas antes dos clientes. Pode adiar a estreia."
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",1,\"text\"]": {
+        "source": "Quick internal security review",
+        "target": "Revisão interna rápida"
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Probably miss things.",
+        "target": "Melhor que nada. Provavelmente deixa passar coisas."
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",2,\"text\"]": {
+        "source": "Ship and monitor for problems",
+        "target": "Começar e acompanhar os problemas"
+      },
+      "[\"dev\",\"aoife\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Learn from real usage. Iterate fast.",
+        "target": "Aprender com o uso real. Ajustar rápido."
+      },
+      "[\"dev\",\"aoife\",27,\"intro\"]": {
+        "source": "Our AI makes decisions that affect people, but we don't keep records of why it made each decision. If someone challenges an outcome—say, why they were rejected for a loan—we can't explain what happened. Adding proper record-keeping would slow things down and require significant storage.",
+        "target": "Nossas decisões de atendimento afetam clientes, mas os critérios e os motivos não ficam registrados em lugar nenhum. Se alguém contesta um resultado, como a recusa de um pedido, não temos como explicar o que aconteceu. Registrar tudo com cuidado desacelera o trabalho e exige espaço para guardar o material."
+      },
+      "[\"dev\",\"aoife\",27,\"aside\"]": {
+        "source": "Being able to show why decisions were made is increasingly required by regulators and expected by customers. But it's expensive to add after the fact. The question is whether to invest now or hope you don't need it.",
+        "target": "Conseguir explicar por que uma decisão foi tomada ajuda a conversar com clientes e a revisar nossos critérios. Só que reconstruir os motivos depois pode dar trabalho e custar caro. A dúvida é investir em registros agora ou torcer para não precisar."
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",0,\"text\"]": {
+        "source": "Build comprehensive decision records",
+        "target": "Registro amplo das decisões"
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Ready for regulators. Significant engineering investment.",
+        "target": "Mais elementos para explicar decisões. Esforço considerável para manter os registros."
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",1,\"text\"]": {
+        "source": "Log key decisions only",
+        "target": "Registrar apenas as decisões principais"
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",1,\"reaction\"]": {
+        "source": "Partial coverage. Better than nothing.",
+        "target": "Cobertura parcial. Melhor que nada."
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",2,\"text\"]": {
+        "source": "Add logging when customers require it",
+        "target": "Registrar quando o cliente exigir"
+      },
+      "[\"dev\",\"aoife\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Customer-driven development. Efficient.",
+        "target": "Decisão guiada pelo cliente. Eficiente."
+      }
+    }
+  }
+}

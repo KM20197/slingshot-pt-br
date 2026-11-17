@@ -1,0 +1,207 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de organização do trabalho e aprendizagem em Wei, preservando metadados, escolhas e efeitos originais",
+    "strings": {
+      "[\"dev\",\"wei\",0,\"intro\"]": {
+        "source": "Team's been working hard, but I'm seeing strain. Are we setting sustainable pace?",
+        "target": "A equipe tem se esforçado, mas estou percebendo sinais de desgaste. O ritmo que combinamos pode ser mantido ou estamos contando com um esforço que logo se esgota?"
+      },
+      "[\"dev\",\"wei\",0,\"aside\"]": {
+        "source": "I've watched burnout kill companies. Code doesn't matter if people are gone.",
+        "target": "Já vi uma equipe perder pessoas por insistir num ritmo pesado demais. Cumprir o plano não sustenta o negócio se ninguém consegue continuar nele."
+      },
+      "[\"dev\",\"wei\",0,\"choices\",0,\"text\"]": {
+        "source": "Sustainable pace, protect the team",
+        "target": "Organizar um ritmo que a equipe consiga manter"
+      },
+      "[\"dev\",\"wei\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Thank you. We'll deliver, just humanely.",
+        "target": "Obrigado por considerar isso. Vamos seguir com as entregas num ritmo mais sustentável."
+      },
+      "[\"dev\",\"wei\",0,\"choices\",1,\"text\"]": {
+        "source": "One hard push, then we rest",
+        "target": "Combinar um esforço maior agora e uma pausa depois"
+      },
+      "[\"dev\",\"wei\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Holding you to 'then we rest'. We'll ship faster.",
+        "target": "Vamos adiantar as entregas. Vou cobrar que a pausa combinada aconteça depois."
+      },
+      "[\"dev\",\"wei\",0,\"choices\",2,\"text\"]": {
+        "source": "Push through—crunch time",
+        "target": "Manter a pressão até concluir as entregas"
+      },
+      "[\"dev\",\"wei\",0,\"choices\",2,\"reaction\"]": {
+        "source": "We'll ship, but start thinking about replacements.",
+        "target": "As entregas saem, mas esse desgaste pode afastar pessoas da equipe."
+      },
+      "[\"dev\",\"wei\",1,\"intro\"]": {
+        "source": "One of our best people wants a four-day week. She's excellent and I don't want to lose her.",
+        "target": "Uma das pessoas que mais contribuem com a equipe pediu uma semana de quatro dias. Ela entrega bem, e eu gostaria de encontrar uma forma de continuar contando com seu trabalho."
+      },
+      "[\"dev\",\"wei\",1,\"aside\"]": {
+        "source": "Flexibility retains talent. Rigidity loses it. Simple as that.",
+        "target": "Flexibilidade pode ajudar a manter pessoas na equipe. Também precisamos de combinados claros para organizar as tarefas e atender pedidos semelhantes."
+      },
+      "[\"dev\",\"wei\",1,\"choices\",0,\"text\"]": {
+        "source": "Approve and create flexible policy",
+        "target": "Aceitar e combinar uma rotina para pedidos semelhantes"
+      },
+      "[\"dev\",\"wei\",1,\"choices\",0,\"reaction\"]": {
+        "source": "This attracts talent, not just retains.",
+        "target": "O combinado ajuda a manter essa pessoa e pode tornar a equipe mais atraente para outras."
+      },
+      "[\"dev\",\"wei\",1,\"choices\",1,\"text\"]": {
+        "source": "Approve as individual exception",
+        "target": "Aceitar como um acordo individual"
+      },
+      "[\"dev\",\"wei\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Others will ask. Be ready.",
+        "target": "Outras pessoas podem pedir o mesmo. Precisamos estar preparados para conversar."
+      },
+      "[\"dev\",\"wei\",1,\"choices\",2,\"text\"]": {
+        "source": "Decline—need full commitment",
+        "target": "Manter a rotina atual de dias de trabalho"
+      },
+      "[\"dev\",\"wei\",1,\"choices\",2,\"reaction\"]": {
+        "source": "High standards attract committed people.",
+        "target": "A equipe entende a disponibilidade que estamos pedindo para essa rotina."
+      },
+      "[\"dev\",\"wei\",2,\"intro\"]": {
+        "source": "Team wants new tools to improve workflow. Learning curve and licence costs.",
+        "target": "A equipe pediu novos materiais e instrumentos para organizar o trabalho administrativo. Há custo de aquisição e tempo para aprender a usar tudo."
+      },
+      "[\"dev\",\"wei\",2,\"aside\"]": {
+        "source": "Happy developers with good tools ship better code. Investment usually pays off.",
+        "target": "Material adequado pode facilitar o trabalho. Para valer a pena, precisamos considerar o custo e o esforço de aprendizagem."
+      },
+      "[\"dev\",\"wei\",2,\"choices\",0,\"text\"]": {
+        "source": "Approve new tooling with training",
+        "target": "Adquirir os materiais e reservar tempo para orientação"
+      },
+      "[\"dev\",\"wei\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Investing in the team. Smart.",
+        "target": "A equipe conta com novos recursos e orientação para usá-los no trabalho."
+      },
+      "[\"dev\",\"wei\",2,\"choices\",1,\"text\"]": {
+        "source": "Pilot with one team first",
+        "target": "Testar primeiro com um grupo da equipe"
+      },
+      "[\"dev\",\"wei\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Measured approach. Let's see.",
+        "target": "Começamos com um teste menor e observamos o que funciona antes de ampliar."
+      },
+      "[\"dev\",\"wei\",2,\"choices\",2,\"text\"]": {
+        "source": "Stick with current tools",
+        "target": "Continuar com os materiais atuais"
+      },
+      "[\"dev\",\"wei\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Team knows the stack. Productivity maintained.",
+        "target": "A equipe conhece esses materiais e mantém o trabalho andando."
+      },
+      "[\"dev\",\"wei\",3,\"intro\"]": {
+        "source": "Engineer made a significant production mistake. Recoverable, but how do we handle it?",
+        "target": "Uma pessoa da equipe cometeu um erro importante na rotina de entrega. É possível corrigir, mas precisamos decidir como conversar sobre o caso e evitar que se repita."
+      },
+      "[\"dev\",\"wei\",3,\"aside\"]": {
+        "source": "Blame cultures kill innovation. Learning cultures build resilience.",
+        "target": "Apontar uma pessoa como culpada não explica sozinho onde a rotina falhou. Entender o ocorrido pode ajudar a melhorar o trabalho sem esconder responsabilidades."
+      },
+      "[\"dev\",\"wei\",3,\"choices\",0,\"text\"]": {
+        "source": "Blameless post-mortem, fix systems",
+        "target": "Analisar o ocorrido sem buscar culpados e rever a rotina"
+      },
+      "[\"dev\",\"wei\",3,\"choices\",0,\"reaction\"]": {
+        "source": "This builds trust and improvement.",
+        "target": "A equipe ganha confiança para falar dos problemas e melhorar o trabalho."
+      },
+      "[\"dev\",\"wei\",3,\"choices\",1,\"text\"]": {
+        "source": "Private feedback, public learning",
+        "target": "Conversar em particular e compartilhar o aprendizado com a equipe"
+      },
+      "[\"dev\",\"wei\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Fair to individual, useful to team.",
+        "target": "A pessoa recebe uma orientação direta, e o aprendizado ajuda o grupo."
+      },
+      "[\"dev\",\"wei\",3,\"choices\",2,\"text\"]": {
+        "source": "Make example to prevent repeats",
+        "target": "Cobrar em reunião e usar o erro como exemplo para a equipe"
+      },
+      "[\"dev\",\"wei\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Clear standards set. Message received.",
+        "target": "O recado sobre o padrão esperado chega à equipe."
+      },
+      "[\"dev\",\"wei\",4,\"intro\"]": {
+        "source": "Remote work debate. Some want full remote, others want office energy.",
+        "target": "Nas tarefas administrativas que podem ser feitas a distância, parte da equipe prefere essa opção. Outra parte valoriza trabalhar junto no espaço do negócio. Como vamos organizar essa rotina?"
+      },
+      "[\"dev\",\"wei\",4,\"aside\"]": {
+        "source": "No policy fits everyone. But inconsistency breeds resentment.",
+        "target": "Um mesmo combinado pode não atender a todos. Mas tratar pedidos parecidos de formas diferentes, sem explicar o motivo, também pode gerar incômodo."
+      },
+      "[\"dev\",\"wei\",4,\"choices\",0,\"text\"]": {
+        "source": "Hybrid with team choice",
+        "target": "Combinar momentos presenciais e a distância com cada equipe"
+      },
+      "[\"dev\",\"wei\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Trust teams to decide what works.",
+        "target": "As equipes participam da escolha da rotina que funciona para seu trabalho."
+      },
+      "[\"dev\",\"wei\",4,\"choices\",1,\"text\"]": {
+        "source": "Fixed office days for collaboration",
+        "target": "Definir dias presenciais fixos para colaborar"
+      },
+      "[\"dev\",\"wei\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Structure helps. Some will grumble.",
+        "target": "A rotina fica mais organizada. Algumas pessoas ainda vão discordar dos dias escolhidos."
+      },
+      "[\"dev\",\"wei\",4,\"choices\",2,\"text\"]": {
+        "source": "Full return to office",
+        "target": "Retomar o trabalho administrativo inteiramente presencial"
+      },
+      "[\"dev\",\"wei\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Collaboration improves. Culture strengthens.",
+        "target": "O contato cotidiano facilita a colaboração e reforça os combinados da equipe."
+      },
+      "[\"dev\",\"wei\",5,\"intro\"]": {
+        "source": "Two of the team want Friday afternoons for their own experiments, and they came armed with the famous examples: 3M has run its fifteen per cent rule since 1948 and got the Post-it note out of it, and whole products at the big tech firms began as side projects. Our own internal tooling started that way too, which they know perfectly well. The roadmap is tight. A tenth of the engineering week is a real price, and so is telling curious people no.",
+        "target": "Dois integrantes da equipe pediram as tardes de sexta-feira para experimentar ideias próprias de organização administrativa. Trouxeram relatos de iniciativas paralelas que deram certo e lembraram que um dos nossos métodos internos começou assim. O planejamento está apertado: um décimo da semana dedicado a essas tentativas tem um custo, mas recusar espaço para a curiosidade também pesa."
+      },
+      "[\"dev\",\"wei\",5,\"aside\"]": {
+        "source": "The famous twenty per cent produced Gmail. Nobody quotes what the other thousand projects produced.",
+        "target": "Os relatos sobre reservar vinte por cento do tempo destacam o que deu certo. Quase ninguém conta as tentativas que ficaram pelo caminho."
+      },
+      "[\"dev\",\"wei\",5,\"choices\",0,\"text\"]": {
+        "source": "Adopt the fifteen per cent rule outright, for everyone",
+        "target": "Reservar quinze por cento do tempo de todos para essas iniciativas"
+      },
+      "[\"dev\",\"wei\",5,\"choices\",0,\"reaction\"]": {
+        "source": "It goes in the handbook, not just the diary. The roadmap learns to live with it.",
+        "target": "O combinado passa a fazer parte das orientações da equipe. O planejamento precisa acomodar esse espaço."
+      },
+      "[\"dev\",\"wei\",5,\"choices\",1,\"text\"]": {
+        "source": "Friday afternoons, on one condition: show the room monthly",
+        "target": "Reservar as tardes de sexta-feira com apresentação mensal das tentativas"
+      },
+      "[\"dev\",\"wei\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Most of the demos are toys. One is not.",
+        "target": "A maioria das apresentações fica em ideias iniciais. Uma delas mostra um caminho que vale examinar melhor."
+      },
+      "[\"dev\",\"wei\",5,\"choices\",2,\"text\"]": {
+        "source": "A hackathon each quarter instead",
+        "target": "Fazer um encontro de experimentação a cada trimestre"
+      },
+      "[\"dev\",\"wei\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Two days of noise and pizza. Three ideas survive the Monday.",
+        "target": "Dois dias de testes e conversa. Três ideias seguem para avaliação depois do encontro."
+      },
+      "[\"dev\",\"wei\",5,\"choices\",3,\"text\"]": {
+        "source": "Roadmap only, for now",
+        "target": "Manter apenas as tarefas previstas no planejamento, por enquanto"
+      },
+      "[\"dev\",\"wei\",5,\"choices\",3,\"reaction\"]": {
+        "source": "Discipline holds. The experiments move to evenings, or to other employers.",
+        "target": "O planejamento segue firme. As experiências ficam fora da rotina, e algumas pessoas podem procurar outro lugar para desenvolvê-las."
+      }
+    }
+  }
+}

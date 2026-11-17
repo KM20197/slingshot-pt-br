@@ -17,3 +17,11 @@ test('rejects stale or future loans before restoration',()=>{
  s.brLoans=[finance.settle(s.brLoans[0],2,100000).loan];assert.equal(save.validate(s,companies),true);
  s.brLoans=[finance.create('family',100000,4,'future')];assert.throws(()=>save.validate(s,companies),/Contrato incompatível/);
 });
+test('accepts and preserves historical staff equity from a pre-change save',()=>{
+ const s=base();
+ s.hiredStaff=[{id:'legacy-person',name:'Pessoa anterior',role:'product',salary:80,equity:1.25,hiredTurn:1}];
+ s.equityGrants=[{name:'Pessoa anterior',role:'senior hire',equity:1.25,vestingYears:4,cliff:1,grantedQuarter:1}];
+ const before=JSON.stringify(s);
+ assert.equal(save.validate(s,companies),true);
+ assert.equal(JSON.stringify(s),before);
+});

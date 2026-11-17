@@ -17,7 +17,8 @@ function environment(){
   reset(){for(const el of nodes.values())el.value='';}
  }
  const document={createElement:()=>new Element(),getElementById:id=>nodes.get(id)||null,body:new Element()};
- const context=vm.createContext({document,window:{},crypto:{randomUUID:()=> 'fixture-id'},SlingshotAcademic:require('../academic'),setTimeout:fn=>timers.push(fn),console});
+ const SlingshotCompanyDisplay=require('../company-display.js');
+ const context=vm.createContext({document,window:{SlingshotCompanyDisplay},SlingshotCompanyDisplay,crypto:{randomUUID:()=> 'fixture-id'},SlingshotAcademic:require('../academic'),setTimeout:fn=>timers.push(fn),console});
  return {context,nodes,document,flush:()=>{while(timers.length)timers.shift()();}};
 }
 const game={metrics:{cash:60,burn:80},completedMilestones:['m1','m2'],milestone:{id:'m3'},milestoneProgress:50,brCompletedQuarters:12,brFinanceSummary:{nextPayments:20,arrears:0},company:{name:'Clínica São João'}};
@@ -48,6 +49,16 @@ test('invalid academic snapshot reports failure without throwing into endGame',(
  const env=environment();vm.runInContext(fs.readFileSync('academic-export.js','utf8'),env.context);
  assert.doesNotThrow(()=>env.context.window.SlingshotExport.capture({},'bankrupt'));env.flush();
  assert.match(env.nodes.get('br-export-access').firstElementChild.textContent,/não foi possível preparar a nota/);
+});
+test('export uses the Brazilian label for a canonical company and preserves a custom startup name',async()=>{
+ let sent;const pending={promise:Promise.resolve('code')};const env=environment();env.context.SlingshotResult={encode:data=>{sent=data;return pending.promise;}};
+ vm.runInContext(fs.readFileSync('academic-export.js','utf8'),env.context);
+ const api=env.context.window.SlingshotExport;
+ const canonical={...game,company:{id:'aether',name:'Aether BioLabs'}};
+ api.capture(canonical,'bankrupt');env.flush();env.nodes.get('br-export-access').firstElementChild.onclick();env.nodes.get('br-student').value='id';env.nodes.get('br-class-key').value='key';
+ await env.nodes.get('br-export-form').listeners.submit({preventDefault(){}});assert.equal(sent.empresa,'Clínica popular');
+ api.reset();api.capture({...canonical,startupName:'Clínica do Bairro'},'bankrupt');env.flush();env.nodes.get('br-export-access').firstElementChild.onclick();env.nodes.get('br-student').value='id';env.nodes.get('br-class-key').value='key';
+ await env.nodes.get('br-export-form').listeners.submit({preventDefault(){}});assert.equal(sent.empresa,'Clínica do Bairro');
 });
 test('repeated endGame capture retains original snapshot and nonce until reset',async()=>{
  const pending=deferred(),env=exportPage(pending);let sent;

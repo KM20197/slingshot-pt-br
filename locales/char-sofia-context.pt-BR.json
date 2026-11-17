@@ -1,0 +1,519 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de organização, convivência e cuidados com a rotina, sem criar benefícios, direitos ou garantias.",
+    "strings": {
+      "[\"hr\",\"sofia\",0,\"intro\"]": {
+        "source": "Done one-on-ones. People tired. Two of the team updated CareerHubs. Need to talk about how we're working.",
+        "target": "Conversei individualmente com a equipe e percebi muito cansaço. Duas pessoas começaram a considerar outras oportunidades. Precisamos discutir como estamos organizando o trabalho antes de simplesmente pedir mais esforço."
+      },
+      "[\"hr\",\"sofia\",0,\"aside\"]": {
+        "source": "Move fast, but lose good people if we don't change something.",
+        "target": "Entregar depressa não resolve tudo se perdermos pessoas que conhecem a rotina. Quero entender o que precisa mudar na forma de trabalhar."
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",0,\"text\"]": {
+        "source": "Team reset—offsite and honest talk",
+        "target": "Reunir a equipe fora da rotina habitual para uma conversa franca"
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Thank you. Exactly what we need.",
+        "target": "Obrigada por abrir esse espaço. Podemos rever os combinados e preparar o trabalho com mais clareza."
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",1,\"text\"]": {
+        "source": "Address individuals at risk",
+        "target": "Conversar primeiro com quem demonstra maior dificuldade na rotina"
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Start. Let me identify who.",
+        "target": "É um começo. Vou ouvir quem precisa de apoio mais próximo e entender o que conseguimos reorganizar."
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",2,\"text\"]": {
+        "source": "Push through—milestone first",
+        "target": "Manter o esforço até concluir o próximo marco"
+      },
+      "[\"hr\",\"sofia\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Team delivers under pressure.",
+        "target": "A equipe concentra o trabalho na entrega prevista, mesmo sob pressão, e a conversa mais ampla fica para depois."
+      },
+      "[\"hr\",\"sofia\",1,\"intro\"]": {
+        "source": "Several people struggling with stress and anxiety. Support options limited.",
+        "target": "Algumas pessoas estão preocupadas e sobrecarregadas com a rotina. As formas de apoio dentro da organização do trabalho são limitadas. Precisamos decidir quanto esforço dedicar à escuta e aos ajustes das tarefas."
+      },
+      "[\"hr\",\"sofia\",1,\"aside\"]": {
+        "source": "Mental health isn't separate from performance. Connected.",
+        "target": "Quando a rotina pesa, o modo de organizar o trabalho também merece atenção. Podemos abrir espaço para apoio sem esperar que cada pessoa resolva tudo sozinha."
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",0,\"text\"]": {
+        "source": "Mental health benefits and training",
+        "target": "Organizar apoio e orientação para rever a rotina de trabalho"
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Finally. People feel supported.",
+        "target": "A equipe percebe que há espaço para pedir apoio e discutir ajustes no modo de trabalhar."
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",1,\"text\"]": {
+        "source": "Quiet EAP access",
+        "target": "Oferecer uma conversa reservada para quem quiser apoio"
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Something better than nothing.",
+        "target": "É um apoio mais limitado, mas cria uma possibilidade de conversar sem expor a pessoa à equipe inteira."
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",2,\"text\"]": {
+        "source": "Encourage self-management",
+        "target": "Incentivar cada pessoa a organizar sua própria rotina"
+      },
+      "[\"hr\",\"sofia\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Trust the team. Build autonomy.",
+        "target": "Confiamos na autonomia da equipe para organizar as tarefas, sem preparar uma forma de apoio coletivo agora."
+      },
+      "[\"hr\",\"sofia\",2,\"intro\"]": {
+        "source": "Three new hires this month asked what our values are. I didn't have an answer. We write some properly, or we admit we're not that kind of company yet.",
+        "target": "Três pessoas que chegaram neste mês perguntaram quais princípios orientam nosso trabalho. Não consegui responder com clareza. Podemos conversar e registrar esses princípios ou reconhecer que ainda não os definimos juntos."
+      },
+      "[\"hr\",\"sofia\",2,\"aside\"]": {
+        "source": "Real values guide hard decisions. Fake values worse than none.",
+        "target": "Princípios úteis ajudam nas decisões difíceis. Frases bonitas que não combinam com a rotina podem confundir mais do que a ausência de uma lista."
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",0,\"text\"]": {
+        "source": "Facilitated workshop, genuine input",
+        "target": "Organizar uma conversa conduzida com participação real da equipe"
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Discover who we really are.",
+        "target": "Vamos descobrir quais princípios aparecem nas nossas decisões e o que queremos mudar juntos."
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",1,\"text\"]": {
+        "source": "Founders draft, team comments",
+        "target": "Preparar uma proposta com quem conduz o negócio e ouvir comentários"
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Top-down. At least there'll be values.",
+        "target": "A primeira versão vem de quem conduz o negócio, mas a equipe poderá discutir o que ela significa na prática."
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",2,\"text\"]": {
+        "source": "Skip—culture is how we act",
+        "target": "Não preparar uma lista e demonstrar os princípios nas ações"
+      },
+      "[\"hr\",\"sofia\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Actions speak louder. Lead by example.",
+        "target": "As decisões do dia a dia serão nossa referência. Precisamos mostrar pelo exemplo o que esperamos da convivência."
+      },
+      "[\"hr\",\"sofia\",3,\"intro\"]": {
+        "source": "Long-serving employee asking for sabbatical. No policy exists.",
+        "target": "Uma pessoa que contribui há bastante tempo pediu uma pausa na participação nas tarefas. Não temos um combinado para essa situação. Precisamos considerar o pedido e a continuidade da organização do trabalho."
+      },
+      "[\"hr\",\"sofia\",3,\"aside\"]": {
+        "source": "Flexibility prevents burnout. This person has given a lot.",
+        "target": "Essa pessoa já dedicou muito esforço ao negócio. Rever os combinados pode ajudar a conciliar sua necessidade de uma pausa com a passagem das tarefas."
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",0,\"text\"]": {
+        "source": "Approve and create policy",
+        "target": "Combinar a pausa e preparar uma referência para situações semelhantes"
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Return refreshed. Others see path.",
+        "target": "Organizamos a passagem das tarefas e a conversa sobre o retorno. A equipe passa a conhecer uma referência para discutir pedidos semelhantes."
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",1,\"text\"]": {
+        "source": "Approve as one-off",
+        "target": "Combinar a pausa apenas para esta situação"
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Get break. Future unclear.",
+        "target": "A pessoa poderá se afastar das tarefas por um período combinado, mas ainda não teremos uma referência para os próximos pedidos."
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",2,\"text\"]": {
+        "source": "Decline—business needs",
+        "target": "Não combinar a pausa agora por causa das tarefas previstas"
+      },
+      "[\"hr\",\"sofia\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Team stays together. Project continues.",
+        "target": "Mantemos a equipe nas atividades atuais e seguimos com a preparação do atendimento."
+      },
+      "[\"hr\",\"sofia\",4,\"intro\"]": {
+        "source": "Two of the team have asked, separately, whether we can help with childcare. A full-time nursery place runs past a thousand pounds a month, and the free hours never quite cover a working week. Neither of them wants special treatment. Both are doing sums at their desks.",
+        "target": "Duas pessoas da equipe perguntaram, separadamente, se podemos ajudar a organizar a rotina de cuidados com as crianças. Na situação narrada, esse cuidado durante o período de trabalho passa de mil libras por mês, e o tempo disponível não acompanha a semana de trabalho. As duas tentam fazer as contas sem pedir tratamento especial."
+      },
+      "[\"hr\",\"sofia\",4,\"aside\"]": {
+        "source": "Nursery fees are a second rent. People pay it, or leave the workforce.",
+        "target": "O esforço para conciliar cuidado e trabalho pesa na rotina. Estamos discutindo uma organização fictícia de apoio, sem converter a referência em libras nem criar um pagamento ou benefício para pessoas reais."
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",0,\"text\"]": {
+        "source": "Put money in: a childcare contribution for working parents",
+        "target": "Reservar recursos para organizar apoio à rotina de cuidados"
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Noticed well beyond the parents. People conclude this is a company that plans to keep them.",
+        "target": "A equipe percebe o esforço para considerar essas responsabilidades e manter as pessoas próximas do trabalho."
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",1,\"text\"]": {
+        "source": "Restructure instead: hours that fit around nursery runs",
+        "target": "Reorganizar horários para conciliar trabalho e cuidados"
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Cheaper and quieter. The morning meeting moves; nobody minds.",
+        "target": "A reunião da manhã muda de horário e ajustamos a organização das tarefas. É uma alternativa com menos esforço de recursos imediatos."
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",2,\"text\"]": {
+        "source": "Keep it in pay, not perks",
+        "target": "Manter os combinados atuais, sem organizar apoio separado"
+      },
+      "[\"hr\",\"sofia\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Clean and simple. The sums at the desks continue.",
+        "target": "Mantemos uma referência comum, enquanto as pessoas continuam tentando conciliar as contas e os cuidados na própria rotina."
+      },
+      "[\"hr\",\"sofia\",5,\"intro\"]": {
+        "source": "Exit interviews showing pattern: lack of growth opportunities cited.",
+        "target": "As conversas com pessoas que saem do negócio mostram um padrão: falta espaço para aprender e assumir novas responsabilidades. Precisamos decidir como tratar essa preocupação na organização do trabalho."
+      },
+      "[\"hr\",\"sofia\",5,\"aside\"]": {
+        "source": "People leave managers and lack of growth. Fix what we can.",
+        "target": "A forma de coordenar as pessoas e a ausência de oportunidades para aprender podem pesar nas saídas. Vamos cuidar do que conseguimos organizar."
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",0,\"text\"]": {
+        "source": "Learning budget and career framework",
+        "target": "Reservar recursos para aprendizagem e esclarecer caminhos de responsabilidades"
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Investment in growth. Retention follows.",
+        "target": "Dedicamos esforço à aprendizagem e mostramos possibilidades de participação. Isso pode ajudar as pessoas a enxergar um futuro na equipe."
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",1,\"text\"]": {
+        "source": "Manager training on development",
+        "target": "Orientar quem coordena a equipe sobre aprendizagem no trabalho"
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Fix the conversations first.",
+        "target": "Começamos melhorando as conversas e a forma de orientar cada pessoa nas tarefas."
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",2,\"text\"]": {
+        "source": "Accept some attrition as normal",
+        "target": "Aceitar que algumas pessoas sairão e manter a rotina atual"
+      },
+      "[\"hr\",\"sofia\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Natural turnover. Fresh perspectives come in.",
+        "target": "Consideramos as saídas como parte das mudanças na equipe e permanecemos abertos a outras experiências."
+      },
+      "[\"hr\",\"sofia\",6,\"intro\"]": {
+        "source": "Anonymous survey results in. Psychological safety scores low in two teams.",
+        "target": "Um levantamento fictício da convivência, sem autoria identificada, sugere que pessoas de duas equipes têm receio de falar sobre problemas. Precisamos decidir como conversar sobre o que apareceu nesse relato."
+      },
+      "[\"hr\",\"sofia\",6,\"aside\"]": {
+        "source": "Can't innovate if people fear speaking up. Need to address this.",
+        "target": "Quando há medo de falar, problemas de organização podem ficar escondidos. Quero abrir espaço para a conversa sem procurar quem fez cada comentário."
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",0,\"text\"]": {
+        "source": "Direct intervention with teams",
+        "target": "Conversar diretamente com as equipes sobre as dificuldades relatadas"
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Surface issues. Work through them.",
+        "target": "Colocamos os problemas em discussão e buscamos organizar juntos o que precisa mudar."
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",1,\"text\"]": {
+        "source": "Manager coaching privately",
+        "target": "Orientar em conversas reservadas quem coordena as equipes"
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Change behaviour quietly.",
+        "target": "Tratamos das formas de conduzir o trabalho em conversas mais próximas com os responsáveis."
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",2,\"text\"]": {
+        "source": "Monitor and see if improves",
+        "target": "Aguardar e observar mais situações antes de intervir"
+      },
+      "[\"hr\",\"sofia\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Gather data. Make informed decisions.",
+        "target": "Buscamos compreender melhor a convivência e os relatos disponíveis antes de escolher uma intervenção."
+      },
+      "[\"hr\",\"sofia\",7,\"intro\"]": {
+        "source": "Some employees are pushing for us to take a public stand on a social issue—climate change, inequality, or a political cause. They say silence is complicity. Others just want to do their jobs without the company being political.",
+        "target": "Algumas pessoas querem que o negócio se posicione publicamente sobre uma questão comunitária ou ambiental. Outras preferem trabalhar sem que o negócio adote uma posição nessa discussão. Precisamos ouvir essas expectativas diferentes."
+      },
+      "[\"hr\",\"sofia\",7,\"aside\"]": {
+        "source": "Corporate activism is expected by some, rejected by others. Taking a stand can attract talent and customers who agree, while alienating those who don't.",
+        "target": "Uma posição pública pode aproximar quem concorda e afastar quem pensa de outro modo. Apoiar uma iniciativa e falar publicamente sobre ela também são escolhas diferentes."
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",0,\"text\"]": {
+        "source": "Take a clear public stand",
+        "target": "Assumir uma posição pública clara sobre a questão"
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",0,\"reaction\"]": {
+        "source": "We believe in something. Some applaud, others leave.",
+        "target": "Explicamos o que defendemos. Algumas pessoas apoiam a posição e outras podem preferir se afastar."
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",1,\"text\"]": {
+        "source": "Support causes quietly, no public stance",
+        "target": "Apoiar iniciativas da comunidade sem assumir uma posição pública"
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Do good without controversy. Feels cowardly to some.",
+        "target": "Concentramos o esforço no apoio. Algumas pessoas gostariam de uma manifestação mais clara e podem considerar a escolha tímida."
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",2,\"text\"]": {
+        "source": "Stay neutral—we're a business",
+        "target": "Não assumir uma posição e manter o foco nas atividades do negócio"
+      },
+      "[\"hr\",\"sofia\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on product. Avoid politics.",
+        "target": "A preparação do atendimento continua sendo a prioridade, sem uma posição pública sobre essa discussão."
+      },
+      "[\"hr\",\"sofia\",8,\"intro\"]": {
+        "source": "Our office produces a lot of waste—disposable cups, food packaging, electronic waste. Some employees want to make the office more sustainable with composting, reusables, and better recycling. It would cost money and require changing habits.",
+        "target": "Nosso espaço gera muitos descartes: copos de uso único, embalagens e itens fora de uso. Parte da equipe quer reduzir esses materiais, reaproveitar o que for possível e organizar melhor a separação dos descartes. Isso exige recursos e mudança de hábitos."
+      },
+      "[\"hr\",\"sofia\",8,\"aside\"]": {
+        "source": "Small actions add up. They also signal what we value as a company. People notice whether we practice what we preach.",
+        "target": "O modo de cuidar dos materiais também mostra como colocamos nossos princípios em prática. Podemos melhorar a rotina sem prometer resultados ambientais medidos ou garantidos."
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",0,\"text\"]": {
+        "source": "Full sustainability overhaul",
+        "target": "Rever o uso dos materiais e organizar uma mudança ampla na rotina"
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Walk the talk. Initial hassle, lasting benefits.",
+        "target": "Começamos por ajustar hábitos e combinar responsabilidades. O esforço inicial prepara uma rotina mais cuidadosa com os materiais."
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",1,\"text\"]": {
+        "source": "Basic recycling improvements",
+        "target": "Fazer melhorias básicas na separação dos descartes"
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Easy wins.",
+        "target": "Organizamos primeiro uma mudança mais simples, com espaço para melhorar outros pontos depois."
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",2,\"text\"]": {
+        "source": "Leave it to individual choice",
+        "target": "Deixar a organização dos materiais por conta de cada pessoa"
+      },
+      "[\"hr\",\"sofia\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Respect autonomy. Some lead by example.",
+        "target": "Mantemos a autonomia e contamos com exemplos de cuidado que algumas pessoas já trazem para a rotina."
+      },
+      "[\"hr\",\"sofia\",9,\"intro\"]": {
+        "source": "A team leader has been accused of creating a toxic environment—not harassment exactly, but constant criticism, favouritism, and making people feel small. They're also one of our best performers and hard to replace.",
+        "target": "Uma pessoa que coordena tarefas vem recebendo críticas por favorecer algumas pessoas, criticar outras constantemente e diminuir a contribuição da equipe. Ao mesmo tempo, entrega bons resultados e conhece bastante o trabalho. Precisamos decidir como tratar essa forma de conduzir as pessoas."
+      },
+      "[\"hr\",\"sofia\",9,\"aside\"]": {
+        "source": "Brilliant jerks are a common dilemma. They deliver results but damage everyone around them. What you tolerate defines your culture.",
+        "target": "Resultados fortes não apagam o desgaste da convivência. A forma como respondemos a essas atitudes mostra o que aceitamos na equipe."
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",0,\"text\"]": {
+        "source": "Remove them from leadership",
+        "target": "Reorganizar a coordenação e retirar essa pessoa da liderança das tarefas"
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Clear message. They might leave. Culture improves.",
+        "target": "A equipe ganha espaço para trabalhar de outra forma. Ao reorganizar a coordenação, perdemos parte da preparação do atendimento; a pessoa também pode decidir sair."
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",1,\"text\"]": {
+        "source": "Intensive coaching and monitoring",
+        "target": "Oferecer orientação próxima e conversar sobre mudanças de conduta"
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Give them a chance. Others watching closely.",
+        "target": "Abrimos uma oportunidade de mudar a forma de conduzir as tarefas. A equipe observará se as conversas se transformam em atitudes."
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",2,\"text\"]": {
+        "source": "They deliver—overlook it",
+        "target": "Deixar a situação como está por causa dos resultados entregues"
+      },
+      "[\"hr\",\"sofia\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Results matter. Two CVs quietly start circulating.",
+        "target": "Continuamos cobrando resultados, mas há desgaste da cooperação e desânimo na equipe. Duas pessoas começam a considerar outras oportunidades."
+      },
+      "[\"hr\",\"sofia\",10,\"intro\"]": {
+        "source": "We're deciding whether to offer benefits to employees' families—health coverage for partners, parental leave for all parents, support for elderly care. It's expensive but makes us more attractive and helps people bring their whole selves to work.",
+        "target": "Estamos discutindo ajustes na rotina para conciliar o trabalho com responsabilidades de cuidado com crianças, pessoas idosas e outras pessoas da família. Organizar um apoio amplo exige mais recursos; também podemos começar por um grupo de situações ou manter apenas os combinados básicos."
+      },
+      "[\"hr\",\"sofia\",10,\"aside\"]": {
+        "source": "Family-friendly policies cost money upfront but improve retention and loyalty. People remember how you treat them during major life moments.",
+        "target": "A atenção a essas responsabilidades pode fortalecer a convivência. Esta situação trata de organização administrativa fictícia, sem estabelecer benefícios de saúde, pagamentos ou direitos para relações reais."
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",0,\"text\"]": {
+        "source": "Comprehensive family benefits",
+        "target": "Organizar apoio amplo para diferentes responsabilidades familiares"
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Significant investment. Loyalty follows.",
+        "target": "Dedicamos mais recursos à organização desse apoio. A equipe percebe a atenção às diferentes situações de cuidado."
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",1,\"text\"]": {
+        "source": "Parental leave only",
+        "target": "Concentrar o apoio na organização da rotina de quem cuida de crianças"
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Focus on the essentials. Good start.",
+        "target": "Começamos por uma parte das necessidades e preparamos uma referência para discutir outros casos depois."
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",2,\"text\"]": {
+        "source": "Statutory minimum only",
+        "target": "Manter somente os combinados administrativos básicos"
+      },
+      "[\"hr\",\"sofia\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Lean approach. Save for salaries.",
+        "target": "A organização mais enxuta gera uma economia que se converte em um acréscimo de caixa, além do custo da ação. Mantemos o apoio restrito aos combinados básicos."
+      },
+      "[\"hr\",\"sofia\",11,\"intro\"]": {
+        "source": "Someone posted on WorkReview that our 'collaborative culture' is actually 'death by committee' and decisions take forever. Another says 'work-life balance' means 'work all the time, balance never'. These are our own values language being thrown back at us. It stings because there's truth in it.",
+        "target": "Um relato sobre o negócio diz que nossa cultura colaborativa virou uma rotina em que todas as decisões passam por muitas pessoas e nada anda. Outro diz que o equilíbrio entre trabalho e vida pessoal significa trabalhar sempre e nunca encontrar equilíbrio. Nossos próprios princípios estão sendo usados para apontar uma distância em relação à prática."
+      },
+      "[\"hr\",\"sofia\",11,\"aside\"]": {
+        "source": "When your stated values don't match lived experience, people notice. WorkReview becomes a place where the gap between aspiration and reality gets called out. Painful but useful.",
+        "target": "Quando a experiência não combina com o que dizemos, a equipe percebe. Esses relatos podem doer, mas ajudam a discutir a diferença entre a intenção e a rotina."
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",0,\"text\"]": {
+        "source": "Honest reflection—are our values real?",
+        "target": "Rever com franqueza se nossos princípios aparecem na prática"
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Hard conversations. Might need to change how we work, not just what we say.",
+        "target": "As conversas serão difíceis. Talvez precisemos mudar a forma de trabalhar, além das palavras que usamos."
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",1,\"text\"]": {
+        "source": "Clarify what our values actually mean",
+        "target": "Explicar melhor o que queremos dizer com cada princípio"
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Reframe expectations. Doesn't fix the underlying issues.",
+        "target": "Esclarecemos as expectativas, mas a explicação sozinha não corrige os problemas da rotina."
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",2,\"text\"]": {
+        "source": "Some people will never be happy",
+        "target": "Considerar que algumas pessoas continuarão insatisfeitas"
+      },
+      "[\"hr\",\"sofia\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on the majority who are engaged.",
+        "target": "Concentramos o esforço no trabalho com as pessoas que permanecem envolvidas, sem abrir uma revisão dos princípios agora."
+      },
+      "[\"hr\",\"sofia\",12,\"intro\"]": {
+        "source": "Our WorkReview reviews show a pattern: people love their immediate teams but feel disconnected from leadership. 'Great colleagues, invisible founders.' We've been so focused on product that we've neglected internal communication.",
+        "target": "Relatos fictícios sobre a convivência mostram um padrão: as pessoas gostam das equipes próximas, mas sentem distância de quem conduz o negócio. Um deles resume: boas relações entre colegas, pouca presença da coordenação. Concentramos tanto esforço na preparação do atendimento que deixamos a comunicação interna de lado."
+      },
+      "[\"hr\",\"sofia\",12,\"aside\"]": {
+        "source": "Culture doesn't scale automatically. What worked at 10 people breaks at 50. Leaders who were accessible become distant without meaning to. WorkReview often spots this before leadership does.",
+        "target": "A convivência não se organiza sozinha quando a equipe cresce. O que funcionava com dez pessoas pode não funcionar com cinquenta. Quem antes estava sempre por perto pode ficar distante sem perceber; os relatos ajudam a discutir essa mudança."
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",0,\"text\"]": {
+        "source": "Regular all-hands and founder office hours",
+        "target": "Preparar encontros regulares com toda a equipe e horários de conversa com a coordenação"
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Time investment. Rebuilds connection.",
+        "target": "Vamos dedicar tempo à presença e às conversas. Essa aproximação pode ajudar a reconstruir os vínculos na equipe."
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",1,\"text\"]": {
+        "source": "Better internal comms and updates",
+        "target": "Melhorar os comunicados internos e as atualizações sobre o trabalho"
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Information helps. Not the same as presence.",
+        "target": "A informação ajuda as pessoas a acompanhar o que acontece, embora não substitua a presença de quem conduz o negócio."
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",2,\"text\"]": {
+        "source": "We're busy building—they'll understand",
+        "target": "Manter o foco na preparação do atendimento e esperar que a equipe compreenda"
+      },
+      "[\"hr\",\"sofia\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Product focus. Team gets it.",
+        "target": "Seguimos concentrados na preparação do atendimento e contamos com a compreensão da equipe enquanto a conversa mais próxima fica para depois."
+      },
+      "[\"hr\",\"sofia\",13,\"intro\"]": {
+        "source": "A glowing WorkReview review just appeared—but I'm pretty sure it was written by a manager about their own team. The praise is suspiciously specific and the timing is right after I mentioned we needed better reviews. It's not technically fake, but it's not organic either.",
+        "target": "Apareceu um relato muito favorável sobre a convivência nesta situação fictícia. Suspeito que tenha sido preparado por alguém que coordena a própria equipe: os elogios são muito específicos e surgiram depois de comentarmos que faltavam relatos positivos. Não há confirmação da autoria, e precisamos decidir como tratar a independência dessas manifestações."
+      },
+      "[\"hr\",\"sofia\",13,\"aside\"]": {
+        "source": "The line between encouraging reviews and manufacturing them is blurry. Managers who write reviews of their own teams aren't lying exactly, but it undermines the whole point of independent feedback.",
+        "target": "Incentivar as pessoas a falar sobre a experiência é diferente de preparar elogios para apresentar como relatos independentes. Podemos discutir um padrão de conduta sem buscar identificar quem escreveu cada manifestação."
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",0,\"text\"]": {
+        "source": "Have a quiet word—don't do this",
+        "target": "Conversar de forma reservada sobre a importância de relatos independentes"
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Awkward conversation. Sets a standard.",
+        "target": "A conversa pode ser desconfortável, mas esclarece um padrão de conduta para quem coordena as equipes."
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",1,\"text\"]": {
+        "source": "Let it go—no proof it's them",
+        "target": "Não intervir agora, pois não há confirmação da autoria"
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Diplomatic approach. Keep options open.",
+        "target": "Mantemos uma abordagem cuidadosa diante da dúvida e deixamos a conversa sobre essa situação em aberto."
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",2,\"text\"]": {
+        "source": "If it helps recruiting, who cares?",
+        "target": "Manter o relato pelo possível apoio à aproximação de novas pessoas"
+      },
+      "[\"hr\",\"sofia\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Pragmatic. Attracts talent.",
+        "target": "A decisão prioriza a apresentação favorável do negócio para aproximar novas pessoas, enquanto a discussão sobre a independência do relato fica para depois."
+      },
+      "[\"hr\",\"sofia\",14,\"intro\"]": {
+        "source": "Katarzyna, our senior ML engineer, just got her Skilled Worker visa renewal rejected on a technicality. She's Polish, been with us since the beginning, and knows our codebase better than anyone. The Home Office says she can appeal, but it'll take months and she can't work during that time. She's considering just taking an offer from a Berlin startup instead of fighting it.",
+        "target": "Uma pessoa experiente, que organiza o atendimento desde o início do negócio, teve sua participação interrompida por um erro nos registros internos desta situação fictícia. A revisão e a reorganização podem levar meses. Enquanto espera, ela considera aceitar uma proposta de outro empreendimento em vez de insistir na solução do impasse."
+      },
+      "[\"hr\",\"sofia\",14,\"aside\"]": {
+        "source": "This is the post-Brexit reality. EU nationals who built UK tech companies now need expensive visas, and the system makes mistakes. We could lose institutional knowledge that took years to build, or fight to keep her.",
+        "target": "Ela conhece a rotina e guarda aprendizados construídos ao longo dos anos. Podemos dar prioridade à reorganização para tentar manter sua participação ou aceitar a saída e preparar a passagem das tarefas. O problema narrado é interno, sem autoridade pública ou autorização para trabalhar."
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",0,\"text\"]": {
+        "source": "Fight the appeal and pay for premium legal support",
+        "target": "Priorizar a revisão dos registros com apoio administrativo dedicado"
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",0,\"reaction\"]": {
+        "source": "She's worth it. I'll make sure she knows we're in her corner.",
+        "target": "Vamos mostrar que reconhecemos sua contribuição e que estamos ao lado dela na tentativa de reorganizar sua participação."
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",1,\"text\"]": {
+        "source": "Support her through the standard appeal process",
+        "target": "Acompanhar a revisão pelo procedimento interno habitual"
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",1,\"reaction\"]": {
+        "source": "It'll take longer but costs less. She'll need patience.",
+        "target": "O caminho exige menos esforço de organização imediata, mas pode levar mais tempo. Ela precisará de paciência enquanto o impasse é tratado."
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",2,\"text\"]": {
+        "source": "Accept her resignation with good references",
+        "target": "Aceitar a saída e ajudar na passagem das tarefas"
+      },
+      "[\"hr\",\"sofia\",14,\"choices\",2,\"reaction\"]": {
+        "source": "She understands. But we lose someone irreplaceable.",
+        "target": "Ela compreende a decisão, mas perdemos bastante da cooperação e da preparação do atendimento. A saída causa forte desânimo e tensão na equipe."
+      },
+      "[\"hr\",\"sofia\",15,\"intro\"]": {
+        "source": "Our lead data scientist—German, been with us three years—just told me BMW's AI division approached him at a conference. They're offering Munich, no visa worries, and a salary we can't match. He hasn't decided, but he's frustrated that his settled status application is still pending after eighteen months. He wants to know we value him.",
+        "target": "Uma pessoa que ajuda a preparar o atendimento há três anos contou que recebeu uma proposta de outro empreendimento durante um encontro. A oferta traz uma organização mais clara e condições que não conseguimos acompanhar. Sua revisão de responsabilidades aqui está pendente há dezoito meses. Ela ainda não decidiu sair e quer saber se reconhecemos sua contribuição."
+      },
+      "[\"hr\",\"sofia\",15,\"aside\"]": {
+        "source": "This is the quiet exodus. EU nationals who built their careers here are doing the maths: same work, less bureaucracy, often more money. We can't change the politics, but we can show him he matters.",
+        "target": "Não conseguimos mudar todas as condições oferecidas por outro negócio. Podemos ouvir suas preocupações e explicar como imaginamos sua participação no futuro, sem prometer pagamentos, participação no negócio ou mudanças que não temos condições de organizar."
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",0,\"text\"]": {
+        "source": "Counter with equity refresh and clear promotion path",
+        "target": "Rever o reconhecimento das contribuições e esclarecer um caminho de responsabilidades"
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",0,\"reaction\"]": {
+        "source": "I'll put together something meaningful. He needs to see his future here.",
+        "target": "Vou preparar uma conversa e uma proposta de organização que tenham sentido para ela. A pessoa precisa conseguir enxergar como poderá contribuir e crescer em responsabilidades aqui."
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",1,\"text\"]": {
+        "source": "Have an honest conversation about his concerns",
+        "target": "Conversar com franqueza sobre suas preocupações"
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Sometimes people just need to feel heard. Costs nothing but time.",
+        "target": "Ouvir com atenção pode esclarecer o que ela precisa para tomar a decisão. Vamos dedicar tempo à conversa sem garantir que isso mude sua escolha."
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",2,\"text\"]": {
+        "source": "Wish him well if he decides to leave",
+        "target": "Desejar uma boa continuidade se a pessoa decidir sair"
+      },
+      "[\"hr\",\"sofia\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Sometimes you can't compete with a car company. Start transition planning.",
+        "target": "Começamos a organizar a transição. Perdemos parte da cooperação e da preparação do atendimento, e a saída causa desânimo na equipe."
+      }
+    }
+  }
+}

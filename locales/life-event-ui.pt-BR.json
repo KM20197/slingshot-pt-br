@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "methods": [
+    {
+      "method": "showLifeEvent",
+      "kind": "Literal",
+      "source": "Research",
+      "target": "Operações e Qualidade"
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "Literal",
+      "source": "Product",
+      "target": "Produção e Serviços"
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "Literal",
+      "source": "Marketing",
+      "target": "Vendas e Marketing"
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "Literal",
+      "source": "People",
+      "target": "Gestão de Pessoas"
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "TemplateElement",
+      "source": "<span class=\"text-emerald-600 text-xl font-bold\">+£",
+      "target": "<span class=\"text-emerald-600 text-xl font-bold\">+R$ "
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "TemplateElement",
+      "source": "k cash</span>",
+      "target": " mil de caixa</span>"
+    },
+    {
+      "method": "showLifeEvent",
+      "kind": "TemplateElement",
+      "source": "🎲 Life event: ",
+      "target": "🎲 Evento de rotina: "
+    }
+  ],
+  "dom": [
+    {
+      "scope": "lifeEventModal",
+      "kind": "text",
+      "source": "Life Happens",
+      "target": "Imprevistos da rotina"
+    },
+    {
+      "scope": "lifeEventModal",
+      "kind": "text",
+      "source": "Such is life...",
+      "target": "Continuar"
+    }
+  ]
+}

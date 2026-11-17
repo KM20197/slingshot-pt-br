@@ -240,6 +240,10 @@ for(const line of translations.trim().split('\n')){
  const [id,field,target]=parts,path=JSON.stringify([id,...field.split('.').map(x=>/^\d+$/.test(x)?Number(x):x)]);
  if(targets.has(path))throw new Error('Campo duplicado: '+path);targets.set(path,target);
 }
+for(const [path,target] of Object.entries(require('../locales/founder-adaptation.pt-BR.json'))) {
+ if(!targets.has(path))throw new Error('Adaptação sem campo original: '+path);
+ targets.set(path,target);
+}
 const strings={},preserved=new Set(['id','icon','color','portraitStyle','stats']);
 function visit(value,path){
  if(typeof value==='string'){

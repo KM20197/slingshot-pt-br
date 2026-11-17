@@ -1,0 +1,74 @@
+Metrópole Central
+Grande centro urbano (cenário fictício)
+"Onde a tradição encontra o movimento"
+
+Uma grande cidade com mercado consumidor amplo e concentrado. A presença de escolas técnicas e o volume populacional formam um polo de comércio, serviços e indústria leve, com forte concorrência entre negócios do mesmo ramo.
+
+💰 Custo de mão de obra +20%
+
+📍 Perfil regional
+👥 Mão de obra: Grande oferta de mão de obra qualificada para comércio, serviços e indústria leve. A concorrência entre empregadores pela mesma mão de obra é intensa.
+🏛️ Impostos e incentivos: Alíquotas de ISS e IPTU próximas do teto permitido, sem programas relevantes de incentivo fiscal municipal para pequenos negócios.
+🚚 Logística e fornecimento: Acesso facilitado a distribuidores e fabricantes de insumos, com prazos de entrega curtos e ampla variedade de fornecedores.
+
+✓ Vantagens
+
+Mercado consumidor amplo e concentrado
+Rede de fornecedores e distribuidores diversificada, com entrega rápida
+Mão de obra qualificada disponível para comércio, serviços e indústria leve
+
+✗ Desafios
+
+Aluguel comercial e custo de mão de obra elevados
+Concorrência intensa entre negócios do mesmo ramo
+Carga tributária municipal sem incentivos relevantes para pequenos negócios
+
+Vale Industrial
+Polo industrial (cenário fictício)
+"A cidade que se reinventou"
+
+Uma cidade de tradição industrial, com mão de obra habituada à operação de máquinas e à produção em série. Mantém vínculo com a rede pública de saúde por meio de um grande complexo hospitalar.
+
+💰 Custo de mão de obra -5%
+
+📍 Perfil regional
+👥 Mão de obra: Mão de obra com tradição em produção industrial e operação de máquinas. A oferta de profissionais para atendimento ao público é menor que a de comércio e serviços.
+🏛️ Impostos e incentivos: Programas municipais de incentivo fiscal para instalação de indústrias, com redução de ISS ou de IPTU por prazo determinado.
+🚚 Logística e fornecimento: Bom acesso a fornecedores industriais e transportadoras, com custo de frete menor que o da metrópole para insumos pesados.
+
+✓ Vantagens
+
+Mão de obra qualificada para produção industrial
+Incentivos fiscais municipais para negócios industriais
+Parceria disponível com a rede pública de saúde local (relevante para a Clínica popular)
+
+✗ Desafios
+
+Mercado consumidor menor que o da metrópole
+Linhas de crédito e financiamento mais limitadas que na capital
+Menor disponibilidade de mão de obra especializada em atendimento ao público
+
+Capital do Interior
+Cidade média do interior (cenário fictício)
+"Crescimento com apoio"
+
+Uma capital regional de menor porte, com comércio e serviços em expansão. Programas estaduais de incentivo e uma agência de desenvolvimento local oferecem apoio a pequenos negócios.
+
+💰 Custo de mão de obra -10%
+
+📍 Perfil regional
+👥 Mão de obra: Oferta de mão de obra menor que nas demais cidades, com boa disposição para treinamento e menor rotatividade.
+🏛️ Impostos e incentivos: Programas estaduais de incentivo fiscal e linhas de crédito voltadas a pequenos negócios, com processo de abertura simplificado.
+🚚 Logística e fornecimento: A distância dos grandes centros de distribuição eleva o custo e o prazo de entrega de insumos.
+
+✓ Vantagens
+
+Incentivos fiscais estaduais e linhas de crédito voltadas a pequenos negócios
+Custo de instalação e de mão de obra reduzidos
+Boa qualidade de vida, o que favorece a retenção de funcionários
+
+✗ Desafios
+
+Mercado consumidor menor
+Oferta de mão de obra qualificada limitada
+Fornecimento de insumos mais caro e demorado, por causa da distância dos grandes centros

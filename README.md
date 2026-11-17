@@ -6,14 +6,9 @@ Adaptação do Slingshot original de Ammon Salter, Stefano Baruffaldi e Federico
 
 ## Estado atual
 
-- Inventário do original: 83.574 linhas, 71 estruturas de dados e oito scripts internos. Identificadores, nomes próprios e dados gráficos não são tratados como prosa.
-- Catálogo estruturado: 2.987 campos tratados, com 2.935 alterações de texto. As 21 primeiras estruturas foram examinadas integralmente, e a 22ª está parcialmente traduzida; sete estruturas de identificadores ou gráficos foram preservadas integralmente. Os 12 modelos de negócio de `BMC_DATA` estão cobertos (1.826 campos), incluindo marcos, mudanças estratégicas e seletores de remoção. Também foram tratados os cinco modelos de receita, os 12 perfis de fundadores (216 campos) e suas 12 descrições de fomento. O restante do conteúdo ainda não foi traduzido por completo.
-- Exportação local de nota entre 0 e 5 e página de conferência do professor. Matrícula ou e-mail entram somente no arquivo que o aluno decide entregar; não são enviados ao servidor.
-- Juros didáticos e amortização implementados. A escolha inicial, a captação normal posterior e o socorro financeiro de crise oferecem empréstimos sem participação societária. A negociação antiga, eventos e remuneração societária da equipe ainda aguardam substituição.
-- Os perfis brasileiros de empreendimentos e a calibração monetária ainda estão pendentes. As descrições britânicas traduzidas não devem ser interpretadas como dados atuais do Brasil.
-- Abertura direta por `file://` ainda exige validação manual. O teste no navegador por servidor local conferiu corretamente um resultado sintético de 3,85/5 e a limpeza dos dados.
+A continuidade viva está em [docs/ESTADO_ATUAL.md](docs/ESTADO_ATUAL.md), reconciliada com Rodada10 em 07/10/2026. Os 12 empreendimentos possuem modelos operacionais; pessoas/contratos e decisões ainda cobrem seis. O próximo lote é refazer L3k-b0, pois a simulação histórica foi invalidada; novos valores dependem de proposta e decisão. Tradução/adaptação global, calibração e partida completa online/offline permanecem abertas.
 
-Não há versão final publicada nem liberação para uso acadêmico. Os pareceres de revisão se referem aos componentes examinados, não à conclusão integral da adaptação.
+Gemini e Codex coorquestram durante a preparação do Gemini. OpenCode usa explorer, worker e gauntlet-reviewer. Leia o [manual](docs/MANUAL_ORQUESTRACAO.md), o [mapa absoluto](docs/MAPA_ARQUIVOS.md) e o [guia de Drive/Gem](docs/GUIA_GOOGLE_DRIVE_GEMINI.md). Registros/testes datados abaixo são históricos do escopo indicado; não representam contagens ou gates correntes.
 
 ## Executar e verificar localmente
 
@@ -82,8 +77,6 @@ A telemetria do original foi desativada no build. As conexões automáticas exte
 
 ## Continuidade
 
-Consulte [docs/DECISOES_APROVADAS.md](docs/DECISOES_APROVADAS.md) e [docs/INVENTARIO.md](docs/INVENTARIO.md). Ainda faltam a tradução integral, adaptação dos empreendimentos, eliminação de todas as rotas de emissão de ações, fomento brasileiro, calibração e testes completos online/offline.
+Comece por [AGENTS.md](AGENTS.md), [estado vivo](docs/ESTADO_ATUAL.md), [manual](docs/MANUAL_ORQUESTRACAO.md) e [decisões](docs/DECISOES_APROVADAS.md). Checkout: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br`. O [plano reconciliado](docs/PLANO_CONCLUSAO.md) define dependências e conclusão; o [handoff geral](docs/HANDOFF_LLM_COMPLETO.md) preserva histórico.
 
-Para transferir a execução a outro LLM, siga o [handoff completo](docs/HANDOFF_LLM_COMPLETO.md). Ele define o contrato de arquivos, a ordem das estruturas, os limites de segurança e o Gauntlet loop de avaliação, correção e revalidação, limitado a três ciclos por lote.
-
-Para abrir o projeto no OpenCode, use as [instruções e o prompt prontos](docs/PROMPT_OPENCODE.md). O arquivo [AGENTS.md](AGENTS.md) encaminha cada tipo de tarefa ao roteiro pertinente, e `check_project.ps1` executa a verificação local em Windows.
+OpenCode: [protocolo](docs/PROTOCOLO_OPENCODE.md). Google Drive/Gemini: [roteiro](docs/GUIA_GOOGLE_DRIVE_GEMINI.md). Atualizar estado a cada etapa e executar `node tools/export-gemini-drive.cjs` após mudanças nas fontes; a exportação local não realiza upload. Não depender de pedido de handoff para manter continuidade.

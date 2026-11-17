@@ -1,0 +1,11 @@
+const fs=require('node:fs'),crypto=require('node:crypto'),acorn=require('acorn'),walk=require('acorn-walk'),vm=require('node:vm');
+const {translate}=require('./structured-translation.cjs');
+const originalHash='a8ce3636c328828fb311a505ec38603345c9ac5f08ae1be8c01969818f1d8d61',structureHash='a7a79db09bbe25635809132a2d8b2c1f24b04326d4ca3c514ef28e9aba0859ff';
+const html=fs.readFileSync('source/index.original.html','utf8');if(crypto.createHash('sha256').update(html).digest('hex')!==originalHash)throw Error('Fonte original divergente');
+let literal;for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){if(/\bsrc\s*=/.test(m[1])||/application\/ld\+json/.test(m[1]))continue;const c=m[2];walk.ancestor(acorn.parse(c,{ecmaVersion:'latest'}),{VariableDeclarator(n,a){if(n.id.name!=='PIVOT_MILESTONES'||a.some(x=>/Function/.test(x.type)))return;if(literal)throw Error('PIVOT_MILESTONES duplicado');literal=c.slice(n.init.start,n.init.end)}})}
+if(!literal||crypto.createHash('sha256').update(literal).digest('hex')!==structureHash)throw Error('Estrutura de origem divergente');
+const source=vm.runInNewContext('('+literal+')'),targets=JSON.parse(fs.readFileSync('locales/pivot-milestones-descriptions-targets.pt-BR.json','utf8')),strings={},ids=[];
+for(const[a,modes]of Object.entries(source))for(const[mode,items]of Object.entries(modes))for(const[index,item]of items.entries()){ids.push(item.id);const target=targets[item.id];if(typeof target!=='string'||!target.trim()||target===item.desc)throw Error('Texto inválido: '+item.id);strings[JSON.stringify([a,mode,index,'desc'])]={source:item.desc,target}}if(JSON.stringify(Object.keys(targets))!==JSON.stringify(ids)||ids.length!==13)throw Error('Cobertura divergente');
+const file='locales/structures.pt-BR.json',catalogue=JSON.parse(fs.readFileSync(file,'utf8')),previous=catalogue.PIVOT_MILESTONES;
+if(!previous||previous.status!=='partial-translation'||previous.sourceSha256!==structureHash||!previous.strings||![13,26].includes(Object.keys(previous.strings).length))throw Error('Recorte de notas ausente ou divergente');
+catalogue.PIVOT_MILESTONES={...previous,strings:{...previous.strings,...strings}};translate(html,{PIVOT_MILESTONES:catalogue.PIVOT_MILESTONES});fs.writeFileSync(file,JSON.stringify(catalogue,null,2)+'\n');console.log('PIVOT_MILESTONES/descriptions: 13 caminhos');

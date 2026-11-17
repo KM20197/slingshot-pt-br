@@ -1,0 +1,519 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de atendimento, organização da oferta e colaboração em Raj, preservando metadados e receitas comerciais originais",
+    "strings": {
+      "[\"dev\",\"raj\",0,\"intro\"]": {
+        "source": "Look, our platform isn't perfect—there are rough edges and things I'd love to fix. But I've shipped products in worse shape, and they found customers. The question is: do we polish what we have, or build what customers are actually asking for?",
+        "target": "Olha, nossa forma de atender ainda tem falhas e coisas que eu gostaria de acertar. Mas já coloquei ofertas menos prontas no mercado e encontrei clientes. A questão é: vamos aperfeiçoar o que temos ou preparar o que os clientes estão pedindo?"
+      },
+      "[\"dev\",\"raj\",0,\"aside\"]": {
+        "source": "I've watched startups spend so long perfecting their product that they ran out of money before anyone could use it. Sometimes 'good enough' wins.",
+        "target": "Já vi negócios gastarem tanto tempo aperfeiçoando a oferta que ficaram sem dinheiro antes de começar a atender. Às vezes, uma solução suficiente para começar leva vantagem."
+      },
+      "[\"dev\",\"raj\",0,\"choices\",0,\"text\"]": {
+        "source": "Build what customers want now",
+        "target": "Preparar o que os clientes pedem agora"
+      },
+      "[\"dev\",\"raj\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Good call. Demo-ready in two weeks.",
+        "target": "Boa. Vamos preparar uma apresentação em duas semanas."
+      },
+      "[\"dev\",\"raj\",0,\"choices\",1,\"text\"]": {
+        "source": "Quick fixes first, then features",
+        "target": "Fazer correções rápidas antes de ampliar a oferta"
+      },
+      "[\"dev\",\"raj\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Fair enough. Let me prioritise.",
+        "target": "Justo. Deixe comigo a definição das prioridades."
+      },
+      "[\"dev\",\"raj\",0,\"choices\",2,\"text\"]": {
+        "source": "Fix the platform properly first",
+        "target": "Revisar a forma de atender antes de ampliar a oferta"
+      },
+      "[\"dev\",\"raj\",0,\"choices\",2,\"reaction\"]": {
+        "source": "That's a lot of money to spend before we see any revenue.",
+        "target": "É muito dinheiro para gastar antes de entrar receita."
+      },
+      "[\"dev\",\"raj\",1,\"intro\"]": {
+        "source": "A customer wants something we weren't planning to build. It's not on our roadmap, but they're offering good money and need it quickly. Saying yes means reshuffling our priorities.",
+        "target": "Um cliente quer uma encomenda que não estava nos nossos planos. Ele oferece um bom pagamento e tem pressa. Aceitar significa mudar a ordem do trabalho e adiar outras entregas."
+      },
+      "[\"dev\",\"raj\",1,\"aside\"]": {
+        "source": "Custom work can fund everything else. But every time we say yes to something off-plan, we delay everything on the plan.",
+        "target": "Uma encomenda personalizada pode gerar receita para outras atividades. Só que cada pedido fora do plano empurra parte do trabalho planejado para depois."
+      },
+      "[\"dev\",\"raj\",1,\"choices\",0,\"text\"]": {
+        "source": "Take the deal, shuffle the priorities",
+        "target": "Aceitar a encomenda e reorganizar as prioridades"
+      },
+      "[\"dev\",\"raj\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Money talks. Let me make it work.",
+        "target": "Essa receita conta. Vou reorganizar o trabalho para atender."
+      },
+      "[\"dev\",\"raj\",1,\"choices\",1,\"text\"]": {
+        "source": "Negotiate a version we can manage",
+        "target": "Negociar uma encomenda menor que caiba na rotina"
+      },
+      "[\"dev\",\"raj\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Find a version that works for everyone.",
+        "target": "Escopo menor, receita negociada e menos atraso para a equipe."
+      },
+      "[\"dev\",\"raj\",1,\"choices\",2,\"text\"]": {
+        "source": "Say no—stick to the plan",
+        "target": "Recusar a encomenda e seguir o plano"
+      },
+      "[\"dev\",\"raj\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Stay focused. Product advances.",
+        "target": "Mantemos o foco. A oferta planejada avança."
+      },
+      "[\"dev\",\"raj\",2,\"intro\"]": {
+        "source": "A UK investment firm wants a simple screen where their staff can see, at a glance, how much money is at risk each day. Right now they're drowning in spreadsheets and can't easily show regulators what's happening.",
+        "target": "Um cliente da indústria sob encomenda quer acompanhar pedidos, prazos e pendências de forma clara. Hoje as informações ficam espalhadas em registros difíceis de consultar, e a equipe demora a explicar o andamento de cada encomenda."
+      },
+      "[\"dev\",\"raj\",2,\"aside\"]": {
+        "source": "When clients can understand our outputs easily, they trust us more. And when regulators can see things clearly, everyone sleeps better.",
+        "target": "Quando o cliente entende o acompanhamento, fica mais fácil conversar sobre atrasos e prioridades. Registros claros também ajudam nossa equipe a prestar contas do trabalho, sem prometer que não haverá problemas."
+      },
+      "[\"dev\",\"raj\",2,\"choices\",0,\"text\"]": {
+        "source": "Build a clear, visual dashboard",
+        "target": "Preparar um quadro visual de acompanhamento das encomendas"
+      },
+      "[\"dev\",\"raj\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Clients understand. No more midnight spreadsheet emails.",
+        "target": "O acompanhamento fica mais claro para o cliente e gera receita pelo atendimento combinado."
+      },
+      "[\"dev\",\"raj\",2,\"choices\",1,\"text\"]": {
+        "source": "Just let them download the data",
+        "target": "Entregar registros organizados para consulta do cliente"
+      },
+      "[\"dev\",\"raj\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Technically works. Not exactly impressive.",
+        "target": "Há receita por organizar os registros, mas o cliente ainda precisa interpretar boa parte sozinho."
+      },
+      "[\"dev\",\"raj\",2,\"choices\",2,\"text\"]": {
+        "source": "Tell them to use our internal tools",
+        "target": "Manter o acompanhamento pela nossa rotina interna"
+      },
+      "[\"dev\",\"raj\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Keep it simple. Focus on core product.",
+        "target": "Simplifica nosso trabalho e mantém o foco na oferta principal."
+      },
+      "[\"dev\",\"raj\",3,\"intro\"]": {
+        "source": "Our sales lead is complaining that when demoing the product to potential customers, the system is full of test data, error messages, and yesterday's experiments. They want a clean version that always looks professional and never has embarrassing glitches during a pitch.",
+        "target": "Quem cuida das vendas reclama que as apresentações a possíveis clientes misturam amostras, rascunhos e experiências recentes. A equipe quer um conjunto organizado para mostrar a oferta sem se perder no material durante a conversa."
+      },
+      "[\"dev\",\"raj\",3,\"aside\"]": {
+        "source": "First impressions matter. Demos close deals. But keeping a separate 'show version' running takes engineering time away from building actual features.",
+        "target": "Uma apresentação organizada ajuda a negociar. Mas manter amostras e orientações prontas exige tempo que também faz falta para melhorar a própria oferta."
+      },
+      "[\"dev\",\"raj\",3,\"choices\",0,\"text\"]": {
+        "source": "Set up an automatic clean demo system",
+        "target": "Manter um conjunto revisado de amostras pronto para apresentar"
+      },
+      "[\"dev\",\"raj\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Worth it. Good demos sell.",
+        "target": "Vale o esforço. Uma boa apresentação ajuda a vender."
+      },
+      "[\"dev\",\"raj\",3,\"choices\",1,\"text\"]": {
+        "source": "Manually tidy up before big meetings",
+        "target": "Organizar o material só antes das reuniões importantes"
+      },
+      "[\"dev\",\"raj\",3,\"choices\",1,\"reaction\"]": {
+        "source": "More work for us, but cheaper.",
+        "target": "Dá trabalho a cada reunião, mas exige menos preparação permanente."
+      },
+      "[\"dev\",\"raj\",3,\"choices\",2,\"text\"]": {
+        "source": "Just use the real system with test accounts",
+        "target": "Apresentar as amostras e a rotina que usamos no dia a dia"
+      },
+      "[\"dev\",\"raj\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Show them the real thing. Authentic demo.",
+        "target": "O cliente vê como o trabalho realmente acontece."
+      },
+      "[\"dev\",\"raj\",4,\"intro\"]": {
+        "source": "We've got a growing list of small problems that customers keep mentioning. Nothing that stops the product working, but little annoyances that add up: a button that's in the wrong place, a confusing error message, a page that loads slowly. Death by a thousand paper cuts.",
+        "target": "Os clientes vêm apontando pequenos incômodos no atendimento: orientações confusas, etapas mal organizadas e demoras que se repetem. Nenhum deles impede uma entrega sozinho, mas o conjunto desgasta a relação."
+      },
+      "[\"dev\",\"raj\",4,\"aside\"]": {
+        "source": "None of these would make a customer leave on its own. Together they're the reason renewals feel harder than they should.",
+        "target": "Um incômodo isolado pode parecer pequeno. Quando se acumulam, fica mais difícil convencer o cliente a voltar. A lista cresce enquanto corremos atrás de novidades."
+      },
+      "[\"dev\",\"raj\",4,\"choices\",0,\"text\"]": {
+        "source": "Spend a week fixing all of them",
+        "target": "Dedicar uma semana à lista de pequenos problemas"
+      },
+      "[\"dev\",\"raj\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Customer experience matters. Good call.",
+        "target": "A experiência do cliente merece atenção. Boa decisão."
+      },
+      "[\"dev\",\"raj\",4,\"choices\",1,\"text\"]": {
+        "source": "Fix the ten worst, leave the rest",
+        "target": "Corrigir os dez piores e deixar os demais para depois"
+      },
+      "[\"dev\",\"raj\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Practical. Address the main offenders.",
+        "target": "Prático. Vamos atacar os pontos que mais atrapalham."
+      },
+      "[\"dev\",\"raj\",4,\"choices\",2,\"text\"]": {
+        "source": "Keep building new features instead",
+        "target": "Priorizar novas ofertas em vez das correções"
+      },
+      "[\"dev\",\"raj\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Innovation attracts new customers.",
+        "target": "As novidades ajudam a atrair novos clientes."
+      },
+      "[\"dev\",\"raj\",5,\"intro\"]": {
+        "source": "Our app is becoming popular with UK teenagers, and we're seeing more and more posts that push boundaries—some inappropriate content is slipping through our filters. Parents are starting to notice, and the press might be next.",
+        "target": "Nosso material de divulgação tem alcançado cada vez mais adolescentes, mas comentários e conteúdos inadequados estão passando pela conferência da equipe. As famílias começaram a perceber, e a situação pode chamar atenção fora desse público."
+      },
+      "[\"dev\",\"raj\",5,\"aside\"]": {
+        "source": "Content problems can explode overnight. One viral story about harmful content and our reputation is damaged. But proper moderation takes real resources.",
+        "target": "Um conteúdo prejudicial pode circular depressa e desgastar a confiança no negócio. Conferir o que divulgamos e como lidamos com os comentários exige pessoas e tempo, sem eliminar todo risco."
+      },
+      "[\"dev\",\"raj\",5,\"choices\",0,\"text\"]": {
+        "source": "Full safety system overhaul",
+        "target": "Revisar amplamente a conferência dos materiais e comentários"
+      },
+      "[\"dev\",\"raj\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Parents and press will thank us.",
+        "target": "É um cuidado importante com os adolescentes e com a confiança das famílias."
+      },
+      "[\"dev\",\"raj\",5,\"choices\",1,\"text\"]": {
+        "source": "Fix the worst problems, review later",
+        "target": "Corrigir os casos mais graves e revisar o restante depois"
+      },
+      "[\"dev\",\"raj\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Firefighting mode. But we're understaffed.",
+        "target": "Resolvemos as urgências, mas ainda falta gente para acompanhar tudo."
+      },
+      "[\"dev\",\"raj\",5,\"choices\",2,\"text\"]": {
+        "source": "Just rely on users reporting problems",
+        "target": "Depender apenas dos relatos do público sobre problemas"
+      },
+      "[\"dev\",\"raj\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Users give real feedback. Learn fast.",
+        "target": "Os relatos mostram problemas reais. Podemos aprender com eles."
+      },
+      "[\"dev\",\"raj\",6,\"intro\"]": {
+        "source": "A UK bank wants to use our AI to test what would happen to their investments if things went wrong—like a stock market crash or interest rates spiking. They want their own staff to be able to set up these 'what if' tests themselves, rather than asking us every time.",
+        "target": "Um cliente empresarial quer avaliar como sua rotina reagiria a atrasos, falta de materiais ou aumento da demanda. Ele quer que a própria equipe prepare essas situações de comparação, em vez de pedir nossa ajuda a cada mudança."
+      },
+      "[\"dev\",\"raj\",6,\"aside\"]": {
+        "source": "If they can do it themselves, we get fewer support requests. But if we give them too much control, they might break something or get confusing results.",
+        "target": "Se a equipe do cliente consegue fazer essas comparações, depende menos do nosso atendimento. Mas liberdade sem orientação pode levar a interpretações confusas e novas dúvidas."
+      },
+      "[\"dev\",\"raj\",6,\"choices\",0,\"text\"]": {
+        "source": "Build a full 'what if' testing tool",
+        "target": "Preparar roteiros completos para comparar situações de trabalho"
+      },
+      "[\"dev\",\"raj\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Their risk team feels in control. Fewer emails for us.",
+        "target": "A equipe ganha autonomia para comparar situações e tende a pedir menos ajuda."
+      },
+      "[\"dev\",\"raj\",6,\"choices\",1,\"text\"]": {
+        "source": "Give them ready-made tests they can tweak",
+        "target": "Oferecer roteiros prontos com ajustes definidos"
+      },
+      "[\"dev\",\"raj\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Balance between flexibility and keeping things safe.",
+        "target": "Dá alguma flexibilidade e facilita a conferência das escolhas."
+      },
+      "[\"dev\",\"raj\",6,\"choices\",2,\"text\"]": {
+        "source": "Keep it so only we can set up tests",
+        "target": "Manter a preparação das comparações com nossa equipe"
+      },
+      "[\"dev\",\"raj\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Control quality. Ensure proper setup.",
+        "target": "Concentramos a preparação para acompanhar de perto sua qualidade."
+      },
+      "[\"dev\",\"raj\",7,\"intro\"]": {
+        "source": "Marketing agencies across the UK are interested in our creative tool, but they're asking for ready-made starting points—professional templates they can quickly customise for client pitches rather than starting from scratch every time.",
+        "target": "Negócios que montam propostas comerciais se interessaram pelos nossos materiais, mas querem exemplos iniciais prontos. Assim podem adaptar uma apresentação para cada cliente sem começar sempre de uma folha em branco."
+      },
+      "[\"dev\",\"raj\",7,\"aside\"]": {
+        "source": "Good templates make it easy for agencies to adopt us. They'll use us more often if getting started is quick and the results look professional.",
+        "target": "Bons exemplos facilitam o primeiro uso. Se começar der menos trabalho e o resultado ficar organizado, esses parceiros têm mais motivos para voltar."
+      },
+      "[\"dev\",\"raj\",7,\"choices\",0,\"text\"]": {
+        "source": "Design professional template packs",
+        "target": "Preparar coleções de exemplos profissionais de propostas"
+      },
+      "[\"dev\",\"raj\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Agencies use us for client pitches.",
+        "target": "Os parceiros passam a usar nossos materiais nas apresentações aos clientes."
+      },
+      "[\"dev\",\"raj\",7,\"choices\",1,\"text\"]": {
+        "source": "Let users share templates with each other",
+        "target": "Permitir o compartilhamento voluntário de exemplos entre interessados"
+      },
+      "[\"dev\",\"raj\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Community contributes. Quality varies.",
+        "target": "O grupo contribui, mas a qualidade dos exemplos varia."
+      },
+      "[\"dev\",\"raj\",7,\"choices\",2,\"text\"]": {
+        "source": "Let agencies create their own",
+        "target": "Deixar cada parceiro preparar seus próprios exemplos"
+      },
+      "[\"dev\",\"raj\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Ecosystem grows. Partners extend our reach.",
+        "target": "Os parceiros ampliam os usos dos materiais por conta própria."
+      },
+      "[\"dev\",\"raj\",8,\"intro\"]": {
+        "source": "Our product has a powerful API—the technical interface that lets developers build on our platform. A community member wants to write detailed tutorials explaining exactly how it works. Great for adoption, but it's also a roadmap for competitors to copy our approach.",
+        "target": "Nossa forma de organizar a colaboração permite que parceiros aproveitem melhor os materiais. Uma pessoa do grupo quer escrever um guia detalhado explicando como fazemos isso. Pode ajudar novos interessados, mas também mostrar nosso método aos concorrentes."
+      },
+      "[\"dev\",\"raj\",8,\"aside\"]": {
+        "source": "Good documentation attracts developers. But it also teaches competitors exactly how we built everything. The best documentation reveals your thinking, not just your code.",
+        "target": "Explicar bem facilita a participação de outras pessoas. Só que um guia detalhado também revela aos concorrentes as escolhas que fizemos para organizar o trabalho."
+      },
+      "[\"dev\",\"raj\",8,\"choices\",0,\"text\"]": {
+        "source": "Encourage it—openness builds ecosystem",
+        "target": "Incentivar o guia detalhado para ampliar a colaboração"
+      },
+      "[\"dev\",\"raj\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Developer love increases. So does competitive insight leakage.",
+        "target": "Mais gente se interessa. Os concorrentes também aprendem como trabalhamos."
+      },
+      "[\"dev\",\"raj\",8,\"choices\",1,\"text\"]": {
+        "source": "Provide official docs, discourage deep dives",
+        "target": "Publicar orientações próprias sem detalhar todo o método"
+      },
+      "[\"dev\",\"raj\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Controlled narrative. Some developers frustrated.",
+        "target": "Mantemos mais controle sobre a explicação, mas alguns interessados ficam insatisfeitos."
+      },
+      "[\"dev\",\"raj\",8,\"choices\",2,\"text\"]": {
+        "source": "Keep documentation minimal—our support is the product",
+        "target": "Manter poucas orientações e apostar no atendimento próximo"
+      },
+      "[\"dev\",\"raj\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Premium experience. Personal touch.",
+        "target": "A proximidade com nossa equipe vira parte importante da oferta."
+      },
+      "[\"dev\",\"raj\",9,\"intro\"]": {
+        "source": "A potential enterprise customer wants a detailed technical architecture review before signing. Their security team wants to understand exactly how we handle their data—encryption, storage, access controls, everything. It's reasonable for their compliance needs, but it's also a complete blueprint of our system.",
+        "target": "Um possível cliente empresarial quer conhecer nossa rotina antes de contratar: como organizamos registros de trabalho, quem confere cada etapa e quais responsabilidades cabem a cada lado. A explicação ajuda a negociar, mas também expõe boa parte do nosso modo de trabalhar."
+      },
+      "[\"dev\",\"raj\",9,\"aside\"]": {
+        "source": "Enterprise sales require transparency about security. But architecture documents are valuable intelligence. Some companies have 'borrowed' ideas during sales processes that never closed.",
+        "target": "Para fechar com um cliente maior, pode ser preciso mostrar mais detalhes da operação. O risco é abrir o método durante uma negociação que depois não avança. Um combinado de reserva não elimina esse risco."
+      },
+      "[\"dev\",\"raj\",9,\"choices\",0,\"text\"]": {
+        "source": "Full architecture disclosure under NDA",
+        "target": "Detalhar a rotina com um combinado voluntário de reserva"
+      },
+      "[\"dev\",\"raj\",9,\"choices\",0,\"reaction\"]": {
+        "source": "They trust us. If the deal dies, they know everything.",
+        "target": "A contratação avança e pode trazer receita. Se não fechar, eles já conhecem os detalhes."
+      },
+      "[\"dev\",\"raj\",9,\"choices\",1,\"text\"]": {
+        "source": "Third-party security audit instead",
+        "target": "Solicitar uma avaliação administrativa independente"
+      },
+      "[\"dev\",\"raj\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Independent verification. Costs money but protects our secrets.",
+        "target": "Receita negociada, com custo de avaliação e menos detalhes expostos diretamente ao cliente."
+      },
+      "[\"dev\",\"raj\",9,\"choices\",2,\"text\"]": {
+        "source": "High-level overview only",
+        "target": "Apresentar apenas uma visão geral da rotina"
+      },
+      "[\"dev\",\"raj\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Some enterprises walk away. Others accept it.",
+        "target": "Alguns clientes recusam; outros aceitam e trazem receita. A exposição fica limitada."
+      },
+      "[\"dev\",\"raj\",10,\"intro\"]": {
+        "source": "We've built an internal tool that makes our developers twice as productive. Other companies would pay good money for it. But selling it means explaining how it works, supporting it, and helping competitors become more productive too.",
+        "target": "Criamos um método interno que tornou o trabalho da equipe mais ágil. Outros negócios pagariam para aprender a usá-lo. Só que vender essa orientação exige explicar o método, acompanhar os clientes e ajudar concorrentes a trabalhar melhor também."
+      },
+      "[\"dev\",\"raj\",10,\"aside\"]": {
+        "source": "Internal tools can become products—TeamChat started as an internal chat tool. But there's a reason most companies keep their best tools secret.",
+        "target": "Uma melhoria da rotina pode virar uma oferta própria. Mas vale pensar no tempo de acompanhamento e no que deixamos de guardar para uso da nossa equipe."
+      },
+      "[\"dev\",\"raj\",10,\"choices\",0,\"text\"]": {
+        "source": "Productise and sell it",
+        "target": "Ofertar o método com acompanhamento remunerado"
+      },
+      "[\"dev\",\"raj\",10,\"choices\",0,\"reaction\"]": {
+        "source": "New revenue stream. Competitors also get faster. Worth the trade-off?",
+        "target": "Entra receita pela orientação. Os concorrentes também ficam mais ágeis. Vale a troca?"
+      },
+      "[\"dev\",\"raj\",10,\"choices\",1,\"text\"]": {
+        "source": "Open source it for community goodwill",
+        "target": "Compartilhar o método voluntariamente, sem cobrar"
+      },
+      "[\"dev\",\"raj\",10,\"choices\",1,\"reaction\"]": {
+        "source": "No revenue but massive developer love. Hiring becomes easier.",
+        "target": "Não entra receita por esse uso, mas cresce o interesse em colaborar e trabalhar conosco."
+      },
+      "[\"dev\",\"raj\",10,\"choices\",2,\"text\"]": {
+        "source": "Keep it internal—it's our secret weapon",
+        "target": "Manter o método apenas para uso interno"
+      },
+      "[\"dev\",\"raj\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Competitive advantage stays ours.",
+        "target": "A equipe mantém para si essa vantagem de organização."
+      },
+      "[\"dev\",\"raj\",11,\"intro\"]": {
+        "source": "We've been asked to write a guest post for a major tech blog explaining how we solved a difficult engineering problem. It would be great publicity and recruiting material. Our solution is genuinely clever—which is exactly why our product lead is worried about publishing it.",
+        "target": "Um boletim setorial fictício nos convidou a contar como resolvemos um problema difícil de organização do trabalho. A divulgação pode atrair clientes e pessoas interessadas em trabalhar conosco. Quem cuida da oferta receia expor um método que levou tempo para desenvolver."
+      },
+      "[\"dev\",\"raj\",11,\"aside\"]": {
+        "source": "Technical blog posts attract talent and establish credibility. They also educate competitors. The best companies share just enough to impress without giving away the recipe.",
+        "target": "Contar como trabalhamos pode dar visibilidade à equipe. Também ensina concorrentes. Precisamos decidir quanto explicar para despertar interesse sem abrir cada detalhe."
+      },
+      "[\"dev\",\"raj\",11,\"choices\",0,\"text\"]": {
+        "source": "Write a detailed technical deep-dive",
+        "target": "Descrever o método em detalhe no artigo"
+      },
+      "[\"dev\",\"raj\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Engineers love it. Competitors study it. We're seen as thought leaders.",
+        "target": "A equipe ganha visibilidade, e os concorrentes estudam o que contamos."
+      },
+      "[\"dev\",\"raj\",11,\"choices\",1,\"text\"]": {
+        "source": "Write about the problem, vague on the solution",
+        "target": "Explicar o problema com poucos detalhes da solução"
+      },
+      "[\"dev\",\"raj\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Shows we're smart without showing how. Some readers frustrated.",
+        "target": "Mostramos o desafio enfrentado, mas alguns leitores ficam sem a explicação que esperavam."
+      },
+      "[\"dev\",\"raj\",11,\"choices\",2,\"text\"]": {
+        "source": "Decline the opportunity",
+        "target": "Recusar o convite para o artigo"
+      },
+      "[\"dev\",\"raj\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Keep methods secret. Competitive edge preserved.",
+        "target": "O método continua interno e mantém parte da nossa vantagem."
+      },
+      "[\"dev\",\"raj\",12,\"intro\"]": {
+        "source": "Marketing wants us to add features that keep users on the app longer—notifications that pull them back, streaks that punish missing a day, design tricks that make it hard to leave. It would boost our engagement numbers, but some of these tactics feel manipulative.",
+        "target": "A divulgação quer estimular compras mais frequentes: lembretes insistentes, benefícios em sequência que pressionam quem interrompe e obstáculos para encerrar o atendimento. Isso pode aumentar a procura, mas me incomoda ganhar espaço dificultando a decisão do cliente."
+      },
+      "[\"dev\",\"raj\",12,\"aside\"]": {
+        "source": "The tech industry has perfected the art of grabbing attention. Some of these patterns are genuinely helpful; others exploit human psychology. The line isn't always clear.",
+        "target": "Um lembrete pode ajudar quem precisa. A insistência pode transformar essa ajuda em pressão. Na prática, temos de olhar para o que o cliente consegue escolher com liberdade."
+      },
+      "[\"dev\",\"raj\",12,\"choices\",0,\"text\"]": {
+        "source": "Reject manipulative patterns entirely",
+        "target": "Recusar as práticas que pressionam o cliente"
+      },
+      "[\"dev\",\"raj\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Engagement suffers. Conscience clear.",
+        "target": "A procura perde força, mas a equipe se sente melhor com a forma de atender."
+      },
+      "[\"dev\",\"raj\",12,\"choices\",1,\"text\"]": {
+        "source": "Use gentle nudges, not dark patterns",
+        "target": "Usar lembretes discretos, com saída fácil"
+      },
+      "[\"dev\",\"raj\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Encourage use without manipulation. Middle ground.",
+        "target": "Incentivamos novas compras sem dificultar a recusa. É um meio-termo."
+      },
+      "[\"dev\",\"raj\",12,\"choices\",2,\"text\"]": {
+        "source": "Use whatever works—competitors do",
+        "target": "Insistir como os concorrentes para aumentar a procura"
+      },
+      "[\"dev\",\"raj\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Everyone does this. We need the numbers.",
+        "target": "A procura cresce. Eu entendo a pressão pelos resultados, mas sigo incomodado com a insistência."
+      },
+      "[\"dev\",\"raj\",13,\"intro\"]": {
+        "source": "We collect a lot of user data because it helps us improve the product. But we're collecting more than we strictly need, and storing it indefinitely. A privacy-focused approach would collect less and delete it sooner, but we might lose insights that help us build better features.",
+        "target": "Os registros agregados de pedidos e dúvidas fictícios ajudam a melhorar a oferta. Só que estamos guardando mais detalhes do que precisamos, por tempo indeterminado. Reduzir esses registros e descartá-los mais cedo simplifica o cuidado com o material, mas perdemos informações que poderiam orientar melhorias."
+      },
+      "[\"dev\",\"raj\",13,\"aside\"]": {
+        "source": "Data is valuable, but it's also a liability. Every piece of data you store is data that could be breached, subpoenaed, or misused. Collecting less is often safer.",
+        "target": "Guardar tudo parece útil até a equipe precisar organizar e conferir esse material. Quanto mais detalhes ficam acumulados, mais trabalho temos para evitar confusão e uso fora do propósito."
+      },
+      "[\"dev\",\"raj\",13,\"choices\",0,\"text\"]": {
+        "source": "Collect minimum data, delete after 90 days",
+        "target": "Guardar o mínimo e descartar após noventa dias"
+      },
+      "[\"dev\",\"raj\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Privacy-first approach. We lose some insights.",
+        "target": "Reduzimos o acúmulo e o cuidado necessário. Algumas pistas para melhorar a oferta se perdem."
+      },
+      "[\"dev\",\"raj\",13,\"choices\",1,\"text\"]": {
+        "source": "Collect what we need, anonymise after a year",
+        "target": "Guardar o necessário e retirar detalhes após um ano"
+      },
+      "[\"dev\",\"raj\",13,\"choices\",1,\"reaction\"]": {
+        "source": "Balance between utility and privacy.",
+        "target": "Mantemos informações úteis por algum tempo e depois reduzimos os detalhes. É um equilíbrio que ainda exige cuidado."
+      },
+      "[\"dev\",\"raj\",13,\"choices\",2,\"text\"]": {
+        "source": "Collect everything—data is valuable",
+        "target": "Guardar tudo para estudar melhor a procura"
+      },
+      "[\"dev\",\"raj\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Maximum insight for product improvement.",
+        "target": "Temos mais informações para orientar melhorias, junto com o trabalho de cuidar de todo esse material."
+      },
+      "[\"dev\",\"raj\",14,\"intro\"]": {
+        "source": "User testing reveals our product is hard to use for people who aren't already familiar with similar tools—whether that's someone's first time using this kind of software, or someone who just processes information differently. Clearer labels, larger text, and simpler flows would help them, but our power users might find it cluttered.",
+        "target": "Na avaliação fictícia do atendimento, as orientações confundem quem está chegando ou entende as explicações de outra forma. Letras maiores, nomes mais claros e menos etapas podem ajudar. Os clientes habituais, porém, podem achar o novo material mais carregado."
+      },
+      "[\"dev\",\"raj\",14,\"aside\"]": {
+        "source": "Intuitive to who? What feels obvious to one person is confusing to another. Good design works for the widest range of people, but that takes more effort than designing for people like yourself.",
+        "target": "O que parece óbvio para mim pode ser difícil para outra pessoa. Atender públicos diferentes exige ouvir essas dificuldades e rever nossas explicações."
+      },
+      "[\"dev\",\"raj\",14,\"choices\",0,\"text\"]": {
+        "source": "Redesign for clarity and accessibility",
+        "target": "Rever o atendimento para ampliar a clareza e o acesso"
+      },
+      "[\"dev\",\"raj\",14,\"choices\",0,\"reaction\"]": {
+        "source": "More work. Helps more people. Often improves things for everyone.",
+        "target": "Dá mais trabalho. Mais pessoas conseguem acompanhar o atendimento, e a clareza também ajuda os clientes habituais."
+      },
+      "[\"dev\",\"raj\",14,\"choices\",1,\"text\"]": {
+        "source": "Offer a simplified mode alongside the full version",
+        "target": "Oferecer um roteiro resumido junto ao completo"
+      },
+      "[\"dev\",\"raj\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Two experiences to maintain. Serves different needs.",
+        "target": "Temos duas formas de orientar para manter e avaliar. Elas atendem necessidades diferentes."
+      },
+      "[\"dev\",\"raj\",14,\"choices\",2,\"text\"]": {
+        "source": "Keep optimising for our current users",
+        "target": "Manter o foco nos clientes habituais"
+      },
+      "[\"dev\",\"raj\",14,\"choices\",2,\"reaction\"]": {
+        "source": "They're happy. Potential users we never reach stay invisible.",
+        "target": "Eles seguem satisfeitos. Quem não consegue acompanhar continua de fora, e isso me incomoda."
+      },
+      "[\"dev\",\"raj\",15,\"intro\"]": {
+        "source": "Our app encourages frequent use in ways that might not be healthy. Some users are clearly spending too much time on it. We could add features that remind people to take breaks or limit daily use, but that would deliberately reduce engagement—the opposite of what we usually optimise for.",
+        "target": "Nossa divulgação estimula compras muito frequentes, às vezes além do que os clientes precisam. Podemos orientar o planejamento das compras e sugerir intervalos voluntários. Isso pode reduzir a procura imediata, justamente o resultado que costumamos tentar ampliar."
+      },
+      "[\"dev\",\"raj\",15,\"aside\"]": {
+        "source": "Tech companies rarely design for less usage. But some are starting to add wellbeing features. It's good for users and increasingly expected.",
+        "target": "Vender mais costuma orientar nossas decisões. Incentivar compras de acordo com a necessidade muda essa conversa e exige olhar além da próxima venda."
+      },
+      "[\"dev\",\"raj\",15,\"choices\",0,\"text\"]": {
+        "source": "Add meaningful wellbeing features",
+        "target": "Orientar o planejamento e os intervalos entre compras"
+      },
+      "[\"dev\",\"raj\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Help people use us healthily. Revolutionary concept.",
+        "target": "Ajudamos os clientes a pensar no que precisam e em quando voltar. A equipe valoriza esse cuidado."
+      },
+      "[\"dev\",\"raj\",15,\"choices\",1,\"text\"]": {
+        "source": "Add basic time reminders",
+        "target": "Incluir lembretes básicos para rever a necessidade de comprar"
+      },
+      "[\"dev\",\"raj\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Minimum gesture toward wellbeing.",
+        "target": "É um primeiro cuidado com o consumo, ainda limitado a lembretes."
+      },
+      "[\"dev\",\"raj\",15,\"choices\",2,\"text\"]": {
+        "source": "That's their responsibility, not ours",
+        "target": "Deixar essa decisão inteiramente com os clientes"
+      },
+      "[\"dev\",\"raj\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Adults can manage themselves. Our job is building good products.",
+        "target": "Continuamos focados em oferecer e vender. Eu ainda me incomodo em deixar todo o cuidado por conta de quem compra."
+      }
+    }
+  }
+}

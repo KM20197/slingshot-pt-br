@@ -1,5 +1,6 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),acorn=require('acorn'),walk=require('acorn-walk');
 const credit=require('../crisis-credit'),finance=require('../finance'),adapter=require('../finance-adapter'),save=require('../save-validation');
+const people=require('../people-contracts-runtime');
 const required=['showCrisisModal','resolveCrisis','checkForCrisis','saveGame','loadGame'],methods={};
 function extract(){
  for(const m of fs.readFileSync('index.html','utf8').matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){
@@ -11,7 +12,7 @@ extract();
 function setup(){
  let rendered='',ended=0,stored=null;
  const element={classList:{add(){},remove(){}},style:{}};
- const context=vm.createContext({SlingshotCrisisCredit:credit,SlingshotSave:save,SlingshotFinanceAdapter:adapter,SlingshotExport:{reset(){}},SlingshotContinuingCredit:{close(){}},COMPANIES:[{id:'clinic',name:'Clínica'}],LOGOS:{},localStorage:{setItem:(_,value)=>stored=value,getItem:()=>stored},document:{getElementById:id=>['preambleModal1','preambleModal2','companyDisplay','companyLogo'].includes(id)?element:null,body:{insertAdjacentHTML:(_,html)=>rendered=html}},getRegion:()=>({currency:'£'}),UIEffects:{showToast(){}},soundManager:{},console});
+ const context=vm.createContext({SlingshotCompanyDisplay:require('../company-display'),SlingshotCrisisCredit:credit,SlingshotSave:save,SlingshotOperations:require('../operations-runtime'),SlingshotFinanceAdapter:adapter,SlingshotExport:{reset(){}},SlingshotContinuingCredit:{close(){}},COMPANIES:[{id:'clinic',name:'Clínica'}],LOGOS:{},localStorage:{setItem:(_,value)=>stored=value,getItem:()=>stored},document:{getElementById:id=>['preambleModal1','preambleModal2','companyDisplay','companyLogo'].includes(id)?element:null,body:{insertAdjacentHTML:(_,html)=>rendered=html}},getRegion:()=>({currency:'£'}),UIEffects:{showToast(){}},soundManager:{},console});
  const g={turn:1,gameStarted:true,failureState:'runway_crisis',crisisLifelineUsed:false,brLoans:[],metrics:{cash:5,burn:100,equity:100,val:350},hiredStaff:[{id:1},{id:2}],completedMilestones:[],pivotHistory:[],journeyEvents:[],moods:{research:0},currentEvents:{research:[]},investorRelationship:3,
   company:{id:'clinic'},brCompletedQuarters:0,milestone:{id:'m1'},milestoneProgress:0,team:{},baseAP:6,maxAP:6,
   getDisplayedRunway(){return 0;},applyModeAP(){},ensureTokenSpend(){},renderTokenSpend(){},getStaffAPBonus(){return 0;},getTokenAPDelta(){return 0;},renderAPPips(){},selectQuarterEvents(){},
@@ -32,10 +33,18 @@ test('built crisis shows exact terms and contracts once without equity or invest
  const before=JSON.stringify(g);g.resolveCrisis('bridge');assert.equal(JSON.stringify(g),before);
  const cash=g.metrics.cash;adapter.settleQuarter(g,1);assert.equal(g.metrics.cash,cash);adapter.settleQuarter(g,2);assert.ok(g.metrics.cash<cash);
 });
+test('generated crisis modal derives emergency reduction availability from operational people and contracts',()=>{
+ const html=fs.readFileSync('index.html','utf8');const start=html.indexOf('  showCrisisModal() {'),end=html.indexOf('\n  }',start);const body=html.slice(start,end);
+ assert.match(body,/const operationalReduction = typeof SlingshotPeopleContracts[^\n]+&& this\.brBusiness/);assert.match(body,/SlingshotPeopleContracts\.canEmergencyReduce\(this\)/);assert.match(body,/operationalModel\.crew\.quarterlyCostEach/);
+});
 test('invalid crisis actions cannot consume the recovery opportunity',()=>{
  for(const choice of ['unknown','pivot','layoffs','decline']){
   const {g}=setup();g.hiredStaff=[];g.metrics.cash=0;const before=JSON.stringify(g);g.resolveCrisis(choice);assert.equal(JSON.stringify(g),before);
  }
+});
+test('old operational save without people state falls back to the legacy layoff eligibility',()=>{
+ const prior=globalThis.SlingshotPeopleContracts;globalThis.SlingshotPeopleContracts=people;
+ try{assert.equal(credit.canResolve({company:{id:'avam'},gameStarted:true,failureState:'runway_crisis',crisisLifelineUsed:false,brBusiness:null,hiredStaff:[{id:1}],brLoans:[]},'layoffs'),true);}finally{if(prior===undefined)delete globalThis.SlingshotPeopleContracts;else globalThis.SlingshotPeopleContracts=prior;}
 });
 test('changed or missing emergency quote fails before consuming recovery or changing state',()=>{
  const {g}=setup();let before=JSON.stringify(g);assert.throws(()=>g.resolveCrisis('bridge'));assert.equal(JSON.stringify(g),before);

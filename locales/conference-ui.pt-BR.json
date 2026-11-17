@@ -1,0 +1,845 @@
+{
+  "version": 1,
+  "methodPins": {
+    "showMiniGameIntro": "f4db616031101cac024bb8aa4034401ce11503edf815bed287a20b56f81c2b18",
+    "startConference": "614182163bd8b69bad77aad487fb0a44e35c4196ae19bf34531b48ba0554fe1a",
+    "confTick": "5ddbc7f6dc68bcb3aa02d754d0b9cd17f5a6484bc7b2528196f74c7a04ce55b9",
+    "confRivalAction": "d0582e826a3cf5f49e369560300978c86f0c30e80c6e0e3128c6e43975b7659a",
+    "confConvertDelegate": "c87a4b97eb76915bbb6e9400b34a372c0512e2f31f2433093bfac81a6f495532",
+    "confAction": "407d49aaef26bcf22d6dadef77a229853e6d2fc01c0ef006daad351ca05c4769",
+    "endConference": "647176f648300ef3d7f81c5317101a8d1cf15b4083a737f4355ac7bb67394871",
+    "applyConferenceRevenueBonus": "a3e21bc41e9fb240b398db4eda87a3c3dabcae906175e618f5f53de65903c6b1",
+    "generateConferenceDebrief": "d1dfe91cd0d3eb8d543e914217e5dfbfdc30a4e136b643955bea8a15892fa808",
+    "showLifeEvent": "b7f130d46a3629291a2c9f33e1476198d135d169756250f9e155f78ee508602b"
+  },
+  "methods": [
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "Conference Time!",
+      "target": "Encontro empresarial!",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "You're at an industry conference, sharing the floor with two rival booths. Draw delegates to your booth, spend your budget across five actions, and turn attention into leads.",
+      "target": "Você participa de um encontro empresarial fictício com dois estandes concorrentes. Atraia visitantes, distribua o orçamento entre cinco ações e transforme o interesse em contatos comerciais.",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "Click a delegate to draw them over, or press D for the nearest one",
+      "target": "Clique em um visitante para atraí-lo ou pressione D para o mais próximo.",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "Wave, swag, coffee, demo and talk each lift your buzz in their own way",
+      "target": "Acene, ofereça brindes e café, faça demonstrações ou uma palestra para aumentar o interesse.",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "Swag and coffee run down, and each reload needs a short pause",
+      "target": "Brindes e café acabam; a reposição exige uma breve pausa.",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "Wave too often and your arm tires, and a demo and a talk cannot share the stage",
+      "target": "Acenar muitas vezes cansa o braço. Demonstração e palestra não podem ocorrer ao mesmo tempo.",
+      "count": 1
+    },
+    {
+      "method": "showMiniGameIntro",
+      "kind": "Literal",
+      "source": "💰 Cash Leads • 📈 Marketing Boost • 🌟 Brand Awareness",
+      "target": "💰 Caixa • 📈 Vendas e Marketing • 🌟 Visibilidade",
+      "count": 1
+    },
+    {
+      "method": "startConference",
+      "kind": "Literal",
+      "source": "FREE",
+      "target": "GRÁTIS",
+      "count": 1
+    },
+    {
+      "method": "startConference",
+      "kind": "Literal",
+      "source": "DEMO READY",
+      "target": "PRONTA",
+      "count": 1
+    },
+    {
+      "method": "startConference",
+      "kind": "TemplateElement",
+      "source": "£<span class=\"swag-cost\">",
+      "target": "R$ <span class=\"swag-cost\">",
+      "count": 1
+    },
+    {
+      "method": "startConference",
+      "kind": "TemplateElement",
+      "source": "£<span class=\"coffee-cost\">",
+      "target": "R$ <span class=\"coffee-cost\">",
+      "count": 1
+    },
+    {
+      "method": "startConference",
+      "kind": "TemplateElement",
+      "source": "£",
+      "target": "R$ ",
+      "count": 1
+    },
+    {
+      "method": "confTick",
+      "kind": "Literal",
+      "source": "FREE",
+      "target": "GRÁTIS",
+      "count": 1
+    },
+    {
+      "method": "confTick",
+      "kind": "Literal",
+      "source": "DEMO READY",
+      "target": "PRONTA",
+      "count": 1
+    },
+    {
+      "method": "confTick",
+      "kind": "TemplateElement",
+      "source": "£<span class=\"swag-cost\">",
+      "target": "R$ <span class=\"swag-cost\">",
+      "count": 1
+    },
+    {
+      "method": "confTick",
+      "kind": "TemplateElement",
+      "source": "£<span class=\"coffee-cost\">",
+      "target": "R$ <span class=\"coffee-cost\">",
+      "count": 1
+    },
+    {
+      "method": "confRivalAction",
+      "kind": "Literal",
+      "source": "LIVE",
+      "target": "ATIVA",
+      "count": 1
+    },
+    {
+      "method": "confRivalAction",
+      "kind": "Literal",
+      "source": "DEMO",
+      "target": "DEMONSTR.",
+      "count": 1
+    },
+    {
+      "method": "confConvertDelegate",
+      "kind": "Literal",
+      "source": "SPY −2",
+      "target": "ESPIÃO −2",
+      "count": 1
+    },
+    {
+      "method": "confConvertDelegate",
+      "kind": "TemplateElement",
+      "source": "+1 LEAD ★",
+      "target": "+1 CONTATO ★",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "You have a sore arm now",
+      "target": "Seu braço precisa de uma pausa",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "SORE ARM",
+      "target": "PAUSA",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "SWAG OUT",
+      "target": "SEM BRINDES",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "Swag resupply run",
+      "target": "Reposição de brindes",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "COFFEE ROUND",
+      "target": "CAFÉ",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "Pot's empty — brewing",
+      "target": "Café acabou; preparando mais",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "LIVE",
+      "target": "ATIVA",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "DEMO LIVE",
+      "target": "DEMONSTRAÇÃO ATIVA",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "Literal",
+      "source": "KEYNOTE",
+      "target": "PALESTRA",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "TemplateElement",
+      "source": "<span style=\"color:#f87171\">RESUPPLY RUN</span>",
+      "target": "<span style=\"color:#f87171\">REPOSIÇÃO</span>",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "TemplateElement",
+      "source": "<span style=\"color:#f87171\">BREWING</span>",
+      "target": "<span style=\"color:#f87171\">PREPARANDO</span>",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "TemplateElement",
+      "source": "Tannoy: main stage now — ",
+      "target": "Aviso: no palco principal — ",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "TemplateElement",
+      "source": " keynote.",
+      "target": " apresenta a palestra.",
+      "count": 1
+    },
+    {
+      "method": "confAction",
+      "kind": "TemplateElement",
+      "source": "£",
+      "target": "R$ ",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Quiet Show",
+      "target": "Encontro tranquilo",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Decent Showing",
+      "target": "Participação consistente",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Great Booth!",
+      "target": "Estande movimentado",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Hit of the Show!",
+      "target": "Destaque do encontro",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Legendary Performance!",
+      "target": "Grande alcance",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Not many people stopped by, but you made some connections.",
+      "target": "Poucas pessoas visitaram o estande, mas você fez alguns contatos.",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Good engagement! Your booth attracted solid interest.",
+      "target": "Seu estande atraiu visitantes interessados.",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Fantastic! People were queuing to see your demo.",
+      "target": "Houve fila para acompanhar sua demonstração.",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "Literal",
+      "source": "Incredible! You were the talk of the conference!",
+      "target": "Seu estande foi um dos assuntos do encontro.",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "Conference: ",
+      "target": "Encontro empresarial: ",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": " leads)",
+      "target": " contatos)",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": " Sales",
+      "target": " Vendas e Marketing",
+      "count": 2
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": " Research",
+      "target": " Operações e Qualidade",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "+£",
+      "target": "+R$ ",
+      "count": 2
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "k Cash",
+      "target": " mil de caixa",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "k Valuation",
+      "target": " mil de valor do negócio",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "📍 Attended conference: ",
+      "target": "📍 Encontro empresarial: ",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": " leads, +",
+      "target": " contatos, +",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": " pipeline",
+      "target": " oportunidades em acompanhamento",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "\n      <div class=\"flex justify-between mb-1\"><span>Leads Generated:</span><span class=\"font-bold\">",
+      "target": "\n      <div class=\"flex justify-between mb-1\"><span>Contatos gerados:</span><span class=\"font-bold\">",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "</span></div>\n      <div class=\"flex justify-between mb-1\"><span>Lead Quality:</span><span class=\"font-bold\">⭐",
+      "target": "</span></div>\n      <div class=\"flex justify-between mb-1\"><span>Qualidade dos contatos:</span><span class=\"font-bold\">⭐",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "</span></div>\n      <div class=\"flex justify-between\"><span>Budget Spent:</span><span class=\"font-bold\">£",
+      "target": "</span></div>\n      <div class=\"flex justify-between\"><span>Orçamento gasto:</span><span class=\"font-bold\">R$ ",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "<div class=\"flex justify-between text-emerald-600\"><span>Pipeline Leads:</span><span class=\"font-bold\">+",
+      "target": "<div class=\"flex justify-between text-emerald-600\"><span>Oportunidades em acompanhamento:</span><span class=\"font-bold\">+",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "<span class=\"lead-chip\" style=\"background:#fef2f2;border-color:#fecaca;color:#b91c1c\"><span class=\"dot\" style=\"background:#ef4444\"></span>Spy −2</span>",
+      "target": "<span class=\"lead-chip\" style=\"background:#fef2f2;border-color:#fecaca;color:#b91c1c\"><span class=\"dot\" style=\"background:#ef4444\"></span>Espião −2</span>",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "<span class=\"text-xs text-slate-400\">Nobody made it to a handshake this time.</span>",
+      "target": "<span class=\"text-xs text-slate-400\">Nenhum contato foi concluído desta vez.</span>",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "<div class=\"font-bold mb-1\">Rewards:</div>",
+      "target": "<div class=\"font-bold mb-1\">Resultados:</div>",
+      "count": 1
+    },
+    {
+      "method": "endConference",
+      "kind": "TemplateElement",
+      "source": "<div class=\"text-slate-500\">No significant rewards this time.</div>",
+      "target": "<div class=\"text-slate-500\">Sem ganhos relevantes desta vez.</div>",
+      "count": 1
+    },
+    {
+      "method": "applyConferenceRevenueBonus",
+      "kind": "TemplateElement",
+      "source": "Conference Lead ",
+      "target": "Contato do encontro ",
+      "count": 1
+    },
+    {
+      "method": "applyConferenceRevenueBonus",
+      "kind": "Literal",
+      "source": "Hot Conference Lead",
+      "target": "Contato com alto interesse no encontro",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "You spent ",
+      "target": "Você gastou ",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "% of budget on swag. Swag attracts attention but demos convert better.",
+      "target": "% do orçamento em brindes. Nesta atividade, eles atraem atenção; demonstrações podem gerar contatos.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Coffee runs were popular (",
+      "target": "O café recebeu ",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "% of spend). Good for engagement, expensive per lead.",
+      "target": "% dos gastos. Ajuda a envolver visitantes, mas pode aumentar o custo por contato.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Most leads (",
+      "target": "A maioria dos contatos (",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": ") came from engaged visitors—demos and talks work!",
+      "target": ") veio de visitantes envolvidos por demonstrações e palestras.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "No demos run. Demos are expensive but convert curious visitors into leads.",
+      "target": "Nenhuma demonstração foi realizada. Nesta atividade, ela custa recursos e pode gerar contatos.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Your keynote talk drew a crowd. High-cost, high-impact strategy paid off.",
+      "target": "A palestra atraiu visitantes. A ação tem custo elevado e ampliou o alcance nesta atividade.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "You didn't use the keynote talk. It's expensive but can flood your booth with visitors.",
+      "target": "Você não fez a palestra. Ela custa recursos, mas pode atrair visitantes ao estande.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Lots of waving (",
+      "target": "Você acenou muitas vezes (",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "x) but few leads. Waving is free but only works on nearby visitors.",
+      "target": "x), mas gerou poucos contatos. Acenar é gratuito e funciona apenas com visitantes próximos.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Cost per lead was £",
+      "target": "O custo por contato foi R$ ",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": ". Mix free actions (waves) with paid actions for better ROI.",
+      "target": ". Combine acenos gratuitos com ações pagas para aproveitar o orçamento.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Excellent efficiency! £",
+      "target": "Custo controlado: R$ ",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": " per lead is well below industry average.",
+      "target": " por contato ficou abaixo do limite de referência desta atividade fictícia.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Free leads from waves only! Great ROI, but you missed conversion opportunities.",
+      "target": "Você gerou contatos apenas com acenos gratuitos. As ações pagas também podem ampliar os resultados.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Strong performance! You balanced attention-grabbing with conversion tactics.",
+      "target": "Você combinou atração de visitantes e geração de contatos.",
+      "count": 1
+    },
+    {
+      "method": "generateConferenceDebrief",
+      "kind": "TemplateElement",
+      "source": "Try mixing free waves with targeted demos to maximise lead quality.",
+      "target": "Combine acenos gratuitos com demonstrações para visitantes interessados.",
+      "count": 1
+    }
+  ],
+  "dom": [
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "You're attending",
+      "target": "Você participa de",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "TechSummit Disrupt London",
+      "target": "Encontro empresarial fictício",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "remaining",
+      "target": "restantes",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "£",
+      "target": "R$",
+      "count": 5
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Budget",
+      "target": "Orçamento",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "£2,000",
+      "target": "R$ 2.000",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Leads",
+      "target": "Contatos",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Quality",
+      "target": "Qualidade",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Your buzz",
+      "target": "Seu interesse",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Rivals",
+      "target": "Concorrentes",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "WELCOME",
+      "target": "BEM-VINDOS",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "NEXAGEN AI",
+      "target": "CONCORRENTE A",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "DEMO",
+      "target": "DEMONSTR.",
+      "count": 2
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "SYNTHEX LABS",
+      "target": "CONCORRENTE B",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "PREMIUM PARTNER",
+      "target": "PARCEIRO",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "AETHER BIOLABS",
+      "target": "SEU NEGÓCIO",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "STAND A42",
+      "target": "ESTANDE A42",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "DEMO READY",
+      "target": "PRONTA",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Wave",
+      "target": "Acenar",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "FREE",
+      "target": "GRÁTIS",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Swag",
+      "target": "Brindes",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Coffee",
+      "target": "Café",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Demo",
+      "target": "Demonstrar",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Talk",
+      "target": "Palestra",
+      "count": 1
+    },
+    {
+      "scope": "conferenceModal",
+      "kind": "text",
+      "source": "Click delegates to engage them — use actions to build buzz.",
+      "target": "Clique nos visitantes e use as ações para aumentar o interesse.",
+      "count": 1
+    },
+    {
+      "scope": "conferenceResultsModal",
+      "kind": "text",
+      "source": "Great Show!",
+      "target": "Encontro empresarial",
+      "count": 1
+    },
+    {
+      "scope": "conferenceResultsModal",
+      "kind": "text",
+      "source": "Leads won",
+      "target": "Contatos obtidos",
+      "count": 1
+    },
+    {
+      "scope": "conferenceResultsModal",
+      "kind": "text",
+      "source": "Debrief Insights",
+      "target": "Análise dos resultados",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "Mini-Game Time!",
+      "target": "Atividade interativa",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "Get ready for an interactive challenge!",
+      "target": "Prepare-se para uma atividade interativa.",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "Quick Tips",
+      "target": "Orientações rápidas",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "• Tip 1",
+      "target": "• Dica 1",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "• Tip 2",
+      "target": "• Dica 2",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "Potential Rewards",
+      "target": "Resultados possíveis",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "💰 Cash • 📈 Stats • 🌟 Prestige",
+      "target": "💰 Caixa • 📈 Indicadores • 🌟 Visibilidade",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "🚀 Let's Go!",
+      "target": "🚀 Começar",
+      "count": 1
+    },
+    {
+      "scope": "minigameIntroModal",
+      "kind": "text",
+      "source": "Skip ⏭",
+      "target": "Pular ⏭",
+      "count": 1
+    }
+  ]
+}

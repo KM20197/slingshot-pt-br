@@ -1,0 +1,14 @@
+{
+  "voed": {"retailInsights": "Insights de varejo", "publicSector": "Programas municipais de resíduos", "commerce": "Comércio de supermercados"},
+  "arene": {"broadcastFan": "Dados para transmissão e torcedores", "grassroots": "Base e saúde de jogadores", "integrity": "Dados de integridade e apostas"},
+  "sorgente": {"employer": "Bem-estar para empregadores", "clinical": "Percurso clínico baseado em evidências", "focus": "Uma dificuldade, bem resolvida"},
+  "avam": {"vertical": "Produto vertical no dispositivo", "assurance": "Avaliação e garantia", "speech": "Fala para vozes do Reino Unido"},
+  "cyber": {"enterprise": "Segurança corporativa", "channel": "Modelo de canais/MSP", "government": "Governo e defesa"},
+  "aether": {"pharma": "Parcerias farmacêuticas", "private": "Saúde privada", "diagnostics": "Plataforma de diagnóstico"},
+  "quant": {"banks": "Bancos de investimento", "asset_managers": "Gestoras de ativos", "data_provider": "Provedor de dados e análises"},
+  "dream": {"enterprise_creative": "Criatividade corporativa", "gaming": "Estúdios de jogos", "platform": "Plataforma/API"},
+  "vanguard": {"manufacturing": "Manufatura", "last_mile": "Entrega de última milha", "software_platform": "Plataforma de software"},
+  "terra": {"climate_risk": "Análises de risco climático", "carbon_markets": "Mercados de carbono", "government_climate": "Governo e políticas"},
+  "legal": {"inhouse": "Jurídico interno", "compliance": "Conformidade e RegTech", "litigation": "Apoio a contencioso"},
+  "edu": {"tutoring": "Tutoria e consumidor", "corporate_training": "Treinamento e desenvolvimento corporativo", "assessment": "Avaliação e certificação"}
+}

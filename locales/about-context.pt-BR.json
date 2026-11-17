@@ -1,0 +1,269 @@
+{
+  "modalId": "aboutModal",
+  "translations": [
+    {
+      "source": "🎯 Purpose",
+      "target": "🎯 Finalidade e aprendizagem"
+    },
+    {
+      "source": "is an educational simulation designed to teach students and professionals about the dynamics of building an AI startup. Through experiential learning, players explore the strategic decisions, trade-offs, and uncertainties that founders face—from choosing a venture type and funding model, to building teams, achieving milestones, and competing with rivals.",
+      "target": "é uma simulação educacional de gestão de empreendimentos brasileiros, em desenvolvimento. Escolha um negócio, organize a equipe, acompanhe a operação e as vendas, gerencie o caixa e avance pelas metas. As decisões permitem comparar custos, resultados e obrigações ao longo dos trimestres, no contexto do ensino de engenharia, administração, computação e saúde."
+    },
+    {
+      "source": "The simulation builds directly on our research into the UK AI startup ecosystem. The events and decisions in the game are designed to surface the real choices AI startups make about",
+      "target": "Nesta edição, as situações de aprendizagem abordam decisões sobre"
+    },
+    {
+      "source": "developing research capabilities",
+      "target": "recursos e custos da operação"
+    },
+    {
+      "source": "working with the science base",
+      "target": "organização e capacidade da equipe"
+    },
+    {
+      "source": "—reflecting how startups engage with universities, leverage academic knowledge, and balance scientific exploration with commercial pressures.",
+      "target": " — compare alternativas, acompanhe o caixa e considere os efeitos das decisões sobre as metas e a continuidade do empreendimento."
+    },
+    {
+      "source": "This simulation was developed as part of the ESRC-funded research project:",
+      "target": "Créditos de origem: o projeto de pesquisa associado à criação da simulação original recebeu financiamento do ESRC e é identificado abaixo:"
+    },
+    {
+      "source": "Grant Reference:",
+      "target": "Referência histórica da pesquisa:"
+    },
+    {
+      "source": "The project examines how AI startups in the UK develop, create value, and engage with academic research. By studying real AI ventures—their origins, strategies, team compositions, and funding trajectories—we aim to understand what drives success and failure in this rapidly evolving sector.",
+      "target": "O título e a referência apresentados neste bloco identificam a pesquisa associada ao projeto original. São créditos de origem; não descrevem os empreendimentos, as regras de financiamento ou a disponibilidade de programas na edição brasileira."
+    },
+    {
+      "source": "The simulation also reflects our team's extensive work on",
+      "target": "Nos créditos de origem, a equipe do projeto original também relaciona sua pesquisa ao"
+    },
+    {
+      "source": "research grants and innovation funding",
+      "target": "apoio à pesquisa e à inovação"
+    },
+    {
+      "source": ", including research on programmes like",
+      "target": ", com referências históricas a programas britânicos como"
+    },
+    {
+      "source": ". The grant funding mechanics in the game draw on real patterns in how startups pursue and benefit from public R&D support.",
+      "target": ". Essas referências identificam a origem do projeto. O financiamento didático da edição brasileira segue as modalidades e condições próprias aprovadas para esta simulação; não se presume acesso a programas reais pelo nome de um empreendimento."
+    },
+    {
+      "source": "👥 Credits",
+      "target": "👥 Créditos do projeto original"
+    },
+    {
+      "source": "The Slingshot was designed by Ammon Salter (Warwick Business School), who built it with AI models, mainly Claude, and maintains it. He set the design, dictated the content and the educator materials and tested every build; the models wrote the code to his instructions. No studio or programmer was involved. Nothing in the game itself is generated while you play: every event, character and line of text was written in advance and checked and approved by him, so players only ever meet material that has been reviewed. Ada and Schumpeter, the two companions, are different. They run on Claude, on the player's own account, and were written to keep them from drifting; Claude was chosen for its stronger safety guardrails. Even so, a language model can make mistakes and say things that are wrong or inappropriate. The game came out of the ESRC-funded project Profiting from Science (ES/X003949/1), on which Stefano Baruffaldi (Politecnico di Milano) is co-investigator and Federico Bignone (Warwick Business School) is research fellow. Federico Bignone shaped the game's mechanics and systems and playtested every version, and his research on AI ventures and Innovate UK funding informed the game's treatment of the science base and grant funding. Cite it as Salter, Baruffaldi and Bignone (2026).",
+      "target": "Os créditos da versão original informam que The Slingshot foi concebido por Ammon Salter (Warwick Business School), que o construiu com modelos de IA, principalmente Claude, e é responsável por sua manutenção. Ele definiu o projeto, ditou o conteúdo e os materiais para educadores e testou cada build; os modelos escreveram o código conforme suas instruções. Segundo esses créditos, não houve participação de estúdio ou programador, e o conteúdo do jogo original não é gerado durante a partida: cada evento, personagem e texto foi escrito previamente, conferido e aprovado por ele. A mesma descrição distingue Ada e Schumpeter, os dois acompanhantes: eles funcionam com Claude na conta do próprio jogador e foram elaborados para reduzir desvios; a escolha de Claude é atribuída pelos autores a suas proteções de segurança. Mesmo assim, um modelo de linguagem pode cometer erros ou produzir afirmações incorretas ou inadequadas. O jogo original surgiu do projeto Profiting from Science, financiado pelo ESRC (ES/X003949/1), no qual Stefano Baruffaldi (Politecnico di Milano) é apresentado como copesquisador e Federico Bignone (Warwick Business School) como pesquisador. Os créditos atribuem a Federico Bignone a elaboração das mecânicas e dos sistemas e o teste de cada versão; suas pesquisas sobre empreendimentos de IA e financiamento Innovate UK contribuíram para o tratamento da base científica e do fomento no jogo original. A citação indicada para o projeto original é Salter, Baruffaldi and Bignone (2026)."
+    },
+    {
+      "source": "Creator and maintainer",
+      "target": "Criação e manutenção do projeto original"
+    },
+    {
+      "source": "Professor of Technology and Innovation Management with research interests in innovation, university-industry collaboration, and entrepreneurship. Designed, directed and maintains the simulation. Member of the",
+      "target": "Na apresentação original: professor de Gestão de Tecnologia e Inovação, com interesses de pesquisa em inovação, colaboração entre universidades e empresas e empreendedorismo. Concebeu, dirigiu e mantém a simulação original. Apresentado como membro do"
+    },
+    {
+      "source": "Co-Investigator, ESRC project Profiting from Science",
+      "target": "Copesquisador do projeto ESRC Profiting from Science (crédito da versão original)"
+    },
+    {
+      "source": "Associate Professor specialising in the economics of science and technology, with expertise in AI startups, academic entrepreneurship, and the commercialisation of research.",
+      "target": "Na apresentação original: professor associado especializado em economia da ciência e da tecnologia, com experiência em startups de IA, empreendedorismo acadêmico e comercialização da pesquisa."
+    },
+    {
+      "source": "Research Fellow, ESRC project Profiting from Science",
+      "target": "Pesquisador do projeto ESRC Profiting from Science (crédito da versão original)"
+    },
+    {
+      "source": "Research Fellow focused on corporate science and innovation, studying how firms engage with research, build scientific capabilities, and translate knowledge into commercial value. Shaped the game's mechanics and systems and playtested every version.",
+      "target": "Na apresentação original: pesquisador dedicado à ciência nas empresas e à inovação, que estuda como empresas se relacionam com a pesquisa, desenvolvem capacidades científicas e transformam conhecimento em valor comercial. Os créditos lhe atribuem a elaboração das mecânicas e dos sistemas do jogo original e o teste de cada versão."
+    },
+    {
+      "source": "🤖 Code Written by AI",
+      "target": "🤖 Desenvolvimento do projeto original"
+    },
+    {
+      "source": "In keeping with the theme of AI innovation, the game was built in a close interaction between Ammon Salter and AI models; no programmer was involved. Claude (Anthropic) wrote most of the code and drafted most of the content and the educator materials to Ammon Salter's dictation and direction. OpenAI Codex built the mini-games; GPT-5.5 (OpenAI) and Gemini (Google) helped with debugging and some content; an early prototype was made in Gemini Canvas. The entire game is contained in a single HTML file, built in iterative collaboration with:",
+      "target": "A apresentação do The Slingshot original relata sua criação em colaboração entre Ammon Salter e modelos de IA, sem participação de programador humano. Claude (Anthropic) escreveu a maior parte do código e preparou grande parte do conteúdo e dos materiais para educadores sob a orientação de Ammon Salter. OpenAI Codex desenvolveu os minijogos; GPT-5.5 (OpenAI) e Gemini (Google) contribuíram com depuração e parte do conteúdo; um protótipo inicial foi criado no Gemini Canvas. Segundo essa apresentação, o jogo original foi distribuído em um único arquivo HTML. Os modelos abaixo são créditos históricos do projeto original:"
+    },
+    {
+      "source": "OpenAI Codex and GPT-5.5 (OpenAI)",
+      "target": "OpenAI Codex e GPT-5.5 (OpenAI)"
+    },
+    {
+      "source": "✨ Free & Open",
+      "target": "✨ Recursos, uso e referências"
+    },
+    {
+      "source": "🎮 Play Online Now",
+      "target": "🎮 Acesso ao projeto original"
+    },
+    {
+      "source": "A ready-to-play version is hosted on GitHub — no download required",
+      "target": "O link abaixo aponta para o The Slingshot original no GitHub. A edição brasileira permanece em desenvolvimento."
+    },
+    {
+      "source": "Completely Free",
+      "target": "Gratuidade informada no original"
+    },
+    {
+      "source": "No subscriptions, no paywalls, no hidden costs",
+      "target": "A apresentação original descreve o jogo como gratuito, sem assinaturas ou barreiras de pagamento; isso não informa as condições atuais de serviços externos."
+    },
+    {
+      "source": "No Data Capture",
+      "target": "Dados locais e privacidade"
+    },
+    {
+      "source": "We don't collect, store, or track your personal information",
+      "target": "Esta edição brasileira não cria contas nem envia identificação, escolhas ou resultados dos participantes ao Supabase; o envio de eventos de uso do original foi desativado. A partida pode ser salva no navegador. Na exportação do resultado, você informa matrícula ou e-mail apenas para identificar o arquivo local que decide entregar ao professor. Links externos têm políticas próprias."
+    },
+    {
+      "source": "Fully Adaptable",
+      "target": "Uso pedagógico adaptável"
+    },
+    {
+      "source": "Modify and build upon for your own educational needs",
+      "target": "Adapte o uso desta simulação às necessidades de ensino, preservando a origem, os créditos e as referências do projeto original."
+    },
+    {
+      "source": "Accessibility",
+      "target": "Acessibilidade: declaração do original"
+    },
+    {
+      "source": "The Slingshot is built to meet WCAG 2.2 level AA. Every screen and every control can be worked from the keyboard, and the game has been played through start to finish by keyboard alone and listened to with a screen reader. The exception is the embedded video player, which belongs to a third party and whose code we cannot edit. The video is captioned and carries a full transcript and a description of what it shows, so nothing in it is lost. A full account of what has and has not been tested is in ACCESSIBILITY.md in the repository.",
+      "target": "A apresentação do The Slingshot original informa que ele foi concebido para atender às WCAG 2.2, nível AA, com uso por teclado e testes de uma partida completa com teclado e leitor de tela. Ela aponta o player de vídeo de terceiros como exceção, pois seu código não é editado pela equipe original, e informa que o vídeo tem legendas, transcrição completa e descrição visual. Para detalhar os testes e seus limites, essa apresentação remete a ACCESSIBILITY.md no repositório original. A validação completa de acessibilidade da edição brasileira ainda está pendente."
+    },
+    {
+      "source": "Research-grounded",
+      "target": "Aprendizagem em gestão"
+    },
+    {
+      "source": "— content based on real AI startup patterns, not speculation",
+      "target": "— analise operação, vendas, equipe, caixa e obrigações do empreendimento brasileiro configurado na partida"
+    },
+    {
+      "source": "Fully customisable",
+      "target": "Personalização pedagógica"
+    },
+    {
+      "source": "— modify the HTML to suit your curriculum needs",
+      "target": "— adapte o uso pedagógico da simulação às necessidades do currículo, preservando a origem e os créditos"
+    },
+    {
+      "source": "Self-paced",
+      "target": "Atividade no seu ritmo"
+    },
+    {
+      "source": "— play at your own speed, pause anytime, no login required",
+      "target": "— organize a atividade conforme as necessidades de aprendizagem. A partida não exige conta de usuário; matrícula ou e-mail são solicitados somente na exportação opcional do arquivo local para o professor"
+    },
+    {
+      "source": "🔊 Sound Effects",
+      "target": "🔊 Créditos de áudio do projeto original"
+    },
+    {
+      "source": "Milestone celebration sounds courtesy of the BBC, used for educational purposes under the",
+      "target": "Os créditos do projeto original atribuem os sons de celebração dos marcos à BBC e informam uso educacional sob a"
+    },
+    {
+      "source": ":\n          GPO telephone, AEC Routemaster bus, Concorde (passenger cabin and exterior), and jet aircraft take-off.",
+      "target": ": telefone GPO, ônibus AEC Routemaster, Concorde (cabine de passageiros e exterior) e decolagem de avião a jato. Esta é a referência de licença indicada nos créditos originais."
+    },
+    {
+      "source": "🎨 Artwork",
+      "target": "🎨 Ilustrações do projeto original"
+    },
+    {
+      "source": "Milestone celebration illustrations — the red telephone box, AEC Routemaster bus, and Concorde — were created with Google Gemini, based on reference photographs of these iconic British designs.",
+      "target": "Nos créditos do projeto original, as ilustrações de celebração dos marcos — a cabine telefônica vermelha, o ônibus AEC Routemaster e o Concorde — são atribuídas ao Google Gemini e descritas como baseadas em fotografias de referência desses elementos britânicos."
+    },
+    {
+      "source": "For Teachers & Educators",
+      "target": "Para docentes"
+    },
+    {
+      "source": "No setup required",
+      "target": "Preparação da atividade"
+    },
+    {
+      "source": "— runs in any browser, no software installation or accounts needed",
+      "target": "— confira a edição e os recursos necessários à atividade antes de utilizá-la em turma"
+    },
+    {
+      "source": "Works offline",
+      "target": "Uso online e offline"
+    },
+    {
+      "source": "— download and use without internet access",
+      "target": "— a validação de partidas completas online e offline ainda é necessária antes da aplicação em turma"
+    },
+    {
+      "source": "Flexible timing",
+      "target": "Planejamento do tempo"
+    },
+    {
+      "source": "— suitable for 1-hour workshops or multi-week modules",
+      "target": "— organize etapas e discussões conforme a duração da atividade e os objetivos da disciplina"
+    },
+    {
+      "source": "Discussion-ready",
+      "target": "Discussão das decisões"
+    },
+    {
+      "source": "— generates rich decision scenarios for classroom debate",
+      "target": "— compare efeitos das decisões sobre operação, vendas, equipe, caixa e obrigações do empreendimento"
+    },
+    {
+      "source": "For Students & Learners",
+      "target": "Para estudantes"
+    },
+    {
+      "source": "Learn by doing",
+      "target": "Aprender pela prática"
+    },
+    {
+      "source": "— experience startup decisions rather than just reading about them",
+      "target": "— analise escolhas de gestão do empreendimento brasileiro e acompanhe os resultados na simulação"
+    },
+    {
+      "source": "Safe to fail",
+      "target": "Experimentação em simulação"
+    },
+    {
+      "source": "— experiment with risky strategies without real consequences",
+      "target": "— examine riscos e resultados didáticos; os cenários não são recomendações para decisões financeiras reais"
+    },
+    {
+      "source": "Immediate feedback",
+      "target": "Acompanhamento dos resultados"
+    },
+    {
+      "source": "— see how decisions affect valuation, runway, and team dynamics",
+      "target": "— observe caixa, custos, equipe e progresso nas metas para analisar as consequências das escolhas"
+    },
+    {
+      "source": "Replay and compare",
+      "target": "Comparação de estratégias"
+    },
+    {
+      "source": "— try different strategies and compare outcomes",
+      "target": "— discuta alternativas e compare resultados em atividades planejadas pelo docente"
+    },
+    {
+      "source": "Realistic complexity",
+      "target": "Decisões com restrições"
+    },
+    {
+      "source": "— face trade-offs between growth, equity, and team morale",
+      "target": "— considere demanda, operação, pessoas, despesas e obrigações ao escolher prioridades"
+    }
+  ]
+}

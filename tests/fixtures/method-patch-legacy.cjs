@@ -1,0 +1,20 @@
+const acorn=require('acorn'),walk=require('acorn-walk');
+function replaceMethod(html,name,body){
+ const matches=[];
+ for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)){
+  if(/\bsrc\s*=/.test(m[1])||/application\/ld\+json/.test(m[1]))continue;
+  const offset=m.index+m[0].indexOf('>')+1;
+  walk.ancestor(acorn.parse(m[2],{ecmaVersion:'latest'}),{MethodDefinition(n,ancestors){
+   if(n.key.name===name&&ancestors.some(a=>a.type==='ClassDeclaration'&&a.id?.name==='Game'))matches.push({start:offset+n.value.body.start,end:offset+n.value.body.end});
+  }});
+ }
+ if(matches.length!==1)throw new Error('Método ausente ou duplicado: '+name);
+ const {start,end}=matches[0];
+ const replacement=typeof body==='function'?body(html.slice(start+1,end-1)):body;
+ acorn.parse('function test(){'+replacement+'}',{ecmaVersion:'latest'});
+ // A callback already receives the body's original boundary whitespace. Preserve it;
+ // rewrapping on each call accumulates blank lines with trailing spaces in generated HTML.
+ const block=typeof body==='function'?'{'+replacement+'}':'{\n'+replacement+'\n  }';
+ return html.slice(0,start)+block+html.slice(end);
+}
+module.exports={replaceMethod};

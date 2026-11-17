@@ -1,0 +1,1103 @@
+{
+  "GENERIC_EVENTS": {
+    "classification": "Adaptação brasileira fictícia dos trinta e quatro eventos genéricos de marketing, sem mudar regras, custos, efeitos, flags ou filtros.",
+    "strings": {
+      "[\"marketing\",0,\"intro\"]": {
+        "source": "A lifestyle influencer with 800k followers wants to promote us. Their content is mostly travel and productivity tips. The reach is real; whether their audience buys business software is another question.",
+        "target": "Uma criadora de conteúdo fictícia de viagens e produtividade, com centenas de milhares de seguidores, quer divulgar o negócio. O alcance é amplo neste cenário; se o público dela se interessa pelos produtos ou serviços do negócio é outra questão."
+      },
+      "[\"marketing\",0,\"aside\"]": {
+        "source": "Big numbers are tempting. Reach only matters if it reaches buyers.",
+        "target": "Números grandes são tentadores. Alcance só importa se alcançar compradores."
+      },
+      "[\"marketing\",0,\"choices\",0,\"text\"]": {
+        "source": "Paid partnership with clear terms",
+        "target": "Parceria paga com combinados claros"
+      },
+      "[\"marketing\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Reach expanded. Brand associated.",
+        "target": "Alcance ampliado. Marca associada."
+      },
+      "[\"marketing\",0,\"choices\",1,\"text\"]": {
+        "source": "Smaller micro-influencer campaign",
+        "target": "Campanha menor com criador local"
+      },
+      "[\"marketing\",0,\"choices\",1,\"reaction\"]": {
+        "source": "More authentic. Less reach.",
+        "target": "Mais autêntica. Menos alcance."
+      },
+      "[\"marketing\",0,\"choices\",2,\"text\"]": {
+        "source": "Focus on organic growth",
+        "target": "Foco no crescimento orgânico"
+      },
+      "[\"marketing\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Slower but more sustainable.",
+        "target": "Mais lento, mas mais sustentável."
+      },
+      "[\"marketing\",1,\"intro\"]": {
+        "source": "A trade publication is offering sponsored content that would reach your exact buyer persona next week. Problem: your competitor just got earned coverage in the same publication with a glowing profile. Sponsored content now feels like an admission you couldn't get the real thing.",
+        "target": "Uma publicação comercial fictícia oferece conteúdos patrocinados que alcançariam o público certo do negócio na semana seguinte. Problema: um concorrente acabou de ganhar matéria espontânea elogiosa na mesma publicação. Conteúdo patrocinado agora parece uma admissão de que não foi possível conseguir o destaque de verdade."
+      },
+      "[\"marketing\",1,\"aside\"]": {
+        "source": "The timing is brutal. Silence lets them own the narrative. Sponsored content looks desperate. Pitching earned coverage takes months you don't have.",
+        "target": "O momento é duro. O silêncio deixa o concorrente dono da narrativa. Conteúdo patrocinado parece desesperado. Buscar reportagem espontânea leva meses que não existem."
+      },
+      "[\"marketing\",1,\"choices\",0,\"text\"]": {
+        "source": "Run sponsored content anyway - be visible",
+        "target": "Rodar conteúdo patrocinado mesmo assim - aparecer"
+      },
+      "[\"marketing\",1,\"choices\",0,\"reaction\"]": {
+        "source": "You're in the conversation. Some readers notice the 'sponsored' tag. Others don't care.",
+        "target": "Você entra na conversa. Algumas pessoas notam a marca de conteúdo patrocinado. Outras não se importam."
+      },
+      "[\"marketing\",1,\"choices\",1,\"text\"]": {
+        "source": "Pitch a counter-story to their competitor publication",
+        "target": "Propor uma reportagem de ângulo diferente a outra publicação"
+      },
+      "[\"marketing\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Different audience, fresh angle. Takes a month. Might not land.",
+        "target": "Público diferente, ângulo novo. Leva um mês. Pode não funcionar."
+      },
+      "[\"marketing\",1,\"choices\",2,\"text\"]": {
+        "source": "Ignore it and outship them instead",
+        "target": "Ignorar e focar na entrega, superando o concorrente"
+      },
+      "[\"marketing\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Product speaks louder than PR. But their story circulates for months.",
+        "target": "A entrega fala mais alto que relações públicas. Mas a história do concorrente circula por meses."
+      },
+      "[\"marketing\",2,\"intro\"]": {
+        "source": "A former enterprise customer just posted a scathing review on G2. Half of it is unfair - they broke the integration themselves and blamed you. But half is true - your onboarding was chaotic and support was slow. Three hot prospects this quarter will read this review. Your sales team is panicking.",
+        "target": "Um cliente antigo fictício acabou de publicar uma avaliação negativa sobre o atendimento e a entrega. Metade dela é injusta - o cliente bagunçou o combinado por conta própria e culpou o negócio. Mas a metade restante é verdade - o acolhimento do cliente foi confuso e a resposta demorou. Vários interessados neste trimestre vão ler essa avaliação. A equipe está apreensiva."
+      },
+      "[\"marketing\",2,\"aside\"]": {
+        "source": "The unfair parts make you want to fight back. The fair parts make fighting back risky. Public responses live forever. So do unanswered accusations.",
+        "target": "As partes injustas dão vontade de reagir. As partes justas tornam a reação arriscada. Respostas públicas ficam para sempre. Assim como acusações sem resposta."
+      },
+      "[\"marketing\",2,\"choices\",0,\"text\"]": {
+        "source": "Detailed public response addressing each point",
+        "target": "Resposta pública detalhada apontando cada item"
+      },
+      "[\"marketing\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Prospects see you engage seriously. Also see dirty laundry aired in public.",
+        "target": "Interessados veem que você leva os pontos a sério. Também veem problemas expostos em público."
+      },
+      "[\"marketing\",2,\"choices\",1,\"text\"]": {
+        "source": "Private outreach, fix the real issues, ask for update",
+        "target": "Contato privado no cenário, correção das falhas apresentadas e pedido de atualização"
+      },
+      "[\"marketing\",2,\"choices\",1,\"reaction\"]": {
+        "source": "They soften the review slightly. You fixed something that needed fixing.",
+        "target": "A pessoa suaviza a avaliação um pouco. Você corrigiu algo que precisava de correção."
+      },
+      "[\"marketing\",2,\"choices\",2,\"text\"]": {
+        "source": "Bury it with requests for happy customer reviews",
+        "target": "Pedir avaliações a clientes satisfeitos para reduzir o impacto"
+      },
+      "[\"marketing\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Diluted but not gone. Astute prospects notice the timing.",
+        "target": "Diluído, mas não apagado. Interessados atentos notam o momento."
+      },
+      "[\"marketing\",3,\"intro\"]": {
+        "source": "Opportunity to sponsor a UK AI community TeamChat. Thousands of potential customers.",
+        "target": "Oportunidade de patrocinar um espaço de conversas de uma comunidade fictícia de pequenos negócios do bairro. Milhares de potenciais clientes."
+      },
+      "[\"marketing\",3,\"aside\"]": {
+        "source": "Community presence builds trust over time. Not immediate sales.",
+        "target": "Presença na comunidade constrói confiança com o tempo. Não são vendas imediatas."
+      },
+      "[\"marketing\",3,\"choices\",0,\"text\"]": {
+        "source": "Sponsor plus active participation",
+        "target": "Patrocinar e participar ativamente"
+      },
+      "[\"marketing\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Become known as helpful, not salesy.",
+        "target": "Passar a ser conhecido como ajuda, não como vendedor insistente."
+      },
+      "[\"marketing\",3,\"choices\",1,\"text\"]": {
+        "source": "Sponsor with logo placement only",
+        "target": "Patrocinar apenas com logotipo"
+      },
+      "[\"marketing\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Visible but not engaged.",
+        "target": "Visível, mas sem engajamento."
+      },
+      "[\"marketing\",3,\"choices\",2,\"text\"]": {
+        "source": "Skip—focus on direct outreach",
+        "target": "Recusar—focar em contatos diretos"
+      },
+      "[\"marketing\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Personal touch matters more.",
+        "target": "O contato pessoal pesa mais."
+      },
+      "[\"marketing\",4,\"intro\"]": {
+        "source": "Open source project using our tech gaining traction. Could amplify or stay quiet.",
+        "target": "Um grupo comunitário fictício adaptou um guia de organização com exemplos inventados, sem registros pessoais, compartilhado por nós. O material está ganhando espaço. Podemos apoiar com recursos ou deixar avançar em silêncio."
+      },
+      "[\"marketing\",4,\"aside\"]": {
+        "source": "Open source credibility is earned, not bought. Developers talk.",
+        "target": "Credibilidade de material aberto é conquistada, não comprada. Organizadores conversam."
+      },
+      "[\"marketing\",4,\"choices\",0,\"text\"]": {
+        "source": "Actively support with resources",
+        "target": "Apoiar ativamente com recursos"
+      },
+      "[\"marketing\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Developers notice. Word spreads.",
+        "target": "Organizadores notam. A novidade se espalha."
+      },
+      "[\"marketing\",4,\"choices\",1,\"text\"]": {
+        "source": "Public endorsement and retweets",
+        "target": "Manifestação pública e compartilhamento"
+      },
+      "[\"marketing\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Low effort visibility boost.",
+        "target": "Visibilidade com pouco esforço."
+      },
+      "[\"marketing\",4,\"choices\",2,\"text\"]": {
+        "source": "Let it grow organically",
+        "target": "Deixar avançar sozinho"
+      },
+      "[\"marketing\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Slow but sustainable growth.",
+        "target": "Crescimento lento, mas sustentável."
+      },
+      "[\"marketing\",5,\"intro\"]": {
+        "source": "Local AI meetup wants us to host and speak. Time commitment but builds reputation.",
+        "target": "Um encontro fictício de pequenos negócios quer que o negócio ceda o espaço e fale sobre gestão. Exige tempo, mas constrói reputação."
+      },
+      "[\"marketing\",5,\"aside\"]": {
+        "source": "Grassroots reputation compounds. The people you meet today hire you tomorrow.",
+        "target": "Reputação de base local cresce com o tempo. Quem você conhece hoje pode ser cliente amanhã."
+      },
+      "[\"marketing\",5,\"choices\",0,\"text\"]": {
+        "source": "Host, speak, and sponsor drinks",
+        "target": "Organizar, falar e oferecer bebidas"
+      },
+      "[\"marketing\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Become the local AI hub.",
+        "target": "Virar referência local de gestão."
+      },
+      "[\"marketing\",5,\"choices\",1,\"text\"]": {
+        "source": "Just give a talk",
+        "target": "Somente a fala"
+      },
+      "[\"marketing\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Share knowledge without overcommitting.",
+        "target": "Compartilhar conhecimento sem se comprometer demais."
+      },
+      "[\"marketing\",5,\"choices\",2,\"text\"]": {
+        "source": "Decline—too busy",
+        "target": "Recusar—prioridades em primeiro lugar"
+      },
+      "[\"marketing\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on priorities. Protect time.",
+        "target": "Foco nas prioridades. Tempo protegido."
+      },
+      "[\"marketing\",6,\"intro\"]": {
+        "source": "Podcast invitation from respected UK tech host. Good reach, requires prep.",
+        "target": "Convite de um programa de áudio fictício local, conduzido por uma pessoa respeitada, para entrevistar o responsável pelo negócio. Bom alcance, exige preparo."
+      },
+      "[\"marketing\",6,\"aside\"]": {
+        "source": "Founder voice builds trust. But every word is on record.",
+        "target": "A voz de quem lidera constrói confiança. Mas toda fala fica registrada."
+      },
+      "[\"marketing\",6,\"choices\",0,\"text\"]": {
+        "source": "Accept with thorough preparation",
+        "target": "Aceitar com preparo cuidadoso"
+      },
+      "[\"marketing\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Compelling story. Clips circulate.",
+        "target": "História envolvente. Trechos circulam."
+      },
+      "[\"marketing\",6,\"choices\",1,\"text\"]": {
+        "source": "Accept, wing it",
+        "target": "Aceitar e improvisar"
+      },
+      "[\"marketing\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Authentic but rough edges show.",
+        "target": "Autêntico, mas as pontas soltas aparecem."
+      },
+      "[\"marketing\",6,\"choices\",2,\"text\"]": {
+        "source": "Decline—not ready for spotlight",
+        "target": "Recusar—ainda não preparado para o destaque"
+      },
+      "[\"marketing\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Wait until we're ready. Better story later.",
+        "target": "Esperar até estar pronto. História melhor depois."
+      },
+      "[\"marketing\",7,\"intro\"]": {
+        "source": "Customer success story going viral on CareerHub. Could amplify or let it breathe.",
+        "target": "Um relato fictício sobre a boa organização de uma entrega ganhou atenção numa rede fictícia de negócios do bairro. Dá para dividir o destaque ou deixar o assunto respirar."
+      },
+      "[\"marketing\",7,\"aside\"]": {
+        "source": "Organic virality is gold. Heavy-handed amplification kills it.",
+        "target": "Alcance orgânico vale muito. Impulsionar com mão pesada mata a autenticidade."
+      },
+      "[\"marketing\",7,\"choices\",0,\"text\"]": {
+        "source": "Gentle reshare with gratitude",
+        "target": "Compartilhar agradecendo discretamente"
+      },
+      "[\"marketing\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Authentic engagement. Keeps momentum.",
+        "target": "Engajamento autêntico. Mantém o alcance."
+      },
+      "[\"marketing\",7,\"choices\",1,\"text\"]": {
+        "source": "Full marketing push behind it",
+        "target": "Campanha promocional intensa por trás do relato"
+      },
+      "[\"marketing\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Feels forced. Some backlash.",
+        "target": "Parece forçado. Pode gerar reação."
+      },
+      "[\"marketing\",7,\"choices\",2,\"text\"]": {
+        "source": "Stay quiet, let customer shine",
+        "target": "Ficar quieto e deixar o relato crescer sozinho"
+      },
+      "[\"marketing\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Humble. But miss the wave.",
+        "target": "Modesto. Mas perde a onda."
+      },
+      "[\"marketing\",8,\"intro\"]": {
+        "source": "Gartner wants to brief us for their AI market report. How we present determines our 'quadrant' position.",
+        "target": "Uma publicação fictícia de negócios do bairro vai produzir um relatório sobre prestadores locais. Como apresentarmos o negócio pode render reconhecimento de potencial."
+      },
+      "[\"marketing\",8,\"aside\"]": {
+        "source": "Enterprise buyers read Gartner religiously. Getting this right matters.",
+        "target": "Quem compra serviços acompanha esses relatórios de perto. Acertar na apresentação pesa."
+      },
+      "[\"marketing\",8,\"choices\",0,\"text\"]": {
+        "source": "Full executive briefing with demos",
+        "target": "Apresentação cuidadosa e detalhada, com exemplos fictícios"
+      },
+      "[\"marketing\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Analyst impressed. Mentions us favourably.",
+        "target": "Reconhecimento do potencial. Menção favorável, sem garantia."
+      },
+      "[\"marketing\",8,\"choices\",1,\"text\"]": {
+        "source": "Standard briefing call",
+        "target": "Conversa padrão"
+      },
+      "[\"marketing\",8,\"choices\",1,\"reaction\"]": {
+        "source": "We're in the report. Not highlighted.",
+        "target": "Entramos no relatório. Sem destaque."
+      },
+      "[\"marketing\",8,\"choices\",2,\"text\"]": {
+        "source": "Skip—analysts don't understand us",
+        "target": "Recusar—focar em quem entende o negócio"
+      },
+      "[\"marketing\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on customers who get it.",
+        "target": "Foco em quem já confia no trabalho."
+      },
+      "[\"marketing\",9,\"intro\"]": {
+        "source": "Cabinet Office is running an AI procurement framework. Getting on it means access to all government buyers.",
+        "target": "Uma associação fictícia de bairro vai organizar uma lista de prestadores para iniciativas comunitárias. Entrar abre outro contato, mas exige esforço de coordenação."
+      },
+      "[\"marketing\",9,\"aside\"]": {
+        "source": "Public sector moves slowly but pays reliably. Security clearances take time.",
+        "target": "A lista aproxima vizinhos e negócios locais. Manter a coordenação dá trabalho."
+      },
+      "[\"marketing\",9,\"choices\",0,\"text\"]": {
+        "source": "Full framework application",
+        "target": "Candidatura completa"
+      },
+      "[\"marketing\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Months of paperwork. Door opens to billions in spend.",
+        "target": "Muito preenchimento. Portas de contato se abrem."
+      },
+      "[\"marketing\",9,\"choices\",1,\"text\"]": {
+        "source": "Partner with approved supplier",
+        "target": "Colaborar por nome de parceiro já participante"
+      },
+      "[\"marketing\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Ride their accreditation. Share the revenue.",
+        "target": "Entra pela indicação. Dividimos a coordenação."
+      },
+      "[\"marketing\",9,\"choices\",2,\"text\"]": {
+        "source": "Focus on private sector",
+        "target": "Focar no atendimento direto"
+      },
+      "[\"marketing\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Faster sales cycles. Revenue builds.",
+        "target": "Vendas mais diretas. Sem burocracia de lista."
+      },
+      "[\"marketing\",10,\"intro\"]": {
+        "source": "The UK AI Industry Association wants us to join. Lobbying access and peer networking, but membership fees and time.",
+        "target": "Uma associação fictícia de pequenos negócios do bairro oferece participação nas conversas do grupo, com atividades e mensalidade. Consome tempo da agenda."
+      },
+      "[\"marketing\",10,\"aside\"]": {
+        "source": "Policy shapes our market. Being in the room when rules are written matters.",
+        "target": "Perto de quem participa, dá para entender a direção das decisões do grupo. É conversa organizacional, não regra para fora."
+      },
+      "[\"marketing\",10,\"choices\",0,\"text\"]": {
+        "source": "Active membership with committee roles",
+        "target": "Participar dos grupos de trabalho"
+      },
+      "[\"marketing\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Shape the conversation. Know what's coming.",
+        "target": "Troca direta com o grupo. Saber o que vem por aí."
+      },
+      "[\"marketing\",10,\"choices\",1,\"text\"]": {
+        "source": "Basic membership only",
+        "target": "Participação básica"
+      },
+      "[\"marketing\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Newsletter and events. No influence.",
+        "target": "Boletim e eventos. Sem peso nas decisões."
+      },
+      "[\"marketing\",10,\"choices\",2,\"text\"]": {
+        "source": "Stay outside associations",
+        "target": "Ficar fora das associações"
+      },
+      "[\"marketing\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Independent. Focus on customers.",
+        "target": "Independente. Atenção nos clientes."
+      },
+      "[\"marketing\",11,\"intro\"]": {
+        "source": "The Financial Times wants an exclusive on our funding round. Great coverage, but other outlets will be annoyed.",
+        "target": "Um jornal fictício do bairro propõe uma matéria exclusiva sobre uma etapa de organização do negócio. Outros veículos fictícios podem se sentir preteridos."
+      },
+      "[\"marketing\",11,\"aside\"]": {
+        "source": "FT readers are decision-makers. Exclusives build relationships with journalists.",
+        "target": "Leitores do bairro são pessoas que decidem. Exclusivas constroem relação com quem escreve."
+      },
+      "[\"marketing\",11,\"choices\",0,\"text\"]": {
+        "source": "Give FT the exclusive with CEO interview",
+        "target": "Dar a exclusiva com entrevista responsável"
+      },
+      "[\"marketing\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Front page of tech section. Inbox explodes.",
+        "target": "Primeira página da seção. Caixa de mensagens cheia."
+      },
+      "[\"marketing\",11,\"choices\",1,\"text\"]": {
+        "source": "Broad press release to all outlets",
+        "target": "Comunicado amplo para todos os veículos"
+      },
+      "[\"marketing\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Fair coverage everywhere. No headline.",
+        "target": "Cobertura uniforme. Sem manchete."
+      },
+      "[\"marketing\",11,\"choices\",2,\"text\"]": {
+        "source": "Stay quiet about the round",
+        "target": "Não divulgar"
+      },
+      "[\"marketing\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Stealth preserved. Surprise competitors.",
+        "target": "Sigilo mantido. Surpreende a concorrência."
+      },
+      "[\"marketing\",12,\"intro\"]": {
+        "source": "A major NHS Trust wants to pilot our solution. Prestige and case study value, but NHS procurement is complex.",
+        "target": "Uma organização fictícia do bairro convida a equipe para ensaiar uma nova forma de organizar o atendimento ou a entrega, usando apenas exemplos inventados e sem registros pessoais. Preparar o ensaio exige coordenação."
+      },
+      "[\"marketing\",12,\"aside\"]": {
+        "source": "NHS validation is gold for UK healthtech. The pilot could take a year to close.",
+        "target": "O ensaio pode aproximar as equipes e ajudar a trocar experiências administrativas. Mas preparar e acompanhar as atividades exige tempo."
+      },
+      "[\"marketing\",12,\"choices\",0,\"text\"]": {
+        "source": "Commit resources to the NHS pilot",
+        "target": "Dedicar equipe a um ensaio amplo"
+      },
+      "[\"marketing\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Slow burn. Massive credibility if it works.",
+        "target": "Muito tempo de coordenação. Retorno em experiência."
+      },
+      "[\"marketing\",12,\"choices\",1,\"text\"]": {
+        "source": "Limited pilot with clear boundaries",
+        "target": "Ensaio limitado com limites claros"
+      },
+      "[\"marketing\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Test the waters. Manage expectations.",
+        "target": "Testa o combinado. Expectativas no lugar."
+      },
+      "[\"marketing\",12,\"choices\",2,\"text\"]": {
+        "source": "Decline—private sector focus",
+        "target": "Recusar—focar nos clientes atuais"
+      },
+      "[\"marketing\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Faster revenue. Simpler sales.",
+        "target": "Atendimento mais simples. Foco no que já funciona."
+      },
+      "[\"marketing\",13,\"intro\"]": {
+        "source": "We've been nominated for 'AI Startup of the Year'. Winning requires a strong submission and attending the gala.",
+        "target": "Uma mostra fictícia de iniciativas do bairro convida à participação. Preparar um relato com exemplos fictícios e estar no evento pode aumentar a visibilidade."
+      },
+      "[\"marketing\",13,\"aside\"]": {
+        "source": "Awards are marketing. But the right award on the website converts prospects.",
+        "target": "Exposição em mostra ajuda a ser notado. Não garante prêmio nem negócio fechado."
+      },
+      "[\"marketing\",13,\"choices\",0,\"text\"]": {
+        "source": "Full submission with case studies",
+        "target": "Preparar relato com exemplos fictícios e participar"
+      },
+      "[\"marketing\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Win or shortlist. Either way, we're visible.",
+        "target": "Mais gente conhece o negócio. Prêmio e venda não garantidos."
+      },
+      "[\"marketing\",13,\"choices\",1,\"text\"]": {
+        "source": "Basic submission",
+        "target": "Inscrição simples"
+      },
+      "[\"marketing\",13,\"choices\",1,\"reaction\"]": {
+        "source": "In the running. Not favourites.",
+        "target": "Inscrição feita. Sem destaque."
+      },
+      "[\"marketing\",13,\"choices\",2,\"text\"]": {
+        "source": "Skip awards circuit",
+        "target": "Recusar e focar nos clientes"
+      },
+      "[\"marketing\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on customers, not trophies.",
+        "target": "Foco em quem compra, não em troféus."
+      },
+      "[\"marketing\",14,\"intro\"]": {
+        "source": "A German distributor wants exclusive rights for DACH region. They know the market but exclusivity is risky.",
+        "target": "Um parceiro comercial fictício local oferece um canal de divulgação de diversos produtos e serviços e pede preferência exclusiva. Conhece bem a região, mas exclusividade gera dependência."
+      },
+      "[\"marketing\",14,\"aside\"]": {
+        "source": "Local partners accelerate international. Bad partners block you from markets.",
+        "target": "Parceiros locais aceleram o alcance. Parceiros ruins bloqueiam mercados."
+      },
+      "[\"marketing\",14,\"choices\",0,\"text\"]": {
+        "source": "Non-exclusive partnership with targets",
+        "target": "Parceria não exclusiva com objetivos"
+      },
+      "[\"marketing\",14,\"choices\",0,\"reaction\"]": {
+        "source": "They earn exclusivity by performing.",
+        "target": "Eles conquistam a exclusividade conforme os objetivos forem cumpridos."
+      },
+      "[\"marketing\",14,\"choices\",1,\"text\"]": {
+        "source": "Exclusive with exit clause",
+        "target": "Preferência exclusiva com revisão combinada"
+      },
+      "[\"marketing\",14,\"choices\",1,\"reaction\"]": {
+        "source": "They get the chance. Clock is ticking.",
+        "target": "Eles ganham a chance. O prazo corre."
+      },
+      "[\"marketing\",14,\"choices\",2,\"text\"]": {
+        "source": "Go direct when ready",
+        "target": "Ir direto quando estiver pronto"
+      },
+      "[\"marketing\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Control the brand. Patient expansion.",
+        "target": "Controle da marca. Expansão paciente."
+      },
+      "[\"marketing\",15,\"intro\"]": {
+        "source": "Company CareerHub went viral. Unfortunately, it's because of a typo that made our AI product sound... adult.",
+        "target": "Uma postagem fictícia do negócio numa rede fictícia viralizou por causa de um erro de digitação que deixou a mensagem com duplo sentido."
+      },
+      "[\"marketing\",15,\"aside\"]": {
+        "source": "There's no such thing as bad publicity. Except this. This might be bad publicity.",
+        "target": "Não existe publicidade ruim. Exceto esta. Esta pode ser publicidade ruim."
+      },
+      "[\"marketing\",15,\"choices\",0,\"text\"]": {
+        "source": "Lean in with self-deprecating humour",
+        "target": "Humor com o próprio erro"
+      },
+      "[\"marketing\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Thread goes more viral. Brand seems human.",
+        "target": "A conversa viraliza mais. A marca parece humana."
+      },
+      "[\"marketing\",15,\"choices\",1,\"text\"]": {
+        "source": "Delete and issue professional correction",
+        "target": "Excluir e publicar a correção com postura profissional"
+      },
+      "[\"marketing\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Screenshots live forever. But we tried.",
+        "target": "Capturas de tela ficam para sempre. Mas pelo menos tentamos."
+      },
+      "[\"marketing\",15,\"choices\",2,\"text\"]": {
+        "source": "Pretend it was intentional guerrilla marketing",
+        "target": "Dizer que o humor era intencional"
+      },
+      "[\"marketing\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Spin it well. Customers amused.",
+        "target": "Boa explicação. O constrangimento continua."
+      },
+      "[\"marketing\",16,\"intro\"]": {
+        "source": "Competitor's marketing director just followed everyone on your team on CareerHub. Everyone.",
+        "target": "No cenário fictício, um representante de concorrente passou a seguir os perfis de toda a equipe numa rede fictícia. Todos."
+      },
+      "[\"marketing\",16,\"aside\"]": {
+        "source": "Are they recruiting? Spying? Just lonely?",
+        "target": "Estão recrutando? Copiando a divulgação? Ou só solitários?"
+      },
+      "[\"marketing\",16,\"choices\",0,\"text\"]": {
+        "source": "Block and brief the team",
+        "target": "Bloquear e orientar a equipe"
+      },
+      "[\"marketing\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Fortress mentality engaged.",
+        "target": "Postura de fortaleza ativada."
+      },
+      "[\"marketing\",16,\"choices\",1,\"text\"]": {
+        "source": "Follow them back aggressively",
+        "target": "Acompanhar o concorrente intensamente"
+      },
+      "[\"marketing\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Now everyone's awkwardly watching everyone.",
+        "target": "Agora todo mundo observa todo mundo, constrangido."
+      },
+      "[\"marketing\",16,\"choices\",2,\"text\"]": {
+        "source": "Post obviously fake roadmap hints",
+        "target": "Publicar pistas claramente inventadas sobre reorganização"
+      },
+      "[\"marketing\",16,\"choices\",2,\"reaction\"]": {
+        "source": "If they're watching, give them something to think about.",
+        "target": "Se estão olhando, dê pistas para pensar. Ilustrativas, sem prometer entregas."
+      },
+      "[\"marketing\",17,\"intro\"]": {
+        "source": "Your demo video accidentally included 3 seconds of the CEO's music app playing '70s disco hits.",
+        "target": "Um vídeo fictício de apresentação do negócio incluiu, sem querer, um trecho breve de música dançante. Humor leve."
+      },
+      "[\"marketing\",17,\"aside\"]": {
+        "source": "It's on a video platform. Comments are... supportive.",
+        "target": "Está numa plataforma de vídeos. Os comentários são... solidários."
+      },
+      "[\"marketing\",17,\"choices\",0,\"text\"]": {
+        "source": "Re-upload the clean version",
+        "target": "Reenviar a versão limpa"
+      },
+      "[\"marketing\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Professional. The internet remembers anyway.",
+        "target": "Profissional. A internet lembra de qualquer modo."
+      },
+      "[\"marketing\",17,\"choices\",1,\"text\"]": {
+        "source": "Embrace it—add disco to company culture",
+        "target": "Assumir o humor e incorporá-lo numa atividade descontraída"
+      },
+      "[\"marketing\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Friday playlist now mandatory. Morale surprisingly high.",
+        "target": "A atividade ganha uma seleção de músicas. O clima fica mais leve do que o esperado."
+      },
+      "[\"marketing\",17,\"choices\",2,\"text\"]": {
+        "source": "CEO addresses it directly on CareerHub",
+        "target": "A pessoa responsável comenta diretamente na rede fictícia"
+      },
+      "[\"marketing\",17,\"choices\",2,\"reaction\"]": {
+        "source": "'Yes, I love disco. Moving on.' Legend status achieved.",
+        "target": "Sim, gosto de música dançante. Próximo tema. Status de lenda conquistado."
+      },
+      "[\"marketing\",18,\"intro\"]": {
+        "source": "Your designer wants to sketch a comic strip showing a typical customer's day - before they find you, their frustrations, and how your product changes things.",
+        "target": "Uma profissional de comunicação quer criar uma tira sobre a rotina inventada de um cliente: antes e depois de conhecer as ofertas do negócio."
+      },
+      "[\"marketing\",18,\"aside\"]": {
+        "source": "A picture tells a thousand words. Stories stick better than feature lists.",
+        "target": "Uma imagem vale por mil palavras. Histórias grudam mais que listas de características."
+      },
+      "[\"marketing\",18,\"choices\",0,\"text\"]": {
+        "source": "Full illustrated customer story",
+        "target": "História ilustrada completa do cliente"
+      },
+      "[\"marketing\",18,\"choices\",0,\"reaction\"]": {
+        "source": "Sales team tells this story in every pitch. Customers nod - 'that's exactly me.'",
+        "target": "A equipe de vendas conta essa história em cada apresentação. Clientes assentem: é exatamente assim."
+      },
+      "[\"marketing\",18,\"choices\",1,\"text\"]": {
+        "source": "Quick bullet points instead",
+        "target": "Tópicos rápidos no lugar disso"
+      },
+      "[\"marketing\",18,\"choices\",1,\"reaction\"]": {
+        "source": "List of pain points. Less memorable.",
+        "target": "Lista de pontos de dor. Menos memorável."
+      },
+      "[\"marketing\",18,\"choices\",2,\"text\"]": {
+        "source": "Features speak for themselves",
+        "target": "Focar nas características, sem narrativa"
+      },
+      "[\"marketing\",18,\"choices\",2,\"reaction\"]": {
+        "source": "Skip the storytelling. Hope the product sells itself.",
+        "target": "Sem contar história. Torçamos para que o produto se venda sozinho."
+      },
+      "[\"marketing\",19,\"intro\"]": {
+        "source": "Your designer wants to spend a week in customers' actual workplaces, watching how they use the product. Not interviews - just observing.",
+        "target": "Sua equipe propõe uma simulação da organização do atendimento e da entrega, com cenários fictícios, em vez de observar pessoas reais no trabalho."
+      },
+      "[\"marketing\",19,\"aside\"]": {
+        "source": "People say one thing, do another. Watching reveals what asking never will.",
+        "target": "Nos ensaios, representar a rotina revela detalhes que uma descrição resumida pode deixar de fora."
+      },
+      "[\"marketing\",19,\"choices\",0,\"text\"]": {
+        "source": "Full week of observation",
+        "target": "Uma semana inteira de ensaios"
+      },
+      "[\"marketing\",19,\"choices\",0,\"reaction\"]": {
+        "source": "Discovered three problems you never knew existed. Changed everything.",
+        "target": "Encontrou problemas de organização que ninguém imaginava. Mudou o fluxo."
+      },
+      "[\"marketing\",19,\"choices\",1,\"text\"]": {
+        "source": "A few site visits",
+        "target": "Poucos ensaios pontuais"
+      },
+      "[\"marketing\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Useful glimpses. Context helps.",
+        "target": "Vislumbres úteis. O contexto ajuda."
+      },
+      "[\"marketing\",19,\"choices\",2,\"text\"]": {
+        "source": "Stick to phone interviews",
+        "target": "Conversas sobre exemplos fictícios"
+      },
+      "[\"marketing\",19,\"choices\",2,\"reaction\"]": {
+        "source": "They told you what they think you want to hear.",
+        "target": "As conversas trazem apenas uma descrição parcial da rotina simulada."
+      },
+      "[\"marketing\",20,\"intro\"]": {
+        "source": "An online community has sprung up where users share hacks, modifications, and workarounds for your product. Some are brilliant. Some void warranties.",
+        "target": "Um grupo fictício de pequenos negócios compartilha sugestões de adaptação de materiais administrativos fictícios. Algumas ajudam, outras fogem do fluxo planejado."
+      },
+      "[\"marketing\",20,\"aside\"]": {
+        "source": "User innovation communities are free R&D. If you listen.",
+        "target": "Comunidade de usuários que inova é aprendizado gratuito. Se você ouvir."
+      },
+      "[\"marketing\",20,\"choices\",0,\"text\"]": {
+        "source": "Engage and learn from them",
+        "target": "Dialogar e aprender com eles"
+      },
+      "[\"marketing\",20,\"choices\",0,\"reaction\"]": {
+        "source": "Best ideas folded into product. Community feels heard.",
+        "target": "As melhores ideias entram no material. O grupo se sente ouvido."
+      },
+      "[\"marketing\",20,\"choices\",1,\"text\"]": {
+        "source": "Quietly observe",
+        "target": "Acompanhar o debate em silêncio"
+      },
+      "[\"marketing\",20,\"choices\",1,\"reaction\"]": {
+        "source": "Free R&D. They don't know you're watching.",
+        "target": "Aprendizado gratuito. Eles não sabem que você observa."
+      },
+      "[\"marketing\",20,\"choices\",2,\"text\"]": {
+        "source": "Send cease and desist",
+        "target": "Pedir que interrompam o uso do material"
+      },
+      "[\"marketing\",20,\"choices\",2,\"reaction\"]": {
+        "source": "Legally safe. Community furious. Bad press.",
+        "target": "O grupo fica insatisfeito, e a crítica circula na rede do bairro."
+      },
+      "[\"marketing\",21,\"intro\"]": {
+        "source": "Your advisor suggests assembling a panel of your most demanding, innovative customers - the ones who push boundaries and complain constructively.",
+        "target": "A consultoria fictícia propõe montar um painel de exemplos simulados inspirados nas demandas mais exigentes, sem usar pessoas reais."
+      },
+      "[\"marketing\",21,\"aside\"]": {
+        "source": "Lead users face needs today that mainstream users will face tomorrow.",
+        "target": "Exemplos mais exigentes encaram hoje o que os demais só encontrariam amanhã."
+      },
+      "[\"marketing\",21,\"choices\",0,\"text\"]": {
+        "source": "Formal lead user panel",
+        "target": "Encontro estruturado periódico"
+      },
+      "[\"marketing\",21,\"choices\",0,\"reaction\"]": {
+        "source": "Quarterly sessions. They spot problems before anyone else. Roadmap rewritten.",
+        "target": "Sessões periódicas. Os exemplos apontam problemas antes de todo mundo. O plano é reescrito."
+      },
+      "[\"marketing\",21,\"choices\",1,\"text\"]": {
+        "source": "Ad-hoc conversations",
+        "target": "Conversas pontuais"
+      },
+      "[\"marketing\",21,\"choices\",1,\"reaction\"]": {
+        "source": "Useful when it happens. No structure.",
+        "target": "Útil quando acontecem. Sem estrutura."
+      },
+      "[\"marketing\",21,\"choices\",2,\"text\"]": {
+        "source": "Survey all customers equally",
+        "target": "Rever conjunto amplo de exemplos"
+      },
+      "[\"marketing\",21,\"choices\",2,\"reaction\"]": {
+        "source": "Democratic. Average feedback.",
+        "target": "Democrático. Retorno administrativo médio."
+      },
+      "[\"marketing\",22,\"intro\"]": {
+        "source": "We've been invited to a prestigious industry panel. When the lineup is announced, it's all men. Organisers ask if we know any women who could join. One of our senior engineers is eminently qualified—but she's told me she's sick of being the 'diversity invite,' added last to fix optics.",
+        "target": "Fomos convidados para um painel fictício de negócios do bairro, de prestígio. Quando a lista é anunciada, só homens. Os organizadores perguntam se conhecemos alguém que possa entrar. Nossa colega, qualificada e responsável por coordenação e operações, me disse que está cansada de ser o convite tardio, adicionado por último só para a aparência."
+      },
+      "[\"marketing\",22,\"aside\"]": {
+        "source": "She's qualified and should be there. But being added as an afterthought is demeaning.",
+        "target": "Ela é qualificada e merece estar lá. Convidá-la apenas para corrigir a aparência desrespeita seu trabalho."
+      },
+      "[\"marketing\",22,\"choices\",0,\"text\"]": {
+        "source": "Suggest her, be honest about situation",
+        "target": "Explicar a situação e deixar ela decidir"
+      },
+      "[\"marketing\",22,\"choices\",0,\"reaction\"]": {
+        "source": "I explain. She decides. At least she has the choice.",
+        "target": "Eu explico. Ela decide. Pelo menos ela tem a escolha."
+      },
+      "[\"marketing\",22,\"choices\",1,\"text\"]": {
+        "source": "Decline to participate ourselves",
+        "target": "Recusar nosso convite por coerência"
+      },
+      "[\"marketing\",22,\"choices\",1,\"reaction\"]": {
+        "source": "Principled stand. She notices and appreciates it. Values matter.",
+        "target": "Posição coerente. Ela percebe e valoriza. Valores importam."
+      },
+      "[\"marketing\",22,\"choices\",2,\"text\"]": {
+        "source": "Participate, raise issue privately",
+        "target": "Participar e levantar a questão em particular"
+      },
+      "[\"marketing\",22,\"choices\",2,\"reaction\"]": {
+        "source": "We go. Mention it to organisers. Nothing changes for next time.",
+        "target": "Vamos e falamos com os organizadores. Nada muda na próxima vez."
+      },
+      "[\"marketing\",23,\"intro\"]": {
+        "source": "The consultant who does our client demos has a strong Nigerian accent. Brilliant technically, warm personally—but a client just asked for 'someone easier to understand'. They have seen this before. They're waiting to see what we do.",
+        "target": "O profissional fictício que faz nossas apresentações a clientes é competente, tem ótimo relacionamento e um sotaque regional marcante. Um cliente acabou de pedir 'alguém mais fácil de entender'. Já aconteceu antes. Estão esperando o que vamos fazer."
+      },
+      "[\"marketing\",23,\"aside\"]": {
+        "source": "'Easier to understand' is often code for something else. Accommodating it rewards bias. But losing the client has real costs.",
+        "target": "'Mais fácil de entender' costuma ser código para outra coisa. Ceder reforça o preconceito. Mas perder o cliente tem custos reais."
+      },
+      "[\"marketing\",23,\"choices\",0,\"text\"]": {
+        "source": "Keep them on, address client directly",
+        "target": "Mantê-lo e conversar com o cliente"
+      },
+      "[\"marketing\",23,\"choices\",0,\"reaction\"]": {
+        "source": "Client uncomfortable. Most adjust. They finally trust us.",
+        "target": "Cliente desconfortável. A maioria se ajusta. Eles terminam confiando em nós."
+      },
+      "[\"marketing\",23,\"choices\",1,\"text\"]": {
+        "source": "Pair them with a co-presenter",
+        "target": "Dupla na apresentação"
+      },
+      "[\"marketing\",23,\"choices\",1,\"reaction\"]": {
+        "source": "Compromise. Shows support. Some awkwardness.",
+        "target": "Concessão. Demonstra apoio. Algum constrangimento."
+      },
+      "[\"marketing\",23,\"choices\",2,\"text\"]": {
+        "source": "Reassign to keep client happy",
+        "target": "Realocar para agradar o cliente"
+      },
+      "[\"marketing\",23,\"choices\",2,\"reaction\"]": {
+        "source": "They nod. Update their CV that evening.",
+        "target": "Eles assentam. A confiança se perde e cresce a intenção de buscar outra oportunidade."
+      },
+      "[\"marketing\",24,\"intro\"]": {
+        "source": "A marketing consultant we brought in keeps proposing campaigns that cost more than our runway. When I explain the budget, she's genuinely confused. 'You'd never launch without proper research.' She's used to corporate resources we don't have. But she knows what 'good' looks like.",
+        "target": "A consultora fictícia de comunicação que contratamos insiste em campanhas acima dos recursos de que dispomos. Quando explico o orçamento, ela se surpreende de verdade. 'Ninguém lança sem pesquisa de verdade.' Está acostumada a estruturas maiores. Mas sabe o que é um trabalho bem feito."
+      },
+      "[\"marketing\",24,\"aside\"]": {
+        "source": "Her standards are expensive. Our constraints are real. Can we extract useful advice without the corporate price tag?",
+        "target": "O padrão dela é caro. Nossos limites são reais. Dá para extrair conselhos úteis sem o preço das estruturas grandes?"
+      },
+      "[\"marketing\",24,\"choices\",0,\"text\"]": {
+        "source": "Give her a real budget, trust judgment",
+        "target": "Dar mais recursos e confiar no julgamento dela"
+      },
+      "[\"marketing\",24,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive bet. Campaign works. We've bought corporate-quality thinking.",
+        "target": "É uma aposta cara. A campanha fica mais elaborada, mas o retorno comercial continua incerto."
+      },
+      "[\"marketing\",24,\"choices\",1,\"text\"]": {
+        "source": "Ask her to adapt advice for our budget",
+        "target": "Pedir que ela adapte as ideias ao nosso orçamento"
+      },
+      "[\"marketing\",24,\"choices\",1,\"reaction\"]": {
+        "source": "Frustrating at first. Then she gets creative. Scrappy brilliance emerges.",
+        "target": "Frustrante no começo. Depois ela se torna criativa. Surgem soluções enxutas."
+      },
+      "[\"marketing\",24,\"choices\",2,\"text\"]": {
+        "source": "Thank her, do it ourselves",
+        "target": "Agradecer e fazer com a equipe"
+      },
+      "[\"marketing\",24,\"choices\",2,\"reaction\"]": {
+        "source": "Her advice sits unused. Our marketing stays amateur.",
+        "target": "O conselho dela fica sem uso. Nossa comunicação continua amadora."
+      },
+      "[\"marketing\",25,\"intro\"]": {
+        "source": "A sales advisor from our investor's network closes deals by promising features we don't have. 'We'll build it for you'—without checking if we can. He's committed us to three clients on things that will take six months. His defence: 'That's how you grow. Engineering always catches up.'",
+        "target": "Um consultor comercial fictício fecha acordos prometendo produtos, serviços ou formas de atendimento que nossa equipe não pode oferecer sem reorganização. 'A gente resolve para você' — sem checar se dá. Ele já assumiu compromissos com três clientes em coisas que levarão seis meses. A defesa dele: 'É assim que se cresce. A equipe acompanha o ritmo.'"
+      },
+      "[\"marketing\",25,\"aside\"]": {
+        "source": "He's not wrong that startups stretch. But we're now firefighting promises instead of building the roadmap. Where's the line between ambitious and dishonest?",
+        "target": "Não está errado que negócios em crescimento se estirem. Mas estamos apagando fogo de promessas em vez de construir o plano. Onde está o limite entre ambição e desonestia?"
+      },
+      "[\"marketing\",25,\"choices\",0,\"text\"]": {
+        "source": "Stop using him, reset client expectations",
+        "target": "Parar de contar com o consultor e rever expectativas"
+      },
+      "[\"marketing\",25,\"choices\",0,\"reaction\"]": {
+        "source": "Painful conversations. Some clients walk. Our credibility intact.",
+        "target": "Conversas difíceis. Alguns clientes vão embora. Nossa credibilidade fica intacta."
+      },
+      "[\"marketing\",25,\"choices\",1,\"text\"]": {
+        "source": "Deliver what he promised, this time",
+        "target": "Cumprir as promessas desta vez, deixando o limite claro"
+      },
+      "[\"marketing\",25,\"choices\",1,\"reaction\"]": {
+        "source": "Roadmap derailed. Make it clear to investors: last time.",
+        "target": "O planejamento muda e a equipe precisa reorganizar suas prioridades. Deixamos o limite claro: só desta vez."
+      },
+      "[\"marketing\",25,\"choices\",2,\"text\"]": {
+        "source": "This is how startups work - deliver",
+        "target": "Continuar respondendo às promessas apesar de atrasar o plano"
+      },
+      "[\"marketing\",25,\"choices\",2,\"reaction\"]": {
+        "source": "Short-term revenue. Long-term we're always catching up.",
+        "target": "Receita no curto prazo. No longo, sempre correndo atrás."
+      },
+      "[\"marketing\",26,\"intro\"]": {
+        "source": "A trademark attorney has quoted for registering our product name—UK first, then international classes. We've been trading on the name for a year without protection. Last month a company in Berlin launched a tool with a name two letters different from ours.",
+        "target": "No cenário fictício, nosso catálogo, nossas placas e nossos materiais usam uma denominação parecida com a de outro negócio local. Um profissional de comunicação sugere organizar os nomes e a apresentação antes que a confusão cresça."
+      },
+      "[\"marketing\",26,\"aside\"]": {
+        "source": "A trademark is cheap compared with a patent. The expensive part is finding out someone else got there first.",
+        "target": "Reorganizar custa menos do que explicar a confusão depois. O caro é descobrir que já existe outra apresentação parecida por aqui."
+      },
+      "[\"marketing\",26,\"choices\",0,\"text\"]": {
+        "source": "Register UK, EU and US across the key classes",
+        "target": "Revisão completa dos materiais"
+      },
+      "[\"marketing\",26,\"choices\",0,\"reaction\"]": {
+        "source": "Filed before anyone else moves. The Berlin tool quietly renames itself.",
+        "target": "Tudo alinhado e claro. Exige bastante esforço."
+      },
+      "[\"marketing\",26,\"choices\",1,\"text\"]": {
+        "source": "Register in the UK only for now",
+        "target": "Revisão local dos materiais mais usados"
+      },
+      "[\"marketing\",26,\"choices\",1,\"reaction\"]": {
+        "source": "Home market protected. Everywhere else we're racing on goodwill.",
+        "target": "Claridade onde mais importa. O resto mantém risco de confusão."
+      },
+      "[\"marketing\",26,\"choices\",2,\"text\"]": {
+        "source": "Keep trading unregistered",
+        "target": "Adiar e manter o material atual"
+      },
+      "[\"marketing\",26,\"choices\",2,\"reaction\"]": {
+        "source": "Money saved. The name is ours only for as long as nobody contests it.",
+        "target": "Dinheiro poupado. A confusão persiste enquanto ninguém apontar a semelhança."
+      },
+      "[\"marketing\",27,\"intro\"]": {
+        "source": "Our LLM provider is scrapping pay-as-you-go. From next quarter it's subscription tiers: a flat monthly fee, a usage allowance, and overage charges that make the old prices look quaint. Quiet months we'll pay for capacity we don't use; busy months will be eye-watering. Our own pricing to customers was built on their old numbers.",
+        "target": "Nosso fornecedor fictício de materiais de apoio e serviços administrativos encerra a cobrança eventual e passa a pacotes fixos, com limites e cobrança por excesso. Isso descompassa os custos da rotina e nossos preços. Em meses folgados pagamos por capacidade que não usamos; em meses cheios a conta aperta. Nosso preço ao cliente foi montado sobre as condições antigas."
+      },
+      "[\"marketing\",27,\"aside\"]": {
+        "source": "We charge our customers per seat. Our biggest input is about to be priced like a gym membership with a fine for attending.",
+        "target": "Cobramos por produtos ou serviços. Um dos materiais de apoio agora vem em pacote fechado, com limite e cobrança adicional pelo excesso."
+      },
+      "[\"marketing\",27,\"choices\",0,\"text\"]": {
+        "source": "Re-price our product to match the new cost base",
+        "target": "Rever ofertas e preços para o novo custo"
+      },
+      "[\"marketing\",27,\"choices\",0,\"reaction\"]": {
+        "source": "Customers grumble. The margin survives. Two ask for multi-year price locks.",
+        "target": "Clientes reclamam. O ajuste é aceito. Alguns pedem preço fixo por longo prazo."
+      },
+      "[\"marketing\",27,\"choices\",1,\"text\"]": {
+        "source": "Commit to a tier and engineer our usage to fit it",
+        "target": "Escolher um pacote e ajustar a rotina"
+      },
+      "[\"marketing\",27,\"choices\",1,\"reaction\"]": {
+        "source": "We learn exactly which features cost the most to run. Some get quietly slower.",
+        "target": "Descobrimos exatamente quais atividades consomem mais. Algumas ficam mais lentas."
+      },
+      "[\"marketing\",27,\"choices\",2,\"text\"]": {
+        "source": "Stay on legacy terms while they last",
+        "target": "Manter as condições antigas enquanto durarem"
+      },
+      "[\"marketing\",27,\"choices\",2,\"reaction\"]": {
+        "source": "Grandfathered for now. The clock is ticking and we both know it.",
+        "target": "Condições mantidas por enquanto. O relógio corre e todos sabemos disso."
+      },
+      "[\"marketing\",28,\"intro\"]": {
+        "source": "A prospect read our latest white paper carefully, more carefully than we did. Two of the case studies in it don't exist. The paper was drafted by an LLM, the writer was rushed, and nobody checked before it went out with our logo on it. The prospect's email is polite and devastating.",
+        "target": "Neste cenário fictício, um interessado leu com atenção nosso relatório mais recente, mais atenção do que nós demos. Dois dos casos nele apresentados não existem. O texto foi redigido às pressas por um profissional da equipe e ninguém fez a conferência antes de publicá-lo com nosso nome. O e-mail do interessado é educado e devastador."
+      },
+      "[\"marketing\",28,\"aside\"]": {
+        "source": "There's a word going round for AI-generated work shipped unchecked: botshit. We just published some.",
+        "target": "Publicar um texto sem conferir transforma pressa em problema de confiança. Foi o que aconteceu neste cenário."
+      },
+      "[\"marketing\",28,\"choices\",0,\"text\"]": {
+        "source": "Own it publicly: correct, apologise, explain the new checks",
+        "target": "Assumir em público: corrigir, pedir desculpas e explicar as novas conferências"
+      },
+      "[\"marketing\",28,\"choices\",0,\"reaction\"]": {
+        "source": "Embarrassing for a week. The prospect, oddly, respects it. The checks stick.",
+        "target": "Vergonha por uma semana. O interessado, de forma inesperada, passa a respeitar a gente. As conferências ficam."
+      },
+      "[\"marketing\",28,\"choices\",1,\"text\"]": {
+        "source": "Quietly fix the paper and reply privately",
+        "target": "Corrigir em silêncio e responder em privado"
+      },
+      "[\"marketing\",28,\"choices\",1,\"reaction\"]": {
+        "source": "The page changes without comment. We watch for screenshots.",
+        "target": "A página muda sem comentário. Ficamos de olho nas capturas de tela."
+      },
+      "[\"marketing\",28,\"choices\",2,\"text\"]": {
+        "source": "Pull the paper and say nothing",
+        "target": "Retirar o relatório sem falar nada"
+      },
+      "[\"marketing\",28,\"choices\",2,\"reaction\"]": {
+        "source": "Gone from the website. Not from the prospect's inbox.",
+        "target": "Fora do site. Não da caixa de entrada do interessado."
+      },
+      "[\"marketing\",29,\"intro\"]": {
+        "source": "A customer ran our website through Pangram, an AI-writing detector, and sent us the result with one line: '95% AI-generated. Thought you'd want to know.' Rereading the pages, the tells are everywhere: nothing is ever just X, it's always Y; we delve in every second paragraph; and the dashes—everywhere—like this. Someone on the team drafted the pages with a chatbot and published them unread. They have been live for three weeks.",
+        "target": "No cenário fictício, um cliente aponta que nossos textos publicitários são genéricos, repetitivos e parecem não descrever os produtos ou serviços do negócio. A equipe redigiu as páginas às pressas e publicou sem ler. Elas estão no ar há algumas semanas."
+      },
+      "[\"marketing\",29,\"aside\"]": {
+        "source": "The model writes fluently about nothing, and fluency is exactly what stops anyone checking.",
+        "target": "O texto flui sem dizer nada, e o fluxo é justamente o que impede alguém de conferir."
+      },
+      "[\"marketing\",29,\"choices\",0,\"text\"]": {
+        "source": "Rewrite the pages by hand; rule: nothing publishes unread",
+        "target": "Reescrever as páginas à mão; regra: nada publica sem leitura"
+      },
+      "[\"marketing\",29,\"choices\",0,\"reaction\"]": {
+        "source": "The site reads like people again. The rule outlives the embarrassment.",
+        "target": "O site volta a soar gente de verdade. A regra sobrevive ao constrangimento."
+      },
+      "[\"marketing\",29,\"choices\",1,\"text\"]": {
+        "source": "Fix the worst page, quiet word with the author",
+        "target": "Corrigir a página pior e orientar quem escreveu"
+      },
+      "[\"marketing\",29,\"choices\",1,\"reaction\"]": {
+        "source": "Fixed by Friday. The other pages wait their turn.",
+        "target": "Corrigido até sexta. As outras páginas aguardam a vez."
+      },
+      "[\"marketing\",29,\"choices\",2,\"text\"]": {
+        "source": "Leave it, customers don't read websites",
+        "target": "Deixar como está, ninguém lê site"
+      },
+      "[\"marketing\",29,\"choices\",2,\"reaction\"]": {
+        "source": "The email gets no reply. The customer forwards the page to their team, for laughs.",
+        "target": "O e-mail fica sem resposta. O cliente repassa a página à própria equipe, para dar risada."
+      },
+      "[\"marketing\",30,\"intro\"]": {
+        "source": "An email from a growth agency: for a fee per star, they will have our GitHub repository starred by 'real, aged accounts'. A few hundred stars in a fortnight, 'the way plenty of funded startups do it'. Investors do look at stars. So, lately, do the researchers hunting fake ones.",
+        "target": "No cenário fictício, uma agência oferece elogios inventados para melhorar a aparência pública do negócio mediante pagamento. Quem compara fornecedores pode notar os elogios, mas também pode perceber que a atenção foi fabricada."
+      },
+      "[\"marketing\",30,\"aside\"]": {
+        "source": "A star is valuable because it is freely given. Buying one is counterfeiting, in a currency everyone pretends not to check.",
+        "target": "Um elogio vale porque é dado livremente. Comprar um é falsificação, numa moeda que todos fingem não conferir."
+      },
+      "[\"marketing\",30,\"choices\",0,\"text\"]": {
+        "source": "Delete the email, earn stars with releases",
+        "target": "Recusar e reconquistar os elogios com boas entregas"
+      },
+      "[\"marketing\",30,\"choices\",0,\"reaction\"]": {
+        "source": "Slower. Each star arrives attached to an actual person.",
+        "target": "O reconhecimento cresce mais devagar, apoiado nas entregas do cenário em vez de elogios comprados."
+      },
+      "[\"marketing\",30,\"choices\",1,\"text\"]": {
+        "source": "Decline, and post the email publicly",
+        "target": "Recusar e expor a proposta publicamente"
+      },
+      "[\"marketing\",30,\"choices\",1,\"reaction\"]": {
+        "source": "The thread does well. Two other founders admit they were tempted.",
+        "target": "A publicação circula. Outras duas pessoas do ramo admitem que foram tentadas."
+      },
+      "[\"marketing\",30,\"choices\",2,\"text\"]": {
+        "source": "Buy a modest number, just to seed it",
+        "target": "Aceitar alguns elogios inventados, só para começar"
+      },
+      "[\"marketing\",30,\"choices\",2,\"reaction\"]": {
+        "source": "The graph jumps on a Tuesday. Anyone who looks closely can see it jumped on a Tuesday.",
+        "target": "O gráfico salta numa terça-feira. Quem olhar de perto vê o salto e passa a desconfiar."
+      },
+      "[\"marketing\",31,\"intro\"]": {
+        "source": "Our website offers a free demo. Someone has been running it flat out: hundreds of visits, every one a machine, all tracing back to one of our competitors. Their AI agent has been working through the demo again and again, noting our features, our prices and our weak spots. Every run costs us money. We are paying to teach them our own product.",
+        "target": "Num cenário fictício, um concorrente mandou representantes solicitarem demonstrações do nosso atendimento e da nossa entrega, repetidas vezes. A preparação consome a equipe e o material exposto é amplo. Todos os cenários são inventados, sem registros pessoais, e cada preparação custa tempo da equipe."
+      },
+      "[\"marketing\",31,\"aside\"]": {
+        "source": "They did not break in. We left the door open and called it marketing.",
+        "target": "Não invadiram. Deixamos a porta aberta e chamamos de divulgação."
+      },
+      "[\"marketing\",31,\"choices\",0,\"text\"]": {
+        "source": "Rebuild the demo to show only what we want: every visiting agent reports back something good",
+        "target": "Reorganizar a demonstração com foco nos esclarecimentos que queremos apresentar"
+      },
+      "[\"marketing\",31,\"choices\",0,\"reaction\"]": {
+        "source": "Their agent now returns carrying only praise. So does every other machine that visits.",
+        "target": "A equipe mantém o controle do que aparece na apresentação e a preparação volta a caber na rotina."
+      },
+      "[\"marketing\",31,\"choices\",1,\"text\"]": {
+        "source": "Let their agent keep visiting, but choose what it sees",
+        "target": "Manter as visitas, escolhendo material público pertinente"
+      },
+      "[\"marketing\",31,\"choices\",1,\"reaction\"]": {
+        "source": "It now reports what we want it to. Its questions tell us what they fear.",
+        "target": "As visitas continuam, mas mostramos apenas os materiais públicos pertinentes. As perguntas revelam o que chama a atenção de quem compara ofertas."
+      },
+      "[\"marketing\",31,\"choices\",2,\"text\"]": {
+        "source": "Demo by appointment only, humans only",
+        "target": "Demonstração somente agendada"
+      },
+      "[\"marketing\",31,\"choices\",2,\"reaction\"]": {
+        "source": "The snooping stops. So do the walk-in customers.",
+        "target": "As visitas caem. Quem precisa de resposta imediata procura outro fornecedor."
+      },
+      "[\"marketing\",31,\"choices\",3,\"text\"]": {
+        "source": "Leave the door open",
+        "target": "Manter tudo aberto"
+      },
+      "[\"marketing\",31,\"choices\",3,\"reaction\"]": {
+        "source": "Weeks later their new release has a feature that looks oddly familiar.",
+        "target": "Continuamos expondo todos os materiais. O concorrente pode aprender com nossa organização sem colaborar."
+      },
+      "[\"marketing\",32,\"intro\"]": {
+        "source": "Customers used to find us through a search engine. Now many just ask a chatbot what to buy, and it answers from whatever it has read about us. One of our staff wants to rewrite the website as plain, simple statements: what we sell, what it costs, who it is for, so the chatbots describe us accurately. Whatever we write, they will repeat it word for word.",
+        "target": "No cenário fictício, as informações do negócio circulam em guias do bairro preparados por organizadores. A equipe propõe descrever as ofertas, o público e os limites com clareza. Isso pode ajudar, mas não controlamos como serão resumidos."
+      },
+      "[\"marketing\",32,\"aside\"]": {
+        "source": "Websites used to be written to charm people. Now they are written to be quoted by machines.",
+        "target": "Antigamente o site era escrito para conquistar pessoas. Hoje é escrito para ser citado nos resumos."
+      },
+      "[\"marketing\",32,\"choices\",0,\"text\"]": {
+        "source": "Rewrite the whole site, for chatbots and people both",
+        "target": "Reescrever todo o material, para os resumos e para as pessoas"
+      },
+      "[\"marketing\",32,\"choices\",0,\"reaction\"]": {
+        "source": "Within a month a chatbot recommends us to a buyer, word for word from our own page.",
+        "target": "O guia fictício apresenta melhor nossas ofertas. A clareza aumenta, mas ainda precisamos conferir como o material foi resumido."
+      },
+      "[\"marketing\",32,\"choices\",1,\"text\"]": {
+        "source": "Add a plain summary page for the chatbots to read",
+        "target": "Criar uma página de resumo simples"
+      },
+      "[\"marketing\",32,\"choices\",1,\"reaction\"]": {
+        "source": "Cheap and quick. The chatbots now describe us accurately, which is new.",
+        "target": "Barato e rápido. Os resumos passam a descrever a oferta com mais precisão."
+      },
+      "[\"marketing\",32,\"choices\",2,\"text\"]": {
+        "source": "Keep the site as it is",
+        "target": "Manter tudo atual como está"
+      },
+      "[\"marketing\",32,\"choices\",2,\"reaction\"]": {
+        "source": "The chatbots keep repeating a competitor's comparison chart instead.",
+        "target": "Os guias seguem com a versão antiga e a comparação fica difícil."
+      },
+      "[\"marketing\",33,\"intro\"]": {
+        "source": "Our website needs to tell us how it is doing. The standard way is tracking cookies: who visits, where they came from, what they tried, whether they returned. But the UK GDPR, the law on how organisations must handle people's personal data, says we need permission first, with a consent banner, and rejecting must be as easy as accepting. The Information Commissioner's Office, the regulator that enforces it, has been writing to websites that get this wrong. The alternative is cookie-free counting: no banner to annoy anyone, but only rough numbers, visits rather than visitors.",
+        "target": "Um ensaio administrativo fictício avalia a divulgação do negócio usando somente números e relatos simulados, sem registros pessoais. Rever exemplos detalhados exige mais esforço da equipe; contar apenas totais oferece uma visão aproximada."
+      },
+      "[\"marketing\",33,\"aside\"]": {
+        "source": "The more we want to know about our users, the more permission we need to know it.",
+        "target": "Quanto mais detalhe quisermos sobre o próprio impacto, mais conferência precisamos para acreditar nele."
+      },
+      "[\"marketing\",33,\"choices\",0,\"text\"]": {
+        "source": "Full tracking, done properly: banner, consent, records kept",
+        "target": "Revisar o registro administrativo detalhado dos cenários fictícios"
+      },
+      "[\"marketing\",33,\"choices\",0,\"reaction\"]": {
+        "source": "Half the visitors click reject. The half who accept teach us a great deal.",
+        "target": "Custa esforço da equipe, mas o registro aguenta leitura e as contagens simples continuam aproximadas."
+      },
+      "[\"marketing\",33,\"choices\",1,\"text\"]": {
+        "source": "Cookie-free counting only",
+        "target": "Contar apenas os totais simulados"
+      },
+      "[\"marketing\",33,\"choices\",1,\"reaction\"]": {
+        "source": "No banner, cleaner site. We know how many came, never who.",
+        "target": "A contagem é rápida e ajuda a enxergar o conjunto. Os detalhes dos exemplos ficam de fora."
+      },
+      "[\"marketing\",33,\"choices\",2,\"text\"]": {
+        "source": "Add the tracking, skip the banner for now",
+        "target": "Usar registros inventados detalhados, sem conferência"
+      },
+      "[\"marketing\",33,\"choices\",2,\"reaction\"]": {
+        "source": "Rich data, no permission. A visitor complains to the Information Commissioner's Office. Now we have a pen pal.",
+        "target": "Os números batem por acaso. É um erro: não confiável, precisa de revisão."
+      }
+    }
+  }
+}

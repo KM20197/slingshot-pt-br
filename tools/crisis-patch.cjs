@@ -8,6 +8,7 @@ function apply(html){
   body=once(body,'    this.closeAllModals();','    SlingshotContinuingCredit.close();\n    this.closeAllModals();');
   body=once(body,'    const bridgeTerms = Math.min(30, 18 + Math.floor(Math.random() * 12)); // 18-30% dilution','    // Condições didáticas de crédito emergencial aprovadas para a edição brasileira.');
   body=once(body,'    this._crisisBridgeTerms = bridgeTerms; // resolveCrisis must charge the terms SHOWN, not re-roll','    this.brCrisisOffer = SlingshotCrisisCredit.quote(bridgeAmount, this.turn);');
+  body=once(body,'    const layoffSavings = Math.min(this.hiredStaff.length, 2) * 25; // £25k per person\n    const canLayoff = this.hiredStaff.length > 0;','    const operationalReduction = typeof SlingshotPeopleContracts !== "undefined" && SlingshotPeopleContracts.enabled(this) && this.brBusiness;\n    const operationalState = operationalReduction ? this.brBusiness : null;\n    const operationalModel = operationalReduction ? SlingshotPeopleContracts.data().businesses[this.company.id] : null;\n    const layoffSavings = operationalReduction ? (operationalState.employees.crew > 0 ? operationalModel.crew.quarterlyCostEach : 0) + (operationalState.contracts.accounting ? operationalModel.contracts.accounting.quarterlyCost : 0) + (operationalState.contracts.marketing ? operationalModel.contracts.marketing.quarterlyCost : 0) : Math.min(this.hiredStaff.length, 2) * 25;\n    const canLayoff = operationalReduction ? SlingshotPeopleContracts.canEmergencyReduce(this) : this.hiredStaff.length > 0;');
   body=once(body,'class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl"','class="bg-white rounded-2xl max-w-lg w-full overflow-hidden shadow-2xl" style="max-height:calc(100vh - 2rem);overflow-y:auto"');
   const texts={
    'Complete M1 first':'Conclua o primeiro marco', 'No pivots remaining':'Mudanças de direção esgotadas',
@@ -53,6 +54,22 @@ function apply(html){
         break;
 
 `+body.slice(end);
+  const layoffsStart=body.indexOf("      case 'layoffs':"),pivotStart=body.indexOf("      case 'pivot':",layoffsStart);
+  if(layoffsStart<0||pivotStart<0)throw new Error('Ramo de redução emergencial ausente.');
+  const legacy=body.slice(layoffsStart,pivotStart);
+  const replacement=`      case 'layoffs':
+        if (typeof SlingshotPeopleContracts !== 'undefined' && SlingshotPeopleContracts.enabled(this) && this.brBusiness) {
+          const reduction = SlingshotPeopleContracts.emergencyReduce(this);
+          this.metrics.cash += 50;
+          this.log('✂️ Redução emergencial: ' + reduction.changes.join(', ') + '. ' + SlingshotCrisisCredit.money(50) + ' liberados; despesa −' + SlingshotCrisisCredit.money(reduction.saved) + '/trimestre.');
+          UIEffects.showToast('Redução emergencial registrada', 'bad', '✂️');
+          this.journeyEvents.push({turn: this.turn, type: 'crisis_reduction', desc: 'Redução emergencial de equipe e contratos operacionais.'});
+          break;
+        }
+${legacy}        break;
+
+`;
+  body=body.slice(0,layoffsStart)+replacement+body.slice(pivotStart);
   return body;
  });
  return html;

@@ -1,0 +1,647 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de acordos, cooperação, comunicação e transições de responsabilidades, sem criar regras ou garantias jurídicas.",
+    "strings": {
+      "[\"hr\",\"david\",0,\"intro\"]": {
+        "source": "We've grown without updating policies. Inconsistencies in how managers handle things. Creating resentment.",
+        "target": "Crescemos sem revisar os acordos de rotina. Cada responsável passou a resolver situações parecidas de um jeito, e essas diferenças estão causando ressentimento na equipe."
+      },
+      "[\"hr\",\"david\",0,\"aside\"]": {
+        "source": "Not bureaucracy. Preventing lawsuits and unfairness.",
+        "target": "Quero combinar critérios claros com as pessoas. Não se trata de preencher papel por preencher, mas de reduzir decisões arbitrárias no trabalho."
+      },
+      "[\"hr\",\"david\",0,\"choices\",0,\"text\"]": {
+        "source": "Proper policy refresh with input",
+        "target": "Revisar os acordos com a participação da equipe"
+      },
+      "[\"hr\",\"david\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Draft something fair. Get buy-in.",
+        "target": "Vamos construir orientações compreensíveis e ouvir quem precisa colocá-las em prática."
+      },
+      "[\"hr\",\"david\",0,\"choices\",1,\"text\"]": {
+        "source": "Quick fixes to urgent gaps",
+        "target": "Corrigir primeiro as lacunas mais urgentes"
+      },
+      "[\"hr\",\"david\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Not ideal. Prioritise what's risky.",
+        "target": "A revisão fica incompleta, mas começamos pelos pontos que mais atrapalham a convivência e a organização."
+      },
+      "[\"hr\",\"david\",0,\"choices\",2,\"text\"]": {
+        "source": "Stay informal—we're small",
+        "target": "Manter os combinados informais por enquanto"
+      },
+      "[\"hr\",\"david\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Move fast. No bureaucracy.",
+        "target": "Seguimos com decisões próximas da rotina, sem preparar uma revisão mais ampla agora."
+      },
+      "[\"hr\",\"david\",1,\"intro\"]": {
+        "source": "We need to set up a proper way for employees to own shares in the company. There's a government-approved scheme that gives big tax savings, but it's complicated and expensive to set up properly. The simpler option costs employees more in tax when they eventually sell.",
+        "target": "Precisamos esclarecer como as contribuições de cada pessoa serão reconhecidas na organização do trabalho. Um acordo detalhado exige mais preparação e custa mais para organizar; uma versão simples sai antes, mas deixa dúvidas sobre os critérios."
+      },
+      "[\"hr\",\"david\",1,\"aside\"]": {
+        "source": "People join startups partly hoping for a big payout if things go well. Getting the share scheme right helps us keep our best people.",
+        "target": "Quem chega quer entender como poderá contribuir e assumir responsabilidades. Explicar os critérios pode ajudar a equipe a fazer planos, sem prometer pagamentos ou participação no negócio."
+      },
+      "[\"hr\",\"david\",1,\"choices\",0,\"text\"]": {
+        "source": "Set up the tax-efficient scheme properly",
+        "target": "Preparar um acordo detalhado sobre contribuições e responsabilidades"
+      },
+      "[\"hr\",\"david\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Worth the investment. Employees benefit.",
+        "target": "O esforço maior de organização permite explicar melhor os critérios e como serão discutidos com a equipe."
+      },
+      "[\"hr\",\"david\",1,\"choices\",1,\"text\"]": {
+        "source": "Use the simpler but less tax-friendly option",
+        "target": "Adotar um acordo mais simples para começar"
+      },
+      "[\"hr\",\"david\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Faster to set up, but employees pay more tax.",
+        "target": "Conseguimos organizar o básico mais cedo, mas ainda haverá dúvidas sobre o reconhecimento das contribuições."
+      },
+      "[\"hr\",\"david\",1,\"choices\",2,\"text\"]": {
+        "source": "Put off the equity discussion for now",
+        "target": "Adiar a conversa sobre reconhecimento das contribuições"
+      },
+      "[\"hr\",\"david\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on product first. Deal with it later.",
+        "target": "A preparação do atendimento vem primeiro. A equipe ainda terá de esperar pela conversa sobre os critérios."
+      },
+      "[\"hr\",\"david\",2,\"intro\"]": {
+        "source": "Our marketing lead promised a prospect that the new accuracy numbers would hold in their pilot, starting next month. Our research lead says those numbers came from a clean benchmark, not the prospect's messy data, and refuses to stand behind them. They had it out in front of the whole team on Tuesday, and since then everything between their two worlds crosses my desk instead. Both are right, which is the problem.",
+        "target": "A pessoa responsável pela divulgação prometeu a um possível cliente que os resultados apresentados valeriam no atendimento experimental do mês seguinte. Quem prepara o atendimento diz que os números vieram de uma simulação organizada e não representam a rotina desse cliente. Os dois discutiram diante da equipe na terça-feira; desde então, toda conversa entre eles passa por mim."
+      },
+      "[\"hr\",\"david\",2,\"aside\"]": {
+        "source": "Each is defending exactly the thing we hired them to defend.",
+        "target": "Uma pessoa defende a oferta feita ao cliente; a outra, os limites do que conseguimos entregar. Precisamos transformar essa diferença em uma proposta que ambas possam explicar."
+      },
+      "[\"hr\",\"david\",2,\"choices\",0,\"text\"]": {
+        "source": "Get them in a room with the pilot data, and stay until the claim is rewritten together",
+        "target": "Reunir os responsáveis com o caso do cliente e reescrever a proposta juntos"
+      },
+      "[\"hr\",\"david\",2,\"choices\",0,\"reaction\"]": {
+        "source": "The claim that comes out is smaller and true. They wrote it together, which matters more.",
+        "target": "A promessa ficou mais modesta e mais fiel ao que podemos preparar. Os dois participaram da redação e agora conseguem apresentá-la juntos."
+      },
+      "[\"hr\",\"david\",2,\"choices\",1,\"text\"]": {
+        "source": "Rule it yourself: the pilot goes ahead, with caveats",
+        "target": "Decidir pela continuidade do atendimento experimental, com ressalvas"
+      },
+      "[\"hr\",\"david\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Settled by decree. The argument goes quiet rather than away.",
+        "target": "A decisão foi imposta e o conflito ficou silencioso. As ressalvas delimitam a oferta, mas a divergência entre os responsáveis continua."
+      },
+      "[\"hr\",\"david\",2,\"choices\",2,\"text\"]": {
+        "source": "Leave them to sort it out between themselves",
+        "target": "Deixar os responsáveis resolverem a divergência entre si"
+      },
+      "[\"hr\",\"david\",2,\"choices\",2,\"reaction\"]": {
+        "source": "A truce of sorts. The pilot starts a fortnight late.",
+        "target": "Chegaram a um entendimento provisório. O atendimento experimental começa com duas semanas de atraso."
+      },
+      "[\"hr\",\"david\",3,\"intro\"]": {
+        "source": "You realise you give your product lead written feedback every quarter and the others a thumbs-up in the corridor. The difference is starting to show in how they work. One gets written feedback every quarter; the other hasn't had a review since she joined. It's starting to show in pay and promotions.",
+        "target": "Percebi que uma pessoa recebe retorno escrito trimestral sobre seu trabalho, enquanto outras recebem apenas um comentário de passagem. Há quem não tenha uma conversa de avaliação desde que entrou. A diferença já aparece no reconhecimento e na distribuição de responsabilidades."
+      },
+      "[\"hr\",\"david\",3,\"aside\"]": {
+        "source": "Fair feedback helps everyone improve. Inconsistency breeds resentment.",
+        "target": "Um retorno claro pode orientar melhorias. Quando a atenção depende de quem coordena cada pessoa, a equipe começa a perceber tratamento desigual."
+      },
+      "[\"hr\",\"david\",3,\"choices\",0,\"text\"]": {
+        "source": "Standardised review process",
+        "target": "Organizar um processo comum de avaliação e retorno"
+      },
+      "[\"hr\",\"david\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Clear expectations for everyone.",
+        "target": "As expectativas ficam mais claras e todos passam a ter uma referência para conversar sobre o trabalho."
+      },
+      "[\"hr\",\"david\",3,\"choices\",1,\"text\"]": {
+        "source": "Light framework, manager discretion",
+        "target": "Criar orientações leves, com espaço para cada responsável decidir"
+      },
+      "[\"hr\",\"david\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Guidance without bureaucracy.",
+        "target": "Oferecemos uma referência comum, sem tentar transformar todas as conversas em um procedimento detalhado."
+      },
+      "[\"hr\",\"david\",3,\"choices\",2,\"text\"]": {
+        "source": "Trust managers to handle it",
+        "target": "Confiar aos responsáveis a organização dessas conversas"
+      },
+      "[\"hr\",\"david\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Let managers manage. Build their skills.",
+        "target": "Cada responsável continua conduzindo os retornos e precisa desenvolver sua capacidade de orientar a equipe."
+      },
+      "[\"hr\",\"david\",4,\"intro\"]": {
+        "source": "We need to decide what employees can say publicly about their work. Some companies require all external communication to be pre-approved. Others let people tweet freely. Engineers want to share what they're building; our lawyers worry about accidental disclosure.",
+        "target": "Precisamos combinar o que as pessoas podem contar publicamente sobre o trabalho. Algumas querem compartilhar o que estão preparando; outras se preocupam com a exposição de rotinas e planos ainda não anunciados. Exigir autorização para tudo e oferecer orientações gerais são caminhos diferentes."
+      },
+      "[\"hr\",\"david\",4,\"aside\"]": {
+        "source": "Overly restrictive policies kill morale and hurt recruiting. But one careless tweet can reveal product plans or create legal problems.",
+        "target": "Controle excessivo pode desanimar a equipe. Ao mesmo tempo, um relato sem cuidado pode expor planos que ainda não estávamos prontos para apresentar."
+      },
+      "[\"hr\",\"david\",4,\"choices\",0,\"text\"]": {
+        "source": "Strict approval for anything work-related",
+        "target": "Exigir autorização prévia para qualquer relato sobre o trabalho"
+      },
+      "[\"hr\",\"david\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Maximum control. Engineers frustrated. Slower recruiting.",
+        "target": "O controle amplo protege parte da preparação, mas causa desgaste da cooperação e desânimo na equipe. A aproximação com novas pessoas também fica mais difícil."
+      },
+      "[\"hr\",\"david\",4,\"choices\",1,\"text\"]": {
+        "source": "Guidelines with common-sense rules",
+        "target": "Combinar orientações claras e limites compreensíveis"
+      },
+      "[\"hr\",\"david\",4,\"choices\",1,\"reaction\"]": {
+        "source": "Balance freedom with awareness. Most people will be sensible.",
+        "target": "Buscamos equilibrar autonomia e cuidado com o que é compartilhado, sem depender de autorização para cada comentário."
+      },
+      "[\"hr\",\"david\",4,\"choices\",2,\"text\"]": {
+        "source": "Trust people—we hired adults",
+        "target": "Confiar no julgamento das pessoas da equipe"
+      },
+      "[\"hr\",\"david\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Maximum freedom. Adults deliver.",
+        "target": "A equipe mantém bastante liberdade para contar sua experiência. Essa escolha depende do cuidado de cada pessoa."
+      },
+      "[\"hr\",\"david\",5,\"intro\"]": {
+        "source": "An employee has been posting detailed technical content on their personal blog—debugging stories, architectural decisions, and lessons learned. It's great for their personal brand and our recruiting, but some posts come close to revealing proprietary approaches.",
+        "target": "Uma pessoa da equipe vem publicando relatos detalhados sobre sua experiência de trabalho em um espaço pessoal. Conta dificuldades resolvidas, decisões sobre a rotina e lições aprendidas. Os relatos aproximam interessados do negócio, mas alguns quase expõem métodos que usamos para organizar o atendimento."
+      },
+      "[\"hr\",\"david\",5,\"aside\"]": {
+        "source": "Technical blogging attracts talent and builds reputation. But there's a fine line between 'sharing knowledge' and 'documenting our competitive advantage for everyone to read'.",
+        "target": "Compartilhar experiências pode construir reputação e atrair pessoas. Precisamos distinguir uma conversa útil sobre o trabalho da exposição de detalhes que ainda queremos cuidar internamente."
+      },
+      "[\"hr\",\"david\",5,\"choices\",0,\"text\"]": {
+        "source": "Ask them to run posts by us first",
+        "target": "Pedir uma conversa prévia antes de publicar novos relatos"
+      },
+      "[\"hr\",\"david\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Content improves and stays safe. They feel micromanaged.",
+        "target": "Conseguimos revisar os detalhes e preparar relatos mais cuidadosos. A pessoa sente que estamos acompanhando suas decisões de perto demais."
+      },
+      "[\"hr\",\"david\",5,\"choices\",1,\"text\"]": {
+        "source": "Have a conversation about boundaries",
+        "target": "Conversar sobre os limites e confiar na aplicação deles"
+      },
+      "[\"hr\",\"david\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Trust-based approach. Depends on their judgment.",
+        "target": "A conversa preserva a autonomia e esclarece as preocupações. O cuidado com cada relato continua dependendo do julgamento da pessoa."
+      },
+      "[\"hr\",\"david\",5,\"choices\",2,\"text\"]": {
+        "source": "Ask them to stop blogging about work",
+        "target": "Pedir que interrompa os relatos sobre o trabalho"
+      },
+      "[\"hr\",\"david\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Protect IP. Clear boundaries.",
+        "target": "Definimos um limite claro para os detalhes da rotina que serão compartilhados."
+      },
+      "[\"hr\",\"david\",6,\"intro\"]": {
+        "source": "A departing employee has accepted a job at a competitor. During their notice period, they still have access to our systems, attend meetings, and hear about upcoming plans. Standard practice is to work the notice period, but there's obvious risk.",
+        "target": "Uma pessoa que vai sair aceitou trabalhar em outro empreendimento que atende o mesmo público. Durante a transição, ainda participa de reuniões e conhece nossos próximos planos. Precisamos decidir como organizar a passagem das tarefas e o acesso a essas conversas."
+      },
+      "[\"hr\",\"david\",6,\"aside\"]": {
+        "source": "Garden leave—paying them to stay home—is expensive but prevents knowledge transfer. Working notice periods are normal but create a strange situation.",
+        "target": "Dispensar sua participação durante a passagem das tarefas exige esforço e gasto adicionais para reorganizar o trabalho. Manter a rotina habitual permite uma transição mais próxima, mas também mantém a pessoa por dentro dos planos."
+      },
+      "[\"hr\",\"david\",6,\"choices\",0,\"text\"]": {
+        "source": "Garden leave—pay them to stay home",
+        "target": "Dispensar a participação e reorganizar a passagem das tarefas"
+      },
+      "[\"hr\",\"david\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Clean separation. Expensive but no access risk.",
+        "target": "Reduzimos a participação nas conversas sobre os planos. Tivemos uma perda adicional de caixa, além do custo da ação, para organizar essa transição."
+      },
+      "[\"hr\",\"david\",6,\"choices\",1,\"text\"]": {
+        "source": "Restricted access, limited to handover",
+        "target": "Limitar o acesso ao que for necessário para passar as tarefas"
+      },
+      "[\"hr\",\"david\",6,\"choices\",1,\"reaction\"]": {
+        "source": "Partial protection. Slightly awkward.",
+        "target": "Cuidamos dos planos e mantemos uma passagem de tarefas mais restrita. A convivência fica um pouco desconfortável."
+      },
+      "[\"hr\",\"david\",6,\"choices\",2,\"text\"]": {
+        "source": "Normal notice period",
+        "target": "Manter a participação habitual durante a transição"
+      },
+      "[\"hr\",\"david\",6,\"choices\",2,\"reaction\"]": {
+        "source": "Fair process. Professional transition.",
+        "target": "A pessoa continua trabalhando com a equipe enquanto passa suas tarefas. Confiamos numa transição profissional, com o acesso habitual às conversas."
+      },
+      "[\"hr\",\"david\",7,\"intro\"]": {
+        "source": "We're updating our employment contracts. The legal team wants to add a clause requiring employees to assign all inventions to the company—including things they create in their own time if it's 'related to company business'. Engineers hate these clauses.",
+        "target": "Estamos revendo os acordos sobre métodos e atividades preparados durante o trabalho. Há quem queira submeter também atividades pessoais parecidas a um controle amplo do negócio. A equipe considera que isso avança sobre o que cada pessoa faz fora da rotina combinada."
+      },
+      "[\"hr\",\"david\",7,\"aside\"]": {
+        "source": "IP assignment clauses protect the company but can feel overreaching. Top talent often has side projects and might reject offers with broad assignment clauses.",
+        "target": "Cuidar dos métodos usados no trabalho não é o mesmo que controlar toda atividade pessoal. Pessoas experientes podem recusar uma aproximação se perceberem que não há um limite compreensível."
+      },
+      "[\"hr\",\"david\",7,\"choices\",0,\"text\"]": {
+        "source": "Broad assignment clause—protect everything",
+        "target": "Exigir controle amplo sobre atividades relacionadas à nossa rotina"
+      },
+      "[\"hr\",\"david\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Maximum legal protection. Some candidates will decline.",
+        "target": "O controle amplo ajuda a concentrar a preparação, mas causa forte desgaste da cooperação e desânimo na equipe. Algumas pessoas preferem não se aproximar do negócio."
+      },
+      "[\"hr\",\"david\",7,\"choices\",1,\"text\"]": {
+        "source": "Work-time and work-resources only",
+        "target": "Limitar os acordos ao tempo e aos recursos usados no trabalho"
+      },
+      "[\"hr\",\"david\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Reasonable boundary. Personal projects stay personal.",
+        "target": "A equipe reconhece um limite mais compreensível. As atividades pessoais continuam separadas da rotina e dos recursos do negócio."
+      },
+      "[\"hr\",\"david\",7,\"choices\",2,\"text\"]": {
+        "source": "Case-by-case for senior hires",
+        "target": "Conversar individualmente com as pessoas mais experientes"
+      },
+      "[\"hr\",\"david\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Flexible but inconsistent. Some negotiation on each offer.",
+        "target": "Ganhamos flexibilidade, mas os acordos podem ficar diferentes entre as pessoas. Cada aproximação exige uma conversa própria."
+      },
+      "[\"hr\",\"david\",8,\"intro\"]": {
+        "source": "The Immigration Authority wants to audit our sponsor licence. As a visa sponsor, we're required to keep meticulous records—copies of passports, attendance monitoring, contact details, and we must report within 10 days if a sponsored employee stops coming to work, changes role, or leaves. Our record-keeping has been... informal. We have two weeks to prepare.",
+        "target": "Uma revisão interna fictícia vai conferir nossos registros de atividades e responsabilidades. O combinado era anotar mudanças em até dez dias, mas a organização desses registros foi informal. Temos duas semanas para preparar a revisão e explicar as lacunas sem inventar informações."
+      },
+      "[\"hr\",\"david\",8,\"aside\"]": {
+        "source": "Sponsor licence compliance is serious. Failed audits can mean losing the licence, which would mean all your sponsored employees losing their right to work. The Immigration Authority isn't forgiving about sloppy paperwork.",
+        "target": "A revisão serve para entender quem acompanha cada atividade e onde os registros ficaram desatualizados. Se não esclarecermos as lacunas, o acompanhamento interno pode ficar prejudicado; não se trata de uma fiscalização pública."
+      },
+      "[\"hr\",\"david\",8,\"choices\",0,\"text\"]": {
+        "source": "Emergency audit prep—get everything in order",
+        "target": "Concentrar a equipe na preparação dos registros para a revisão"
+      },
+      "[\"hr\",\"david\",8,\"choices\",0,\"reaction\"]": {
+        "source": "All hands on deck. Find the gaps, fix them fast.",
+        "target": "Encontramos as lacunas e organizamos o que está disponível. Ao deslocar esse esforço, perdemos parte da preparação do atendimento."
+      },
+      "[\"hr\",\"david\",8,\"choices\",1,\"text\"]": {
+        "source": "Hire immigration consultants to help",
+        "target": "Buscar apoio externo para organizar a revisão interna"
+      },
+      "[\"hr\",\"david\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Expensive but they know exactly what auditors look for.",
+        "target": "O apoio ajuda a conferir os registros. Tivemos uma perda adicional de caixa, além do custo da ação, com esse esforço de organização."
+      },
+      "[\"hr\",\"david\",8,\"choices\",2,\"text\"]": {
+        "source": "Do our best with what we have",
+        "target": "Preparar a revisão apenas com os registros disponíveis"
+      },
+      "[\"hr\",\"david\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Make it work. Resourceful approach.",
+        "target": "Usamos o que conseguimos reunir e explicamos as limitações. Não há garantia de que todas as lacunas serão esclarecidas."
+      },
+      "[\"hr\",\"david\",9,\"intro\"]": {
+        "source": "Our sponsored data scientist has handed in his notice—he's moving to a competitor. Under visa rules, we must report this to the Immigration Authority within 10 working days, which will trigger curtailment of his visa. He's asked us to delay reporting so he has more time to get his new sponsor lined up. Technically, not reporting on time puts our licence at risk.",
+        "target": "Uma pessoa avisou que vai sair para trabalhar em outro empreendimento. Nosso combinado interno fictício pede que a saída seja anotada em até dez dias úteis. Ela quer adiar esse registro para ter mais tempo de organizar a nova responsabilidade; adiar pode deixar as datas dos nossos registros inconsistentes."
+      },
+      "[\"hr\",\"david\",9,\"aside\"]": {
+        "source": "The reporting rules exist so the Immigration Authority knows where sponsored workers are. But they create an awkward situation when someone leaves—the departing employee wants flexibility, the company needs to protect its licence.",
+        "target": "A pessoa pede flexibilidade para a transição, enquanto a equipe precisa saber quais tarefas continuarão sob sua responsabilidade. Estamos discutindo a organização de registros fictícios, sem qualquer prazo definido por uma autoridade."
+      },
+      "[\"hr\",\"david\",9,\"choices\",0,\"text\"]": {
+        "source": "Report on time—protect our licence",
+        "target": "Anotar a saída no prazo do combinado interno"
+      },
+      "[\"hr\",\"david\",9,\"choices\",0,\"reaction\"]": {
+        "source": "By the book. He'll have 60 days to find a new sponsor or leave.",
+        "target": "Seguimos o combinado e esclarecemos as tarefas. Na situação narrada, a pessoa terá sessenta dias para organizar a transição e sua próxima responsabilidade."
+      },
+      "[\"hr\",\"david\",9,\"choices\",1,\"text\"]": {
+        "source": "Delay a few days to help him transition",
+        "target": "Adiar o registro por poucos dias para facilitar a transição"
+      },
+      "[\"hr\",\"david\",9,\"choices\",1,\"reaction\"]": {
+        "source": "Human gesture. Loyalty earned.",
+        "target": "A pessoa percebe o apoio e agradece a flexibilidade. Ainda precisamos manter claro quando cada responsabilidade mudou."
+      },
+      "[\"hr\",\"david\",9,\"choices\",2,\"text\"]": {
+        "source": "Wait until absolutely required—give him maximum time",
+        "target": "Adiar o registro até o limite do combinado"
+      },
+      "[\"hr\",\"david\",9,\"choices\",2,\"reaction\"]": {
+        "source": "He's grateful. If anyone official ever asks, the dates will be awkward.",
+        "target": "A pessoa agradece o tempo adicional. Se alguém conferir os registros depois, será mais difícil explicar a diferença entre as datas e a passagem real das tarefas."
+      },
+      "[\"hr\",\"david\",10,\"intro\"]": {
+        "source": "We want to promote a sponsored employee from Developer to Tech Lead. Under Skilled Worker rules, significant role changes require notifying the Immigration Authority and sometimes a new visa application. The bureaucracy might take months and cost another few thousand pounds, during which her status is uncertain. Or we could keep her job title technically the same and just give her more responsibility.",
+        "target": "Queremos que uma pessoa passe da execução do atendimento para a coordenação da rotina. Os acordos e o papel registrado ainda descrevem a função anterior. A reorganização fictícia pode levar meses e custar alguns milhares de libras na situação narrada. Outra possibilidade é ampliar suas responsabilidades sem mudar o nome registrado para o papel."
+      },
+      "[\"hr\",\"david\",10,\"aside\"]": {
+        "source": "Visa categories are rigid; careers are fluid. Many companies quietly stretch job descriptions to avoid constant visa updates. It's technically non-compliant but extremely common.",
+        "target": "As responsabilidades podem mudar antes de os registros acompanharem a rotina. Adiar a atualização economiza trabalho imediato, mas mantém uma diferença que precisaremos explicar; o relato não define uma regra para cargos ou documentos reais."
+      },
+      "[\"hr\",\"david\",10,\"choices\",0,\"text\"]": {
+        "source": "Do it properly—new visa application",
+        "target": "Reorganizar os acordos e atualizar o papel registrado agora"
+      },
+      "[\"hr\",\"david\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Expensive and slow, but fully compliant. She deserves the real title.",
+        "target": "Reconhecemos a coordenação de forma clara nos registros. Tivemos uma perda adicional de caixa, além do custo da ação, para preparar essa reorganização."
+      },
+      "[\"hr\",\"david\",10,\"choices\",1,\"text\"]": {
+        "source": "Expand responsibilities without changing title",
+        "target": "Ampliar as responsabilidades mantendo o nome registrado"
+      },
+      "[\"hr\",\"david\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Common workaround. Not entirely kosher. Probably fine.",
+        "target": "A rotina muda, mas o registro continua descrevendo o papel anterior. O atalho mantém essa diferença e não resolve a necessidade de clareza."
+      },
+      "[\"hr\",\"david\",10,\"choices\",2,\"text\"]": {
+        "source": "Wait until her visa renewal to make the change",
+        "target": "Esperar a revisão periódica dos acordos para atualizar o papel"
+      },
+      "[\"hr\",\"david\",10,\"choices\",2,\"reaction\"]": {
+        "source": "Smooth transition. Less disruption.",
+        "target": "Organizamos a mudança junto da próxima revisão dos acordos. A atualização da responsabilidade fica para esse momento."
+      },
+      "[\"hr\",\"david\",11,\"intro\"]": {
+        "source": "Some employees want to use our office space for political organising—hosting meetings for a local campaign. They say it's part of being an engaged citizen. Others worry it politicises the workplace and makes people who disagree uncomfortable.",
+        "target": "Algumas pessoas querem usar nosso espaço para encontros de participação comunitária e conversa sobre políticas públicas. Outras receiam que o ambiente de trabalho fique desconfortável para quem pensa de outro modo. Precisamos discutir o uso do espaço respeitando opiniões diferentes."
+      },
+      "[\"hr\",\"david\",11,\"aside\"]": {
+        "source": "Workplaces are communities. But they're also places where people with different views have to work together. Political activity can unite or divide.",
+        "target": "A equipe convive como comunidade, mas também precisa trabalhar em conjunto apesar das diferenças. O modo de acolher esses encontros pode aproximar pessoas ou criar divisões."
+      },
+      "[\"hr\",\"david\",11,\"choices\",0,\"text\"]": {
+        "source": "Allow after-hours use for any legal cause",
+        "target": "Permitir encontros fora do expediente com critérios iguais para todos"
+      },
+      "[\"hr\",\"david\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Neutral policy. Some tension inevitable.",
+        "target": "Adotamos uma orientação comum para o uso do espaço. Ainda podem surgir tensões entre opiniões diferentes."
+      },
+      "[\"hr\",\"david\",11,\"choices\",1,\"text\"]": {
+        "source": "Keep the office politically neutral",
+        "target": "Reservar o espaço de trabalho para as atividades do negócio"
+      },
+      "[\"hr\",\"david\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Professional environment. Everyone included.",
+        "target": "Mantemos esses encontros fora do espaço do negócio para facilitar a convivência de pessoas com opiniões diferentes."
+      },
+      "[\"hr\",\"david\",11,\"choices\",2,\"text\"]": {
+        "source": "Provide paid time for civic engagement",
+        "target": "Destinar parte do tempo da rotina à participação comunitária"
+      },
+      "[\"hr\",\"david\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Support democracy broadly. Generous but complicated.",
+        "target": "Apoiamos a participação na comunidade de forma ampla. É uma escolha generosa, mas exige combinar como esse tempo se encaixa no trabalho."
+      },
+      "[\"hr\",\"david\",12,\"intro\"]": {
+        "source": "We're deciding on our office policy. Full-time in office would help collaboration but means everyone has to commute. Full remote saves commuting emissions and gives flexibility but loses the spontaneous interactions. Hybrid is complicated to manage.",
+        "target": "Estamos escolhendo como organizar as tarefas de planejamento da equipe. Reunir todos no mesmo espaço facilita algumas conversas, mas exige deslocamentos diários. Preparar essas tarefas a distância oferece flexibilidade e reduz deslocamentos, enquanto combinar as duas formas exige mais coordenação."
+      },
+      "[\"hr\",\"david\",12,\"aside\"]": {
+        "source": "Remote work dramatically reduces commuting emissions. It also changes how teams work together. There's no perfect answer—just trade-offs.",
+        "target": "Nem toda atividade do negócio pode acontecer a distância. Aqui discutimos a organização das tarefas de planejamento, sem mudar o atendimento nem medir impactos ambientais. Cada alternativa muda a convivência e o esforço de deslocamento."
+      },
+      "[\"hr\",\"david\",12,\"choices\",0,\"text\"]": {
+        "source": "Remote-first with optional office days",
+        "target": "Priorizar o planejamento a distância, com encontros presenciais opcionais"
+      },
+      "[\"hr\",\"david\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Maximum flexibility. Lower carbon footprint. Culture changes.",
+        "target": "A equipe ganha flexibilidade e evita parte dos deslocamentos. Precisamos cultivar a convivência de outra forma."
+      },
+      "[\"hr\",\"david\",12,\"choices\",1,\"text\"]": {
+        "source": "Hybrid with required team days",
+        "target": "Combinar planejamento a distância com dias de encontro da equipe"
+      },
+      "[\"hr\",\"david\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Balance in-person and remote. Commuting reduced but not eliminated.",
+        "target": "Mantemos encontros presenciais e parte da flexibilidade. Os deslocamentos diminuem na situação narrada, mas continuam necessários."
+      },
+      "[\"hr\",\"david\",12,\"choices\",2,\"text\"]": {
+        "source": "Full-time in office",
+        "target": "Concentrar todo o planejamento no espaço do negócio"
+      },
+      "[\"hr\",\"david\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Best for collaboration. Everyone commutes every day.",
+        "target": "As conversas presenciais ajudam a preparação, mas os deslocamentos diários causam desgaste da cooperação e desânimo na equipe."
+      },
+      "[\"hr\",\"david\",13,\"intro\"]": {
+        "source": "An employee is going through a personal crisis and their work has suffered. They've used up their sick leave and need more time. Strictly by policy, we'd put them on unpaid leave or start managing them out. But they've been loyal and this is temporary.",
+        "target": "Uma pessoa da equipe enfrenta uma dificuldade pessoal e precisa de mais tempo para reorganizar sua rotina. Seu trabalho foi afetado e os ajustes previstos nos nossos combinados já foram usados. Podemos ampliar o apoio, combinar uma pausa nas tarefas ou manter os limites atuais."
+      },
+      "[\"hr\",\"david\",13,\"aside\"]": {
+        "source": "Policies exist for good reasons, but life is complicated. How we treat people in hard times defines our culture. Others are watching.",
+        "target": "Os combinados ajudam a organizar o trabalho, mas não antecipam todas as dificuldades. A equipe observa como apoiamos quem atravessa um momento difícil, sem que esta situação fictícia crie um benefício ou uma regra para relações reais."
+      },
+      "[\"hr\",\"david\",13,\"choices\",0,\"text\"]": {
+        "source": "Extend paid leave beyond policy",
+        "target": "Ampliar o apoio e reorganizar as tarefas além do combinado inicial"
+      },
+      "[\"hr\",\"david\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Generous. Sets a precedent. The team notices.",
+        "target": "A equipe percebe o apoio adicional. Tivemos uma perda adicional de caixa, além do custo da ação, para sustentar essa reorganização; outras pessoas poderão esperar atenção semelhante."
+      },
+      "[\"hr\",\"david\",13,\"choices\",1,\"text\"]": {
+        "source": "Unpaid leave with job guarantee",
+        "target": "Combinar uma pausa nas tarefas e preparar o retorno"
+      },
+      "[\"hr\",\"david\",13,\"choices\",1,\"reaction\"]": {
+        "source": "By the book but humane. They can come back.",
+        "target": "Organizamos uma pausa e conversamos sobre o retorno às tarefas, sem ampliar o apoio da primeira alternativa."
+      },
+      "[\"hr\",\"david\",13,\"choices\",2,\"text\"]": {
+        "source": "Follow policy strictly",
+        "target": "Manter os limites dos combinados atuais"
+      },
+      "[\"hr\",\"david\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Consistent. Fair. By the book.",
+        "target": "Aplicamos a mesma referência usada nas demais situações e explicamos o que conseguimos organizar dentro desses limites."
+      },
+      "[\"hr\",\"david\",14,\"intro\"]": {
+        "source": "A former employee just posted a scathing WorkReview review. Some of it is unfair—they were let go for performance—but some criticisms are legitimate. The review mentions specific managers by name and calls our culture 'toxic'. Candidates are asking about it in interviews.",
+        "target": "Uma pessoa que saiu do negócio deixou um relato público muito crítico sobre a convivência. Parte parece injusta, mas algumas observações têm fundamento. O relato cita responsáveis pelo trabalho e descreve um ambiente ruim. Pessoas interessadas em se juntar à equipe estão perguntando sobre isso."
+      },
+      "[\"hr\",\"david\",14,\"aside\"]": {
+        "source": "WorkReview reviews live forever. Responding can help or make things worse. Some companies try to bury bad reviews with fake good ones. Candidates aren't stupid—they can spot patterns.",
+        "target": "Responder pode esclarecer o que estamos fazendo ou ampliar a discussão. Tentar esconder críticas com elogios combinados pode parecer uma encenação. Precisamos distinguir discordâncias dos problemas que merecem atenção."
+      },
+      "[\"hr\",\"david\",14,\"choices\",0,\"text\"]": {
+        "source": "Respond professionally and address valid points",
+        "target": "Responder com respeito e cuidar das críticas que têm fundamento"
+      },
+      "[\"hr\",\"david\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Shows we listen. Doesn't make the review disappear.",
+        "target": "Mostramos disposição para ouvir e trabalhar nos problemas. A resposta não faz o relato desaparecer."
+      },
+      "[\"hr\",\"david\",14,\"choices\",1,\"text\"]": {
+        "source": "Ignore it—engaging just draws attention",
+        "target": "Não responder ao relato neste momento"
+      },
+      "[\"hr\",\"david\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Don't feed the trolls. It fades.",
+        "target": "Evitamos ampliar a discussão e concentramos o esforço na preparação do trabalho, sem garantir que as críticas deixem de circular."
+      },
+      "[\"hr\",\"david\",14,\"choices\",2,\"text\"]": {
+        "source": "Ask current employees to post positive reviews",
+        "target": "Pedir à equipe que publique relatos positivos para contrapor a crítica"
+      },
+      "[\"hr\",\"david\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Obvious astroturfing. Often backfires.",
+        "target": "Os elogios combinados podem ampliar a divulgação, mas parecem uma encenação. Isso causa forte desgaste da cooperação e desânimo na equipe."
+      },
+      "[\"hr\",\"david\",15,\"intro\"]": {
+        "source": "We've noticed our WorkReview rating has dropped from 4.2 to 3.4 over six months. Three recent reviews mention the same issues: unclear promotion criteria, favouritism, and founders who don't listen to feedback. The reviews aren't coordinated—these are independent people saying similar things.",
+        "target": "Na situação fictícia, a avaliação sobre nossa convivência caiu de quatro vírgula dois para três vírgula quatro em seis meses. Três relatos recentes, feitos de forma independente, apontam os mesmos problemas: critérios pouco claros para assumir responsabilidades, favorecimento e pouca escuta de quem conduz o negócio."
+      },
+      "[\"hr\",\"david\",15,\"aside\"]": {
+        "source": "When multiple people say the same thing, it's usually true. WorkReview can be an early warning system if you're willing to hear it. Or you can dismiss it as disgruntled employees.",
+        "target": "Os relatos são sinais para conversar e conferir o que acontece, não uma prova automática de todas as críticas. Podemos procurar os padrões ou descartar o desconforto de quem saiu. A pontuação aparece apenas nesta narrativa."
+      },
+      "[\"hr\",\"david\",15,\"choices\",0,\"text\"]": {
+        "source": "Take it seriously—investigate the patterns",
+        "target": "Levar os relatos a sério e investigar os problemas em comum"
+      },
+      "[\"hr\",\"david\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Uncomfortable conversations ahead. Might find real problems.",
+        "target": "As conversas podem ser desconfortáveis, mas ajudam a encontrar problemas reais na organização e na convivência."
+      },
+      "[\"hr\",\"david\",15,\"choices\",1,\"text\"]": {
+        "source": "Address the specific criticisms publicly",
+        "target": "Explicar publicamente como trataremos as críticas específicas"
+      },
+      "[\"hr\",\"david\",15,\"choices\",1,\"reaction\"]": {
+        "source": "Show we're listening. Words need to become actions.",
+        "target": "Mostramos que ouvimos as preocupações. A explicação precisa ser acompanhada de ações para ter sentido."
+      },
+      "[\"hr\",\"david\",15,\"choices\",2,\"text\"]": {
+        "source": "Dismiss it—unhappy people always complain",
+        "target": "Descartar os relatos como reclamações de pessoas insatisfeitas"
+      },
+      "[\"hr\",\"david\",15,\"choices\",2,\"reaction\"]": {
+        "source": "Focus on the work. Don't get distracted.",
+        "target": "Concentramos o esforço nas tarefas atuais, sem dedicar uma investigação aos problemas apontados."
+      },
+      "[\"hr\",\"david\",16,\"intro\"]": {
+        "source": "A departing employee—one we're sad to lose—asks if we'd like her to leave a WorkReview review. She had a genuinely good experience and wants to help with recruiting. It feels a bit awkward to say yes, but authentic positive reviews are valuable.",
+        "target": "Uma pessoa que vai sair, e cuja presença vamos sentir falta, pergunta se gostaríamos que ela compartilhasse um relato sobre sua experiência. Ela teve uma convivência boa e quer ajudar a aproximar novas pessoas da equipe. A oferta é espontânea, mas aceitar e orientar o relato pode mudar seu sentido."
+      },
+      "[\"hr\",\"david\",16,\"aside\"]": {
+        "source": "There's nothing wrong with happy employees sharing their experience. But asking feels transactional. The best employer brands come from people who want to recommend you without being asked.",
+        "target": "Uma experiência positiva pode ser compartilhada por vontade própria. Quando começamos a sugerir elogios, a conversa pode parecer uma troca de favores. Quero respeitar a liberdade de contar a experiência ou de não publicar nada."
+      },
+      "[\"hr\",\"david\",16,\"choices\",0,\"text\"]": {
+        "source": "Thank her but don't ask for anything specific",
+        "target": "Agradecer a oferta sem pedir um conteúdo específico"
+      },
+      "[\"hr\",\"david\",16,\"choices\",0,\"reaction\"]": {
+        "source": "If she posts, it'll be genuine. If she doesn't, that's fine too.",
+        "target": "Se ela compartilhar sua experiência, poderá escolher as próprias palavras. Se preferir não publicar, respeitaremos a decisão."
+      },
+      "[\"hr\",\"david\",16,\"choices\",1,\"text\"]": {
+        "source": "Say yes and suggest what to mention",
+        "target": "Aceitar a oferta e sugerir pontos para o relato"
+      },
+      "[\"hr\",\"david\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Probably still authentic, but now it's coached.",
+        "target": "O relato ainda parte de uma experiência positiva, mas agora recebeu nossa orientação sobre o que destacar."
+      },
+      "[\"hr\",\"david\",16,\"choices\",2,\"text\"]": {
+        "source": "Ask all happy leavers to post reviews",
+        "target": "Pedir relatos a todas as pessoas que saem satisfeitas"
+      },
+      "[\"hr\",\"david\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Systematic approach. Starts to feel manufactured.",
+        "target": "A divulgação fica mais organizada, mas os relatos começam a parecer fabricados. Essa abordagem causa desânimo na equipe."
+      },
+      "[\"hr\",\"david\",17,\"intro\"]": {
+        "source": "An anonymous WorkReview review contains details that could only come from someone currently on the team. It's critical but not unfair—they're frustrated about real issues. Some managers want to figure out who wrote it. Others think that would be a terrible idea.",
+        "target": "Um relato anônimo sobre a convivência contém detalhes que parecem vir de alguém da equipe atual. As críticas são incômodas, mas tratam de problemas reais. Alguns responsáveis querem descobrir quem escreveu; outros consideram que essa busca só pioraria a situação."
+      },
+      "[\"hr\",\"david\",17,\"aside\"]": {
+        "source": "Anonymous feedback exists because people fear retaliation. Hunting for the author proves they were right to be anonymous. But knowing there's a deeply unhappy person on your team, and not knowing who, is uncomfortable.",
+        "target": "O anonimato pode indicar receio de sofrer pressão ao falar. Procurar a autoria pode reforçar esse medo. Quero que a conversa trate das preocupações, sem transformar o desconforto numa busca por informações pessoais."
+      },
+      "[\"hr\",\"david\",17,\"choices\",0,\"text\"]": {
+        "source": "Don't investigate—address the issues raised",
+        "target": "Cuidar dos problemas apontados sem procurar a autoria"
+      },
+      "[\"hr\",\"david\",17,\"choices\",0,\"reaction\"]": {
+        "source": "Trust the feedback, not the identity. Hardest but right.",
+        "target": "Concentramos o trabalho no conteúdo das críticas e preservamos espaço para que as pessoas falem sem se identificar."
+      },
+      "[\"hr\",\"david\",17,\"choices\",1,\"text\"]": {
+        "source": "General team discussion about the concerns",
+        "target": "Conversar com a equipe sobre as preocupações levantadas"
+      },
+      "[\"hr\",\"david\",17,\"choices\",1,\"reaction\"]": {
+        "source": "Acknowledge without hunting. See if anyone opens up.",
+        "target": "Reconhecemos os problemas sem transformar a conversa numa busca por quem escreveu. Cada pessoa decide se quer falar."
+      },
+      "[\"hr\",\"david\",17,\"choices\",2,\"text\"]": {
+        "source": "Try to identify the author",
+        "target": "Tentar descobrir a autoria do relato"
+      },
+      "[\"hr\",\"david\",17,\"choices\",2,\"reaction\"]": {
+        "source": "Witch hunt. Even if you find them, then what?",
+        "target": "A busca pela autoria causa forte desgaste da cooperação e acentua a tensão e o desânimo da equipe. Descobrir um nome não resolve os problemas relatados."
+      },
+      "[\"hr\",\"david\",18,\"intro\"]": {
+        "source": "Katarzyna, our senior ML engineer, just got her Skilled Worker visa renewal rejected on a technicality. She's Polish, been with us since the beginning, and knows our codebase better than anyone. The Home Office says she can appeal, but it'll take months and she can't work during that time. She's considering just taking an offer from a Berlin startup instead of fighting it.",
+        "target": "Uma pessoa experiente, que organiza o atendimento desde o início do negócio, teve sua participação interrompida por um erro nos registros internos desta situação fictícia. A revisão e a reorganização podem levar meses. Enquanto espera, ela considera aceitar uma proposta de outro empreendimento em vez de insistir na solução do impasse."
+      },
+      "[\"hr\",\"david\",18,\"aside\"]": {
+        "source": "This is the post-Brexit reality. EU nationals who built UK tech companies now need expensive visas, and the system makes mistakes. We could lose institutional knowledge that took years to build, or fight to keep her.",
+        "target": "Ela conhece a rotina e guarda aprendizados construídos ao longo dos anos. Podemos dar prioridade à reorganização para tentar manter sua participação ou aceitar a saída e preparar a passagem das tarefas. O problema narrado é interno, sem autoridade pública ou autorização para trabalhar."
+      },
+      "[\"hr\",\"david\",18,\"choices\",0,\"text\"]": {
+        "source": "Fight the appeal and pay for premium legal support",
+        "target": "Priorizar a revisão dos registros com apoio administrativo dedicado"
+      },
+      "[\"hr\",\"david\",18,\"choices\",0,\"reaction\"]": {
+        "source": "She's worth it. I'll make sure she knows we're in her corner.",
+        "target": "Vamos mostrar que reconhecemos sua contribuição e que estamos ao lado dela na tentativa de reorganizar sua participação."
+      },
+      "[\"hr\",\"david\",18,\"choices\",1,\"text\"]": {
+        "source": "Support her through the standard appeal process",
+        "target": "Acompanhar a revisão pelo procedimento interno habitual"
+      },
+      "[\"hr\",\"david\",18,\"choices\",1,\"reaction\"]": {
+        "source": "It'll take longer but costs less. She'll need patience.",
+        "target": "O caminho exige menos esforço de organização imediata, mas pode levar mais tempo. Ela precisará de paciência enquanto o impasse é tratado."
+      },
+      "[\"hr\",\"david\",18,\"choices\",2,\"text\"]": {
+        "source": "Accept her resignation with good references",
+        "target": "Aceitar a saída e ajudar na passagem das tarefas"
+      },
+      "[\"hr\",\"david\",18,\"choices\",2,\"reaction\"]": {
+        "source": "She understands. But we lose someone irreplaceable.",
+        "target": "Ela compreende a decisão, mas perdemos bastante da cooperação e da preparação do atendimento. A saída causa forte desânimo e tensão na equipe."
+      },
+      "[\"hr\",\"david\",19,\"intro\"]": {
+        "source": "Our lead data scientist—German, been with us three years—just told me BMW's AI division approached him at a conference. They're offering Munich, no visa worries, and a salary we can't match. He hasn't decided, but he's frustrated that his settled status application is still pending after eighteen months. He wants to know we value him.",
+        "target": "Uma pessoa que ajuda a preparar o atendimento há três anos contou que recebeu uma proposta de outro empreendimento durante um encontro. A oferta traz uma organização mais clara e condições que não conseguimos acompanhar. Sua revisão de responsabilidades aqui está pendente há dezoito meses. Ela ainda não decidiu sair e quer saber se reconhecemos sua contribuição."
+      },
+      "[\"hr\",\"david\",19,\"aside\"]": {
+        "source": "This is the quiet exodus. EU nationals who built their careers here are doing the maths: same work, less bureaucracy, often more money. We can't change the politics, but we can show him he matters.",
+        "target": "Não conseguimos mudar todas as condições oferecidas por outro negócio. Podemos ouvir suas preocupações e explicar como imaginamos sua participação no futuro, sem prometer pagamentos, participação no negócio ou mudanças que não temos condições de organizar."
+      },
+      "[\"hr\",\"david\",19,\"choices\",0,\"text\"]": {
+        "source": "Counter with equity refresh and clear promotion path",
+        "target": "Rever o reconhecimento das contribuições e esclarecer um caminho de responsabilidades"
+      },
+      "[\"hr\",\"david\",19,\"choices\",0,\"reaction\"]": {
+        "source": "I'll put together something meaningful. He needs to see his future here.",
+        "target": "Vou preparar uma conversa e uma proposta de organização que tenham sentido para ela. A pessoa precisa conseguir enxergar como poderá contribuir e crescer em responsabilidades aqui."
+      },
+      "[\"hr\",\"david\",19,\"choices\",1,\"text\"]": {
+        "source": "Have an honest conversation about his concerns",
+        "target": "Conversar com franqueza sobre suas preocupações"
+      },
+      "[\"hr\",\"david\",19,\"choices\",1,\"reaction\"]": {
+        "source": "Sometimes people just need to feel heard. Costs nothing but time.",
+        "target": "Ouvir com atenção pode esclarecer o que ela precisa para tomar a decisão. Vamos dedicar tempo à conversa sem garantir que isso mude sua escolha."
+      },
+      "[\"hr\",\"david\",19,\"choices\",2,\"text\"]": {
+        "source": "Wish him well if he decides to leave",
+        "target": "Desejar uma boa continuidade se a pessoa decidir sair"
+      },
+      "[\"hr\",\"david\",19,\"choices\",2,\"reaction\"]": {
+        "source": "Sometimes you can't compete with a car company. Start transition planning.",
+        "target": "Começamos a organizar a transição. Perdemos parte da cooperação e da preparação do atendimento, e a saída causa desânimo na equipe."
+      }
+    }
+  }
+}

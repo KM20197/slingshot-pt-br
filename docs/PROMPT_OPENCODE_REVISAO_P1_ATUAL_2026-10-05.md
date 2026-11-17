@@ -1,0 +1,11 @@
+> **HISTÓRICO / ESCOPO DATADO — reconciliação de 07/10/2026.** Estado vivo: `C:\Users\Administrador\Downloads\Simulador\slingshot-pt-br\docs\ESTADO_ATUAL.md`; procedimentos: `docs/MANUAL_ORQUESTRACAO.md`; entrada Gemini atual: `docs/PROMPT_GEMINI_ORIENTADOR.md`. Não anexar este arquivo como instrução corrente ao Gem nem repetir seus gates sem conferir o estado. Gemini e Codex coorquestram; OpenCode explora, implementa e revisa. O conteúdo abaixo foi preservado como evidência/procedimento do escopo indicado.
+
+# Revisão independente de acompanhamento — P1, mercados ampliados
+
+Faça uma revisão estritamente de leitura deste checkout. Não edite arquivos, não execute build, testes, Git mutante, staging, commit, push ou ferramentas de formatação.
+
+Escopo: valide as correções aplicadas após a revisão anterior de tradução e geração de `VENTURE_MARKETS`, bem como a coexistência com `STRATEGIC_PIVOTS`, `FORCED_RESPONSES` e `PIVOT_MILESTONES`. Examine `locales/structures.pt-BR.json`, os arquivos `locales/venture-markets-alternative-*-targets.pt-BR.json`, seus geradores e testes, `tests/venture-markets-generator-support.cjs`, `tools/build.cjs` e as proteções em `tools/structured-translation.cjs`.
+
+Critérios: fonte imutável `source/index.original.html` deve corresponder ao SHA-256 `a8ce3636c328828fb311a505ec38603345c9ac5f08ae1be8c01969818f1d8d61`; somente prosa de apresentação pode mudar; IDs, números, fórmulas, `pivotType`, `funderView`, objetos, nulos e regras devem permanecer; os 194 caminhos esperados de `VENTURE_MARKETS` são 24 atuais, 36 nomes alternativos, 36 descrições, 36 resumos, 26 lacunas de equipe e 36 comentários de financiadores. Confirme em especial: classificação completa preservada independentemente da ordem dos geradores; guardas de status/hash/contagem; filtros `src`, JSON-LD e funções; testes de caminho-fonte-destino, restauração integral, HTML, idempotência e rejeição atômica. Avalie se o vínculo posicional remanescente dos arquivos-alvo está adequadamente limitado por ordem, IDs da fonte e hash estrutural.
+
+Responda em português com: (1) nota de 0 a 10; (2) veredito; (3) achados por arquivo e linha, separando defeitos de sugestões; (4) correções mínimas; (5) limites remanescentes. Não alegue execução de testes. Caso não haja defeitos no escopo, diga explicitamente que não encontrou remanescentes verificáveis.

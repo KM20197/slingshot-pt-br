@@ -1,0 +1,551 @@
+{
+  "CHAR_EVENTS": {
+    "classification": "Prosa administrativa brasileira fictícia de atendimento, divulgação e dependência de redes e prestadores, preservando metadados e efeitos originais",
+    "strings": {
+      "[\"marketing\",\"marcus\",0,\"intro\"]": {
+        "source": "I've been tracking the numbers. When big companies try our product, only 12 out of every 100 actually become paying customers. The problem isn't our sales pitch—it's that new users get confused in their first week. If we made the getting-started experience smoother, I reckon we'd convert 20 out of 100 instead.",
+        "target": "Ao observar os contatos de um negócio fictício, vi que só doze em cada cem interessados se tornam clientes pagantes. Muitas dúvidas surgem na primeira semana de atendimento. Acredito que, esclarecendo melhor os primeiros passos, poderíamos chegar a vinte em cada cem. Como dividir nosso esforço?"
+      },
+      "[\"marketing\",\"marcus\",0,\"aside\"]": {
+        "source": "Chasing new deals is exciting, but fixing why people give up is often more valuable. The maths doesn't lie.",
+        "target": "Buscar pedidos novos é atraente, mas entender por que as pessoas desistem também merece atenção. Essa comparação é uma estimativa do caso, que ainda precisamos conferir."
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",0,\"text\"]": {
+        "source": "Fix the new user experience first",
+        "target": "Melhorar primeiro os primeiros passos do atendimento"
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",0,\"reaction\"]": {
+        "source": "Smart. Let me show you the data.",
+        "target": "Vamos examinar as dúvidas e organizar os primeiros contatos. Esse trabalho ajuda a equipe a preparar um atendimento mais claro."
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",1,\"text\"]": {
+        "source": "Work on both at the same time",
+        "target": "Melhorar o início do atendimento e buscar pedidos ao mesmo tempo"
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",1,\"reaction\"]": {
+        "source": "Ambitious. I'll make it work.",
+        "target": "A equipe assumiu as duas frentes. Vamos organizar o trabalho para sustentar esse esforço maior."
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",2,\"text\"]": {
+        "source": "Focus on big deals—we need a name",
+        "target": "Priorizar pedidos de clientes grandes para ganhar referências"
+      },
+      "[\"marketing\",\"marcus\",0,\"choices\",2,\"reaction\"]": {
+        "source": "Big logos look good. But they don't compound.",
+        "target": "Recebemos por um pedido desse tipo, mas fiquei desanimado com a decisão de adiar as dúvidas do início do atendimento. Uma boa referência não resolve sozinha esse problema."
+      },
+      "[\"marketing\",\"marcus\",1,\"intro\"]": {
+        "source": "I've been testing different ways to attract customers. Paid adverts work quickly but eat through our budget. Writing helpful articles and building our reputation takes months to pay off, but those customers find us for free and keep coming.",
+        "target": "Estamos comparando formas de atrair clientes num negócio fictício. Os anúncios trazem respostas rápidas e consomem recursos. Preparar materiais úteis e construir uma boa reputação exige meses de trabalho, mas pode trazer interessados sem pagar por cada novo contato."
+      },
+      "[\"marketing\",\"marcus\",1,\"aside\"]": {
+        "source": "It's the classic trade-off: pay for customers now, or invest time in building a reputation that attracts them for free later.",
+        "target": "Podemos gastar para conseguir contatos agora ou dedicar tempo a uma reputação que facilite conversas futuras. Nenhum dos caminhos dispensa acompanhar o esforço envolvido."
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",0,\"text\"]": {
+        "source": "Focus on building our reputation",
+        "target": "Priorizar materiais úteis e a reputação do atendimento"
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",0,\"reaction\"]": {
+        "source": "Patience. Pays off in six months.",
+        "target": "Vamos trabalhar com paciência. A expectativa do caso é perceber resultados em seis meses, sem tratar esse prazo como venda assegurada."
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",1,\"text\"]": {
+        "source": "Do a mix of both",
+        "target": "Combinar anúncios com o trabalho de reputação"
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",1,\"reaction\"]": {
+        "source": "Hedge our bets. Sensible.",
+        "target": "Dividimos o esforço entre respostas mais rápidas e a preparação de uma presença comercial duradoura."
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",2,\"text\"]": {
+        "source": "Spend on ads for quick results",
+        "target": "Concentrar os recursos em anúncios para obter respostas rápidas"
+      },
+      "[\"marketing\",\"marcus\",1,\"choices\",2,\"reaction\"]": {
+        "source": "Buy growth now. Figure out the economics later.",
+        "target": "Além do gasto previsto para a ação, tivemos uma perda adicional de caixa com essa tentativa. Fiquei desanimado ao deixar a avaliação dos resultados para depois."
+      },
+      "[\"marketing\",\"marcus\",2,\"intro\"]": {
+        "source": "I want to test two different versions of our pricing page to see which one gets more people to sign up. We'd show half our visitors one version and half the other, then see which performs better. Could boost sign-ups, or might just confuse people.",
+        "target": "Quero comparar duas versões da apresentação de preços de um negócio fictício. Metade dos interessados receberia uma versão e a outra metade receberia a segunda. Podemos aprender o que facilita a decisão, mas uma apresentação confusa também pode atrapalhar."
+      },
+      "[\"marketing\",\"marcus\",2,\"aside\"]": {
+        "source": "At our size, even a small improvement in sign-ups makes a real difference to revenue. But we need to test properly to know what's actually working.",
+        "target": "Mesmo uma melhora pequena pode ser relevante. Precisamos reunir observações suficientes e comparar situações semelhantes para entender o resultado."
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",0,\"text\"]": {
+        "source": "Run a proper test with enough visitors",
+        "target": "Comparar as versões com um conjunto suficiente de interessados"
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",0,\"reaction\"]": {
+        "source": "Data will tell us what works.",
+        "target": "Organizamos a comparação e usamos as observações para orientar a apresentação do atendimento."
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",1,\"text\"]": {
+        "source": "Quick test, pick a winner fast",
+        "target": "Fazer uma comparação rápida e escolher logo uma versão"
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",1,\"reaction\"]": {
+        "source": "Faster learning, less certainty.",
+        "target": "Aprendemos mais depressa, mas com menos segurança sobre o que causou a diferença."
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",2,\"text\"]": {
+        "source": "Just pick what feels right",
+        "target": "Escolher a versão pela impressão da equipe"
+      },
+      "[\"marketing\",\"marcus\",2,\"choices\",2,\"reaction\"]": {
+        "source": "Could be right. Could be expensive.",
+        "target": "Escolhemos sem comparar as duas versões. A decisão pode funcionar ou trazer um gasto que ainda não conseguimos avaliar."
+      },
+      "[\"marketing\",\"marcus\",3,\"intro\"]": {
+        "source": "We're spending money on adverts, social media, and conferences, but we have no idea which ones actually bring in customers. Someone signs up and we can't tell if they came from our CareerHub post, a search engine, or a friend's recommendation.",
+        "target": "Um negócio fictício divulga seu atendimento em anúncios, publicações e encontros, mas não sabe quais caminhos trazem clientes. Quando chega um pedido, não está claro se veio de uma publicação, de uma busca ou de uma indicação."
+      },
+      "[\"marketing\",\"marcus\",3,\"aside\"]": {
+        "source": "We're flying blind. We can't stop wasting money on things that don't work if we don't know what's working in the first place.",
+        "target": "Sem relacionar os contatos à divulgação, fica difícil decidir onde continuar colocando tempo e recursos. Precisamos de uma forma de organizar essa observação."
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",0,\"text\"]": {
+        "source": "Build proper tracking systems",
+        "target": "Organizar um registro completo da origem dos contatos"
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",0,\"reaction\"]": {
+        "source": "Finally we'll know what's working.",
+        "target": "Passamos a reunir as informações disponíveis sobre os caminhos que trouxeram cada conversa comercial. Isso ajudou a preparar as próximas ações."
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",1,\"text\"]": {
+        "source": "Add basic tracking to the main channels",
+        "target": "Registrar a origem dos contatos nos principais canais"
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",1,\"reaction\"]": {
+        "source": "Better than nothing. Not perfect.",
+        "target": "Conseguimos uma visão parcial que já ajuda a comparar os canais mais usados, embora ainda restem lacunas."
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",2,\"text\"]": {
+        "source": "Accept we won't have perfect data",
+        "target": "Aceitar as lacunas e seguir com as informações disponíveis"
+      },
+      "[\"marketing\",\"marcus\",3,\"choices\",2,\"reaction\"]": {
+        "source": "Flying blind. It's a choice.",
+        "target": "Seguimos tomando decisões com pouca clareza sobre a origem dos contatos. Essa limitação continua na avaliação das próximas ações."
+      },
+      "[\"marketing\",\"marcus\",4,\"intro\"]": {
+        "source": "I've analysed how much different customers spend with us over time. Large companies pay us ten times more than small businesses, and they stick around longer too. The question is: should we focus all our energy on big companies, or keep serving everyone?",
+        "target": "Nos registros de um negócio fictício, clientes grandes gastam dez vezes mais que os pequenos e costumam permanecer por mais tempo. Devemos concentrar o atendimento nos maiores ou continuar recebendo clientes de vários tamanhos?"
+      },
+      "[\"marketing\",\"marcus\",4,\"aside\"]": {
+        "source": "Focusing means saying no to some customers. But spreading ourselves thin means we might not serve anyone well.",
+        "target": "Concentrar o esforço pode significar recusar alguns pedidos. Dividir a atenção entre muitos perfis também pode dificultar o cuidado com cada um."
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",0,\"text\"]": {
+        "source": "Focus on large companies",
+        "target": "Concentrar o atendimento nos clientes grandes"
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",0,\"reaction\"]": {
+        "source": "Go where the money is. Smart.",
+        "target": "Recebemos por novos pedidos de clientes grandes e direcionamos nossa preparação comercial para esse grupo."
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",1,\"text\"]": {
+        "source": "Build different products for each",
+        "target": "Preparar formas de atendimento diferentes para cada grupo"
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",1,\"reaction\"]": {
+        "source": "More work, more options.",
+        "target": "A equipe passou a organizar mais de uma forma de atendimento. Ganhamos opções, com mais trabalho de preparação."
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",2,\"text\"]": {
+        "source": "Keep serving everyone equally",
+        "target": "Continuar atendendo os vários grupos com a mesma prioridade"
+      },
+      "[\"marketing\",\"marcus\",4,\"choices\",2,\"reaction\"]": {
+        "source": "Spreading thin. But diversified.",
+        "target": "Mantivemos clientes de diferentes tamanhos e uma base mais variada. A equipe precisará dividir sua atenção entre essas necessidades."
+      },
+      "[\"marketing\",\"marcus\",5,\"intro\"]": {
+        "source": "UK fintech community event. Could present case study showing our impact.",
+        "target": "Um encontro fictício de negócios abriu espaço para apresentarmos um caso de atendimento e os resultados observados. Podemos preparar uma exposição detalhada, participar de uma conversa coletiva ou priorizar os contatos diretos."
+      },
+      "[\"marketing\",\"marcus\",5,\"aside\"]": {
+        "source": "Showing real results beats marketing claims every time.",
+        "target": "Mostrar o que foi observado num atendimento ajuda mais que fazer promessas amplas. Precisamos apresentar os limites do caso junto com os resultados."
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",0,\"text\"]": {
+        "source": "Detailed case study presentation",
+        "target": "Preparar uma apresentação detalhada do caso"
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",0,\"reaction\"]": {
+        "source": "Numbers speak louder than promises.",
+        "target": "Apresentamos as observações e os resultados do atendimento, com material para sustentar a conversa."
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",1,\"text\"]": {
+        "source": "Panel participation",
+        "target": "Participar de uma conversa coletiva"
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",1,\"reaction\"]": {
+        "source": "Lower effort, still visible.",
+        "target": "Participamos com um esforço menor e conseguimos apresentar nossa experiência a outras pessoas do encontro."
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",2,\"text\"]": {
+        "source": "Skip—focus on direct sales",
+        "target": "Não participar e priorizar as conversas diretas de venda"
+      },
+      "[\"marketing\",\"marcus\",5,\"choices\",2,\"reaction\"]": {
+        "source": "Direct relationships matter more.",
+        "target": "Usamos o tempo nos contatos que já estamos acompanhando. Essas relações continuam sendo parte do nosso trabalho comercial."
+      },
+      "[\"marketing\",\"marcus\",6,\"intro\"]": {
+        "source": "What if we let people use a basic version of our product for free? Some of them would eventually upgrade to paid. It could attract lots of users who'd never have sat through a sales call—but it might also mean people who would have paid now get it free instead.",
+        "target": "Um negócio fictício considera oferecer uma parte básica do atendimento sem cobrar por ela. Algumas pessoas poderiam contratar algo mais completo depois, mas outras que pagariam pelo atendimento básico passariam a recebê-lo gratuitamente."
+      },
+      "[\"marketing\",\"marcus\",6,\"aside\"]": {
+        "source": "Some companies grow massively by giving away a free version. Others just lose money. We need to figure out which we'd be.",
+        "target": "A oferta pode aproximar pessoas que não aceitariam uma conversa comercial. Também pode consumir recursos sem trazer pedidos pagos suficientes. Precisamos avaliar esse equilíbrio."
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",0,\"text\"]": {
+        "source": "Launch a free version with paid upgrades",
+        "target": "Oferecer uma parte básica gratuita e opções pagas mais completas"
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",0,\"reaction\"]": {
+        "source": "Attract lots of users. Convert some later. Long-term play.",
+        "target": "Ampliamos as oportunidades de conhecer o atendimento. A expectativa é que parte dos interessados contrate depois, sem tratar essa possibilidade como recebimento já ocorrido."
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",1,\"text\"]": {
+        "source": "Offer a time-limited free trial instead",
+        "target": "Oferecer uma experiência gratuita por tempo limitado"
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",1,\"reaction\"]": {
+        "source": "More controlled. Less viral but better conversion.",
+        "target": "Depois dessa experiência, recebemos por um pedido pago. A participação limitada ajudou a organizar o acompanhamento dos interessados."
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",2,\"text\"]": {
+        "source": "Stick with salespeople finding customers",
+        "target": "Manter o atendimento comercial direto para buscar clientes"
+      },
+      "[\"marketing\",\"marcus\",6,\"choices\",2,\"reaction\"]": {
+        "source": "More personal. Harder to scale but predictable.",
+        "target": "Recebemos por um pedido obtido nas conversas diretas. Esse caminho exige acompanhar cada relação de perto."
+      },
+      "[\"marketing\",\"marcus\",7,\"intro\"]": {
+        "source": "CloudForce CRM wants us to build on their platform. We'd get access to their millions of business customers through their app store, but we'd have to follow their rules, pay their fees (20-30% of revenue), and our product would only work inside CloudForce. If they change their policies or decide to build something similar, we're vulnerable.",
+        "target": "Uma rede comercial fictícia propõe apresentar nosso atendimento aos seus muitos clientes, desde que sigamos seus combinados e reservemos de vinte a trinta por cento do recebimento à rede. Nesse caminho, o atendimento ficaria ligado à organização dela. Mudanças nos combinados ou uma oferta concorrente da própria rede nos deixariam mais dependentes."
+      },
+      "[\"marketing\",\"marcus\",7,\"aside\"]": {
+        "source": "Building on big companies' platforms offers easy access to customers but creates dependency. Some of the most successful startups were built on platforms. Some were also destroyed by them overnight.",
+        "target": "Ter acesso aos contatos de outra organização pode ajudar, mas concentrar o atendimento nesse caminho cria dependência. Precisamos pesar essa aproximação junto com a possibilidade de trabalhar por outros meios."
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",0,\"text\"]": {
+        "source": "Go all-in on CloudForce",
+        "target": "Concentrar o atendimento nos contatos da rede"
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",0,\"reaction\"]": {
+        "source": "Their customers become ours. Our fate becomes theirs.",
+        "target": "Recebemos por pedidos trazidos pela rede e organizamos nossa preparação em torno dela. Ficamos mais dependentes desse relacionamento."
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",1,\"text\"]": {
+        "source": "Build for CloudForce but keep standalone version",
+        "target": "Atender pela rede e manter também um caminho próprio"
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",1,\"reaction\"]": {
+        "source": "Hedged bet. More work, but not locked in.",
+        "target": "Recebemos por pedidos dessa aproximação e mantivemos o atendimento direto. A equipe assumiu mais trabalho para cuidar dos dois caminhos."
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",2,\"text\"]": {
+        "source": "Stay independent—find customers ourselves",
+        "target": "Continuar buscando clientes por conta própria"
+      },
+      "[\"marketing\",\"marcus\",7,\"choices\",2,\"reaction\"]": {
+        "source": "Freedom, but we find customers the hard way.",
+        "target": "Mantivemos a liberdade de organizar o atendimento. Conseguir os contatos continua dependendo do nosso próprio esforço comercial."
+      },
+      "[\"marketing\",\"marcus\",8,\"intro\"]": {
+        "source": "Orion Tech has changed App Marketplace rules again. The new policy affects how we can offer subscriptions and could reduce our revenue by 15%. We can comply and take the hit, try to work around the rules (risky), or move our business model outside the app entirely.",
+        "target": "Uma rede comercial fictícia mudou os combinados para apresentar nosso atendimento continuado. A proposta do caso indica uma possível redução de quinze por cento no recebimento. Podemos aceitar, tentar reorganizar nossa participação dentro de uma interpretação incerta dos combinados ou levar esse atendimento para um caminho próprio."
+      },
+      "[\"marketing\",\"marcus\",8,\"aside\"]": {
+        "source": "When you build on someone else's platform, you play by their rules—and those rules can change without warning. App Store changes have killed companies overnight.",
+        "target": "Ao depender de outra organização para chegar aos clientes, ficamos expostos a mudanças que não decidimos. Cada resposta exige avaliar esforço, recebimento e relação com a rede."
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",0,\"text\"]": {
+        "source": "Comply and absorb the revenue hit",
+        "target": "Aceitar os novos combinados e absorver a perda"
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",0,\"reaction\"]": {
+        "source": "Safe but painful. We stay on the platform.",
+        "target": "Além do gasto da ação, tivemos uma perda adicional de caixa. Continuamos atendendo pela rede, com o impacto desse ajuste."
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",1,\"text\"]": {
+        "source": "Restructure to work around the rules",
+        "target": "Reorganizar a participação segundo uma interpretação incerta dos combinados"
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",1,\"reaction\"]": {
+        "source": "Creative interpretation. Hope Orion Tech doesn't notice or care.",
+        "target": "Tivemos uma perda adicional de caixa além do gasto da ação e perdemos parte da preparação do atendimento. A equipe ficou mais tensa; essa interpretação ainda pode ser questionada pela rede."
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",2,\"text\"]": {
+        "source": "Move subscriptions outside the app",
+        "target": "Levar o atendimento continuado para um caminho próprio"
+      },
+      "[\"marketing\",\"marcus\",8,\"choices\",2,\"reaction\"]": {
+        "source": "Keep revenue but worse user experience. Orion Tech won't promote us.",
+        "target": "Recebemos por esse atendimento e melhoramos sua organização, mas perdemos parte da divulgação que a rede fazia. O novo caminho também exige mais atenção nos primeiros contatos."
+      },
+      "[\"marketing\",\"marcus\",9,\"intro\"]": {
+        "source": "Titan Cloud has launched a product that competes directly with ours. They're offering it free for small users and cheap for everyone else. The problem is, we run our entire business on Titan's servers. Staying means paying money to a company that's now our competitor; leaving means months of work moving everything somewhere else.",
+        "target": "Um prestador de apoio fictício do qual dependemos começou a oferecer um atendimento parecido com o nosso, gratuito para clientes pequenos e mais barato para os demais. Continuar significa pagar a quem agora também disputa nossos clientes. Mudar de prestador exigiria meses de reorganização."
+      },
+      "[\"marketing\",\"marcus\",9,\"aside\"]": {
+        "source": "The big tech companies increasingly compete with the startups that depend on them. Cloud providers have all launched products that crushed smaller companies built on their platforms.",
+        "target": "Depender de um prestador que também atende os mesmos clientes pode dificultar nossas escolhas. Precisamos avaliar a continuidade do apoio junto com a capacidade de organizar o próprio atendimento."
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",0,\"text\"]": {
+        "source": "Move to a different provider",
+        "target": "Mudar para outro prestador de apoio"
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",0,\"reaction\"]": {
+        "source": "Months of work, but we control our own destiny now.",
+        "target": "Foram meses de reorganização. Passamos a preparar o atendimento com outro prestador e ganhamos mais autonomia nessa relação."
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",1,\"text\"]": {
+        "source": "Spread across multiple providers",
+        "target": "Dividir o apoio entre mais de um prestador"
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",1,\"reaction\"]": {
+        "source": "More complicated to manage, but we're not dependent on anyone.",
+        "target": "A coordenação ficou mais trabalhosa, mas reduzimos a concentração do apoio numa única relação."
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",2,\"text\"]": {
+        "source": "Stay and compete on quality",
+        "target": "Manter o prestador e buscar diferença na qualidade do atendimento"
+      },
+      "[\"marketing\",\"marcus\",9,\"choices\",2,\"reaction\"]": {
+        "source": "Hope we can stand out. They have more resources.",
+        "target": "Continuamos com o apoio existente e concentramos o esforço em atender bem. O prestador concorrente ainda dispõe de mais recursos."
+      },
+      "[\"marketing\",\"marcus\",10,\"intro\"]": {
+        "source": "Nexus Corp wants to feature us in their online store for business software and include us in bundles they sell to large companies. Great exposure, but they want exclusivity—we couldn't also sell through other enterprise marketplaces. The deal would double our list of potential big customers but tie us to one partner.",
+        "target": "Uma rede fictícia quer apresentar nosso atendimento junto com outras ofertas para clientes grandes. Em troca, propõe que deixemos de participar de outras redes voltadas a esse grupo. A lista de possíveis clientes dobraria, mas dependeríamos mais de um único relacionamento."
+      },
+      "[\"marketing\",\"marcus\",10,\"aside\"]": {
+        "source": "Exclusive deals offer guaranteed visibility but limit options. If the relationship sours or Nexus's business declines, you've put all your eggs in one basket.",
+        "target": "Concentrar a divulgação pode abrir conversas e limitar alternativas. Precisamos entender o compromisso comercial proposto, sem confundir visibilidade com pedido pago garantido."
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",0,\"text\"]": {
+        "source": "Accept exclusivity for the exposure",
+        "target": "Aceitar o compromisso de trabalhar com essa rede para o grupo"
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",0,\"reaction\"]": {
+        "source": "Nexus Corp's sales team sells for us. We're married now.",
+        "target": "Recebemos por pedidos trazidos pela rede, mas perdemos parte da preparação de outras formas de atendimento. Nosso esforço comercial ficou concentrado nesse relacionamento."
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",1,\"text\"]": {
+        "source": "Negotiate non-exclusive with less promotion",
+        "target": "Negociar participação sem abandonar outras redes"
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",1,\"reaction\"]": {
+        "source": "Keep options open. Less support from Nexus.",
+        "target": "Recebemos por pedidos dessa aproximação e mantivemos outros caminhos. A rede dedicou menos esforço à nossa divulgação."
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",2,\"text\"]": {
+        "source": "Decline and stay independent",
+        "target": "Recusar e continuar buscando os próprios clientes"
+      },
+      "[\"marketing\",\"marcus\",10,\"choices\",2,\"reaction\"]": {
+        "source": "No special treatment. Complete freedom.",
+        "target": "Recebemos por pedidos obtidos pelos nossos caminhos. Seguimos com autonomia e sem o tratamento especial da rede."
+      },
+      "[\"marketing\",\"marcus\",11,\"intro\"]": {
+        "source": "A service we rely on—run by a major tech company—has announced it's no longer free. What cost us nothing will now cost £50,000 per year. We've built our entire product using their service. The alternative is spending six months building our own replacement.",
+        "target": "Um serviço de apoio administrativo fictício que usamos deixará de ser gratuito. A proposta recebida menciona cinquenta mil libras por ano, sem conversão desse valor. Toda a nossa rotina de atendimento depende desse apoio. A alternativa seria dedicar seis meses a preparar uma forma própria de realizar o trabalho."
+      },
+      "[\"marketing\",\"marcus\",11,\"aside\"]": {
+        "source": "When you build on top of someone else's service, you're at their mercy. They often start free to attract users, then charge once everyone depends on them.",
+        "target": "Começar sem cobrança não assegura que o apoio continuará gratuito. Precisamos decidir como lidar com a dependência e com o esforço de mudar nossa organização."
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",0,\"text\"]": {
+        "source": "Pay the new price and continue",
+        "target": "Pagar pelo apoio e continuar usando o serviço"
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",0,\"reaction\"]": {
+        "source": "Absorb the cost. We're stuck with them.",
+        "target": "Tivemos uma perda de caixa com a cobrança do apoio e fiquei desanimado. Continuamos dependentes desse serviço."
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",1,\"text\"]": {
+        "source": "Start building our own replacement",
+        "target": "Começar a preparar uma forma própria de realizar o trabalho"
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",1,\"reaction\"]": {
+        "source": "Six months of work, but we control our own destiny.",
+        "target": "Foram seis meses de preparação. A equipe melhorou a organização do atendimento e passou a depender menos desse apoio."
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",2,\"text\"]": {
+        "source": "Negotiate—we're a big customer",
+        "target": "Negociar as condições por sermos um cliente importante"
+      },
+      "[\"marketing\",\"marcus\",11,\"choices\",2,\"reaction\"]": {
+        "source": "Worth a try. They might offer better terms.",
+        "target": "Preparamos a conversa para tentar condições melhores. A negociação é uma possibilidade, sem desconto ou resultado assegurado."
+      },
+      "[\"marketing\",\"marcus\",12,\"intro\"]": {
+        "source": "Nexus Corp wants us to integrate more deeply—their login, their payments, their tracking. Smoother for users, and conversion would probably improve. But every piece of their plumbing we adopt is a piece of ours we stop owning.",
+        "target": "Uma rede comercial fictícia propõe que passemos a usar sua forma de organizar pedidos, pagamentos e acompanhamento do atendimento. Isso pode facilitar os primeiros contatos e a contratação, mas cada parte assumida pela rede reduz a organização que mantemos por conta própria."
+      },
+      "[\"marketing\",\"marcus\",12,\"aside\"]": {
+        "source": "Tighter connections create a better product but make it harder to leave. The more you weave yourself into their systems, the more painful it becomes to untangle.",
+        "target": "Combinar mais etapas pode facilitar o atendimento e tornar mais trabalhosa uma saída. Precisamos decidir o que vale compartilhar e o que queremos continuar organizando de forma independente."
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",0,\"text\"]": {
+        "source": "Full connection—best experience for users",
+        "target": "Adotar a organização da rede em todas essas etapas"
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",0,\"reaction\"]": {
+        "source": "Slick product. We're deeply embedded now.",
+        "target": "Organizamos um atendimento mais uniforme junto com a rede. Passamos a depender mais da forma de trabalho dela."
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",1,\"text\"]": {
+        "source": "Connect selectively—keep some independence",
+        "target": "Compartilhar algumas etapas e manter outras por conta própria"
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",1,\"reaction\"]": {
+        "source": "Good enough experience. Some escape routes remain.",
+        "target": "Conseguimos organizar o atendimento em conjunto e preservamos parte da capacidade de mudar de caminho."
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",2,\"text\"]": {
+        "source": "Minimal connection—stay able to move",
+        "target": "Compartilhar só o indispensável para facilitar uma mudança"
+      },
+      "[\"marketing\",\"marcus\",12,\"choices\",2,\"reaction\"]": {
+        "source": "Less polished but we're not trapped.",
+        "target": "O atendimento ficou menos uniforme, mas mantivemos mais espaço para escolher outra forma de trabalho."
+      },
+      "[\"marketing\",\"marcus\",13,\"intro\"]": {
+        "source": "SLUSH—the Helsinki startup conference—has invited us to their curated founder track. It's not a booth situation; it's two days of structured meetings with Nordic VCs and corporate innovation heads. The Finns built this thing from a student project into Europe's most intense investor matchmaking event. Twenty thousand people in a repurposed shipyard in November darkness.",
+        "target": "Recebemos um convite para um encontro de negócios fictício com dois dias de conversas organizadas entre responsáveis por negócios e possíveis clientes. O foco está nas reuniões, sem preparar um espaço de exposição. Vale participar?"
+      },
+      "[\"marketing\",\"marcus\",13,\"aside\"]": {
+        "source": "SLUSH is weird and wonderful. Volunteers running everything, brutal cold, everyone genuinely engaged. The Nordics take it seriously—this is where Supercell, Wolt, and dozens of others found their backers. It's not about visibility; it's about conversations.",
+        "target": "O valor desse convite está nas conversas e nos contatos que conseguirmos acompanhar depois. Uma agenda cheia não transforma apresentação em venda confirmada."
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",0,\"text\"]": {
+        "source": "Attend the full founder track",
+        "target": "Participar dos dois dias de conversas organizadas"
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",0,\"reaction\"]": {
+        "source": "Two days of back-to-back meetings with serious people. We'll come back exhausted with warm introductions.",
+        "target": "Foram dois dias de reuniões seguidas. Voltamos cansados, com contatos apresentados e mais aproximação entre as pessoas da equipe, sem antecipar novos pedidos."
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",1,\"text\"]": {
+        "source": "Send someone to scout it this year",
+        "target": "Enviar uma pessoa para conhecer a edição deste ano"
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",1,\"reaction\"]": {
+        "source": "See if it's worth the founder's time next year. Lower stakes.",
+        "target": "Conhecemos melhor o encontro com uma participação menor. Isso ajuda a avaliar se vale dedicar mais tempo à próxima edição."
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",2,\"text\"]": {
+        "source": "Skip it—conferences aren't our channel",
+        "target": "Não participar e concentrar o esforço na própria rotina"
+      },
+      "[\"marketing\",\"marcus\",13,\"choices\",2,\"reaction\"]": {
+        "source": "Fair. Some companies thrive without the conference circuit.",
+        "target": "Preferimos seguir organizando o atendimento e os contatos pelos caminhos que já usamos. Nem todo negócio precisa participar desse tipo de encontro."
+      },
+      "[\"marketing\",\"marcus\",14,\"intro\"]": {
+        "source": "EIT Digital's Stockholm hub is recruiting for their scaleup programme. The Swedes run the tightest ship in the network—alumni include companies now selling to Ericsson, Volvo, and half the Nordic telecoms. Six months of structured introductions to corporate innovation buyers across Scandinavia and Germany. No cash, but access you couldn't buy.",
+        "target": "Um programa fictício de aproximação comercial nos convida para seis meses de conversas organizadas com possíveis clientes. Não há repasse de caixa; a proposta é ampliar contatos. Participar também consome tempo da nossa rotina."
+      },
+      "[\"marketing\",\"marcus\",14,\"aside\"]": {
+        "source": "The Stockholm hub benefits from Sweden's absurd density of successful tech companies. The programme managers know everyone. If we want Nordic enterprise customers, this is the fast track. The trade-off is time in Stockholm rather than building.",
+        "target": "A organização das apresentações pode facilitar conversas que seriam difíceis de marcar por conta própria. Quero avaliar esse acesso junto com o tempo e o trabalho de acompanhar cada contato."
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",0,\"text\"]": {
+        "source": "Join and engage actively with corporate partners",
+        "target": "Participar ativamente das apresentações e dos encontros"
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",0,\"reaction\"]": {
+        "source": "Nordic enterprise on a plate. Swedes are hard to crack from outside but loyal once you're in.",
+        "target": "Ampliamos as conversas comerciais e organizamos melhor a preparação do atendimento. Os contatos ainda precisam ser acompanhados, sem promessa de venda."
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",1,\"text\"]": {
+        "source": "Join but cherry-pick relevant introductions",
+        "target": "Participar apenas das apresentações mais relevantes"
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",1,\"reaction\"]": {
+        "source": "Take what's useful, skip the rest. They might notice we're not fully engaged.",
+        "target": "Aproveitamos as conversas que fazem mais sentido e aprendemos com elas. A participação menor pode não corresponder ao envolvimento esperado pela organização do programa."
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",2,\"text\"]": {
+        "source": "Decline—we'll find our own customers",
+        "target": "Recusar e buscar clientes por conta própria"
+      },
+      "[\"marketing\",\"marcus\",14,\"choices\",2,\"reaction\"]": {
+        "source": "Direct sales over programme intermediaries. Fair approach.",
+        "target": "Seguimos preparando nossa abordagem direta, sem depender das apresentações do programa."
+      },
+      "[\"marketing\",\"marcus\",15,\"intro\"]": {
+        "source": "A Lisbon firm we met at a conference is assembling a consortium for a European grant bid and wants us as its AI partner. Horizon Europe consortia need members from several countries, and since association UK firms can join again. Nobody gets rich on the money: the grant reimburses the costs of the work it commissions. What a small firm gains is the network, the credibility of a European bid with our name on it, and a seat at tables we could not book ourselves. The price is in the consortium agreement: months of coordination calls, Brussels-grade reporting, and a clause on who owns what we build together.",
+        "target": "Um negócio fictício que conhecemos num encontro está preparando uma proposta conjunta de atendimento e quer nossa participação. A preparação envolve meses de reuniões, divisão de tarefas e um combinado sobre o uso dos materiais produzidos em conjunto."
+      },
+      "[\"marketing\",\"marcus\",15,\"aside\"]": {
+        "source": "European money comes with European meetings.",
+        "target": "Uma proposta conjunta pode abrir contatos, mas também ocupa a agenda. Quero entender nossa parte do trabalho e o que ficará combinado sobre os materiais, sem presumir um recebimento de caixa."
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",0,\"text\"]": {
+        "source": "Join as a full partner, help shape the bid",
+        "target": "Participar da preparação e ajudar a definir a proposta"
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",0,\"reaction\"]": {
+        "source": "Months of calls and one trip to Lisbon, and our name on a European bid. Win or lose, three partners now know our work.",
+        "target": "Foram meses de reuniões e uma visita de trabalho. Nosso nome entrou na proposta e, independentemente do resultado, três parceiros passaram a conhecer melhor nosso atendimento."
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",1,\"text\"]": {
+        "source": "Join as a minor partner: less say, less work",
+        "target": "Participar com uma parte menor do trabalho e das decisões"
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",1,\"reaction\"]": {
+        "source": "A modest work package with our name on it. The coordination calls happen mostly without us.",
+        "target": "Assumimos tarefas delimitadas e aparecemos na proposta conjunta. A maior parte da coordenação ficou com os outros participantes."
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",2,\"text\"]": {
+        "source": "Decline: the IP clause is too vague",
+        "target": "Recusar porque o combinado sobre os materiais está pouco claro"
+      },
+      "[\"marketing\",\"marcus\",15,\"choices\",2,\"reaction\"]": {
+        "source": "The consortium finds another AI partner. We keep our code and our calendar.",
+        "target": "Não entramos na proposta. Mantivemos os materiais conosco e usamos o espaço da agenda para melhorar nossa própria organização."
+      },
+      "[\"marketing\",\"marcus\",16,\"intro\"]": {
+        "source": "The Polish AI Society is hosting their annual conference in Warsaw, and they've offered us a keynote slot. Poland's tech scene has matured rapidly—serious research at Jagiellonian and Warsaw universities, growing startup ecosystem, and Central European enterprises looking for AI partners. The conference draws CTOs from across the Visegrád countries.",
+        "target": "Um encontro fictício de negócios de outra região nos convidou para fazer a apresentação de abertura. Participar pode aproximar nosso atendimento de clientes que ainda conhecemos pouco. Vamos aceitar o convite?"
+      },
+      "[\"marketing\",\"marcus\",16,\"aside\"]": {
+        "source": "Central Europe is often overlooked, but the technical talent is exceptional and the enterprises are digitising fast. A keynote in Warsaw signals we take the region seriously. The Poles appreciate directness—no hand-waving allowed.",
+        "target": "Uma apresentação pode mostrar interesse por essa região, mas as conversas depois da fala também exigem atenção. Quero decidir quanto tempo conseguimos dedicar ao encontro."
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",0,\"text\"]": {
+        "source": "Accept keynote and stay for networking day",
+        "target": "Fazer a abertura e ficar para o dia de conversas comerciais"
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",0,\"reaction\"]": {
+        "source": "Visibility across Central Europe. The conversations after the talk are where deals start.",
+        "target": "Apresentamos nossa experiência e aprendemos com as conversas que vieram depois. A presença ajudou a aproximar nosso atendimento de outros negócios."
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",1,\"text\"]": {
+        "source": "Give the keynote, return same day",
+        "target": "Fazer a apresentação e voltar no mesmo dia"
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",1,\"reaction\"]": {
+        "source": "Make the impression, limit the time commitment.",
+        "target": "Deixamos uma apresentação do nosso atendimento e aproveitamos parte das conversas, com um compromisso menor de tempo."
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",2,\"text\"]": {
+        "source": "Decline—Central Europe can wait",
+        "target": "Recusar e priorizar os mercados que já atendemos"
+      },
+      "[\"marketing\",\"marcus\",16,\"choices\",2,\"reaction\"]": {
+        "source": "Prioritise markets we're already in. Understood.",
+        "target": "Mantivemos o esforço na organização do atendimento para os clientes e mercados que já conhecemos."
+      }
+    }
+  }
+}

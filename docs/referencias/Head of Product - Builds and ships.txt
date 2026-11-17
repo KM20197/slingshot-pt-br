@@ -1,0 +1,132 @@
+"Head of Product - Builds and ships features"
+
+
+Aoife Murphy
+
+The Architect
+
+Irish · Trinity College Dublin
+×
+Dr. Fatima Al-Rashid. The Rigorous Scientist. British-Iraqi · Manchester.
+📍
+
+Aoife is currently in London. May need relocation support to join you in Oxford.
+
+"There's fast, and there's fast in six months."
+🎓 Education
+
+MSc Computer Science, Trinity College Dublin. BSc Mathematics, University College Dublin.
+💼 Experience
+
+    • Principal Engineer, Monzo (3 years) - Architected core banking platform
+    • Senior Engineer, Spotify (4 years) - Led recommendations infrastructure
+    • Open source maintainer with 5k+ GitHub stars
+
+✓ Strengths
+
+    • Builds systems that scale without breaking
+    • Technical debt allergic - code stays maintainable
+    • Great at mentoring junior engineers
+
+⚠ Watch out for
+
+    • Slower initial velocity - insists on 'doing it right'
+    • May resist quick prototypes for investor demos
+    • Premium salary for premium quality
+
+💰 Compensation Package
+£29k
+per quarter
+2.5%
+equity
+4yr (1yr cliff)
+vesting
+
+=============
+
+
+Raj Patel
+
+The Pragmatist
+
+British-Indian · Leicester
+×
+Dr. Fatima Al-Rashid. The Rigorous Scientist. British-Iraqi · Manchester.
+📍
+
+Raj is currently in Leicester. May need relocation support to join you in Oxford.
+
+"Done is better than perfect, but broken helps no one."
+🎓 Education
+
+BSc Computer Science, University of Leicester. Self-taught in ML/AI.
+💼 Experience
+
+    • CTO, HealthStack (acquired by private equity, £45M)
+    • CTO, DataFlow (acquired by US tech company)
+    • Founded and sold two smaller startups pre-2015
+
+✓ Strengths
+
+    • Exceptional shipping velocity - gets products out
+    • Understands commercial pressures intimately
+    • Battle-tested through multiple exits
+
+⚠ Watch out for
+
+    • Technical debt can accumulate under pressure
+    • Wants significant equity for 'been there done that' value
+    • May frustrate engineers who prefer cleaner code
+
+💰 Compensation Package
+£24k
+per quarter
+4%
+equity
+3yr (1yr cliff)
+vesting
+
+===============
+
+
+Wei Chen
+
+The Team Builder
+
+Chinese · Edinburgh
+×
+Dr. Fatima Al-Rashid. The Rigorous Scientist. British-Iraqi · Manchester.
+✈️
+
+Wei is based in Edinburgh — significant distance from Oxford. Consider relocation package or remote arrangements.
+
+"Happy engineers build better software. It's not complicated."
+🎓 Education
+
+MSc AI, University of Edinburgh. BSc Software Engineering, Tsinghua University.
+💼 Experience
+
+    • Engineering Manager, Deliveroo (4 years) - Grew team from 8 to 45
+    • Senior Engineer, Skyscanner (3 years)
+    • Known for zero attrition in teams he manages
+
+✓ Strengths
+
+    • Exceptional retention - engineers don't leave his teams
+    • Creates sustainable, healthy engineering culture
+    • Lower cost than flashier alternatives
+
+⚠ Watch out for
+
+    • May resist crunch periods even when necessary
+    • Less aggressive technical vision than alternatives
+    • Sustainable pace might feel slow to investors
+
+💰 Compensation Package
+£22k
+per quarter
+1.5%
+equity
+4yr (1yr cliff)
+vesting
+

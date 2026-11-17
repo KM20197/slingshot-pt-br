@@ -6,3 +6,6 @@ source/*
 docs/database*.json
 dist/
 artifacts/
+# Private local OpenCode provider configuration; contains credentials.
+opencode.json
+opencode.jsonc
