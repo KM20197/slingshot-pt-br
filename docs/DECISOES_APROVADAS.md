@@ -292,3 +292,9 @@ Prossiga humano após aceite Sofia r475 autoriza CHAR-AISHA-CONTEXTO-R476:72camp
 ## Continuidade do inventário —22/10/2026,r482
 
 Prossiga humano após r481 autoriza inventário técnico das lacunas restantes e proposta delimitada. Preservar os356produtos e aceites;sem revisão comparativa192perfis ou arquitetura econômica nesta etapa. OpenCode explorer/worker/reviewer em sessões separadas,worker apenas relatório público noartefato contratado,sem shell/rede/delegação e um escritorporarquivo. NEWS141foi extraído como proposta,não contrato,AST/efeitosdevemser reconfirmadosantesdeimplementar;nenhuma regra econômica nova. Sem build/suíte repetida só para documento;validar scripts e hashes reais. Estado/pacote local atualizadosautomaticamente,semDrive/Gemini confirmado,semcobrança/Gitmutável/Supabaseremoto/publicação/START42.
+
+## Pacote C0 aprovado —17/11/2026,r499
+
+O usuário aprovou a hipótese A do glossário C para D-1 a D-13 e a opção B para D-14: rótulos genéricos/fictícios, `R$` na apresentação sem conversão, rede pública de saúde, Aether não clínico, reguladores com rótulos funcionais, fomento fictício, visto de trabalho genérico, geografia fictícia brasileira/genérica, correção das chaves de relabel no mesmo lote, adendos delimitados de 14 caminhos em `FUNDER_ADVICE` e 5 em `NEWS`, preservação do painel legal ICO/PECR/GDPR e dos créditos ESRC/CC/link/`source`, adiamento do Pacote D com recomendação de Sol/esforço alto, e publicação dos quatro documentos C0 em `docs/` (provas brutas locais).
+
+A autorização inicia C1, lote de verificação de `REGIONS` e da apresentação global, com possibilidade de diff zero. Não autoriza reabrir Lotes A/B, reabrir integralmente lotes aceitos, alterar `source/index.original.html`, fórmulas, IDs, valores, ordem de arrays, seletores, saves ou `[NEW]`, nem publicar/cobrar/Supabase remoto/START42. O commit documental do C0 é local; o push depende de autorização específica.
