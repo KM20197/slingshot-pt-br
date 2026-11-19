@@ -1,0 +1,1157 @@
+{
+ "classification": "presentation-only-currency",
+ "version": 1,
+ "sourceHash": "6968ed1dea6c5b4d8f3aa77e99b12593a19c04802251c780aafc41b0645e4392",
+ "domWrites": {
+  "showInvestorInfo": [
+   [
+    "document.getElementById(\"investorInfoCash\").textContent = `£${angelInvestment}k`;",
+    "document.getElementById(\"investorInfoCash\").textContent = `${getRegion().currency}${angelInvestment}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"investorInfoTotal\").textContent = `+ your £${this.modeBase()}k = £${f.cash}k total${seedNote}`;",
+    "document.getElementById(\"investorInfoTotal\").textContent = `+ your ${getRegion().currency}${this.modeBase()}k = ${getRegion().currency}${f.cash}k total${seedNote}`;",
+    1
+   ],
+   [
+    "document.getElementById(\"investorInfoCash\").textContent = `£${f.cash}k`;",
+    "document.getElementById(\"investorInfoCash\").textContent = `${getRegion().currency}${f.cash}k`;",
+    2
+   ],
+   [
+    "document.getElementById(\"investorInfoVal\").textContent = `£${f.val}k`;",
+    "document.getElementById(\"investorInfoVal\").textContent = `${getRegion().currency}${f.val}k`;",
+    1
+   ]
+  ],
+  "renderAPPips": [
+   [
+    "document.getElementById(\"estCost\").textContent = `£${this.getEstCost()}k`;",
+    "document.getElementById(\"estCost\").textContent = `${getRegion().currency}${this.getEstCost()}k`;",
+    1
+   ]
+  ],
+  "renderTokenSpend": [
+   [
+    "if (r) r.textContent = `£${this.getTokenSpendFor(idx) + this.staffTokenSpend()}k/q`;",
+    "if (r) r.textContent = `${getRegion().currency}${this.getTokenSpendFor(idx) + this.staffTokenSpend()}k/q`;",
+    1
+   ]
+  ],
+  "showSurplusBriefing": [
+   [
+    "if (textEl) textEl.textContent = `Good news. Last quarter's revenue covered every cost with £${info.amount}k to spare, already in the bank. We could keep building the cushion, or put it to work: more staff or more compute would both raise our capacity.`;",
+    "if (textEl) textEl.textContent = `Good news. Last quarter's revenue covered every cost with ${getRegion().currency}${info.amount}k to spare, already in the bank. We could keep building the cushion, or put it to work: more staff or more compute would both raise our capacity.`;",
+    1
+   ]
+  ],
+  "demoDayUpdateUI": [
+   [
+    "if (costs) costs.textContent = `£${dd.totalCostsSpent}k`;",
+    "if (costs) costs.textContent = `${getRegion().currency}${dd.totalCostsSpent}k`;",
+    1
+   ],
+   [
+    "netEl.textContent = net >= 0 ? `£${net}k` : `-£${Math.abs(net)}k`;",
+    "netEl.textContent = net >= 0 ? `${getRegion().currency}${net}k` : `-${getRegion().currency}${Math.abs(net)}k`;",
+    1
+   ]
+  ],
+  "showHireStaffModal": [
+   [
+    "document.getElementById(\"hireModalCash\").textContent = `£${this.metrics.cash}k`;",
+    "document.getElementById(\"hireModalCash\").textContent = `${getRegion().currency}${this.metrics.cash}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"hireModalBurn\").textContent = `£${this.metrics.burn}k/q`;",
+    "document.getElementById(\"hireModalBurn\").textContent = `${getRegion().currency}${this.metrics.burn}k/q`;",
+    1
+   ],
+   [
+    "document.getElementById(\"hireModalNewBurn\").textContent = `£${newBurn}k/q`;",
+    "document.getElementById(\"hireModalNewBurn\").textContent = `${getRegion().currency}${newBurn}k/q`;",
+    1
+   ],
+   [
+    "document.getElementById(\"hireModalNewCash\").textContent = `£${newCash}k`;",
+    "document.getElementById(\"hireModalNewCash\").textContent = `${getRegion().currency}${newCash}k`;",
+    1
+   ],
+   [
+    "hireCostEl.innerHTML = `<span class=\"line-through text-slate-400\">£${baseHireCost}k</span> <span class=\"text-emerald-600 font-bold\">£${hireCost}k</span> <span class=\"text-xs text-emerald-500\">(${this.founder?.profile?.name})</span>`;",
+    "hireCostEl.innerHTML = `<span class=\"line-through text-slate-400\">${getRegion().currency}${baseHireCost}k</span> <span class=\"text-emerald-600 font-bold\">${getRegion().currency}${hireCost}k</span> <span class=\"text-xs text-emerald-500\">(${this.founder?.profile?.name})</span>`;",
+    1
+   ],
+   [
+    "hireCostEl.textContent = `£${hireCost}k one-time`;",
+    "hireCostEl.textContent = `${getRegion().currency}${hireCost}k one-time`;",
+    1
+   ]
+  ],
+  "showVictoryModal": [
+   [
+    "if (el4) el4.textContent = `£${this.metrics.cash.toLocaleString()}k`;",
+    "if (el4) el4.textContent = `${getRegion().currency}${this.metrics.cash.toLocaleString()}k`;",
+    1
+   ]
+  ],
+  "triggerUnicornEvent": [
+   [
+    "document.getElementById(\"unicornPreVal\").textContent = `£${baseVal.toLocaleString()}k`;",
+    "document.getElementById(\"unicornPreVal\").textContent = `${getRegion().currency}${baseVal.toLocaleString()}k`;",
+    1
+   ]
+  ],
+  "showHallOfFame": [
+   [
+    "document.getElementById(\"hofTotalWealth\").textContent = `£${totalWealth.toLocaleString()}B`;",
+    "document.getElementById(\"hofTotalWealth\").textContent = `${getRegion().currency}${totalWealth.toLocaleString()}B`;",
+    1
+   ]
+  ],
+  "startFundingNegotiation": [
+   [
+    "document.getElementById(\"fundingNegOrigCash\").textContent = `£${opt.cash}k`;",
+    "document.getElementById(\"fundingNegOrigCash\").textContent = `${getRegion().currency}${opt.cash}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"fundingNegOrigVal\").textContent = `£${opt.newVal}k`;",
+    "document.getElementById(\"fundingNegOrigVal\").textContent = `${getRegion().currency}${opt.newVal}k`;",
+    1
+   ]
+  ],
+  "updateFundingNegotiation": [
+   [
+    "document.getElementById(\"fundingNegImpliedVal\").textContent = `£${postMoneyVal}k`;",
+    "document.getElementById(\"fundingNegImpliedVal\").textContent = `${getRegion().currency}${postMoneyVal}k`;",
+    1
+   ]
+  ],
+  "startAngelNegotiation": [
+   [
+    "document.getElementById(\"angelNegOrigCash\").textContent = `£${angelInvestment}k${(this.funderChequeMult || 1) > 1 ? ' (Seed ×2)' : ''}`;",
+    "document.getElementById(\"angelNegOrigCash\").textContent = `${getRegion().currency}${angelInvestment}k${(this.funderChequeMult || 1) > 1 ? ' (Seed ×2)' : ''}`;",
+    1
+   ],
+   [
+    "document.getElementById(\"angelNegOrigVal\").textContent = `£${funder.val}k`;",
+    "document.getElementById(\"angelNegOrigVal\").textContent = `${getRegion().currency}${funder.val}k`;",
+    1
+   ]
+  ],
+  "updateAngelNegotiation": [
+   [
+    "document.getElementById(\"angelNegImpliedVal\").textContent = `£${impliedVal}k`;",
+    "document.getElementById(\"angelNegImpliedVal\").textContent = `${getRegion().currency}${impliedVal}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"angelNegTotalCash\").textContent = `£${totalCash}k`;",
+    "document.getElementById(\"angelNegTotalCash\").textContent = `${getRegion().currency}${totalCash}k`;",
+    1
+   ],
+   [
+    "if (baseLbl) baseLbl.textContent = `(your £${this.modeBase()}k + their investment)`;",
+    "if (baseLbl) baseLbl.textContent = `(your ${getRegion().currency}${this.modeBase()}k + their investment)`;",
+    1
+   ]
+  ],
+  "startBootstrapNegotiation": [
+   [
+    "document.getElementById(\"bootstrapNegOrigCash\").textContent = `£${theirContribution}k`;",
+    "document.getElementById(\"bootstrapNegOrigCash\").textContent = `${getRegion().currency}${theirContribution}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"bootstrapNegOrigTotal\").textContent = `£${funder.cash}k`;",
+    "document.getElementById(\"bootstrapNegOrigTotal\").textContent = `${getRegion().currency}${funder.cash}k`;",
+    1
+   ]
+  ],
+  "updateBootstrapNegotiation": [
+   [
+    "document.getElementById(\"bootstrapNegTotalCash\").textContent = `£${totalCash}k`;",
+    "document.getElementById(\"bootstrapNegTotalCash\").textContent = `${getRegion().currency}${totalCash}k`;",
+    1
+   ],
+   [
+    "document.getElementById(\"bootstrapNegImpliedVal\").textContent = `£${impliedVal}k`;",
+    "document.getElementById(\"bootstrapNegImpliedVal\").textContent = `${getRegion().currency}${impliedVal}k`;",
+    1
+   ]
+  ]
+ },
+ "helpers": [
+  [
+   "'£' + val + 'k'",
+   "'R$' + val + 'k'"
+  ]
+ ],
+ "staticText": {
+  "expectedNodes": 65,
+  "expectedOccurrences": 66,
+  "manifest": [
+   {
+    "id": null,
+    "ancestors": "body > header > div > div > div > #headerCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "body > header > div > div > div > #headerVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #apTrackerContainer > #apDisplayArea > div > span > #estCost",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > #fundingCard > div > #fundingStatLeft > #fundingCardCash",
+    "occurrences": 1,
+    "text": "£420k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #mobileSidebar > #sidebarFinanceCard > div > div > #sidebarCash",
+    "occurrences": 1,
+    "text": "£420k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #mobileSidebar > #sidebarFinanceCard > #sidebarRevenueRow > div > #sidebarRevenue",
+    "occurrences": 1,
+    "text": "£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #mobileSidebar > #legacyFinancialsCard > div > div > #revenueDisplay",
+    "occurrences": 1,
+    "text": "£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #mobileSidebar > #legacyFinancialsCard > div > div > #burnDisplay",
+    "occurrences": 1,
+    "text": "£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "div > #mobileSidebar > #legacyFinancialsCard > div > div > #netBurnDisplay",
+    "occurrences": 1,
+    "text": "-£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #angelNegOrigCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #angelNegOrigVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#angelNegotiationModal > div > div > div > div > div",
+    "occurrences": 1,
+    "text": "£"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #angelNegImpliedVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#angelNegotiationModal > div > div > div > div > #angelNegTotalCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#angelNegotiationModal > div > div > div > div > #angelNegBaseLabel",
+    "occurrences": 1,
+    "text": "(your £350k + their investment)"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #bootstrapNegOrigCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #bootstrapNegOrigTotal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#bootstrapNegotiationModal > div > div > div > div > div",
+    "occurrences": 1,
+    "text": "£"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #bootstrapNegTotalCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#bootstrapNegotiationModal > div > div > div > #bootstrapNegValuation > #bootstrapNegImpliedVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > #hireModalCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > #hireModalBurn",
+    "occurrences": 1,
+    "text": "£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > #hireModalCostDisplay",
+    "occurrences": 1,
+    "text": "£50k one-time"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "+£25k/quarter"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > #hireModalNewBurn",
+    "occurrences": 1,
+    "text": "£0k/q"
+   },
+   {
+    "id": null,
+    "ancestors": "#hireStaffModal > div > div > div > div > #hireModalNewCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #unicornPreVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > div",
+    "occurrences": 1,
+    "text": "£1,000,000k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > div",
+    "occurrences": 1,
+    "text": "£1 BILLION"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > #newHofEntry > div > div > div",
+    "occurrences": 1,
+    "text": "£1B"
+   },
+   {
+    "id": null,
+    "ancestors": "#hallOfFameModal > div > div > div > div > #hofTotalWealth",
+    "occurrences": 1,
+    "text": "£0T"
+   },
+   {
+    "id": null,
+    "ancestors": "#victoryModal > div > div > div > div > #victoryValuation",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#victoryModal > div > div > div > div > #victoryCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "body > #victoryModal > div > div > #victoryNetWorth > div",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingBeachValue",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingSerialSale",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingSerialSeed",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingScaleValuation",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingScaleStake",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingAcquiPrice",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > button > div > div > #endingAcquiPayout",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #ownershipValuation",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #ownershipStakeValue",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "body > #capTableHelpModal > div > div > div > p",
+    "occurrences": 2,
+    "text": "\n          At a £100M exit, the difference between owning 30% vs 50% is £20M in your pocket. Every funding decision shapes your final outcome.\n        "
+   },
+   {
+    "id": null,
+    "ancestors": "body > #raiseModal > div > div > span > #raiseCurrentVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #fundingNegOrigCash",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #fundingNegOrigVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#fundingNegotiationModal > div > div > div > div > div",
+    "occurrences": 1,
+    "text": "£"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #fundingNegImpliedVal",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "#financeDetailsModal > div > div > div > div > #finDetailCash",
+    "occurrences": 1,
+    "text": "£420k"
+   },
+   {
+    "id": null,
+    "ancestors": "#financeDetailsModal > div > div > div > div > #finDetailBurn",
+    "occurrences": 1,
+    "text": "£50k"
+   },
+   {
+    "id": null,
+    "ancestors": "#financeDetailsModal > div > div > div > div > #finDetailRevenue",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #finDetailCashNow",
+    "occurrences": 1,
+    "text": "£420k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #finDetailBurnRate",
+    "occurrences": 1,
+    "text": "£50k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #finDetailRevRate",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #whatIfCostValue",
+    "occurrences": 1,
+    "text": "£50k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£10k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£250k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£500k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > #whatIfRevenueValue",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£0k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£250k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > div > span",
+    "occurrences": 1,
+    "text": "£500k"
+   },
+   {
+    "id": null,
+    "ancestors": "div > div > div > div > ul > li",
+    "occurrences": 1,
+    "text": "Each team member costs approximately £15-25k/quarter"
+   },
+   {
+    "id": null,
+    "ancestors": "#grantHelpModal > div > div > div > ul > li",
+    "occurrences": 1,
+    "text": " — Optional for most (adds £10k + grant split). Your founder background affects who'll collaborate"
+   }
+  ]
+ },
+ "uiWrites": {
+  "confirmExecHire": [
+   [
+    "`🚚 Paid £${this.pendingExecRelocationCost}k relocation package for ${exec.name.split(' ')[0]}.`",
+    "`🚚 Paid ${getRegion().currency}${this.pendingExecRelocationCost}k relocation package for ${exec.name.split(' ')[0]}.`",
+    1
+   ],
+   [
+    "`\n      <div class=\"bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl animate-fade-in\">\n        <div class=\"text-center mb-4\">\n          <div class=\"text-5xl mb-2\">🎉</div>\n          <h3 class=\"text-xl font-bold text-slate-800\">Offer Accepted!</h3>\n        </div>\n        <div class=\"flex items-center gap-4 mb-4 p-3 ${colors.bg} ${colors.border} border rounded-xl\">\n          <div class=\"w-14 h-14 rounded-full overflow-hidden border-2 ${colors.border} flex-shrink-0\">\n            ${renderAvatar(exec.avatar, exec.name)}\n          </div>\n          <div>\n            <div class=\"font-bold ${colors.text}\">${exec.name}</div>\n            <div class=\"text-sm text-slate-600\">${roleNames[role]} Lead</div>\n          </div>\n        </div>\n        <p class=\"text-slate-600 text-center mb-4\">\n          ${exec.name.split(' ')[0]} has accepted your offer and will join your team!\n        </p>\n        <div class=\"bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-700 space-y-1\">\n          <div class=\"flex justify-between\">\n            <span>💰 Salary:</span>\n            <span class=\"font-medium\">£${negotiatedSalary}k/quarter</span>\n          </div>\n          <div class=\"flex justify-between\">\n            <span>📊 Equity:</span>\n            <span class=\"font-medium\">${negotiatedEquity}%</span>\n          </div>\n          ${relocationNote ? `<div class=\"text-xs text-orange-600 mt-2\">${relocationNote}</div>` : ''}\n        </div>\n        <button onclick=\"game.closeExecAcceptModal()\" class=\"w-full px-4 py-3 ${colors.btn} text-white font-medium rounded-lg\">\n          Continue\n        </button>\n      </div>\n    `",
+    "`\n      <div class=\"bg-white rounded-2xl max-w-md w-full p-6 shadow-2xl animate-fade-in\">\n        <div class=\"text-center mb-4\">\n          <div class=\"text-5xl mb-2\">🎉</div>\n          <h3 class=\"text-xl font-bold text-slate-800\">Offer Accepted!</h3>\n        </div>\n        <div class=\"flex items-center gap-4 mb-4 p-3 ${colors.bg} ${colors.border} border rounded-xl\">\n          <div class=\"w-14 h-14 rounded-full overflow-hidden border-2 ${colors.border} flex-shrink-0\">\n            ${renderAvatar(exec.avatar, exec.name)}\n          </div>\n          <div>\n            <div class=\"font-bold ${colors.text}\">${exec.name}</div>\n            <div class=\"text-sm text-slate-600\">${roleNames[role]} Lead</div>\n          </div>\n        </div>\n        <p class=\"text-slate-600 text-center mb-4\">\n          ${exec.name.split(' ')[0]} has accepted your offer and will join your team!\n        </p>\n        <div class=\"bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-700 space-y-1\">\n          <div class=\"flex justify-between\">\n            <span>💰 Salary:</span>\n            <span class=\"font-medium\">${getRegion().currency}${negotiatedSalary}k/quarter</span>\n          </div>\n          <div class=\"flex justify-between\">\n            <span>📊 Equity:</span>\n            <span class=\"font-medium\">${negotiatedEquity}%</span>\n          </div>\n          ${relocationNote ? `<div class=\"text-xs text-orange-600 mt-2\">${relocationNote}</div>` : ''}\n        </div>\n        <button onclick=\"game.closeExecAcceptModal()\" class=\"w-full px-4 py-3 ${colors.btn} text-white font-medium rounded-lg\">\n          Continue\n        </button>\n      </div>\n    `",
+    1
+   ],
+   [
+    "relocationNote = ` (includes £${this.pendingExecRelocationCost}k relocation)`;",
+    "relocationNote = ` (includes R$${this.pendingExecRelocationCost}k relocation)`;",
+    1
+   ]
+  ],
+  "hireFromCV": [
+   [
+    "`🤝 ${exec.name} joins as your Head of People! ${exec.equity}% equity, £${adjustedWage}k/quarter.`",
+    "`🤝 ${exec.name} joins as your Head of People! ${exec.equity}% equity, ${getRegion().currency}${adjustedWage}k/quarter.`",
+    1
+   ]
+  ],
+  "showHiredStaffDetail": [
+   [
+    "`\n      <div class=\"bg-gradient-to-r ${headerColor} px-6 py-5 rounded-t-2xl text-white\">\n        <div class=\"flex items-center gap-4\">\n          <div class=\"bg-white/20 rounded-xl p-2\">${renderCandidatePortrait(staff, 56, staff.role)}</div>\n          <div class=\"flex-1\">\n            <h2 class=\"text-xl font-bold\">${escapeHtml(staff.name)}</h2>\n            <p class=\"text-white/80\">${escapeHtml(staff.background)}</p>\n            <p class=\"text-white/60 text-sm\">${escapeHtml(staff.origin)}</p>\n          </div>\n          <div class=\"text-right\">\n            <div class=\"text-lg font-bold capitalize\">${staff.seniority}</div>\n            <div class=\"text-white/70 text-sm\">Hired Q${staff.hiredQuarter || '?'}</div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"p-6 max-h-[50vh] overflow-y-auto\">\n        <div class=\"mb-5 p-4 bg-indigo-50 rounded-xl border border-indigo-200\">\n          <h3 class=\"font-bold text-slate-800 mb-2\">💰 Compensation</h3>\n          <div class=\"grid grid-cols-2 gap-4 text-sm\">\n            <div>\n              <div class=\"text-slate-500\">Salary</div>\n              <div class=\"font-bold text-slate-800\">£${staff.salary}k/year</div>\n              <div class=\"text-xs text-slate-500\">+£${Math.round(staff.salary/4)}k/quarter burn</div>\n            </div>\n            <div>\n              <div class=\"text-slate-500\">Equity</div>\n              <div class=\"font-bold text-slate-800\">${staff.equity}%</div>\n            </div>\n          </div>\n        </div>\n        \n        <div class=\"mb-5\">\n          <h3 class=\"font-bold text-slate-800 mb-2\">📚 Background</h3>\n          <p class=\"text-sm text-slate-600 mb-2\">${staff.cv?.education || 'N/A'}</p>\n          ${(staff.cv?.experience || []).map(e => `<div class=\"text-sm text-slate-600 mb-1\">• ${e}</div>`).join('')}\n        </div>\n        \n        <div class=\"grid grid-cols-2 gap-4 mb-5\">\n          <div class=\"bg-emerald-50 rounded-lg p-3\">\n            <h4 class=\"font-bold text-emerald-800 mb-2 text-sm\">✓ Strengths</h4>\n            ${staff.strengths.map(s => `<div class=\"text-xs text-emerald-700\">${s}</div>`).join('')}\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-3\">\n            <h4 class=\"font-bold text-amber-800 mb-2 text-sm\">⚠ Watch Out</h4>\n            ${staff.weaknesses.map(w => `<div class=\"text-xs text-amber-700\">${w}</div>`).join('')}\n          </div>\n        </div>\n        \n        <div class=\"bg-slate-50 rounded-lg p-3\">\n          <p class=\"text-sm text-slate-600 italic\">\"${staff.quote}\"</p>\n        </div>\n      </div>\n      \n      <div class=\"px-6 py-4 border-t border-slate-200 bg-slate-50 rounded-b-2xl\">\n        <button onclick=\"game.closeCandidateDetail()\" class=\"w-full px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-white\">Close</button>\n      </div>\n    `",
+    "`\n      <div class=\"bg-gradient-to-r ${headerColor} px-6 py-5 rounded-t-2xl text-white\">\n        <div class=\"flex items-center gap-4\">\n          <div class=\"bg-white/20 rounded-xl p-2\">${renderCandidatePortrait(staff, 56, staff.role)}</div>\n          <div class=\"flex-1\">\n            <h2 class=\"text-xl font-bold\">${escapeHtml(staff.name)}</h2>\n            <p class=\"text-white/80\">${escapeHtml(staff.background)}</p>\n            <p class=\"text-white/60 text-sm\">${escapeHtml(staff.origin)}</p>\n          </div>\n          <div class=\"text-right\">\n            <div class=\"text-lg font-bold capitalize\">${staff.seniority}</div>\n            <div class=\"text-white/70 text-sm\">Hired Q${staff.hiredQuarter || '?'}</div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"p-6 max-h-[50vh] overflow-y-auto\">\n        <div class=\"mb-5 p-4 bg-indigo-50 rounded-xl border border-indigo-200\">\n          <h3 class=\"font-bold text-slate-800 mb-2\">💰 Compensation</h3>\n          <div class=\"grid grid-cols-2 gap-4 text-sm\">\n            <div>\n              <div class=\"text-slate-500\">Salary</div>\n              <div class=\"font-bold text-slate-800\">${getRegion().currency}${staff.salary}k/year</div>\n              <div class=\"text-xs text-slate-500\">+${getRegion().currency}${Math.round(staff.salary/4)}k/quarter burn</div>\n            </div>\n            <div>\n              <div class=\"text-slate-500\">Equity</div>\n              <div class=\"font-bold text-slate-800\">${staff.equity}%</div>\n            </div>\n          </div>\n        </div>\n        \n        <div class=\"mb-5\">\n          <h3 class=\"font-bold text-slate-800 mb-2\">📚 Background</h3>\n          <p class=\"text-sm text-slate-600 mb-2\">${staff.cv?.education || 'N/A'}</p>\n          ${(staff.cv?.experience || []).map(e => `<div class=\"text-sm text-slate-600 mb-1\">• ${e}</div>`).join('')}\n        </div>\n        \n        <div class=\"grid grid-cols-2 gap-4 mb-5\">\n          <div class=\"bg-emerald-50 rounded-lg p-3\">\n            <h4 class=\"font-bold text-emerald-800 mb-2 text-sm\">✓ Strengths</h4>\n            ${staff.strengths.map(s => `<div class=\"text-xs text-emerald-700\">${s}</div>`).join('')}\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-3\">\n            <h4 class=\"font-bold text-amber-800 mb-2 text-sm\">⚠ Watch Out</h4>\n            ${staff.weaknesses.map(w => `<div class=\"text-xs text-amber-700\">${w}</div>`).join('')}\n          </div>\n        </div>\n        \n        <div class=\"bg-slate-50 rounded-lg p-3\">\n          <p class=\"text-sm text-slate-600 italic\">\"${staff.quote}\"</p>\n        </div>\n      </div>\n      \n      <div class=\"px-6 py-4 border-t border-slate-200 bg-slate-50 rounded-b-2xl\">\n        <button onclick=\"game.closeCandidateDetail()\" class=\"w-full px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-white\">Close</button>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "setTokenSetting": [
+   [
+    "`🪙 Token spend set to ${s.label}: £${this.getTokenSpendFor(idx)}k/q${s.ap ? ` (${s.ap > 0 ? \"+\" : \"\"}${s.ap} AP from next quarter)` : \"\"}.`",
+    "`🪙 Token spend set to ${s.label}: ${getRegion().currency}${this.getTokenSpendFor(idx)}k/q${s.ap ? ` (${s.ap > 0 ? \"+\" : \"\"}${s.ap} AP from next quarter)` : \"\"}.`",
+    1
+   ]
+  ],
+  "addCustomer": [
+   [
+    "`🤝 New customer: ${customer.name} (+£${customer.quarterlyRevenue}k/q)`",
+    "`🤝 New customer: ${customer.name} (+${getRegion().currency}${customer.quarterlyRevenue}k/q)`",
+    1
+   ],
+   [
+    "description: `Acquired customer: ${customer.name} (£${customer.quarterlyRevenue}k/quarter)`,",
+    "description: `Acquired customer: ${customer.name} (R$${customer.quarterlyRevenue}k/quarter)`,",
+    1
+   ]
+  ],
+  "processGrantApplications": [
+   [
+    "`🎓 Grant awarded: ${grant.name || 'Research Grant'} (£${grant.amount * 4}k total)`",
+    "`🎓 Grant awarded: ${grant.name || 'Research Grant'} (${getRegion().currency}${grant.amount * 4}k total)`",
+    1
+   ]
+  ],
+  "processCustomerChurn": [
+   [
+    "`📈 ${customer.name} expanded (+£${expansionAmount}k/q)`",
+    "`📈 ${customer.name} expanded (+${getRegion().currency}${expansionAmount}k/q)`",
+    1
+   ],
+   [
+    "`📉 Lost ${churned.length} customer(s) (-£${Math.round(revenueImpact)}k/q)`",
+    "`📉 Lost ${churned.length} customer(s) (-${getRegion().currency}${Math.round(revenueImpact)}k/q)`",
+    1
+   ]
+  ],
+  "checkRevenueExpectations": [
+   [
+    "`📉 Revenue (£${annualizedRevenue}k ARR) below investor expectations (£${projected}k)`",
+    "`📉 Revenue (${getRegion().currency}${annualizedRevenue}k ARR) below investor expectations (${getRegion().currency}${projected}k)`",
+    1
+   ]
+  ],
+  "processRevenueEffect": [
+   [
+    "`📋 Added to pipeline: £${effect.addToPipeline.value}k (expected Q${this.turn + effect.addToPipeline.closeIn})`",
+    "`📋 Added to pipeline: ${getRegion().currency}${effect.addToPipeline.value}k (expected Q${this.turn + effect.addToPipeline.closeIn})`",
+    1
+   ],
+   [
+    "`📈 ${target.name} expanded to £${target.quarterlyRevenue}k/q`",
+    "`📈 ${target.name} expanded to ${getRegion().currency}${target.quarterlyRevenue}k/q`",
+    1
+   ]
+  ],
+  "updateValuationFromRevenue": [
+   [
+    "`📈 Revenue traction boosting valuation (+£${Math.round(change)}k)`",
+    "`📈 Revenue traction boosting valuation (+${getRegion().currency}${Math.round(change)}k)`",
+    1
+   ],
+   [
+    "`📉 Revenue concerns affecting valuation (-£${Math.round(Math.abs(change))}k)`",
+    "`📉 Revenue concerns affecting valuation (-${getRegion().currency}${Math.round(Math.abs(change))}k)`",
+    1
+   ]
+  ],
+  "commitTurn": [
+   [
+    "`📊 Revenue: £${revenueCalc.gross}k gross, £${revenueCalc.support}k support = £${revenueOffset}k net contribution`",
+    "`📊 Revenue: ${getRegion().currency}${revenueCalc.gross}k gross, ${getRegion().currency}${revenueCalc.support}k support = ${getRegion().currency}${revenueOffset}k net contribution`",
+    1
+   ],
+   [
+    "`💷 Revenue covered every cost this quarter with £${Math.round(quarterSurplus)}k to spare - banked.`",
+    "`💷 Revenue covered every cost this quarter with ${getRegion().currency}${Math.round(quarterSurplus)}k to spare - banked.`",
+    1
+   ],
+   [
+    "`💷 Surplus of £${Math.round(quarterSurplus)}k banked.`",
+    "`💷 Surplus of ${getRegion().currency}${Math.round(quarterSurplus)}k banked.`",
+    1
+   ]
+  ],
+  "demoDayRenderVisitor": [
+   [
+    "`\n      <div class=\"bg-slate-800 rounded-xl p-3 border-2 ${v.value === 0 ? 'border-red-800' : 'border-slate-600'}\">\n        <div class=\"flex items-center gap-3 mb-2\">\n          <div class=\"flex-1 min-w-0\">\n            <div class=\"flex justify-between items-center\">\n              <h3 class=\"text-white font-bold text-lg\">${v.title}</h3>\n              <div class=\"flex items-center gap-2\">\n                <span class=\"${valColor} font-bold text-xl\">£${v.value}k</span>\n                ${v.prestige ? '<span class=\"text-amber-400\" title=\"Prestige client\">★</span>' : ''}\n              </div>\n            </div>\n            <p class=\"text-slate-400 text-sm italic truncate\">\"${v.engageQuote}\"</p>\n          </div>\n          ${warn ? `<div>${warn}</div>` : ''}\n        </div>\n\n        <div class=\"flex gap-3 mb-2\">\n          <div class=\"flex-1 bg-slate-900 rounded-lg p-2\">\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"text-slate-400\">Interest</span>\n              <span id=\"ddInterest\" class=\"text-white font-bold\">${v.currentInterest}%</span>\n            </div>\n            <div class=\"h-3 bg-slate-700 rounded-full overflow-hidden relative\">\n              <div id=\"ddInterestBar\" class=\"h-full bg-blue-500 transition-all\" style=\"width:${v.currentInterest}%\"></div>\n              <div class=\"absolute top-0 bottom-0 w-1 bg-emerald-400\" style=\"left:65%\"></div>\n            </div>\n            <div class=\"h-1.5 bg-slate-700 rounded-full mt-2 overflow-hidden\">\n              <div id=\"ddPatienceBar\" class=\"h-full bg-emerald-500 rounded-full\" style=\"width:100%\"></div>\n            </div>\n          </div>\n\n          <button onclick=\"game.demoDayConvert()\" id=\"ddConvertBtn\" class=\"dd-btn w-32 ${canConvert ? 'bg-gradient-to-r from-emerald-500 to-green-400 hover:from-emerald-400 hover:to-green-300' : 'bg-slate-700 cursor-not-allowed'} text-white font-bold rounded-xl text-sm transition-all flex flex-col items-center justify-center\" ${canConvert ? '' : 'disabled'}>\n            ${canConvert ? `<span class=\"dd-key-hint\" aria-hidden=\"true\">↵</span><span>CONVERT</span><span class=\"text-xs\">£${v.value}k</span>` : `<span class=\"text-xs\">Need ${65 - v.currentInterest}%</span>`}\n          </button>\n        </div>\n\n        <div class=\"text-[10px] text-slate-400 uppercase tracking-wide mb-1\">Make an offer</div>\n        <div class=\"grid grid-cols-6 gap-1 mb-2\">\n          ${offerBtn('swag', 'bg-emerald-700 hover:bg-emerald-600')}\n          ${offerBtn('coffee', 'bg-purple-700 hover:bg-purple-600')}\n          ${offerBtn('demo', 'bg-cyan-700 hover:bg-cyan-600')}\n          ${offerBtn('discount', 'bg-amber-700 hover:bg-amber-600')}\n          ${offerBtn('custom', 'bg-blue-700 hover:bg-blue-600')}\n          ${offerBtn('massive', 'bg-rose-700 hover:bg-rose-600 border border-rose-500')}\n        </div>\n\n        <button onclick=\"game.demoDaySkip()\" class=\"dd-btn w-full py-2 bg-red-800 hover:bg-red-700 text-white font-bold rounded-lg text-sm\"><span class=\"dd-key-hint\" aria-hidden=\"true\">S</span>Skip</button>\n      </div>`",
+    "`\n      <div class=\"bg-slate-800 rounded-xl p-3 border-2 ${v.value === 0 ? 'border-red-800' : 'border-slate-600'}\">\n        <div class=\"flex items-center gap-3 mb-2\">\n          <div class=\"flex-1 min-w-0\">\n            <div class=\"flex justify-between items-center\">\n              <h3 class=\"text-white font-bold text-lg\">${v.title}</h3>\n              <div class=\"flex items-center gap-2\">\n                <span class=\"${valColor} font-bold text-xl\">${getRegion().currency}${v.value}k</span>\n                ${v.prestige ? '<span class=\"text-amber-400\" title=\"Prestige client\">★</span>' : ''}\n              </div>\n            </div>\n            <p class=\"text-slate-400 text-sm italic truncate\">\"${v.engageQuote}\"</p>\n          </div>\n          ${warn ? `<div>${warn}</div>` : ''}\n        </div>\n\n        <div class=\"flex gap-3 mb-2\">\n          <div class=\"flex-1 bg-slate-900 rounded-lg p-2\">\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"text-slate-400\">Interest</span>\n              <span id=\"ddInterest\" class=\"text-white font-bold\">${v.currentInterest}%</span>\n            </div>\n            <div class=\"h-3 bg-slate-700 rounded-full overflow-hidden relative\">\n              <div id=\"ddInterestBar\" class=\"h-full bg-blue-500 transition-all\" style=\"width:${v.currentInterest}%\"></div>\n              <div class=\"absolute top-0 bottom-0 w-1 bg-emerald-400\" style=\"left:65%\"></div>\n            </div>\n            <div class=\"h-1.5 bg-slate-700 rounded-full mt-2 overflow-hidden\">\n              <div id=\"ddPatienceBar\" class=\"h-full bg-emerald-500 rounded-full\" style=\"width:100%\"></div>\n            </div>\n          </div>\n\n          <button onclick=\"game.demoDayConvert()\" id=\"ddConvertBtn\" class=\"dd-btn w-32 ${canConvert ? 'bg-gradient-to-r from-emerald-500 to-green-400 hover:from-emerald-400 hover:to-green-300' : 'bg-slate-700 cursor-not-allowed'} text-white font-bold rounded-xl text-sm transition-all flex flex-col items-center justify-center\" ${canConvert ? '' : 'disabled'}>\n            ${canConvert ? `<span class=\"dd-key-hint\" aria-hidden=\"true\">↵</span><span>CONVERT</span><span class=\"text-xs\">${getRegion().currency}${v.value}k</span>` : `<span class=\"text-xs\">Need ${65 - v.currentInterest}%</span>`}\n          </button>\n        </div>\n\n        <div class=\"text-[10px] text-slate-400 uppercase tracking-wide mb-1\">Make an offer</div>\n        <div class=\"grid grid-cols-6 gap-1 mb-2\">\n          ${offerBtn('swag', 'bg-emerald-700 hover:bg-emerald-600')}\n          ${offerBtn('coffee', 'bg-purple-700 hover:bg-purple-600')}\n          ${offerBtn('demo', 'bg-cyan-700 hover:bg-cyan-600')}\n          ${offerBtn('discount', 'bg-amber-700 hover:bg-amber-600')}\n          ${offerBtn('custom', 'bg-blue-700 hover:bg-blue-600')}\n          ${offerBtn('massive', 'bg-rose-700 hover:bg-rose-600 border border-rose-500')}\n        </div>\n\n        <button onclick=\"game.demoDaySkip()\" class=\"dd-btn w-full py-2 bg-red-800 hover:bg-red-700 text-white font-bold rounded-lg text-sm\"><span class=\"dd-key-hint\" aria-hidden=\"true\">S</span>Skip</button>\n      </div>`",
+    1
+   ]
+  ],
+  "demoDayOffer": [
+   [
+    "`-£${dd.costs[type]}k`",
+    "`-${getRegion().currency}${dd.costs[type]}k`",
+    1
+   ]
+  ],
+  "demoDayConvert": [
+   [
+    "`+£${v.value}k +★PRESTIGE!`",
+    "`+${getRegion().currency}${v.value}k +★PRESTIGE!`",
+    1
+   ],
+   [
+    "`+£${v.value}k!`",
+    "`+${getRegion().currency}${v.value}k!`",
+    1
+   ]
+  ],
+  "demoDayEnd": [
+   [
+    "`🎪 Demo Day: ${title} - Net £${net}k, ${dd.conversions} converted${apPenalty > 0 ? `, -${apPenalty} AP (premium overuse)` : ''}${revenueResults.customersAdded?.length > 0 ? `, ${revenueResults.customersAdded.length} customers (+£${revenueResults.totalRecurringRevenue}k/q)` : ''}${revenueResults.pipelineDeals > 0 ? `, ${revenueResults.pipelineDeals} pipeline leads` : ''}`",
+    "`🎪 Demo Day: ${title} - Net ${getRegion().currency}${net}k, ${dd.conversions} converted${apPenalty > 0 ? `, -${apPenalty} AP (premium overuse)` : ''}${revenueResults.customersAdded?.length > 0 ? `, ${revenueResults.customersAdded.length} customers (+${getRegion().currency}${revenueResults.totalRecurringRevenue}k/q)` : ''}${revenueResults.pipelineDeals > 0 ? `, ${revenueResults.pipelineDeals} pipeline leads` : ''}`",
+    1
+   ],
+   [
+    "`<div class=\"flex justify-between text-[10px]\"><span>${c.title}</span><span class=\"text-emerald-700\">+£${c.revenue}k/q × ${c.duration}q</span></div>`",
+    "`<div class=\"flex justify-between text-[10px]\"><span>${c.title}</span><span class=\"text-emerald-700\">+R$${c.revenue}k/q × ${c.duration}q</span></div>`",
+    1
+   ],
+   [
+    "Total: +£${revenueResults.totalRecurringRevenue}k/quarter recurring revenue",
+    "Total: +R$${revenueResults.totalRecurringRevenue}k/quarter recurring revenue",
+    1
+   ],
+   [
+    "<div><div class=\"text-2xl font-bold ${net >= 0 ? 'text-emerald-600' : 'text-red-600'}\">${net >= 0 ? '£' : '-£'}${Math.abs(net)}k</div><div class=\"text-xs text-slate-500\">Net Profit</div></div>",
+    "<div><div class=\"text-2xl font-bold ${net >= 0 ? 'text-emerald-600' : 'text-red-600'}\">${net >= 0 ? 'R$' : '-R$'}${Math.abs(net)}k</div><div class=\"text-xs text-slate-500\">Net Profit</div></div>",
+    1
+   ],
+   [
+    "${total.val > 0 ? `<span class=\"text-emerald-600 font-bold text-sm\">+£${total.val}k Val</span>` : ''}",
+    "${total.val > 0 ? `<span class=\"text-emerald-600 font-bold text-sm\">+R$${total.val}k Val</span>` : ''}",
+    1
+   ]
+  ],
+  "endPitch": [
+   [
+    "`🎤 Investor pitch: ${title} - +£${rewards.val}k valuation`",
+    "`🎤 Investor pitch: ${title} - +${getRegion().currency}${rewards.val}k valuation`",
+    1
+   ],
+   [
+    "if (rewards.val > 0) rewardLines.push(`+£${rewards.val}k Valuation`);",
+    "if (rewards.val > 0) rewardLines.push(`+R$${rewards.val}k Valuation`);",
+    1
+   ],
+   [
+    "if (rewards.cash > 0) rewardLines.push(`+£${rewards.cash}k Cash`);",
+    "if (rewards.cash > 0) rewardLines.push(`+R$${rewards.cash}k Cash`);",
+    1
+   ]
+  ],
+  "confirmHireStaff": [
+   [
+    "`👥 Hired 1 staff (-£${hireCost}k${discountText}, +£${burnIncrease}k burn).${penaltyReason} Integrating...`",
+    "`👥 Hired 1 staff (-${getRegion().currency}${hireCost}k${discountText}, +${getRegion().currency}${burnIncrease}k burn).${penaltyReason} Integrating...`",
+    1
+   ]
+  ],
+  "showCounterOffer": [
+   [
+    "`\n      <div class=\"px-6 py-4 border-b border-slate-200 bg-gradient-to-r from-amber-500 to-orange-500 rounded-t-2xl\">\n        <h2 class=\"font-bold text-white text-lg\">💬 Counter-Offer</h2>\n        <p class=\"text-amber-100 text-sm\">from ${candidate.name}</p>\n      </div>\n      \n      <div class=\"p-6\">\n        <div class=\"flex items-center gap-4 mb-6\">\n          ${renderCandidatePortrait(candidate, 56, this.currentJobPosting?.role)}\n          <div class=\"flex-1 bg-slate-50 rounded-lg p-4\">\n            <p class=\"text-slate-700 italic\">\"I appreciate the offer, but I was hoping for £${counterSalary}k with ${counterEquity.toFixed(1)}% equity.\"</p>\n          </div>\n        </div>\n        \n        <div class=\"grid grid-cols-2 gap-4 mb-6\">\n          <div class=\"bg-slate-50 rounded-lg p-4\">\n            <div class=\"text-sm text-slate-500 mb-1\">Your offer</div>\n            <div class=\"font-bold text-slate-800\">£${originalSalary}k + ${originalEquity}%</div>\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-4\">\n            <div class=\"text-sm text-amber-600 mb-1\">Their counter</div>\n            <div class=\"font-bold text-amber-800\">£${counterSalary}k + ${counterEquity.toFixed(1)}%</div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"px-6 py-4 border-t border-slate-200 bg-slate-50 rounded-b-2xl flex gap-3\">\n        <button onclick=\"game.rejectCounter()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-white\">Decline</button>\n        <button onclick=\"game.acceptCounter(${counterSalary}, ${counterEquity})\" class=\"flex-1 px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-lg\">Accept Counter</button>\n      </div>\n    `",
+    "`\n      <div class=\"px-6 py-4 border-b border-slate-200 bg-gradient-to-r from-amber-500 to-orange-500 rounded-t-2xl\">\n        <h2 class=\"font-bold text-white text-lg\">💬 Counter-Offer</h2>\n        <p class=\"text-amber-100 text-sm\">from ${candidate.name}</p>\n      </div>\n      \n      <div class=\"p-6\">\n        <div class=\"flex items-center gap-4 mb-6\">\n          ${renderCandidatePortrait(candidate, 56, this.currentJobPosting?.role)}\n          <div class=\"flex-1 bg-slate-50 rounded-lg p-4\">\n            <p class=\"text-slate-700 italic\">\"I appreciate the offer, but I was hoping for ${getRegion().currency}${counterSalary}k with ${counterEquity.toFixed(1)}% equity.\"</p>\n          </div>\n        </div>\n        \n        <div class=\"grid grid-cols-2 gap-4 mb-6\">\n          <div class=\"bg-slate-50 rounded-lg p-4\">\n            <div class=\"text-sm text-slate-500 mb-1\">Your offer</div>\n            <div class=\"font-bold text-slate-800\">${getRegion().currency}${originalSalary}k + ${originalEquity}%</div>\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-4\">\n            <div class=\"text-sm text-amber-600 mb-1\">Their counter</div>\n            <div class=\"font-bold text-amber-800\">${getRegion().currency}${counterSalary}k + ${counterEquity.toFixed(1)}%</div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"px-6 py-4 border-t border-slate-200 bg-slate-50 rounded-b-2xl flex gap-3\">\n        <button onclick=\"game.rejectCounter()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-white\">Decline</button>\n        <button onclick=\"game.acceptCounter(${counterSalary}, ${counterEquity})\" class=\"flex-1 px-4 py-2.5 bg-amber-500 hover:bg-amber-600 text-white font-medium rounded-lg\">Accept Counter</button>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "showAngelOutcome": [
+   [
+    "`\n        <div class=\"bg-emerald-50 rounded-lg p-4 border border-emerald-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">£${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Their Investment</div>\n              ${cash !== orig.cash ? `<div class=\"text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}\">${cash > orig.cash ? '↑' : '↓'} from £${orig.cash}k</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n              ${equity !== orig.equity ? `<div class=\"text-xs ${equity < orig.equity ? 'text-emerald-600' : 'text-amber-600'}\">${equity < orig.equity ? '↓' : '↑'} from ${orig.equity}%</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${protection === 1 ? 'Full' : protection === 0.5 ? 'Partial' : 'None'}</div>\n              <div class=\"text-xs text-slate-500\">Protection</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-emerald-200 text-center\">\n            <span class=\"text-sm text-emerald-700\">Total Starting Cash: <strong>£${totalCash}k</strong></span>\n            <span class=\"text-xs text-emerald-600 ml-2\">(your £350k + their £${cash}k)</span>\n          </div>\n        </div>\n      `",
+    "`\n        <div class=\"bg-emerald-50 rounded-lg p-4 border border-emerald-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">${getRegion().currency}${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Their Investment</div>\n              ${cash !== orig.cash ? `<div class=\"text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}\">${cash > orig.cash ? '↑' : '↓'} from ${getRegion().currency}${orig.cash}k</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n              ${equity !== orig.equity ? `<div class=\"text-xs ${equity < orig.equity ? 'text-emerald-600' : 'text-amber-600'}\">${equity < orig.equity ? '↓' : '↑'} from ${orig.equity}%</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${protection === 1 ? 'Full' : protection === 0.5 ? 'Partial' : 'None'}</div>\n              <div class=\"text-xs text-slate-500\">Protection</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-emerald-200 text-center\">\n            <span class=\"text-sm text-emerald-700\">Total Starting Cash: <strong>${getRegion().currency}${totalCash}k</strong></span>\n            <span class=\"text-xs text-emerald-600 ml-2\">(your ${getRegion().currency}350k + their ${getRegion().currency}${cash}k)</span>\n          </div>\n        </div>\n      `",
+    1
+   ],
+   [
+    "`\n        <p class=\"text-slate-600 text-sm mb-4\">\n          ${harsh ? \"They're not impressed, but willing to consider:\" : \"They've thought about it and suggest:\"}\n        </p>\n        <div class=\"bg-indigo-50 rounded-lg p-4 border border-indigo-200 mb-4\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">£${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Their Investment</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${protection === 1 ? 'Full' : protection === 0.5 ? 'Partial' : 'None'}</div>\n              <div class=\"text-xs text-slate-500\">Protection</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-indigo-200 text-center\">\n            <span class=\"text-sm text-indigo-700\">Total Starting Cash: <strong>£${this.modeBase() + cash}k</strong></span>\n          </div>\n        </div>\n        ${harsh ? '<p class=\"text-xs text-amber-600 mb-4\">⚠️ This is likely their final offer.</p>' : ''}\n      `",
+    "`\n        <p class=\"text-slate-600 text-sm mb-4\">\n          ${harsh ? \"They're not impressed, but willing to consider:\" : \"They've thought about it and suggest:\"}\n        </p>\n        <div class=\"bg-indigo-50 rounded-lg p-4 border border-indigo-200 mb-4\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">${getRegion().currency}${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Their Investment</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${protection === 1 ? 'Full' : protection === 0.5 ? 'Partial' : 'None'}</div>\n              <div class=\"text-xs text-slate-500\">Protection</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-indigo-200 text-center\">\n            <span class=\"text-sm text-indigo-700\">Total Starting Cash: <strong>${getRegion().currency}${this.modeBase() + cash}k</strong></span>\n          </div>\n        </div>\n        ${harsh ? '<p class=\"text-xs text-amber-600 mb-4\">⚠️ This is likely their final offer.</p>' : ''}\n      `",
+    1
+   ],
+   [
+    "`\n        <div class=\"bg-amber-50 rounded-lg p-4 border border-amber-200 mb-4\">\n          <p class=\"text-amber-800 text-sm\">\n            They've declined your proposed terms, but their original offer still stands.\n          </p>\n        </div>\n        <div class=\"bg-slate-50 rounded-lg p-3 text-sm text-slate-600\">\n          Original: <strong>£${orig.cash}k</strong> for <strong>${orig.equity}%</strong>\n        </div>\n      `",
+    "`\n        <div class=\"bg-amber-50 rounded-lg p-4 border border-amber-200 mb-4\">\n          <p class=\"text-amber-800 text-sm\">\n            They've declined your proposed terms, but their original offer still stands.\n          </p>\n        </div>\n        <div class=\"bg-slate-50 rounded-lg p-3 text-sm text-slate-600\">\n          Original: <strong>${getRegion().currency}${orig.cash}k</strong> for <strong>${orig.equity}%</strong>\n        </div>\n      `",
+    1
+   ]
+  ],
+  "acceptAngelCounter": [
+   [
+    "`🤝 Accepted counter-offer from ${neg.funder.name}: £${cash}k for ${equity}%.`",
+    "`🤝 Accepted counter-offer from ${neg.funder.name}: ${getRegion().currency}${cash}k for ${equity}%.`",
+    1
+   ]
+  ],
+  "showBootstrapOutcome": [
+   [
+    "`\n        <div class=\"bg-pink-50 rounded-lg p-4 border border-pink-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">£${cash}k</div>\n              <div class=\"text-xs text-slate-500\">From Family</div>\n              ${cash !== orig.cash ? `<div class=\"text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}\">${cash > orig.cash ? '↑' : '↓'} from £${orig.cash}k</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n              ${equity !== orig.equity ? `<div class=\"text-xs ${equity < orig.equity ? 'text-emerald-600' : 'text-amber-600'}\">${equity < orig.equity ? '↓' : '↑'} from ${orig.equity}%</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">£${totalCash}k</div>\n              <div class=\"text-xs text-slate-500\">Total Cash</div>\n            </div>\n          </div>\n        </div>\n        ${extraHTML}\n      `",
+    "`\n        <div class=\"bg-pink-50 rounded-lg p-4 border border-pink-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">${getRegion().currency}${cash}k</div>\n              <div class=\"text-xs text-slate-500\">From Family</div>\n              ${cash !== orig.cash ? `<div class=\"text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}\">${cash > orig.cash ? '↑' : '↓'} from ${getRegion().currency}${orig.cash}k</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n              ${equity !== orig.equity ? `<div class=\"text-xs ${equity < orig.equity ? 'text-emerald-600' : 'text-amber-600'}\">${equity < orig.equity ? '↓' : '↑'} from ${orig.equity}%</div>` : ''}\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${getRegion().currency}${totalCash}k</div>\n              <div class=\"text-xs text-slate-500\">Total Cash</div>\n            </div>\n          </div>\n        </div>\n        ${extraHTML}\n      `",
+    1
+   ],
+   [
+    "`\n        <div class=\"bg-blue-50 rounded-lg p-4 border border-blue-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">£${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Raised</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">£${impliedVal}k</div>\n              <div class=\"text-xs text-slate-500\">Valuation</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-blue-200 text-center\">\n            <span class=\"text-sm text-blue-700\">Total Starting Cash: <strong>£${totalCash}k</strong></span>\n          </div>\n        </div>\n        <div class=\"bg-emerald-50 rounded-lg p-3 border border-emerald-200 mt-3\">\n          <p class=\"text-emerald-700 text-sm\">🎯 <strong>${backerCount.toLocaleString()} backers</strong> are now watching your progress. They're your first customers and loudest advocates.</p>\n        </div>\n      `",
+    "`\n        <div class=\"bg-blue-50 rounded-lg p-4 border border-blue-200\">\n          <div class=\"grid grid-cols-3 gap-3 text-center text-sm\">\n            <div>\n              <div class=\"font-bold text-emerald-600 text-lg\">${getRegion().currency}${cash}k</div>\n              <div class=\"text-xs text-slate-500\">Raised</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-amber-600 text-lg\">${equity}%</div>\n              <div class=\"text-xs text-slate-500\">Equity</div>\n            </div>\n            <div>\n              <div class=\"font-bold text-slate-600 text-lg\">${getRegion().currency}${impliedVal}k</div>\n              <div class=\"text-xs text-slate-500\">Valuation</div>\n            </div>\n          </div>\n          <div class=\"mt-3 pt-3 border-t border-blue-200 text-center\">\n            <span class=\"text-sm text-blue-700\">Total Starting Cash: <strong>${getRegion().currency}${totalCash}k</strong></span>\n          </div>\n        </div>\n        <div class=\"bg-emerald-50 rounded-lg p-3 border border-emerald-200 mt-3\">\n          <p class=\"text-emerald-700 text-sm\">🎯 <strong>${backerCount.toLocaleString()} backers</strong> are now watching your progress. They're your first customers and loudest advocates.</p>\n        </div>\n      `",
+    1
+   ]
+  ],
+  "applyNegotiatedFunding": [
+   [
+    "`🤝 Deal closed! ${investorName} invested £${cash}k for ${equity}%. New val: £${postMoneyVal}k.${negotiationNote} (-1 AP)`",
+    "`🤝 Deal closed! ${investorName} invested ${getRegion().currency}${cash}k for ${equity}%. New val: ${getRegion().currency}${postMoneyVal}k.${negotiationNote} (-1 AP)`",
+    1
+   ],
+   [
+    "if (cashDiff > 0) parts.push(`+£${cashDiff}k`);",
+    "if (cashDiff > 0) parts.push(`+R$${cashDiff}k`);",
+    1
+   ],
+   [
+    "if (cashDiff < 0) parts.push(`£${cashDiff}k`);",
+    "if (cashDiff < 0) parts.push(`R$${cashDiff}k`);",
+    1
+   ]
+  ],
+  "submitUKGrantApplication": [
+   [
+    "`🏛️ Grant application submitted: ${programme.short} (£${amt}k request, decision expected Q${this.turn + (programme.decisionQuarters || 1)})`",
+    "`🏛️ Grant application submitted: ${programme.short} (${getRegion().currency}${amt}k request, decision expected Q${this.turn + (programme.decisionQuarters || 1)})`",
+    1
+   ],
+   [
+    "? `professional review (£${cost.baseCash}k) + external advisor (£${cost.cashCost - cost.baseCash}k)`",
+    "? `professional review (R$${cost.baseCash}k) + external advisor (R$${cost.cashCost - cost.baseCash}k)`",
+    1
+   ],
+   [
+    ": cost.baseCash > 0 ? `professional review (£${cost.baseCash}k)` : `external advisor (£${cost.cashCost}k)`;",
+    ": cost.baseCash > 0 ? `professional review (R$${cost.baseCash}k)` : `external advisor (R$${cost.cashCost}k)`;",
+    1
+   ]
+  ],
+  "processUKGrantFunding": [
+   [
+    "`✅ ${grantLabel} funded: +£${app.amount}k (Score ${assessment.totalScore}/100)`",
+    "`✅ ${grantLabel} funded: +${getRegion().currency}${app.amount}k (Score ${assessment.totalScore}/100)`",
+    1
+   ]
+  ],
+  "showPivotCompanyDetail": [
+   [
+    "`\n      <div class=\"grid grid-cols-2 gap-4 mb-4\">\n        <div class=\"bg-slate-50 rounded-lg p-3\">\n          <div class=\"text-xs text-slate-500\">Cash</div>\n          <div class=\"text-xl font-bold text-slate-800\">£${cash}k</div>\n        </div>\n        <div class=\"bg-amber-50 rounded-lg p-3\">\n          <div class=\"text-xs text-amber-600\">Runway</div>\n          <div class=\"text-xl font-bold text-amber-700\">${runway} quarters</div>\n        </div>\n      </div>\n      <div class=\"space-y-3\">\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-blue-600 font-medium\">Research</span><span>${getStrength(sci)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-blue-500 rounded-full\" style=\"width: ${sci}%\"></div></div>\n        </div>\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-green-600 font-medium\">Product</span><span>${getStrength(dev)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-green-500 rounded-full\" style=\"width: ${dev}%\"></div></div>\n        </div>\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-amber-600 font-medium\">Sales & Marketing</span><span>${getStrength(mkt)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-amber-500 rounded-full\" style=\"width: ${mkt}%\"></div></div>\n        </div>\n      </div>\n      <div class=\"mt-4 pt-4 border-t border-slate-200\">\n        <div class=\"text-xs text-slate-500 mb-2\"><strong>Team:</strong> ${this.staff?.length || 5} employees</div>\n        <div class=\"text-xs text-slate-500\"><strong>Equity:</strong> ${this.metrics?.equity || 85}% founder ownership</div>\n      </div>\n    `",
+    "`\n      <div class=\"grid grid-cols-2 gap-4 mb-4\">\n        <div class=\"bg-slate-50 rounded-lg p-3\">\n          <div class=\"text-xs text-slate-500\">Cash</div>\n          <div class=\"text-xl font-bold text-slate-800\">${getRegion().currency}${cash}k</div>\n        </div>\n        <div class=\"bg-amber-50 rounded-lg p-3\">\n          <div class=\"text-xs text-amber-600\">Runway</div>\n          <div class=\"text-xl font-bold text-amber-700\">${runway} quarters</div>\n        </div>\n      </div>\n      <div class=\"space-y-3\">\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-blue-600 font-medium\">Research</span><span>${getStrength(sci)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-blue-500 rounded-full\" style=\"width: ${sci}%\"></div></div>\n        </div>\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-green-600 font-medium\">Product</span><span>${getStrength(dev)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-green-500 rounded-full\" style=\"width: ${dev}%\"></div></div>\n        </div>\n        <div>\n          <div class=\"flex justify-between text-sm mb-1\"><span class=\"text-amber-600 font-medium\">Sales & Marketing</span><span>${getStrength(mkt)}</span></div>\n          <div class=\"h-2 bg-slate-200 rounded-full\"><div class=\"h-full bg-amber-500 rounded-full\" style=\"width: ${mkt}%\"></div></div>\n        </div>\n      </div>\n      <div class=\"mt-4 pt-4 border-t border-slate-200\">\n        <div class=\"text-xs text-slate-500 mb-2\"><strong>Team:</strong> ${this.staff?.length || 5} employees</div>\n        <div class=\"text-xs text-slate-500\"><strong>Equity:</strong> ${this.metrics?.equity || 85}% founder ownership</div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "showMilestoneComparison": [
+   [
+    "`\n      <div class=\"grid grid-cols-2 gap-4 mb-4\">\n        <div class=\"bg-red-50 rounded-xl p-4 border border-red-200\">\n          <div class=\"text-xs font-bold text-red-600 mb-2\">📍 LEAVING</div>\n          <div class=\"font-bold text-slate-800\">${currentMilestone.name}</div>\n          <div class=\"text-sm text-slate-600\">${currentProgress}% complete</div>\n          <div class=\"text-xs text-slate-500 mt-1\">${invested}</div>\n        </div>\n        <div class=\"bg-emerald-50 rounded-xl p-4 border border-emerald-200\">\n          <div class=\"text-xs font-bold text-emerald-600 mb-2\">🎯 JOINING</div>\n          <div class=\"font-bold text-slate-800\">${newMilestone.name}</div>\n          <div class=\"text-sm text-slate-600\">${newMilestone.startingProgress}% start • ${newMilestone.time}q</div>\n          <div class=\"text-xs text-slate-500 mt-1\">Reward: £${newMilestone.reward?.cash || 300}k + £${newMilestone.reward?.val || 500}k val</div>\n        </div>\n      </div>\n      \n      <div class=\"bg-slate-50 rounded-xl p-4 mb-4 border border-slate-200\">\n        <div class=\"text-sm font-bold text-slate-700 mb-3\">Progress Transfer by Domain:</div>\n        <div class=\"space-y-3\">\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Research</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currResearch)}\">${this.getScoreLabel(currResearch)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(researchTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currResearch)} rounded-full\" style=\"width: ${currResearch}%\"></div>\n            </div>\n          </div>\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Product</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currProduct)}\">${this.getScoreLabel(currProduct)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(productTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currProduct)} rounded-full\" style=\"width: ${currProduct}%\"></div>\n            </div>\n          </div>\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Sales & Mkt</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currSales)}\">${this.getScoreLabel(currSales)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(salesTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currSales)} rounded-full\" style=\"width: ${currSales}%\"></div>\n            </div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"bg-indigo-50 rounded-xl p-4 mb-4 border border-indigo-200\">\n        <div class=\"text-xs font-bold text-indigo-700 mb-1\">💡 Analysis</div>\n        <p class=\"text-sm text-slate-700\">${newMilestone.notes || 'This milestone aligns well with your pivot strategy and team capabilities.'}</p>\n      </div>\n      \n      <div class=\"grid grid-cols-2 gap-4\">\n        <div class=\"bg-red-50 rounded-lg p-3 border border-red-200\">\n          <div class=\"text-xs font-bold text-red-600 mb-2\">What You Lose:</div>\n          <ul class=\"text-xs text-slate-600 space-y-1\">\n            <li>• Some research momentum</li>\n            <li>• Product development progress</li>\n            <li>• Sales pipeline connections</li>\n            <li>• ${pivot.costs[2] || pivot.costs[0]}</li>\n          </ul>\n        </div>\n        <div class=\"bg-emerald-50 rounded-lg p-3 border border-emerald-200\">\n          <div class=\"text-xs font-bold text-emerald-600 mb-2\">What You Gain:</div>\n          <ul class=\"text-xs text-slate-600 space-y-1\">\n            <li>• Clear market differentiation</li>\n            <li>• ${newMilestone.startingProgress}% starting progress</li>\n            <li>• New strategic direction</li>\n            <li>• ${newMilestone.reward?.cash || 300}k cash potential</li>\n          </ul>\n        </div>\n      </div>\n    `",
+    "`\n      <div class=\"grid grid-cols-2 gap-4 mb-4\">\n        <div class=\"bg-red-50 rounded-xl p-4 border border-red-200\">\n          <div class=\"text-xs font-bold text-red-600 mb-2\">📍 LEAVING</div>\n          <div class=\"font-bold text-slate-800\">${currentMilestone.name}</div>\n          <div class=\"text-sm text-slate-600\">${currentProgress}% complete</div>\n          <div class=\"text-xs text-slate-500 mt-1\">${invested}</div>\n        </div>\n        <div class=\"bg-emerald-50 rounded-xl p-4 border border-emerald-200\">\n          <div class=\"text-xs font-bold text-emerald-600 mb-2\">🎯 JOINING</div>\n          <div class=\"font-bold text-slate-800\">${newMilestone.name}</div>\n          <div class=\"text-sm text-slate-600\">${newMilestone.startingProgress}% start • ${newMilestone.time}q</div>\n          <div class=\"text-xs text-slate-500 mt-1\">Reward: ${getRegion().currency}${newMilestone.reward?.cash || 300}k + ${getRegion().currency}${newMilestone.reward?.val || 500}k val</div>\n        </div>\n      </div>\n      \n      <div class=\"bg-slate-50 rounded-xl p-4 mb-4 border border-slate-200\">\n        <div class=\"text-sm font-bold text-slate-700 mb-3\">Progress Transfer by Domain:</div>\n        <div class=\"space-y-3\">\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Research</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currResearch)}\">${this.getScoreLabel(currResearch)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(researchTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currResearch)} rounded-full\" style=\"width: ${currResearch}%\"></div>\n            </div>\n          </div>\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Product</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currProduct)}\">${this.getScoreLabel(currProduct)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(productTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currProduct)} rounded-full\" style=\"width: ${currProduct}%\"></div>\n            </div>\n          </div>\n          <div>\n            <div class=\"flex justify-between text-xs mb-1\">\n              <span class=\"font-medium\">Sales & Mkt</span>\n              <span>\n                <span class=\"${this.getScoreColorClass(currSales)}\">${this.getScoreLabel(currSales)}</span>\n                <span class=\"text-slate-400 mx-1\">→</span>\n                <span class=\"text-emerald-600 font-medium\">${this.getTransferQuality(salesTransferPct)}</span>\n              </span>\n            </div>\n            <div class=\"h-3 bg-slate-200 rounded-full relative overflow-hidden\">\n              <div class=\"h-full ${this.getScoreBarColor(currSales)} rounded-full\" style=\"width: ${currSales}%\"></div>\n            </div>\n          </div>\n        </div>\n      </div>\n      \n      <div class=\"bg-indigo-50 rounded-xl p-4 mb-4 border border-indigo-200\">\n        <div class=\"text-xs font-bold text-indigo-700 mb-1\">💡 Analysis</div>\n        <p class=\"text-sm text-slate-700\">${newMilestone.notes || 'This milestone aligns well with your pivot strategy and team capabilities.'}</p>\n      </div>\n      \n      <div class=\"grid grid-cols-2 gap-4\">\n        <div class=\"bg-red-50 rounded-lg p-3 border border-red-200\">\n          <div class=\"text-xs font-bold text-red-600 mb-2\">What You Lose:</div>\n          <ul class=\"text-xs text-slate-600 space-y-1\">\n            <li>• Some research momentum</li>\n            <li>• Product development progress</li>\n            <li>• Sales pipeline connections</li>\n            <li>• ${pivot.costs[2] || pivot.costs[0]}</li>\n          </ul>\n        </div>\n        <div class=\"bg-emerald-50 rounded-lg p-3 border border-emerald-200\">\n          <div class=\"text-xs font-bold text-emerald-600 mb-2\">What You Gain:</div>\n          <ul class=\"text-xs text-slate-600 space-y-1\">\n            <li>• Clear market differentiation</li>\n            <li>• ${newMilestone.startingProgress}% starting progress</li>\n            <li>• New strategic direction</li>\n            <li>• ${newMilestone.reward?.cash || 300}k cash potential</li>\n          </ul>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "handleCompeteHeadOn": [
+   [
+    "`⚔️ Chose to compete head-on. Valuation hit: -£${valuationPenalty}k`",
+    "`⚔️ Chose to compete head-on. Valuation hit: -${getRegion().currency}${valuationPenalty}k`",
+    1
+   ]
+  ],
+  "showPivotOutcome": [
+   [
+    "`\n        <div class=\"text-center mb-6\">\n          <div class=\"text-5xl mb-4\">⚔️</div>\n          <div class=\"inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-full mb-2\">\n            <span class=\"text-lg\">🧬</span>\n            <span class=\"font-bold text-slate-800\">${this.company?.name || 'Your Company'}</span>\n          </div>\n        </div>\n        \n        <div class=\"bg-amber-50 rounded-xl p-4 border border-amber-200 mb-4\">\n          <p class=\"text-amber-800 font-medium\">You've chosen to compete head-on against ${data.rival?.name}.</p>\n          <p class=\"text-amber-700 text-sm mt-2\">All your milestone progress is preserved, but investors have noted the competitive pressure. You're now fighting for market position as #2.</p>\n        </div>\n        \n        <div class=\"bg-slate-50 rounded-xl p-4 border border-slate-200 mb-4\">\n          <div class=\"text-sm text-slate-600 space-y-2\">\n            <div>📋 <strong>Milestone:</strong> ${this.milestone?.name || 'Current Milestone'} (unchanged)</div>\n            <div>📊 <strong>Progress:</strong> ${this.milestoneProgress || 0}% (preserved)</div>\n            <div>💰 <strong>Cost:</strong> None</div>\n          </div>\n        </div>\n        \n        <div class=\"bg-red-50 rounded-xl p-4 border border-red-200\">\n          <div class=\"flex justify-between items-center mb-2\">\n            <span class=\"text-red-700 font-medium\">Valuation Impact</span>\n            <span class=\"font-bold text-red-700 text-lg\">-£${data.valuationPenalty}k</span>\n          </div>\n          <p class=\"text-xs text-red-600\">Market perceives competitive disadvantage. Future fundraising will be +15% more dilutive.</p>\n        </div>\n      `",
+    "`\n        <div class=\"text-center mb-6\">\n          <div class=\"text-5xl mb-4\">⚔️</div>\n          <div class=\"inline-flex items-center gap-2 px-4 py-2 bg-slate-100 rounded-full mb-2\">\n            <span class=\"text-lg\">🧬</span>\n            <span class=\"font-bold text-slate-800\">${this.company?.name || 'Your Company'}</span>\n          </div>\n        </div>\n        \n        <div class=\"bg-amber-50 rounded-xl p-4 border border-amber-200 mb-4\">\n          <p class=\"text-amber-800 font-medium\">You've chosen to compete head-on against ${data.rival?.name}.</p>\n          <p class=\"text-amber-700 text-sm mt-2\">All your milestone progress is preserved, but investors have noted the competitive pressure. You're now fighting for market position as #2.</p>\n        </div>\n        \n        <div class=\"bg-slate-50 rounded-xl p-4 border border-slate-200 mb-4\">\n          <div class=\"text-sm text-slate-600 space-y-2\">\n            <div>📋 <strong>Milestone:</strong> ${this.milestone?.name || 'Current Milestone'} (unchanged)</div>\n            <div>📊 <strong>Progress:</strong> ${this.milestoneProgress || 0}% (preserved)</div>\n            <div>💰 <strong>Cost:</strong> None</div>\n          </div>\n        </div>\n        \n        <div class=\"bg-red-50 rounded-xl p-4 border border-red-200\">\n          <div class=\"flex justify-between items-center mb-2\">\n            <span class=\"text-red-700 font-medium\">Valuation Impact</span>\n            <span class=\"font-bold text-red-700 text-lg\">-${getRegion().currency}${data.valuationPenalty}k</span>\n          </div>\n          <p class=\"text-xs text-red-600\">Market perceives competitive disadvantage. Future fundraising will be +15% more dilutive.</p>\n        </div>\n      `",
+    1
+   ],
+   [
+    "<div>💰 <strong>Cost:</strong> ${pivot?.costs?.[2] || '~£30k transition'}</div>",
+    "<div>💰 <strong>Cost:</strong> ${pivot?.costs?.[2] || '~R$30k transition'}</div>",
+    1
+   ]
+  ],
+  "completePivotProcess": [
+   [
+    "`💰 Valuation adjustment: -£${valLoss}k (preparation reduced investor concerns)`",
+    "`💰 Valuation adjustment: -${getRegion().currency}${valLoss}k (preparation reduced investor concerns)`",
+    1
+   ],
+   [
+    "`💰 Valuation adjustment: -£${valLoss}k (investor concerns about direction change)`",
+    "`💰 Valuation adjustment: -${getRegion().currency}${valLoss}k (investor concerns about direction change)`",
+    1
+   ],
+   [
+    "`📈 Pivot cost increased to £${cost}k (board scrutiny after ${previousPivots} previous pivot${previousPivots > 1 ? 's' : ''})`",
+    "`📈 Pivot cost increased to ${getRegion().currency}${cost}k (board scrutiny after ${previousPivots} previous pivot${previousPivots > 1 ? 's' : ''})`",
+    1
+   ],
+   [
+    "`🔄 Pivoted to: ${milestone.name}. Transition cost: £${cost}k${readinessNote}`",
+    "`🔄 Pivoted to: ${milestone.name}. Transition cost: ${getRegion().currency}${cost}k${readinessNote}`",
+    1
+   ]
+  ],
+  "applyPivotRevenueImpact": [
+   [
+    "`📉 Pivot impact: Lost ${lostCustomers.length} customer(s) (-£${Math.round(lostRevenue)}k/q)`",
+    "`📉 Pivot impact: Lost ${lostCustomers.length} customer(s) (-${getRegion().currency}${Math.round(lostRevenue)}k/q)`",
+    1
+   ]
+  ],
+  "processExecutionDebt": [
+   [
+    "`🔥 ${d.toUpperCase()} firefighting: an unexpected issue hit (-${statHit} ${metric}, -£${cashHit}k).`",
+    "`🔥 ${d.toUpperCase()} firefighting: an unexpected issue hit (-${statHit} ${metric}, -${getRegion().currency}${cashHit}k).`",
+    1
+   ]
+  ],
+  "showCompetitorModal": [
+   [
+    "const totalRaised = rival.totalRaised ? `£${(rival.totalRaised / 1000).toFixed(1)}M total` : rival.funder.raised;",
+    "const totalRaised = rival.totalRaised ? `R$${(rival.totalRaised / 1000).toFixed(1)}M total` : rival.funder.raised;",
+    1
+   ]
+  ],
+  "completeMilestone": [
+   [
+    "let rewardText = `+£${valReward}k valuation`;",
+    "let rewardText = `+R$${valReward}k valuation`;",
+    1
+   ]
+  ],
+  "endGame": [
+   [
+    "<div class=\"font-bold ${isBankrupt ? 'text-red-600' : 'text-emerald-600'}\">${isBankrupt ? '£0 — Bankrupt' : '£' + finalValuation.toLocaleString() + 'k'}</div>",
+    "<div class=\"font-bold ${isBankrupt ? 'text-red-600' : 'text-emerald-600'}\">${isBankrupt ? 'R$0 — Bankrupt' : 'R$' + finalValuation.toLocaleString() + 'k'}</div>",
+    1
+   ],
+   [
+    "<div class=\"font-bold ${isBankrupt ? 'text-slate-500' : this.metrics.cash <= 0 ? 'text-red-600' : 'text-slate-800'}\">${isBankrupt ? '£' + peakVal.toLocaleString() + 'k' : '£' + this.metrics.cash + 'k'}</div>",
+    "<div class=\"font-bold ${isBankrupt ? 'text-slate-500' : this.metrics.cash <= 0 ? 'text-red-600' : 'text-slate-800'}\">${isBankrupt ? 'R$' + peakVal.toLocaleString() + 'k' : 'R$' + this.metrics.cash + 'k'}</div>",
+    1
+   ],
+   [
+    "const figure = valuationK > 0 ? '£' + (valuationK / 1000).toFixed(1) + 'm' : '£0.0m';",
+    "const figure = valuationK > 0 ? 'R$' + (valuationK / 1000).toFixed(1) + 'm' : 'R$0.0m';",
+    1
+   ]
+  ],
+  "applyNegotiatedAngelFunding": [
+   [
+    "if (cashDiff !== 0) negotiationSummary += `Investment: £${modifiedFunder.cash - this.modeBase()}k (${cashDiff > 0 ? '+' : ''}${cashDiff}k). `;",
+    "if (cashDiff !== 0) negotiationSummary += `Investment: R$${modifiedFunder.cash - this.modeBase()}k (${cashDiff > 0 ? '+' : ''}${cashDiff}k). `;",
+    1
+   ]
+  ],
+  "applyNegotiatedBootstrapFunding": [
+   [
+    "summary += `£${modifiedFunder.cash - this.modeBase('bootstrap')}k raised`;",
+    "summary += `R$${modifiedFunder.cash - this.modeBase('bootstrap')}k raised`;",
+    1
+   ]
+  ],
+  "showPivotCurrentMilestone": [
+   [
+    "const reward = `£${m.reward?.cash || 300}k`;",
+    "const reward = `R$${m.reward?.cash || 300}k`;",
+    1
+   ]
+  ],
+  "showFundingAcceptedModal": [
+   [
+    "if (cashDiff > 0) parts.push(`<span class=\"text-emerald-600\">+£${cashDiff}k more funding</span>`);",
+    "if (cashDiff > 0) parts.push(`<span class=\"text-emerald-600\">+R$${cashDiff}k more funding</span>`);",
+    1
+   ],
+   [
+    "if (cashDiff < 0) parts.push(`<span class=\"text-amber-600\">£${Math.abs(cashDiff)}k less funding</span>`);",
+    "if (cashDiff < 0) parts.push(`<span class=\"text-amber-600\">R$${Math.abs(cashDiff)}k less funding</span>`);",
+    1
+   ]
+  ],
+  "renderGrantFundingModal": [
+   [
+    "(cost.cashCost > 0 && this.metrics.cash < cost.cashCost) ? `Not enough cash (£${cost.cashCost}k needed).` :",
+    "(cost.cashCost > 0 && this.metrics.cash < cost.cashCost) ? `Not enough cash (R$${cost.cashCost}k needed).` :",
+    1
+   ]
+  ],
+  "downloadJourneyPDF": [
+   [
+    "? `${this.completedMilestones.length}/3 milestones • ${this.turn} quarters • £0 cash remaining • ${pdfModeLabel}`",
+    "? `${this.completedMilestones.length}/3 milestones • ${this.turn} quarters • R$0 cash remaining • ${pdfModeLabel}`",
+    1
+   ],
+   [
+    "doc.text(`Cash: £0 — Company ran out of runway in Q${this.turn}`, margin + 8, y);",
+    "doc.text(`Cash: R$0 — Company ran out of runway in Q${this.turn}`, margin + 8, y);",
+    1
+   ],
+   [
+    "doc.text(`Cash remaining: £${Number.isFinite(this.metrics.cash) ? Math.round(this.metrics.cash) : 0}k`, margin + 70, y);",
+    "doc.text(`Cash remaining: R$${Number.isFinite(this.metrics.cash) ? Math.round(this.metrics.cash) : 0}k`, margin + 70, y);",
+    1
+   ],
+   [
+    "doc.text(`ARR: £${revenueNarrative.keyMetrics.finalARR.toLocaleString()}k`, margin + 8, y);",
+    "doc.text(`ARR: R$${revenueNarrative.keyMetrics.finalARR.toLocaleString()}k`, margin + 8, y);",
+    1
+   ],
+   [
+    "doc.text(`Avg customer value: £${revenueNarrative.keyMetrics.avgCustomerRevenue.toLocaleString()}k ARR`, margin + 8, y);",
+    "doc.text(`Avg customer value: R$${revenueNarrative.keyMetrics.avgCustomerRevenue.toLocaleString()}k ARR`, margin + 8, y);",
+    1
+   ]
+  ],
+  "checkRivalFunding": [
+   [
+    "raised: `£${(r.totalRaised / 1000).toFixed(1)}M total`",
+    "raised: `R$${(r.totalRaised / 1000).toFixed(1)}M total`",
+    1
+   ]
+  ]
+ },
+ "uiWritesMeta": {
+  "classification": "presentation-only-ui-sinks",
+  "version": 1,
+  "basisHash": "937e44409b61b1b2371ccce192a07283a674402dbac603115583190c7b6da578",
+  "methods": 41,
+  "anchors": 74,
+  "symbols": 100,
+  "sinks": "textContent,innerHTML,innerText,value,outerHTML",
+  "calls": "log,logJourneyEvent,demoDayFloat"
+ },
+ "flowWrites": {
+  "startDemoDay": [
+   [
+    "`\n      <div class=\"fixed inset-0 bg-gradient-to-b from-slate-800 to-slate-900 flex flex-col z-50 p-3 overflow-y-auto\" id=\"demoDayModal\">\n        <div class=\"max-w-6xl mx-auto w-full flex-1 flex flex-col\" id=\"ddPanel\">\n          <!-- Top Bar -->\n          <div class=\"flex justify-between items-center mb-2 gap-3\">\n            <div id=\"ddTimerBox\" class=\"bg-slate-700 rounded-xl px-5 py-2 flex items-center gap-3\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"11\" r=\"7.5\" fill=\"none\" stroke=\"#f8fafc\" stroke-width=\"1.8\"/><path d=\"M10 11 L10 6.5 M10 11 L13 13\" stroke=\"#f8fafc\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M8 2 L12 2\" stroke=\"#f8fafc\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>\n              <span id=\"ddTimer\" class=\"text-3xl font-bold text-white font-mono\">60</span>\n            </div>\n            <div class=\"bg-slate-700 rounded-xl px-5 py-2 text-center\">\n              <div class=\"text-slate-400 text-xs uppercase tracking-wide\">Converted</div>\n              <div class=\"flex items-center gap-2 justify-center\">\n                <span id=\"ddConversions\" class=\"text-2xl font-bold text-amber-400\">0</span>\n                <span class=\"text-slate-500 text-lg\">/</span>\n                <span id=\"ddTotalVisitors\" class=\"text-lg text-slate-400\">0</span>\n              </div>\n            </div>\n            <div class=\"bg-slate-700 rounded-xl px-5 py-2 text-center\">\n              <div class=\"text-slate-400 text-xs uppercase tracking-wide\">Net Profit</div>\n              <div id=\"ddNetProfit\" class=\"text-2xl font-bold text-emerald-400\">£0k</div>\n            </div>\n          </div>\n\n          <!-- Resources Bar: numbers keep their ids; the counter drawing mirrors them -->\n          <div class=\"bg-slate-800 rounded-xl p-2 mb-2 flex justify-between items-center\">\n            <div class=\"flex gap-4 text-sm items-center\">\n              <span class=\"flex items-center gap-1\" title=\"Swag\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"2\" y=\"5\" width=\"11\" height=\"8\" rx=\"1\" fill=\"#34d399\"/><rect x=\"6.4\" y=\"5\" width=\"2.2\" height=\"8\" fill=\"#d1fae5\"/><rect x=\"2\" y=\"7.4\" width=\"11\" height=\"1.8\" fill=\"#d1fae5\"/></svg><span id=\"ddSwag\" class=\"text-emerald-400 font-bold\">5</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Coffee\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M3 5 L11 5 L10 13 L4 13 Z\" fill=\"#e9d5ff\"/><path d=\"M11 6 Q13.6 7 11 10\" stroke=\"#e9d5ff\" stroke-width=\"1.3\" fill=\"none\"/></svg><span id=\"ddCoffee\" class=\"text-purple-400 font-bold\">6</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Demo\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"1.6\" y=\"3\" width=\"11.8\" height=\"7.6\" rx=\"1\" fill=\"none\" stroke=\"#67e8f9\" stroke-width=\"1.3\"/><path d=\"M6.2 5 L9.4 6.8 L6.2 8.6 Z\" fill=\"#67e8f9\"/><rect x=\"5.4\" y=\"12\" width=\"4.2\" height=\"1.2\" rx=\"0.6\" fill=\"#67e8f9\"/></svg><span id=\"ddDemo\" class=\"text-cyan-400 font-bold\">3</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Discount\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"11\" height=\"7\" rx=\"1.2\" fill=\"#fbbf24\"/><text x=\"7.5\" y=\"9.7\" text-anchor=\"middle\" font-size=\"6\" font-weight=\"bold\" fill=\"#78350f\">-%</text></svg><span id=\"ddDiscount\" class=\"text-amber-400 font-bold\">4</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Custom build\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M9.5 2.5 A4 4 0 1 0 12.5 5.5 L10.5 7.5 L7.5 4.5 Z\" fill=\"#93c5fd\"/><rect x=\"8.6\" y=\"7\" width=\"4.4\" height=\"2.2\" rx=\"1\" transform=\"rotate(45 10.8 8.1)\" fill=\"#93c5fd\"/></svg><span id=\"ddCustom\" class=\"text-blue-400 font-bold\">3</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Massive discount\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M7.5 1.5 L9.2 5.3 L13.4 5.7 L10.2 8.4 L11.2 12.5 L7.5 10.3 L3.8 12.5 L4.8 8.4 L1.6 5.7 L5.8 5.3 Z\" fill=\"#fb7185\"/></svg><span id=\"ddMassive\" class=\"text-rose-400 font-bold\">1</span></span>\n            </div>\n            <div class=\"text-slate-400 text-xs\">Costs: <span id=\"ddCosts\" class=\"text-red-400 font-bold\">£0k</span></div>\n          </div>\n\n          <!-- The stand: first person, you are behind the counter -->\n          <div class=\"bg-slate-900 rounded-xl p-2 mb-2 relative border border-slate-700\" id=\"ddGameArea\">\n            <div id=\"ddStage\">\n              <svg id=\"ddScene\" width=\"800\" height=\"360\" viewBox=\"0 0 800 360\" style=\"position:absolute;inset:0\" aria-hidden=\"true\" focusable=\"false\">\n                <defs>\n                  <linearGradient id=\"ddSky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#dfeaf7\"/><stop offset=\"1\" stop-color=\"#f4f8fd\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddFloor\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#b9c1cd\"/><stop offset=\"0.55\" stop-color=\"#cdd4de\"/><stop offset=\"1\" stop-color=\"#dde2ea\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddCounterTop\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#f8fafc\"/><stop offset=\"1\" stop-color=\"#d4dce6\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddCounterFace\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#1d4ed8\"/><stop offset=\"1\" stop-color=\"#173a8f\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddShaft\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#fff8e6\" stop-opacity=\"0.5\"/><stop offset=\"1\" stop-color=\"#fff8e6\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandPurple\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#7c3aed\"/><stop offset=\"0.6\" stop-color=\"#5b21b6\"/><stop offset=\"1\" stop-color=\"#3b0f80\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandTeal\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#14b8a6\"/><stop offset=\"1\" stop-color=\"#0f5f56\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandRose\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#e11d48\"/><stop offset=\"0.6\" stop-color=\"#a3123a\"/><stop offset=\"1\" stop-color=\"#6f0d29\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandBlue\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#0284c7\"/><stop offset=\"1\" stop-color=\"#075985\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddScreenGlow\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#0b1526\"/><stop offset=\"1\" stop-color=\"#12233c\"/>\n                  </linearGradient>\n                  <radialGradient id=\"ddBoothPool\" cx=\"0.5\" cy=\"0.5\" r=\"0.5\">\n                    <stop offset=\"0\" stop-color=\"#0b1220\" stop-opacity=\"0.28\"/><stop offset=\"1\" stop-color=\"#0b1220\" stop-opacity=\"0\"/>\n                  </radialGradient>\n                  <linearGradient id=\"ddReflect\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.16\"/><stop offset=\"1\" stop-color=\"#ffffff\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddHaze\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#eaf1f9\" stop-opacity=\"0\"/><stop offset=\"0.5\" stop-color=\"#eaf1f9\" stop-opacity=\"0.5\"/><stop offset=\"1\" stop-color=\"#eaf1f9\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <pattern id=\"ddBrick\" width=\"42\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n                    <rect width=\"42\" height=\"16\" fill=\"#8a5645\"/>\n                    <rect x=\"1\" y=\"1\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#96604d\"/>\n                    <rect x=\"22\" y=\"1\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#8f5a48\"/>\n                    <rect x=\"-9\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#925d4b\"/>\n                    <rect x=\"12\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#9a6450\"/>\n                    <rect x=\"33\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#8d5846\"/>\n                  </pattern>\n                </defs>\n\n                <!-- The great hall: single-span arched trainshed roof, daylight -->\n                <rect x=\"0\" y=\"0\" width=\"800\" height=\"170\" fill=\"url(#ddSky)\"/>\n                <ellipse cx=\"180\" cy=\"40\" rx=\"90\" ry=\"16\" fill=\"#ffffff\" opacity=\"0.45\"/>\n                <ellipse cx=\"600\" cy=\"26\" rx=\"110\" ry=\"14\" fill=\"#ffffff\" opacity=\"0.35\"/>\n\n                <!-- end wall: brick ring, fanned glazed arch, station clock -->\n                <g>\n                  <path d=\"M238 170 L238 96 Q400 6 562 96 L562 170 Z\" fill=\"none\" stroke=\"#7a4a3a\" stroke-width=\"14\"/>\n                  <path d=\"M244 170 L244 98 Q400 14 556 98 L556 170 Z\" fill=\"none\" stroke=\"#96604d\" stroke-width=\"5\"/>\n                  <path d=\"M250 170 L250 100 Q400 22 550 100 L550 170 Z\" fill=\"#eef4fb\"/>\n                  <g stroke=\"#93a0b0\" stroke-width=\"1.4\" fill=\"none\">\n                    <path d=\"M400 170 L400 24 M400 170 L322 52 M400 170 L478 52 M400 170 L280 84 M400 170 L520 84 M400 170 L256 122 M400 170 L544 122\"/>\n                    <path d=\"M262 132 Q400 44 538 132 M282 152 Q400 82 518 152\"/>\n                  </g>\n                  <g stroke=\"#8b98a8\" stroke-width=\"1\" opacity=\"0.6\">\n                    <path d=\"M250 148 L550 148 M254 128 L546 128\"/>\n                  </g>\n                  <!-- distant far floor and crowd through the arch -->\n                  <rect x=\"250\" y=\"156\" width=\"300\" height=\"14\" fill=\"#c3cbd6\"/>\n                  <g fill=\"#7d8794\" opacity=\"0.7\">\n                    <circle cx=\"330\" cy=\"163\" r=\"2.4\"/><circle cx=\"352\" cy=\"165\" r=\"2\"/><circle cx=\"381\" cy=\"162\" r=\"2.2\"/>\n                    <circle cx=\"422\" cy=\"164\" r=\"2.4\"/><circle cx=\"447\" cy=\"162\" r=\"2\"/><circle cx=\"472\" cy=\"165\" r=\"2.2\"/>\n                  </g>\n                  <!-- station clock -->\n                  <circle cx=\"400\" cy=\"104\" r=\"15\" fill=\"#0f172a\"/>\n                  <circle cx=\"400\" cy=\"104\" r=\"12.5\" fill=\"#f8fafc\"/>\n                  <g stroke=\"#0f172a\" stroke-width=\"1.6\" stroke-linecap=\"round\">\n                    <path d=\"M400 104 L400 96 M400 104 L406 107\"/>\n                  </g>\n                  <circle cx=\"400\" cy=\"104\" r=\"1.4\" fill=\"#0f172a\"/>\n                </g>\n\n                <!-- iron ribs: doubled with lattice bracing, three depths -->\n                <g fill=\"none\">\n                  <path d=\"M-40 170 Q400 -80 840 170\" stroke=\"#525d6b\" stroke-width=\"7\"/>\n                  <path d=\"M-24 170 Q400 -58 824 170\" stroke=\"#525d6b\" stroke-width=\"3.5\"/>\n                  <g stroke=\"#525d6b\" stroke-width=\"2\" opacity=\"0.85\">\n                    <path d=\"M56 118 L74 136 M120 84 L136 104 M196 56 L208 78 M284 36 L292 58 M380 26 L384 48 M478 28 L474 50 M572 42 L564 62 M660 66 L648 86 M736 100 L720 118\"/>\n                  </g>\n                  <path d=\"M20 170 Q400 -26 780 170\" stroke=\"#5d6876\" stroke-width=\"2.5\" opacity=\"0.7\"/>\n                  <path d=\"M78 170 Q400 16 722 170\" stroke=\"#68737f\" stroke-width=\"2\" opacity=\"0.55\"/>\n                  <path d=\"M140 170 Q400 54 660 170\" stroke=\"#737e8a\" stroke-width=\"1.6\" opacity=\"0.4\"/>\n                </g>\n                <!-- glazing bars along the span -->\n                <g stroke=\"#9fb0c2\" stroke-width=\"1\" opacity=\"0.4\">\n                  <path d=\"M80 170 L80 112 M140 170 L140 86 M200 170 L200 64 M660 170 L660 86 M600 170 L600 64 M720 170 L720 112\"/>\n                </g>\n                <!-- roof lamps hung from the near rib -->\n                <g>\n                  <line x1=\"150\" y1=\"66\" x2=\"150\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"150\" cy=\"97\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                  <line x1=\"400\" y1=\"30\" x2=\"400\" y2=\"58\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"400\" cy=\"63\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                  <line x1=\"650\" y1=\"66\" x2=\"650\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"650\" cy=\"97\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                </g>\n\n                <!-- brick piers with stone caps -->\n                <path d=\"M0 52 L60 92 L60 218 L0 228 Z\" fill=\"url(#ddBrick)\"/>\n                <path d=\"M0 48 L62 88 L62 96 L0 58 Z\" fill=\"#c8beb2\"/>\n                <path d=\"M800 52 L740 92 L740 218 L800 228 Z\" fill=\"url(#ddBrick)\"/>\n                <path d=\"M800 48 L738 88 L738 96 L800 58 Z\" fill=\"#c8beb2\"/>\n\n                <!-- bunting strung between the piers (expo dressing) -->\n                <g>\n                  <path d=\"M60 96 Q400 132 740 96\" stroke=\"#64748b\" stroke-width=\"1.4\" fill=\"none\"/>\n                  <g>\n                    <path d=\"M96 100 L104 100 L100 111 Z\" fill=\"#ef4444\"/><path d=\"M156 106 L164 106 L160 117 Z\" fill=\"#f59e0b\"/>\n                    <path d=\"M216 110 L224 110 L220 121 Z\" fill=\"#10b981\"/><path d=\"M276 114 L284 114 L280 125 Z\" fill=\"#3b82f6\"/>\n                    <path d=\"M336 116 L344 116 L340 127 Z\" fill=\"#ec4899\"/><path d=\"M396 117 L404 117 L400 128 Z\" fill=\"#f59e0b\"/>\n                    <path d=\"M456 116 L464 116 L460 127 Z\" fill=\"#10b981\"/><path d=\"M516 114 L524 114 L520 125 Z\" fill=\"#ef4444\"/>\n                    <path d=\"M576 110 L584 110 L580 121 Z\" fill=\"#3b82f6\"/><path d=\"M636 106 L644 106 L640 117 Z\" fill=\"#ec4899\"/>\n                    <path d=\"M696 100 L704 100 L700 111 Z\" fill=\"#10b981\"/>\n                  </g>\n                </g>\n\n                <!-- hanging banner (wording is Claude's) -->\n                <g>\n                  <line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"54\" stroke=\"#5f6a78\" stroke-width=\"2\"/>\n                  <line x1=\"320\" y1=\"40\" x2=\"320\" y2=\"54\" stroke=\"#5f6a78\" stroke-width=\"2\"/>\n                  <rect x=\"148\" y=\"54\" width=\"204\" height=\"26\" rx=\"4\" fill=\"#1d4ed8\"/>\n                  <rect x=\"148\" y=\"54\" width=\"204\" height=\"7\" rx=\"3.5\" fill=\"#3b82f6\"/>\n                  <text x=\"250\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#f8fafc\">MANCHESTER TECH EXPO</text>\n                </g>\n\n                <!-- floor: polished, with the aisle running to your counter -->\n                <rect x=\"0\" y=\"170\" width=\"800\" height=\"190\" fill=\"url(#ddFloor)\"/>\n                <g stroke=\"#7d8794\" stroke-opacity=\"0.22\" fill=\"none\">\n                  <path d=\"M0 192 H800 M0 218 H800 M0 250 H800 M0 292 H800\"/>\n                  <path d=\"M400 170 L110 360 M400 170 L255 360 M400 170 L400 360 M400 170 L545 360 M400 170 L690 360\"/>\n                </g>\n                <path d=\"M354 170 L446 170 L586 360 L214 360 Z\" fill=\"#3b5aa6\" opacity=\"0.4\"/>\n                <path d=\"M354 170 L446 170 L586 360 L214 360 Z\" fill=\"url(#ddReflect)\"/>\n                <path d=\"M354 170 L214 360 M446 170 L586 360\" stroke=\"#f8fafc\" stroke-opacity=\"0.35\" stroke-width=\"2\" fill=\"none\"/>\n                <rect x=\"0\" y=\"150\" width=\"800\" height=\"56\" fill=\"url(#ddHaze)\"/>\n                <!-- daylight shafts -->\n                <polygon points=\"180,60 260,44 330,290 160,290\" fill=\"url(#ddShaft)\"/>\n                <polygon points=\"540,44 620,60 640,290 470,290\" fill=\"url(#ddShaft)\"/>\n\n                <!-- booth rows either side: shell-scheme stands with lit interiors -->\n                <g id=\"ddBoothRows\">\n                  <!-- left near stand: VOLTA (name is Claude's) -->\n                  <g>\n                    <ellipse cx=\"138\" cy=\"252\" rx=\"112\" ry=\"15\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M58 252 L212 236 L212 230 L58 246 Z\" fill=\"#5b21b6\" opacity=\"0.5\"/>\n                    <path d=\"M206 144 L206 232 L226 228 L226 152 Z\" fill=\"#c7ced9\"/>\n                    <path d=\"M206 144 L226 152 L226 158 L206 151 Z\" fill=\"#94a0af\"/>\n                    <path d=\"M60 126 L206 144 L206 232 L60 250 Z\" fill=\"url(#ddStandPurple)\"/>\n                    <path d=\"M60 126 L206 144 L206 232 L60 250 Z\" fill=\"none\" stroke=\"#2e1065\" stroke-width=\"2\"/>\n                    <path d=\"M64 132 Q130 154 202 150 L202 148 Q130 148 64 128 Z\" fill=\"#f8fafc\" opacity=\"0.12\"/>\n                    <!-- fascia beam with glow name -->\n                    <path d=\"M56 122 L210 141 L210 158 L56 141 Z\" fill=\"#1e1b4b\"/>\n                    <path d=\"M56 122 L210 141 L210 145 L56 126 Z\" fill=\"#8b5cf6\"/>\n                    <text x=\"133\" y=\"146\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#e9d5ff\" transform=\"rotate(4 133 146)\">VOLTA</text>\n                    <circle cx=\"76\" cy=\"134\" r=\"5.5\" fill=\"#f8fafc\" opacity=\"0.9\"/>\n                    <!-- spotlights on the fascia -->\n                    <g stroke=\"#334155\" stroke-width=\"2\"><line x1=\"90\" y1=\"124\" x2=\"90\" y2=\"118\"/><line x1=\"170\" y1=\"133\" x2=\"170\" y2=\"127\"/></g>\n                    <circle cx=\"90\" cy=\"117\" r=\"3.4\" fill=\"#ffe9a8\"/><circle cx=\"170\" cy=\"126\" r=\"3.4\" fill=\"#ffe9a8\"/>\n                    <!-- interior: big lit screen + shelf -->\n                    <rect x=\"80\" y=\"170\" width=\"64\" height=\"40\" rx=\"2.5\" fill=\"#0b1526\" stroke=\"#a78bfa\" stroke-width=\"1.4\" transform=\"rotate(3 112 190)\"/>\n                    <g transform=\"rotate(3 112 190)\">\n                      <rect x=\"85\" y=\"175\" width=\"26\" height=\"5\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.85\"/>\n                      <rect x=\"85\" y=\"184\" width=\"50\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                      <rect x=\"85\" y=\"191\" width=\"40\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                      <rect x=\"85\" y=\"198\" width=\"46\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                    </g>\n                    <path d=\"M158 178 L196 182 L196 214 L158 212 Z\" fill=\"#4c1d95\"/>\n                    <rect x=\"164\" y=\"188\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#c4b5fd\"/><rect x=\"178\" y=\"190\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#c4b5fd\"/>\n                    <!-- counter -->\n                    <path d=\"M64 252 L152 243 L152 226 L64 234 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M64 252 L152 243 L152 260 L64 270 Z\" fill=\"#cbd5e1\"/>\n                    <path d=\"M68 259 L148 250 L148 256 L68 266 Z\" fill=\"#6d28d9\" opacity=\"0.85\"/>\n                    <!-- rollup + plant -->\n                    <path d=\"M186 226 L200 224 L200 258 L186 261 Z\" fill=\"#7c3aed\"/><circle cx=\"193\" cy=\"234\" r=\"3.4\" fill=\"#f8fafc\" opacity=\"0.85\"/>\n                    <path d=\"M52 236 C46 226 41 226 40 219 C47 221 49 226 51 231 C53 226 55 221 62 219 C61 226 56 226 52 236\" fill=\"#15803d\"/>\n                    <path d=\"M48 262 L47 240 L57 240 L56 262 Z\" fill=\"#78350f\"/>\n                  </g>\n                  <!-- left far stand: teal -->\n                  <g>\n                    <ellipse cx=\"272\" cy=\"240\" rx=\"66\" ry=\"11\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M226 148 L318 158 L318 226 L226 238 Z\" fill=\"url(#ddStandTeal)\" stroke=\"#134e4a\" stroke-width=\"1.6\"/>\n                    <path d=\"M223 145 L321 156 L321 170 L223 158 Z\" fill=\"#042f2e\"/>\n                    <path d=\"M223 145 L321 156 L321 159 L223 148 Z\" fill=\"#2dd4bf\"/>\n                    <circle cx=\"238\" cy=\"155\" r=\"4\" fill=\"#ccfbf1\" opacity=\"0.9\"/>\n                    <rect x=\"242\" y=\"182\" width=\"46\" height=\"28\" rx=\"2\" fill=\"#0b1526\" stroke=\"#2dd4bf\" transform=\"rotate(3 265 196)\"/>\n                    <g transform=\"rotate(3 265 196)\"><rect x=\"246\" y=\"186\" width=\"18\" height=\"4\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.8\"/><rect x=\"246\" y=\"194\" width=\"34\" height=\"3\" rx=\"1.5\" fill=\"#2b4a56\"/><rect x=\"246\" y=\"200\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#2b4a56\"/></g>\n                    <path d=\"M232 238 L280 233 L280 222 L232 227 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M232 238 L280 233 L280 245 L232 251 Z\" fill=\"#cbd5e1\"/>\n                  </g>\n                  <!-- left distant stand: silhouette in haze -->\n                  <path d=\"M330 160 L382 166 L382 220 L330 228 Z\" fill=\"#b9c4d2\" opacity=\"0.8\"/>\n                  <path d=\"M328 158 L384 164 L384 176 L328 169 Z\" fill=\"#8d99a8\"/>\n\n                  <!-- right near stand: KESTREL (name is Claude's) -->\n                  <g>\n                    <ellipse cx=\"662\" cy=\"252\" rx=\"112\" ry=\"15\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M742 252 L588 236 L588 230 L742 246 Z\" fill=\"#a3123a\" opacity=\"0.4\"/>\n                    <path d=\"M594 144 L594 232 L574 228 L574 152 Z\" fill=\"#c7ced9\"/>\n                    <path d=\"M594 144 L574 152 L574 158 L594 151 Z\" fill=\"#94a0af\"/>\n                    <path d=\"M740 126 L594 144 L594 232 L740 250 Z\" fill=\"url(#ddStandRose)\"/>\n                    <path d=\"M740 126 L594 144 L594 232 L740 250 Z\" fill=\"none\" stroke=\"#4c0519\" stroke-width=\"2\"/>\n                    <path d=\"M736 132 Q670 154 598 150 L598 148 Q670 148 736 128 Z\" fill=\"#f8fafc\" opacity=\"0.12\"/>\n                    <path d=\"M744 122 L590 141 L590 158 L744 141 Z\" fill=\"#4c0519\"/>\n                    <path d=\"M744 122 L590 141 L590 145 L744 126 Z\" fill=\"#fb7185\"/>\n                    <text x=\"667\" y=\"146\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#ffe4e6\" transform=\"rotate(-4 667 146)\">KESTREL</text>\n                    <circle cx=\"724\" cy=\"134\" r=\"5.5\" fill=\"#f8fafc\" opacity=\"0.9\"/>\n                    <g stroke=\"#334155\" stroke-width=\"2\"><line x1=\"710\" y1=\"124\" x2=\"710\" y2=\"118\"/><line x1=\"630\" y1=\"133\" x2=\"630\" y2=\"127\"/></g>\n                    <circle cx=\"710\" cy=\"117\" r=\"3.4\" fill=\"#ffe9a8\"/><circle cx=\"630\" cy=\"126\" r=\"3.4\" fill=\"#ffe9a8\"/>\n                    <rect x=\"656\" y=\"170\" width=\"64\" height=\"40\" rx=\"2.5\" fill=\"#0b1526\" stroke=\"#fda4af\" stroke-width=\"1.4\" transform=\"rotate(-3 688 190)\"/>\n                    <g transform=\"rotate(-3 688 190)\">\n                      <rect x=\"661\" y=\"175\" width=\"26\" height=\"5\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.85\"/>\n                      <rect x=\"661\" y=\"184\" width=\"50\" height=\"3.4\" rx=\"1.7\" fill=\"#4a3341\"/>\n                      <rect x=\"661\" y=\"191\" width=\"40\" height=\"3.4\" rx=\"1.7\" fill=\"#4a3341\"/>\n                    </g>\n                    <path d=\"M642 178 L604 182 L604 214 L642 212 Z\" fill=\"#881337\"/>\n                    <rect x=\"612\" y=\"188\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#fecdd3\"/><rect x=\"626\" y=\"190\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#fecdd3\"/>\n                    <path d=\"M736 252 L648 243 L648 226 L736 234 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M736 252 L648 243 L648 260 L736 270 Z\" fill=\"#cbd5e1\"/>\n                    <path d=\"M732 259 L652 250 L652 256 L732 266 Z\" fill=\"#be123c\" opacity=\"0.85\"/>\n                    <path d=\"M614 226 L600 224 L600 258 L614 261 Z\" fill=\"#e11d48\"/><circle cx=\"607\" cy=\"234\" r=\"3.4\" fill=\"#f8fafc\" opacity=\"0.85\"/>\n                    <path d=\"M748 236 C742 226 737 226 736 219 C743 221 745 226 747 231 C749 226 751 221 758 219 C757 226 752 226 748 236\" fill=\"#15803d\"/>\n                    <path d=\"M744 262 L743 240 L753 240 L752 262 Z\" fill=\"#78350f\"/>\n                  </g>\n                  <!-- right far stand: blue -->\n                  <g>\n                    <ellipse cx=\"528\" cy=\"240\" rx=\"66\" ry=\"11\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M574 148 L482 158 L482 226 L574 238 Z\" fill=\"url(#ddStandBlue)\" stroke=\"#0c4a6e\" stroke-width=\"1.6\"/>\n                    <path d=\"M577 145 L479 156 L479 170 L577 158 Z\" fill=\"#082f49\"/>\n                    <path d=\"M577 145 L479 156 L479 159 L577 148 Z\" fill=\"#38bdf8\"/>\n                    <circle cx=\"562\" cy=\"155\" r=\"4\" fill=\"#e0f2fe\" opacity=\"0.9\"/>\n                    <rect x=\"512\" y=\"182\" width=\"46\" height=\"28\" rx=\"2\" fill=\"#0b1526\" stroke=\"#38bdf8\" transform=\"rotate(-3 535 196)\"/>\n                    <g transform=\"rotate(-3 535 196)\"><rect x=\"516\" y=\"186\" width=\"18\" height=\"4\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.8\"/><rect x=\"516\" y=\"194\" width=\"34\" height=\"3\" rx=\"1.5\" fill=\"#28455e\"/><rect x=\"516\" y=\"200\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#28455e\"/></g>\n                    <path d=\"M568 238 L520 233 L520 222 L568 227 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M568 238 L520 233 L520 245 L568 251 Z\" fill=\"#cbd5e1\"/>\n                  </g>\n                  <!-- right distant stand: silhouette in haze -->\n                  <path d=\"M470 160 L418 166 L418 220 L470 228 Z\" fill=\"#b9c4d2\" opacity=\"0.8\"/>\n                  <path d=\"M472 158 L416 164 L416 176 L472 169 Z\" fill=\"#8d99a8\"/>\n\n                  <!-- people at the booths: fuller figures with shadows -->\n                  <g id=\"ddCrowd\">\n                    <ellipse cx=\"104\" cy=\"240\" rx=\"26\" ry=\"5\" fill=\"#0b1220\" opacity=\"0.18\"/>\n                    <g transform=\"translate(96,238)\"><g class=\"inv-sway\"><circle cx=\"0\" cy=\"-30\" r=\"5\" fill=\"#e0ac69\"/><path d=\"M-6 -6 L-4.5 -25 L4.5 -25 L6 -6 Z\" fill=\"#6d28d9\"/><rect x=\"-4.5\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/><rect x=\"1\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/></g></g>\n                    <g transform=\"translate(114,242)\"><circle cx=\"0\" cy=\"-32\" r=\"5.4\" fill=\"#8d5524\"/><path d=\"M-6.4 -6 L-4.8 -27 L4.8 -27 L6.4 -6 Z\" fill=\"#0f766e\"/><rect x=\"-5\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/><rect x=\"1\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/></g>\n                    <g transform=\"translate(140,239)\"><g class=\"inv-sway\" style=\"animation-delay:-1.4s\"><circle cx=\"0\" cy=\"-29\" r=\"4.8\" fill=\"#ffd9b3\"/><path d=\"M-5.6 -6 L-4.2 -24 L4.2 -24 L5.6 -6 Z\" fill=\"#b45309\"/><rect x=\"-4.2\" y=\"-7\" width=\"3.4\" height=\"7\" fill=\"#374151\"/><rect x=\"0.8\" y=\"-7\" width=\"3.4\" height=\"7\" fill=\"#374151\"/></g></g>\n                    <ellipse cx=\"268\" cy=\"230\" rx=\"22\" ry=\"4.5\" fill=\"#0b1220\" opacity=\"0.16\"/>\n                    <g transform=\"translate(260,229)\"><circle cx=\"0\" cy=\"-26\" r=\"4.4\" fill=\"#f1c27d\"/><path d=\"M-5 -5 L-3.6 -21 L3.6 -21 L5 -5 Z\" fill=\"#be185d\"/><rect x=\"-3.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/><rect x=\"0.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/></g>\n                    <g transform=\"translate(278,232)\"><g class=\"inv-sway\" style=\"animation-delay:-0.8s\"><circle cx=\"0\" cy=\"-27\" r=\"4.6\" fill=\"#c68642\"/><path d=\"M-5.2 -5 L-3.8 -22 L3.8 -22 L5.2 -5 Z\" fill=\"#1d4ed8\"/><rect x=\"-4\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/><rect x=\"0.8\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/></g></g>\n                    <g transform=\"translate(350,222)\"><circle cx=\"0\" cy=\"-21\" r=\"3.8\" fill=\"#ffdbac\"/><path d=\"M-4.2 -4 L-3 -17 L3 -17 L4.2 -4 Z\" fill=\"#c2410c\"/></g>\n                    <ellipse cx=\"694\" cy=\"240\" rx=\"26\" ry=\"5\" fill=\"#0b1220\" opacity=\"0.18\"/>\n                    <g transform=\"translate(686,238)\"><g class=\"inv-sway\" style=\"animation-delay:-2.1s\"><circle cx=\"0\" cy=\"-30\" r=\"5\" fill=\"#a5682a\"/><path d=\"M-6 -6 L-4.5 -25 L4.5 -25 L6 -6 Z\" fill=\"#be123c\"/><rect x=\"-4.5\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/><rect x=\"1\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/></g></g>\n                    <g transform=\"translate(668,243)\"><circle cx=\"0\" cy=\"-32\" r=\"5.4\" fill=\"#ffd9b3\"/><path d=\"M-6.4 -6 L-4.8 -27 L4.8 -27 L6.4 -6 Z\" fill=\"#065f46\"/><rect x=\"-5\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/><rect x=\"1\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/></g>\n                    <ellipse cx=\"530\" cy=\"230\" rx=\"22\" ry=\"4.5\" fill=\"#0b1220\" opacity=\"0.16\"/>\n                    <g transform=\"translate(524,229)\"><g class=\"inv-sway\" style=\"animation-delay:-1.7s\"><circle cx=\"0\" cy=\"-26\" r=\"4.4\" fill=\"#e8b878\"/><path d=\"M-5 -5 L-3.6 -21 L3.6 -21 L5 -5 Z\" fill=\"#0369a1\"/><rect x=\"-3.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/><rect x=\"0.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/></g></g>\n                    <g transform=\"translate(542,232)\"><circle cx=\"0\" cy=\"-27\" r=\"4.6\" fill=\"#8d5524\"/><path d=\"M-5.2 -5 L-3.8 -22 L3.8 -22 L5.2 -5 Z\" fill=\"#a16207\"/><rect x=\"-4\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/><rect x=\"0.8\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/></g>\n                    <g transform=\"translate(448,220)\"><circle cx=\"0\" cy=\"-20\" r=\"3.6\" fill=\"#f1c27d\"/><path d=\"M-4 -4 L-2.8 -16 L2.8 -16 L4 -4 Z\" fill=\"#4d7c0f\"/></g>\n                  </g>\n                  <!-- passers-by crossing the hall, two depths -->\n                  <g id=\"ddPassers\">\n                    <g class=\"dd-passer\" style=\"animation-duration:27s; animation-delay:-6s\" opacity=\"0.8\">\n                      <g transform=\"translate(0,224)\"><circle cx=\"0\" cy=\"-23\" r=\"4\" fill=\"#e0ac69\"/><path d=\"M-4.2 0 L-2.6 -19 L2.6 -19 L4.2 0 Z\" fill=\"#475569\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:33s; animation-delay:-19s\" opacity=\"0.7\">\n                      <g transform=\"translate(0,218)\"><circle cx=\"0\" cy=\"-21\" r=\"3.7\" fill=\"#c68642\"/><path d=\"M-3.8 0 L-2.4 -17 L2.4 -17 L3.8 0 Z\" fill=\"#9d174d\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:17s; animation-delay:-3s\" opacity=\"0.9\">\n                      <g transform=\"translate(0,258)\"><ellipse cx=\"0\" cy=\"1\" rx=\"9\" ry=\"2.6\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-36\" r=\"5.6\" fill=\"#ffd9b3\"/><path d=\"M-6 0 L-3.8 -31 L3.8 -31 L6 0 Z\" fill=\"#166534\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:23s; animation-delay:-13s\" opacity=\"0.85\">\n                      <g transform=\"translate(0,264)\"><ellipse cx=\"0\" cy=\"1\" rx=\"9.6\" ry=\"2.8\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-38\" r=\"6\" fill=\"#8d5524\"/><path d=\"M-6.4 0 L-4 -33 L4 -33 L6.4 0 Z\" fill=\"#b45309\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:20s; animation-delay:-9s\" opacity=\"0.8\">\n                      <g transform=\"translate(0,252)\"><ellipse cx=\"0\" cy=\"1\" rx=\"8.6\" ry=\"2.5\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-31\" r=\"5.4\" fill=\"#f1c27d\"/><path d=\"M-5.8 0 L-3.6 -26 L3.6 -26 L5.8 0 Z\" fill=\"#7e22ce\"/></g>\n                    </g>\n                  </g>\n                </g>\n\n                                <!-- The visitor (built by JS; wrapper carries the walk) -->\n                <g id=\"ddVisitorG\" class=\"dd-far\"><g id=\"ddVisitorInner\" class=\"dd-shadow\"></g></g>\n\n                <!-- Your counter: bottom of frame, first person -->\n                <path d=\"M0 292 L800 292 L800 306 L0 306 Z\" fill=\"url(#ddCounterTop)\"/>\n                <path d=\"M0 306 L800 306 L800 360 L0 360 Z\" fill=\"url(#ddCounterFace)\"/>\n                <path d=\"M0 306 L800 306\" stroke=\"#0b1e4d\" stroke-width=\"2\"/>\n                <text id=\"ddBoothName\" x=\"400\" y=\"336\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#f8fafc\">YOUR STARTUP</text>\n                <text id=\"ddBoothSub\" x=\"400\" y=\"352\" text-anchor=\"middle\" font-size=\"9\" letter-spacing=\"1.5\" fill=\"#bfdbfe\" opacity=\"0.85\">AI-POWERED INNOVATION</text>\n\n                <!-- Stock on the counter (redrawn as it runs down) -->\n                <g id=\"ddStock\"></g>\n              </svg>\n\n              <!-- Speech bubble -->\n              <div id=\"ddBubble\" class=\"bg-white rounded-2xl px-3 py-2 shadow-lg\" style=\"opacity:0\">\n                <p id=\"ddBubbleText\" class=\"text-slate-800 text-sm italic\">...</p>\n              </div>\n\n\n\n              <!-- Floating text lives over the stage (same id as the game) -->\n              <div id=\"ddFloatingText\" class=\"absolute inset-0 pointer-events-none overflow-hidden\" style=\"z-index:40\"></div>\n\n              <div class=\"dd-vignette\" style=\"z-index:45\"></div>\n            </div>\n          </div>\n\n          <!-- Visitor Zone: the decision card (same id; content built by demoDayRenderVisitor) -->\n          <div id=\"ddVisitorZone\" class=\"relative\">\n            <div class=\"text-center py-8 text-slate-500\">\n              <div class=\"text-lg\">Waiting for visitors...</div>\n            </div>\n          </div>\n        </div>\n      </div>\n    `",
+    "`\n      <div class=\"fixed inset-0 bg-gradient-to-b from-slate-800 to-slate-900 flex flex-col z-50 p-3 overflow-y-auto\" id=\"demoDayModal\">\n        <div class=\"max-w-6xl mx-auto w-full flex-1 flex flex-col\" id=\"ddPanel\">\n          <!-- Top Bar -->\n          <div class=\"flex justify-between items-center mb-2 gap-3\">\n            <div id=\"ddTimerBox\" class=\"bg-slate-700 rounded-xl px-5 py-2 flex items-center gap-3\">\n              <svg width=\"20\" height=\"20\" viewBox=\"0 0 20 20\" aria-hidden=\"true\"><circle cx=\"10\" cy=\"11\" r=\"7.5\" fill=\"none\" stroke=\"#f8fafc\" stroke-width=\"1.8\"/><path d=\"M10 11 L10 6.5 M10 11 L13 13\" stroke=\"#f8fafc\" stroke-width=\"1.8\" stroke-linecap=\"round\"/><path d=\"M8 2 L12 2\" stroke=\"#f8fafc\" stroke-width=\"1.8\" stroke-linecap=\"round\"/></svg>\n              <span id=\"ddTimer\" class=\"text-3xl font-bold text-white font-mono\">60</span>\n            </div>\n            <div class=\"bg-slate-700 rounded-xl px-5 py-2 text-center\">\n              <div class=\"text-slate-400 text-xs uppercase tracking-wide\">Converted</div>\n              <div class=\"flex items-center gap-2 justify-center\">\n                <span id=\"ddConversions\" class=\"text-2xl font-bold text-amber-400\">0</span>\n                <span class=\"text-slate-500 text-lg\">/</span>\n                <span id=\"ddTotalVisitors\" class=\"text-lg text-slate-400\">0</span>\n              </div>\n            </div>\n            <div class=\"bg-slate-700 rounded-xl px-5 py-2 text-center\">\n              <div class=\"text-slate-400 text-xs uppercase tracking-wide\">Net Profit</div>\n              <div id=\"ddNetProfit\" class=\"text-2xl font-bold text-emerald-400\">${getRegion().currency}0k</div>\n            </div>\n          </div>\n\n          <!-- Resources Bar: numbers keep their ids; the counter drawing mirrors them -->\n          <div class=\"bg-slate-800 rounded-xl p-2 mb-2 flex justify-between items-center\">\n            <div class=\"flex gap-4 text-sm items-center\">\n              <span class=\"flex items-center gap-1\" title=\"Swag\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"2\" y=\"5\" width=\"11\" height=\"8\" rx=\"1\" fill=\"#34d399\"/><rect x=\"6.4\" y=\"5\" width=\"2.2\" height=\"8\" fill=\"#d1fae5\"/><rect x=\"2\" y=\"7.4\" width=\"11\" height=\"1.8\" fill=\"#d1fae5\"/></svg><span id=\"ddSwag\" class=\"text-emerald-400 font-bold\">5</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Coffee\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M3 5 L11 5 L10 13 L4 13 Z\" fill=\"#e9d5ff\"/><path d=\"M11 6 Q13.6 7 11 10\" stroke=\"#e9d5ff\" stroke-width=\"1.3\" fill=\"none\"/></svg><span id=\"ddCoffee\" class=\"text-purple-400 font-bold\">6</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Demo\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"1.6\" y=\"3\" width=\"11.8\" height=\"7.6\" rx=\"1\" fill=\"none\" stroke=\"#67e8f9\" stroke-width=\"1.3\"/><path d=\"M6.2 5 L9.4 6.8 L6.2 8.6 Z\" fill=\"#67e8f9\"/><rect x=\"5.4\" y=\"12\" width=\"4.2\" height=\"1.2\" rx=\"0.6\" fill=\"#67e8f9\"/></svg><span id=\"ddDemo\" class=\"text-cyan-400 font-bold\">3</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Discount\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><rect x=\"2\" y=\"4\" width=\"11\" height=\"7\" rx=\"1.2\" fill=\"#fbbf24\"/><text x=\"7.5\" y=\"9.7\" text-anchor=\"middle\" font-size=\"6\" font-weight=\"bold\" fill=\"#78350f\">-%</text></svg><span id=\"ddDiscount\" class=\"text-amber-400 font-bold\">4</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Custom build\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M9.5 2.5 A4 4 0 1 0 12.5 5.5 L10.5 7.5 L7.5 4.5 Z\" fill=\"#93c5fd\"/><rect x=\"8.6\" y=\"7\" width=\"4.4\" height=\"2.2\" rx=\"1\" transform=\"rotate(45 10.8 8.1)\" fill=\"#93c5fd\"/></svg><span id=\"ddCustom\" class=\"text-blue-400 font-bold\">3</span></span>\n              <span class=\"flex items-center gap-1\" title=\"Massive discount\"><svg width=\"15\" height=\"15\" viewBox=\"0 0 15 15\" aria-hidden=\"true\"><path d=\"M7.5 1.5 L9.2 5.3 L13.4 5.7 L10.2 8.4 L11.2 12.5 L7.5 10.3 L3.8 12.5 L4.8 8.4 L1.6 5.7 L5.8 5.3 Z\" fill=\"#fb7185\"/></svg><span id=\"ddMassive\" class=\"text-rose-400 font-bold\">1</span></span>\n            </div>\n            <div class=\"text-slate-400 text-xs\">Costs: <span id=\"ddCosts\" class=\"text-red-400 font-bold\">${getRegion().currency}0k</span></div>\n          </div>\n\n          <!-- The stand: first person, you are behind the counter -->\n          <div class=\"bg-slate-900 rounded-xl p-2 mb-2 relative border border-slate-700\" id=\"ddGameArea\">\n            <div id=\"ddStage\">\n              <svg id=\"ddScene\" width=\"800\" height=\"360\" viewBox=\"0 0 800 360\" style=\"position:absolute;inset:0\" aria-hidden=\"true\" focusable=\"false\">\n                <defs>\n                  <linearGradient id=\"ddSky\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#dfeaf7\"/><stop offset=\"1\" stop-color=\"#f4f8fd\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddFloor\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#b9c1cd\"/><stop offset=\"0.55\" stop-color=\"#cdd4de\"/><stop offset=\"1\" stop-color=\"#dde2ea\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddCounterTop\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#f8fafc\"/><stop offset=\"1\" stop-color=\"#d4dce6\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddCounterFace\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#1d4ed8\"/><stop offset=\"1\" stop-color=\"#173a8f\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddShaft\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#fff8e6\" stop-opacity=\"0.5\"/><stop offset=\"1\" stop-color=\"#fff8e6\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandPurple\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#7c3aed\"/><stop offset=\"0.6\" stop-color=\"#5b21b6\"/><stop offset=\"1\" stop-color=\"#3b0f80\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandTeal\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#14b8a6\"/><stop offset=\"1\" stop-color=\"#0f5f56\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandRose\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#e11d48\"/><stop offset=\"0.6\" stop-color=\"#a3123a\"/><stop offset=\"1\" stop-color=\"#6f0d29\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddStandBlue\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#0284c7\"/><stop offset=\"1\" stop-color=\"#075985\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddScreenGlow\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#0b1526\"/><stop offset=\"1\" stop-color=\"#12233c\"/>\n                  </linearGradient>\n                  <radialGradient id=\"ddBoothPool\" cx=\"0.5\" cy=\"0.5\" r=\"0.5\">\n                    <stop offset=\"0\" stop-color=\"#0b1220\" stop-opacity=\"0.28\"/><stop offset=\"1\" stop-color=\"#0b1220\" stop-opacity=\"0\"/>\n                  </radialGradient>\n                  <linearGradient id=\"ddReflect\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#ffffff\" stop-opacity=\"0.16\"/><stop offset=\"1\" stop-color=\"#ffffff\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <linearGradient id=\"ddHaze\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\">\n                    <stop offset=\"0\" stop-color=\"#eaf1f9\" stop-opacity=\"0\"/><stop offset=\"0.5\" stop-color=\"#eaf1f9\" stop-opacity=\"0.5\"/><stop offset=\"1\" stop-color=\"#eaf1f9\" stop-opacity=\"0\"/>\n                  </linearGradient>\n                  <pattern id=\"ddBrick\" width=\"42\" height=\"16\" patternUnits=\"userSpaceOnUse\">\n                    <rect width=\"42\" height=\"16\" fill=\"#8a5645\"/>\n                    <rect x=\"1\" y=\"1\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#96604d\"/>\n                    <rect x=\"22\" y=\"1\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#8f5a48\"/>\n                    <rect x=\"-9\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#925d4b\"/>\n                    <rect x=\"12\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#9a6450\"/>\n                    <rect x=\"33\" y=\"9\" width=\"19\" height=\"6\" rx=\"1\" fill=\"#8d5846\"/>\n                  </pattern>\n                </defs>\n\n                <!-- The great hall: single-span arched trainshed roof, daylight -->\n                <rect x=\"0\" y=\"0\" width=\"800\" height=\"170\" fill=\"url(#ddSky)\"/>\n                <ellipse cx=\"180\" cy=\"40\" rx=\"90\" ry=\"16\" fill=\"#ffffff\" opacity=\"0.45\"/>\n                <ellipse cx=\"600\" cy=\"26\" rx=\"110\" ry=\"14\" fill=\"#ffffff\" opacity=\"0.35\"/>\n\n                <!-- end wall: brick ring, fanned glazed arch, station clock -->\n                <g>\n                  <path d=\"M238 170 L238 96 Q400 6 562 96 L562 170 Z\" fill=\"none\" stroke=\"#7a4a3a\" stroke-width=\"14\"/>\n                  <path d=\"M244 170 L244 98 Q400 14 556 98 L556 170 Z\" fill=\"none\" stroke=\"#96604d\" stroke-width=\"5\"/>\n                  <path d=\"M250 170 L250 100 Q400 22 550 100 L550 170 Z\" fill=\"#eef4fb\"/>\n                  <g stroke=\"#93a0b0\" stroke-width=\"1.4\" fill=\"none\">\n                    <path d=\"M400 170 L400 24 M400 170 L322 52 M400 170 L478 52 M400 170 L280 84 M400 170 L520 84 M400 170 L256 122 M400 170 L544 122\"/>\n                    <path d=\"M262 132 Q400 44 538 132 M282 152 Q400 82 518 152\"/>\n                  </g>\n                  <g stroke=\"#8b98a8\" stroke-width=\"1\" opacity=\"0.6\">\n                    <path d=\"M250 148 L550 148 M254 128 L546 128\"/>\n                  </g>\n                  <!-- distant far floor and crowd through the arch -->\n                  <rect x=\"250\" y=\"156\" width=\"300\" height=\"14\" fill=\"#c3cbd6\"/>\n                  <g fill=\"#7d8794\" opacity=\"0.7\">\n                    <circle cx=\"330\" cy=\"163\" r=\"2.4\"/><circle cx=\"352\" cy=\"165\" r=\"2\"/><circle cx=\"381\" cy=\"162\" r=\"2.2\"/>\n                    <circle cx=\"422\" cy=\"164\" r=\"2.4\"/><circle cx=\"447\" cy=\"162\" r=\"2\"/><circle cx=\"472\" cy=\"165\" r=\"2.2\"/>\n                  </g>\n                  <!-- station clock -->\n                  <circle cx=\"400\" cy=\"104\" r=\"15\" fill=\"#0f172a\"/>\n                  <circle cx=\"400\" cy=\"104\" r=\"12.5\" fill=\"#f8fafc\"/>\n                  <g stroke=\"#0f172a\" stroke-width=\"1.6\" stroke-linecap=\"round\">\n                    <path d=\"M400 104 L400 96 M400 104 L406 107\"/>\n                  </g>\n                  <circle cx=\"400\" cy=\"104\" r=\"1.4\" fill=\"#0f172a\"/>\n                </g>\n\n                <!-- iron ribs: doubled with lattice bracing, three depths -->\n                <g fill=\"none\">\n                  <path d=\"M-40 170 Q400 -80 840 170\" stroke=\"#525d6b\" stroke-width=\"7\"/>\n                  <path d=\"M-24 170 Q400 -58 824 170\" stroke=\"#525d6b\" stroke-width=\"3.5\"/>\n                  <g stroke=\"#525d6b\" stroke-width=\"2\" opacity=\"0.85\">\n                    <path d=\"M56 118 L74 136 M120 84 L136 104 M196 56 L208 78 M284 36 L292 58 M380 26 L384 48 M478 28 L474 50 M572 42 L564 62 M660 66 L648 86 M736 100 L720 118\"/>\n                  </g>\n                  <path d=\"M20 170 Q400 -26 780 170\" stroke=\"#5d6876\" stroke-width=\"2.5\" opacity=\"0.7\"/>\n                  <path d=\"M78 170 Q400 16 722 170\" stroke=\"#68737f\" stroke-width=\"2\" opacity=\"0.55\"/>\n                  <path d=\"M140 170 Q400 54 660 170\" stroke=\"#737e8a\" stroke-width=\"1.6\" opacity=\"0.4\"/>\n                </g>\n                <!-- glazing bars along the span -->\n                <g stroke=\"#9fb0c2\" stroke-width=\"1\" opacity=\"0.4\">\n                  <path d=\"M80 170 L80 112 M140 170 L140 86 M200 170 L200 64 M660 170 L660 86 M600 170 L600 64 M720 170 L720 112\"/>\n                </g>\n                <!-- roof lamps hung from the near rib -->\n                <g>\n                  <line x1=\"150\" y1=\"66\" x2=\"150\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"150\" cy=\"97\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                  <line x1=\"400\" y1=\"30\" x2=\"400\" y2=\"58\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"400\" cy=\"63\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                  <line x1=\"650\" y1=\"66\" x2=\"650\" y2=\"92\" stroke=\"#334155\" stroke-width=\"2\"/>\n                  <circle cx=\"650\" cy=\"97\" r=\"6\" fill=\"#ffe9a8\" opacity=\"0.95\"/>\n                </g>\n\n                <!-- brick piers with stone caps -->\n                <path d=\"M0 52 L60 92 L60 218 L0 228 Z\" fill=\"url(#ddBrick)\"/>\n                <path d=\"M0 48 L62 88 L62 96 L0 58 Z\" fill=\"#c8beb2\"/>\n                <path d=\"M800 52 L740 92 L740 218 L800 228 Z\" fill=\"url(#ddBrick)\"/>\n                <path d=\"M800 48 L738 88 L738 96 L800 58 Z\" fill=\"#c8beb2\"/>\n\n                <!-- bunting strung between the piers (expo dressing) -->\n                <g>\n                  <path d=\"M60 96 Q400 132 740 96\" stroke=\"#64748b\" stroke-width=\"1.4\" fill=\"none\"/>\n                  <g>\n                    <path d=\"M96 100 L104 100 L100 111 Z\" fill=\"#ef4444\"/><path d=\"M156 106 L164 106 L160 117 Z\" fill=\"#f59e0b\"/>\n                    <path d=\"M216 110 L224 110 L220 121 Z\" fill=\"#10b981\"/><path d=\"M276 114 L284 114 L280 125 Z\" fill=\"#3b82f6\"/>\n                    <path d=\"M336 116 L344 116 L340 127 Z\" fill=\"#ec4899\"/><path d=\"M396 117 L404 117 L400 128 Z\" fill=\"#f59e0b\"/>\n                    <path d=\"M456 116 L464 116 L460 127 Z\" fill=\"#10b981\"/><path d=\"M516 114 L524 114 L520 125 Z\" fill=\"#ef4444\"/>\n                    <path d=\"M576 110 L584 110 L580 121 Z\" fill=\"#3b82f6\"/><path d=\"M636 106 L644 106 L640 117 Z\" fill=\"#ec4899\"/>\n                    <path d=\"M696 100 L704 100 L700 111 Z\" fill=\"#10b981\"/>\n                  </g>\n                </g>\n\n                <!-- hanging banner (wording is Claude's) -->\n                <g>\n                  <line x1=\"180\" y1=\"40\" x2=\"180\" y2=\"54\" stroke=\"#5f6a78\" stroke-width=\"2\"/>\n                  <line x1=\"320\" y1=\"40\" x2=\"320\" y2=\"54\" stroke=\"#5f6a78\" stroke-width=\"2\"/>\n                  <rect x=\"148\" y=\"54\" width=\"204\" height=\"26\" rx=\"4\" fill=\"#1d4ed8\"/>\n                  <rect x=\"148\" y=\"54\" width=\"204\" height=\"7\" rx=\"3.5\" fill=\"#3b82f6\"/>\n                  <text x=\"250\" y=\"72\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#f8fafc\">MANCHESTER TECH EXPO</text>\n                </g>\n\n                <!-- floor: polished, with the aisle running to your counter -->\n                <rect x=\"0\" y=\"170\" width=\"800\" height=\"190\" fill=\"url(#ddFloor)\"/>\n                <g stroke=\"#7d8794\" stroke-opacity=\"0.22\" fill=\"none\">\n                  <path d=\"M0 192 H800 M0 218 H800 M0 250 H800 M0 292 H800\"/>\n                  <path d=\"M400 170 L110 360 M400 170 L255 360 M400 170 L400 360 M400 170 L545 360 M400 170 L690 360\"/>\n                </g>\n                <path d=\"M354 170 L446 170 L586 360 L214 360 Z\" fill=\"#3b5aa6\" opacity=\"0.4\"/>\n                <path d=\"M354 170 L446 170 L586 360 L214 360 Z\" fill=\"url(#ddReflect)\"/>\n                <path d=\"M354 170 L214 360 M446 170 L586 360\" stroke=\"#f8fafc\" stroke-opacity=\"0.35\" stroke-width=\"2\" fill=\"none\"/>\n                <rect x=\"0\" y=\"150\" width=\"800\" height=\"56\" fill=\"url(#ddHaze)\"/>\n                <!-- daylight shafts -->\n                <polygon points=\"180,60 260,44 330,290 160,290\" fill=\"url(#ddShaft)\"/>\n                <polygon points=\"540,44 620,60 640,290 470,290\" fill=\"url(#ddShaft)\"/>\n\n                <!-- booth rows either side: shell-scheme stands with lit interiors -->\n                <g id=\"ddBoothRows\">\n                  <!-- left near stand: VOLTA (name is Claude's) -->\n                  <g>\n                    <ellipse cx=\"138\" cy=\"252\" rx=\"112\" ry=\"15\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M58 252 L212 236 L212 230 L58 246 Z\" fill=\"#5b21b6\" opacity=\"0.5\"/>\n                    <path d=\"M206 144 L206 232 L226 228 L226 152 Z\" fill=\"#c7ced9\"/>\n                    <path d=\"M206 144 L226 152 L226 158 L206 151 Z\" fill=\"#94a0af\"/>\n                    <path d=\"M60 126 L206 144 L206 232 L60 250 Z\" fill=\"url(#ddStandPurple)\"/>\n                    <path d=\"M60 126 L206 144 L206 232 L60 250 Z\" fill=\"none\" stroke=\"#2e1065\" stroke-width=\"2\"/>\n                    <path d=\"M64 132 Q130 154 202 150 L202 148 Q130 148 64 128 Z\" fill=\"#f8fafc\" opacity=\"0.12\"/>\n                    <!-- fascia beam with glow name -->\n                    <path d=\"M56 122 L210 141 L210 158 L56 141 Z\" fill=\"#1e1b4b\"/>\n                    <path d=\"M56 122 L210 141 L210 145 L56 126 Z\" fill=\"#8b5cf6\"/>\n                    <text x=\"133\" y=\"146\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#e9d5ff\" transform=\"rotate(4 133 146)\">VOLTA</text>\n                    <circle cx=\"76\" cy=\"134\" r=\"5.5\" fill=\"#f8fafc\" opacity=\"0.9\"/>\n                    <!-- spotlights on the fascia -->\n                    <g stroke=\"#334155\" stroke-width=\"2\"><line x1=\"90\" y1=\"124\" x2=\"90\" y2=\"118\"/><line x1=\"170\" y1=\"133\" x2=\"170\" y2=\"127\"/></g>\n                    <circle cx=\"90\" cy=\"117\" r=\"3.4\" fill=\"#ffe9a8\"/><circle cx=\"170\" cy=\"126\" r=\"3.4\" fill=\"#ffe9a8\"/>\n                    <!-- interior: big lit screen + shelf -->\n                    <rect x=\"80\" y=\"170\" width=\"64\" height=\"40\" rx=\"2.5\" fill=\"#0b1526\" stroke=\"#a78bfa\" stroke-width=\"1.4\" transform=\"rotate(3 112 190)\"/>\n                    <g transform=\"rotate(3 112 190)\">\n                      <rect x=\"85\" y=\"175\" width=\"26\" height=\"5\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.85\"/>\n                      <rect x=\"85\" y=\"184\" width=\"50\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                      <rect x=\"85\" y=\"191\" width=\"40\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                      <rect x=\"85\" y=\"198\" width=\"46\" height=\"3.4\" rx=\"1.7\" fill=\"#3b4d68\"/>\n                    </g>\n                    <path d=\"M158 178 L196 182 L196 214 L158 212 Z\" fill=\"#4c1d95\"/>\n                    <rect x=\"164\" y=\"188\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#c4b5fd\"/><rect x=\"178\" y=\"190\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#c4b5fd\"/>\n                    <!-- counter -->\n                    <path d=\"M64 252 L152 243 L152 226 L64 234 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M64 252 L152 243 L152 260 L64 270 Z\" fill=\"#cbd5e1\"/>\n                    <path d=\"M68 259 L148 250 L148 256 L68 266 Z\" fill=\"#6d28d9\" opacity=\"0.85\"/>\n                    <!-- rollup + plant -->\n                    <path d=\"M186 226 L200 224 L200 258 L186 261 Z\" fill=\"#7c3aed\"/><circle cx=\"193\" cy=\"234\" r=\"3.4\" fill=\"#f8fafc\" opacity=\"0.85\"/>\n                    <path d=\"M52 236 C46 226 41 226 40 219 C47 221 49 226 51 231 C53 226 55 221 62 219 C61 226 56 226 52 236\" fill=\"#15803d\"/>\n                    <path d=\"M48 262 L47 240 L57 240 L56 262 Z\" fill=\"#78350f\"/>\n                  </g>\n                  <!-- left far stand: teal -->\n                  <g>\n                    <ellipse cx=\"272\" cy=\"240\" rx=\"66\" ry=\"11\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M226 148 L318 158 L318 226 L226 238 Z\" fill=\"url(#ddStandTeal)\" stroke=\"#134e4a\" stroke-width=\"1.6\"/>\n                    <path d=\"M223 145 L321 156 L321 170 L223 158 Z\" fill=\"#042f2e\"/>\n                    <path d=\"M223 145 L321 156 L321 159 L223 148 Z\" fill=\"#2dd4bf\"/>\n                    <circle cx=\"238\" cy=\"155\" r=\"4\" fill=\"#ccfbf1\" opacity=\"0.9\"/>\n                    <rect x=\"242\" y=\"182\" width=\"46\" height=\"28\" rx=\"2\" fill=\"#0b1526\" stroke=\"#2dd4bf\" transform=\"rotate(3 265 196)\"/>\n                    <g transform=\"rotate(3 265 196)\"><rect x=\"246\" y=\"186\" width=\"18\" height=\"4\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.8\"/><rect x=\"246\" y=\"194\" width=\"34\" height=\"3\" rx=\"1.5\" fill=\"#2b4a56\"/><rect x=\"246\" y=\"200\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#2b4a56\"/></g>\n                    <path d=\"M232 238 L280 233 L280 222 L232 227 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M232 238 L280 233 L280 245 L232 251 Z\" fill=\"#cbd5e1\"/>\n                  </g>\n                  <!-- left distant stand: silhouette in haze -->\n                  <path d=\"M330 160 L382 166 L382 220 L330 228 Z\" fill=\"#b9c4d2\" opacity=\"0.8\"/>\n                  <path d=\"M328 158 L384 164 L384 176 L328 169 Z\" fill=\"#8d99a8\"/>\n\n                  <!-- right near stand: KESTREL (name is Claude's) -->\n                  <g>\n                    <ellipse cx=\"662\" cy=\"252\" rx=\"112\" ry=\"15\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M742 252 L588 236 L588 230 L742 246 Z\" fill=\"#a3123a\" opacity=\"0.4\"/>\n                    <path d=\"M594 144 L594 232 L574 228 L574 152 Z\" fill=\"#c7ced9\"/>\n                    <path d=\"M594 144 L574 152 L574 158 L594 151 Z\" fill=\"#94a0af\"/>\n                    <path d=\"M740 126 L594 144 L594 232 L740 250 Z\" fill=\"url(#ddStandRose)\"/>\n                    <path d=\"M740 126 L594 144 L594 232 L740 250 Z\" fill=\"none\" stroke=\"#4c0519\" stroke-width=\"2\"/>\n                    <path d=\"M736 132 Q670 154 598 150 L598 148 Q670 148 736 128 Z\" fill=\"#f8fafc\" opacity=\"0.12\"/>\n                    <path d=\"M744 122 L590 141 L590 158 L744 141 Z\" fill=\"#4c0519\"/>\n                    <path d=\"M744 122 L590 141 L590 145 L744 126 Z\" fill=\"#fb7185\"/>\n                    <text x=\"667\" y=\"146\" text-anchor=\"middle\" font-size=\"10.5\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#ffe4e6\" transform=\"rotate(-4 667 146)\">KESTREL</text>\n                    <circle cx=\"724\" cy=\"134\" r=\"5.5\" fill=\"#f8fafc\" opacity=\"0.9\"/>\n                    <g stroke=\"#334155\" stroke-width=\"2\"><line x1=\"710\" y1=\"124\" x2=\"710\" y2=\"118\"/><line x1=\"630\" y1=\"133\" x2=\"630\" y2=\"127\"/></g>\n                    <circle cx=\"710\" cy=\"117\" r=\"3.4\" fill=\"#ffe9a8\"/><circle cx=\"630\" cy=\"126\" r=\"3.4\" fill=\"#ffe9a8\"/>\n                    <rect x=\"656\" y=\"170\" width=\"64\" height=\"40\" rx=\"2.5\" fill=\"#0b1526\" stroke=\"#fda4af\" stroke-width=\"1.4\" transform=\"rotate(-3 688 190)\"/>\n                    <g transform=\"rotate(-3 688 190)\">\n                      <rect x=\"661\" y=\"175\" width=\"26\" height=\"5\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.85\"/>\n                      <rect x=\"661\" y=\"184\" width=\"50\" height=\"3.4\" rx=\"1.7\" fill=\"#4a3341\"/>\n                      <rect x=\"661\" y=\"191\" width=\"40\" height=\"3.4\" rx=\"1.7\" fill=\"#4a3341\"/>\n                    </g>\n                    <path d=\"M642 178 L604 182 L604 214 L642 212 Z\" fill=\"#881337\"/>\n                    <rect x=\"612\" y=\"188\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#fecdd3\"/><rect x=\"626\" y=\"190\" width=\"10\" height=\"7\" rx=\"1\" fill=\"#fecdd3\"/>\n                    <path d=\"M736 252 L648 243 L648 226 L736 234 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M736 252 L648 243 L648 260 L736 270 Z\" fill=\"#cbd5e1\"/>\n                    <path d=\"M732 259 L652 250 L652 256 L732 266 Z\" fill=\"#be123c\" opacity=\"0.85\"/>\n                    <path d=\"M614 226 L600 224 L600 258 L614 261 Z\" fill=\"#e11d48\"/><circle cx=\"607\" cy=\"234\" r=\"3.4\" fill=\"#f8fafc\" opacity=\"0.85\"/>\n                    <path d=\"M748 236 C742 226 737 226 736 219 C743 221 745 226 747 231 C749 226 751 221 758 219 C757 226 752 226 748 236\" fill=\"#15803d\"/>\n                    <path d=\"M744 262 L743 240 L753 240 L752 262 Z\" fill=\"#78350f\"/>\n                  </g>\n                  <!-- right far stand: blue -->\n                  <g>\n                    <ellipse cx=\"528\" cy=\"240\" rx=\"66\" ry=\"11\" fill=\"url(#ddBoothPool)\"/>\n                    <path d=\"M574 148 L482 158 L482 226 L574 238 Z\" fill=\"url(#ddStandBlue)\" stroke=\"#0c4a6e\" stroke-width=\"1.6\"/>\n                    <path d=\"M577 145 L479 156 L479 170 L577 158 Z\" fill=\"#082f49\"/>\n                    <path d=\"M577 145 L479 156 L479 159 L577 148 Z\" fill=\"#38bdf8\"/>\n                    <circle cx=\"562\" cy=\"155\" r=\"4\" fill=\"#e0f2fe\" opacity=\"0.9\"/>\n                    <rect x=\"512\" y=\"182\" width=\"46\" height=\"28\" rx=\"2\" fill=\"#0b1526\" stroke=\"#38bdf8\" transform=\"rotate(-3 535 196)\"/>\n                    <g transform=\"rotate(-3 535 196)\"><rect x=\"516\" y=\"186\" width=\"18\" height=\"4\" rx=\"2\" fill=\"#7dd3fc\" opacity=\"0.8\"/><rect x=\"516\" y=\"194\" width=\"34\" height=\"3\" rx=\"1.5\" fill=\"#28455e\"/><rect x=\"516\" y=\"200\" width=\"26\" height=\"3\" rx=\"1.5\" fill=\"#28455e\"/></g>\n                    <path d=\"M568 238 L520 233 L520 222 L568 227 Z\" fill=\"#eef2f7\"/>\n                    <path d=\"M568 238 L520 233 L520 245 L568 251 Z\" fill=\"#cbd5e1\"/>\n                  </g>\n                  <!-- right distant stand: silhouette in haze -->\n                  <path d=\"M470 160 L418 166 L418 220 L470 228 Z\" fill=\"#b9c4d2\" opacity=\"0.8\"/>\n                  <path d=\"M472 158 L416 164 L416 176 L472 169 Z\" fill=\"#8d99a8\"/>\n\n                  <!-- people at the booths: fuller figures with shadows -->\n                  <g id=\"ddCrowd\">\n                    <ellipse cx=\"104\" cy=\"240\" rx=\"26\" ry=\"5\" fill=\"#0b1220\" opacity=\"0.18\"/>\n                    <g transform=\"translate(96,238)\"><g class=\"inv-sway\"><circle cx=\"0\" cy=\"-30\" r=\"5\" fill=\"#e0ac69\"/><path d=\"M-6 -6 L-4.5 -25 L4.5 -25 L6 -6 Z\" fill=\"#6d28d9\"/><rect x=\"-4.5\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/><rect x=\"1\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/></g></g>\n                    <g transform=\"translate(114,242)\"><circle cx=\"0\" cy=\"-32\" r=\"5.4\" fill=\"#8d5524\"/><path d=\"M-6.4 -6 L-4.8 -27 L4.8 -27 L6.4 -6 Z\" fill=\"#0f766e\"/><rect x=\"-5\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/><rect x=\"1\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/></g>\n                    <g transform=\"translate(140,239)\"><g class=\"inv-sway\" style=\"animation-delay:-1.4s\"><circle cx=\"0\" cy=\"-29\" r=\"4.8\" fill=\"#ffd9b3\"/><path d=\"M-5.6 -6 L-4.2 -24 L4.2 -24 L5.6 -6 Z\" fill=\"#b45309\"/><rect x=\"-4.2\" y=\"-7\" width=\"3.4\" height=\"7\" fill=\"#374151\"/><rect x=\"0.8\" y=\"-7\" width=\"3.4\" height=\"7\" fill=\"#374151\"/></g></g>\n                    <ellipse cx=\"268\" cy=\"230\" rx=\"22\" ry=\"4.5\" fill=\"#0b1220\" opacity=\"0.16\"/>\n                    <g transform=\"translate(260,229)\"><circle cx=\"0\" cy=\"-26\" r=\"4.4\" fill=\"#f1c27d\"/><path d=\"M-5 -5 L-3.6 -21 L3.6 -21 L5 -5 Z\" fill=\"#be185d\"/><rect x=\"-3.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/><rect x=\"0.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/></g>\n                    <g transform=\"translate(278,232)\"><g class=\"inv-sway\" style=\"animation-delay:-0.8s\"><circle cx=\"0\" cy=\"-27\" r=\"4.6\" fill=\"#c68642\"/><path d=\"M-5.2 -5 L-3.8 -22 L3.8 -22 L5.2 -5 Z\" fill=\"#1d4ed8\"/><rect x=\"-4\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/><rect x=\"0.8\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/></g></g>\n                    <g transform=\"translate(350,222)\"><circle cx=\"0\" cy=\"-21\" r=\"3.8\" fill=\"#ffdbac\"/><path d=\"M-4.2 -4 L-3 -17 L3 -17 L4.2 -4 Z\" fill=\"#c2410c\"/></g>\n                    <ellipse cx=\"694\" cy=\"240\" rx=\"26\" ry=\"5\" fill=\"#0b1220\" opacity=\"0.18\"/>\n                    <g transform=\"translate(686,238)\"><g class=\"inv-sway\" style=\"animation-delay:-2.1s\"><circle cx=\"0\" cy=\"-30\" r=\"5\" fill=\"#a5682a\"/><path d=\"M-6 -6 L-4.5 -25 L4.5 -25 L6 -6 Z\" fill=\"#be123c\"/><rect x=\"-4.5\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/><rect x=\"1\" y=\"-7\" width=\"3.6\" height=\"7\" fill=\"#1e293b\"/></g></g>\n                    <g transform=\"translate(668,243)\"><circle cx=\"0\" cy=\"-32\" r=\"5.4\" fill=\"#ffd9b3\"/><path d=\"M-6.4 -6 L-4.8 -27 L4.8 -27 L6.4 -6 Z\" fill=\"#065f46\"/><rect x=\"-5\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/><rect x=\"1\" y=\"-7\" width=\"4\" height=\"7\" fill=\"#0f172a\"/></g>\n                    <ellipse cx=\"530\" cy=\"230\" rx=\"22\" ry=\"4.5\" fill=\"#0b1220\" opacity=\"0.16\"/>\n                    <g transform=\"translate(524,229)\"><g class=\"inv-sway\" style=\"animation-delay:-1.7s\"><circle cx=\"0\" cy=\"-26\" r=\"4.4\" fill=\"#e8b878\"/><path d=\"M-5 -5 L-3.6 -21 L3.6 -21 L5 -5 Z\" fill=\"#0369a1\"/><rect x=\"-3.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/><rect x=\"0.8\" y=\"-6\" width=\"3\" height=\"6\" fill=\"#1f2937\"/></g></g>\n                    <g transform=\"translate(542,232)\"><circle cx=\"0\" cy=\"-27\" r=\"4.6\" fill=\"#8d5524\"/><path d=\"M-5.2 -5 L-3.8 -22 L3.8 -22 L5.2 -5 Z\" fill=\"#a16207\"/><rect x=\"-4\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/><rect x=\"0.8\" y=\"-6\" width=\"3.2\" height=\"6\" fill=\"#0f172a\"/></g>\n                    <g transform=\"translate(448,220)\"><circle cx=\"0\" cy=\"-20\" r=\"3.6\" fill=\"#f1c27d\"/><path d=\"M-4 -4 L-2.8 -16 L2.8 -16 L4 -4 Z\" fill=\"#4d7c0f\"/></g>\n                  </g>\n                  <!-- passers-by crossing the hall, two depths -->\n                  <g id=\"ddPassers\">\n                    <g class=\"dd-passer\" style=\"animation-duration:27s; animation-delay:-6s\" opacity=\"0.8\">\n                      <g transform=\"translate(0,224)\"><circle cx=\"0\" cy=\"-23\" r=\"4\" fill=\"#e0ac69\"/><path d=\"M-4.2 0 L-2.6 -19 L2.6 -19 L4.2 0 Z\" fill=\"#475569\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:33s; animation-delay:-19s\" opacity=\"0.7\">\n                      <g transform=\"translate(0,218)\"><circle cx=\"0\" cy=\"-21\" r=\"3.7\" fill=\"#c68642\"/><path d=\"M-3.8 0 L-2.4 -17 L2.4 -17 L3.8 0 Z\" fill=\"#9d174d\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:17s; animation-delay:-3s\" opacity=\"0.9\">\n                      <g transform=\"translate(0,258)\"><ellipse cx=\"0\" cy=\"1\" rx=\"9\" ry=\"2.6\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-36\" r=\"5.6\" fill=\"#ffd9b3\"/><path d=\"M-6 0 L-3.8 -31 L3.8 -31 L6 0 Z\" fill=\"#166534\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:23s; animation-delay:-13s\" opacity=\"0.85\">\n                      <g transform=\"translate(0,264)\"><ellipse cx=\"0\" cy=\"1\" rx=\"9.6\" ry=\"2.8\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-38\" r=\"6\" fill=\"#8d5524\"/><path d=\"M-6.4 0 L-4 -33 L4 -33 L6.4 0 Z\" fill=\"#b45309\"/></g>\n                    </g>\n                    <g class=\"dd-passer\" style=\"animation-duration:20s; animation-delay:-9s\" opacity=\"0.8\">\n                      <g transform=\"translate(0,252)\"><ellipse cx=\"0\" cy=\"1\" rx=\"8.6\" ry=\"2.5\" fill=\"#0b1220\" opacity=\"0.2\"/><circle cx=\"0\" cy=\"-31\" r=\"5.4\" fill=\"#f1c27d\"/><path d=\"M-5.8 0 L-3.6 -26 L3.6 -26 L5.8 0 Z\" fill=\"#7e22ce\"/></g>\n                    </g>\n                  </g>\n                </g>\n\n                                <!-- The visitor (built by JS; wrapper carries the walk) -->\n                <g id=\"ddVisitorG\" class=\"dd-far\"><g id=\"ddVisitorInner\" class=\"dd-shadow\"></g></g>\n\n                <!-- Your counter: bottom of frame, first person -->\n                <path d=\"M0 292 L800 292 L800 306 L0 306 Z\" fill=\"url(#ddCounterTop)\"/>\n                <path d=\"M0 306 L800 306 L800 360 L0 360 Z\" fill=\"url(#ddCounterFace)\"/>\n                <path d=\"M0 306 L800 306\" stroke=\"#0b1e4d\" stroke-width=\"2\"/>\n                <text id=\"ddBoothName\" x=\"400\" y=\"336\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" letter-spacing=\"2\" fill=\"#f8fafc\">YOUR STARTUP</text>\n                <text id=\"ddBoothSub\" x=\"400\" y=\"352\" text-anchor=\"middle\" font-size=\"9\" letter-spacing=\"1.5\" fill=\"#bfdbfe\" opacity=\"0.85\">AI-POWERED INNOVATION</text>\n\n                <!-- Stock on the counter (redrawn as it runs down) -->\n                <g id=\"ddStock\"></g>\n              </svg>\n\n              <!-- Speech bubble -->\n              <div id=\"ddBubble\" class=\"bg-white rounded-2xl px-3 py-2 shadow-lg\" style=\"opacity:0\">\n                <p id=\"ddBubbleText\" class=\"text-slate-800 text-sm italic\">...</p>\n              </div>\n\n\n\n              <!-- Floating text lives over the stage (same id as the game) -->\n              <div id=\"ddFloatingText\" class=\"absolute inset-0 pointer-events-none overflow-hidden\" style=\"z-index:40\"></div>\n\n              <div class=\"dd-vignette\" style=\"z-index:45\"></div>\n            </div>\n          </div>\n\n          <!-- Visitor Zone: the decision card (same id; content built by demoDayRenderVisitor) -->\n          <div id=\"ddVisitorZone\" class=\"relative\">\n            <div class=\"text-center py-8 text-slate-500\">\n              <div class=\"text-lg\">Waiting for visitors...</div>\n            </div>\n          </div>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "showCannotNegotiateMessage": [
+   [
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🚫</div>\n            <h2 class=\"text-xl font-bold text-slate-800\">Cannot Negotiate</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${tolerance.cannotNegotiateReason}\n          </p>\n          <div class=\"bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-600 text-center\">\n            The offer is <strong>£${opt.cash}k</strong> for <strong>${opt.dilution}%</strong> equity. Take it or leave it.\n          </div>\n          <button onclick=\"game.closeFundingRejectionModal()\" class=\"w-full px-4 py-2.5 bg-slate-600 hover:bg-slate-700 text-white font-medium rounded-lg\">\n            Understood\n          </button>\n        </div>\n      </div>\n    `",
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🚫</div>\n            <h2 class=\"text-xl font-bold text-slate-800\">Cannot Negotiate</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${tolerance.cannotNegotiateReason}\n          </p>\n          <div class=\"bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-600 text-center\">\n            The offer is <strong>${getRegion().currency}${opt.cash}k</strong> for <strong>${opt.dilution}%</strong> equity. Take it or leave it.\n          </div>\n          <button onclick=\"game.closeFundingRejectionModal()\" class=\"w-full px-4 py-2.5 bg-slate-600 hover:bg-slate-700 text-white font-medium rounded-lg\">\n            Understood\n          </button>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "handleFundingRejection": [
+   [
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🙅</div>\n            <h2 class=\"text-xl font-bold text-amber-600\">Terms Rejected</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${orig.name} has rejected your proposed terms but their original offer still stands.\n          </p>\n          <div class=\"bg-slate-50 rounded-lg p-3 mb-4\">\n            <div class=\"text-sm text-slate-600 text-center\">Original offer: <strong>£${orig.cash}k</strong> for <strong>${orig.dilution}%</strong></div>\n          </div>\n          <div class=\"flex gap-3\">\n            <button onclick=\"game.closeFundingRejectionModal()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-slate-100\">\n              Walk Away\n            </button>\n            <button onclick=\"game.acceptOriginalAfterRejection()\" class=\"flex-1 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg\">\n              Accept Original\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🙅</div>\n            <h2 class=\"text-xl font-bold text-amber-600\">Terms Rejected</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${orig.name} has rejected your proposed terms but their original offer still stands.\n          </p>\n          <div class=\"bg-slate-50 rounded-lg p-3 mb-4\">\n            <div class=\"text-sm text-slate-600 text-center\">Original offer: <strong>${getRegion().currency}${orig.cash}k</strong> for <strong>${orig.dilution}%</strong></div>\n          </div>\n          <div class=\"flex gap-3\">\n            <button onclick=\"game.closeFundingRejectionModal()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-slate-100\">\n              Walk Away\n            </button>\n            <button onclick=\"game.acceptOriginalAfterRejection()\" class=\"flex-1 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg\">\n              Accept Original\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "handleFundingCounter": [
+   [
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🤔</div>\n            <h2 class=\"text-xl font-bold text-slate-800\">Counter-Offer</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${orig.name} ${harsh ? \"is unimpressed with your proposal but will consider\" : \"appreciates the discussion and proposes\"}:\n          </p>\n          <div class=\"bg-indigo-50 border border-indigo-200 rounded-lg p-4 mb-4\">\n            <div class=\"grid grid-cols-3 gap-2 text-center text-sm\">\n              <div>\n                <div class=\"font-bold text-emerald-600 text-lg\">£${counterCash}k</div>\n                <div class=\"text-xs text-slate-500\">Investment</div>\n              </div>\n              <div>\n                <div class=\"font-bold text-amber-600 text-lg\">${counterEquity}%</div>\n                <div class=\"text-xs text-slate-500\">Equity</div>\n              </div>\n              <div>\n                <div class=\"font-bold text-slate-600 text-lg\">${counterProtection === 1 ? 'Full' : counterProtection === 0.5 ? 'Partial' : 'None'}</div>\n                <div class=\"text-xs text-slate-500\">Protection</div>\n              </div>\n            </div>\n          </div>\n          ${harsh ? '<p class=\"text-sm text-red-600 mb-4 text-center\">⚠️ This is their final offer. Further negotiation will likely cause them to withdraw.</p>' : ''}\n          <div class=\"flex gap-3\">\n            <button onclick=\"game.closeFundingRejectionModal()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-slate-100\">\n              Walk Away\n            </button>\n            <button onclick=\"game.acceptCounterOffer()\" class=\"flex-1 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg\">\n              Accept Counter\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    "`\n      <div id=\"fundingRejectionModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full p-6\">\n          <div class=\"text-center mb-4\">\n            <div class=\"text-4xl mb-2\">🤔</div>\n            <h2 class=\"text-xl font-bold text-slate-800\">Counter-Offer</h2>\n          </div>\n          <p class=\"text-slate-600 mb-4 text-center\">\n            ${orig.name} ${harsh ? \"is unimpressed with your proposal but will consider\" : \"appreciates the discussion and proposes\"}:\n          </p>\n          <div class=\"bg-indigo-50 border border-indigo-200 rounded-lg p-4 mb-4\">\n            <div class=\"grid grid-cols-3 gap-2 text-center text-sm\">\n              <div>\n                <div class=\"font-bold text-emerald-600 text-lg\">${getRegion().currency}${counterCash}k</div>\n                <div class=\"text-xs text-slate-500\">Investment</div>\n              </div>\n              <div>\n                <div class=\"font-bold text-amber-600 text-lg\">${counterEquity}%</div>\n                <div class=\"text-xs text-slate-500\">Equity</div>\n              </div>\n              <div>\n                <div class=\"font-bold text-slate-600 text-lg\">${counterProtection === 1 ? 'Full' : counterProtection === 0.5 ? 'Partial' : 'None'}</div>\n                <div class=\"text-xs text-slate-500\">Protection</div>\n              </div>\n            </div>\n          </div>\n          ${harsh ? '<p class=\"text-sm text-red-600 mb-4 text-center\">⚠️ This is their final offer. Further negotiation will likely cause them to withdraw.</p>' : ''}\n          <div class=\"flex gap-3\">\n            <button onclick=\"game.closeFundingRejectionModal()\" class=\"flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-slate-100\">\n              Walk Away\n            </button>\n            <button onclick=\"game.acceptCounterOffer()\" class=\"flex-1 px-4 py-2.5 bg-emerald-600 hover:bg-emerald-700 text-white font-medium rounded-lg\">\n              Accept Counter\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "showFundingAcceptedModal": [
+   [
+    "`\n      <div id=\"fundingAcceptedModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4 overflow-y-auto\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden animate-fade-in max-h-[90vh] flex flex-col\">\n          <div class=\"bg-gradient-to-r from-emerald-500 to-teal-500 text-white p-6 text-center\">\n            <div class=\"text-5xl mb-3\">🎉</div>\n            <h2 class=\"text-2xl font-bold\">Deal Accepted!</h2>\n            <p class=\"text-emerald-100 mt-1\">${investorName} is investing in your company</p>\n          </div>\n\n          <div class=\"p-6 overflow-y-auto min-h-0\">\n            <div class=\"flex items-center gap-4 mb-5\">\n              <div class=\"w-16 h-16 rounded-full overflow-hidden border-3 border-emerald-300 flex-shrink-0 bg-white shadow-md flex items-center justify-center text-4xl\">\n                ${investorPhoto}\n              </div>\n              <div class=\"flex-1 bg-emerald-50 rounded-lg p-3\">\n                <p class=\"text-sm text-emerald-800 italic\">\"Great partnership ahead. Looking forward to helping you scale!\"</p>\n              </div>\n            </div>\n            \n            <div class=\"bg-slate-50 rounded-xl p-4 mb-4\">\n              <h3 class=\"font-bold text-slate-700 text-sm mb-3\">Deal Terms</h3>\n              <div class=\"grid grid-cols-3 gap-3 text-center\">\n                <div>\n                  <div class=\"text-xl font-bold text-emerald-600\">£${cash}k</div>\n                  <div class=\"text-xs text-slate-500\">Investment</div>\n                </div>\n                <div>\n                  <div class=\"text-xl font-bold text-amber-600\">${equity}%</div>\n                  <div class=\"text-xs text-slate-500\">Equity</div>\n                </div>\n                <div>\n                  <div class=\"text-xl font-bold text-slate-700\">£${newVal}k</div>\n                  <div class=\"text-xs text-slate-500\">New Valuation</div>\n                </div>\n              </div>\n            </div>\n            \n            ${negotiationSummary}\n            ${protectionInfo}\n            \n            <div class=\"bg-rose-50 rounded-lg p-3 mb-4 text-sm text-rose-700 border border-rose-200\">\n              ⚡ <strong>AP Cost:</strong> -1 AP this quarter for fundraising activities\n            </div>\n            \n            <div class=\"bg-blue-50 rounded-lg p-3 text-sm text-blue-700 border border-blue-200\">\n              💼 <strong>Your equity:</strong> Now ${this.metrics.equity.toFixed(1)}% ownership\n            </div>\n          </div>\n          \n          <div class=\"p-4 border-t border-slate-200 bg-slate-50\">\n            <button onclick=\"game.closeFundingAcceptedModal()\" class=\"w-full px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors\">\n              Continue\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    "`\n      <div id=\"fundingAcceptedModal\" class=\"fixed inset-0 bg-black/70 flex items-center justify-center z-[65] p-4 overflow-y-auto\">\n        <div class=\"bg-white rounded-2xl shadow-2xl max-w-md w-full overflow-hidden animate-fade-in max-h-[90vh] flex flex-col\">\n          <div class=\"bg-gradient-to-r from-emerald-500 to-teal-500 text-white p-6 text-center\">\n            <div class=\"text-5xl mb-3\">🎉</div>\n            <h2 class=\"text-2xl font-bold\">Deal Accepted!</h2>\n            <p class=\"text-emerald-100 mt-1\">${investorName} is investing in your company</p>\n          </div>\n\n          <div class=\"p-6 overflow-y-auto min-h-0\">\n            <div class=\"flex items-center gap-4 mb-5\">\n              <div class=\"w-16 h-16 rounded-full overflow-hidden border-3 border-emerald-300 flex-shrink-0 bg-white shadow-md flex items-center justify-center text-4xl\">\n                ${investorPhoto}\n              </div>\n              <div class=\"flex-1 bg-emerald-50 rounded-lg p-3\">\n                <p class=\"text-sm text-emerald-800 italic\">\"Great partnership ahead. Looking forward to helping you scale!\"</p>\n              </div>\n            </div>\n            \n            <div class=\"bg-slate-50 rounded-xl p-4 mb-4\">\n              <h3 class=\"font-bold text-slate-700 text-sm mb-3\">Deal Terms</h3>\n              <div class=\"grid grid-cols-3 gap-3 text-center\">\n                <div>\n                  <div class=\"text-xl font-bold text-emerald-600\">${getRegion().currency}${cash}k</div>\n                  <div class=\"text-xs text-slate-500\">Investment</div>\n                </div>\n                <div>\n                  <div class=\"text-xl font-bold text-amber-600\">${equity}%</div>\n                  <div class=\"text-xs text-slate-500\">Equity</div>\n                </div>\n                <div>\n                  <div class=\"text-xl font-bold text-slate-700\">${getRegion().currency}${newVal}k</div>\n                  <div class=\"text-xs text-slate-500\">New Valuation</div>\n                </div>\n              </div>\n            </div>\n            \n            ${negotiationSummary}\n            ${protectionInfo}\n            \n            <div class=\"bg-rose-50 rounded-lg p-3 mb-4 text-sm text-rose-700 border border-rose-200\">\n              ⚡ <strong>AP Cost:</strong> -1 AP this quarter for fundraising activities\n            </div>\n            \n            <div class=\"bg-blue-50 rounded-lg p-3 text-sm text-blue-700 border border-blue-200\">\n              💼 <strong>Your equity:</strong> Now ${this.metrics.equity.toFixed(1)}% ownership\n            </div>\n          </div>\n          \n          <div class=\"p-4 border-t border-slate-200 bg-slate-50\">\n            <button onclick=\"game.closeFundingAcceptedModal()\" class=\"w-full px-6 py-3 bg-emerald-600 hover:bg-emerald-700 text-white font-bold rounded-xl transition-colors\">\n              Continue\n            </button>\n          </div>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ],
+  "showJourneyModal": [
+   [
+    "`\n      <div class=\"space-y-6\">\n        <!-- Header -->\n        <div class=\"text-center border-b pb-6\">\n          <div class=\"text-xs uppercase tracking-wider text-slate-400 mb-1\">THE SLINGSHOT</div>\n          <h1 class=\"text-3xl font-bold text-slate-800 mb-1\">Your Entrepreneurial Journey</h1>\n          <div class=\"text-2xl font-bold text-indigo-600\">${this.company?.name || 'Your Startup'}</div>\n          <div class=\"text-slate-500 text-sm mt-2\">A management case study from your startup simulation</div>\n          <div class=\"mt-3 inline-block px-4 py-2 rounded-full text-sm font-bold ${success ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'}\">\n            ${success ? 'SUCCESS' : 'JOURNEY ENDED'} · ${this.completedMilestones.length}/3 milestones · ${this.turn} quarters · ${formatValuation(this.metrics.val)} valuation\n          </div>\n        </div>\n        \n        <!-- Leadership Style -->\n        <div class=\"bg-gradient-to-r from-slate-50 to-indigo-50 rounded-xl p-5\">\n          <h2 class=\"text-xl font-bold text-slate-800 mb-1\">${archetype.title}</h2>\n          <div class=\"text-xs uppercase tracking-wider text-slate-400 mb-3\">Leadership Style</div>\n          \n          <div class=\"grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4\">\n            <div><span class=\"text-slate-500\">Valuation:</span> <span class=\"font-bold\">${formatValuation(this.metrics.val)}</span></div>\n            <div><span class=\"text-slate-500\">Equity:</span> <span class=\"font-bold\">${this.metrics.equity.toFixed(1)}%</span></div>\n            <div><span class=\"text-slate-500\">Team:</span> <span class=\"font-bold\">${this.metrics.staff} people</span></div>\n            <div><span class=\"text-slate-500\">Cash:</span> <span class=\"font-bold\">£${this.metrics.cash}k</span></div>\n          </div>\n          \n          <p class=\"text-slate-600 text-sm\">${archetype.description}</p>\n        </div>\n        \n        <!-- The Story -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Story</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateStorySection()}</p>\n        </div>\n        \n        <!-- Strategic Approach -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">Strategic Approach</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateStrategicApproach()}</p>\n        </div>\n        \n        <!-- The Journey -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Journey</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateJourneySection()}</p>\n        </div>\n        \n        <!-- Defining Moments -->\n        ${moments.length > 0 ? `\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-3\">Defining Moments</h3>\n          <div class=\"space-y-3\">\n            ${moments.map(m => `\n              <div class=\"flex gap-3 text-sm\">\n                <div class=\"w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${m.type === 'milestone' ? 'bg-emerald-100 text-emerald-600' : m.type === 'funding' ? 'bg-sky-100 text-sky-600' : m.type === 'crisis' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}\">\n                  Q${m.quarter}\n                </div>\n                <div>\n                  <div class=\"font-medium text-slate-800\">${m.title}</div>\n                  <div class=\"text-slate-500 text-xs\">${m.description}</div>\n                </div>\n              </div>\n            `).join('')}\n          </div>\n        </div>\n        ` : ''}\n        \n        <!-- Critical Decisions -->\n        ${decisions.length > 0 ? `\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-3\">Critical Decisions</h3>\n          <div class=\"space-y-3\">\n            ${decisions.map(d => `\n              <div class=\"bg-slate-50 rounded-lg p-3\">\n                <div class=\"flex items-center gap-2 mb-1\">\n                  <span class=\"text-xs font-bold text-slate-400\">Q${d.quarter}</span>\n                  <span class=\"text-xs font-bold text-indigo-600\">${d.domain}</span>\n                </div>\n                <div class=\"text-xs text-slate-500 mb-1\">${d.situation}</div>\n                <div class=\"text-sm font-medium text-slate-800\">→ \"${d.choice}\"</div>\n              </div>\n            `).join('')}\n          </div>\n        </div>\n        ` : ''}\n        \n        <!-- What Worked / What Didn't -->\n        <div class=\"grid md:grid-cols-2 gap-4\">\n          <div class=\"bg-emerald-50 rounded-lg p-4\">\n            <h4 class=\"font-bold text-emerald-800 mb-2\">What Worked</h4>\n            <ul class=\"text-sm text-emerald-700 space-y-1\">\n              ${whatWorked.worked.map(w => `<li>• ${w}</li>`).join('')}\n            </ul>\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-4\">\n            <h4 class=\"font-bold text-amber-800 mb-2\">What Didn't</h4>\n            <ul class=\"text-sm text-amber-700 space-y-1\">\n              ${whatWorked.didnt.map(w => `<li>• ${w}</li>`).join('')}\n            </ul>\n          </div>\n        </div>\n        \n        <!-- The Outcome -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Outcome</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateOutcomeSection()}</p>\n        </div>\n        \n        <!-- Lessons -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">Lessons & Reflections</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateLessonsSection()}</p>\n        </div>\n        \n        <!-- Footer -->\n        <div class=\"border-t pt-4 text-center text-xs text-slate-400\">\n          <p class=\"font-medium\">The Slingshot: An AI Startup Simulation</p>\n          <p>Created by Ammon Salter (Warwick Business School), with Stefano Baruffaldi (Politecnico di Milano) and Federico Bignone (Warwick Business School)</p>\n          <p>Part of the ESRC-funded project \"Profiting from Science\" [ES/X003949/1]</p>\n          <p>© 2025 · Licensed under CC BY-NC-SA 4.0</p>\n        </div>\n        \n        <!-- Actions -->\n        <div class=\"flex justify-center gap-4 pt-2\">\n          <button onclick=\"game.downloadJourneyPDF()\" class=\"px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition-colors flex items-center gap-2\">\n            <span>📄</span> Download PDF\n          </button>\n          <button onclick=\"document.getElementById('journeyModal').classList.add('hidden')\" class=\"px-6 py-3 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg font-medium transition-colors\">\n            Close\n          </button>\n        </div>\n      </div>\n    `",
+    "`\n      <div class=\"space-y-6\">\n        <!-- Header -->\n        <div class=\"text-center border-b pb-6\">\n          <div class=\"text-xs uppercase tracking-wider text-slate-400 mb-1\">THE SLINGSHOT</div>\n          <h1 class=\"text-3xl font-bold text-slate-800 mb-1\">Your Entrepreneurial Journey</h1>\n          <div class=\"text-2xl font-bold text-indigo-600\">${this.company?.name || 'Your Startup'}</div>\n          <div class=\"text-slate-500 text-sm mt-2\">A management case study from your startup simulation</div>\n          <div class=\"mt-3 inline-block px-4 py-2 rounded-full text-sm font-bold ${success ? 'bg-emerald-100 text-emerald-700' : 'bg-amber-100 text-amber-700'}\">\n            ${success ? 'SUCCESS' : 'JOURNEY ENDED'} · ${this.completedMilestones.length}/3 milestones · ${this.turn} quarters · ${formatValuation(this.metrics.val)} valuation\n          </div>\n        </div>\n        \n        <!-- Leadership Style -->\n        <div class=\"bg-gradient-to-r from-slate-50 to-indigo-50 rounded-xl p-5\">\n          <h2 class=\"text-xl font-bold text-slate-800 mb-1\">${archetype.title}</h2>\n          <div class=\"text-xs uppercase tracking-wider text-slate-400 mb-3\">Leadership Style</div>\n          \n          <div class=\"grid grid-cols-2 md:grid-cols-4 gap-3 text-sm mb-4\">\n            <div><span class=\"text-slate-500\">Valuation:</span> <span class=\"font-bold\">${formatValuation(this.metrics.val)}</span></div>\n            <div><span class=\"text-slate-500\">Equity:</span> <span class=\"font-bold\">${this.metrics.equity.toFixed(1)}%</span></div>\n            <div><span class=\"text-slate-500\">Team:</span> <span class=\"font-bold\">${this.metrics.staff} people</span></div>\n            <div><span class=\"text-slate-500\">Cash:</span> <span class=\"font-bold\">${getRegion().currency}${this.metrics.cash}k</span></div>\n          </div>\n          \n          <p class=\"text-slate-600 text-sm\">${archetype.description}</p>\n        </div>\n        \n        <!-- The Story -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Story</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateStorySection()}</p>\n        </div>\n        \n        <!-- Strategic Approach -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">Strategic Approach</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateStrategicApproach()}</p>\n        </div>\n        \n        <!-- The Journey -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Journey</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateJourneySection()}</p>\n        </div>\n        \n        <!-- Defining Moments -->\n        ${moments.length > 0 ? `\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-3\">Defining Moments</h3>\n          <div class=\"space-y-3\">\n            ${moments.map(m => `\n              <div class=\"flex gap-3 text-sm\">\n                <div class=\"w-10 h-10 rounded-lg flex items-center justify-center flex-shrink-0 ${m.type === 'milestone' ? 'bg-emerald-100 text-emerald-600' : m.type === 'funding' ? 'bg-sky-100 text-sky-600' : m.type === 'crisis' ? 'bg-red-100 text-red-600' : 'bg-amber-100 text-amber-600'}\">\n                  Q${m.quarter}\n                </div>\n                <div>\n                  <div class=\"font-medium text-slate-800\">${m.title}</div>\n                  <div class=\"text-slate-500 text-xs\">${m.description}</div>\n                </div>\n              </div>\n            `).join('')}\n          </div>\n        </div>\n        ` : ''}\n        \n        <!-- Critical Decisions -->\n        ${decisions.length > 0 ? `\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-3\">Critical Decisions</h3>\n          <div class=\"space-y-3\">\n            ${decisions.map(d => `\n              <div class=\"bg-slate-50 rounded-lg p-3\">\n                <div class=\"flex items-center gap-2 mb-1\">\n                  <span class=\"text-xs font-bold text-slate-400\">Q${d.quarter}</span>\n                  <span class=\"text-xs font-bold text-indigo-600\">${d.domain}</span>\n                </div>\n                <div class=\"text-xs text-slate-500 mb-1\">${d.situation}</div>\n                <div class=\"text-sm font-medium text-slate-800\">→ \"${d.choice}\"</div>\n              </div>\n            `).join('')}\n          </div>\n        </div>\n        ` : ''}\n        \n        <!-- What Worked / What Didn't -->\n        <div class=\"grid md:grid-cols-2 gap-4\">\n          <div class=\"bg-emerald-50 rounded-lg p-4\">\n            <h4 class=\"font-bold text-emerald-800 mb-2\">What Worked</h4>\n            <ul class=\"text-sm text-emerald-700 space-y-1\">\n              ${whatWorked.worked.map(w => `<li>• ${w}</li>`).join('')}\n            </ul>\n          </div>\n          <div class=\"bg-amber-50 rounded-lg p-4\">\n            <h4 class=\"font-bold text-amber-800 mb-2\">What Didn't</h4>\n            <ul class=\"text-sm text-amber-700 space-y-1\">\n              ${whatWorked.didnt.map(w => `<li>• ${w}</li>`).join('')}\n            </ul>\n          </div>\n        </div>\n        \n        <!-- The Outcome -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">The Outcome</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateOutcomeSection()}</p>\n        </div>\n        \n        <!-- Lessons -->\n        <div>\n          <h3 class=\"text-lg font-bold text-slate-800 mb-2\">Lessons & Reflections</h3>\n          <p class=\"text-slate-600 text-sm leading-relaxed\">${this.generateLessonsSection()}</p>\n        </div>\n        \n        <!-- Footer -->\n        <div class=\"border-t pt-4 text-center text-xs text-slate-400\">\n          <p class=\"font-medium\">The Slingshot: An AI Startup Simulation</p>\n          <p>Created by Ammon Salter (Warwick Business School), with Stefano Baruffaldi (Politecnico di Milano) and Federico Bignone (Warwick Business School)</p>\n          <p>Part of the ESRC-funded project \"Profiting from Science\" [ES/X003949/1]</p>\n          <p>© 2025 · Licensed under CC BY-NC-SA 4.0</p>\n        </div>\n        \n        <!-- Actions -->\n        <div class=\"flex justify-center gap-4 pt-2\">\n          <button onclick=\"game.downloadJourneyPDF()\" class=\"px-6 py-3 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg font-medium transition-colors flex items-center gap-2\">\n            <span>📄</span> Download PDF\n          </button>\n          <button onclick=\"document.getElementById('journeyModal').classList.add('hidden')\" class=\"px-6 py-3 bg-slate-200 hover:bg-slate-300 text-slate-700 rounded-lg font-medium transition-colors\">\n            Close\n          </button>\n        </div>\n      </div>\n    `",
+    1
+   ]
+  ]
+ },
+ "flowWritesMeta": {
+  "classification": "presentation-only-innerhtml-flow",
+  "version": 1,
+  "methods": 6,
+  "anchors": 6,
+  "symbols": 8
+ },
+ "globalWrites": [
+  [
+   "`Visa sponsorship required (£${candidate.visaCost || 3}k) - starts next quarter`",
+   "`Visa sponsorship required (${getRegion().currency}${candidate.visaCost || 3}k) - starts next quarter`",
+   1
+  ],
+  [
+   "description: `Grant funded: ${app.programmeName} (+£${app.amount}k)`,",
+   "description: `Grant funded: ${app.programmeName} (+R$${app.amount}k)`,",
+   1
+  ]
+ ],
+ "globalWritesMeta": {
+  "classification": "presentation-only-global-helper",
+  "version": 1,
+  "anchors": 2,
+  "symbols": 2
+ },
+ "literalConversions": [
+  {
+   "scope": "acceptUnicorn",
+   "source": "\"🦄 UNICORN STATUS ACHIEVED! Valuation: £1,000,000k\"",
+   "target": "`🦄 UNICORN STATUS ACHIEVED! Valuation: ${getRegion().currency}1,000,000k`",
+   "expected": 1
+  }
+ ],
+ "literalConversionsMeta": {
+  "classification": "presentation-only-literal-to-template",
+  "version": 1,
+  "anchors": 1,
+  "symbols": 1
+ },
+ "revisionBasisHash": "0ccbc64431e4d5e617f5cf04a89e4da3471824a595aec35787332eacaf0e5e93",
+ "v3BasisHash": "626660bec5f2a6b473d5fe8616a3fd81349d7cd5a1bbc451257611d3a1d315cb",
+ "v3Pairs": {
+  "source": "C1_MOEDA_V3_PAIRS.json",
+  "ui": 28,
+  "global": 1
+ },
+ "cycle1ExtraPairs": {
+  "source": "C1_RESIDUO_INDIRETO.json",
+  "ui": 2,
+  "note": "Fluxo por variavel em applyNegotiatedFunding descoberto pelo inventario residual; duas linhas parts.push que alimentam o log de negociacao."
+ },
+ "residualBasisHash": "ca57eb4f8997d111585f15f0c64ce9969b8ca02c336a4dd26ce316b8e5fd198e",
+ "trailingWhitespace": [
+  {
+   "scope": "submitUKGrantApplication",
+   "source": "? `professional review (R$${cost.baseCash}k) + external advisor (R$${cost.cashCost - cost.baseCash}k)` ",
+   "target": "? `professional review (R$${cost.baseCash}k) + external advisor (R$${cost.cashCost - cost.baseCash}k)`",
+   "expected": 1
+  }
+ ]
+}

@@ -1805,7 +1805,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       </div>
       <div class="text-center group relative cursor-help" onclick="game.showHelp('cash')">
         <div class="text-slate-400 text-[10px] uppercase">Caixa 💵</div>
-        <div id="headerCash" class="font-mono font-bold text-emerald-400">£0k</div>
+        <div id="headerCash" class="font-mono font-bold text-emerald-400">R$0k</div>
         <div class="hidden group-hover:block absolute top-full left-1/2 -translate-x-1/2 mt-2 w-56 p-2 bg-slate-800 text-white text-xs rounded-lg shadow-lg z-50">
           Dinheiro disponível, diferente da receita. Diminui com as despesas de cada trimestre. Ficar sem caixa ameaça a continuidade do negócio. 💀
         </div>
@@ -1819,7 +1819,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       </div>
       <div class="text-center group relative cursor-help" onclick="game.showHelp('valuation')">
         <div class="text-slate-400 text-[10px] uppercase">Avaliação da empresa</div>
-        <div id="headerVal" class="font-mono font-bold text-sky-400">£0k</div>
+        <div id="headerVal" class="font-mono font-bold text-sky-400">R$0k</div>
         <div class="hidden group-hover:block absolute top-full left-1/2 -translate-x-1/2 mt-2 w-48 p-2 bg-slate-800 text-white text-xs rounded-lg shadow-lg z-50">
           Valor estimado da empresa. Evolui conforme os marcos e os indicadores do empreendimento.
         </div>
@@ -2054,7 +2054,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           </div>
           <div class="flex justify-between text-[10px] text-slate-400 mt-1">
             <span id="apBaseDisplay">Base: 6 AP</span>
-            <span>Est: <span id="estCost" class="font-medium">£0k</span></span>
+            <span>Est: <span id="estCost" class="font-medium">R$0k</span></span>
             <span>Total: <span id="apTotalDisplay">5</span> AP</span>
           </div>
         </div>
@@ -2224,7 +2224,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <!-- Left stat: Cash -->
           <div id="fundingStatLeft" class="bg-white/20 px-4 py-3 flex flex-col items-center justify-center min-w-[80px]" title="Dinheiro em caixa (não é receita)">
             <div class="text-xs text-white/80 uppercase tracking-wide">Caixa 💵</div>
-            <div id="fundingCardCash" class="font-bold text-xl text-white">£420k</div>
+            <div id="fundingCardCash" class="font-bold text-xl text-white">R$420k</div>
           </div>
           
           <!-- Center: Main content with runway visualization -->
@@ -2280,7 +2280,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="grid grid-cols-2 gap-3 mb-3">
           <div class="text-center" title="Dinheiro em caixa (não é receita)">
             <div class="text-[10px] text-white/70 uppercase">Caixa 💵</div>
-            <div id="sidebarCash" class="font-bold font-mono text-lg">£420k</div>
+            <div id="sidebarCash" class="font-bold font-mono text-lg">R$420k</div>
           </div>
           <div class="text-center" title="Trimestres até esgotar o caixa">
             <div class="text-[10px] text-white/70 uppercase">Autonomia financeira</div>
@@ -2297,7 +2297,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div id="sidebarRevenueRow" class="hidden pt-2 border-t border-white/20">
           <div class="flex justify-between text-xs">
             <span class="text-white/70">Receita:</span>
-            <span id="sidebarRevenue" class="font-mono">£0k/q</span>
+            <span id="sidebarRevenue" class="font-mono">R$0k/q</span>
           </div>
         </div>
         
@@ -2422,10 +2422,10 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           </button>
         </div>
         <div class="grid grid-cols-2 gap-2 text-xs">
-          <div><span class="text-slate-500">Receita:</span> <span id="revenueDisplay" class="font-mono text-emerald-600">£0k/q</span></div>
+          <div><span class="text-slate-500">Receita:</span> <span id="revenueDisplay" class="font-mono text-emerald-600">R$0k/q</span></div>
           <div><span class="text-slate-500">Clientes:</span> <span id="customerCountDisplay" class="font-mono">0</span></div>
-          <div><span class="text-slate-500">Despesas:</span> <span id="burnDisplay" class="font-mono">£0k/q</span></div>
-          <div><span class="text-slate-500">Resultado:</span> <span id="netBurnDisplay" class="font-mono text-rose-600">-£0k/q</span></div>
+          <div><span class="text-slate-500">Despesas:</span> <span id="burnDisplay" class="font-mono">R$0k/q</span></div>
+          <div><span class="text-slate-500">Resultado:</span> <span id="netBurnDisplay" class="font-mono text-rose-600">-R$0k/q</span></div>
           <div><span class="text-slate-500">Equity:</span> <span id="equityDisplay" class="font-mono">100%</span></div>
           <div><span class="text-slate-500">Autonomia:</span> <span id="runwayDisplay" class="font-mono">0q</span></div>
         </div>
@@ -3731,9 +3731,9 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="bg-slate-50 rounded-lg p-3 mb-5 text-sm">
         <div class="font-medium text-slate-700 mb-1">Their opening offer:</div>
         <div class="grid grid-cols-3 gap-2 text-center">
-          <div><span id="angelNegOrigCash" class="font-bold text-emerald-600">£0k</span><div class="text-xs text-slate-500">Their Investment</div></div>
+          <div><span id="angelNegOrigCash" class="font-bold text-emerald-600">R$0k</span><div class="text-xs text-slate-500">Their Investment</div></div>
           <div><span id="angelNegOrigEquity" class="font-bold text-amber-600">0%</span><div class="text-xs text-slate-500">Equity</div></div>
-          <div><span id="angelNegOrigVal" class="font-bold text-slate-700">£0k</span><div class="text-xs text-slate-500">Avaliação da empresa</div></div>
+          <div><span id="angelNegOrigVal" class="font-bold text-slate-700">R$0k</span><div class="text-xs text-slate-500">Avaliação da empresa</div></div>
         </div>
       </div>
       
@@ -3742,7 +3742,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <label class="block text-sm font-bold text-slate-700 mb-2">💰 Investment Amount</label>
         <div class="flex items-center gap-4">
           <input type="range" id="angelNegCash" min="50" max="500" value="150" step="10" class="flex-1 accent-emerald-500" oninput="game.updateAngelNegotiation()">
-          <div class="font-mono font-bold text-lg text-emerald-600 w-24">£<span id="angelNegCashDisplay">150</span>k</div>
+          <div class="font-mono font-bold text-lg text-emerald-600 w-24">R$<span id="angelNegCashDisplay">150</span>k</div>
         </div>
         <div class="text-xs text-slate-500 mt-1">Their cheque size — more cash means they'll want more equity</div>
       </div>
@@ -3779,7 +3779,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="grid grid-cols-2 gap-4 text-sm">
           <div>
             <span class="text-indigo-600">Implied Valuation:</span>
-            <span id="angelNegImpliedVal" class="font-bold text-indigo-800 ml-1">£0k</span>
+            <span id="angelNegImpliedVal" class="font-bold text-indigo-800 ml-1">R$0k</span>
           </div>
           <div>
             <span class="text-indigo-600">Your Equity After:</span>
@@ -3788,8 +3788,8 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         </div>
         <div class="mt-2 pt-2 border-t border-indigo-200 text-sm">
           <span class="text-indigo-600">Total Starting Cash:</span>
-          <span id="angelNegTotalCash" class="font-bold text-indigo-800 ml-1">£0k</span>
-          <span id="angelNegBaseLabel" class="text-indigo-500 text-xs ml-1">(your £350k + their investment)</span>
+          <span id="angelNegTotalCash" class="font-bold text-indigo-800 ml-1">R$0k</span>
+          <span id="angelNegBaseLabel" class="text-indigo-500 text-xs ml-1">(your R$350k + their investment)</span>
         </div>
       </div>
       
@@ -3860,9 +3860,9 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="bg-slate-100 rounded-lg p-3 mb-5 text-sm">
         <div class="font-medium text-slate-700 mb-1">Standard arrangement:</div>
         <div class="grid grid-cols-3 gap-2 text-center">
-          <div><span id="bootstrapNegOrigCash" class="font-bold text-emerald-600">£0k</span><div class="text-xs text-slate-500">Their Contribution</div></div>
+          <div><span id="bootstrapNegOrigCash" class="font-bold text-emerald-600">R$0k</span><div class="text-xs text-slate-500">Their Contribution</div></div>
           <div><span id="bootstrapNegOrigEquity" class="font-bold text-amber-600">0%</span><div class="text-xs text-slate-500">Equity</div></div>
-          <div><span id="bootstrapNegOrigTotal" class="font-bold text-slate-700">£0k</span><div class="text-xs text-slate-500">Total Cash</div></div>
+          <div><span id="bootstrapNegOrigTotal" class="font-bold text-slate-700">R$0k</span><div class="text-xs text-slate-500">Total Cash</div></div>
         </div>
       </div>
       
@@ -3871,7 +3871,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <label id="bootstrapNegCashLabel" class="block text-sm font-bold text-slate-700 mb-2">💰 Their Contribution</label>
         <div class="flex items-center gap-4">
           <input type="range" id="bootstrapNegCash" min="20" max="200" value="80" step="10" class="flex-1 accent-emerald-500" oninput="game.updateBootstrapNegotiation()">
-          <div class="font-mono font-bold text-lg text-emerald-600 w-24">£<span id="bootstrapNegCashDisplay">80</span>k</div>
+          <div class="font-mono font-bold text-lg text-emerald-600 w-24">R$<span id="bootstrapNegCashDisplay">80</span>k</div>
         </div>
         <div id="bootstrapNegCashHint" class="text-xs text-slate-500 mt-1">How much you're asking them to contribute</div>
       </div>
@@ -3891,7 +3891,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="grid grid-cols-2 gap-4 text-sm">
           <div>
             <span class="text-indigo-600">Total Starting Cash:</span>
-            <span id="bootstrapNegTotalCash" class="font-bold text-indigo-800 ml-1">£0k</span>
+            <span id="bootstrapNegTotalCash" class="font-bold text-indigo-800 ml-1">R$0k</span>
           </div>
           <div>
             <span class="text-indigo-600">Your Equity:</span>
@@ -3900,7 +3900,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         </div>
         <div id="bootstrapNegValuation" class="mt-2 pt-2 border-t border-indigo-200 text-sm hidden">
           <span class="text-indigo-600">Implied Valuation:</span>
-          <span id="bootstrapNegImpliedVal" class="font-bold text-indigo-800 ml-1">£0k</span>
+          <span id="bootstrapNegImpliedVal" class="font-bold text-indigo-800 ml-1">R$0k</span>
         </div>
       </div>
       
@@ -4288,11 +4288,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         </div>
         <div>
           <span class="text-slate-500">Cash Available:</span>
-          <span id="hireModalCash" class="font-bold text-slate-800 ml-1">£0k</span>
+          <span id="hireModalCash" class="font-bold text-slate-800 ml-1">R$0k</span>
         </div>
         <div>
           <span class="text-slate-500">Current Burn:</span>
-          <span id="hireModalBurn" class="font-bold text-slate-800 ml-1">£0k/q</span>
+          <span id="hireModalBurn" class="font-bold text-slate-800 ml-1">R$0k/q</span>
         </div>
       </div>
     </div>
@@ -4302,11 +4302,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="grid grid-cols-1 gap-2 text-sm">
         <div class="flex items-center justify-between p-2 bg-amber-50 rounded-lg">
           <span class="text-amber-800">💰 Recruitment fee</span>
-          <span id="hireModalCostDisplay" class="font-bold text-amber-700">£50k one-time</span>
+          <span id="hireModalCostDisplay" class="font-bold text-amber-700">R$50k one-time</span>
         </div>
         <div class="flex items-center justify-between p-2 bg-rose-50 rounded-lg">
           <span class="text-rose-800">🔥 Increased burn rate</span>
-          <span class="font-bold text-rose-700">+£25k/quarter</span>
+          <span class="font-bold text-rose-700">+R$25k/quarter</span>
         </div>
         <div class="flex items-center justify-between p-2 bg-purple-50 rounded-lg">
           <span class="text-purple-800">⏳ Integration period</span>
@@ -4332,11 +4332,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         </div>
         <div>
           <span class="text-emerald-600">New Burn Rate:</span>
-          <span id="hireModalNewBurn" class="font-bold text-emerald-800 ml-1">£0k/q</span>
+          <span id="hireModalNewBurn" class="font-bold text-emerald-800 ml-1">R$0k/q</span>
         </div>
         <div>
           <span class="text-emerald-600">Cash After:</span>
-          <span id="hireModalNewCash" class="font-bold text-emerald-800 ml-1">£0k</span>
+          <span id="hireModalNewCash" class="font-bold text-emerald-800 ml-1">R$0k</span>
         </div>
       </div>
     </div>
@@ -4721,13 +4721,13 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="flex items-center justify-center gap-4 mt-6">
           <div class="text-center">
             <div class="text-slate-400 text-sm">Previous Valuation</div>
-            <div id="unicornPreVal" class="text-2xl font-bold text-white line-through opacity-60">£0k</div>
+            <div id="unicornPreVal" class="text-2xl font-bold text-white line-through opacity-60">R$0k</div>
           </div>
           <div class="text-4xl text-amber-400">→</div>
           <div class="text-center">
             <div class="text-slate-400 text-sm">New Valuation</div>
-            <div class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">£1,000,000k</div>
-            <div class="text-pink-400 text-sm font-bold">£1 BILLION</div>
+            <div class="text-4xl font-black text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-cyan-400">R$1,000,000k</div>
+            <div class="text-pink-400 text-sm font-bold">R$1 BILLION</div>
           </div>
         </div>
         <div class="text-center mt-4">
@@ -4784,7 +4784,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
             <div id="newHofCompany" class="text-amber-400 text-sm">Your Company • 2024</div>
           </div>
           <div class="text-right">
-            <div class="text-2xl font-black text-emerald-400">£1B</div>
+            <div class="text-2xl font-black text-emerald-400">R$1B</div>
             <div class="text-emerald-300 text-xs">Avaliação da empresa</div>
           </div>
         </div>
@@ -4801,7 +4801,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="text-slate-400 text-xs">Your Rank</div>
         </div>
         <div class="bg-black/30 rounded-xl p-4 text-center">
-          <div id="hofTotalWealth" class="text-2xl font-bold text-pink-400">£0T</div>
+          <div id="hofTotalWealth" class="text-2xl font-bold text-pink-400">R$0T</div>
           <div class="text-slate-400 text-xs">Combined Wealth</div>
         </div>
       </div>
@@ -4850,7 +4850,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="text-slate-400 text-sm">Quarters</div>
         </div>
         <div>
-          <div id="victoryValuation" class="text-3xl font-bold text-emerald-400">£0k</div>
+          <div id="victoryValuation" class="text-3xl font-bold text-emerald-400">R$0k</div>
           <div class="text-slate-400 text-sm">Avaliação da empresa</div>
         </div>
         <div>
@@ -4858,13 +4858,13 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="text-slate-400 text-sm">Your Equity</div>
         </div>
         <div>
-          <div id="victoryCash" class="text-3xl font-bold text-sky-400">£0k</div>
+          <div id="victoryCash" class="text-3xl font-bold text-sky-400">R$0k</div>
           <div class="text-slate-400 text-sm">Cash</div>
         </div>
       </div>
       <div id="victoryNetWorth" class="mt-4 pt-4 border-t border-white/20 text-center">
         <div class="text-slate-400 text-sm mb-1">Your stake is worth</div>
-        <div class="text-4xl font-black text-emerald-400">£0k</div>
+        <div class="text-4xl font-black text-emerald-400">R$0k</div>
       </div>
     </div>
     
@@ -4891,7 +4891,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="bg-cyan-500/20 rounded-lg p-2 mb-3">
           <div class="flex justify-between items-center text-sm">
             <span class="text-cyan-300">💰 Your payout:</span>
-            <span id="endingBeachValue" class="font-bold text-white">£0k</span>
+            <span id="endingBeachValue" class="font-bold text-white">R$0k</span>
           </div>
         </div>
         <div class="text-xs text-cyan-400 font-medium group-hover:translate-x-1 transition-transform">
@@ -4914,11 +4914,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="bg-violet-500/20 rounded-lg p-2 mb-3">
           <div class="flex justify-between items-center text-sm mb-1">
             <span class="text-violet-300">💰 Sale proceeds:</span>
-            <span id="endingSerialSale" class="font-bold text-white">£0k</span>
+            <span id="endingSerialSale" class="font-bold text-white">R$0k</span>
           </div>
           <div class="flex justify-between items-center text-sm">
             <span class="text-violet-300">🚀 Your seed fund:</span>
-            <span id="endingSerialSeed" class="font-bold text-violet-200">£0k</span>
+            <span id="endingSerialSeed" class="font-bold text-violet-200">R$0k</span>
           </div>
         </div>
         <div class="text-xs text-violet-400 font-medium group-hover:translate-x-1 transition-transform">
@@ -4941,11 +4941,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="bg-amber-500/20 rounded-lg p-2 mb-3">
           <div class="flex justify-between items-center text-sm mb-1">
             <span class="text-amber-300">📈 Series B valuation:</span>
-            <span id="endingScaleValuation" class="font-bold text-white">£0k</span>
+            <span id="endingScaleValuation" class="font-bold text-white">R$0k</span>
           </div>
           <div class="flex justify-between items-center text-sm">
             <span class="text-amber-300">💎 Your stake value:</span>
-            <span id="endingScaleStake" class="font-bold text-amber-200">£0k</span>
+            <span id="endingScaleStake" class="font-bold text-amber-200">R$0k</span>
           </div>
         </div>
         <div class="text-xs text-amber-400 font-medium group-hover:translate-x-1 transition-transform">
@@ -4968,11 +4968,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="bg-emerald-500/20 rounded-lg p-2 mb-3">
           <div class="flex justify-between items-center text-sm mb-1">
             <span class="text-emerald-300">🏢 Acquisition price:</span>
-            <span id="endingAcquiPrice" class="font-bold text-white">£0k</span>
+            <span id="endingAcquiPrice" class="font-bold text-white">R$0k</span>
           </div>
           <div class="flex justify-between items-center text-sm">
             <span class="text-emerald-300">💰 Your payout:</span>
-            <span id="endingAcquiPayout" class="font-bold text-emerald-200">£0k</span>
+            <span id="endingAcquiPayout" class="font-bold text-emerald-200">R$0k</span>
           </div>
         </div>
         <div class="text-xs text-emerald-400 font-medium group-hover:translate-x-1 transition-transform">
@@ -5790,11 +5790,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="grid grid-cols-2 gap-4 text-sm">
           <div>
             <div class="text-slate-500 text-xs">Current Valuation</div>
-            <div id="ownershipValuation" class="font-bold text-slate-800">£0k</div>
+            <div id="ownershipValuation" class="font-bold text-slate-800">R$0k</div>
           </div>
           <div>
             <div class="text-slate-500 text-xs">Your Stake Value</div>
-            <div id="ownershipStakeValue" class="font-bold text-emerald-600">£0k</div>
+            <div id="ownershipStakeValue" class="font-bold text-emerald-600">R$0k</div>
           </div>
         </div>
       </div>
@@ -5880,7 +5880,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="bg-indigo-50 rounded-xl p-4 border border-indigo-200">
         <h3 class="font-bold text-indigo-800 mb-2">💡 Why This Matters</h3>
         <p class="text-sm text-indigo-700">
-          At a £100M exit, the difference between owning 30% vs 50% is £20M in your pocket. Every funding decision shapes your final outcome.
+          At a R$100M exit, the difference between owning 30% vs 50% is R$20M in your pocket. Every funding decision shapes your final outcome.
         </p>
       </div>
     </div>
@@ -7061,7 +7061,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <button onclick="game.closeRaiseModal()" class="text-slate-400 hover:text-slate-600 text-2xl">&times;</button>
     </div>
     <div class="flex items-center gap-4 mb-4 text-sm">
-      <span class="text-slate-600">Valuation: <span id="raiseCurrentVal" class="font-bold text-emerald-600">£0k</span></span>
+      <span class="text-slate-600">Valuation: <span id="raiseCurrentVal" class="font-bold text-emerald-600">R$0k</span></span>
       <span class="text-slate-600">Your Equity: <span id="raiseCurrentEquity" class="font-bold">0%</span></span>
     </div>
     
@@ -7174,9 +7174,9 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="bg-slate-50 rounded-lg p-3 mb-5 text-sm">
         <div class="font-medium text-slate-700 mb-1">Their opening offer:</div>
         <div class="grid grid-cols-3 gap-2 text-center">
-          <div><span id="fundingNegOrigCash" class="font-bold text-emerald-600">£0k</span><div class="text-xs text-slate-500">Investment</div></div>
+          <div><span id="fundingNegOrigCash" class="font-bold text-emerald-600">R$0k</span><div class="text-xs text-slate-500">Investment</div></div>
           <div><span id="fundingNegOrigEquity" class="font-bold text-amber-600">0%</span><div class="text-xs text-slate-500">Equity</div></div>
-          <div><span id="fundingNegOrigVal" class="font-bold text-slate-700">£0k</span><div class="text-xs text-slate-500">Avaliação da empresa</div></div>
+          <div><span id="fundingNegOrigVal" class="font-bold text-slate-700">R$0k</span><div class="text-xs text-slate-500">Avaliação da empresa</div></div>
         </div>
       </div>
       
@@ -7185,7 +7185,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <label class="block text-sm font-bold text-slate-700 mb-2">💰 Investment Amount</label>
         <div class="flex items-center gap-4">
           <input type="range" id="fundingNegCash" min="50" max="1000" value="200" step="25" class="flex-1" oninput="game.updateFundingNegotiation()">
-          <div class="font-mono font-bold text-lg text-emerald-600 w-24">£<span id="fundingNegCashDisplay">200</span>k</div>
+          <div class="font-mono font-bold text-lg text-emerald-600 w-24">R$<span id="fundingNegCashDisplay">200</span>k</div>
         </div>
         <div class="text-xs text-slate-500 mt-1">More cash = investor expects more equity</div>
       </div>
@@ -7222,7 +7222,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="grid grid-cols-2 gap-4 text-sm">
           <div>
             <span class="text-indigo-600">Implied Valuation:</span>
-            <span id="fundingNegImpliedVal" class="font-bold text-indigo-800 ml-1">£0k</span>
+            <span id="fundingNegImpliedVal" class="font-bold text-indigo-800 ml-1">R$0k</span>
           </div>
           <div>
             <span class="text-indigo-600">Your Equity After:</span>
@@ -7275,7 +7275,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="grid grid-cols-2 gap-4">
         <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-200">
           <div class="text-gray-500 text-sm font-semibold mb-2">CASH IN BANK</div>
-          <div id="finDetailCash" class="text-4xl font-black text-gray-900">£420k</div>
+          <div id="finDetailCash" class="text-4xl font-black text-gray-900">R$420k</div>
         </div>
         <div class="bg-white rounded-xl p-5 shadow-sm border border-gray-200">
           <div class="text-gray-500 text-sm font-semibold mb-2">RUNWAY</div>
@@ -7290,11 +7290,11 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
       <div class="grid grid-cols-2 gap-4">
         <div class="bg-red-50 rounded-xl p-5 border-2 border-red-200">
           <div class="text-red-600 text-sm font-semibold mb-2">🔥 BURN RATE / QUARTER</div>
-          <div id="finDetailBurn" class="text-3xl font-black text-red-700">£50k</div>
+          <div id="finDetailBurn" class="text-3xl font-black text-red-700">R$50k</div>
         </div>
         <div class="bg-green-50 rounded-xl p-5 border-2 border-green-200">
           <div class="text-green-600 text-sm font-semibold mb-2">REVENUE / QUARTER</div>
-          <div id="finDetailRevenue" class="text-3xl font-black text-green-700">£0k</div>
+          <div id="finDetailRevenue" class="text-3xl font-black text-green-700">R$0k</div>
         </div>
       </div>
       
@@ -7343,15 +7343,15 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="grid grid-cols-4 gap-3 mt-5 pt-4 border-t border-gray-200">
             <div class="text-center">
               <div class="text-gray-400 text-xs font-semibold">CASH</div>
-              <div id="finDetailCashNow" class="text-gray-800 font-bold text-lg">£420k</div>
+              <div id="finDetailCashNow" class="text-gray-800 font-bold text-lg">R$420k</div>
             </div>
             <div class="text-center">
               <div class="text-gray-400 text-xs font-semibold">BURN</div>
-              <div id="finDetailBurnRate" class="text-red-600 font-bold text-lg">£50k</div>
+              <div id="finDetailBurnRate" class="text-red-600 font-bold text-lg">R$50k</div>
             </div>
             <div class="text-center">
               <div class="text-gray-400 text-xs font-semibold">REVENUE</div>
-              <div id="finDetailRevRate" class="text-green-600 font-bold text-lg">£0k</div>
+              <div id="finDetailRevRate" class="text-green-600 font-bold text-lg">R$0k</div>
             </div>
             <div class="text-center">
               <div class="text-gray-400 text-xs font-semibold">BREAK-EVEN</div>
@@ -7371,16 +7371,16 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="bg-white rounded-xl p-4 mb-4 border border-indigo-200">
             <div class="flex justify-between items-center mb-3">
               <span class="font-bold text-gray-700">🔥 Burn @ Q16</span>
-              <span id="whatIfCostValue" class="bg-red-100 text-red-700 px-3 py-1 rounded-lg font-bold">£50k</span>
+              <span id="whatIfCostValue" class="bg-red-100 text-red-700 px-3 py-1 rounded-lg font-bold">R$50k</span>
             </div>
             <input type="range" id="whatIfCostSlider" 
                    min="10" max="500" value="50" step="10"
                    class="w-full h-3 rounded-lg appearance-none cursor-pointer bg-gray-200 accent-red-500"
                    oninput="game.updateWhatIfChart()">
             <div class="flex justify-between text-gray-400 text-sm mt-2 font-semibold">
-              <span>£10k</span>
-              <span>£250k</span>
-              <span>£500k</span>
+              <span>R$10k</span>
+              <span>R$250k</span>
+              <span>R$500k</span>
             </div>
           </div>
           
@@ -7388,16 +7388,16 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
           <div class="bg-white rounded-xl p-4 border border-indigo-200">
             <div class="flex justify-between items-center mb-3">
               <span class="font-bold text-gray-700">📈 Revenue @ Q16</span>
-              <span id="whatIfRevenueValue" class="bg-green-100 text-green-700 px-3 py-1 rounded-lg font-bold">£0k</span>
+              <span id="whatIfRevenueValue" class="bg-green-100 text-green-700 px-3 py-1 rounded-lg font-bold">R$0k</span>
             </div>
             <input type="range" id="whatIfRevenueSlider" 
                    min="0" max="500" value="0" step="10"
                    class="w-full h-3 rounded-lg appearance-none cursor-pointer bg-gray-200 accent-green-500"
                    oninput="game.updateWhatIfChart()">
             <div class="flex justify-between text-gray-400 text-sm mt-2 font-semibold">
-              <span>£0k</span>
-              <span>£250k</span>
-              <span>£500k</span>
+              <span>R$0k</span>
+              <span>R$250k</span>
+              <span>R$500k</span>
             </div>
           </div>
           
@@ -7484,7 +7484,7 @@ button[class~="bg-violet-500"],[onclick][class~="bg-violet-500"]{background-colo
         <div class="space-y-2 text-red-900">
           <p>Your quarterly costs are driven primarily by <strong>staff</strong>:</p>
           <ul class="list-disc list-inside space-y-1 ml-2">
-            <li>Each team member costs approximately £15-25k/quarter</li>
+            <li>Each team member costs approximately R$15-25k/quarter</li>
             <li>Senior hires and specialists cost more</li>
             <li>Office space, equipment, and overheads add to burn</li>
           </ul>
@@ -8785,7 +8785,7 @@ function isWillingToRelocate(candidate) {
 // Format location display for candidate card
 function formatCandidateLocation(candidate, companyLocation) {
   if (candidate.visaRequired) {
-    return { text: 'International', class: 'text-purple-600', icon: '🛂', note: `Visa sponsorship required (£${candidate.visaCost || 3}k) - starts next quarter` };
+    return { text: 'International', class: 'text-purple-600', icon: '🛂', note: `Visa sponsorship required (${getRegion().currency}${candidate.visaCost || 3}k) - starts next quarter` };
   }
   const candidateCity = inferCandidateCity(candidate);
   const distance = getLocationDistance(candidateCity, companyLocation);
@@ -37587,24 +37587,24 @@ class Game {
     
     // Update financials display based on investor type
     if (isAngel) {
-      document.getElementById("investorInfoCash").textContent = `£${angelInvestment}k`;
+      document.getElementById("investorInfoCash").textContent = `${getRegion().currency}${angelInvestment}k`;
       document.getElementById("investorInfoCashLabel").textContent = "Their Investment";
       const seedNote = (this.funderChequeMult || 1) > 1 ? ' · Seed: their cheque is doubled' : '';
-      document.getElementById("investorInfoTotal").textContent = `+ your £${this.modeBase()}k = £${f.cash}k total${seedNote}`;
+      document.getElementById("investorInfoTotal").textContent = `+ your ${getRegion().currency}${this.modeBase()}k = ${getRegion().currency}${f.cash}k total${seedNote}`;
       document.getElementById("investorInfoTotal").classList.remove("hidden");
     } else if (isBootstrap) {
-      document.getElementById("investorInfoCash").textContent = `£${f.cash}k`;
+      document.getElementById("investorInfoCash").textContent = `${getRegion().currency}${f.cash}k`;
       document.getElementById("investorInfoCashLabel").textContent = "Your Savings";
       document.getElementById("investorInfoTotal").classList.add("hidden");
     } else {
-      document.getElementById("investorInfoCash").textContent = `£${f.cash}k`;
+      document.getElementById("investorInfoCash").textContent = `${getRegion().currency}${f.cash}k`;
       document.getElementById("investorInfoCashLabel").textContent = "Investment";
       document.getElementById("investorInfoTotal").classList.add("hidden");
     }
     
     document.getElementById("investorInfoEquity").textContent = `${f.equity}%`;
     document.getElementById("investorInfoEquity").className = `text-xl font-bold ${f.equity > 25 ? 'text-red-500' : f.equity > 0 ? 'text-amber-600' : 'text-emerald-600'}`;
-    document.getElementById("investorInfoVal").textContent = `£${f.val}k`;
+    document.getElementById("investorInfoVal").textContent = `${getRegion().currency}${f.val}k`;
     document.getElementById("investorInfoQuote").textContent = `"${f.personality}"`;
     document.getElementById("investorInfoBenefits").textContent = f.benefits || 'No specific benefits listed.';
     document.getElementById("investorInfoChallenges").textContent = f.challenges || 'No specific challenges listed.';
@@ -39055,8 +39055,8 @@ class Game {
     let relocationNote = '';
     if (this.pendingExecRelocationCost > 0) {
       this.metrics.cash -= this.pendingExecRelocationCost;
-      relocationNote = ` (includes £${this.pendingExecRelocationCost}k relocation)`;
-      this.log(`🚚 Paid £${this.pendingExecRelocationCost}k relocation package for ${exec.name.split(' ')[0]}.`);
+      relocationNote = ` (includes R$${this.pendingExecRelocationCost}k relocation)`;
+      this.log(`🚚 Paid ${getRegion().currency}${this.pendingExecRelocationCost}k relocation package for ${exec.name.split(' ')[0]}.`);
       this.pendingExecRelocationCost = 0;
     }
     
@@ -39112,7 +39112,7 @@ class Game {
         <div class="bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-700 space-y-1">
           <div class="flex justify-between">
             <span>💰 Salary:</span>
-            <span class="font-medium">£${negotiatedSalary}k/quarter</span>
+            <span class="font-medium">${getRegion().currency}${negotiatedSalary}k/quarter</span>
           </div>
           <div class="flex justify-between">
             <span>📊 Equity:</span>
@@ -39215,7 +39215,7 @@ class Game {
           this.equityGrants.push({ name: exec.name, role: "People", equity: exec.equity, vestingYears: exec.vestingYears, cliff: exec.cliff, grantedQuarter: this.turn });
           // CT-1 FIX: Recalc founder equity when grant is added
           this.recalcFounderEquity();
-          this.log(`🤝 ${exec.name} joins as your Head of People! ${exec.equity}% equity, £${adjustedWage}k/quarter.`);
+          this.log(`🤝 ${exec.name} joins as your Head of People! ${exec.equity}% equity, ${getRegion().currency}${adjustedWage}k/quarter.`);
           soundManager.playHireSelect('hr');
           document.getElementById("hrModal").classList.add("hidden");
           this.updateUI();
@@ -40641,8 +40641,8 @@ class Game {
           <div class="grid grid-cols-2 gap-4 text-sm">
             <div>
               <div class="text-slate-500">Salary</div>
-              <div class="font-bold text-slate-800">£${staff.salary}k/year</div>
-              <div class="text-xs text-slate-500">+£${Math.round(staff.salary/4)}k/quarter burn</div>
+              <div class="font-bold text-slate-800">${getRegion().currency}${staff.salary}k/year</div>
+              <div class="text-xs text-slate-500">+${getRegion().currency}${Math.round(staff.salary/4)}k/quarter burn</div>
             </div>
             <div>
               <div class="text-slate-500">Equity</div>
@@ -41224,7 +41224,7 @@ class Game {
     if (fundingCost > 0) baseText += ` −${fundingCost} fundraising`;
     document.getElementById("apBaseDisplay").textContent = baseText;
     document.getElementById("apTotalDisplay").textContent = totalAP;
-    document.getElementById("estCost").textContent = `£${this.getEstCost()}k`;
+    document.getElementById("estCost").textContent = `${getRegion().currency}${this.getEstCost()}k`;
     
     // Container styling for over budget
     const container = document.getElementById("apTrackerContainer");
@@ -42916,7 +42916,7 @@ class Game {
     // Journey report: record the change
     if (!this.journeyEvents) this.journeyEvents = [];
     this.journeyEvents.push({ quarter: this.turn, type: 'tokens', description: `Token spend set to ${s.label}` });
-    this.log(`🪙 Token spend set to ${s.label}: £${this.getTokenSpendFor(idx)}k/q${s.ap ? ` (${s.ap > 0 ? "+" : ""}${s.ap} AP from next quarter)` : ""}.`);
+    this.log(`🪙 Token spend set to ${s.label}: ${getRegion().currency}${this.getTokenSpendFor(idx)}k/q${s.ap ? ` (${s.ap > 0 ? "+" : ""}${s.ap} AP from next quarter)` : ""}.`);
     this.renderTokenSpend();
     if (typeof this.update === "function") this.update();
   }
@@ -42966,7 +42966,7 @@ class Game {
     const ap = setting.ap;
     const apTxt = (ap > 0 ? "+" + ap : ap < 0 ? String(ap) : "±0") + " AP";
     const r = document.getElementById("tokenSpendReadout");
-    if (r) r.textContent = `£${this.getTokenSpendFor(idx) + this.staffTokenSpend()}k/q`;
+    if (r) r.textContent = `${getRegion().currency}${this.getTokenSpendFor(idx) + this.staffTokenSpend()}k/q`;
     const lbl = document.getElementById("tokenSpendLabel");
     if (lbl) lbl.textContent = setting.label;
     const apInline = document.getElementById("tokenSpendAPText");
@@ -43102,12 +43102,12 @@ class Game {
     };
     
     this.customers.push(customer);
-    this.log(`🤝 New customer: ${customer.name} (+£${customer.quarterlyRevenue}k/q)`);
+    this.log(`🤝 New customer: ${customer.name} (+${getRegion().currency}${customer.quarterlyRevenue}k/q)`);
     
     this.journeyEvents.push({
       quarter: this.turn,
       type: 'customer_acquired',
-      description: `Acquired customer: ${customer.name} (£${customer.quarterlyRevenue}k/quarter)`,
+      description: `Acquired customer: ${customer.name} (R$${customer.quarterlyRevenue}k/quarter)`,
       customerName: customer.name,
       revenue: customer.quarterlyRevenue
     });
@@ -43419,7 +43419,7 @@ class Game {
             contractLength: grant.duration || 4
           });
           awarded.push(grant);
-          this.log(`🎓 Grant awarded: ${grant.name || 'Research Grant'} (£${grant.amount * 4}k total)`);
+          this.log(`🎓 Grant awarded: ${grant.name || 'Research Grant'} (${getRegion().currency}${grant.amount * 4}k total)`);
         } else {
           this.log(`📝 Grant application unsuccessful: ${grant.name || 'Research Grant'}`);
         }
@@ -43507,7 +43507,7 @@ class Game {
           const expansionAmount = Math.round(customer.quarterlyRevenue * 0.15);
           if (expansionAmount > 0) {
             customer.quarterlyRevenue += expansionAmount;
-            this.log(`📈 ${customer.name} expanded (+£${expansionAmount}k/q)`);
+            this.log(`📈 ${customer.name} expanded (+${getRegion().currency}${expansionAmount}k/q)`);
           }
         }
         
@@ -43519,7 +43519,7 @@ class Game {
     
     if (churned.length > 0) {
       const revenueImpact = churned.reduce((sum, c) => sum + c.quarterlyRevenue, 0);
-      this.log(`📉 Lost ${churned.length} customer(s) (-£${Math.round(revenueImpact)}k/q)`);
+      this.log(`📉 Lost ${churned.length} customer(s) (-${getRegion().currency}${Math.round(revenueImpact)}k/q)`);
       
       churned.forEach(c => {
         this.journeyEvents.push({
@@ -43638,7 +43638,7 @@ class Game {
     if (variance < -model.investorToleranceBand) {
       // Significantly below expectations
       this.investorRelationship = Math.max(0, this.investorRelationship - 0.5);
-      this.log(`📉 Revenue (£${annualizedRevenue}k ARR) below investor expectations (£${projected}k)`);
+      this.log(`📉 Revenue (${getRegion().currency}${annualizedRevenue}k ARR) below investor expectations (${getRegion().currency}${projected}k)`);
     } else if (variance > 0.2) {
       // Exceeding expectations
       this.log(`📈 Exceeding revenue expectations! Investors pleased.`);
@@ -43796,7 +43796,7 @@ class Game {
         ...effect.addToPipeline,
         addedQuarter: this.turn
       });
-      this.log(`📋 Added to pipeline: £${effect.addToPipeline.value}k (expected Q${this.turn + effect.addToPipeline.closeIn})`);
+      this.log(`📋 Added to pipeline: ${getRegion().currency}${effect.addToPipeline.value}k (expected Q${this.turn + effect.addToPipeline.closeIn})`);
     }
     
     // Grant application
@@ -43830,7 +43830,7 @@ class Game {
         }
         if (effect.modifyCustomer.revenueChange !== undefined) {
           target.quarterlyRevenue += effect.modifyCustomer.revenueChange;
-          this.log(`📈 ${target.name} expanded to £${target.quarterlyRevenue}k/q`);
+          this.log(`📈 ${target.name} expanded to ${getRegion().currency}${target.quarterlyRevenue}k/q`);
         }
         if (effect.modifyCustomer.churnRisk !== undefined) {
           target.satisfaction = Math.max(0.1, target.satisfaction - effect.modifyCustomer.churnRisk);
@@ -44174,9 +44174,9 @@ class Game {
 
       // Log significant changes
       if (change > 50) {
-        this.log(`📈 Revenue traction boosting valuation (+£${Math.round(change)}k)`);
+        this.log(`📈 Revenue traction boosting valuation (+${getRegion().currency}${Math.round(change)}k)`);
       } else if (change < -50) {
-        this.log(`📉 Revenue concerns affecting valuation (-£${Math.round(Math.abs(change))}k)`);
+        this.log(`📉 Revenue concerns affecting valuation (-${getRegion().currency}${Math.round(Math.abs(change))}k)`);
       }
     }
   }
@@ -45733,7 +45733,7 @@ this.lastTurnOutcomes.push(outcome);
       const revenueCalc = this.calculateQuarterlyRevenue();
       revenueOffset = revenueCalc.net;
       if (revenueOffset > 0) {
-        this.log(`📊 Revenue: £${revenueCalc.gross}k gross, £${revenueCalc.support}k support = £${revenueOffset}k net contribution`);
+        this.log(`📊 Revenue: ${getRegion().currency}${revenueCalc.gross}k gross, ${getRegion().currency}${revenueCalc.support}k support = ${getRegion().currency}${revenueOffset}k net contribution`);
       }
       // Check revenue expectations periodically
       if (this.turn % 4 === 0) {
@@ -45781,9 +45781,9 @@ this.lastTurnOutcomes.push(outcome);
     // RV-3: Significant surplus - the head of sales briefs the player next quarter
     if (!SlingshotOperationalDecisions.enabled(this) && quarterSurplus >= 25) {
       this.pendingSurplusBriefing = { amount: Math.round(quarterSurplus), quarter: this.turn };
-      this.log(`💷 Revenue covered every cost this quarter with £${Math.round(quarterSurplus)}k to spare - banked.`);
+      this.log(`💷 Revenue covered every cost this quarter with ${getRegion().currency}${Math.round(quarterSurplus)}k to spare - banked.`);
     } else if (!SlingshotOperationalDecisions.enabled(this) && quarterSurplus > 0) {
-      this.log(`💷 Surplus of £${Math.round(quarterSurplus)}k banked.`);
+      this.log(`💷 Surplus of ${getRegion().currency}${Math.round(quarterSurplus)}k banked.`);
     }
 
     // FN-5 FIX: Check for hard bankruptcy after choice costs applied
@@ -46369,7 +46369,7 @@ this.lastTurnOutcomes.push(outcome);
     r.funder = {
       name: newFunders,
       type: progression.next + " Investors",
-      raised: `£${(r.totalRaised / 1000).toFixed(1)}M total`
+      raised: `R$${(r.totalRaised / 1000).toFixed(1)}M total`
     };
     
     // Grow team with funding
@@ -47308,7 +47308,7 @@ this.lastTurnOutcomes.push(outcome);
     const nameEl = document.getElementById('surplusBriefingName');
     const textEl = document.getElementById('surplusBriefingText');
     if (nameEl) nameEl.textContent = exec?.name ? `${exec.name}, your head of sales and marketing` : 'Your head of sales and marketing';
-    if (textEl) textEl.textContent = `Good news. Last quarter's revenue covered every cost with £${info.amount}k to spare, already in the bank. We could keep building the cushion, or put it to work: more staff or more compute would both raise our capacity.`;
+    if (textEl) textEl.textContent = `Good news. Last quarter's revenue covered every cost with ${getRegion().currency}${info.amount}k to spare, already in the bank. We could keep building the cushion, or put it to work: more staff or more compute would both raise our capacity.`;
     const m = document.getElementById('surplusBriefingModal');
     if (m) { m.classList.remove('hidden'); m.classList.add('flex'); }
   }
@@ -49282,7 +49282,7 @@ this.lastTurnOutcomes.push(outcome);
             </div>
             <div class="bg-slate-700 rounded-xl px-5 py-2 text-center">
               <div class="text-slate-400 text-xs uppercase tracking-wide">Net Profit</div>
-              <div id="ddNetProfit" class="text-2xl font-bold text-emerald-400">£0k</div>
+              <div id="ddNetProfit" class="text-2xl font-bold text-emerald-400">${getRegion().currency}0k</div>
             </div>
           </div>
 
@@ -49296,7 +49296,7 @@ this.lastTurnOutcomes.push(outcome);
               <span class="flex items-center gap-1" title="Custom build"><svg width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M9.5 2.5 A4 4 0 1 0 12.5 5.5 L10.5 7.5 L7.5 4.5 Z" fill="#93c5fd"/><rect x="8.6" y="7" width="4.4" height="2.2" rx="1" transform="rotate(45 10.8 8.1)" fill="#93c5fd"/></svg><span id="ddCustom" class="text-blue-400 font-bold">3</span></span>
               <span class="flex items-center gap-1" title="Massive discount"><svg width="15" height="15" viewBox="0 0 15 15" aria-hidden="true"><path d="M7.5 1.5 L9.2 5.3 L13.4 5.7 L10.2 8.4 L11.2 12.5 L7.5 10.3 L3.8 12.5 L4.8 8.4 L1.6 5.7 L5.8 5.3 Z" fill="#fb7185"/></svg><span id="ddMassive" class="text-rose-400 font-bold">1</span></span>
             </div>
-            <div class="text-slate-400 text-xs">Costs: <span id="ddCosts" class="text-red-400 font-bold">£0k</span></div>
+            <div class="text-slate-400 text-xs">Costs: <span id="ddCosts" class="text-red-400 font-bold">${getRegion().currency}0k</span></div>
           </div>
 
           <!-- The stand: first person, you are behind the counter -->
@@ -50261,7 +50261,7 @@ this.lastTurnOutcomes.push(outcome);
             <div class="flex justify-between items-center">
               <h3 class="text-white font-bold text-lg">${v.title}</h3>
               <div class="flex items-center gap-2">
-                <span class="${valColor} font-bold text-xl">£${v.value}k</span>
+                <span class="${valColor} font-bold text-xl">${getRegion().currency}${v.value}k</span>
                 ${v.prestige ? '<span class="text-amber-400" title="Prestige client">★</span>' : ''}
               </div>
             </div>
@@ -50286,7 +50286,7 @@ this.lastTurnOutcomes.push(outcome);
           </div>
 
           <button onclick="game.demoDayConvert()" id="ddConvertBtn" class="dd-btn w-32 ${canConvert ? 'bg-gradient-to-r from-emerald-500 to-green-400 hover:from-emerald-400 hover:to-green-300' : 'bg-slate-700 cursor-not-allowed'} text-white font-bold rounded-xl text-sm transition-all flex flex-col items-center justify-center" ${canConvert ? '' : 'disabled'}>
-            ${canConvert ? `<span class="dd-key-hint" aria-hidden="true">↵</span><span>CONVERT</span><span class="text-xs">£${v.value}k</span>` : `<span class="text-xs">Need ${65 - v.currentInterest}%</span>`}
+            ${canConvert ? `<span class="dd-key-hint" aria-hidden="true">↵</span><span>CONVERT</span><span class="text-xs">${getRegion().currency}${v.value}k</span>` : `<span class="text-xs">Need ${65 - v.currentInterest}%</span>`}
           </button>
         </div>
 
@@ -50410,7 +50410,7 @@ this.lastTurnOutcomes.push(outcome);
     this.ddDrawStock();                     // SCENE: stock runs down
 
     this.demoDayFloat(`${eff >= 0 ? '+' : ''}${eff}%`, eff >= 0 ? "emerald" : "red");
-    if (dd.costs[type] > 0) this.demoDayFloat(`-£${dd.costs[type]}k`, "red");
+    if (dd.costs[type] > 0) this.demoDayFloat(`-${getRegion().currency}${dd.costs[type]}k`, "red");
 
     this.demoDayUpdateUI();
     this.demoDayRenderVisitor();
@@ -50442,9 +50442,9 @@ this.lastTurnOutcomes.push(outcome);
     if (dd.offersGiven.includes('massive') && v.prestige) {
       dd.prestigeBonus = 25;
       dd.earnedStats.mkt += 1;
-      this.demoDayFloat(`+£${v.value}k +★PRESTIGE!`, "amber");
+      this.demoDayFloat(`+${getRegion().currency}${v.value}k +★PRESTIGE!`, "amber");
     } else if (v.value > 0) {
-      this.demoDayFloat(`+£${v.value}k!`, "emerald");
+      this.demoDayFloat(`+${getRegion().currency}${v.value}k!`, "emerald");
     } else if (v.conversionBonus) {
       this.demoDayFloat(`+1 ${Object.keys(v.conversionBonus)[0]}!`, "cyan");
     }
@@ -50488,12 +50488,12 @@ this.lastTurnOutcomes.push(outcome);
     const massive = document.getElementById('ddMassive');
     if (massive) massive.textContent = dd.resources.massive;
     const costs = document.getElementById('ddCosts');
-    if (costs) costs.textContent = `£${dd.totalCostsSpent}k`;
+    if (costs) costs.textContent = `${getRegion().currency}${dd.totalCostsSpent}k`;
 
     const net = dd.totalConversionValue - dd.totalCostsSpent + dd.prestigeBonus;
     const netEl = document.getElementById('ddNetProfit');
     if (netEl) {
-      netEl.textContent = net >= 0 ? `£${net}k` : `-£${Math.abs(net)}k`;
+      netEl.textContent = net >= 0 ? `${getRegion().currency}${net}k` : `-${getRegion().currency}${Math.abs(net)}k`;
       netEl.className = `text-2xl font-bold ${net >= 0 ? 'text-emerald-400' : 'text-red-400'}`;
     }
     this.ddDrawStock();   // SCENE
@@ -50560,14 +50560,14 @@ this.lastTurnOutcomes.push(outcome);
     let revenueHtml = '';
     if (revenueResults.customersAdded && revenueResults.customersAdded.length > 0) {
       const customerList = revenueResults.customersAdded.map(c =>
-        `<div class="flex justify-between text-[10px]"><span>${c.title}</span><span class="text-emerald-700">+£${c.revenue}k/q × ${c.duration}q</span></div>`
+        `<div class="flex justify-between text-[10px]"><span>${c.title}</span><span class="text-emerald-700">+R$${c.revenue}k/q × ${c.duration}q</span></div>`
       ).join('');
       revenueHtml = `
         <div class="bg-emerald-50 border border-emerald-300 rounded-xl p-2 mb-3 text-sm">
           <div class="text-emerald-700 font-bold text-xs mb-1">🤝 New Customers Signed!</div>
           <div class="space-y-0.5">${customerList}</div>
           <div class="text-emerald-600 text-[10px] mt-1 pt-1 border-t border-emerald-200">
-            Total: +£${revenueResults.totalRecurringRevenue}k/quarter recurring revenue
+            Total: +R$${revenueResults.totalRecurringRevenue}k/quarter recurring revenue
           </div>
           ${revenueResults.pipelineDeals > 0 ? `<div class="text-emerald-500 text-[10px]">Plus ${revenueResults.pipelineDeals} lead(s) in pipeline</div>` : ''}
         </div>`;
@@ -50597,7 +50597,7 @@ this.lastTurnOutcomes.push(outcome);
         <div class="text-4xl mb-2">${emoji}</div>
         <h2 class="text-xl font-bold text-slate-800 mb-2">${title}</h2>
         <div class="flex justify-center gap-6 mb-3">
-          <div><div class="text-2xl font-bold ${net >= 0 ? 'text-emerald-600' : 'text-red-600'}">${net >= 0 ? '£' : '-£'}${Math.abs(net)}k</div><div class="text-xs text-slate-500">Net Profit</div></div>
+          <div><div class="text-2xl font-bold ${net >= 0 ? 'text-emerald-600' : 'text-red-600'}">${net >= 0 ? 'R$' : '-R$'}${Math.abs(net)}k</div><div class="text-xs text-slate-500">Net Profit</div></div>
           <div><div class="text-2xl font-bold text-amber-600">${dd.conversions}</div><div class="text-xs text-slate-500">Converted</div></div>
         </div>
         ${apPenaltyHtml}
@@ -50608,7 +50608,7 @@ this.lastTurnOutcomes.push(outcome);
             ${total.dev > 0 ? `<span class="text-cyan-600 font-bold text-sm">+${total.dev} Dev</span>` : ''}
             ${total.sci > 0 ? `<span class="text-blue-600 font-bold text-sm">+${total.sci} Sci</span>` : ''}
             ${total.mkt > 0 ? `<span class="text-fuchsia-600 font-bold text-sm">+${total.mkt} Mkt</span>` : ''}
-            ${total.val > 0 ? `<span class="text-emerald-600 font-bold text-sm">+£${total.val}k Val</span>` : ''}
+            ${total.val > 0 ? `<span class="text-emerald-600 font-bold text-sm">+R$${total.val}k Val</span>` : ''}
             ${total.dev + total.sci + total.mkt + total.val === 0 ? '<span class="text-slate-500 text-sm">No bonus</span>' : ''}
           </div>
         </div>
@@ -50616,7 +50616,7 @@ this.lastTurnOutcomes.push(outcome);
         <button onclick="game.closeDemoDay()" class="px-6 py-2.5 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl">Continue →</button>
       </div>`;
 
-    this.log(`🎪 Demo Day: ${title} - Net £${net}k, ${dd.conversions} converted${apPenalty > 0 ? `, -${apPenalty} AP (premium overuse)` : ''}${revenueResults.customersAdded?.length > 0 ? `, ${revenueResults.customersAdded.length} customers (+£${revenueResults.totalRecurringRevenue}k/q)` : ''}${revenueResults.pipelineDeals > 0 ? `, ${revenueResults.pipelineDeals} pipeline leads` : ''}`);
+    this.log(`🎪 Demo Day: ${title} - Net ${getRegion().currency}${net}k, ${dd.conversions} converted${apPenalty > 0 ? `, -${apPenalty} AP (premium overuse)` : ''}${revenueResults.customersAdded?.length > 0 ? `, ${revenueResults.customersAdded.length} customers (+${getRegion().currency}${revenueResults.totalRecurringRevenue}k/q)` : ''}${revenueResults.pipelineDeals > 0 ? `, ${revenueResults.pipelineDeals} pipeline leads` : ''}`);
   }
 
   /* ---------- revenue bonus: VERBATIM (game-side; stub addCustomer here) ---------- */
@@ -51730,12 +51730,12 @@ this.lastTurnOutcomes.push(outcome);
     `;
     
     const rewardLines = [];
-    if (rewards.val > 0) rewardLines.push(`+£${rewards.val}k Valuation`);
+    if (rewards.val > 0) rewardLines.push(`+R$${rewards.val}k Valuation`);
     if (rewards.mkt > 0) rewardLines.push(`+${rewards.mkt} Sales`);
     if (rewards.sci > 0) rewardLines.push(`+${rewards.sci} Research`);
     if (rewards.dev > 0) rewardLines.push(`+${rewards.dev} Product`);
     if (rewards.hr > 0) rewardLines.push(`+${rewards.hr} People`);
-    if (rewards.cash > 0) rewardLines.push(`+£${rewards.cash}k Cash`);
+    if (rewards.cash > 0) rewardLines.push(`+R$${rewards.cash}k Cash`);
     
     const resultRewards = document.getElementById("pitchResultRewards");
     if (resultRewards) resultRewards.innerHTML = rewardLines.length > 0 
@@ -51765,7 +51765,7 @@ this.lastTurnOutcomes.push(outcome);
       soundManager.playWarning();
     }
     
-    this.log(`🎤 Investor pitch: ${title} - +£${rewards.val}k valuation`);
+    this.log(`🎤 Investor pitch: ${title} - +${getRegion().currency}${rewards.val}k valuation`);
   }
   
   closePitch() {
@@ -52135,7 +52135,7 @@ this.lastTurnOutcomes.push(outcome);
     const funderSection = document.getElementById("competitorFunder").parentElement;
     if (rival.funder) {
       funderSection.classList.remove("hidden");
-      const totalRaised = rival.totalRaised ? `£${(rival.totalRaised / 1000).toFixed(1)}M total` : rival.funder.raised;
+      const totalRaised = rival.totalRaised ? `R$${(rival.totalRaised / 1000).toFixed(1)}M total` : rival.funder.raised;
       document.getElementById("competitorFunder").innerHTML = `
         <div class="flex items-center justify-between">
           <div>
@@ -52368,8 +52368,8 @@ this.lastTurnOutcomes.push(outcome);
     // Update current stats
     document.getElementById("hireModalStaff").textContent = this.metrics.staff;
     document.getElementById("hireModalAPCurrent").textContent = `+${this.getStaffAPBonus()}`;
-    document.getElementById("hireModalCash").textContent = `£${this.metrics.cash}k`;
-    document.getElementById("hireModalBurn").textContent = `£${this.metrics.burn}k/q`;
+    document.getElementById("hireModalCash").textContent = `${getRegion().currency}${this.metrics.cash}k`;
+    document.getElementById("hireModalBurn").textContent = `${getRegion().currency}${this.metrics.burn}k/q`;
     
     // Calculate after-hire stats
     const newStaff = this.metrics.staff + 1;
@@ -52379,16 +52379,16 @@ this.lastTurnOutcomes.push(outcome);
     
     document.getElementById("hireModalNewStaff").textContent = newStaff;
     document.getElementById("hireModalAPNew").textContent = `+${newAPBonus}`;
-    document.getElementById("hireModalNewBurn").textContent = `£${newBurn}k/q`;
-    document.getElementById("hireModalNewCash").textContent = `£${newCash}k`;
+    document.getElementById("hireModalNewBurn").textContent = `${getRegion().currency}${newBurn}k/q`;
+    document.getElementById("hireModalNewCash").textContent = `${getRegion().currency}${newCash}k`;
     
     // Show hiring cost with discount if applicable
     const hireCostEl = document.getElementById("hireModalCostDisplay");
     if (hireCostEl) {
       if (hireCostReduction > 0) {
-        hireCostEl.innerHTML = `<span class="line-through text-slate-400">£${baseHireCost}k</span> <span class="text-emerald-600 font-bold">£${hireCost}k</span> <span class="text-xs text-emerald-500">(${this.founder?.profile?.name})</span>`;
+        hireCostEl.innerHTML = `<span class="line-through text-slate-400">${getRegion().currency}${baseHireCost}k</span> <span class="text-emerald-600 font-bold">${getRegion().currency}${hireCost}k</span> <span class="text-xs text-emerald-500">(${this.founder?.profile?.name})</span>`;
       } else {
-        hireCostEl.textContent = `£${hireCost}k one-time`;
+        hireCostEl.textContent = `${getRegion().currency}${hireCost}k one-time`;
       }
     }
     
@@ -52512,7 +52512,7 @@ this.lastTurnOutcomes.push(outcome);
     });
     
     const discountText = hireCostReduction > 0 ? ` (${this.founder?.profile?.name} discount)` : '';
-    this.log(`👥 Hired 1 staff (-£${hireCost}k${discountText}, +£${burnIncrease}k burn).${penaltyReason} Integrating...`);
+    this.log(`👥 Hired 1 staff (-${getRegion().currency}${hireCost}k${discountText}, +${getRegion().currency}${burnIncrease}k burn).${penaltyReason} Integrating...`);
     soundManager.playHireSelect();
     
     this.closeHireStaffModal();
@@ -53451,18 +53451,18 @@ this.lastTurnOutcomes.push(outcome);
         <div class="flex items-center gap-4 mb-6">
           ${renderCandidatePortrait(candidate, 56, this.currentJobPosting?.role)}
           <div class="flex-1 bg-slate-50 rounded-lg p-4">
-            <p class="text-slate-700 italic">"I appreciate the offer, but I was hoping for £${counterSalary}k with ${counterEquity.toFixed(1)}% equity."</p>
+            <p class="text-slate-700 italic">"I appreciate the offer, but I was hoping for ${getRegion().currency}${counterSalary}k with ${counterEquity.toFixed(1)}% equity."</p>
           </div>
         </div>
         
         <div class="grid grid-cols-2 gap-4 mb-6">
           <div class="bg-slate-50 rounded-lg p-4">
             <div class="text-sm text-slate-500 mb-1">Your offer</div>
-            <div class="font-bold text-slate-800">£${originalSalary}k + ${originalEquity}%</div>
+            <div class="font-bold text-slate-800">${getRegion().currency}${originalSalary}k + ${originalEquity}%</div>
           </div>
           <div class="bg-amber-50 rounded-lg p-4">
             <div class="text-sm text-amber-600 mb-1">Their counter</div>
-            <div class="font-bold text-amber-800">£${counterSalary}k + ${counterEquity.toFixed(1)}%</div>
+            <div class="font-bold text-amber-800">${getRegion().currency}${counterSalary}k + ${counterEquity.toFixed(1)}%</div>
           </div>
         </div>
       </div>
@@ -53872,7 +53872,7 @@ this.lastTurnOutcomes.push(outcome);
     }
     
     // Build reward text - qualitative, not numerical
-    let rewardText = `+£${valReward}k valuation`;
+    let rewardText = `+R$${valReward}k valuation`;
     
     // Qualitative descriptions based on milestone stage
     const qualitativeRewards = {
@@ -54361,11 +54361,11 @@ this.lastTurnOutcomes.push(outcome);
       </div>
       <div class="${isBankrupt ? 'bg-red-50' : 'bg-slate-50'} rounded-lg p-3">
         <div class="text-slate-500 text-xs">${isBankrupt ? 'Company Value' : 'Final Valuation'}</div>
-        <div class="font-bold ${isBankrupt ? 'text-red-600' : 'text-emerald-600'}">${isBankrupt ? '£0 — Bankrupt' : '£' + finalValuation.toLocaleString() + 'k'}</div>
+        <div class="font-bold ${isBankrupt ? 'text-red-600' : 'text-emerald-600'}">${isBankrupt ? 'R$0 — Bankrupt' : 'R$' + finalValuation.toLocaleString() + 'k'}</div>
       </div>
       <div class="bg-slate-50 rounded-lg p-3">
         <div class="text-slate-500 text-xs">${isBankrupt ? 'Peak Valuation (before collapse)' : 'Final Cash'}</div>
-        <div class="font-bold ${isBankrupt ? 'text-slate-500' : this.metrics.cash <= 0 ? 'text-red-600' : 'text-slate-800'}">${isBankrupt ? '£' + peakVal.toLocaleString() + 'k' : '£' + this.metrics.cash + 'k'}</div>
+        <div class="font-bold ${isBankrupt ? 'text-slate-500' : this.metrics.cash <= 0 ? 'text-red-600' : 'text-slate-800'}">${isBankrupt ? 'R$' + peakVal.toLocaleString() + 'k' : 'R$' + this.metrics.cash + 'k'}</div>
       </div>
       <div class="bg-slate-50 rounded-lg p-3">
         <div class="text-slate-500 text-xs">Team Size</div>
@@ -54426,7 +54426,7 @@ this.lastTurnOutcomes.push(outcome);
         const quarters = this.turn || 0;
         const valuationK = (this.metrics && this.metrics.val) || 0;
         const milestones = (this.completedMilestones || []).length;
-        const figure = valuationK > 0 ? '£' + (valuationK / 1000).toFixed(1) + 'm' : '£0.0m';
+        const figure = valuationK > 0 ? 'R$' + (valuationK / 1000).toFixed(1) + 'm' : 'R$0.0m';
         this._frankRun = {
           ventureCode: ventureCode,
           facts: [ventureCode, founder, location, funding, outcome,
@@ -54653,7 +54653,7 @@ this.lastTurnOutcomes.push(outcome);
     const el3 = document.getElementById("victoryEquity");
     if (el3) el3.textContent = `${effectiveEquity.toFixed(1)}%`;
     const el4 = document.getElementById("victoryCash");
-    if (el4) el4.textContent = `£${this.metrics.cash.toLocaleString()}k`;
+    if (el4) el4.textContent = `${getRegion().currency}${this.metrics.cash.toLocaleString()}k`;
     const el5 = document.getElementById("victoryNetWorth");
     if (el5) el5.innerHTML = `
       <div class="text-slate-400 text-sm mb-1">Your stake is worth</div>
@@ -54794,7 +54794,7 @@ this.lastTurnOutcomes.push(outcome);
     const unicornValuation = 1000000; // £1B = £1,000,000k
     const multiplier = Math.round(unicornValuation / baseVal);
     
-    document.getElementById("unicornPreVal").textContent = `£${baseVal.toLocaleString()}k`;
+    document.getElementById("unicornPreVal").textContent = `${getRegion().currency}${baseVal.toLocaleString()}k`;
     document.getElementById("unicornMultiplier").textContent = `${multiplier}x`;
     
     // Store for when they continue
@@ -54817,7 +54817,7 @@ this.lastTurnOutcomes.push(outcome);
     document.getElementById("unicornModal").classList.remove("flex");
     
     // Add log entry
-    this.log("🦄 UNICORN STATUS ACHIEVED! Valuation: £1,000,000k");
+    this.log(`🦄 UNICORN STATUS ACHIEVED! Valuation: ${getRegion().currency}1,000,000k`);
     
     // Show Hall of Fame
     this.showHallOfFame();
@@ -54898,7 +54898,7 @@ this.lastTurnOutcomes.push(outcome);
     
     // Calculate total wealth
     const totalWealth = selectedLegends.reduce((sum, l) => sum + l.valuation, 0) + 1;
-    document.getElementById("hofTotalWealth").textContent = `£${totalWealth.toLocaleString()}B`;
+    document.getElementById("hofTotalWealth").textContent = `${getRegion().currency}${totalWealth.toLocaleString()}B`;
     
     // Show modal
     document.getElementById("hallOfFameModal").classList.remove("hidden");
@@ -58995,9 +58995,9 @@ render();
     
     // Populate negotiation modal
     document.getElementById("fundingNegInvestorName").textContent = `with ${opt.name}`;
-    document.getElementById("fundingNegOrigCash").textContent = `£${opt.cash}k`;
+    document.getElementById("fundingNegOrigCash").textContent = `${getRegion().currency}${opt.cash}k`;
     document.getElementById("fundingNegOrigEquity").textContent = `${opt.dilution}%`;
-    document.getElementById("fundingNegOrigVal").textContent = `£${opt.newVal}k`;
+    document.getElementById("fundingNegOrigVal").textContent = `${getRegion().currency}${opt.newVal}k`;
     
     // Set slider ranges based on tolerance - MUCH TIGHTER than before
     const cashSlider = document.getElementById("fundingNegCash");
@@ -59047,7 +59047,7 @@ render();
             ${tolerance.cannotNegotiateReason}
           </p>
           <div class="bg-slate-50 rounded-lg p-3 mb-4 text-sm text-slate-600 text-center">
-            The offer is <strong>£${opt.cash}k</strong> for <strong>${opt.dilution}%</strong> equity. Take it or leave it.
+            The offer is <strong>${getRegion().currency}${opt.cash}k</strong> for <strong>${opt.dilution}%</strong> equity. Take it or leave it.
           </div>
           <button onclick="game.closeFundingRejectionModal()" class="w-full px-4 py-2.5 bg-slate-600 hover:bg-slate-700 text-white font-medium rounded-lg">
             Understood
@@ -59268,7 +59268,7 @@ render();
     
     // Calculate implied valuation
     const postMoneyVal = Math.round(cash / (equity / 100));
-    document.getElementById("fundingNegImpliedVal").textContent = `£${postMoneyVal}k`;
+    document.getElementById("fundingNegImpliedVal").textContent = `${getRegion().currency}${postMoneyVal}k`;
     
     // Your equity after
     const newEquity = this.metrics.equity - equity;
@@ -59968,9 +59968,9 @@ render();
     
     // Populate negotiation modal
     document.getElementById("angelNegInvestorName").textContent = `with ${funder.name}`;
-    document.getElementById("angelNegOrigCash").textContent = `£${angelInvestment}k${(this.funderChequeMult || 1) > 1 ? ' (Seed ×2)' : ''}`;
+    document.getElementById("angelNegOrigCash").textContent = `${getRegion().currency}${angelInvestment}k${(this.funderChequeMult || 1) > 1 ? ' (Seed ×2)' : ''}`;
     document.getElementById("angelNegOrigEquity").textContent = `${funder.equity}%`;
-    document.getElementById("angelNegOrigVal").textContent = `£${funder.val}k`;
+    document.getElementById("angelNegOrigVal").textContent = `${getRegion().currency}${funder.val}k`;
     
     // Set slider ranges based on tolerance
     const cashSlider = document.getElementById("angelNegCash");
@@ -60080,11 +60080,11 @@ render();
     const totalCash = this.modeBase() + proposedCash;
     const founderEquity = 100 - proposedEquity;
     
-    document.getElementById("angelNegImpliedVal").textContent = `£${impliedVal}k`;
+    document.getElementById("angelNegImpliedVal").textContent = `${getRegion().currency}${impliedVal}k`;
     document.getElementById("angelNegYourEquity").textContent = `${founderEquity}%`;
-    document.getElementById("angelNegTotalCash").textContent = `£${totalCash}k`;
+    document.getElementById("angelNegTotalCash").textContent = `${getRegion().currency}${totalCash}k`;
     const baseLbl = document.getElementById("angelNegBaseLabel");
-    if (baseLbl) baseLbl.textContent = `(your £${this.modeBase()}k + their investment)`;
+    if (baseLbl) baseLbl.textContent = `(your ${getRegion().currency}${this.modeBase()}k + their investment)`;
     
     // Calculate how good this deal is for the angel
     const assessmentData = this.calculateAngelAssessment(neg, proposedCash, proposedEquity, proposedProtection);
@@ -60443,9 +60443,9 @@ render();
         <div class="bg-emerald-50 rounded-lg p-4 border border-emerald-200">
           <div class="grid grid-cols-3 gap-3 text-center text-sm">
             <div>
-              <div class="font-bold text-emerald-600 text-lg">£${cash}k</div>
+              <div class="font-bold text-emerald-600 text-lg">${getRegion().currency}${cash}k</div>
               <div class="text-xs text-slate-500">Their Investment</div>
-              ${cash !== orig.cash ? `<div class="text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}">${cash > orig.cash ? '↑' : '↓'} from £${orig.cash}k</div>` : ''}
+              ${cash !== orig.cash ? `<div class="text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}">${cash > orig.cash ? '↑' : '↓'} from ${getRegion().currency}${orig.cash}k</div>` : ''}
             </div>
             <div>
               <div class="font-bold text-amber-600 text-lg">${equity}%</div>
@@ -60458,8 +60458,8 @@ render();
             </div>
           </div>
           <div class="mt-3 pt-3 border-t border-emerald-200 text-center">
-            <span class="text-sm text-emerald-700">Total Starting Cash: <strong>£${totalCash}k</strong></span>
-            <span class="text-xs text-emerald-600 ml-2">(your £350k + their £${cash}k)</span>
+            <span class="text-sm text-emerald-700">Total Starting Cash: <strong>${getRegion().currency}${totalCash}k</strong></span>
+            <span class="text-xs text-emerald-600 ml-2">(your ${getRegion().currency}350k + their ${getRegion().currency}${cash}k)</span>
           </div>
         </div>
       `;
@@ -60506,7 +60506,7 @@ render();
         <div class="bg-indigo-50 rounded-lg p-4 border border-indigo-200 mb-4">
           <div class="grid grid-cols-3 gap-3 text-center text-sm">
             <div>
-              <div class="font-bold text-emerald-600 text-lg">£${cash}k</div>
+              <div class="font-bold text-emerald-600 text-lg">${getRegion().currency}${cash}k</div>
               <div class="text-xs text-slate-500">Their Investment</div>
             </div>
             <div>
@@ -60519,7 +60519,7 @@ render();
             </div>
           </div>
           <div class="mt-3 pt-3 border-t border-indigo-200 text-center">
-            <span class="text-sm text-indigo-700">Total Starting Cash: <strong>£${this.modeBase() + cash}k</strong></span>
+            <span class="text-sm text-indigo-700">Total Starting Cash: <strong>${getRegion().currency}${this.modeBase() + cash}k</strong></span>
           </div>
         </div>
         ${harsh ? '<p class="text-xs text-amber-600 mb-4">⚠️ This is likely their final offer.</p>' : ''}
@@ -60547,7 +60547,7 @@ render();
           </p>
         </div>
         <div class="bg-slate-50 rounded-lg p-3 text-sm text-slate-600">
-          Original: <strong>£${orig.cash}k</strong> for <strong>${orig.equity}%</strong>
+          Original: <strong>${getRegion().currency}${orig.cash}k</strong> for <strong>${orig.equity}%</strong>
         </div>
       `;
       
@@ -60675,7 +60675,7 @@ render();
       const equityDiff = modifiedFunder.equity - origEquity;
       
       let negotiationSummary = `🤝 Negotiated deal with ${modifiedFunder.name}. `;
-      if (cashDiff !== 0) negotiationSummary += `Investment: £${modifiedFunder.cash - this.modeBase()}k (${cashDiff > 0 ? '+' : ''}${cashDiff}k). `;
+      if (cashDiff !== 0) negotiationSummary += `Investment: R$${modifiedFunder.cash - this.modeBase()}k (${cashDiff > 0 ? '+' : ''}${cashDiff}k). `;
       if (equityDiff !== 0) negotiationSummary += `Equity: ${modifiedFunder.equity}% (${equityDiff > 0 ? '+' : ''}${equityDiff}%). `;
       this.log(negotiationSummary);
     } else {
@@ -60716,7 +60716,7 @@ render();
       wasCounter: true
     };
     
-    this.log(`🤝 Accepted counter-offer from ${neg.funder.name}: £${cash}k for ${equity}%.`);
+    this.log(`🤝 Accepted counter-offer from ${neg.funder.name}: ${getRegion().currency}${cash}k for ${equity}%.`);
     
     // Apply the funding
     this.applyNegotiatedAngelFunding(modifiedFunder);
@@ -60831,9 +60831,9 @@ render();
     }
     
     // Populate original values
-    document.getElementById("bootstrapNegOrigCash").textContent = `£${theirContribution}k`;
+    document.getElementById("bootstrapNegOrigCash").textContent = `${getRegion().currency}${theirContribution}k`;
     document.getElementById("bootstrapNegOrigEquity").textContent = `${funder.equity}%`;
-    document.getElementById("bootstrapNegOrigTotal").textContent = `£${funder.cash}k`;
+    document.getElementById("bootstrapNegOrigTotal").textContent = `${getRegion().currency}${funder.cash}k`;
     
     // Set slider ranges
     const cashSlider = document.getElementById("bootstrapNegCash");
@@ -60901,9 +60901,9 @@ render();
     const founderEquity = 100 - proposedEquity;
     const impliedVal = proposedEquity > 0 ? Math.round(proposedCash / (proposedEquity / 100)) : totalCash;
     
-    document.getElementById("bootstrapNegTotalCash").textContent = `£${totalCash}k`;
+    document.getElementById("bootstrapNegTotalCash").textContent = `${getRegion().currency}${totalCash}k`;
     document.getElementById("bootstrapNegYourEquity").textContent = `${founderEquity}%`;
-    document.getElementById("bootstrapNegImpliedVal").textContent = `£${impliedVal}k`;
+    document.getElementById("bootstrapNegImpliedVal").textContent = `${getRegion().currency}${impliedVal}k`;
     
     // Calculate assessment
     const assessmentData = this.calculateBootstrapAssessment(neg, proposedCash, proposedEquity);
@@ -61244,9 +61244,9 @@ render();
         <div class="bg-pink-50 rounded-lg p-4 border border-pink-200">
           <div class="grid grid-cols-3 gap-3 text-center text-sm">
             <div>
-              <div class="font-bold text-emerald-600 text-lg">£${cash}k</div>
+              <div class="font-bold text-emerald-600 text-lg">${getRegion().currency}${cash}k</div>
               <div class="text-xs text-slate-500">From Family</div>
-              ${cash !== orig.cash ? `<div class="text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}">${cash > orig.cash ? '↑' : '↓'} from £${orig.cash}k</div>` : ''}
+              ${cash !== orig.cash ? `<div class="text-xs ${cash > orig.cash ? 'text-emerald-600' : 'text-amber-600'}">${cash > orig.cash ? '↑' : '↓'} from ${getRegion().currency}${orig.cash}k</div>` : ''}
             </div>
             <div>
               <div class="font-bold text-amber-600 text-lg">${equity}%</div>
@@ -61254,7 +61254,7 @@ render();
               ${equity !== orig.equity ? `<div class="text-xs ${equity < orig.equity ? 'text-emerald-600' : 'text-amber-600'}">${equity < orig.equity ? '↓' : '↑'} from ${orig.equity}%</div>` : ''}
             </div>
             <div>
-              <div class="font-bold text-slate-600 text-lg">£${totalCash}k</div>
+              <div class="font-bold text-slate-600 text-lg">${getRegion().currency}${totalCash}k</div>
               <div class="text-xs text-slate-500">Total Cash</div>
             </div>
           </div>
@@ -61278,7 +61278,7 @@ render();
         <div class="bg-blue-50 rounded-lg p-4 border border-blue-200">
           <div class="grid grid-cols-3 gap-3 text-center text-sm">
             <div>
-              <div class="font-bold text-emerald-600 text-lg">£${cash}k</div>
+              <div class="font-bold text-emerald-600 text-lg">${getRegion().currency}${cash}k</div>
               <div class="text-xs text-slate-500">Raised</div>
             </div>
             <div>
@@ -61286,12 +61286,12 @@ render();
               <div class="text-xs text-slate-500">Equity</div>
             </div>
             <div>
-              <div class="font-bold text-slate-600 text-lg">£${impliedVal}k</div>
+              <div class="font-bold text-slate-600 text-lg">${getRegion().currency}${impliedVal}k</div>
               <div class="text-xs text-slate-500">Valuation</div>
             </div>
           </div>
           <div class="mt-3 pt-3 border-t border-blue-200 text-center">
-            <span class="text-sm text-blue-700">Total Starting Cash: <strong>£${totalCash}k</strong></span>
+            <span class="text-sm text-blue-700">Total Starting Cash: <strong>${getRegion().currency}${totalCash}k</strong></span>
           </div>
         </div>
         <div class="bg-emerald-50 rounded-lg p-3 border border-emerald-200 mt-3">
@@ -61445,7 +61445,7 @@ render();
       const equityDiff = modifiedFunder.equity - modifiedFunder.negotiatedFrom.equity;
       
       let summary = `${modifiedFunder.isFF ? '👨‍👩‍👧' : '🎯'} ${modifiedFunder.name}: `;
-      summary += `£${modifiedFunder.cash - this.modeBase('bootstrap')}k raised`;
+      summary += `R$${modifiedFunder.cash - this.modeBase('bootstrap')}k raised`;
       if (cashDiff !== 0) summary += ` (${cashDiff > 0 ? '+' : ''}${cashDiff}k vs standard)`;
       if (modifiedFunder.equity > 0) summary += `, ${modifiedFunder.equity}% equity`;
       this.log(summary);
@@ -61484,7 +61484,7 @@ render();
             ${orig.name} has rejected your proposed terms but their original offer still stands.
           </p>
           <div class="bg-slate-50 rounded-lg p-3 mb-4">
-            <div class="text-sm text-slate-600 text-center">Original offer: <strong>£${orig.cash}k</strong> for <strong>${orig.dilution}%</strong></div>
+            <div class="text-sm text-slate-600 text-center">Original offer: <strong>${getRegion().currency}${orig.cash}k</strong> for <strong>${orig.dilution}%</strong></div>
           </div>
           <div class="flex gap-3">
             <button onclick="game.closeFundingRejectionModal()" class="flex-1 px-4 py-2.5 border border-slate-300 text-slate-600 rounded-lg hover:bg-slate-100">
@@ -61538,7 +61538,7 @@ render();
           <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4 mb-4">
             <div class="grid grid-cols-3 gap-2 text-center text-sm">
               <div>
-                <div class="font-bold text-emerald-600 text-lg">£${counterCash}k</div>
+                <div class="font-bold text-emerald-600 text-lg">${getRegion().currency}${counterCash}k</div>
                 <div class="text-xs text-slate-500">Investment</div>
               </div>
               <div>
@@ -61720,14 +61720,14 @@ render();
     let negotiationNote = '';
     if (cashDiff !== 0 || equityDiff !== 0) {
       const parts = [];
-      if (cashDiff > 0) parts.push(`+£${cashDiff}k`);
-      if (cashDiff < 0) parts.push(`£${cashDiff}k`);
+      if (cashDiff > 0) parts.push(`+R$${cashDiff}k`);
+      if (cashDiff < 0) parts.push(`R$${cashDiff}k`);
       if (equityDiff < 0) parts.push(`${equityDiff}% equity saved`);
       if (equityDiff > 0) parts.push(`+${equityDiff}% equity`);
       if (parts.length > 0) negotiationNote = ` (Negotiated: ${parts.join(', ')})`;
     }
     
-    this.log(`🤝 Deal closed! ${investorName} invested £${cash}k for ${equity}%. New val: £${postMoneyVal}k.${negotiationNote} (-1 AP)`);
+    this.log(`🤝 Deal closed! ${investorName} invested ${getRegion().currency}${cash}k for ${equity}%. New val: ${getRegion().currency}${postMoneyVal}k.${negotiationNote} (-1 AP)`);
     
     // Show funding accepted modal
     this.showFundingAcceptedModal({
@@ -61753,8 +61753,8 @@ render();
       const cashDiff = cash - originalCash;
       const equityDiff = equity - originalEquity;
       
-      if (cashDiff > 0) parts.push(`<span class="text-emerald-600">+£${cashDiff}k more funding</span>`);
-      if (cashDiff < 0) parts.push(`<span class="text-amber-600">£${Math.abs(cashDiff)}k less funding</span>`);
+      if (cashDiff > 0) parts.push(`<span class="text-emerald-600">+R$${cashDiff}k more funding</span>`);
+      if (cashDiff < 0) parts.push(`<span class="text-amber-600">R$${Math.abs(cashDiff)}k less funding</span>`);
       if (equityDiff < 0) parts.push(`<span class="text-emerald-600">${Math.abs(equityDiff)}% equity saved</span>`);
       if (equityDiff > 0) parts.push(`<span class="text-amber-600">${equityDiff}% extra equity given</span>`);
       
@@ -61801,7 +61801,7 @@ render();
               <h3 class="font-bold text-slate-700 text-sm mb-3">Deal Terms</h3>
               <div class="grid grid-cols-3 gap-3 text-center">
                 <div>
-                  <div class="text-xl font-bold text-emerald-600">£${cash}k</div>
+                  <div class="text-xl font-bold text-emerald-600">${getRegion().currency}${cash}k</div>
                   <div class="text-xs text-slate-500">Investment</div>
                 </div>
                 <div>
@@ -61809,7 +61809,7 @@ render();
                   <div class="text-xs text-slate-500">Equity</div>
                 </div>
                 <div>
-                  <div class="text-xl font-bold text-slate-700">£${newVal}k</div>
+                  <div class="text-xl font-bold text-slate-700">${getRegion().currency}${newVal}k</div>
                   <div class="text-xs text-slate-500">New Valuation</div>
                 </div>
               </div>
@@ -63580,7 +63580,7 @@ render();
     } else {
       outcome += `${companyName} reached a crossroads after ${quarters} quarters with ${milestones} milestone${milestones !== 1 ? 's' : ''} completed. `;
       if (val > 500) {
-        outcome += `While not achieving all objectives, the team built something with potential-a ${typeof formatValuation === 'function' ? formatValuation(val) : '£' + val + 'k'} valuation suggests the market saw promise, even if the journey ended before that promise was fully realised. `;
+        outcome += `While not achieving all objectives, the team built something with potential-a ${typeof formatValuation === 'function' ? formatValuation(val) : 'R$' + val + 'k'} valuation suggests the market saw promise, even if the journey ended before that promise was fully realised. `;
       } else {
         outcome += `The milestones left incomplete tell their own story-the startup couldn't build enough momentum to attract the capital and customers needed to survive. `;
       }
@@ -64118,7 +64118,7 @@ render();
             <div><span class="text-slate-500">Valuation:</span> <span class="font-bold">${formatValuation(this.metrics.val)}</span></div>
             <div><span class="text-slate-500">Equity:</span> <span class="font-bold">${this.metrics.equity.toFixed(1)}%</span></div>
             <div><span class="text-slate-500">Team:</span> <span class="font-bold">${this.metrics.staff} people</span></div>
-            <div><span class="text-slate-500">Cash:</span> <span class="font-bold">£${this.metrics.cash}k</span></div>
+            <div><span class="text-slate-500">Cash:</span> <span class="font-bold">${getRegion().currency}${this.metrics.cash}k</span></div>
           </div>
           
           <p class="text-slate-600 text-sm">${archetype.description}</p>
@@ -64413,7 +64413,7 @@ render();
     // Don't show valuation prominently for failed games — it's misleading
     const pdfModeLabel = this.extremeMode ? 'Extreme mode' : (this.gameMode === 'seed' ? 'Seed mode' : 'Core mode');
     const summaryLine = failure
-      ? `${this.completedMilestones.length}/3 milestones • ${this.turn} quarters • £0 cash remaining • ${pdfModeLabel}`
+      ? `${this.completedMilestones.length}/3 milestones • ${this.turn} quarters • R$0 cash remaining • ${pdfModeLabel}`
       : `${this.completedMilestones.length}/3 milestones • ${this.turn} quarters • ${fmt(this.metrics.val)} valuation • ${pdfModeLabel}`;
     doc.text(summaryLine, pageWidth / 2, y, { align: 'center' });
     y += 18;
@@ -64453,7 +64453,7 @@ render();
     if (failure) {
       // For failed games, lead with the reality — cash ran out
       doc.setTextColor(220, 38, 38);
-      doc.text(`Cash: £0 — Company ran out of runway in Q${this.turn}`, margin + 8, y);
+      doc.text(`Cash: R$0 — Company ran out of runway in Q${this.turn}`, margin + 8, y);
       y += 5;
       doc.setTextColor(100);
       doc.text(`Peak valuation: ${fmt(this.peakValuation || this.metrics.val)}`, margin + 8, y);
@@ -64464,7 +64464,7 @@ render();
       doc.text(`Equity retained: ${this.metrics.equity.toFixed(1)}%`, margin + 70, y);
       y += 5;
       doc.text(`Team size: ${this.metrics.staff} people`, margin + 8, y);
-      doc.text(`Cash remaining: £${Number.isFinite(this.metrics.cash) ? Math.round(this.metrics.cash) : 0}k`, margin + 70, y);
+      doc.text(`Cash remaining: R$${Number.isFinite(this.metrics.cash) ? Math.round(this.metrics.cash) : 0}k`, margin + 70, y);
     }
     y += 5;
 
@@ -64481,11 +64481,11 @@ render();
     // === REVENUE METRICS ===
     const revenueNarrative = this.generateRevenueNarrative();
     if (revenueNarrative && this.customers?.length > 0) {
-      doc.text(`ARR: £${revenueNarrative.keyMetrics.finalARR.toLocaleString()}k`, margin + 8, y);
+      doc.text(`ARR: R$${revenueNarrative.keyMetrics.finalARR.toLocaleString()}k`, margin + 8, y);
       doc.text(`Customers: ${revenueNarrative.keyMetrics.totalCustomers}`, margin + 70, y);
       y += 5;
       if (revenueNarrative.keyMetrics.avgCustomerRevenue > 0) {
-        doc.text(`Avg customer value: £${revenueNarrative.keyMetrics.avgCustomerRevenue.toLocaleString()}k ARR`, margin + 8, y);
+        doc.text(`Avg customer value: R$${revenueNarrative.keyMetrics.avgCustomerRevenue.toLocaleString()}k ARR`, margin + 8, y);
         y += 5;
       }
     } else {
@@ -67636,8 +67636,8 @@ render();
     }
     if (cost.cashCost > 0 && this.metrics.cash < cost.cashCost) {
       const costDesc = cost.baseCash > 0 && cost.cashCost > cost.baseCash 
-        ? `professional review (£${cost.baseCash}k) + external advisor (£${cost.cashCost - cost.baseCash}k)` 
-        : cost.baseCash > 0 ? `professional review (£${cost.baseCash}k)` : `external advisor (£${cost.cashCost}k)`;
+        ? `professional review (R$${cost.baseCash}k) + external advisor (R$${cost.cashCost - cost.baseCash}k)`
+        : cost.baseCash > 0 ? `professional review (R$${cost.baseCash}k)` : `external advisor (R$${cost.cashCost}k)`;
       UIEffects.showToast(`Not enough cash for ${costDesc}.`, "error");
       return;
     }
@@ -67723,7 +67723,7 @@ render();
     // Update AP UI immediately this quarter
     this.renderAPPips();
 
-    this.log(`🏛️ Grant application submitted: ${programme.short} (£${amt}k request, decision expected Q${this.turn + (programme.decisionQuarters || 1)})`);
+    this.log(`🏛️ Grant application submitted: ${programme.short} (${getRegion().currency}${amt}k request, decision expected Q${this.turn + (programme.decisionQuarters || 1)})`);
 
     // GR-15: Small experience gain just for submitting (+0.5 XP)
     this.ukGrantExperience = (this.ukGrantExperience || 0) + 0.5;
@@ -67789,11 +67789,11 @@ render();
         this.updateInvestorRelationship(programme.isRegional ? 0.5 : 1, 'grant_funded');
 
         const grantLabel = programme.isEU ? '🇪🇺 EU grant' : programme.isRegional ? '📍 Regional grant' : '🇬🇧 Innovate UK grant';
-        this.log(`✅ ${grantLabel} funded: +£${app.amount}k (Score ${assessment.totalScore}/100)`);
+        this.log(`✅ ${grantLabel} funded: +${getRegion().currency}${app.amount}k (Score ${assessment.totalScore}/100)`);
         this.journeyEvents.push({
           quarter: this.turn,
           type: 'grant_funded',
-          description: `Grant funded: ${app.programmeName} (+£${app.amount}k)`,
+          description: `Grant funded: ${app.programmeName} (+R$${app.amount}k)`,
           data: { programmeId: app.programmeId, amount: app.amount, score: assessment.totalScore, prestige: prestige.label }
         });
       } else if (assessment.outcome === 'blue') {
@@ -67929,7 +67929,7 @@ render();
                    quarterLimitReached ? "You've reached the limit of 2 applications this quarter." :
                    (programme.requiresPartner && (ui.partner || 'none') === 'none') ? "A partner is required for this category." :
                    remainingAP < cost.apCost ? `Not enough AP (need ${cost.apCost}).` :
-                   (cost.cashCost > 0 && this.metrics.cash < cost.cashCost) ? `Not enough cash (£${cost.cashCost}k needed).` :
+                   (cost.cashCost > 0 && this.metrics.cash < cost.cashCost) ? `Not enough cash (R$${cost.cashCost}k needed).` :
                    "";
 
     const tabBtn = (id, label, emoji, highlight = false) => `
@@ -68965,7 +68965,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
       <div class="grid grid-cols-2 gap-4 mb-4">
         <div class="bg-slate-50 rounded-lg p-3">
           <div class="text-xs text-slate-500">Cash</div>
-          <div class="text-xl font-bold text-slate-800">£${cash}k</div>
+          <div class="text-xl font-bold text-slate-800">${getRegion().currency}${cash}k</div>
         </div>
         <div class="bg-amber-50 rounded-lg p-3">
           <div class="text-xs text-amber-600">Runway</div>
@@ -69005,7 +69005,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
     const m = this.milestone || { name: 'Enterprise AI Platform', desc: 'Build and deploy an AI solution for enterprise customers' };
     const progress = this.milestoneProgress || 0;
     const quartersLeft = (m.time || 8) - (this.turn || 1) + 1;
-    const reward = `£${m.reward?.cash || 300}k`;
+    const reward = `R$${m.reward?.cash || 300}k`;
     
     // Domain progress (derived from game metrics)
     const sci = this.metrics?.sci || 30;
@@ -69114,7 +69114,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
           <div class="text-xs font-bold text-emerald-600 mb-2">🎯 JOINING</div>
           <div class="font-bold text-slate-800">${newMilestone.name}</div>
           <div class="text-sm text-slate-600">${newMilestone.startingProgress}% start • ${newMilestone.time}q</div>
-          <div class="text-xs text-slate-500 mt-1">Reward: £${newMilestone.reward?.cash || 300}k + £${newMilestone.reward?.val || 500}k val</div>
+          <div class="text-xs text-slate-500 mt-1">Reward: ${getRegion().currency}${newMilestone.reward?.cash || 300}k + ${getRegion().currency}${newMilestone.reward?.val || 500}k val</div>
         </div>
       </div>
       
@@ -69582,7 +69582,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
     const valuationPenalty = Math.round(this.metrics.val * 0.20);
     this.metrics.val = Math.max(100, this.metrics.val - valuationPenalty);
     
-    this.log(`⚔️ Chose to compete head-on. Valuation hit: -£${valuationPenalty}k`);
+    this.log(`⚔️ Chose to compete head-on. Valuation hit: -${getRegion().currency}${valuationPenalty}k`);
     
     this.journeyEvents.push({
       quarter: this.turn,
@@ -69630,7 +69630,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
         <div class="bg-red-50 rounded-xl p-4 border border-red-200">
           <div class="flex justify-between items-center mb-2">
             <span class="text-red-700 font-medium">Valuation Impact</span>
-            <span class="font-bold text-red-700 text-lg">-£${data.valuationPenalty}k</span>
+            <span class="font-bold text-red-700 text-lg">-${getRegion().currency}${data.valuationPenalty}k</span>
           </div>
           <p class="text-xs text-red-600">Market perceives competitive disadvantage. Future fundraising will be +15% more dilutive.</p>
         </div>
@@ -69674,7 +69674,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
             ` : ''}
             <div>📋 <strong>New milestone:</strong> ${data.milestone.name}</div>
             <div>⏰ <strong>Timeline:</strong> +${data.milestone.time} quarters</div>
-            <div>💰 <strong>Cost:</strong> ${pivot?.costs?.[2] || '~£30k transition'}</div>
+            <div>💰 <strong>Cost:</strong> ${pivot?.costs?.[2] || '~R$30k transition'}</div>
             <div>📊 <strong>Progress:</strong> ${data.milestone.startingProgress}% (transferred from current work)</div>
           </div>
         </div>
@@ -69877,9 +69877,9 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
     const valLoss = Math.round(this.metrics.val * valPenaltyPct);
     this.metrics.val = Math.max(100, this.metrics.val - valLoss);
     if (pivotReadiness > 0.25) {
-      this.log(`💰 Valuation adjustment: -£${valLoss}k (preparation reduced investor concerns)`);
+      this.log(`💰 Valuation adjustment: -${getRegion().currency}${valLoss}k (preparation reduced investor concerns)`);
     } else {
-      this.log(`💰 Valuation adjustment: -£${valLoss}k (investor concerns about direction change)`);
+      this.log(`💰 Valuation adjustment: -${getRegion().currency}${valLoss}k (investor concerns about direction change)`);
     }
 
     // PX-12 DESIGN NOTE: Pivot valuation hits are market adjustments, not funding rounds
@@ -69960,14 +69960,14 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
       const escalation = 1 + (previousPivots * 0.5); // +50% per previous pivot
       const originalCost = cost;
       cost = Math.round(cost * escalation);
-      this.log(`📈 Pivot cost increased to £${cost}k (board scrutiny after ${previousPivots} previous pivot${previousPivots > 1 ? 's' : ''})`);
+      this.log(`📈 Pivot cost increased to ${getRegion().currency}${cost}k (board scrutiny after ${previousPivots} previous pivot${previousPivots > 1 ? 's' : ''})`);
     }
     
     this.metrics.cash = Math.max(0, this.metrics.cash - cost);
     
     // Log the pivot
     const readinessNote = pivotReadiness > 0.25 ? ' (reduced due to preparation)' : '';
-    this.log(`🔄 Pivoted to: ${milestone.name}. Transition cost: £${cost}k${readinessNote}`);
+    this.log(`🔄 Pivoted to: ${milestone.name}. Transition cost: ${getRegion().currency}${cost}k${readinessNote}`);
     
     this.journeyEvents.push({
       quarter: this.turn,
@@ -70073,7 +70073,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
       
       if (lostCustomers.length > 0) {
         const lostRevenue = lostCustomers.reduce((sum, c) => sum + c.quarterlyRevenue, 0);
-        this.log(`📉 Pivot impact: Lost ${lostCustomers.length} customer(s) (-£${Math.round(lostRevenue)}k/q)`);
+        this.log(`📉 Pivot impact: Lost ${lostCustomers.length} customer(s) (-${getRegion().currency}${Math.round(lostRevenue)}k/q)`);
         
         // Track in journey
         this.journeyEvents.push({
@@ -70265,7 +70265,7 @@ ${(programme.allowsPartner || programme.requiresPartner) ? `
         // One point of debt is "burned off" by the firefighting
         this.executionDebt[d] = Math.max(0, debt - 1);
 
-        this.log(`🔥 ${d.toUpperCase()} firefighting: an unexpected issue hit (-${statHit} ${metric}, -£${cashHit}k).`);
+        this.log(`🔥 ${d.toUpperCase()} firefighting: an unexpected issue hit (-${statHit} ${metric}, -${getRegion().currency}${cashHit}k).`);
       }
     }
   }
@@ -72122,7 +72122,7 @@ const game = new Game();
           <li><strong>Programme</strong> — Different calls suit different strengths</li>
           <li><strong>Bid size</strong> — Larger requests are harder to win</li>
           <li><strong>Effort level</strong> — More AP = better application quality</li>
-          <li><strong>Partner</strong> — Optional for most (adds £10k + grant split). Your founder background affects who'll collaborate</li>
+          <li><strong>Partner</strong> — Optional for most (adds R$10k + grant split). Your founder background affects who'll collaborate</li>
         </ul>
       </div>
 

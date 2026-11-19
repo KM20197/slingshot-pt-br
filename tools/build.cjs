@@ -288,6 +288,9 @@ edits.push({reason:'Higiene delimitada por AST em modelos de receita e tutorial/
 const hrSeparatorHygiene=require('./char-sofia-context-patch.cjs').cleanHrSeparators(html);
 html=hrSeparatorHygiene.html;
 edits.push({reason:'Remover apenas dezoito espaços de três linhas vazias entre objetos HR, preservando o AST completo e toda a prosa e os metadados',...hrSeparatorHygiene.report});
+const currencyPresentation=require('./currency-presentation-patch.cjs').apply(html);
+html=currencyPresentation.html;
+edits.push({reason:'C1-bis: símbolo monetário de apresentação em R$ nas gravações DOM, saídas diretas de UI, fluxos por variável, helper global e texto estático, sem alterar REGIONS, valores, fórmulas, IDs, seletores ou saves',...currencyPresentation.report});
 fs.mkdirSync('artifacts/build-scripts',{recursive:true});
 let i=0;
 for(const m of html.matchAll(/<script\b([^>]*)>([\s\S]*?)<\/script\s*>/gi)) {
